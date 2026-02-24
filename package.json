@@ -12,6 +12,8 @@
     "clean": "bash build.sh clean"
   },
   "dependencies": {
-    "docx": "^9.0.0"
+    "docx": "^9.0.0",
+    "mammoth": "^1.11.0",
+    "textract": "^2.5.0"
   }
 }

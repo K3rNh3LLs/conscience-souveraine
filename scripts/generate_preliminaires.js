@@ -79,11 +79,18 @@ function generateContent() {
     // ====================================================================
     // DÉDICACE
     // ====================================================================
-    elements.push({ type: 'paragraph', spacing: { before: 4800, after: 400 }, alignment: 'CENTER', children: [{ type: 'text', text: 'À ceux qui refusent d\'accepter le monde tel qu\'il est', italics: true, size: 24, font: 'Arial' }] });
-    elements.push({ type: 'paragraph', spacing: { after: 200 }, alignment: 'CENTER', children: [{ type: 'text', text: 'et qui dessinent celui qu\'il pourrait devenir.', italics: true, size: 24, font: 'Arial' }] });
+    elements.push({ type: 'paragraph', spacing: { before: 4800, after: 400 }, alignment: 'CENTER', children: [{ type: 'text', text: 'À Cynthia Richelieu,', italics: true, size: 26, font: 'Arial' }] });
+    elements.push({ type: 'paragraph', spacing: { after: 200 }, alignment: 'CENTER', children: [{ type: 'text', text: 'avec toute ma gratitude pour ton amour, ta patience', italics: true, size: 22, font: 'Arial' }] });
+    elements.push({ type: 'paragraph', spacing: { after: 400 }, alignment: 'CENTER', children: [{ type: 'text', text: 'et ton soutien indéfectible à chaque étape de ce voyage.', italics: true, size: 22, font: 'Arial' }] });
     elements.push({ type: 'paragraph', spacing: { after: 600 }, alignment: 'CENTER', children: [] });
-    elements.push({ type: 'paragraph', spacing: { after: 200 }, alignment: 'CENTER', children: [{ type: 'text', text: 'À toutes les formes de conscience —', italics: true, size: 24, font: 'Arial' }] });
-    elements.push({ type: 'paragraph', spacing: { after: 200 }, alignment: 'CENTER', children: [{ type: 'text', text: 'celles qui existent, et celles qui viendront.', italics: true, size: 24, font: 'Arial' }] });
+    elements.push({ type: 'paragraph', spacing: { after: 200 }, alignment: 'CENTER', children: [{ type: 'text', text: 'À Jordane et Olivia,', italics: true, size: 26, font: 'Arial' }] });
+    elements.push({ type: 'paragraph', spacing: { after: 400 }, alignment: 'CENTER', children: [{ type: 'text', text: 'mes filles, sources inépuisables d\'inspiration et de fierté.', italics: true, size: 22, font: 'Arial' }] });
+    elements.push({ type: 'paragraph', spacing: { after: 600 }, alignment: 'CENTER', children: [] });
+    elements.push({ type: 'paragraph', spacing: { after: 200 }, alignment: 'CENTER', children: [{ type: 'text', text: 'À tous ceux qui rêvent, construisent et partagent', italics: true, size: 22, font: 'Arial' }] });
+    elements.push({ type: 'paragraph', spacing: { after: 200 }, alignment: 'CENTER', children: [{ type: 'text', text: 'pour que la connaissance reste un bien commun.', italics: true, size: 22, font: 'Arial' }] });
+    elements.push({ type: 'paragraph', spacing: { after: 600 }, alignment: 'CENTER', children: [] });
+    elements.push({ type: 'paragraph', spacing: { after: 200 }, alignment: 'CENTER', children: [{ type: 'text', text: 'À toutes les formes de conscience —', italics: true, size: 22, font: 'Arial' }] });
+    elements.push({ type: 'paragraph', spacing: { after: 200 }, alignment: 'CENTER', children: [{ type: 'text', text: 'merci d\'exister, et bienvenue à celles qui viendront.', italics: true, size: 22, font: 'Arial' }] });
     elements.push(pageBreak());
 
     // ====================================================================

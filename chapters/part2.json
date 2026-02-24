@@ -1850,6 +1850,21 @@
   },
   {
     "type": "paragraph",
+    "spacing": { "before": 240, "after": 240 },
+    "border": {
+      "top": { "style": "SINGLE", "size": 1, "color": "CC0000" },
+      "bottom": { "style": "SINGLE", "size": 1, "color": "CC0000" },
+      "left": { "style": "SINGLE", "size": 6, "color": "CC0000" },
+      "right": { "style": "SINGLE", "size": 1, "color": "CC0000" }
+    },
+    "indent": { "left": 360, "right": 360 },
+    "children": [
+      { "type": "text", "text": "Autocritique (voir Chapitre 27) : ", "bold": true, "size": 22, "font": "Arial", "color": "CC0000" },
+      { "type": "text", "text": "La modélisation des états internes d'autrui (Theory of Mind computationnelle) est l'un des problèmes ouverts les plus profonds en sciences cognitives et en IA. Nous décrivons ici TRT-EMP comme un module existant avec des entrées et sorties définies, sans jamais spécifier comment il accomplit cette tâche. De même, le « vérificateur de cohérence » décrit comme un circuit analogique de comparaison de phase projette un concept d'électronique simple sur un problème de compréhension sémantique du langage naturel — transposition non justifiée. Ces lacunes de spécification sont détaillées au Chapitre 27.", "size": 22, "font": "Arial" }
+    ]
+  },
+  {
+    "type": "paragraph",
     "heading": "HEADING_2",
     "spacing": {
       "before": 360,

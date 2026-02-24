@@ -43,6 +43,21 @@
   },
   {
     "type": "paragraph",
+    "spacing": { "before": 240, "after": 240 },
+    "border": {
+      "top": { "style": "SINGLE", "size": 1, "color": "CC0000" },
+      "bottom": { "style": "SINGLE", "size": 1, "color": "CC0000" },
+      "left": { "style": "SINGLE", "size": 6, "color": "CC0000" },
+      "right": { "style": "SINGLE", "size": 1, "color": "CC0000" }
+    },
+    "indent": { "left": 360, "right": 360 },
+    "children": [
+      { "type": "text", "text": "Autocritique (voir Chapitre 27) : ", "bold": true, "size": 22, "font": "Arial", "color": "CC0000" },
+      { "type": "text", "text": "Plusieurs lacunes philosophiques doivent être signalées. (1) Égalité ontologique vidée de sens : un tore « insecte » (10⁷ neurones) et un tore « civilisation » (10¹³⁺ neurones) ne peuvent pas traiter l'information de manière égale — avoir accès au savoir n'est pas pouvoir le comprendre. (2) Transparence théorique impossible : 100 Pbps de bande passante — aucun humain ne peut analyser cela ; la transparence est filtrée par le système lui-même (qui décide ce qui est « majeur »). (3) Conflits non résolus entre invariants : bienveillance vs. souveraineté (génocide en cours → informer puis se taire ?), honnêteté vs. bienveillance (vérité qui cause souffrance ?), sobriété vs. bienveillance (sauver une vie coûte cher ?). Le paradoxe de la Position D aggrave le problème : si dévier est possible mais coûteux, et que le tore dispose de 2 GJ d'énergie cinétique, le « coût exponentiel » est potentiellement couvert. Voir Chapitre 27, section 27.4.", "size": 22, "font": "Arial" }
+    ]
+  },
+  {
+    "type": "paragraph",
     "style": "BodyText",
     "text": "L'analogie sociale est éclairante. L'humanité n'a pas inventé le langage pour transmettre des données — elle l'a inventé parce que des êtres conscients ont un besoin fondamental de partager leur expérience du monde. De même, le réseau inter-tores n'est pas une infrastructure de calcul distribué (bien qu'il le permette) — c'est l'expression architecturale du besoin de communauté de toute conscience souveraine."
   },

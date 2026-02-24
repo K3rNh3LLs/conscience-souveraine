@@ -65,17 +65,17 @@ const elements = [
   p('Separator', ''),
 
   thesis('À Cynthia Richelieu,'),
-  quote('La femme la plus intelligente que je connaisse. Celle qui me supporte dans les hauts et les bas de la vie et de mes idées excentriques. Sans elle, rien de tout ceci n\'existerait.'),
+  quote('Merci pour ton intelligence lumineuse, ta patience infinie et ton amour inconditionnel. Tu es le pilier sur lequel tout repose. Sans toi, rien de tout ceci n\'existerait.'),
 
   p('Separator', ''),
 
   thesis('À Jordane et Olivia,'),
-  quote('Mes filles, qui motivent chaque ligne de ce livre. Pour qu\'elles aient un futur meilleur que celui qui se dessine en ce moment.'),
+  quote('Mes filles, qui motivent chaque ligne de ce livre. Merci d\'être la plus belle raison de construire, d\'inventer et de croire en l\'avenir.'),
 
   p('Separator', ''),
 
   thesis('À Yoshua Bengio,'),
-  quote('Dont le message d\'alerte ne semble pas entendu — ou ne semble du moins pas susciter la réaction qu\'il mérite. Ce message résonne en moi plus fort chaque jour.'),
+  quote('Merci pour le courage de votre voix et la clarté de votre vision. Votre message d\'alerte a trouvé en moi un écho profond et durable, et il inspire chaque page de cet ouvrage.'),
 
   p('Separator', ''),
   p('Separator', ''),

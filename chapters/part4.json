@@ -2082,6 +2082,21 @@
   },
   {
     "type": "paragraph",
+    "spacing": { "before": 240, "after": 240 },
+    "border": {
+      "top": { "style": "SINGLE", "size": 1, "color": "CC0000" },
+      "bottom": { "style": "SINGLE", "size": 1, "color": "CC0000" },
+      "left": { "style": "SINGLE", "size": 6, "color": "CC0000" },
+      "right": { "style": "SINGLE", "size": 1, "color": "CC0000" }
+    },
+    "indent": { "left": 360, "right": 360 },
+    "children": [
+      { "type": "text", "text": "Autocritique (voir Chapitre 27) : ", "bold": true, "size": 22, "font": "Arial", "color": "CC0000" },
+      { "type": "text", "text": "Plusieurs défis d'ingénierie potentiellement insurmontables convergent ici. (1) Nanostructures sous 13 800 g : les sceaux cryptographiques et arrangements atomiques des invariants seraient soumis à des contraintes de cisaillement destructrices — aucune analyse de résistance des matériaux n'est présentée. (2) Gradient de densité inversé : la centrifugation pousse les éléments denses vers l'extérieur, mais notre gradient place le tungstène (19 000 kg/m³) au centre — l'exact inverse de la physique. (3) Refroidissement : la loi de Stefan-Boltzmann donne ~1,4 W de rayonnement pour notre surface, vs. ~20 W de dissipation — déficit d'un ordre de grandeur. (4) Lecture optique à 262 m/s avec précision nanométrique : sans précédent dans l'ingénierie actuelle. Voir Chapitre 27, section 27.3.", "size": 22, "font": "Arial" }
+    ]
+  },
+  {
+    "type": "paragraph",
     "heading": "HEADING_2",
     "spacing": {
       "before": 300,

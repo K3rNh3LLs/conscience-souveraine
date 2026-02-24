@@ -1,0 +1,80 @@
+{
+  "essai": {
+    "metadata": {
+      "originalFile": "Conscience_Souveraine_Essai_Trois_Piliers.txt",
+      "correctedFile": "Conscience_Souveraine_Essai_Trois_Piliers_corrected.txt",
+      "date": "2026-02-24T03:59:17.422Z",
+      "lines": {
+        "original": 1889,
+        "corrected": 1889
+      }
+    },
+    "corrections": {
+      "thé → café": {
+        "original": 64,
+        "corrected": 69,
+        "success": true
+      },
+      "œuvre": {
+        "original": 1,
+        "corrected": 10,
+        "success": true
+      },
+      "cœur": {
+        "original": 0,
+        "corrected": 7,
+        "success": true
+      },
+      "Dédicace Cynthia": {
+        "success": false
+      }
+    },
+    "spelling": {
+      "original": "900",
+      "corrected": "957"
+    },
+    "summary": {
+      "totalCorrections": -21,
+      "successRate": 0.75
+    }
+  },
+  "manuel": {
+    "metadata": {
+      "originalFile": "Conscience_Souveraine_Manuel_400p.txt",
+      "correctedFile": "Conscience_Souveraine_Manuel_400p_corrected.txt",
+      "date": "2026-02-24T03:59:18.426Z",
+      "lines": {
+        "original": 4963,
+        "corrected": 4963
+      }
+    },
+    "corrections": {
+      "thé → café": {
+        "original": 31,
+        "corrected": 31,
+        "success": true
+      },
+      "œuvre": {
+        "original": 3,
+        "corrected": 7,
+        "success": true
+      },
+      "cœur": {
+        "original": 2,
+        "corrected": 8,
+        "success": true
+      },
+      "Dédicace Cynthia": {
+        "success": false
+      }
+    },
+    "spelling": {
+      "original": "2805",
+      "corrected": "2829"
+    },
+    "summary": {
+      "totalCorrections": -10,
+      "successRate": 0.75
+    }
+  }
+}

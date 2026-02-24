@@ -280,29 +280,55 @@ async function assemble() {
     console.log('📖 Assemblage de l\'Essai Narratif — Les Trois Piliers de la Souveraineté');
     console.log('='.repeat(70));
 
-    const allElements = [];
-    let totalElements = 0;
+    // ---- Charger le prologue séparément pour extraire la dédicace ----
+    const prologuePath = path.join(CHAPTERS_DIR, 'prologue.json');
+    const prologueJson = JSON.parse(fs.readFileSync(prologuePath, 'utf-8'));
+    console.log(`  ✅ prologue.json — ${prologueJson.length} éléments`);
 
-    for (const sectionFile of SECTIONS) {
+    // Le prologue commence par : titre (ActTitle) + sous-titre (ActSubtitle) + pageBreak
+    // puis la dédicace, puis pageBreak, puis le contenu du prologue.
+    // On saute le titre (doublon avec la couverture) et on extrait la dédicace.
+
+    // Trouver le premier pageBreak (fin du titre dupliqué)
+    let firstPageBreakIdx = -1;
+    for (let i = 0; i < prologueJson.length; i++) {
+        if (prologueJson[i].type === 'pageBreak') { firstPageBreakIdx = i; break; }
+    }
+
+    // Trouver le deuxième pageBreak (fin de la dédicace)
+    let secondPageBreakIdx = -1;
+    for (let i = firstPageBreakIdx + 1; i < prologueJson.length; i++) {
+        if (prologueJson[i].type === 'pageBreak') { secondPageBreakIdx = i; break; }
+    }
+
+    // Dédicace = éléments entre le premier et le deuxième pageBreak (exclus)
+    const dedicaceElements = prologueJson.slice(firstPageBreakIdx + 1, secondPageBreakIdx + 1); // inclut le pageBreak final
+    // Contenu du prologue = tout après le deuxième pageBreak
+    const prologueContent = prologueJson.slice(secondPageBreakIdx + 1);
+
+    console.log(`  📐 Prologue split: ${dedicaceElements.length} éléments dédicace, ${prologueContent.length} éléments contenu`);
+
+    // ---- Charger les autres sections (incluant l'interlude autocritique avant l'épilogue) ----
+    const otherSections = ['acte1.json', 'acte2.json', 'acte3.json', 'acte4.json', 'autocritique_essai.json', 'epilogue.json'];
+    const contentElements = [...prologueContent];
+
+    for (const sectionFile of otherSections) {
         const filepath = path.join(CHAPTERS_DIR, sectionFile);
         if (!fs.existsSync(filepath)) {
             console.log(`  ⏭️  ${sectionFile} — non trouvé, ignoré`);
             continue;
         }
-
         const json = JSON.parse(fs.readFileSync(filepath, 'utf-8'));
         console.log(`  ✅ ${sectionFile} — ${json.length} éléments`);
-        allElements.push(...json);
-        totalElements += json.length;
+        contentElements.push(...json);
     }
 
-    console.log(`\n📊 Total: ${totalElements} éléments`);
+    // Convertir en éléments docx
+    const dedicaceDocx = dedicaceElements.map(jsonToDocx).filter(e => e !== null);
+    const contentDocx = contentElements.map(jsonToDocx).filter(e => e !== null);
+    const totalDocx = dedicaceDocx.length + contentDocx.length;
 
-    const docxElements = allElements
-        .map(jsonToDocx)
-        .filter(e => e !== null);
-
-    console.log(`📄 Éléments docx: ${docxElements.length}`);
+    console.log(`\n📄 Éléments docx: ${totalDocx} (${dedicaceDocx.length} dédicace + ${contentDocx.length} contenu)`);
 
     // Page de couverture
     const coverPage = [
@@ -368,6 +394,7 @@ async function assemble() {
     ];
 
     // US Letter: 12240 x 15840 twips (8.5 x 11 inches)
+    // Ordre : Couverture → Dédicace → Table des matières → Contenu
     const doc = new Document({
         styles: {
             default: {
@@ -434,15 +461,18 @@ async function assemble() {
                 })
             },
             children: [
+                // 1. Page de couverture
                 ...coverPage,
-                // Table des matières
+                // 2. Dédicace (extraite du prologue)
+                ...dedicaceDocx,
+                // 3. Table des matières
                 new TableOfContents("Table des matières", {
                     hyperlink: true,
                     headingStyleRange: "1-3"
                 }),
                 new Paragraph({ children: [new PageBreak()] }),
-                // Contenu assemblé
-                ...docxElements
+                // 4. Contenu (prologue + actes + épilogue)
+                ...contentDocx
             ]
         }]
     });
@@ -454,7 +484,7 @@ async function assemble() {
 
     console.log(`\n✅ Essai généré: ${OUTPUT_FILE}`);
     console.log(`   Taille: ${sizeKB} KB`);
-    console.log(`   Éléments: ${docxElements.length}`);
+    console.log(`   Éléments: ${totalDocx}`);
 }
 
 assemble().catch(err => {

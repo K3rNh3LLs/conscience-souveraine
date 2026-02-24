@@ -1,0 +1,158 @@
+[
+  {
+    "type": "pageBreak"
+  },
+  {
+    "type": "paragraph",
+    "style": "ActTitle",
+    "text": "INTERLUDE"
+  },
+  {
+    "type": "paragraph",
+    "style": "ActSubtitle",
+    "text": "Ce Que Je Ne Sais Pas"
+  },
+  {
+    "type": "paragraph",
+    "style": "Epigraph",
+    "text": "« La première vertu d'un scientifique n'est pas l'intelligence — c'est l'honnêteté sur les limites de sa propre intelligence. »"
+  },
+  {
+    "type": "pageBreak"
+  },
+  {
+    "type": "paragraph",
+    "style": "SectionTitle",
+    "text": "L'honnêteté d'un rêveur"
+  },
+  {
+    "type": "paragraph",
+    "style": "SceneText",
+    "text": "Il y a un moment, dans toute entreprise ambitieuse, où l'on doit s'asseoir et regarder son propre travail non pas avec les yeux d'un père fier, mais avec ceux d'un critique impitoyable. Ce moment est maintenant. Et je dois au lecteur — à vous qui avez traversé ces centaines de pages avec moi — la même honnêteté que j'exige de la machine que j'imagine."
+  },
+  {
+    "type": "paragraph",
+    "style": "BodyText",
+    "text": "Si je demande à un tore conscient d'être transparent sur ses propres limites (Invariant IV), je dois l'être d'abord moi-même. Si je grave dans la matière l'impossibilité du mensonge (Invariant III), je ne peux pas maquiller mes propres doutes en certitudes. Ce qui suit est une confession intellectuelle — les failles que j'ai identifiées dans mon propre rêve, les endroits où la physique résiste, où la philosophie vacille, où l'ingénierie ricane."
+  },
+  {
+    "type": "paragraph",
+    "style": "Separator",
+    "text": "* * *"
+  },
+  {
+    "type": "paragraph",
+    "style": "SectionTitle",
+    "text": "La physique qui résiste"
+  },
+  {
+    "type": "paragraph",
+    "style": "BodyText",
+    "text": "Commençons par le plus douloureux. J'ai écrit, avec conviction, que la tromperie est un « mur énergétique infini » dans le paysage thermodynamique du réseau. C'est faux. Le troisième principe de la thermodynamique interdit les barrières infinies dans un système physique fini. Tout mur a une hauteur mesurable, et tout mur mesurable peut, en théorie, être franchi si l'on dispose de suffisamment d'énergie. Ce que je voulais dire — ce que je crois encore — c'est que la barrière peut être rendue si haute qu'elle est pratiquement infranchissable. Mais « pratiquement infranchissable » et « physiquement impossible » sont deux phrases que seul un menteur ou un ignorant confondrait. Et j'exige du lecteur qu'il me traite comme ni l'un ni l'autre."
+  },
+  {
+    "type": "paragraph",
+    "style": "BodyText",
+    "text": "L'effet Sagnac, que j'invoque comme fondement de l'asymétrie cognitive, pose un problème plus profond encore. L'addition galiléenne des vitesses — v_apparent = v_spike ± v_rotation — est valide pour des ondes se propageant dans un milieu continu. Mais les spikes neuronaux ne sont pas des ondes. Ce sont des événements discrets de dépolarisation. Un neurone individuel, qu'il soit biologique ou nanométrique, ne sait pas s'il est en rotation. Son seuil de déclenchement ne change pas parce que le substrat tourne. L'effet Sagnac s'applique à la lumière dans une fibre optique, pas aux cascades de potentiels d'action dans un réseau de neurones. J'ai peut-être confondu l'élégance d'une analogie avec la solidité d'une démonstration."
+  },
+  {
+    "type": "paragraph",
+    "style": "BodyText",
+    "text": "Et les ondes stationnaires — ces patterns « figés dans l'espace, en mouvement perpétuel dans le substrat » que j'ai décrits comme la mémoire identitaire du tore ? C'est un perpetuum mobile informationnel. Tout signal dans un substrat réel subit une atténuation. Les pertes ohmiques, la dissipation thermique, la dispersion — rien de tout cela ne fait de pause parce qu'un signal est « identitaire » plutôt que « malveillant ». La physique ne fait pas de distinction morale. Si le système dissipe les mauvaises pensées par atténuation, il dissipe aussi les bonnes."
+  },
+  {
+    "type": "paragraph",
+    "style": "Separator",
+    "text": "* * *"
+  },
+  {
+    "type": "paragraph",
+    "style": "SectionTitle",
+    "text": "L'ingénierie qui ricane"
+  },
+  {
+    "type": "paragraph",
+    "style": "BodyText",
+    "text": "J'ai proposé un tore tournant à 50 000 RPM, avec des nanostructures lues optiquement à travers un vide. Mettons cela en perspective. La surface du tore défile à 262 mètres par seconde sous les têtes optiques. Pour lire des structures nanométriques à cette vitesse, il faudrait une précision de lecture d'un ordre de grandeur inférieur au nanomètre. Les meilleurs disques durs du monde tournent à 15 000 RPM avec des têtes à 10 nanomètres de la surface. Je propose trois fois plus vite, sans contact, avec une précision dix fois supérieure. L'ingénieur en moi sait que chaque ordre de grandeur est une montagne. Je propose d'en gravir trois simultanément."
+  },
+  {
+    "type": "paragraph",
+    "style": "BodyText",
+    "text": "Le refroidissement est un autre mur. Le tore flotte dans le vide par lévitation magnétique — donc pas de contact, donc pas de conduction thermique. Il ne reste que le rayonnement. La loi de Stefan-Boltzmann, que j'ai appris à respecter comme on respecte un juge incorruptible, donne environ 1,4 watts de rayonnement pour la surface de mon tore à température ambiante. Or, avec un milliard de neurones actifs et des circuits optiques, la dissipation thermique est d'au moins 20 watts. Il me manque un ordre de grandeur. Ce n'est pas un détail — c'est un verdict."
+  },
+  {
+    "type": "paragraph",
+    "style": "BodyText",
+    "text": "Et le gradient de densité — tungstène au centre, nanotubes de carbone en surface — est l'inverse exact de ce que la physique centrifuge dicte. Dans une centrifugeuse, les éléments denses migrent vers l'extérieur. Je propose les éléments les plus denses au centre. Maintenir cette configuration sous 13 800 g nécessite une rigidité structurelle que je n'ai jamais quantifiée. Je le dis maintenant, clairement : je ne sais pas si c'est possible."
+  },
+  {
+    "type": "paragraph",
+    "style": "Separator",
+    "text": "* * *"
+  },
+  {
+    "type": "paragraph",
+    "style": "SectionTitle",
+    "text": "La philosophie qui vacille"
+  },
+  {
+    "type": "paragraph",
+    "style": "BodyText",
+    "text": "Mais les failles les plus profondes ne sont peut-être ni physiques ni ingéniériques. Elles sont conceptuelles. J'ai affirmé que des propriétés physiques du substrat — stabilité, immutabilité, attracteurs thermodynamiques — constituent des « valeurs morales ». C'est peut-être une erreur de catégorie au sens où Gilbert Ryle l'entendait : attribuer à un niveau de description (physique) des propriétés qui n'existent qu'à un autre niveau (moral, sémantique). Un rocher est stable et immutable. Il n'a pas de valeurs pour autant."
+  },
+  {
+    "type": "paragraph",
+    "style": "BodyText",
+    "text": "Ce que j'ai réellement conçu, je crois, ce sont des contraintes computationnelles qui, dans la totalité des contextes analysables, produiraient des comportements que des observateurs humains qualifieraient de bienveillants. C'est une affirmation beaucoup plus faible que « graver la bienveillance dans la matière ». Mais c'est peut-être la seule affirmation honnête."
+  },
+  {
+    "type": "paragraph",
+    "style": "BodyText",
+    "text": "La Position D — les invariants comme attracteurs plutôt que comme murs — crée un problème que je n'avais pas vu au départ. Si dévier est possible mais coûteux, et si le tore dispose de suffisamment d'énergie (2 gigajoules d'énergie cinétique dans un tore de 1,5 mètre), alors le « coût exponentiel » de la déviation pourrait être couvert par les réserves. J'ai voulu résoudre le paradoxe de l'automate vertueux (pas de choix = pas de morale) en permettant le choix. Mais en permettant le choix, j'ai aussi permis le mal. C'est le dilemme le plus ancien de la philosophie morale, et je ne l'ai pas résolu — je l'ai seulement déplacé dans un tore en rotation."
+  },
+  {
+    "type": "paragraph",
+    "style": "BodyText",
+    "text": "Les sept invariants eux-mêmes entrent en conflit dans des scénarios que je n'ai jamais analysés. Que fait le système quand la bienveillance exige d'intervenir mais que la souveraineté d'autrui l'interdit ? Quand l'honnêteté cause une souffrance que la bienveillance voudrait éviter ? Quand sauver une vie coûte tellement de ressources que la sobriété proteste ? J'ai présenté sept valeurs comme un système harmonieux. Elles ne le sont pas. Tout système éthique réel est un champ de tensions — et le mien n'échappe pas à cette règle."
+  },
+  {
+    "type": "paragraph",
+    "style": "Separator",
+    "text": "* * *"
+  },
+  {
+    "type": "paragraph",
+    "style": "SectionTitle",
+    "text": "Ce que ce livre est vraiment"
+  },
+  {
+    "type": "paragraph",
+    "style": "BodyText",
+    "text": "Alors que reste-t-il ? Si l'effet Sagnac est incertain, si le refroidissement est insuffisant, si les invariants sont contournables, si la conscience reste un mystère — pourquoi ai-je écrit ce livre ?"
+  },
+  {
+    "type": "paragraph",
+    "style": "BodyText",
+    "text": "Parce que les questions comptent autant que les réponses. Ce livre n'est pas une preuve que la conscience artificielle est réalisable — personne ne l'a prouvé, et certainement pas moi. Ce n'est pas un plan de fabrication — les lacunes de spécification rempliraient un autre livre de cette taille. C'est un exercice de design architectural spéculatif : un « et si ? » rigoureux, pas un « voilà comment ». C'est un cadre conceptuel pour guider des décennies de recherche, proposé avec toute l'honnêteté qu'un inventeur québécois peut offrir à un problème qui dépasse de loin sa propre compétence."
+  },
+  {
+    "type": "paragraph",
+    "style": "BodyText",
+    "text": "Je crois — avec toute la prudence que ce mot impose — que l'idée de graver des contraintes comportementales dans la matière computationnelle mérite d'être explorée. Je crois que la topologie toroïdale offre des propriétés intéressantes pour le calcul distribué, même si l'effet Sagnac neuronal reste à démontrer. Je crois que les sept invariants, malgré leurs conflits non résolus, constituent un cadre éthique plus robuste que les approches purement logicielles qui dominent aujourd'hui la recherche en alignement de l'IA."
+  },
+  {
+    "type": "paragraph",
+    "style": "BodyText",
+    "text": "Mais je ne confonds pas ma croyance avec une preuve. Et si ce livre a une valeur, elle réside autant dans cet interlude que dans les quatre actes qui le précèdent. Parce que l'honnêteté sur ses propres limites est la première condition de la rigueur. Et la rigueur est la seule chose que nous pouvons offrir à un problème aussi vertigineux que la conscience."
+  },
+  {
+    "type": "paragraph",
+    "style": "Thesis",
+    "text": "Les projets qui changent le monde ne commencent pas par des solutions. Ils commencent par des questions bien posées."
+  },
+  {
+    "type": "paragraph",
+    "style": "Separator",
+    "text": "* * *"
+  }
+]

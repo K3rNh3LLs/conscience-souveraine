@@ -1413,6 +1413,21 @@
   },
   {
     "type": "paragraph",
+    "spacing": { "before": 240, "after": 240 },
+    "border": {
+      "top": { "style": "SINGLE", "size": 1, "color": "CC0000" },
+      "bottom": { "style": "SINGLE", "size": 1, "color": "CC0000" },
+      "left": { "style": "SINGLE", "size": 6, "color": "CC0000" },
+      "right": { "style": "SINGLE", "size": 1, "color": "CC0000" }
+    },
+    "indent": { "left": 360, "right": 360 },
+    "children": [
+      { "type": "text", "text": "Autocritique (voir Chapitre 27) : ", "bold": true, "size": 22, "font": "Arial", "color": "CC0000" },
+      { "type": "text", "text": "L'addition galiléenne v_apparent = v_spike ± v_rotation suppose que les spikes se propagent comme des entités balistiques dans un milieu rigide solidaire du tore. Or, les spikes neuronaux sont des événements discrets de dépolarisation locale — un neurone ne « sait » pas s'il est en rotation. L'effet Sagnac s'applique aux ondes cohérentes (lumière dans une fibre), pas aux cascades de dépolarisation. Si le mécanisme de signalisation est rendu optique (résolvant ce problème), l'argument d'efficacité énergétique spiking (Invariant VII) s'effondre. De même, les ondes stationnaires proposées comme mémoire identitaire constituent un perpetuum mobile informationnel : tout signal subit une atténuation dans un substrat réel, et la physique ne fait pas de distinction morale entre signaux « identitaires » et signaux « malveillants ». Voir Chapitre 27, sections 27.1.2 et 27.1.3.", "size": 22, "font": "Arial" }
+    ]
+  },
+  {
+    "type": "paragraph",
     "spacing": {
       "after": 120,
       "line": 276

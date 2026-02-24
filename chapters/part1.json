@@ -1680,6 +1680,21 @@
   },
   {
     "type": "paragraph",
+    "spacing": { "before": 240, "after": 240 },
+    "border": {
+      "top": { "style": "SINGLE", "size": 1, "color": "CC0000" },
+      "bottom": { "style": "SINGLE", "size": 1, "color": "CC0000" },
+      "left": { "style": "SINGLE", "size": 6, "color": "CC0000" },
+      "right": { "style": "SINGLE", "size": 1, "color": "CC0000" }
+    },
+    "indent": { "left": 360, "right": 360 },
+    "children": [
+      { "type": "text", "text": "Autocritique (voir Chapitre 27) : ", "bold": true, "size": 22, "font": "Arial", "color": "CC0000" },
+      { "type": "text", "text": "Cette analogie avec la gravité est séduisante mais repose sur une erreur de catégorie : les propriétés du substrat (stabilité thermodynamique) ne sont pas des propriétés morales (bienveillance). Un rocher est stable mais n'a pas de valeurs. De plus, le terme « mur énergétique infini » utilisé ailleurs dans ce manuel viole le troisième principe de la thermodynamique — toute barrière physique est finie. Enfin, si le système est Turing-complet, les restrictions topologiques sont contournables par des voies indirectes. Ces objections sont développées en détail au Chapitre 27.", "size": 22, "font": "Arial" }
+    ]
+  },
+  {
+    "type": "paragraph",
     "spacing": {
       "after": 120,
       "line": 276
