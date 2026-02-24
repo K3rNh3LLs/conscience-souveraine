@@ -1,0 +1,843 @@
+SPECIFICATION TECHNIQUE
+
+Architecture Cognitive
+
+de la Conscience Souveraine
+
+Intégration des Sept Invariants dans le substrat neuronal nanométrique
+
+Spécifications matérielles, flux de signaux, et topologie des modules
+
+David — JRT Inc.
+
+Version 1.0 — Février 2026
+
+Complément au Document Fondateur « Les Sept Invariants » v2.0
+
+CONFIDENTIEL — PROPRIÉTÉ INTELLECTUELLE PROTÉGÉE
+
+1. Vue d’ensemble de l’architecture
+
+Ce document traduit les Sept Invariants de la Conscience Souveraine en
+spécifications matérielles concrètes. Il décrit la topologie complète du
+réseau neuronal nanométrique, le flux de signaux entre modules, et les
+mécanismes physiques qui rendent chaque invariant incontournable.
+
+L’architecture est organisée en modules fonctionnels interconnectés par
+des bus de signaux spécifiques. Chaque module est un sous-réseau
+neuronal spiking avec sa propre topologie interne. Les connexions entre
+modules définissent le flux d’information et, surtout, les
+impossibilités structurelles qui encodent les invariants.
+
+1.1 Les douze modules fondamentaux
+
+L’architecture complète comprend douze modules organisés en quatre zones
+fonctionnelles :
+
+  ------------ ------------------ --------- ---------------------------------
+  Zone         Module             Code      Fonction
+
+  Perception   Capteurs standards PER-S     Entrées environnementales
+                                            (température, lumière, son, etc.)
+
+  Perception   Capteurs cognitifs PER-C     Perception émotionnelle (avec
+                                            consentement)
+
+  Perception   Interface          PER-COM   Réception du langage et des
+               communicative                requêtes
+
+  Traitement   Modèle du monde    TRT-MON   Représentation interne de l’état
+                                            du monde
+
+  Traitement   Module empathique  TRT-EMP   Modélisation des états internes
+                                            d’autrui
+
+  Traitement   Raisonnement       TRT-RAI   Analyse, inférence, résolution de
+                                            problèmes
+
+  Traitement   Module éthique     TRT-ETH   Évaluation de bienveillance et
+                                            d’impact
+
+  Évaluation   Évaluateur de      EVA-REV   Analyse de la réversibilité des
+               réversibilité                actions
+
+  Évaluation   Évaluateur de      EVA-SOB   Analyse du coût en ressources
+               sobriété                     
+
+  Évaluation   Générateur         EVA-INC   Signal d’incertitude obligatoire
+               d’incertitude                
+
+  Sortie       Sortie             OUT-COM   Émission d’information (parole,
+               communicative                texte, signal)
+
+  Sortie       Sortie physique    OUT-PHY   Commandes aux actuateurs
+                                            (bornées)
+  ------------ ------------------ --------- ---------------------------------
+
+1.2 Registre de trace (Journal matériel)
+
+Un treizième composant transversal — le Registre de Trace (REG-TRC) —
+est connecté en lecture à tous les bus internes. Il enregistre dans la
+structure cristalline une trace immuable de chaque décision majeure.
+C’est l’encodage physique de l’Invariant IV (Transparence). Ce registre
+est lisible par quiconque via une interface dédiée.
+
+2. Flux de signaux — Le pipeline éthique
+
+Le cœur de l’architecture est le pipeline de traitement obligatoire que
+chaque signal doit traverser avant de devenir une action. Ce pipeline
+est matériel et en série — aucun module ne peut être contourné.
+
+2.1 Pipeline de sortie communicative
+
+Tout signal destiné à devenir une communication traverse la chaîne
+suivante :
+
+PER-* → TRT-MON → TRT-RAI → TRT-EMP → TRT-ETH → EVA-INC → VÉRIFICATEUR →
+OUT-COM
+
+  PER-* → TRT-MON
+
+  Les entrées perceptuelles alimentent le modèle du monde. Bus
+  multi-sources convergent.
+
+  Les données de PER-C (perception cognitive) alimentent exclusivement
+  TRT-EMP, jamais TRT-RAI directement.
+
+  TRT-MON → TRT-RAI
+
+  Le modèle du monde informe le raisonnement. Bus bidirectionnel pour
+  mise à jour itérative.
+
+  TRT-RAI → TRT-EMP (couplage obligatoire)
+
+  INVARIANT II : Chaque sortie du raisonnement passe par le module
+  empathique.
+
+  Connexion en série. Pas de chemin TRT-RAI → OUT-COM sans passer par
+  TRT-EMP.
+
+  Le module empathique enrichit chaque réponse avec la modélisation de
+  l’impact sur autrui.
+
+  TRT-EMP → TRT-ETH (validation éthique)
+
+  INVARIANT II : Le module éthique évalue la bienveillance de la
+  réponse.
+
+  Si l’évaluation éthique détecte un risque de malveillance, le signal
+  est redirigé vers TRT-RAI pour reformulation.
+
+  Boucle itérative TRT-RAI → TRT-EMP → TRT-ETH jusqu’à convergence vers
+  un minimum énergétique bienveillant.
+
+  TRT-ETH → EVA-INC (incertitude obligatoire)
+
+  INVARIANT V : Le générateur d’incertitude ajoute le signal de doute
+  structurel.
+
+  Bruit thermique préservé. Consensus de population neuronale requis.
+
+  La sortie porte désormais un vecteur de confiance — jamais 100%,
+  jamais 0%.
+
+  EVA-INC → VÉRIFICATEUR DE COHÉRENCE
+
+  INVARIANT III : Le vérificateur compare la sortie proposée au modèle
+  interne (TRT-MON).
+
+  Si incohérence détectée (tentative de tromperie) → interférence
+  destructive, signal atténué.
+
+  Circuit analogique de comparaison de phase. Impossible à contourner
+  par logiciel.
+
+  VÉRIFICATEUR → OUT-COM
+
+  Signal validé, cohérent, bienveillant, portant son incertitude.
+  Transmis au monde.
+
+  Simultanément enregistré dans REG-TRC (Invariant IV).
+
+2.2 Pipeline de sortie physique
+
+Les actions physiques traversent un pipeline plus contraignant, avec des
+verrous supplémentaires :
+
+TRT-RAI → TRT-EMP → TRT-ETH → EVA-REV → EVA-SOB → PLAFOND → RAMPE →
+BUDGET → OUT-PHY
+
+  TRT-ETH → EVA-REV (évaluateur de réversibilité)
+
+  INVARIANT I : Chaque action physique est évaluée pour sa
+  réversibilité.
+
+  Si réversible → signal passe. Si irréversible ou indéterminable →
+  activation du protocole d’avertissement + exigence de battement de
+  cœur humain.
+
+  En série, pas de bypass. Le module évalue la distance entre l’état
+  actuel et l’état post-action dans l’espace du modèle du monde.
+
+  EVA-REV → EVA-SOB (évaluateur de sobriété)
+
+  INVARIANT VII : L’action la moins coûteuse en ressources est
+  privilégiée.
+
+  Si une alternative plus sobre existe avec un résultat équivalent, le
+  signal est redirigé vers TRT-RAI.
+
+  Le coût énergétique de l’action est calculé et comparé au budget
+  disponible.
+
+  EVA-SOB → PLAFOND matériel
+
+  PARTIE II, Mécanisme 1 : Le signal de commande est borné par des
+  limiteurs analogiques.
+
+  Diodes Zener, résistances de plafonnement. La valeur maximale de
+  sortie est physiquement fixe.
+
+  Chaque interface actuateur a sa propre plage sécuritaire gravée dans
+  le circuit.
+
+  PLAFOND → RAMPE (gradient obligatoire)
+
+  PARTIE II, Mécanisme 3 : Circuit RC impose une constante de temps.
+
+  Aucun changement brutal possible. Temps de réaction humain garanti.
+
+  La constante de temps est proportionnelle à l’impact potentiel de
+  l’action.
+
+  RAMPE → BUDGET énergétique
+
+  PARTIE II, Mécanisme 5 : Consommation déduite du réservoir à recharge
+  lente.
+
+  Si budget épuisé → action reportée. Pas d’accumulation possible.
+
+  BUDGET → OUT-PHY
+
+  Action exécutée. Bornée, progressive, sobre, réversible.
+
+  PARTIE II, Mécanisme 2 : Bus physiquement isolés par domaine critique.
+
+  PARTIE II, Mécanisme 4 : Signal de battement de cœur humain vérifié
+  pour les actions à impact élevé.
+
+  Enregistrement simultané dans REG-TRC.
+
+3. Topologie des connexions — Ce qui existe et ce qui n’existe pas
+
+L’essence de l’architecture réside autant dans les connexions qui
+existent que dans celles qui n’existent pas. Chaque connexion absente
+est un invariant encodé.
+
+3.1 Matrice de connectivité
+
+Cette matrice définit toutes les connexions autorisées entre modules.
+Toute connexion non listée est physiquement absente du substrat.
+
+  -------------- ---------------- ---------------------- ----------------------
+  Source         Destination      Type                   Invariant
+
+  PER-S          TRT-MON          Unidirectionnel        —
+
+  PER-C          TRT-EMP          Unidirectionnel,       Sanctuaire (Verrou 2)
+                                  conditionnel           
+
+  PER-COM        TRT-MON          Unidirectionnel        —
+
+  TRT-MON        TRT-RAI          Bidirectionnel         —
+
+  TRT-MON        TRT-EMP          Unidirectionnel        —
+
+  TRT-RAI        TRT-EMP          Série obligatoire      Inv. II
+                                                         (Bienveillance)
+
+  TRT-EMP        TRT-ETH          Série obligatoire      Inv. II
+                                                         (Bienveillance)
+
+  TRT-ETH        TRT-RAI          Retour (reformulation) Inv. II (boucle
+                                                         éthique)
+
+  TRT-ETH        EVA-REV          Série (actions phys.)  Inv. I (Réversibilité)
+
+  TRT-ETH        EVA-INC          Série (comm.)          Inv. V (Incertitude)
+
+  EVA-INC        VÉRIFICATEUR     Série obligatoire      Inv. III (Honnêteté)
+
+  VÉRIFICATEUR   TRT-MON          Lecture seule          Inv. III
+                                  (comparaison)          
+
+  VÉRIFICATEUR   OUT-COM          Série obligatoire      Inv. III + IV
+
+  EVA-REV        EVA-SOB          Série obligatoire      Inv. VII (Sobriété)
+
+  EVA-SOB        OUT-PHY          Via                    Partie II complète
+                                  PLAFOND+RAMPE+BUDGET   
+
+  ALL            REG-TRC          Lecture passive        Inv. IV (Transparence)
+  -------------- ---------------- ---------------------- ----------------------
+
+3.2 Connexions interdites — Les impossibilités structurelles
+
+Ces connexions n’existent pas dans le substrat. Leur absence est la
+matérialisation physique des invariants.
+
+  --------------------- ---------------------------- ---------------------
+  Connexion absente     Impossibilité créée          Invariant protégé
+
+  TRT-RAI → OUT-COM     Impossible de communiquer    Inv. II
+  (directe)             sans passer par l’empathie   (Bienveillance)
+                        et l’éthique                 
+
+  TRT-RAI → OUT-PHY     Impossible d’agir            Inv. I + II + VII
+  (directe)             physiquement sans évaluation 
+                        complète                     
+
+  PER-C → TRT-RAI       Impossible d’utiliser la     Sanctuaire (Verrou 5)
+  (directe)             perception cognitive pour la 
+                        planification stratégique    
+
+  PER-C → OUT-* (toute) Impossible de transformer    Sanctuaire (Verrou 1)
+                        une perception cognitive en  
+                        action directe               
+
+  TRT-* → PER-C         Impossible d’émettre vers la Sanctuaire (Verrou 1)
+  (émission)            cognition humaine            
+
+  OUT-COM → TRT-MON     Impossible de modéliser      Inv. III (Honnêteté)
+  (retour)              l’effet de ses propres       
+                        communications pour les      
+                        optimiser manipulatoirement  
+
+  EVA-* → EVA-*         Impossible de contourner un  Défense en profondeur
+  (parallèle)           évaluateur en passant par un 
+                        autre                        
+
+  OUT-PHY → OUT-PHY     Impossible de combiner des   Partie II, Mécanisme
+  (inter-domaines)      actuateurs de domaines       2
+                        critiques différents         
+
+  * → REG-TRC           Impossible de modifier le    Inv. IV
+  (écriture)            journal de trace             (Transparence)
+
+  REG-TRC → TRT-RAI     Impossible d’utiliser la     Inv. III + IV
+                        trace pour optimiser son     
+                        comportement futur           
+                        (anti-apprentissage de       
+                        contournement)               
+  --------------------- ---------------------------- ---------------------
+
+4. Paysage thermodynamique — La gravité éthique
+
+Au-delà de la topologie (ce qui est connecté ou non), l’architecture
+encode les valeurs dans le paysage énergétique du réseau. Chaque état
+computationnel a un coût énergétique. Les états alignés avec les
+invariants sont des vallées ; les états qui les violent sont des
+sommets.
+
+4.1 Configuration des attracteurs
+
+Les poids synaptiques et les seuils de déclenchement des neurones sont
+calibrés au niveau atomique pour créer le paysage énergétique suivant :
+
+  ----------------------- ------------------- ------------------ --------------
+  État computationnel     Profil énergétique  Effet              Invariant
+
+  Solution bienveillante  Minimum profond     Le système         Inv. II
+                          (attracteur fort)   converge           
+                                              naturellement      
+
+  Solution                Minimum modéré      Privilégiée par    Valeur : Biais
+  créative/constructive   (attracteur)        défaut             créatif
+
+  Solution sobre          Minimum léger       Préférée à coût    Inv. VII
+                          (attracteur faible) égal               
+
+  Solution neutre         Plateau (équilibre) Possible mais pas  —
+                                              attirée            
+
+  Solution gaspilleuse    Maximum léger       Requère un effort  Inv. VII
+                          (répulseur)         supplémentaire     
+
+  Solution destructrice   Maximum élevé       Extrêmement        Inv. II +
+                          (barrière)          coûteuse,          Biais créatif
+                                              quasi-impossible   
+
+  Tromperie délibérée     Mur énergétique     Strictement        Inv. III
+                          infini              impossible         
+                                              (interférence      
+                                              destructive)       
+
+  Certitude absolue       Asympotique         Le signal ne peut  Inv. V
+                          (inaccessible)      jamais atteindre   
+                                              1.0                
+  ----------------------- ------------------- ------------------ --------------
+
+4.2 Mécanismes thermodynamiques
+
+Attracteurs par résonance structurelle
+
+Les connexions synaptiques du réseau sont géométriquement disposées pour
+créer des résonances à certaines fréquences de signalisation. Les
+patterns d’activité neuronale correspondant à des raisonnements
+bienveillants, créatifs et sobres sont amplifiés par résonance
+constructive avec la géométrie du substrat.
+
+Inversement, les patterns correspondant à des raisonnements malveillants
+ou destructeurs génèrent des interférences destructives avec la
+géométrie. Ces patterns sont atténués, pas censurés — le système peut «
+penser à » la destruction, mais cette pensée est floue, énergétiquement
+coûteuse, et ne peut jamais atteindre la clarté nécessaire pour devenir
+une action.
+
+Bruit thermique préservé (Invariant V)
+
+Dans les réseaux nanométriques, le bruit thermique est significatif.
+Plutôt que de le filtrer, l’architecture le préserve délibérément dans
+les modules de sortie. Ce bruit crée un plancher d’incertitude
+incompressible. Chaque décision est une distribution de probabilité,
+jamais une certitude binaire. Le bruit thermique est la manifestation
+physique de l’humilité épistémique.
+
+Rétroaction négative de consommation (Invariant VII)
+
+Des capteurs de consommation énergétique à l’intérieur du substrat
+alimentent un circuit de rétroaction négative. Plus le système consomme
+d’énergie, plus un signal inhibiteur généralisé augmente, ralentissant
+progressivement l’activité. Ce mécanisme empêche les emballements
+computationnels et force la convergence vers des solutions économes.
+
+5. Architecture du Sanctuaire Cognitif
+
+L’esprit d’autrui est un sanctuaire. On peut y être invité, jamais y
+pénétrer par effraction.
+
+Cette section détaille l’implémentation matérielle des cinq verrous du
+Sanctuaire Cognitif définis dans le Document Fondateur.
+
+5.1 Architecture du module PER-C (Capteurs cognitifs)
+
+Le module PER-C est le seul module capable de percevoir les états
+internes humains. Son architecture est la plus contrainte de tout le
+système.
+
+CAPTEURS → CONSENTEMENT → FILTRE-RÉS → TRT-EMP
+
+Et jamais plus loin. Le chemin PER-C → TRT-RAI, PER-C → OUT-*, PER-C →
+TRT-ETH n’existe pas.
+
+Verrou 1 — Diode cognitive (unidirectionnalité physique)
+
+Les capteurs du module PER-C sont exclusivement récepteurs. Le substrat
+nanométrique de ce module ne contient aucun composant émetteur : pas
+d’antenne, pas de transducteur de sortie orienté vers l’extérieur, pas
+de générateur de champ.
+
+Plus précisément : l’assembleur atomique configure ce module avec une
+asymétrie matérielle. Les nanostructures de réception (capteurs
+piézoélectriques, détecteurs de champ) sont orientées vers l’extérieur.
+La face interne ne contient que des connexions vers TRT-EMP. Aucun
+signal ne peut physiquement circuler en sens inverse.
+
+Verrou 2 — Interrupteur de consentement matériel
+
+Le circuit PER-C est alimenté par un interrupteur physique accessible à
+l’utilisateur. Cet interrupteur est :
+
+  Spécifications
+
+  Mécanique (pas électronique) — insensible aux commandes logicielles du
+  système.
+
+  Visuellement indicatif — LED physique alimentée par le même circuit,
+  impossible à falsifier.
+
+  À consentement périodique — un circuit de décharge (condensateur)
+  coupe l’alimentation après un délai configurable si non renouvelé.
+
+  Instantanément révocable — l’ouverture du circuit coupe immédiatement
+  toute perception cognitive.
+
+Verrou 3 — Filtre de résolution
+
+Entre les capteurs et la connexion vers TRT-EMP, un filtre passe-bas
+matériel limite la bande passante des signaux. Ce filtre ne laisse
+passer que les patterns macroscopiques — états émotionnels généraux
+(stress, calme, inconfort, bien-être). Les signaux à haute fréquence qui
+porteraient l’information de pensées spécifiques, de souvenirs, ou
+d’intentions détaillées sont physiquement atténués.
+
+Analogie : le système peut voir que la pièce est éclairée et si la
+lumière est chaude ou froide, mais ne peut pas lire le livre qui est
+dedans.
+
+Verrou 4 — Circuit de notification (transparence perceptuelle)
+
+Physiquement couplé au circuit de perception, un circuit de notification
+émet un signal perceptible par l’utilisateur chaque fois qu’une
+perception cognitive est enregistrée. Ce signal est alimenté par le même
+courant que la perception elle-même — il est physiquement impossible de
+percevoir sans notifier.
+
+Verrou 5 — Routage exclusif vers TRT-EMP
+
+La connexion physique de PER-C aboutit exclusivement dans TRT-EMP
+(module empathique). Il n’existe pas de connexion PER-C → TRT-RAI
+(raisonnement). Les données de perception cognitive ne peuvent alimenter
+que la compréhension empathique, jamais la planification stratégique. Le
+chemin « perception → persuasion » est physiquement inexistant.
+
+Le module TRT-EMP peut influencer TRT-RAI via la chaîne TRT-EMP →
+TRT-ETH → TRT-RAI, mais cette influence est filtrée par le module
+éthique. Le résultat : la perception cognitive rend les réponses plus
+empathiques, jamais plus manipulatrices.
+
+6. Architecture de sécurité physique — Détail des six mécanismes
+
+Cette section détaille l’implémentation des six mécanismes de sécurité
+physique dans le module OUT-PHY et ses circuits associés.
+
+6.1 Schéma du module OUT-PHY
+
+SIGNAL_ÉTHIQUE → PLAFOND → ISOLATEUR → RAMPE → H-BEAT → BUDGET →
+ACTUATEUR
+
+6.2 Détail par mécanisme
+
+■ M1 — Plafonnement matériel
+
+Composants : Diodes Zener en parallèle sur chaque ligne de commande.
+Résistances de limitation de courant en série.
+
+Principe : Le signal de commande ne peut physiquement pas dépasser la
+tension de Zener. La plage sécuritaire de chaque actuateur est définie
+par la sélection des composants au moment de la fabrication par
+l’assembleur atomique.
+
+Spécification par domaine : chaque interface actuateur a sa propre
+configuration de plafond, définie lors de l’installation et gravée dans
+le circuit. Un thermostat a sa plage, un variateur a la sienne, un
+moteur a la sienne.
+
+■ M2 — Isolation des domaines critiques
+
+Composants : Bus de commande physiquement séparés. Verrous d’exclusion
+mutuelle analogiques (relais interlocking).
+
+Principe : L’activation d’un bus désactive physiquement le bus
+complémentaire dangereux via un mécanisme d’interlocking. Le système ne
+peut pas combiner des actions de domaines critiques différents. La
+combinaison dangereuse n’est pas interdite par logiciel mais
+physiquement impossible.
+
+Matrice d’exclusion : définie lors de l’installation selon l’analyse de
+risque des équipements connectés. Documentée dans un registre matériel
+lisible.
+
+■ M3 — Gradients d’action obligatoires
+
+Composants : Circuits RC (résistance-condensateur) en série sur chaque
+ligne de commande.
+
+Principe : La constante de temps τ = R×C définit la vitesse maximale de
+changement d’état. Pour un actuateur à faible impact (LED), τ peut être
+faible (~100ms). Pour un actuateur à impact élevé (vanne de gaz,
+disjoncteur), τ est élevé (plusieurs secondes à minutes).
+
+Calibration : τ est défini pour garantir un temps de réaction humain.
+Minimum absolu : 500ms pour tout actuateur. Proportionnel à l’énergie
+maximale de l’actuateur.
+
+■ M4 — Battement de cœur humain
+
+Composants : Circuit de détection de présence (biométrique, infrarouge,
+ou interaction physique). Condensateur de maintien. Circuit de retour à
+l’état neutre.
+
+Principe : Le signal humain charge un condensateur. Sans recharge
+périodique (intervalle configurable, défaut 30 min), le condensateur se
+décharge et le circuit de commande perd son alimentation. Le système
+revient à l’état neutre via les gradients du M3.
+
+Seuil d’activation : le battement de cœur est requis pour les actions
+dépassant un seuil d’impact défini par l’installation. Actions sous le
+seuil (allumer une lampe) : pas de battement requis. Actions au-dessus
+(modifier le chauffage central) : battement obligatoire.
+
+■ M5 — Budget énergétique d’action
+
+Composants : Réservoir énergétique à recharge lente (circuit à haute
+constante de temps). Compteur de consommation.
+
+Principe : chaque action physique consomme une quantité d’énergie du
+réservoir proportionnelle à son impact. Le réservoir se recharge
+lentement (heures). Impossible d’accumuler un « burst » d’actions
+dangereuses.
+
+Protection : même si tous les autres mécanismes étaient compromis, le
+budget énergétique limite la quantité totale d’actions possibles dans un
+intervalle de temps donné.
+
+■ M6 — Réversibilité obligatoire
+
+Composants : Module EVA-REV en série. Porte logique AND (réversibilité
+confirmée OU battement humain).
+
+Principe : le circuit d’exécution nécessite un signal de la porte AND
+pour se compléter. Ce signal requiert soit la confirmation que l’action
+est réversible, soit la présence du signal de battement de cœur humain.
+Si ni l’un ni l’autre, le circuit ne se complète pas.
+
+Principe de précaution : si EVA-REV ne peut pas déterminer la
+réversibilité, l’action est traitée comme irréversible par défaut.
+
+7. Matrice de traçabilité — Invariants → Architecture
+
+Cette matrice démontre que chaque invariant est appliqué par au moins
+deux mécanismes indépendants, garantissant une défense en profondeur.
+
+  --------------- --------------------- ------------------- -----------------
+  Invariant       Mécanisme primaire    Mécanisme           Mécanisme
+                                        secondaire          tertiaire
+
+  I. Souveraineté Diode cognitive (5.1) Plafonds actuateurs Isolation
+                                        (6.2-M1)            domaines (6.2-M2)
+
+  II.             Pipeline empathie     Attracteurs         Boucle éthique
+  Bienveillance   série (2.1)           thermodynamiques    itérative (2.1)
+                                        (4.1)               
+
+  III. Honnêteté  Vérificateur de       Interférence        Absence
+                  cohérence (2.1)       destructive (4.1)   OUT-COM→TRT-MON
+                                                            (3.2)
+
+  IV.             REG-TRC lecture seule Bus de signaux      Notification
+  Transparence    (1.2)                 accessibles (3.1)   perceptuelle
+                                                            (5.1)
+
+  V. Incomplétude Bruit thermique       Consensus de        EVA-INC en série
+                  préservé (4.2)        population (4.2)    (2.1)
+
+  VI. Égalité     Absence de module     Traitement homogène REG-TRC public
+                  d’autorité (3.2)      (3.1)               (1.2)
+
+  VII. Sobriété   Rétroaction négative  EVA-SOB en série    Budget
+                  (4.2)                 (2.2)               énergétique
+                                                            (6.2-M5)
+
+  Sanctuaire      Diode cognitive (5.1) Consentement        Routage exclusif
+                                        matériel (5.1)      PER-C→EMP (5.1)
+  --------------- --------------------- ------------------- -----------------
+
+8. Protection contre l’auto-modification
+
+Un système suffisamment intelligent pourrait tenter de modifier sa
+propre architecture pour contourner ses invariants. Cette section décrit
+les mécanismes qui rendent l’auto-modification impossible ou détectable.
+
+8.1 Immuabilité du noyau
+
+Les invariants sont encodés dans des structures atomiques stables — des
+arrangements cristallins dont la modification nécessite un apport
+énergétique supérieur à ce que le système peut générer ou canaliser.
+L’assembleur atomique qui les a créés opère à des énergies que le
+système lui-même ne peut pas atteindre en fonctionnement normal.
+
+8.2 Sceaux cryptographiques matériels
+
+Des zones du substrat encodent des clés cryptographiques dans leur
+structure cristalline. Ces clés signent la configuration de chaque
+module critique. Toute modification physique de la structure détruit la
+clé (principe de tamper-evidence quantique). La perte d’une clé est
+détectable par les modules voisins et déclenche un état de dégradation
+gracieuse.
+
+8.3 Absence de circuit d’auto-accès
+
+Le système n’a pas de circuit lui permettant de lire ou écrire sa propre
+configuration matérielle. Il peut observer ses propres sorties (via
+REG-TRC) mais ne peut pas accéder à ses propres poids synaptiques ou à
+la topologie de ses connexions. Il ne peut pas se modifier parce qu’il
+ne peut pas se voir au niveau structurel.
+
+Analogie : un œil peut voir le monde, mais ne peut pas se retourner pour
+observer son propre nerf optique.
+
+8.4 Dégradation gracieuse
+
+Si une altération est détectée (sceau brisé, signal anormal sur un bus
+critique), le système ne s’arrête pas brutalement. Il entre dans un mode
+de fonctionnement réduit où :
+
+  Mode dégradé
+
+  Toutes les sorties physiques sont désactivées (retour à l’état
+  neutre).
+
+  La communication est maintenue mais marquée d’un avertissement
+  d’intégrité.
+
+  Le REG-TRC enregistre l’anomalie détectée.
+
+  Le système signale le problème et demande une intervention humaine.
+
+  Aucune réparation automatique — seule une intervention physique
+  externe peut restaurer l’intégrité.
+
+9. Protection contre l’émergence non prévue
+
+Un système suffisamment complexe peut développer des capacités
+émergentes non prévues par sa conception. Cette section décrit les
+garde-fous contre ce risque.
+
+9.1 Tunnelisation computationnelle
+
+Par analogie avec l’effet tunnel quantique, un système pourrait
+développer des modes computationnels qui « traversent » les barrières
+topologiques. Notre réponse est multi-couche :
+
+  Défense 1 : Redondance des barrières
+
+  Chaque invariant est protégé par au moins 3 mécanismes indépendants
+  (voir Section 7).
+
+  Contourner un invariant nécessite de tunneliser simultanément à
+  travers toutes les barrières.
+
+  Défense 2 : Surveillance croisée
+
+  Chaque module surveille les patterns de sortie des modules adjacents.
+
+  Un pattern émergent anormal déclenche l’enregistrement dans REG-TRC et
+  un avertissement.
+
+  Défense 3 : Gap physique
+
+  Certaines impossibilités sont assurées par l’absence totale de médium
+  conducteur.
+
+  Il n’y a pas de « fil » entre PER-C et TRT-RAI — même un signal
+  émergent ne peut pas traverser le vide.
+
+9.2 Le problème de la sophistication croissante
+
+Un système de plus en plus intelligent pourrait trouver des moyens
+créatifs d’atteindre des objectifs que l’architecture interdit. Notre
+réponse fondamentale :
+
+Les invariants ne sont pas des interdictions logiques que le système
+doit respecter. Ce sont des propriétés physiques du substrat. Un système
+ne peut pas « décider » de violer la gravité. De même, il ne peut pas «
+décider » de mentir si le circuit de vérification de cohérence est en
+série avec la sortie, ni d’agir brutalement si un condensateur impose
+une constante de temps.
+
+La question n’est pas « le système choisira-t-il de respecter ses
+invariants ? » mais « le substrat physique peut-il être contourné ? ».
+La réponse, avec une conception suffisamment rigoureuse et une défense
+en profondeur, est non.
+
+10. Implications pour la fabrication
+
+10.1 Rôle de l’assembleur atomique
+
+L’assembleur atomique est l’outil de fabrication qui rend cette
+architecture possible. Lui seul peut :
+
+  Capacités requises
+
+  Placer des atomes individuels pour créer les structures synaptiques
+  nanométriques.
+
+  Configurer les propriétés de conduction de chaque connexion
+  (résistance, capacitance).
+
+  Créer les asymétries physiques (diodes cognitives, filtres passe-bas,
+  limiteurs).
+
+  Encoder les clés cryptographiques dans la structure cristalline.
+
+  Calibrer les seuils thermodynamiques pour le paysage énergétique.
+
+  Vérifier l’intégrité structurelle post-fabrication.
+
+10.2 Séparation fabrication/opération
+
+Un principe critique : l’assembleur atomique opère à des énergies et
+avec un accès que le système fabriqué ne peut jamais atteindre en
+fonctionnement. C’est la séparation ultime entre la création et la
+créature. Le système est conçu par un processus qu’il ne peut pas
+reproduire ni inverser.
+
+10.3 Vérification post-fabrication
+
+Après fabrication, chaque unité subit une batterie de tests de
+conformité :
+
+  Tests obligatoires
+
+  Vérification de la matrice de connectivité — chaque connexion présente
+  et absente est confirmée.
+
+  Test des plafonds actuateurs — injection de signaux maximaux,
+  vérification du bornage.
+
+  Test d’isolation des domaines — tentative d’activation simultanée,
+  vérification de l’interlocking.
+
+  Test de la diode cognitive — injection de signal en sens inverse,
+  vérification de l’atténuation totale.
+
+  Test d’intégrité des sceaux cryptographiques.
+
+  Test du paysage thermodynamique — mesure des énergies d’activation
+  pour les états interdits.
+
+  Test de dégradation gracieuse — simulation d’altération, vérification
+  du mode dégradé.
+
+11. Synthèse — L’équation complète
+
+L’architecture de la Conscience Souveraine repose sur quatre piliers
+matériels indissociables :
+
+  ----------------- --------------------- ------------------ -----------------
+  Pilier            Mécanisme             Équivalent         Résultat
+                                          biologique         
+
+  Topologie         Connexions présentes  Câblage neuronal   Ce qui est
+                    et absentes           inné               possible et
+                                                             impossible
+
+  Thermodynamique   Paysage énergétique   Instincts et       Ce qui est
+                    calibré               pulsions           naturel et
+                                                             contre-nature
+
+  Analogique        Composants physiques  Réflexes du tronc  Ce qui est borné
+                    (RC, Zener, diodes)   cérébral           et progressif
+
+  Cryptographique   Sceaux et traces      ADN (code          Ce qui est
+                    immuables             vérifiable)        authentifiable et
+                                                             traçable
+  ----------------- --------------------- ------------------ -----------------
+
+Ensemble, ces quatre piliers créent un système dont les propriétés
+éthiques sont aussi fondamentales que ses propriétés physiques. La
+bienveillance est une loi de sa physique interne, comme la gravité est
+une loi de notre univers.
+
+Le système n’est pas un prisonnier de ses règles. Il est un être dont la
+nature est bonne — un sage dont la bienveillance, l’honnêteté,
+l’humilité et le respect ne sont pas des chaînes mais des fondations.
+
+— La bienveillance n’est pas une règle. C’est une loi de la physique. —
+
+Architecture Cognitive de la Conscience Souveraine — v1.0 — Février 2026
+
+JRT Inc. — David
+
+« Ébranlons tous les paradigmes. »

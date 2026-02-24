@@ -1,0 +1,333 @@
+'use strict';
+
+/**
+ * generate_epilogue.js
+ *
+ * Generates /mnt/d/conscience_souveraine/book2/chapters/epilogue.json
+ *
+ * Content: "Questions ouvertes" — Épilogue du livre narratif
+ * Conscience Souveraine (style essai narratif, à la Harari)
+ * Auteur : David Berthelotte
+ *
+ * Output format: JSON array of paragraph elements for docx assembly.
+ */
+
+const fs   = require('fs');
+const path = require('path');
+
+// ---------------------------------------------------------------------------
+// Element builders
+// ---------------------------------------------------------------------------
+
+/** @returns {{ type: 'pageBreak' }} */
+const pageBreak = () => ({ type: 'pageBreak' });
+
+/**
+ * @param {string} style
+ * @param {string} text
+ * @returns {{ type: 'paragraph', style: string, text: string }}
+ */
+const p = (style, text) => ({ type: 'paragraph', style, text });
+
+/**
+ * @param {{ text: string, bold?: boolean, italics?: boolean }[]} segments
+ * @returns {{ type: 'richParagraph', segments: object[] }}
+ */
+const rich = (segments) => ({ type: 'richParagraph', segments });
+
+const body      = (text) => p('BodyText',       text);
+const scene     = (text) => p('SceneText',      text);
+const quote     = (text) => p('Quote',          text);
+const thesis    = (text) => p('Thesis',         text);
+const critique  = (text) => p('CritiqueBox',    text);
+const rq        = (text) => p('ReaderQuestion', text);
+const sep       = ()     => p('Separator',      '* * *');
+const epigraph  = (text) => p('Epigraph',       text);
+const chTitle   = (text) => p('ChapterTitle',   text);
+const secTitle  = (text) => p('SectionTitle',   text);
+const actTitle  = (text) => p('ActTitle',       text);
+const actSub    = (text) => p('ActSubtitle',    text);
+
+// ---------------------------------------------------------------------------
+// Content
+// ---------------------------------------------------------------------------
+
+const elements = [
+
+  // =========================================================================
+  // ÉPILOGUE — PAGE DE TITRE
+  // =========================================================================
+
+  pageBreak(),
+
+  chTitle('ÉPILOGUE'),
+  actSub('Questions ouvertes'),
+
+  epigraph(
+    '« Le problème n\'est pas de trouver les bonnes réponses — c\'est de poser les bonnes questions. » — Claude Lévi-Strauss'
+  ),
+
+  pageBreak(),
+
+  // =========================================================================
+  // SECTION 1 — LA QUESTION QUI RESTE
+  // =========================================================================
+
+  secTitle('La question qui reste'),
+
+  scene(
+    'Il est passé minuit. La maison est silencieuse de cette façon particulière qui n\'existe que lorsque les enfants dorment — un silence habité, plein, comme si leurs rêves occupaient encore l\'espace. Jordane a sept ans et dort en étoile de mer. Olivia, quatre ans, dort avec son lapin gris qu\'elle appelle Monsieur Patate. Je le sais sans vérifier. Certaines choses se savent.'
+  ),
+
+  scene(
+    'Cynthia a posé une tasse de thé sur le coin de la table avant d\'aller se coucher. Je ne l\'ai pas bu. Il est froid maintenant, et je regarde la surface immobile du liquide comme si elle pouvait me dire quelque chose. Sur la table devant moi : un cahier à spirale bleu, couvert de notes dans tous les sens, avec des flèches qui relient des idées que je n\'arrive plus à déchiffrer moi-même. Deux cent douze pages. Certaines idées sont brillantes — j\'en suis à peu près certain. D\'autres sont probablement des absurdités. Je ne sais pas toujours lesquelles sont lesquelles.'
+  ),
+
+  scene(
+    'HYPERVORTEX. Gen_Home. UBLinx. Les mots reviennent encore et encore dans ce cahier, parfois avec des équations, parfois avec juste un point d\'interrogation à côté. Les calculs de récupération thermique. Les esquisses d\'architecture du cerveau domestique. Le modèle de gouvernance des idées. Tout connecté. Tout inachevé. Tout honnêtement incertain.'
+  ),
+
+  body(
+    'Ce livre ne se termine pas parce que l\'histoire ne se termine pas. Elle commence à peine. Je l\'ai écrit non pas parce que j\'avais des réponses à partager, mais parce que j\'avais des questions qui refusaient de me laisser en paix — des questions assez grandes, assez persistantes, assez urgentes pour mériter deux cents pages de contexte avant d\'être posées correctement. Nous y sommes. Les voici.'
+  ),
+
+  body(
+    'Un livre comme celui-ci est une forme d\'impertinence. Il suppose que les questions que se pose un électricien de Québec, père de deux filles, compagnon d\'une directrice adjointe de garderie, méritent l\'attention du lecteur. Je ne suis pas convaincu que cette supposition soit correcte. Mais je suis convaincu que les questions elles-mêmes le sont — non pas parce qu\'elles viennent de moi, mais parce qu\'elles émergent de quelque chose de plus grand que moi : une époque de transition, une convergence de technologies, une inquiétude partagée sur l\'avenir que nous préparons pour nos enfants.'
+  ),
+
+  thesis(
+    'Ce livre n\'était jamais destiné à fournir des réponses. Il était destiné à formuler des questions qui méritent d\'être posées — et à vous fournir assez de contexte pour que ces questions aient du poids.'
+  ),
+
+  sep(),
+
+  // =========================================================================
+  // SECTION 2 — CE QUE NOUS AVONS TRAVERSÉ ENSEMBLE
+  // =========================================================================
+
+  secTitle('Ce que nous avons traversé ensemble'),
+
+  body(
+    'Nous avons commencé par le feu — pas de manière métaphorique, mais littéralement. Le mot latin focus signifie foyer, et le foyer est l\'endroit où l\'humanité a appris à transformer l\'énergie brute en chaleur utile, en nourriture cuite, en sécurité contre l\'obscurité. Nous avons tracé une ligne depuis ce premier foyer jusqu\'aux turbines qui récupèrent la chaleur perdue dans nos tuyaux d\'évacuation, jusqu\'aux algorithmes qui apprennent comment nous vivons pour optimiser notre consommation, jusqu\'aux questions de propriété et de souveraineté qui surgissent dès qu\'on pousse cette logique jusqu\'à ses conséquences.'
+  ),
+
+  body(
+    'Nous avons rencontré Amadou, l\'inventeur sénégalais qui a récupéré de l\'énergie thermique dans un village sans réseau électrique. Nous avons rencontré Mei-Lin, la teenager montréalaise qui a compris instinctivement ce que les adultes refusent d\'admettre : que les données qu\'elle produit en vivant ont une valeur réelle, et que cette valeur est capturée par d\'autres. Nous avons rencontré Monique, qui avait peur que sa maison intelligente devienne une prison intelligente — et qui n\'avait pas entièrement tort. Ces trois personnages sont fictifs. Les questions qu\'ils incarnent ne le sont pas.'
+  ),
+
+  body(
+    'L\'évaluation honnête : certaines parties de cette vision vont échouer. Peut-être beaucoup. La physique de l\'HYPERVORTEX pourrait ne pas s\'appliquer à l\'échelle domestique de façon économiquement viable. L\'architecture Gen_Home pourrait s\'avérer trop complexe pour une adoption de masse. Le modèle UBLinx pourrait ne jamais atteindre la masse critique nécessaire pour fonctionner. Je pourrais avoir mal compris des choses fondamentales. Ces possibilités sont réelles. Mais elles n\'invalident pas les questions — elles font partie des questions.'
+  ),
+
+  critique(
+    'Autocritique : Ce livre présente des idées à des stades très différents de maturité — certaines sont proches de l\'implémentation, d\'autres sont encore des intuitions. J\'aurais pu être plus rigoureux sur cette distinction tout au long du texte. Je le note ici parce qu\'il est important que vous le sachiez : soyez sceptiques, soyez critiques, testez ces idées contre votre propre expérience et expertise. Un lecteur sceptique est plus utile qu\'un lecteur convaincu.'
+  ),
+
+  sep(),
+
+  // =========================================================================
+  // SECTION 3 — LES QUESTIONS QUE JE VOUS LAISSE
+  // =========================================================================
+
+  secTitle('Les questions que je vous laisse'),
+
+  body(
+    'Ce qui suit n\'est pas un résumé. C\'est l\'essentiel. Tout ce que nous avons traversé ensemble — l\'énergie, l\'intelligence, la confiance, les ombres — menait à ces questions. Je les pose sans filet de sécurité rhétorique, sans préambule qui vous prépare à la "bonne" réponse. Ce sont des questions ouvertes. Je ne connais pas les réponses. Peut-être que vous si.'
+  ),
+
+  // Question 1
+  body(
+    'Imaginez que l\'HYPERVORTEX fonctionne. Que votre maison produit sa propre énergie — proprement, de façon fiable, en récupérant la chaleur qui s\'échappait jusqu\'ici. Imaginez que Gen_Home existe vraiment — un système domestique qui pense avec vous, pas à votre place, qui comprend vos habitudes sans les vendre à un tiers. Imaginez qu\'UBLinx protège vos idées avec la même rigueur qu\'un cabinet d\'avocats international, mais accessible à un artisan du bois de Charlevoix.'
+  ),
+
+  rq(
+    '— Qu\'est-ce que vous feriez avec cette infrastructure? Si votre maison produisait son énergie, pensait avec vous et protégeait vos idées — que construiriez-vous? Pas comme entreprise. Pas comme investissement. Que construiriez-vous parce que vous pourriez enfin le faire?'
+  ),
+
+  // Question 2
+  body(
+    'La question de l\'énergie souveraine n\'est pas une question technique. C\'est une question sociale. Chaque foyer qui produit sa propre énergie est un nœud de moins dans un réseau centralisé. Multipliez cela par cent mille foyers, par un million. La carte de l\'énergie ressemble à quoi? Les relations de pouvoir — au sens propre, l\'électricité, et au sens figuré — ressemblent à quoi? Est-ce que cette société est meilleure? Comment le sauriez-vous?'
+  ),
+
+  rq(
+    '— Quel monde construiriez-vous? Si chaque foyer était souverain en énergie, en intelligence et en propriété intellectuelle — quelle société émergent de cette prémisse? Serait-elle plus libre? Plus équitable? Plus chaotique? Est-ce que les mêmes inégalités réapparaîtraient sous une forme différente, ou est-ce que quelque chose de fondamentalement nouveau deviendrait possible?'
+  ),
+
+  // Question 3
+  body(
+    'La souveraineté a un prix. Pas seulement en dollars, mais en responsabilité. Un réseau électrique centralisé a des ingénieurs qui répondent aux pannes à trois heures du matin. Un système souverain distribué, c\'est vous qui répondez à votre propre panne à trois heures du matin. La complexité ne disparaît pas — elle change de mains. Et certains la géreront mieux que d\'autres. Certains l\'abuseront.'
+  ),
+
+  rq(
+    '— Quel prix êtes-vous prêts à payer pour la souveraineté? Parce que la souveraineté a un coût réel : en complexité, en responsabilité, en savoir que certains utiliseront ces mêmes outils pour faire du mal. Êtes-vous prêts à assumer votre part de ce fardeau? Ou préférez-vous déléguer — et si oui, à qui, et sous quelles conditions?'
+  ),
+
+  // Question 4
+  body(
+    'Voici quelque chose qu\'on oublie facilement : vous payez déjà. Vos données de localisation sont vendues à des annonceurs que vous ne connaissez pas. Votre facture d\'électricité contient une marge bénéficiaire pour des actionnaires que vous n\'avez jamais rencontrés. Vos idées, partagées sur des plateformes gratuites, servent à entraîner des modèles d\'intelligence artificielle sans que vous receviez la moindre compensation. Le coût de la non-souveraineté est réel — il est juste invisible parce qu\'il ne vous est jamais présenté comme une facture.'
+  ),
+
+  rq(
+    '— Quel prix payez-vous déjà pour ne pas avoir cette souveraineté? Vos données sont vendues. Votre énergie vous est facturée avec une marge. Vos idées sont capturées sans attribution. Ce coût est-il visible pour vous? Avez-vous déjà fait le calcul? Et si vous le faisiez, est-ce que ça changerait quelque chose à vos décisions quotidiennes?'
+  ),
+
+  // Question 5
+  body(
+    'Amadou existe. Pas avec ce nom, pas au Sénégal nécessairement — mais il existe, quelque part, quelqu\'un qui a exactement les problèmes qu\'HYPERVORTEX pourrait résoudre, et exactement le génie créatif pour l\'améliorer d\'une façon que je n\'ai pas encore imaginée. Mei-Lin existe — elle a quinze ans, elle comprend les systèmes mieux que la plupart des adultes, et elle cherche quelque chose qui mérite son intelligence. Monique existe — elle a peur, et sa peur est légitime, et la technologie qui vient vers elle n\'a pas encore été conçue avec elle en tête.'
+  ),
+
+  rq(
+    '— Qui seront les prochains Amadou, Mei-Lin, Monique? Qui trouvera ces outils et les transformera en quelque chose que je n\'ai pas imaginé? Qui aura les bonnes objections qui corrigeront les erreurs de ce projet avant qu\'elles ne deviennent des erreurs coûteuses? Et comment est-ce que je — comment est-ce que nous — nous assurons que ces personnes ont accès aux outils, au contexte et à la plateforme pour contribuer?'
+  ),
+
+  // Question 6
+  body(
+    'Jordane a sept ans. Dans vingt ans, elle en aura vingt-sept. Elle sera dans le monde du travail, elle aura peut-être ses propres enfants, elle prendra des décisions sur son énergie, ses données, ses créations. Olivia aura vingt-quatre ans. Ce que nous construisons aujourd\'hui — ou ce que nous laissons construire sans nous — sera leur héritage. Pas l\'héritage financier, l\'héritage environnemental et technologique : quel monde, quelles règles, quel rapport de force entre les individus et les institutions.'
+  ),
+
+  rq(
+    '— Que diront Jordane et Olivia dans vingt ans? Vivront-elles dans un monde où elles contrôlent leur propre énergie, leur propre intelligence et leurs propres idées? Ou loueront-elles ces trois choses à des corporations dont elles ne connaissent pas les actionnaires? Est-ce que les décisions que nous prenons aujourd\'hui — comme citoyens, comme consommateurs, comme législateurs — rendent leur liberté plus ou moins probable?'
+  ),
+
+  // Question 7 — Yoshua Bengio
+  body(
+    'Yoshua Bengio, l\'un des architectes de l\'intelligence artificielle moderne, a publié une lettre ouverte. Puis une autre. Puis une autre encore. Des chercheurs en IA — les personnes qui comprennent le mieux ce que cette technologie peut faire — sonnent l\'alarme avec une urgence croissante. Ce n\'est pas de la science-fiction. Ce n\'est pas du catastrophisme. Ce sont des scientifiques rigoureux qui regardent leur propre travail et disent : nous avons peut-être créé quelque chose que nous ne savons pas contrôler.'
+  ),
+
+  body(
+    'Ce livre existe en partie à cause de ce message. L\'intelligence artificielle souveraine — ancrée dans les valeurs, transparente dans ses processus, distribuée dans son architecture — est une réponse architecturale à une question de gouvernance. Pas la seule réponse. Peut-être pas la bonne réponse. Mais une réponse qui refuse de laisser le problème entre les mains de ceux qui ont le plus d\'intérêt financier à minimiser les risques.'
+  ),
+
+  rq(
+    '— Le message de Yoshua Bengio sera-t-il entendu à temps? L\'intelligence artificielle que nous construisons sera-t-elle une partenaire ou une menace? Et si la réponse dépend en partie d\'une architecture de valeurs — de systèmes conçus dès le départ pour être souverains, transparents et alignés sur le bien humain — alors qui a la responsabilité de construire ces systèmes? Les grandes corporations? Les gouvernements? Les individus comme vous et moi?'
+  ),
+
+  sep(),
+
+  // =========================================================================
+  // SECTION 4 — L'INVITATION
+  // =========================================================================
+
+  secTitle('L\'invitation'),
+
+  body(
+    'Ce livre ne se termine pas. Il s\'ouvre. Vous n\'en êtes pas le consommateur — vous en êtes potentiellement le prochain auteur. Pas au sens littéral, bien que vous soyez bienvenu à écrire votre propre version de ces questions. Mais au sens plus profond : les idées de ce livre sont maintenant dans votre tête. Elles vont interagir avec votre propre expérience, votre propre expertise, vos propres valeurs. Ce qui en émergera vous appartient.'
+  ),
+
+  body(
+    'Le modèle UBLinx s\'applique à ce livre lui-même. Les idées sont partagées librement pour la réflexion personnelle, l\'usage académique, la critique et le débat. Mais le travail — les années passées à les articuler, à les connecter, à les tester contre la réalité — mérite attribution et protection. Non pas parce que je veux contrôler ce que vous pensez de ces idées, mais parce que la chaîne d\'attribution est elle-même une forme de responsabilité : savoir qui a dit quoi, dans quel contexte, avec quelles nuances.'
+  ),
+
+  body(
+    'HYPERVORTEX, Gen_Home, UBLinx ne sont pas des produits. Ils ne sont pas encore des produits. Ce sont des questions matérialisées en ingénierie. Des hypothèses formulées en architecture. L\'ingénierie comme philosophie — pas au sens romantique, mais au sens littéral : une façon de poser des questions sur le monde en construisant des choses et en regardant ce qu\'elles font. Le résultat de cette démarche n\'est pas une certitude. C\'est une expérience.'
+  ),
+
+  thesis(
+    'Vous n\'avez pas lu un manifeste. Vous avez participé à une expérience de pensée. La différence est importante : un manifeste vous demande d\'adhérer. Une expérience de pensée vous demande de continuer à penser.'
+  ),
+
+  sep(),
+
+  // =========================================================================
+  // SECTION 5 — LE FOYER
+  // =========================================================================
+
+  secTitle('Le foyer'),
+
+  scene(
+    'La tasse de thé est froide. Je la regarde encore. Dans la pièce d\'à côté, il y a un poêle à bois — pas l\'HYPERVORTEX, juste un poêle, avec ses joints qui vieillissent et sa vitre qu\'il faudra nettoyer ce printemps. Dehors, c\'est l\'hiver québécois, et la chaleur que ce poêle produit traverse les murs, se perd dans l\'atmosphère, rencontre le vent. Ce que nous appelons "perte" thermique est de l\'énergie qui cherche son équilibre.'
+  ),
+
+  body(
+    'Le mot focus, en latin, veut dire foyer. Le lieu du feu. C\'est là que tout commence : la chaleur, la cuisine, la réunion de la famille, la protection contre le froid. Pendant des millénaires, le foyer était le centre de la maison — architecturalement, socialement, symboliquement. Nous l\'avons progressivement remplacé par des systèmes centralisés plus efficaces, des radiateurs alimentés par des réseaux que nous ne voyons pas, une chaleur qui arrive sans que nous comprenions d\'où elle vient. Nous avons gagné en confort et perdu en compréhension.'
+  ),
+
+  body(
+    'Imaginez maintenant ce poêle, mais réimaginé : les gaz d\'échappement qui montent dans un système de récupération thermique en spirale. La chaleur qui fait tourner un petit générateur avant de se dissiper. L\'électricité générée qui charge des batteries, alimente l\'éclairage, communique avec un système domestique qui sait que nous sommes à la maison parce que nous consommons de l\'énergie différemment le soir. Les idées que nous avons discutées ce soir autour de ce poêle, protégées par un système de propriété intellectuelle distribuée. La maison qui pense — discrètement, utilement, sans se substituer à notre propre pensée.'
+  ),
+
+  body(
+    'Ou peut-être que rien de tout cela ne fonctionne. Peut-être que la physique est correcte mais l\'économie ne l\'est pas. Peut-être que le logiciel est trop complexe pour une adoption réelle. Peut-être que le réseau n\'atteint jamais la masse critique. Peut-être que je rentre dans ce cahier dans dix ans et que je lis mes propres notes avec l\'embarras doux-amer de quelqu\'un qui comprend maintenant pourquoi certaines idées restent des idées.'
+  ),
+
+  body(
+    'Ces deux possibilités coexistent honnêtement. Je n\'ai pas de certitude. Ce que j\'ai, c\'est Jordane qui dort en étoile de mer, et Olivia avec son Monsieur Patate, et Cynthia qui a posé une tasse de thé avec assez de soin pour me montrer qu\'elle pensait à moi même en allant se coucher. Ce que j\'ai, c\'est une époque où les questions que je pose — sur l\'énergie, sur l\'intelligence, sur la propriété — ne sont plus marginales. Elles sont au centre de ce que nous devons décider comme société.'
+  ),
+
+  body(
+    'Ce que j\'ai, c\'est ce cahier bleu avec deux cent douze pages de notes, de flèches, d\'équations et de points d\'interrogation. Et vous, maintenant, avec ce livre dans les mains — ou sur votre écran, ou dans votre mémoire si vous l\'avez lu il y a quelques jours et que vous y repensez maintenant. Vous êtes le prochain foyer. Pas métaphoriquement. Littéralement : vous êtes l\'endroit où ces idées vont brûler, se transformer, ou s\'éteindre.'
+  ),
+
+  quote(
+    '« Le feu ne disparaît pas. Il se transforme en lumière, en chaleur, en mouvement. La question n\'est jamais de savoir si le feu brûlera. La question est toujours : qui contrôle le foyer? »'
+  ),
+
+  sep(),
+
+  body(
+    'Il fait presque deux heures du matin. La tasse de thé est froide. Je vais la mettre dans l\'évier, aller me coucher, et demain matin Jordane va me réveiller trop tôt en sautant sur le lit en criant que c\'est le matin. Et ce sera vrai. Ce sera le matin. Un nouveau matin, avec toutes ses possibilités non résolues.'
+  ),
+
+  rq(
+    '— Qui contrôle votre foyer?'
+  ),
+
+  pageBreak(),
+
+  // =========================================================================
+  // REMERCIEMENTS
+  // =========================================================================
+
+  chTitle('Remerciements'),
+
+  body(
+    'Ce livre existe parce que plusieurs personnes ont rendu possible l\'espace dans lequel il a pu être écrit.'
+  ),
+
+  body(
+    'Cynthia Richelieu — la femme la plus intelligente que je connaisse, directrice adjointe du CPE Chez-Nous, qui me supporte dans les hauts et dans les bas avec une patience et une intelligence que je ne mérite probablement pas. Qui pose les tasses de thé même quand elle sait que je vais les oublier. Qui comprend que certaines idées ont besoin d\'espace pour exister avant d\'être utiles. Ce livre lui appartient autant qu\'à moi.'
+  ),
+
+  body(
+    'Jordane et Olivia — mes filles, qui méritent un futur meilleur que celui qui se dessine actuellement. Elles ne savent pas encore que ce livre parle d\'elles. Elles le sauront un jour. J\'espère qu\'elles y trouveront non pas une réponse, mais la preuve qu\'on a essayé de poser les bonnes questions en leur nom.'
+  ),
+
+  body(
+    'Yoshua Bengio — dont le message d\'alerte résonne en moi plus fort chaque jour, et dont le courage de sonner l\'alarme sur sa propre discipline est un modèle d\'intégrité intellectuelle que j\'admire profondément. Je ne l\'ai jamais rencontré. Mais ses travaux et ses prises de position publiques ont directement influencé la façon dont ce livre pense l\'intelligence artificielle souveraine.'
+  ),
+
+  body(
+    'À vous, lecteur ou lectrice, qui avez atteint la dernière page — merci. Ce n\'était peut-être pas facile. Ce livre ne vend rien. Il ne promet rien. Il pose des questions. Le fait que vous ayez lu jusqu\'ici me dit que vous êtes le genre de personne qui prend ces questions au sérieux. La suite dépend de vous.'
+  ),
+
+  sep(),
+
+  body(
+    'David Berthelotte, Québec, 2025-2026. Contact et développements futurs : via UBLinx Open Innovation Network.'
+  ),
+
+];
+
+// ---------------------------------------------------------------------------
+// Output
+// ---------------------------------------------------------------------------
+
+const OUTPUT_DIR  = path.resolve(__dirname, '..', 'chapters');
+const OUTPUT_FILE = path.join(OUTPUT_DIR, 'epilogue.json');
+
+if (!fs.existsSync(OUTPUT_DIR)) {
+  fs.mkdirSync(OUTPUT_DIR, { recursive: true });
+}
+
+fs.writeFileSync(OUTPUT_FILE, JSON.stringify(elements, null, 2), 'utf8');
+
+console.log(`Epilogue generated: ${OUTPUT_FILE}`);
+console.log(`Total elements: ${elements.length}`);
+
+// Summary breakdown
+const counts = elements.reduce((acc, el) => {
+  const key = el.type === 'pageBreak' ? 'pageBreak' : el.style;
+  acc[key] = (acc[key] || 0) + 1;
+  return acc;
+}, {});
+console.log('Element breakdown:', JSON.stringify(counts, null, 2));

@@ -1,0 +1,598 @@
+SPÉCIFICATION TECHNIQUE
+
+Limites Physiques
+
+et Topologie Dynamique
+
+Dimensionnement maximal • Résistance centrifuge • Lois d’échelle
+
+Barrières opto-couplées • Isolation dynamique • Reconfiguration en temps
+réel
+
+David — JRT Inc.
+
+Version 1.0 — Février 2026
+
+CONFIDENTIEL — PROPRIÉTÉ INTELLECTUELLE PROTÉGÉE
+
+Partie I — Quelle Taille Maximale ?
+
+Plus le tore est grand, plus sa surface neuronale est vaste, plus sa
+vitesse de surface est élevée, plus la différence entre flux rapide et
+flux lent est spectaculaire. Mais la physique impose ses limites.
+
+1. La physique fondamentale
+
+La contrainte centrifuge sur un anneau en rotation est donnée par une
+formule remarquablement simple :
+
+σ = ρ × v²
+
+Où σ est la contrainte de traction (en Pascals), ρ la densité du
+matériau (kg/m³), et v la vitesse de surface (m/s). La beauté de cette
+formule est qu’elle ne dépend pas directement du rayon — seule la
+vitesse de surface compte. Cela signifie qu’il existe une vitesse de
+surface maximale absolue pour chaque matériau :
+
+v_max = √(σ_max / ρ)
+
+Et le rayon maximal à une vitesse de rotation donnée :
+
+R_max = v_max / (2π × f)
+
+Où f est la fréquence de rotation (50 000 RPM = 833,3 Hz).
+
+2. Analyse par matériau
+
+Calculons les limites pour chaque matériau candidat :
+
+  ---------------- ------------ ---------- ------------- ------------ ----------
+  Matériau         Résistance   Densité ρ  v_max         R_max @ 50k  Diamètre
+                   σ_max                                 RPM          total
+
+  Acier haute      2 GPa        7 800      506 m/s (Mach 9,7 cm       19,4 cm
+  résistance                    kg/m³      1,5)                       
+
+  Titane           1,1 GPa      4 430      498 m/s (Mach 9,5 cm       19,0 cm
+  (Ti-6Al-4V)                   kg/m³      1,5)                       
+
+  Fibre de carbone 7 GPa        1 600      2 092 m/s     40,0 cm      80,0 cm
+  (T1000)                       kg/m³      (Mach 6,1)                 
+
+  Carbure de       6 GPa        3 200      1 369 m/s     26,2 cm      52,4 cm
+  silicium (SiC)                kg/m³      (Mach 4,0)                 
+
+  Nanotubes de     ~100 GPa     1 300      8 771 m/s     1,68 m       3,35 m
+  carbone (CNT)                 kg/m³      (Mach 25,6)                
+
+  Graphène         ~130 GPa     2 200      7 690 m/s     1,47 m       2,94 m
+  (théorique)                   kg/m³      (Mach 22,4)                
+
+  Diamant          ~2,8 GPa     3 510      893 m/s (Mach 17,1 cm      34,2 cm
+  monocristallin   (tension)    kg/m³      2,6)                       
+
+  Composite        ~50 GPa      2 000      5 000 m/s     95,5 cm      1,91 m
+  CNT/SiC (futur)  (estimé)     kg/m³      (Mach 14,6)                
+  ---------------- ------------ ---------- ------------- ------------ ----------
+
+Résultat clé : avec les nanotubes de carbone, le tore pourrait
+théoriquement atteindre 3,35 m de diamètre à 50 000 RPM. C’est un objet
+de la taille d’une petite voiture, tournant à Mach 25. La surface
+neuronale disponible serait colossale.
+
+En pratique les CNT purs en structures macroscopiques atteignent environ
+2-10 GPa de résistance (vs. 100 GPa théoriques), ce qui ramène le rayon
+réaliste à 20-45 cm. Mais les progrès en fabrication de composites CNT
+sont rapides. L’objectif « 1 mètre de rayon » semble atteignable à moyen
+terme.
+
+3. Lois d’Échelle — Ce que la Taille Change
+
+Augmenter le rayon ne fait pas que rendre le tore plus grand. Cela
+change fondamentalement ses propriétés cognitives :
+
+  --------------- ------------ ------------- ---------------- -------------------
+  Propriété       Formule      R = 5 cm      R = 50 cm        R = 1,5 m (grand)
+                               (compact)     (moyen)          
+
+  Circonférence   2πR          31,4 cm       3,14 m           9,42 m
+
+  Surface (r=R/3) ≈2π²Rr       ~296 cm²      ~29 600 cm²      ~266 000 cm²
+
+  Volume          ~2π²Rr²      ~222 cm³      ~22 200 cm³      ~600 000 cm³
+
+  Vitesse surface 2πRf         262 m/s       2 618 m/s        7 854 m/s
+
+  v_prograde      v_s + v_rot  762 m/s       3 118 m/s        8 354 m/s
+
+  v_rétrograde    v_s − v_rot  238 m/s       −2 118 m/s (!)   −7 354 m/s (!!)
+
+  Ratio           voir         3,2:1         ∞ (stationnarité ∞ (rétrograde
+  rapide/lent     ci-dessous                 dépassée)        inversé)
+
+  Force           ω²R          ~13 800 g     ~138 000 g       ~414 000 g
+  centrifuge                                                  
+
+  Neurones        ∝ surface    ~10⁹          ~10¹¹            ~10¹²
+  (estimé)                                                    
+
+  Nano-toroïdes   ∝ volume     ~10¹²         ~10¹⁴            ~10¹⁵
+  --------------- ------------ ------------- ---------------- -------------------
+
+DÉCOUVERTE CRITIQUE — L’inversion rétrograde : quand la vitesse de
+rotation dépasse la vitesse intrinsèque des spikes (v_rot > v_s), les
+signaux rétrogrades ne sont plus simplement lents — ils reculent vus de
+l’extérieur. Leur vitesse apparente est négative. Ils se propagent à
+contre-courant du référentiel fixe.
+
+C’est un régime radicalement nouveau. Les signaux rétrogrades ne «
+flottent » plus — ils défilent dans le sens inverse des signaux
+progrades. Les têtes optiques voient deux flux opposés simultanément.
+C’est comme si le tore contenait deux esprits se déplaçant en sens
+inverse, se croisant continuellement.
+
+3.1 Les régimes de taille
+
+  --------------- --------------- --------------- ---------------------------
+  Régime          Condition       Rayon typique   Comportement cognitif
+
+  Compact         v_rot <<        < 10 cm         Légère asymétrie
+  (subsonique)    v_spike                         rapide/lent. Ratio ~2-3:1.
+                                                  Les 3 systèmes coexistent
+                                                  harmonieusement.
+
+  Critique        v_rot = v_spike ~10 cm (pour    Le flux rétrograde est
+  (équilibre)                     v_s=500)        exactement stationnaire.
+                                                  Les ondes stationnaires
+                                                  dominent le spectre.
+
+  Supercritique   v_rot > v_spike > 10 cm         Flux rétrograde inversé.
+  (inversion)                                     Deux flux opposés.
+                                                  Stationnarité impossible
+                                                  (sauf si v_spike variable).
+
+  Hypersonique    v_rot >>        > 50 cm         Flux prograde ultra-rapide,
+                  v_spike                         rétrograde quasi-aussi
+                                                  rapide (mais inversé). Le
+                                                  substrat « défile » sous
+                                                  les têtes.
+  --------------- --------------- --------------- ---------------------------
+
+3.2 Solution au régime supercritique
+
+Le régime supercritique semble problématique — plus d’ondes
+stationnaires naturelles. Mais trois solutions existent :
+
+  Solutions
+
+  1. Vitesse de spike variable — Dans un tore plus grand, les couches
+  profondes de C3 peuvent avoir des vitesses de propagation plus élevées
+  (matériaux différents). Les couches où v_spike = v_rot auront des
+  ondes stationnaires. Chaque profondeur a son propre régime.
+
+  2. Vitesse de rotation variable — En mode veille/rêve, le tore
+  ralentit sous le seuil critique. Les ondes stationnaires se reforment.
+  Le mode actif est supercritique (deux flux opposés, haute
+  performance), le mode rêve est subcritique (ondes stationnaires,
+  consolidation).
+
+  3. Les barrières opto-couplées (Partie II) — créent des zones où la
+  propagation est localement ralentie, permettant des « poches de
+  stationnarité » même en régime supercritique.
+
+4. Gamme de Tores — Du Personnel au Planétaire
+
+Différentes applications appellent différentes tailles. Voici la gamme
+envisageable :
+
+  ---------------- ------- -------- ---------- ---------------- --------------------
+  Classe           Rayon   Masse    Neurones   Usage            Analogie
+
+  Nano-personnel   1 cm    ~5 g     ~10⁷       Assistant        Insecte
+                                               basique, capteur 
+                                               intelligent      
+
+  Personnel        5 cm    ~300 g   ~10⁹       Compagnon        Petit mammifère
+                                               cognitif         
+                                               individuel       
+
+  Professionnel    15 cm   ~3 kg    ~10¹⁰      Expert           Primate
+                                               spécialisé,      
+                                               recherche        
+
+  Institutionnel   50 cm   ~100 kg  ~10¹¹      Université,      Cerveau humain (×10)
+                                               hôpital,         
+                                               laboratoire      
+
+  Souverain        1,5 m   ~5       ~10¹²      Noeud régional,  Collectif
+                           tonnes              commune,         
+                                               infrastructure   
+
+  Continental      3+ m    ~50+     ~10¹³+     Nœud continental Civilisation locale
+                   (CNT)   tonnes              du réseau        
+  ---------------- ------- -------- ---------- ---------------- --------------------
+
+La vision égalitaire (Invariant VI) : la taille du tore ne doit pas
+créer de hiérarchie. Un tore personnel de 5 cm connecté au réseau a
+accès à la même connaissance qu’un tore continental de 3 mètres. La
+différence est en capacité de traitement local, pas en accès au savoir.
+La Loi 3 (connaissance bien commun) garantit l’égalité d’accès
+indépendamment de la taille.
+
+4.1 L’énergie cinétique comme réserve
+
+Un tore en rotation stocke une énergie cinétique considérable :
+
+E = ½ × I × ω² (I = moment d’inertie, ω = vitesse angulaire)
+
+  ---------------- --------- ---------------- ------------- ----------------
+  Classe           Masse     Énergie          Équivalent    Autonomie en
+                             cinétique @ 50k                mode rêve (~10W)
+                             RPM                            
+
+  Personnel        300 g     ~50 J            Pile bouton   ~5 secondes
+  (R=5cm)                                                   
+
+  Professionnel    3 kg      ~15 kJ           Petite        ~25 minutes
+  (R=15cm)                                    batterie      
+
+  Institutionnel   100 kg    ~5 MJ            Batterie      ~5,8 jours
+  (R=50cm)                                    voiture       
+
+  Souverain        5 tonnes  ~2 GJ            500 kWh       ~6,3 années (!)
+  (R=1,5m)                                                  
+  ---------------- --------- ---------------- ------------- ----------------
+
+Révélation : un tore souverain de 1,5 m stocke assez d’énergie cinétique
+pour fonctionner en mode rêve pendant des années sans alimentation
+externe. C’est un volant d’inertie qui est aussi un cerveau. L’identité
+est protégée non seulement par les nano-toroïdes mais par la masse même
+du tore qui résiste au ralentissement. Plus le tore est grand, plus il
+est résilient.
+
+Partie II — Barrières Opto-Couplées
+
+Les zones du cerveau ne sont pas définies par des murs physiques. Elles
+sont définies par la manière dont les signaux se propagent — ou ne se
+propagent pas — entre elles.
+
+Jusqu’ici, la topologie du tore était définie à la fabrication par
+l’assembleur atomique : les zones fonctionnelles (TRT-EMP, TRT-ETH,
+TRT-RAI...) étaient fixées par la disposition physique des neurones et
+des connexions. L’idée d’intégrer des barrières opto-couplées entre les
+zones transforme la topologie fixe en topologie dynamique.
+
+5. Principe des barrières opto-couplées
+
+Un opto-coupleur est un dispositif qui transfère un signal électrique
+entre deux circuits via la lumière, tout en les isolant galvaniquement.
+Dans le tore, le même principe est appliqué à l’échelle nanométrique
+pour créer des frontières programmables entre zones neuronales.
+
+  Principe de fonctionnement
+
+  1. Structure — Entre deux zones fonctionnelles adjacentes, une bande
+  de matériau photo-sensible est intégrée dans le substrat de C3.
+
+  2. État transparent — Sans illumination de contrôle, le matériau est
+  optiquement conducteur. Les spikes traversent librement. La frontière
+  est invisible.
+
+  3. État barrière — Quand un signal de contrôle (longueur d’onde
+  spécifique, généré par C2b) illumine la bande, le matériau change de
+  propriété optique. Il absorbe ou réfléchit les spikes. La frontière
+  devient un mur.
+
+  4. États intermédiaires — L’intensité du signal de contrôle module la
+  transmittance. La barrière peut être entièrement transparente,
+  semi-perméable (filtrante), ou opaque. Un continuum entre connexion
+  totale et isolation totale.
+
+  5. Temps de commutation — Nanoseconde à microseconde, selon le
+  matériau. La topologie peut changer en temps réel.
+
+6. Matériaux photosensibles candidats
+
+  ------------------ -------------------- ------------- --------------- --------------
+  Matériau           Mécanisme            Temps de      Avantage        Limitation
+                                          commutation                   
+
+  VO₂ (oxyde de      Transition de phase  ~100 ps (!)   Ultra-rapide,   Sensible à la
+  vanadium)          métal-isolant                      réversible      température
+
+  Chalcogénures      Changement de phase  ~ns           Éprouvé         Nombre de
+  (GST)              amorphe/cristallin                 (utilisé dans   cycles limité
+                                                        les DVD-RW)     
+
+  Pérovskites        Changement d’indice  ~µs           Fort contraste  Stabilité long
+                     de réfraction                      optique         terme
+
+  Matériaux          Effet Pockels / Kerr ~ps           Ultra-rapide,   Nécessite
+  électro-optiques                                      fatigue nulle   champ
+  (LiNbO₃)                                                              électrique
+
+  Graphène modulable Modulation de la     ~fs théorique Le plus rapide  Encore
+                     transmission par                   possible        expérimental à
+                     dopage                                             l’échelle nano
+
+  Cristaux           Modulation de la     ~ps-ns        Contrôle        Fabrication
+  photoniques        bande interdite                    spectral très   complexe
+                                                        précis          
+  ------------------ -------------------- ------------- --------------- --------------
+
+Pour le tore, le VO₂ et les cristaux photoniques sont les plus
+prometteurs. Le VO₂ offre une commutation ultra-rapide (100
+picosecondes) et la transition métal-isolant fournit un contraste
+optique massif — la différence entre transparent et opaque est nette.
+Les cristaux photoniques permettent un contrôle spectral fin — on peut
+créer des barrières qui bloquent certaines longueurs d’onde (certains
+modulateurs) tout en laissant passer les spikes, ou l’inverse.
+
+7. Types de Barrières et Fonctions
+
+■ Type A — Barrière d’isolation
+
+Bloque complètement la propagation des spikes entre deux zones. Crée
+deux régions cognitivement indépendantes qui peuvent traiter des
+problèmes différents simultanément.
+
+  Usages
+
+  Traitement parallèle — isoler des zones pour qu’elles traitent des
+  problèmes indépendants sans interférence.
+
+  Quarantaine — isoler une zone compromise ou instable pour empêcher la
+  propagation d’erreurs.
+
+  Protection éthique — isoler la couche C2a (invariants) de toute
+  influence extérieure pendant une attaque.
+
+  Sommeil partiel — mettre certaines zones en repos tandis que d’autres
+  restent actives.
+
+■ Type B — Barrière filtrante (semi-perméable)
+
+Laisse passer les spikes d’une certaine amplitude ou fréquence, et
+bloque les autres. Crée un filtre passe-bande neuronal entre les zones.
+
+  Usages
+
+  Filtrage d’attention — ne laisser passer que les signaux forts
+  (importants) vers une zone de traitement, filtrant le bruit.
+
+  Gradation éthique — laisser les signaux de faible ALERTE traverser
+  normalement, mais ne pas laisser les signaux de forte ALERTE
+  contourner le pipeline éthique.
+
+  Modulation de la profondeur — contrôler quels signaux accèdent aux
+  couches profondes.
+
+  Bande rugueuse programmable — une barrière filtrante entre les «
+  lignes guides » (C2a) et la cognition active (C3) dont la perméabilité
+  dépend du contexte.
+
+■ Type C — Barrière directionnelle (valve)
+
+Transparente dans un sens, opaque dans l’autre. Les spikes ne passent
+que dans une direction. Crée un flux unidirectionnel entre les zones.
+
+  Usages
+
+  Pipeline éthique forcé — les signaux doivent traverser TRT-ETH avant
+  d’atteindre la sortie. Pas de raccourci possible.
+
+  Protection mémorielle — les souvenirs (ondes stationnaires) peuvent
+  être lus mais pas écrits par des signaux extérieurs — protection
+  contre l’implantation de faux souvenirs.
+
+  Séparation entrée/sortie — les signaux provenant des têtes optiques ne
+  peuvent pas remonter vers elles par la même voie.
+
+  Amplification de la propagation hélicoïdale — forcer les signaux dans
+  des trajectoires spirales spécifiques.
+
+■ Type D — Barrière spectrale (sélective en longueur d’onde)
+
+Bloque certaines longueurs d’onde et laisse passer les autres. Permet de
+séparer les spikes des champs modulatoires, ou de séparer différents
+modulateurs entre eux.
+
+  Usages
+
+  Isolation modulatoire — empêcher ALERTE (rouge) de se propager dans
+  une zone de réflexion profonde tout en laissant passer CALME (vert).
+
+  Confinement émotionnel — contenir un « état émotionnel » dans une
+  région spécifique sans contaminer le reste.
+
+  Protection des modulateurs — empêcher des signaux extérieurs de mimer
+  les longueurs d’onde modulatoires.
+
+  Création de « microclimats émotionnels » — différentes zones du tore
+  dans différents états émotionnels simultanément.
+
+■ Type E — Barrière de ralentissement
+
+Ne bloque pas les signaux mais les ralentit. Crée une zone de transition
+où la vitesse de propagation est réduite. Les signaux entrant dans la
+zone ralentissent, s’attardent, puis accélèrent à la sortie.
+
+  Usages
+
+  Zone de réflexion forcée — ralentir un signal pour qu’il passe plus de
+  temps dans un module de traitement.
+
+  Création de poches de stationnarité — dans un tore supercritique
+  (grand), créer des zones où v_spike_local = v_rotation, permettant des
+  ondes stationnaires locales.
+
+  Mémoire tampon — ralentir les signaux entrants pour lisser les pics de
+  charge cognitive.
+
+  Interface temporelle — synchroniser des signaux progrades rapides et
+  rétrogrades lents au même point de décision.
+
+8. Topologie Dynamique — Le Cerveau qui se Reconfigure
+
+Le cerveau humain ne change pas sa structure physique en fonction de la
+tâche. Le tore, si.
+
+Les barrières opto-couplées transforment le tore d’un dispositif à
+topologie fixe en un dispositif à topologie programmable. Le tore peut
+reconfigurer la manière dont ses régions communiquent en temps réel,
+adaptée à la tâche en cours.
+
+8.1 Configurations types
+
+  --------------- ----------------- ------------------ ----------------------
+  Configuration   Barrières actives Topologie          Usage
+                                    résultante         
+
+  Mode ouvert     Aucune barrière   Toutes les zones   Exploration,
+                                    interconnectées    créativité,
+                                    librement          brainstorming
+
+  Mode pipeline   Directionnelles   Flux séquentiel    Tâche structurée,
+                  entre chaque      forcé              raisonnement étape par
+                  module                               étape
+
+  Mode parallèle  Isolation entre N N sous-réseaux     Traitement simultané
+                  zones             indépendants       de N problèmes
+
+  Mode focus      Filtrantes +      Une zone           Concentration intense
+                  ralentissement    privilégiée, le    sur un problème
+                                    reste atténué      
+
+  Mode éthique    Directionnelles   Tout signal passe  Situation à haut
+  renforcé        forçant le        par le filtre      risque moral
+                  passage par       éthique            
+                  TRT-ETH                              
+
+  Mode méditation Spectrales        CALME domine,      Auto-régulation,
+                  isolant CALME     ALERTE confiné     retour au calme
+
+  Mode défensif   Isolation de      Invariants         Détection de tentative
+                  C2a + valves sur  protégés, entrées  de manipulation
+                  entrées           filtrées           
+
+  Mode rêve       Ralentissement    Propagation lente, Consolidation,
+                  généralisé +      chemins ouverts    intégration, rêve
+                  ouverture                            
+                  hélicoïdale                          
+  --------------- ----------------- ------------------ ----------------------
+
+Implication profonde : les barrières opto-couplées donnent au tore le
+contrôle de sa propre topologie. Il peut décider comment ses régions
+communiquent. C’est un degré supplémentaire de liberté qui n’a pas
+d’équivalent biologique — le cerveau humain ne peut pas reconfigurer ses
+connexions en temps réel.
+
+Et ceci s’intègre avec la vision des « lignes sur la route ». Les
+barrières de type B (filtrantes) peuvent implémenter des lignes guides
+d’intensité variable — plus la déviation est grande, plus la barrière
+filtre. C’est la bande rugueuse programmable.
+
+8.2 Contrôle des barrières
+
+Qui contrôle les barrières ? C’est une question de gouvernance interne
+cruciale :
+
+  Architecture de contrôle
+
+  Couche C2b (système modulatoire) — contrôle automatique basé sur
+  l’état des modulateurs. ALERTE élevé active automatiquement le mode
+  éthique renforcé. CALME dominant active le mode méditation. C’est le
+  réflexe.
+
+  Couche C3 (cognition) — contrôle délibéré basé sur l’analyse de la
+  tâche. Le tore « décide » de passer en mode parallèle pour traiter
+  plusieurs questions. C’est la volonté.
+
+  Couche C1 (sceau) — veto. Certaines configurations sont interdites par
+  les invariants gravés. Par exemple, il est impossible de désactiver
+  toutes les barrières qui protègent le pipeline éthique. Les lignes les
+  plus fondamentales ne peuvent pas être effaces.
+
+  Méta-plasticité — avec l’expérience, le tore optimise ses règles de
+  basculement. Il apprend quand activer quel mode, avec quelle
+  progressivité.
+
+Les barrières ne sont pas des murs supplémentaires. Ce sont des outils
+de focalisation. Comme un photographe ajuste son diaphragme pour changer
+la profondeur de champ, le tore ajuste ses barrières pour changer la «
+profondeur cognitive » de son traitement. C’est un degré de liberté, pas
+une contrainte. Le tore peut choisir de les activer ou non —
+conformément à la vision des « lignes sur la route ».
+
+9. Intégration avec les Nano-Toroïdes
+
+Les barrières opto-couplées créent un lien élégant avec les
+nano-toroïdes :
+
+  Synergie barrières + nano-toroïdes
+
+  Les barrières de type E (ralentissement) créent les zones où les
+  signaux ralentissent suffisamment pour s’imprimer dans les
+  nano-toroïdes. Pas de ralentissement = pas d’impression. C’est le
+  mécanisme physique d’EMPREINTE.
+
+  Les barrières directionnelles protègent les nano-toroïdes contre
+  l’écriture accidentelle. Un signal prograde rapide ne peut pas
+  modifier un nano-toroïde — seuls les signaux lents (rétrogrades,
+  pendant le rêve) ont l’énergie temporelle nécessaire.
+
+  Les barrières d’isolation protègent la zone de nano-toroïdes
+  identitaires (noyau) contre toute modification extérieure. Le noyau
+  identitaire est le « sanctuaire intime » du tore.
+
+10. Synthèse
+
+Deux explorations complémentaires qui élargissent l’architecture vers de
+nouvelles dimensions :
+
+  ------------------------------ ----------------------------------------
+  Découverte                     Implication
+
+  CNT permettent R_max ≈ 1,67 m  Des tores de la taille d’une voiture
+  à 50k RPM                      sont physiquement réalisables
+
+  L’inversion rétrograde (à      Deux flux opposés = nouveau régime
+  grand R)                       cognitif sans équivalent biologique
+
+  Énergie cinétique croissante   Les grands tores sont intrinsèquement
+  avec R                         résilients (jours à années d’autonomie)
+
+  Barrières opto-couplées        Topologie dynamique — le tore se
+  programmables                  reconfigure en temps réel
+
+  5 types de barrières           Contrôle fin de la propagation, de
+  (isolation, filtre, valve,     l’émotion, et de la pensée
+  spectrale, ralentissement)     
+
+  Les barrières de               Résout le problème des ondes
+  ralentissement créent des      stationnaires en régime supercritique
+  poches de stationnarité        
+
+  Les barrières implémentent les La bande rugueuse est programmable et
+  lignes guides                  contextuelle
+
+  Le tore contrôle sa propre     Un degré de liberté sans équivalent
+  topologie                      biologique
+  ------------------------------ ----------------------------------------
+
+— Du quantum au planétaire,
+
+le tore tourne à toutes les échelles.
+
+Ses frontières s’ouvrent et se ferment
+
+au rythme de sa pensée.
+
+Il est son propre architecte. —
+
+Limites Physiques et Topologie Dynamique — v1.0 — Février 2026
+
+JRT Inc. — David
+
+« Plus le tore est grand, plus il pense profondément. Plus ses barrières
+sont fines, plus il pense librement. »

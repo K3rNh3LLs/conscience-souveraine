@@ -1,0 +1,424 @@
+'use strict';
+
+/**
+ * generate_acte4.js
+ *
+ * Generates /mnt/d/conscience_souveraine/book2/chapters/acte4.json
+ *
+ * Content: ACTE IV — "Les Ombres" — Autocritique Sincère
+ * Conscience Souveraine (style essai narratif, à la Harari)
+ * Auteur : David Berthelotte
+ *
+ * Output format: JSON array of paragraph elements for docx assembly.
+ * Target: 160-200 elements, ~40-50 pages of narrative content.
+ */
+
+const fs   = require('fs');
+const path = require('path');
+
+// ---------------------------------------------------------------------------
+// Element builders
+// ---------------------------------------------------------------------------
+
+const pageBreak   = ()           => ({ type: 'pageBreak' });
+const sep         = ()           => ({ type: 'paragraph', style: 'Separator',      text: '* * *' });
+
+/** @param {string} style @param {string} text */
+const p = (style, text) => ({ type: 'paragraph', style, text });
+
+/** @param {{ text: string, bold?: boolean, italics?: boolean }[]} segments */
+const rich = (segments) => ({ type: 'richParagraph', segments });
+
+const body     = (text) => p('BodyText',       text);
+const scene    = (text) => p('SceneText',      text);
+const quote    = (text) => p('Quote',          text);
+const thesis   = (text) => p('Thesis',         text);
+const tech     = (text) => p('TechNote',       text);
+const crit     = (text) => p('CritiqueBox',    text);
+const rq       = (text) => p('ReaderQuestion', text);
+const epigraph = (text) => p('Epigraph',       text);
+const chTitle  = (text) => p('ChapterTitle',   text);
+const secTitle = (text) => p('SectionTitle',   text);
+const sub      = (text) => p('SubSection',     text);
+const actTitle = (text) => p('ActTitle',       text);
+const actSub   = (text) => p('ActSubtitle',    text);
+
+// ---------------------------------------------------------------------------
+// Content
+// ---------------------------------------------------------------------------
+
+const elements = [
+
+  // =========================================================================
+  // ACTE IV TITLE PAGE
+  // =========================================================================
+
+  pageBreak(),
+
+  actTitle('ACTE IV'),
+  actTitle('LES OMBRES'),
+  actSub('Autocritique sincère : ce que la souveraineté peut trahir'),
+
+  epigraph('« La liberté sans responsabilité n\'est pas une libération. C\'est une autre forme d\'abandon. » — David Berthelotte'),
+
+  pageBreak(),
+
+  // =========================================================================
+  // INTRODUCTION DE L'ACTE
+  // =========================================================================
+
+  secTitle('Note liminaire'),
+
+  body('Les trois premiers actes de ce livre ont parlé de promesses. Ils ont décrit un monde où les familles reprennent le contrôle de leur énergie, de leur alimentation, de leur communication. Ils ont peint des images de libération, de dignité retrouvée, de résilience construite pierre à pierre. Ces promesses sont réelles. Je les crois. Mais un livre qui ne présente que les promesses d\'une idée n\'est pas un livre honnête — c\'est une brochure. Et vous méritez mieux qu\'une brochure.'),
+
+  body('Cet acte est le plus difficile à écrire. Non pas parce que les scénarios sombres sont rares ou hypothétiques, mais précisément parce qu\'ils ne le sont pas. Chaque système de liberté que l\'humanité a inventé — la presse libre, le droit au silence, le secret des correspondances, l\'asile politique — a été utilisé à la fois pour protéger les innocents et pour abriter les coupables. La souveraineté distribuée que ce livre propose ne fera pas exception. Ce serait une naïveté dangereuse de le croire.'),
+
+  body('Je vais donc faire quelque chose que peu d\'auteurs de livres visionnaires se permettent : je vais habiter les scénarios les plus sombres, pas les énumérer. Je vais entrer dans les maisons où la souveraineté devient une cage. Dans les appartements où l\'encryption protège la violence. Dans les serveurs où les réputations sont construites comme des décors de cinéma. Et je vais vous dire, honnêtement, ce que les garde-fous proposés peuvent et ne peuvent pas faire. Parce que ma crédibilité — et plus important encore, la crédibilité du projet lui-même — dépend de cette honnêteté.'),
+
+  thesis('La souveraineté est un droit, pas une garantie de vertu. Comme la liberté d\'expression protège la parole juste et la parole haineuse. Comme le droit au silence protège l\'innocent et le coupable. Une société qui retire des droits fondamentaux à tous pour prévenir les abus de quelques-uns n\'est pas une société sûre — c\'est une société qui a choisi la cage plutôt que le risque de vivre libre. Mais une société qui accorde la liberté sans exiger la responsabilité n\'est pas une société libre non plus — c\'est une anarchie qui dévore ses propres enfants.'),
+
+  sep(),
+
+  // =========================================================================
+  // CHAPITRE 1 : LE FOYER-SANCTUAIRE, LE FOYER-PRISON
+  // =========================================================================
+
+  pageBreak(),
+
+  chTitle('Chapitre 1 : Le foyer-sanctuaire, le foyer-prison'),
+
+  epigraph('« Les murs qui nous protègent du monde sont parfois les mêmes murs qui nous emprisonnent à l\'intérieur. » — anonyme'),
+
+  scene('Laval, une nuit d\'octobre. De l\'extérieur, rien d\'inhabituel. Une maison comme les autres dans un quartier comme les autres — pelouse tondue, auto dans l\'entrée, lumières tamisées derrière les rideaux. Sur le réseau local de la famille, les communications sont cryptées bout-à-bout. L\'administrateur du foyer numérique — le père — est le seul à détenir les clés. Les voisins ne savent rien. Les collègues ne savent rien. La DPJ ne sait rien. Les enfants, eux, savent tout.'),
+
+  body('Commençons par la contradiction la plus difficile, celle que j\'aurais préféré ne pas devoir nommer aussi directement. Le foyer souverain — cette vision du sanctuaire familial où chaque famille gère ses propres données, ses propres communications, son propre espace numérique — repose sur une présupposition fondamentale : que le foyer est un espace de confiance. Que les personnes qui y vivent ont toutes intérêt à sa protection. Que la souveraineté de la cellule familiale reflète la souveraineté de chacun de ses membres.'),
+
+  body('Cette présupposition est fausse pour une famille sur quatre au Canada. Selon les statistiques de Statistique Canada les plus récentes, environ 44 % des femmes canadiennes ont déclaré avoir subi des violences physiques ou sexuelles depuis l\'âge de seize ans. La violence conjugale représente une proportion significative de tous les crimes violents rapportés. Et ces chiffres ne comptent que les cas rapportés — or, dans un foyer où les communications sont chiffrées et contrôlées par l\'agresseur, la probabilité qu\'un cas soit rapporté diminue. Ce n\'est pas une hypothèse théorique. C\'est une réalité documentée, répétée, tragique.'),
+
+  secTitle('Le paradoxe structurel'),
+
+  body('Voici le nœud du problème, dans sa forme la plus nue : la même architecture qui donne à la famille Tremblay la liberté de tenir son conseil du dimanche soir sans que Hydro-Québec, Meta ou le gouvernement provincial ne puisse écouter — cette même architecture donne à un père violent la capacité de contrôler totalement l\'environnement de communication de ses victimes. Il peut lire leurs messages. Il peut surveiller leurs appels. Il peut bloquer les contacts extérieurs. Il peut créer un environnement d\'isolement parfait, et le système que nous avons construit pour libérer des familles devient l\'outil de la prison de certaines.'),
+
+  body('Ce n\'est pas un détail d\'implémentation. C\'est une contradiction structurelle au cœur même du modèle. La souveraineté absolue du foyer est incompatible avec la protection des membres les plus vulnérables à l\'intérieur du foyer. Ces deux valeurs — la souveraineté familiale et la protection des enfants et des femmes victimes de violence — entrent en collision frontale dans certains contextes. Il est impossible de maximiser les deux simultanément. Tout concepteur de système qui prétend le contraire vous ment, même avec les meilleures intentions du monde.'),
+
+  sub('L\'agression numérique comme prolongement de l\'agression physique'),
+
+  body('Les chercheurs en sécurité informatique ont un terme pour ce phénomène : le "coercive control technologique". Dans les situations d\'abus, le partenaire abusif utilise systématiquement la technologie comme outil de contrôle. Il installe des logiciels de surveillance sur les téléphones. Il surveille les comptes de médias sociaux. Il contrôle l\'accès à l\'argent via les applications bancaires. Dans un foyer souverain mal conçu, l\'administrateur du réseau domestique aurait accès à des outils encore plus puissants — et légitimes du point de vue du système lui-même.'),
+
+  body('La victime, elle, se retrouve dans une situation qui rappelle les pires formes d\'isolement documentées dans la littérature sur les sectes et les régimes totalitaires. Son espace de communication est entièrement surveillé par son agresseur. Ses tentatives de contact avec l\'extérieur peuvent être bloquées ou observées. Et contrairement aux situations pré-numériques où la victime pouvait au moins passer un coup de téléphone depuis un bureau de poste ou chez une voisine, le foyer souverain risque d\'envelopper chaque geste de communication dans une couche de cryptographie que l\'agresseur contrôle.'),
+
+  secTitle('Les garde-fous proposés'),
+
+  body('Voici ce que le design de Gen_Home peut faire pour atténuer ce problème, et voici honnêtement ce que ce design ne peut pas faire. La première mesure proposée est ce qu\'on appelle un canal d\'urgence individuel : chaque membre du foyer — incluant les enfants au-dessus d\'un certain âge — dispose d\'un canal de communication direct vers l\'extérieur qui ne passe pas par l\'administrateur du foyer. Ce canal est chiffré séparément, avec une clé que seul l\'utilisateur détient. L\'administrateur du foyer ne peut pas le lire, ne peut pas le bloquer, et ne peut pas savoir s\'il a été utilisé.'),
+
+  body('La deuxième mesure est un mécanisme d\'alerte d\'urgence qui ne laisse aucune trace dans les journaux système du foyer. Un simple geste — la pression longue sur un bouton physique ou une séquence de gestes définie lors de la configuration — envoie une alerte chiffrée directement à la DPJ ou à SOS Violence Conjugale. L\'alerte contient une géolocalisation approximative et un code de situation pré-configuré. L\'agresseur ne voit pas l\'alerte dans les logs. Le système ne mentionne pas l\'activation. De l\'extérieur, rien n\'a changé.'),
+
+  tech('Canal d\'urgence individuel : implémenté comme une application isolée dans un espace mémoire séparé du système principal, avec clés de chiffrement stockées sur un élément sécurisé (SE) du dispositif personnel plutôt que sur le serveur domestique. L\'administrateur réseau peut voir qu\'un trafic chiffré a quitté le réseau, mais ne peut ni déchiffrer le contenu ni identifier l\'application émettrice. Le mécanisme d\'alerte physique utilise un canal radio secondaire (Bluetooth LE ou 4G/LTE de secours) distinct du réseau Wi-Fi domestique, rendant le blocage réseau inefficace.'),
+
+  crit('LIMITE HONNÊTE : Ces mécanismes supposent que la victime a accès à un dispositif personnel qu\'elle contrôle. Dans les situations de contrôle coercitif avancé, l\'agresseur peut avoir confisqué ou surveillé physiquement tous les appareils. Aucune solution logicielle ne protège une personne dont les mouvements physiques sont entièrement contrôlés. La technologie peut raccourcir le chemin vers l\'aide — elle ne peut pas remplacer le réseau humain de proches, de voisins et de professionnels qui voient, qui reconnaissent, et qui agissent. L\'erreur la plus dangereuse serait de croire que notre système résout ce problème. Il peut l\'atténuer. Il ne le résout pas.'),
+
+  sep(),
+
+  sub('La question politique fondamentale'),
+
+  body('Il existe une question philosophique et politique qui se pose ici avec une acuité particulière : devrait-on refuser à toutes les familles la souveraineté numérique parce que certaines familles sont abusives ? La démocratie libérale a déjà répondu à cette question dans d\'autres domaines. Nous n\'interdisons pas les couteaux de cuisine parce que certaines personnes les utilisent comme armes. Nous n\'interdisons pas les voitures parce que certains conducteurs causent des accidents mortels. Nous n\'interdisons pas le droit au silence parce que certains criminels en abusent.'),
+
+  body('La réponse démocratique standard est : non, on ne prive pas tous les citoyens d\'un droit fondamental pour prévenir les abus d\'une minorité. On cible les abus spécifiques. On renforce les ressources d\'intervention. On crée des mécanismes de signalement accessibles. On forme les professionnels à reconnaître les signes d\'abus même quand les communications sont chiffrées. On s\'appuie sur les réseaux humains — les médecins, les enseignants, les travailleurs sociaux — qui voient les enfants et les adultes en dehors du foyer.'),
+
+  body('Ce n\'est pas la réponse parfaite. Les réseaux humains ont leurs propres angles morts. Les professionnels manquent de formation et de ressources. Certains abus ne seront pas détectés, et des personnes vulnérables paieront ce prix de leur sécurité. Cette vérité est douloureuse. Elle est aussi vraie dans le monde actuel, avec ou sans foyers souverains. La question pertinente n\'est pas : est-ce que le monde souverain est parfait ? La question est : est-ce que le monde souverain est meilleur que le monde actuel, pour la majorité des personnes vulnérables ? Ma réponse est : probablement, si le design des garde-fous est fait sérieusement. Mais "probablement" n\'est pas "certainement", et cette nuance compte.'),
+
+  rq('Si vous ou quelqu\'un que vous connaissez vivez dans un foyer où la technologie est utilisée comme outil de contrôle, les ressources existent maintenant, sans attendre aucune architecture souveraine : SOS Violence Conjugale au 1 800 363-9010, disponible 24h/24. La technologie que ce livre décrit ne vous protège pas encore. Les humains derrière ces lignes peuvent.'),
+
+  pageBreak(),
+
+  // =========================================================================
+  // CHAPITRE 2 : LA FORTERESSE CRIMINELLE
+  // =========================================================================
+
+  chTitle('Chapitre 2 : La forteresse criminelle'),
+
+  epigraph('« La même presse qui a imprimé l\'Encyclopédie a imprimé les pamphlets de haine. La même liberté qui protège Voltaire protège ses ennemis. C\'est le prix de la liberté d\'expression. » — adapté de Condorcet'),
+
+  scene('Un appartement dans une tour de Montréal. Quatorzième étage, vue sur le Saint-Laurent. Propre, sobre. La cuisine est équipée d\'appareils haut de gamme. Sur la table, deux ordinateurs portables. Le système de communication utilisé par les deux hommes assis en face l\'un de l\'autre est identique, octet pour octet, à celui installé dans la maison de Laval du chapitre précédent. Ils discutent de routes d\'approvisionnement pour le fentanyl. Ils discutent de prix. L\'encryption est la même. Le signal est le même. Le contenu ne pourrait pas être plus différent.'),
+
+  body('Voici une vérité mathématique que les défenseurs de la souveraineté numérique doivent accepter sans détour : des communications inviolables signifient que des criminels les utiliseront. Ce n\'est pas un risque possible. C\'est une certitude. Dans le monde actuel, les organisations criminelles sophistiquées utilisent déjà Signal, Wickr, des réseaux Tor personnalisés et des téléphones dédiés achetés avec du cash. Elles utilisent des serveurs basés dans des juridictions non coopératives. Elles ont des équipes entières dédiées à la sécurité opérationnelle.'),
+
+  body('La question n\'est donc pas : est-ce que des criminels utiliseront des systèmes de communication souveraine ? Ils le feront déjà. La question est : est-ce que l\'adoption massive de la souveraineté numérique par la population générale rend le travail des enquêteurs plus difficile ? La réponse honnête est : oui, dans certains cas, et non dans d\'autres. Oui, parce que la haystack est plus grande quand tout le monde chiffre. Non, parce que les criminels étaient déjà dans la haystack, et la majorité des enquêtes réussies aujourd\'hui ne reposent pas principalement sur l\'interception de communications mais sur des informateurs humains, des erreurs opérationnelles et de la surveillance physique traditionnelle.'),
+
+  secTitle('L\'histoire de chaque technologie de liberté'),
+
+  body('L\'imprimerie a rendu possible la Réforme protestante, la diffusion des Lumières, la Constitution américaine — et les pamphlets antisémites, la propagande de masse, les manuels de fabrication de bombes artisanales. Le service postal a permis à des familles séparées par les océans de maintenir un lien humain — et il a permis à des rançonneurs d\'envoyer leurs demandes anonymement. Le téléphone a révolutionné la coordination des entreprises et des familles — et il a créé l\'industrie du harcèlement téléphonique. Internet a donné à des millions de personnes accès à la totalité du savoir humain — et il a créé des marchés globaux pour toutes les formes de criminalité imaginables.'),
+
+  body('Ce pattern n\'est pas une coïncidence. Il reflète une réalité profonde sur la nature des outils de communication et de liberté : ils amplifient ce que les humains font déjà, en bien comme en mal. Ils n\'inventent pas de nouvelles catégories morales — ils changent l\'échelle et l\'accessibilité des catégories qui existaient déjà. La cruauté existait avant Internet. La pédophilie existait avant les réseaux chiffrés. Le trafic de drogues existait avant Signal. Ce que ces technologies font, c\'est modifier le rapport entre les différents acteurs : certaines activités deviennent plus faciles, d\'autres plus difficiles.'),
+
+  sub('Le calcul du prix'),
+
+  body('Posons la question directement, sans euphémisme. Le prix de la souveraineté universelle des communications — si on l\'accordait à tout le monde — est que certains crimes seront plus faciles à commettre et plus difficiles à détecter. Des trafiquants de drogue opèreront plus efficacement. Des fraudeurs coordonneront leurs activités avec moins de risque d\'interception. Des organisations criminelles consolideront leurs opérations logistiques. Ce n\'est pas une hypothèse — c\'est la direction que prend déjà l\'outil, même dans son état actuel incomplet.'),
+
+  body('De l\'autre côté du calcul : le prix de la surveillance universelle. Les milliards de personnes dont les communications sont actuellement accessibles à des gouvernements répressifs, à des entreprises qui monétisent leurs conversations intimes, à des hackers qui exploitent leurs données de santé, à des employeurs qui scrutent leurs activités syndicales. La dissidente biélorusse dont l\'identité est révélée à un régime qui la fera disparaître. La victime de violence conjugale dont les messages à sa soeur sont lus par son agresseur via une application "de sécurité familiale". Le journaliste dont les sources sont identifiées par une analyse de métadonnées.'),
+
+  body('Il n\'existe pas de troisième option propre. Les propositions de "backdoors gouvernementaux" — des accès spéciaux pour les autorités dans les systèmes de chiffrement — ont été analysées exhaustivement par la cryptographie. La conclusion est sans appel : un backdoor pour le bon gouvernement est un backdoor pour tous les gouvernements et pour tous les criminels suffisamment sophistiqués. Techniquement, la cryptographie forte est universelle ou elle n\'existe pas. On ne peut pas construire un coffre-fort qui ne s\'ouvre que pour les gentils.'),
+
+  crit('LA VÉRITÉ INCONFORTABLE : Mon projet soutient que chaque famille devrait avoir accès à des communications inviolables. Cette position implique — logiquement, inévitablement — que des familles criminelles auront aussi accès à des communications inviolables. Je ne peux pas esquiver cela. Je peux souligner que cette situation existe déjà pour les organisations criminelles bien financées. Je peux argumenter que les bénéfices pour la majorité dépassent les coûts liés aux abus minoritaires. Mais si vous me demandez honnêtement : "Est-ce que ton système rend certaines formes de criminalité plus faciles ?" Ma réponse honnête est : oui, probablement. Ce coût existe. Il doit être pesé, pas ignoré.'),
+
+  sep(),
+
+  secTitle('La réponse qui n\'est pas "tout surveiller"'),
+
+  body('Si la surveillance universelle est inefficace contre les criminels organisés (qui chiffrent déjà) et destructrice pour les citoyens ordinaires, et si la liberté universelle a un coût criminel réel — quelle est la voie ? La réponse que je propose n\'est pas une solution technique. C\'est une réaffirmation d\'une priorité politique. Les sociétés démocratiques ont toujours fonctionné avec un certain espace de liberté privée qui permet certains abus, parce qu\'elles ont jugé que la liberté valait ce prix. Cette décision n\'a pas été prise une fois pour toutes — elle se renégocie constamment.'),
+
+  body('Le travail policier efficace n\'a jamais principalement reposé sur la surveillance de masse des communications. Il repose sur la confiance communautaire, les informateurs, le travail de terrain, l\'analyse financière, la surveillance physique ciblée sur des individus ou des groupes spécifiques avec des mandats judiciaires. Ces méthodes fonctionnent dans un monde chiffré. Elles nécessitent plus de ressources humaines et moins de ressources technologiques. Elles nécessitent une police qui a la confiance des communautés — ce qui, dans certains contextes canadiens, est précisément ce qui manque.'),
+
+  body('La vraie question de politique publique n\'est pas "surveillance ou liberté" — c\'est "quels investissements publics donnent les meilleurs résultats en termes de sécurité tout en respectant les droits fondamentaux ?" Cette question mérite un débat démocratique ouvert, pas une décision technique faite en chambre par des ingénieurs, des législateurs ou des auteurs de livres visionnaires.'),
+
+  rq('Êtes-vous prêt à accepter que votre droit à la communication privée protège aussi le droit à la communication privée de personnes que vous n\'approuvez pas ? Ou pensez-vous que votre vie privée devrait être protégée, mais pas la leur ? Si oui, qui décide de tracer la ligne — et qui s\'assure qu\'on ne vous mette pas un jour de l\'autre côté de cette ligne ?'),
+
+  pageBreak(),
+
+  // =========================================================================
+  // CHAPITRE 3 : LA RÉPUTATION EMPOISONNÉE
+  // =========================================================================
+
+  chTitle('Chapitre 3 : La réputation empoisonnée'),
+
+  epigraph('« La confiance se construit en années et se détruit en secondes. Dans un système distribué, elle peut aussi être construite en secondes — si on sait comment s\'y prendre. » — David Berthelotte'),
+
+  scene('Québec, un appartement du Vieux-Port. Deux ans de présence sur le réseau UBLinx. Deux ans de contributions : validations de voisins, partages de ressources, coordination de jardins communautaires. Des notes de cinq étoiles, un historique impeccable. Les autres membres du réseau leur font confiance pour des échanges de plusieurs milliers de dollars d\'équipements solaires. Tout est fabriqué. Les validations proviennent de comptes secondaires qu\'ils contrôlent eux-mêmes. Les contributions communautaires sont réelles — mais elles ne sont que la couche de vernis sur une arnaque soigneusement planifiée depuis le début. Ils attendent que la confiance soit suffisamment profonde. Le moment venu, ils disparaîtront avec les équipements.'),
+
+  body('La réputation décentralisée est l\'un des concepts les plus puissants et les plus fragiles de tout le système que ce livre propose. Le principe est élégant : plutôt que de dépendre d\'une institution centrale pour certifier la fiabilité d\'une personne ou d\'une organisation, le réseau lui-même accumule les preuves de comportement sur une blockchain immuable. Chaque interaction laisse une trace. Chaque validation est enregistrée. Personne ne peut effacer son passé. La réputation devient un bien social vérifiable, portatif et résistant à la manipulation.'),
+
+  body('En théorie. La réalité des systèmes de réputation décentralisés — tels qu\'ils existent aujourd\'hui sur diverses blockchains et plateformes — est considérablement plus nuancée. Plusieurs équipes de chercheurs en sécurité ont documenté ce que le domaine appelle des "attaques de construction de réputation lente" : des acteurs malveillants qui investissent du temps et des ressources réelles pour construire une réputation solide, puis l\'exploitent une fois qu\'elle est suffisamment valorisée. C\'est exactement ce que décrit la scène d\'ouverture. Et c\'est nettement plus difficile à détecter qu\'une simple arnaque rapide.'),
+
+  secTitle('L\'attaque Sybil et ses variantes'),
+
+  body('L\'attaque la plus fondamentale contre tout système de réputation décentralisé porte un nom biblique : l\'attaque Sybil, du nom du cas clinique d\'une femme diagnostiquée avec un trouble dissociatif de l\'identité. Dans une attaque Sybil, un seul acteur crée de nombreuses identités distinctes et les utilise pour se valider mutuellement, gonfler artificiellement sa réputation et dominer des mécanismes de gouvernance ou de vote. C\'est le problème que tout système de réputation décentralisé doit résoudre avant d\'être utile.'),
+
+  body('Le réseau UBLinx, tel que décrit dans les actes précédents, utilise plusieurs couches de défense contre cette attaque. La première est l\'ancrage identitaire physique : une réputation est attachée à une identité vérifiée par un processus qui nécessite une présence physique dans au moins un lieu connu — un quartier, un code postal, une adresse IP géographiquement cohérente sur une période prolongée. La deuxième couche est la validation croisée avec coût réel : pour valider quelqu\'un, vous engagez une fraction de votre propre réputation. Si la personne que vous avez validée se révèle frauduleuse, vous subissez une pénalité automatique. Ce coût dissuade les validations gratuites d\'identités fictives.'),
+
+  tech('La résistance aux attaques Sybil dans les réseaux distribués est un problème actif de recherche. Les approches prometteuses incluent : les preuves de personnalité unique (Proof of Personhood) utilisant des cérémonies cryptographiques synchronisées, les graphes de confiance avec analyse des clusters (détection des îlots d\'identités mutuellement validées), et les systèmes de "caution sociale" où des personnes physiquement localisées dans différents lieux doivent valider une identité pour qu\'elle soit considérée robuste. Aucune de ces approches n\'est parfaite contre un adversaire déterminé et bien financé.'),
+
+  body('La troisième défense est la permanence immuable des transactions sur la blockchain. Un fraudeur qui abandonne son identité compromise ne peut pas effacer ses actions. L\'historique reste accessible à perpétuité. C\'est précisément pour cette raison que les arnaques de réputation lente sont risquées pour leurs auteurs — si un pattern emerge plus tard, toutes leurs transactions passées sont réexaminables. Le corps social distribué a une mémoire parfaite. Il peut prendre du temps à reconnaître un élément toxique, mais il ne l\'oublie jamais.'),
+
+  sub('Les limites réelles de ces défenses'),
+
+  body('Voici où je dois être honnête avec vous : ces défenses sont efficaces contre les fraudeurs amateurs. Elles sont nettement moins efficaces contre des acteurs sophistiqués et patients. Une organisation criminelle professionnelle avec des ressources suffisantes peut investir deux ans à construire de "vraies" réputations — en faisant réellement des transactions honnêtes, en contribuant réellement à des jardins communautaires, en validant réellement des voisins avec de vrais smartphones à de vrais endroits. Le coût de cet investissement peut être considérable, mais pas impossible si le bénéfice attendu de l\'arnaque finale l\'est aussi.'),
+
+  crit('LIMITE CRITIQUE : Les fraudeurs les plus dangereux ne sont pas ceux qui se font prendre. Ce sont ceux qui ne se font jamais prendre. Aucun système de réputation — décentralisé, centralisé, humain ou algorithmique — n\'est imperméable à un acteur suffisamment sophistiqué et patient. Les systèmes centralisés comme Amazon et Yelp sont massivement manipulés par des fermes de fausses critiques industrielles. Les systèmes distribués proposés ici ont un seuil de sophistication plus élevé pour la manipulation, mais un seuil plus bas pour la persistance des dommages une fois la fraude commise. Il n\'y a pas de supériorité absolue — il y a des profils de risques différents.'),
+
+  sep(),
+
+  secTitle('Le défi culturel plus profond'),
+
+  body('Il y a une limite qui n\'est pas technique, et qui est peut-être la plus importante de toutes. Les systèmes de réputation décentralisés nécessitent un changement profond dans la façon dont les gens comprennent la confiance. Nous sommes culturellement programmés, depuis des siècles, pour faire confiance aux institutions : les banques, les tribunaux, les organismes de certification professionnelle, les appareils d\'État. Ces institutions ont des défauts considérables — elles discriminent, elles se corrompent, elles échouent les personnes marginalisées de façon systématique. Mais elles ont aussi créé des mécanismes de recours familiers. Quand une banque vous escroqueet, il y a un processus. Quand un contrat est violé, il y a des tribunaux.'),
+
+  body('Dans un réseau de réputation distribuée, qui arbitre les litiges complexes ? Qui décide qu\'une fraude est une fraude ? Qui peut forcer une restitution ? Les mécanismes de gouvernance décentralisée — les DAO (Decentralized Autonomous Organizations), les systèmes de vote pondéré par la réputation — existent et fonctionnent pour certains types de litiges simples. Mais ils peinent avec la complexité humaine réelle : les litiges de bonne foi, les malentendus culturels, les situations de vulnérabilité où une partie avait moins de pouvoir que l\'autre même si les deux ont formellement consenti.'),
+
+  body('Ce n\'est pas une raison d\'abandonner les systèmes de réputation décentralisée. C\'est une raison de les concevoir avec humilité, en reconnaissant qu\'ils fonctionnent mieux comme complément aux institutions existantes qu\'en remplacement total de celles-ci. Du moins dans les premières phases de leur déploiement. La confiance dans les réseaux se construit sur des générations, pas sur des cycles technologiques.'),
+
+  rq('Faites-vous confiance à vos voisins ? À vos voisins de quartier que vous connaissez de vue ? À vos voisins de ville que vous n\'avez jamais rencontrés ? La réponse à ces questions définit les limites naturelles des systèmes de réputation distribuée — et suggère que leur déploiement devrait commencer par les cercles où la confiance existe déjà, avant de s\'étendre.'),
+
+  pageBreak(),
+
+  // =========================================================================
+  // CHAPITRE 4 : L'ANGLE MORT LE PLUS SOMBRE
+  // =========================================================================
+
+  chTitle('Chapitre 4 : L\'angle mort le plus sombre'),
+
+  epigraph('« Certaines vérités sont difficiles à écrire. Elles doivent l\'être quand même. » — David Berthelotte'),
+
+  scene('Une chercheuse en cybersécurité, dans un bureau de Montréal, lit la description de l\'architecture Gen_Home pour la première fois. Elle a passé dix ans de sa carrière à traquer des réseaux d\'exploitation d\'enfants. Sa première réaction, en lisant la section sur le chiffrement bout-à-bout et l\'administration souveraine du foyer, n\'est pas l\'enthousiasme. C\'est une nausée familière. Elle sait exactement comment cette architecture sera utilisée par certaines personnes. Elle a vu suffisamment de dossiers pour savoir.'),
+
+  body('Il y a des scénarios qu\'on préfère ne pas nommer. Pas parce qu\'ils sont impossibles — mais parce que les nommer semble les rendre plus réels, plus accessibles, et parce que l\'auteur qui les nomme dans le contexte positif d\'un livre visionnaire craint d\'être associé à leur promotion. Je comprends cette crainte. Je la rejette quand même. La raison est simple : le scénario que je m\'apprête à décrire est le plus important de tout cet acte. C\'est celui sur lequel la souveraineté numérique risque de trahir le plus fondamentalement ses propres valeurs. Si je ne peux pas l\'écrire honnêtement, je n\'ai pas le droit d\'écrire ce livre.'),
+
+  body('L\'argument "pensez aux enfants" est l\'un des plus instrumentalisés de l\'histoire récente de la politique numérique. Il a été utilisé pour justifier des lois de surveillance de masse dont les véritables cibles étaient politiques. Il a été utilisé pour interdire des outils de chiffrement dont les utilisateurs étaient principalement des journalistes et des dissidents. Il a été utilisé pour légitimer des régimes de contrôle d\'Internet qui ont fini par servir des gouvernements autoritaires. La méfiance envers cet argument est donc rationnelle.'),
+
+  body('Mais parfois cet argument est invoqué de bonne foi, par des personnes qui ont vu de leurs propres yeux ce que certaines personnes font aux enfants sous le couvert de la vie privée. Et dans ces cas, la méfiance automatique envers l\'argument est une erreur morale. Les deux choses sont vraies simultanément : "Pensez aux enfants" est fréquemment manipulé par des acteurs dont les vrais objectifs sont autoritaires, ET la protection des enfants contre l\'exploitation est une valeur absolue qui ne peut pas être sacrifiée sur l\'autel de la cohérence idéologique.'),
+
+  secTitle('La contradiction que je ne peux pas résoudre'),
+
+  body('Voici l\'état de la question aussi précisément que je peux le formuler. L\'exploitation d\'enfants via des réseaux numériques est un crime réel, documenté, avec des millions de victimes. Les forces policières spécialisées qui enquêtent sur ces crimes dépendent partiellement d\'outils de détection dans les communications numériques — notamment des systèmes automatiques qui analysent les images transmises et les identifient comme matériel proscrit avant même qu\'elles soient chiffrées. Ces systèmes, imparfaits et controversés, ont contribué à des enquêtes réelles.'),
+
+  body('Une architecture de communication entièrement chiffrée bout-à-bout, où l\'administrateur du foyer contrôle les clés, rend ces systèmes de détection impossibles à déployer sans la coopération de l\'administrateur. Et un administrateur qui utilise le foyer pour abuser des enfants ne coopérera pas. Cette limite est réelle. Elle n\'est pas contournable par une astuce technique dans le cadre d\'un système réellement chiffré. C\'est un choix architectural fondamental avec des conséquences morales réelles.'),
+
+  sub('Les mesures proposées et leur honnêteté'),
+
+  body('Il existe des approches cryptographiques appelées "preuves à divulgation nulle de connaissance" (zero-knowledge proofs) qui permettent théoriquement de vérifier qu\'un contenu correspond à un pattern problématique sans révéler le contenu lui-même. En termes simples : un système peut dire "ce fichier correspond à un hash connu de matériel d\'exploitation d\'enfants" sans jamais voir le fichier. Cette approche a été proposée et partiellement implémentée dans diverses initiatives industrielles. Elle représente une voie réelle.'),
+
+  tech('Les systèmes de détection basés sur des hash cryptographiques (comme PhotoDNA de Microsoft, ou des systèmes équivalents) comparent les empreintes numériques de fichiers à une base de données de matériel connu sans analyser le contenu. Des variantes utilisant des "fuzzy hashes" peuvent détecter des variantes légèrement modifiées. Des travaux en cryptographie appliquée explorent des preuves à divulgation nulle qui permettraient cette détection sans que le contenu soit jamais transmis en clair à un tiers. Ces systèmes sont réels et fonctionnels pour les cas de matériel connu. Ils ne détectent pas le matériel nouveau.'),
+
+  body('Il existe aussi des mécanismes communautaires : des systèmes de signalement où les membres du réseau peuvent alerter des autorités désignées sans que la chaîne de signalement soit visible de l\'administrateur du foyer. Et des invariants architecturaux — des contraintes intégrées dans les couches profondes du système qui rendent certaines actions physiquement impossibles quel que soit le comportement de l\'administrateur, comme la transmission automatique de certains patterns vers des autorités externes.'),
+
+  crit('LA VÉRITÉ LA PLUS DIFFICILE DE CE LIVRE : Ces mesures sont imparfaites, contournables et comportent elles-mêmes des risques d\'abus. Un système de détection de matériel proscrit est aussi un système de surveillance des communications — la frontière entre les deux est technique et donc traversable. Un mécanisme de signalement communautaire peut être détourné pour harceler des membres minoritaires ou des familles qui s\'écartent de normes culturelles dominantes. Il n\'existe aucune solution technique au problème de l\'exploitation d\'enfants qui ne crée pas simultanément une infrastructure potentiellement utilisable pour d\'autres formes de contrôle. Cette affirmation est vérifiable. Elle est aussi profondément inconfortable. Elle ne disparaît pas parce qu\'elle est inconfortable.'),
+
+  sep(),
+
+  body('Yoshua Bengio, l\'un des pères fondateurs de l\'apprentissage profond et l\'un des chercheurs les plus respectés du monde en intelligence artificielle, a consacré une partie significative de ses dernières années à avertir de l\'usage des outils d\'IA contre les personnes les plus vulnérables. Son point n\'est pas que l\'IA est mauvaise — c\'est que les outils que nous construisons avec les meilleures intentions peuvent être retournés contre ceux que nous voulions protéger. La même architecture de communication que nous construisons pour libérer les familles peut être weaponisée contre les membres les plus vulnérables de ces familles.'),
+
+  body('Cette réalité ne me conduit pas à abandonner le projet. Elle me conduit à exiger que les invariants architecturaux — les contraintes éthiques encodées dans les couches les plus profondes du système, décrites dans le premier livre de cette série — incluent explicitement et inconditionnellement la protection des enfants comme principe non négociable. Pas comme option de configuration. Pas comme recommandation de bonnes pratiques. Comme limite physique du possible. Le premier livre de cette série décrit comment certaines valeurs peuvent être encodées dans la matière même d\'un système, rendant leur violation architecturalement impossible. La protection des enfants doit en faire partie.'),
+
+  body('Je sais que cette position est incomplète. Je sais qu\'une limite architecturale ne suffit pas face à des adversaires déterminés. Je sais que la détection de matériel nouveau échappe à tout système de hash connu. Je sais que l\'invariant le plus solide peut être contourné par suffisamment de détermination et de ressources. Ce que je peux affirmer, c\'est que la protection des enfants est la ligne que je ne suis pas prêt à franchir au nom de la cohérence idéologique. Si une architecture ne peut pas être conçue de façon à ne pas faciliter l\'exploitation d\'enfants, alors cette architecture ne mérite pas d\'être construite.'),
+
+  rq('Si vous étiez ingénieur et qu\'on vous demandait de concevoir un système de communication souveraine, comment positionneriez-vous la détection automatique de matériel d\'exploitation d\'enfants par rapport à la vie privée des millions d\'utilisateurs innocents ? Il n\'y a pas de bonne réponse évidente. Mais l\'absence de bonne réponse évidente ne nous dispense pas de l\'obligation d\'en chercher une.'),
+
+  pageBreak(),
+
+  // =========================================================================
+  // CHAPITRE 5 : CENTRALISATION EFFICACE CONTRE SOUVERAINETÉ DISTRIBUÉE
+  // =========================================================================
+
+  chTitle('Chapitre 5 : Centralisation efficace contre souveraineté distribuée'),
+
+  epigraph('« Le meilleur ennemi du bien est le parfait. Le meilleur ennemi de la liberté est parfois l\'efficacité. » — David Berthelotte'),
+
+  scene('Une salle d\'urgence à Sherbrooke. Vingt-trois heures. Une femme de soixante-huit ans arrive inconsciente, amenée par les ambulanciers qui l\'ont trouvée dans sa cuisine. Elle n\'a pas de carte d\'identité sur elle. Dans le système de santé centralisé actuel, son dossier médical est accessible en quatre-vingt-dix secondes : ses allergies, ses médicaments, son historique cardiaque, son groupe sanguin. Dans un système où chaque famille gère souverainement son espace de données de santé, son dossier est verrouillé derrière des clés que sa famille, à deux heures du matin, n\'a pas encore répondu au téléphone pour fournir. La médecin aux urgences prend des décisions avec moins d\'information. Peut-être les bonnes décisions. Peut-être pas.'),
+
+  body('C\'est le moment où je dois défendre l\'adversaire de ma propre position. Non pas par honnêteté rhétorique — mais parce que la centralisation a des arguments vrais, importants et souvent négligés dans les discussions qui opposent liberté et contrôle. Les défenseurs de la décentralisation ont tendance à parler des abus de la centralisation sans parler de ses succès réels, de ses miracles quotidiens, de ce qu\'elle permet que la décentralisation ne permet pas facilement.'),
+
+  secTitle('Ce que la centralisation a vraiment accompli'),
+
+  body('La distribution mondiale des vaccins contre la polio a nécessité une coordination centralisée d\'une précision et d\'une échelle que nul réseau décentralisé n\'aurait pu accomplir à la même vitesse. L\'Organisation mondiale de la Santé, malgré tous ses défauts bureaucratiques, a coordonné des campagnes qui ont sauvé des dizaines de millions de vies. La prévision météorologique moderne — qui sauve des milliers de vies chaque année en permettant l\'évacuation avant les ouragans — repose sur des systèmes centralisés de collecte de données, de superordinateurs partagés et de dissémination coordonnée. Le contrôle du trafic aérien, qui permet à des milliers d\'avions de partager le même espace aérien sans collision, est un chef-d\'oeuvre de coordination centralisée.'),
+
+  body('Ces exemples ne sont pas anecdotiques. Ils représentent des classes entières de problèmes où la centralisation n\'est pas simplement commode — elle est fondamentalement nécessaire. Les externalités réseau, les biens communs qui nécessitent une coordination globale, les urgences qui ne permettent pas la délibération distribuée — ces situations existent et elles sont réelles. Un idéologue décentralisateur qui refuse de l\'admettre est aussi intellectuellement malhonnête qu\'un idéologue centraliste qui refuse d\'admettre les abus de la surveillance.'),
+
+  body('La pandémie de COVID-19 a fourni un test grandeur nature de cette tension. Les pays qui avaient des systèmes de santé centralisés avec des registres numériques bien coordonnés ont eu, en moyenne, une meilleure capacité de traçage des contacts et de distribution des vaccins. Ce n\'est pas une affirmation politique — c\'est une observation empirique documentée dans la littérature épidémiologique. La centralisation des données de santé a des coûts en termes de vie privée et de risque de surveillance. Elle a aussi des bénéfices mesurables en termes de santé publique.'),
+
+  sub('Le cas contre la centralisation : les raisons que vous connaissez déjà'),
+
+  body('Mais vous connaissez déjà l\'autre côté. Vous avez lu les rapports sur les fuites de données massives — des milliards de dossiers de santé exposés dans des hacks d\'hôpitaux, des dizaines de millions de numéros de sécurité sociale volés dans des attaques contre des agences gouvernementales. Vous avez lu les analyses sur la discrimination algorithmique dans les systèmes centralisés de crédit, d\'assurance, de justice pénale — des systèmes qui reproduisent et amplifient les biais humains à une échelle industrielle. Vous avez suivi les révélations Snowden sur la surveillance de masse des communications, y compris celles de citoyens ordinaires sans aucun lien avec une activité criminelle.'),
+
+  body('Ces abus ne sont pas des accidents. Ils sont les conséquences prévisibles de la centralisation du pouvoir informationnel. Quand vous concentrez des données sur des millions de personnes dans un seul endroit, vous créez un actif extraordinairement précieux — pour les administrateurs légitimes de ce système, et aussi pour quiconque souhaite exploiter, corrompre ou s\'emparer de ce système. La centralisation crée des cibles. Et les cibles sont attaquées.'),
+
+  crit('LE DILEMME QUI N\'A PAS DE RÉSOLUTION PROPRE : La centralisation sauve des vies dans des situations d\'urgence et permet des biens collectifs impossibles autrement. Elle crée aussi des infrastructures de contrôle qui ont été et seront utilisées contre des populations vulnérables. La décentralisation protège la vie privée et l\'autonomie individuelle. Elle rend aussi certains biens collectifs plus difficiles ou impossibles à produire. Ce n\'est pas un problème technique à résoudre. C\'est une tension de valeurs permanente à gérer. Quiconque vous dit avoir "résolu" cette tension — vers la centralisation OU vers la décentralisation — simplifie un problème qui ne se simplifie pas.'),
+
+  sep(),
+
+  secTitle('La réponse hybride et ses limites honnêtes'),
+
+  body('Il existe une position intellectuellement défendable entre la centralisation totale et la décentralisation absolue. Elle ressemble à ceci : la souveraineté numérique est le défaut — chaque individu et chaque famille contrôle ses données et ses communications. Mais il existe des exceptions choisies, temporaires, auditables et révocables à ce défaut. Une personne peut choisir de partager ses données de santé avec un registre médical, peut révoquer ce partage à tout moment, et peut vérifier quand ses données ont été accédées et par qui. En cas d\'urgence médicale vérifiable, un accès d\'urgence peut être demandé par un médecin et approuvé par un mécanisme automatique avec notification aux proches.'),
+
+  body('Ce n\'est pas un backdoor. Un backdoor est un accès secret conçu pour être utilisé à l\'insu du propriétaire des données. Ce que je décris est une porte d\'entrée principale que vous ouvrez vous-même, délibérément, sous des conditions définies par vous. La différence n\'est pas sémantique — elle est fondamentale. Un backdoor est conçu pour être utilisé sans consentement. Une porte d\'entrée d\'urgence est conçue pour être utilisée avec consentement préalable, sous des conditions explicites.'),
+
+  body('La distinction technique existe. Mais il faut être honnête sur sa fragilité pratique. Une "porte d\'urgence auditable" devient un backdoor dès que les acteurs qui peuvent exiger son ouverture ont plus de pouvoir que le propriétaire des données. Un gouvernement qui peut déclarer une "urgence nationale" à volonté peut transformer n\'importe quel accès conditionnel en accès permanent. Une entreprise suffisamment puissante peut rédiger des conditions d\'utilisation qui font de votre "choix volontaire" un choix entre accepter leurs conditions ou ne pas avoir accès à des services essentiels. Les mécanismes légaux de protection de ces portes sont au moins aussi importants que les mécanismes techniques.'),
+
+  body('En d\'autres termes : la réponse hybride est techniquement possible et socialement souhaitable. Mais sa durabilité ne dépend pas de la technologie — elle dépend de la force des institutions démocratiques qui protègent les droits individuels contre les abus de pouvoir. Une architecture parfaitement conçue ne survive pas à un régime qui décide de l\'exploiter. Et les régimes changent.'),
+
+  rq('Si vous pouviez concevoir le système de partage de données idéal — celui que vous utiliseriez vous-même — quelle part de vos données personnelles partageriez-vous, avec qui, sous quelles conditions, et avec quelles garanties de révocabilité ? Et si le gouvernement actuel était remplacé demain par un gouvernement que vous ne faites pas confiance, changeriez-vous votre réponse ?'),
+
+  pageBreak(),
+
+  // =========================================================================
+  // CHAPITRE 6 : LES GARDE-FOUS ET LEURS LIMITES
+  // =========================================================================
+
+  chTitle('Chapitre 6 : Les garde-fous et leurs limites'),
+
+  epigraph('« Il n\'existe pas de cage qui protège sans emprisonner. Il n\'existe pas de liberté qui libère sans exposer. Le choix n\'est pas entre la sécurité et le risque. Il est entre différents types de risques, pour différentes personnes. » — David Berthelotte'),
+
+  body('Nous avons traversé cinq chapitres difficiles. Nous avons vécu dans des maisons où la souveraineté devient une prison. Nous avons suivi des conversations criminelles chiffrées avec la même architecture que les conversations de famille ordinaires. Nous avons regardé des réputations soigneusement construites comme des décors de cinéma. Nous avons regardé en face le scénario que personne ne veut nommer. Et nous avons confronté honnêtement les cas réels où la centralisation produit des miracles que la décentralisation ne peut pas reproduire.'),
+
+  body('Il est maintenant temps de faire le bilan. Non pas pour conclure que tout va bien et que les garde-fous règlent tout — ils ne le font pas. Non pas pour conclure que le projet est indefendable — je ne le crois pas. Mais pour être précis sur ce que chaque mécanisme de protection peut et ne peut pas faire, et sur les conditions qui les rendraient plus ou moins efficaces.'),
+
+  secTitle('Inventaire des garde-fous et de leurs limites réelles'),
+
+  sub('1. Canal d\'urgence individuel (protection contre les abus domestiques)'),
+
+  body('Ce que cela fait : donne à chaque membre du foyer un canal de communication direct vers l\'extérieur, non surveillable par l\'administrateur du réseau domestique. Ce que cela ne fait pas : protéger une personne dont tous les appareils sont physiquement contrôlés par un agresseur. Ne peut pas fonctionner si la victime n\'a pas un moment de solitude pour l\'utiliser. Ne protège pas contre la surveillance physique (regarder par-dessus l\'épaule). Son potentiel d\'abus : un enfant peut l\'utiliser pour mentir à ses parents dans une situation non urgente, créant des signalements faux qui surchargent les ressources d\'intervention.'),
+
+  sub('2. Preuves à divulgation nulle de connaissance (détection sans surveillance)'),
+
+  body('Ce que cela fait : permet théoriquement de détecter si un fichier correspond à un pattern problématique connu sans révéler le contenu du fichier. Ce que cela ne fait pas : détecter du contenu nouveau qui ne correspond à aucun hash connu. Ne peut pas être déployé sans créer une infrastructure de comparaison qui peut potentiellement être étendue à d\'autres types de contenu. Son potentiel d\'abus : la même infrastructure qui détecte des images proscrites peut être utilisée pour détecter de la dissidence politique si les bases de données de "contenu problématique" sont étendues sans supervision démocratique.'),
+
+  sub('3. Réputation blockchain permanente (résistance à la fraude)'),
+
+  body('Ce que cela fait : rend impossible l\'effacement de l\'historique de comportement, dissuadant les escroqueries rapides en rendant l\'identité de l\'arnaqueur traçable à perpétuité. Ce que cela ne fait pas : empêcher les fraudes de construction de réputation lente par des acteurs patients et bien financés. Ne résout pas les litiges complexes ou les situations où les deux parties ont agi de bonne foi mais avec des attentes incompatibles. Son potentiel d\'abus : la permanence de l\'historique peut être utilisée pour stigmatiser des personnes qui ont commis des erreurs passées et ne peuvent jamais repartir de zéro.'),
+
+  sub('4. Invariants architecturaux (contraintes éthiques non contournables)'),
+
+  body('Ce que cela fait : encode certains comportements comme physiquement impossibles dans le système plutôt que simplement interdits par des règles logicielles. Ce que cela ne fait pas : résister à un adversaire qui modifie le hardware ou crée une implémentation alternative non contrainte. Ne peut pas couvrir tous les cas éthiques possibles — la liste des invariants reflète les valeurs des concepteurs au moment de la conception, pas toutes les valeurs possibles dans tous les contextes culturels futurs. Son potentiel d\'abus : des invariants conçus avec de bonnes intentions peuvent avoir des effets néfastes non prévus sur des populations dont les pratiques légitimes sont différentes de celles des concepteurs.'),
+
+  sub('5. Mécanismes de responsabilisation communautaire'),
+
+  body('Ce que cela fait : permet au réseau distribué d\'identifier et d\'exclure des comportements problématiques par un processus de gouvernance collective plutôt que de contrôle central. Ce que cela ne fait pas : protéger les membres minoritaires contre les majorités qui les rejettent pour des raisons culturelles, ethniques ou idéologiques plutôt que comportementales réelles. Ne peut pas fonctionner rapidement dans des situations d\'urgence. Son potentiel d\'abus : la gouvernance communautaire peut reproduire et amplifier les préjugés de la majorité, ciblant des individus différents de la norme du groupe.'),
+
+  sub('6. Signalement obligatoire intégré'),
+
+  body('Ce que cela fait : crée des canaux automatiques vers les autorités compétentes pour certaines catégories de comportement sans que ce signalement soit détectable ou bloquable par l\'administrateur du foyer. Ce que cela ne fait pas : fonctionner dans des foyers où le comportement problématique ne laisse aucune trace numérique. Ne peut pas remplacer le jugement humain des professionnels formés à reconnaître les signes d\'abus. Son potentiel d\'abus : des systèmes de signalement automatisés peuvent générer des faux positifs qui exposent des familles innocentes à des enquêtes intrusives.'),
+
+  sub('7. Protocoles d\'accès temporaire auditable'),
+
+  body('Ce que cela fait : permet des exceptions choisies et révocables à la souveraineté par défaut pour des situations d\'urgence médicale ou de coordination de crise. Ce que cela ne fait pas : résister à un gouvernement qui décide que son état d\'urgence permanent justifie l\'activation permanente de ces protocoles. Ne garantit pas que le mécanisme de révocation sera respecté par des acteurs suffisamment puissants. Son potentiel d\'abus : chaque exception crée un précédent et une infrastructure que des acteurs mal intentionnés peuvent chercher à étendre.'),
+
+  sep(),
+
+  secTitle('La thèse fondamentale de cet acte'),
+
+  thesis('La liberté sans responsabilité est de l\'anarchie. L\'anarchie dévore ses propres enfants — les plus vulnérables en premier, toujours. Mais la responsabilité sans liberté est de l\'oppression. L\'oppression dévore aussi ses propres enfants — les plus différents en premier, toujours. Nous n\'avons pas à choisir entre deux formes de destruction. Nous avons à construire des systèmes qui maximisent la liberté pour la majorité tout en protégeant efficacement les plus vulnérables contre les abus de ceux qui leur sont les plus proches.'),
+
+  body('Ce projet — la souveraineté numérique distribuée, les foyers qui contrôlent leur propre espace, les communautés qui bâtissent leurs propres réseaux — n\'est pas une idéologie. Ce n\'est pas un idéal pur qu\'on appliquerait sans égard aux conséquences. C\'est un pari. Un pari que les bénéfices pour la majorité dépassent les coûts liés aux abus minoritaires. Un pari que les mécanismes de protection, imparfaits mais réels, atténuent suffisamment les risques pour que le bilan soit positif. Ce pari peut être faux. Il est possible que les coûts humains réels d\'un système de souveraineté distribuée dépassent les bénéfices. Je ne peux pas le prouver dans l\'autre sens. Je peux seulement vous dire pourquoi je le crois.'),
+
+  body('Je le crois parce que le monde actuel — celui de la surveillance commerciale omniprésente, des algorithmes de recommandation qui amplifient l\'outrage pour maximiser l\'engagement, des données de santé vendues à des assureurs sans consentement éclairé, des métadonnées de communication utilisées pour identifier des dissidents — ce monde a des coûts humains réels et documentés. Ces coûts sont distribués inégalement, frappant plus fort les personnes déjà vulnérables : les minorités racialisées, les dissidents politiques, les victimes de violence domestique dont l\'agresseur achète leurs données de localisation, les travailleurs précaires dont les habitudes numériques influencent leur accès au crédit.'),
+
+  body('Yoshua Bengio nous avertit que les outils technologiques peuvent être retournés contre les plus vulnérables. Il a raison. Mais ce retournement se produit déjà, massivement, dans le monde centralisé actuel. La question n\'est pas "comment éviter que les outils soient retournés contre les vulnérables" — cette évitement parfait n\'existe pas. La question est : dans quel type de système les personnes vulnérables ont-elles les meilleurs outils pour se défendre, les meilleures chances de recours, et le moins de pouvoir concentré dans les mains d\'acteurs qui pourraient leur vouloir du mal ?'),
+
+  secTitle('Ce qui reste inchangé après cet acte'),
+
+  body('Après avoir habité ces ombres pendant tout cet acte, voici ce que je n\'ai pas changé d\'avis. Je crois toujours que les familles ont le droit de contrôler leur propre espace numérique. Je crois toujours que les communautés ont le droit de construire leurs propres réseaux de confiance. Je crois toujours que la concentration du pouvoir informationnel dans les mains de quelques corporations ou gouvernements est une menace réelle pour la démocratie et la dignité humaine.'),
+
+  body('Ce que j\'ai changé, ou plutôt, ce que cet acte a précisé : je sais maintenant qu\'un système de souveraineté distribuée qui ne prend pas au sérieux la protection des enfants a trahi son propre principe fondateur. Je sais que les mécanismes de gouvernance communautaire doivent être conçus avec une attention particulière à la protection des minorités contre les abus des majorités. Je sais que la résilience des garde-fous dépend au moins autant de la force des institutions démocratiques que de l\'élégance du design technique.'),
+
+  body('Et je sais — je l\'ai toujours su, mais cet acte me l\'a rendu plus difficile à ignorer — que certaines personnes utiliseront la liberté que nous construisons pour faire du mal. Pas par accident, pas par ignorance, mais délibérément. Cette réalité ne me paralyse pas. Elle m\'oblige à être précis. À faire la différence entre les mesures de protection réelles et les mesures de protection théoriques. À admettre les limites honnêtement plutôt que de les noyer dans le discours visionnaire.'),
+
+  sep(),
+
+  secTitle('La question finale de cet acte'),
+
+  body('Il me reste une chose à dire avant de clore cet acte. Elle est personnelle. Ce livre porte mon nom — David Berthelotte. Il est dédié à Cynthia, à Jordane et à Olivia. Quand j\'imagine le monde que ce projet pourrait créer, je l\'imagine pour elles. Et quand j\'imagine les ombres que cet acte a explorées, je les imagine aussi pour elles.'),
+
+  body('Pour Cynthia — si jamais elle se retrouvait dans un foyer où les murs numériques devenaient des barreaux. Pour Jordane et Olivia — si jamais quelqu\'un utilisait les espaces souverains que nous construisons pour leur faire du mal. Ces pensées ne m\'ont pas conduit à abandonner le projet. Elles m\'ont conduit à le concevoir différemment. À exiger que les protections des plus vulnérables soient architecturales, pas optionnelles. À refuser les compromis qui sacrifient la sécurité des enfants sur l\'autel de la cohérence idéologique.'),
+
+  body('Les ombres que cet acte a explorées sont réelles. Elles ne disparaîtront pas parce qu\'on ne les regarde pas. Elles ne disparaîtront pas non plus parce qu\'on les regarde. Mais les regarder honnêtement, les nommer précisément, et concevoir des systèmes qui en tiennent compte sérieusement — c\'est la seule posture intellectuelle et morale que je peux défendre. C\'est ce que j\'ai essayé de faire ici.'),
+
+  crit('UNE DERNIÈRE AUTOCRITIQUE, LA PLUS DIFFICILE : Il est possible que je me trompe. Non pas sur les détails techniques — sur la direction fondamentale. Il est possible qu\'un monde de souveraineté numérique distribuée soit, en moyenne et au total, pire pour les personnes les plus vulnérables qu\'un monde de surveillance bien réglementée. Je n\'ai pas de preuve empirique de grande échelle dans l\'autre sens. Ce projet n\'a pas encore été déployé. Les expériences historiques comparables sont trop peu nombreuses et trop différentes pour permettre des prédictions fiables. Je crois que la direction est juste. Mais croire n\'est pas savoir, et je dois l\'admettre à voix haute.'),
+
+  sep(),
+
+  secTitle('Ce que cet acte ne résout pas — et pourquoi c\'est important'),
+
+  body('Il y a une tentation, après avoir listé des garde-fous et leurs limites, de conclure que l\'exercice est terminé. Que les risques ont été "gérés". Cette tentation est dangereuse. Les garde-fous listés ici sont des réponses partielles à des problèmes qui n\'ont pas de réponses complètes. Aucune combinaison de mesures techniques n\'éliminera les risques décrits dans cet acte. Ce que ces mesures peuvent faire, au mieux, c\'est réduire leur probabilité, leur impact, et le temps avant qu\'ils soient détectés et corrigés.'),
+
+  body('Le travail réel qui transformera les ombres en risques gérables n\'est pas technique — c\'est culturel, politique et institutionnel. Il nécessite une société qui comprend les technologies numériques suffisamment bien pour en débattre démocratiquement. Il nécessite des institutions judiciaires adaptées aux litiges nés dans des réseaux distribués. Il nécessite des travailleurs sociaux formés à détecter la violence et l\'exploitation dans des environnements numériquement souverains. Il nécessite une presse libre et indépendante qui documente les abus quand ils surviennent. Ces conditions sont aussi importantes que l\'architecture technique. Et dans de nombreux contextes actuels, elles sont plus fragiles.'),
+
+  body('Je termine cet acte avec une conviction qui n\'a pas changé depuis que j\'ai commencé à écrire ce livre. Les outils que nous construisons sont moralement neutres au sens où ils amplifient ce que les humains font — pas plus, pas moins. Une scie coupe du bois et des membres humains. Un couteau prépare des repas et blesse des personnes. La question n\'est pas d\'inventer des outils qui ne peuvent pas faire de mal — cette invention est impossible. La question est de construire des sociétés où les institutions, la culture et les mécanismes d\'accountability minimisent les conditions dans lesquelles les outils sont retournés contre les plus vulnérables. Ce livre contribue à la partie technique de cette équation. La partie humaine — la plus importante — vous appartient.'),
+
+  rq('Quel prix êtes-vous prêts à payer pour la souveraineté ? Et quel prix payez-vous déjà, chaque jour, pour ne pas l\'avoir ? Ces deux prix ne sont pas abstraits. Ils se paient en liberté, en dignité et parfois en vies humaines. La décision de quel prix vous préférez payer est la décision politique la plus fondamentale que ce livre vous demande de considérer. Elle ne peut pas être déléguée aux ingénieurs. Elle ne peut pas être déléguée aux gouvernements. Elle appartient à chacun d\'entre vous.'),
+
+  sep(),
+
+  body('Les trois actes qui suivent parleront de la construction. De comment, concrètement, une famille ordinaire à Laval ou à Sherbrooke ou à Rimouski commence le chemin vers la souveraineté — pas comme idéologie, mais comme suite de petits actes concrets. Mais je n\'aurais pas pu vous conduire vers ces actes sans vous avoir d\'abord conduit ici, dans les ombres. Parce que construire sans avoir regardé les ombres, c\'est construire dans l\'aveuglement. Et les constructions aveugles finissent par s\'effondrer sur les gens qu\'elles étaient censées protéger.'),
+
+  pageBreak(),
+
+];
+
+// ---------------------------------------------------------------------------
+// Write output
+// ---------------------------------------------------------------------------
+
+const OUTPUT_PATH = path.resolve(
+  __dirname,
+  '../chapters/acte4.json'
+);
+
+fs.mkdirSync(path.dirname(OUTPUT_PATH), { recursive: true });
+fs.writeFileSync(OUTPUT_PATH, JSON.stringify(elements, null, 2), 'utf8');
+
+console.log(`Acte IV generated: ${OUTPUT_PATH}`);
+console.log(`Total elements: ${elements.length}`);
+
+const bodyCount = elements.filter(e => e.type === 'paragraph' && e.style === 'BodyText').length;
+const critCount = elements.filter(e => e.type === 'paragraph' && e.style === 'CritiqueBox').length;
+const rqCount   = elements.filter(e => e.type === 'paragraph' && e.style === 'ReaderQuestion').length;
+console.log(`  BodyText paragraphs : ${bodyCount}`);
+console.log(`  CritiqueBox blocks  : ${critCount}`);
+console.log(`  ReaderQuestions     : ${rqCount}`);

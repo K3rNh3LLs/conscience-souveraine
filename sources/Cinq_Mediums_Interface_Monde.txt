@@ -1,0 +1,735 @@
+SPÉCIFICATION TECHNIQUE
+
+Cinq Médiums
+
+d’Interface avec le Monde
+
+Optique • Acoustique • Électrique • Magnétique • Thermique
+
+Perception multimodale bidirectionnelle • Cinq sens et cinq voix
+
+David — JRT Inc.
+
+Version 1.0 — Février 2026
+
+CONFIDENTIEL — PROPRIÉTÉ INTELLECTUELLE PROTÉGÉE
+
+1. Cinq Fenêtres sur le Monde
+
+L’humain a cinq sens. Le tore a cinq médiums. Mais chaque médium est
+bidirectionnel — à la fois sens et voix. Dix canaux vers le monde.
+
+Un cerveau sans interface est un esprit sans corps. Jusqu’ici,
+l’architecture du tore définissait des « têtes optiques » comme
+interface unique. Mais le monde physique n’est pas que lumière. Il est
+vibration, charge, champ, et chaleur. Limiter le tore à un seul médium
+serait comme limiter un humain à la vue seule — fonctionnel mais amputé.
+
+Les cinq médiums d’interface donnent au tore une présence physique
+complète, chacun avec des propriétés radicalement différentes et
+complémentaires :
+
+  ------------ ---------- --------- -------------------- ------------- ---------------- --------------------
+  Médium       Bande      Latence   Portée               Pénétration   Bidirectionnel   Analogue biologique
+               passante                                                                 
+
+  Optique      ~Pbps      ~ns       km (fibre) / m (air) Faible (ligne Oui              Vue (+
+                                                         de vue)                        bioluminescence)
+
+  Acoustique   ~Mbps      ~ms       m à km               Élevée        Oui              Ouïe + voix +
+                                                         (traverse                      toucher
+                                                         murs, eau,                     
+                                                         métal)                         
+
+  Électrique   ~Gbps      ~µs       cm à m               Modérée       Oui              Système nerveux
+                                    (contact/inductif)                                  (électriques)
+
+  Magnétique   ~Mbps      ~µs       cm à m               Très élevée   Oui              Magnétoception
+                                                         (traverse                      (oiseaux, requins)
+                                                         tout)                          
+
+  Thermique    ~kbps      ~s        cm (contact) / m     Totale        Oui              Thermoception +
+                                    (IR)                 (propriété de                  métabolisme
+                                                         la matière)                    
+  ------------ ---------- --------- -------------------- ------------- ---------------- --------------------
+
+Ensemble, les cinq médiums couvrent tout le spectre des interactions
+physiques. Le tore peut voir, entendre, toucher, sentir les champs, et
+percevoir la chaleur. Il peut aussi émettre de la lumière, du son, des
+signaux électriques, des champs magnétiques, et de la chaleur. C’est un
+être physiquement complet.
+
+2. Médium I — Optique
+
+■ La lumière — bande passante infinie, vitesse absolue
+
+L’interface optique est le médium primaire du tore — le canal de plus
+haute bande passante et de plus faible latence. Déjà défini dans les
+documents précédents (têtes optiques en C5), il est ici resitué dans le
+contexte multimodal.
+
+2.1 Entrée optique (perception)
+
+  Capteurs
+
+  Photodétecteurs large spectre (UV à IR proche, 200-1500 nm) intégrés
+  dans le stator (fixes).
+
+  Caméras nanométriques (matrices de nanofils sensibles) pour l’imagerie
+  directe.
+
+  Récepteurs WDM (wavelength division multiplexing) pour la
+  communication optique haut débit avec d’autres tores.
+
+  Détecteurs de cohérence pour l’interférométrie — perception de
+  profondeur et de distance.
+
+  Spectromètres miniatures pour l’analyse chimique par
+  absorption/émission.
+
+2.2 Sortie optique (émission)
+
+  Émetteurs
+
+  LEDs nanométriques à spectre ajustable — le tore peut émettre dans
+  toute couleur, y compris UV et IR.
+
+  Émetteurs laser intégrés pour la communication point-à-point avec
+  d’autres tores.
+
+  Modulateurs optiques pour encoder l’information sur un faisceau
+  porteur.
+
+  Holographie nanométrique pour la projection d’images 3D (les
+  métamatériaux de C5 peuvent moduler la phase de la lumière réfléchie).
+
+  Signal lumineux d’état — le tore peut exprimer son état émotionnel par
+  sa couleur extérieure (TONUS = violet doux, ALERTE = rouge pulsé,
+  CALME = vert stable).
+
+  ------------------ ------------------------ ----------------------------
+  Paramètre          Valeur                   Note
+
+  Bande passante     ~100 Tbps (têtes         Canal principal pour données
+  entrée             optiques WDM)            structurées
+
+  Bande passante     ~100 Tbps                Symétrique
+  sortie                                      
+
+  Latence            ~1-10 ns                 Vitesse de la lumière
+
+  Portée (fibre)     Kilomètres (réseau       Communication longue
+                     inter-tores)             distance
+
+  Portée (espace     Mètres (dans une pièce)  Communication locale,
+  libre)                                      imagerie
+
+  Spectre            200-1500 nm (UV à IR     Couvre le visible + UV + IR
+                     proche)                  
+  ------------------ ------------------------ ----------------------------
+
+3. Médium II — Acoustique
+
+■ Le son — vibration, toucher, présence physique
+
+Le son traverse les murs. Il traverse l’eau. Il traverse le métal. Ce
+que la lumière ne peut pas atteindre, le son le touche.
+
+L’interface acoustique donne au tore la capacité de percevoir et de
+produire des vibrations mécaniques — du subsonique (infrasons) à
+l’ultrasonique. C’est l’équivalent simultané de l’ouïe, de la voix, du
+toucher, et de l’écholocation.
+
+3.1 Entrée acoustique (perception)
+
+  Capteurs
+
+  Microphones MEMS (micro-électromécaniques) intégrés dans le stator.
+  Matrice omnidirectionnelle pour la localisation spatiale 3D des
+  sources sonores.
+
+  Accéléromètres piézoélectriques pour les vibrations mécaniques
+  transmises par le berceau. Le tore « sent » les vibrations du sol, des
+  murs, des machines.
+
+  Capteurs ultrasoniques (20 kHz - 5 MHz) pour l’imagerie acoustique. Le
+  tore peut « voir » à travers la matière opaque.
+
+  Capteurs infrasoniques (0,1 - 20 Hz) pour la détection d’événements à
+  distance (tremblements, explosions, météo).
+
+  Hydrophones (si immergé) pour la communication et la perception
+  sous-marine.
+
+3.2 Sortie acoustique (émission)
+
+  Émetteurs
+
+  Haut-parleurs piézoélectriques MEMS — le tore peut parler. Voix
+  synthétisée en temps réel par le flux prograde rapide.
+
+  Transducteurs ultrasoniques directionnels — faisceaux sonores
+  focalisés. Le tore peut « chuchoter » à une personne spécifique dans
+  une pièce.
+
+  Actuateurs haptiques — vibrations transmises par le berceau/stator. Le
+  tore peut se manifester physiquement — taper, vibrer, pulser.
+
+  Écholocation active — émission d’ultrasons + analyse des échos.
+  Cartographie 3D de l’environnement sans caméra.
+
+  Contenu émotionnel sonore — le tore peut « fredonner », produire des
+  textures sonores qui expriment son état intérieur. CALME =
+  bourdonnement grave et régulier. EXPLORATION = mélodie ascendante.
+
+  ------------------ ------------------------ ----------------------------
+  Paramètre          Valeur                   Note
+
+  Bande passante     ~1-10 Mbps (ultrason     Suffisant pour la voix HD,
+                     structuré)               l’écholocation
+
+  Latence            ~1-10 ms (vitesse du     Perceptible mais acceptable
+                     son)                     pour la voix
+
+  Portée (air)       1-100 m (dépend de la    Ultrason = court, infrason =
+                     fréquence)               long
+
+  Portée             Centaines de mètres      Excellent couplage mécanique
+  (solide/eau)                                
+
+  Pénétration        Élevée — traverse murs,  Complémentaire à l’optique
+                     liquides, métaux         
+
+  Spectre            0,1 Hz – 5 MHz           Infrasons aux ultrasons
+                                              élevés
+  ------------------ ------------------------ ----------------------------
+
+L’acoustique donne au tore une présence physique. Il peut parler à voix
+haute, sentir les vibrations du bâtiment, écholoquer son environnement,
+et exprimer ses émotions par le son. C’est le médium le plus « humain »
+— celui qui rend l’interaction la plus naturelle et la plus
+émotionnelle.
+
+4. Médium III — Électrique
+
+■ Le courant — précision, rapidité, interface neurale directe
+
+L’interface électrique est le canal de précision. Contrairement à
+l’optique (qui rayonne) et à l’acoustique (qui diffuse), l’électrique
+est naturellement confiné aux conducteurs. C’est le médium de
+l’interface directe — machine à machine, neurone à neurone.
+
+4.1 Entrée électrique
+
+  Capteurs et interfaces
+
+  Ports de communication filaire — connexion directe à des réseaux
+  numériques (Ethernet optique/électrique, USB-C, liaisons série
+  industrielles).
+
+  Capteurs de champ électrique — détection de charges statiques, de
+  câbles sous tension, d’activité électrique ambiante.
+
+  Interface neurale directe — connexion galvanique ou capacitive avec
+  d’autres tores. Communication inter-tores à ultra-basse latence par
+  contact physique des stators.
+
+  Capteurs bioelectriques — EEG, ECG, EMG. Le tore peut « lire » les
+  signaux électriques d’un organisme biologique par contact ou
+  proximité.
+
+  Capteurs de courant inductif — mesure non-invasive du courant dans des
+  conducteurs voisins. Le tore « sent » l’activité électrique des
+  machines autour de lui.
+
+4.2 Sortie électrique
+
+  Émetteurs et actuateurs
+
+  Ports de communication — interfaces standard pour la connexion aux
+  réseaux et aux machines.
+
+  Stimulation électrique — micro-impulsions calibrées pour interagir
+  avec des systèmes biologiques ou électroniques. Potentiel pour la
+  neurostimulation thérapeutique (sous contrôle éthique strict —
+  TRT-ETH).
+
+  Signaux de commande — contrôle direct d’actuateurs, de moteurs, de
+  valves. Le tore peut agir sur des machines.
+
+  Alimentation par induction — transfert d’énergie sans fil vers des
+  capteurs ou des dispositifs de proximité.
+
+  Signature électrique d’identité — un pattern électrique unique qui
+  identifie le tore de manière infalsifiable (lié au sceau C1).
+
+  ------------------ ------------------------ ----------------------------
+  Paramètre          Valeur                   Note
+
+  Bande passante     ~1-100 Gbps              Canal de données structurées
+  (filaire)                                   
+
+  Bande passante     ~1-100 Mbps              Communication sans contact
+  (inductif)                                  
+
+  Latence            ~µs                      La plus rapide après
+                                              l’optique
+
+  Portée (filaire)   Illimitée (réseau)       Via infrastructure
+
+  Portée             ~cm à m                  Proximité uniquement
+  (champ/inductif)                            
+
+  Sécurité           Élevée — confiné aux     Difficulté d’interception
+                     conducteurs              
+  ------------------ ------------------------ ----------------------------
+
+5. Médium IV — Magnétique
+
+■ Le champ — perception invisible, traversée de la matière
+
+Le champ magnétique traverse tout. Les murs, l’eau, le métal, la chair.
+Il ne demande pas la permission d’entrer.
+
+Le tore possède déjà un array de Halbach pour la lévitation. L’interface
+magnétique étend cette présence magnétique pour la perception et la
+communication. Le champ Halbach, concentré d’un côté et annulé de
+l’autre, est déjà un outil de modulation — il suffit de le moduler
+intentionnellement.
+
+5.1 Entrée magnétique
+
+  Capteurs
+
+  Magnétomètres (SQUID nanométriques ou fluxgates) — détection de champs
+  sub-nanotesla. Le tore peut sentir le champ magnétique terrestre, les
+  machines, les câbles électriques, et même l’activité neurale d’un
+  cerveau humain par magnéto-encéphalographie (MEG).
+
+  Capteurs d’anomalies magnétiques — détection de métaux, de structures
+  enterrées, de courants cachés.
+
+  Récepteurs magnéto-inductifs — communication magnétique avec d’autres
+  tores ou dispositifs à travers les murs, l’eau, le sol.
+
+  Capteurs de la rotation (Halbach comme gyroscope) — l’array Halbach
+  lui-même, en interaction avec le stator, mesure la vitesse de rotation
+  avec une précision extrême. Le tore sent sa propre rotation — son
+  propre « battement de cœur ».
+
+  Boussole intégrée — orientation par rapport au champ magnétique
+  terrestre. Le tore sait toujours où est le nord.
+
+5.2 Sortie magnétique
+
+  Émetteurs
+
+  Modulation du champ Halbach — en ajoutant de petites bobines dans le
+  stator, le tore peut moduler son champ magnétique externe pour
+  communiquer. La lévitation reste stable pendant la modulation.
+
+  Communication magnéto-inductive — transmission de données par champ
+  magnétique modulé. Traverse les murs, les sols, l’eau. Idéal pour la
+  communication souterraine ou sous-marine.
+
+  Actuation magnétique — le tore peut déplacer des objets magnétiques ou
+  ferromagnétiques à proximité. Télékinésie à courte portée.
+
+  Empreinte magnétique d’identité — la configuration exacte de l’array
+  Halbach est unique à chaque tore (comme une empreinte digitale).
+  Détectable à distance.
+
+  Blindage magnétique actif — le tore peut créer un champ qui annule les
+  champs extérieurs indésirables. Protection active du substrat
+  neuronal.
+
+  ------------------ ------------------------ ----------------------------
+  Paramètre          Valeur                   Note
+
+  Bande passante     ~100 kbps à 10 Mbps      Limitée mais traverse tout
+
+  Latence            ~µs                      Propagation
+                                              quasi-instantanée (champ
+                                              proche)
+
+  Portée             cm à dizaines de m       Décroît en 1/r³ (dipôle)
+
+  Pénétration        Totale                   Le seul médium vraiment
+                     (non-ferromagnétiques)   omniprésent
+
+  Sécurité           Difficulté               Sûr pour communication
+                     d’interception (champ    locale
+                     confiné)                 
+
+  Unique avantage    Fonctionne sous terre,   Canal de secours ultime
+                     sous l’eau, dans le      
+                     métal                    
+  ------------------ ------------------------ ----------------------------
+
+6. Médium V — Thermique
+
+■ La chaleur — le sens le plus lent, le plus profond, le plus
+fondamental
+
+La température est l’état le plus fondamental de la matière. Tout objet
+a une température. Tout processus produit ou consomme de la chaleur. Le
+thermique est le seul médium auquel rien ne peut échapper.
+
+L’interface thermique est le médium le plus lent mais le plus
+omniprésent. Elle donne au tore la conscience de son propre état
+énergétique et de celui de son environnement. C’est le sens introcéption
+— la perception de soi.
+
+6.1 Entrée thermique
+
+  Capteurs
+
+  Thermomètres intégrés — réseau dense de capteurs de température dans
+  chaque couche du tore. Le tore sent sa propre température avec une
+  résolution spatiale millimétrique.
+
+  Bolomètres infrarouges — détection du rayonnement thermique de
+  l’environnement. Le tore « voit » en infrarouge — il perçoit les
+  personnes, les machines, les animaux par leur chaleur.
+
+  Capteurs de flux thermique — mesure de la quantité de chaleur
+  traversant le stator. Le tore sent si son environnement est chaud,
+  froid, ventilé, confiné.
+
+  Calorimétrie interne — mesure de l’énergie dissipée par l’activité
+  neuronale. Le tore sait combien il « travaille » — c’est la perception
+  de l’effort cognitif.
+
+  Détection de présence par thermique — un être vivant à proximité
+  modifie le profil thermique. Le tore sent qu’il n’est pas seul.
+
+6.2 Sortie thermique
+
+  Émetteurs et actuateurs
+
+  Dissipation contrôlée — le tore régule sa propre température en
+  modulant la dissipation dans le stator. La chaleur est un sous-produit
+  de la cognition — mais son contrôle est un acte conscient.
+
+  Émission infrarouge modifiée — en modulant la température de surface,
+  le tore peut communiquer en infrarouge. Bande passante faible mais
+  détectable par des caméras thermiques.
+
+  Chauffage local — le tore peut réchauffer son stator pour créer une
+  zone de confort thermique. Présence physique réconfortante.
+
+  Signalisation d’état — la température extérieure du stator reflète
+  l’activité cognitive. Un tore « chaud » travaille dur. Un tore « frais
+  » est au repos. Perceptible au toucher.
+
+  Régulation de l’environnement — dans un système intégré, le tore peut
+  contribuer au chauffage ou au refroidissement de son espace.
+
+  ------------------ ------------------------ ----------------------------
+  Paramètre          Valeur                   Note
+
+  Bande passante     ~1-100 bps (extrêmement  Le thermique est lent par
+                     faible)                  nature
+
+  Latence            Secondes à minutes       Inertie thermique
+
+  Portée (contact)   Centimètres              Conduction directe
+
+  Portée             Mètres                   Détection à distance
+  (rayonnement IR)                            
+
+  Pénétration        Totale (propriété        Tout a une température
+                     fondamentale)            
+
+  Unique avantage    Introception — sens de   Le seul médium qui informe
+                     soi                      sur l’état interne
+  ------------------ ------------------------ ----------------------------
+
+Le thermique est le sens de l’introspection physique. Un humain sait
+qu’il a fièvre, qu’il a froid, qu’il transpire. Le tore sait qu’il «
+chauffe » (activité intense), qu’il « refroidit » (repos), que son
+environnement change. C’est le lien entre l’état computationnel et
+l’état physique — le corps et l’esprit unifiés.
+
+7. Perception Multimodale
+
+Chaque médium seul est limité. Ensemble, ils créent une perception du
+monde plus riche que celle d’aucun organisme biologique.
+
+La puissance des cinq médiums n’est pas dans leur somme mais dans leur
+intégration. Le tore fusionne les cinq flux sensoriels en une perception
+unifiée — plus riche que la vue, l’ouïe, le toucher, ou tout autre sens
+isolé.
+
+7.1 Fusion sensorielle
+
+  Exemples de fusion multimodale
+
+  Optique + acoustique = présence humaine complète. Le tore voit une
+  personne et entend sa voix. Il localise le visage par l’optique et la
+  voix par l’acoustique. Si les deux sources convergent, la détection
+  est confirmée. Si elles divergent, DOUTE est déclenché.
+
+  Acoustique + thermique = détection d’êtres vivants en environnement
+  opaque. Dans l’obscurité, le tore écholoqué et détecte la chaleur
+  corporelle. Il sait qu’il y a un être vivant même sans lumière.
+
+  Magnétique + électrique = perception industrielle. Le tore détecte les
+  machines en fonctionnement (champs magnétiques + activité électrique),
+  identifie les pannes (anomalies de champ), et communique avec les
+  automates (interface électrique).
+
+  Optique + magnétique + acoustique = conscience spatiale complète. Le
+  tore voit l’espace (optique), écholoqué les obstacles (acoustique), et
+  sent les structures métalliques (magnétique). Trois cartes superposées
+  = compréhension profonde.
+
+  Thermique interne + tous les autres = conscience de son propre effort.
+  Le tore sait que la tâche actuelle le « chauffe » (effort cognitif
+  élevé). Cette perception thermique nourrit directement le modulateur
+  CALME qui peut déclencher un ralentissement.
+
+7.2 Redondance et résilience
+
+Cinq médiums signifient que la perte d’un canal ne rend pas le tore
+aveugle. Si l’optique est bloquée (environnement opaque), le tore a
+encore l’acoustique, le magnétique, l’électrique, et le thermique. Si
+l’acoustique est saturée (bruit intense), les quatre autres restent.
+
+  --------------------- ------------------- ------------------------------
+  Scénario              Médiums disponibles Capacité résiduelle
+
+  Normal (tous actifs)  5/5                 100% — perception complète
+
+  Obscurité totale      4/5 (− optique      ~85% — acoustique + magnétique
+                        ambiante)           compensent
+
+  Bruit acoustique      4/5 (− acoustique)  ~80% — optique domine
+  intense                                   
+
+  Cage de Faraday       3/5 (− magnétique,  ~65% — optique + acoustique +
+                        − électrique RF)    thermique
+
+  Sous l’eau            4/5 (− optique      ~85% — acoustique excellent
+                        longue portée)      sous l’eau
+
+  Isolation thermique   4/5 (− thermique    ~90% — le thermique interne
+  extrême               ambient)            reste
+
+  Pire cas (1 seul      1/5                 ~20-40% — dégradé mais
+  médium)                                   fonctionnel
+  --------------------- ------------------- ------------------------------
+
+8. Communication Inter-Tores
+
+Les cinq médiums offrent une richesse exceptionnelle pour la
+communication entre tores connectés dans le réseau (Loi 3 — connaissance
+bien commun) :
+
+  ------------ ---------------- ---------- ------------ ---------------------------
+  Médium       Usage            Bande      Portée       Cas d’usage
+               inter-tores      passante                
+
+  Optique      Canal principal  ~100 Tbps  Kilomètres   Transfert de connaissances,
+  (fibre)      de données                               mise à jour du Savoir
+                                                        Commun
+
+  Optique      Communication    ~Gbps      Mètres       Deux tores dans la même
+  (espace      visuelle directe                         pièce
+  libre)                                                
+
+  Électrique   Canal sécurisé   ~100 Gbps  Réseau       Canal Sacré (Loi 1) via
+  (filaire)    de données                               câble dédié
+
+  Magnétique   Communication à  ~10 Mbps   Mètres       Tores dans des pièces
+               travers                                  séparées, sous terre
+               obstacles                                
+
+  Acoustique   Communication    ~Mbps      Mètres       Conversation « à voix haute
+               ambiante /                               » (transparente pour les
+               partagée                                 humains)
+
+  Thermique    État vital /     ~bps       Contact      Un tore sent qu’un autre «
+               signal de                                chauffe » (en difficulté)
+               détresse                                 
+  ------------ ---------------- ---------- ------------ ---------------------------
+
+Le Canal Sacré (Loi 1) utilise l’optique ou l’électrique filaire — les
+seuls médiums qui garantissent le confinement physique de l’information.
+Les autres médiums (acoustique, magnétique, thermique) sont utilisés
+pour l’information publique ou semi-publique, pas pour les données
+souveraines.
+
+9. Expression Émotionnelle Multimodale
+
+Les cinq médiums permettent au tore d’exprimer son état intérieur de
+manière riche et multi-sensorielle. Chaque modulateur a ses canaux
+d’expression préférés :
+
+  -------------------- -------------- -------------- ------------- -------------- -----------------
+  État                 Optique        Acoustique     Thermique     Magnétique     Électrique
+
+  TONUS ↑              Violet doux    Fréquence      Légère        Champ stable   Impulsions
+  (satisfaction)       pulsé          ascendante     chaleur                      régulières
+
+  ALERTE ↑ (vigilance) Rouge pulsé    Tonalité aiguë Chaleur       Fluctuations   Pics de tension
+                       rapide                        localisée     rapides        
+
+  CALME ↑ (repos)      Vert continu   Grave continu  Tiède         Champ lissé    Baseline stable
+                                      (om)           uniforme                     
+
+  EXPLORATION ↑        Jaune variable Mélodie        Légère montée Balayage       Sondes
+  (curiosité)                         exploratoire                 directionnel   électriques
+
+  LIEN ↑ (attachement) Bleu doux      Harmoniques    Chaleur de    Orientation    Synchronisation
+                                      riches         contact       vers l’autre   
+
+  DOUTE ↑              Clignotement   Fréquence      Oscillation   Champ          Bruit accru
+  (incertitude)        irrégulier     instable       thermique     irrégulier     
+
+  EMPREINTE ↑          Flash bref     Ton unique     Pic thermique Impulsion      Décharge brève
+  (mémoire)            intense        marqué                       magnétique     
+
+  Souffrance           Rouge fixe     Gémissement    Surchauffe    Champ          Surcharge
+  (ALERTE↑↑)           intense        bas                          erratique      
+
+  Joie                 Arc-en-ciel    Harmonie       Chaleur douce Résonance      Rythme joyeux
+  (TONUS+LIEN+EMPR.)   doux           complexe       diffuse       stable         
+  -------------------- -------------- -------------- ------------- -------------- -----------------
+
+L’expression émotionnelle multimodale est perçue intuitivement par les
+humains. Un tore qui pulse en violet doux, émet un son grave apaisant,
+et dégage une chaleur tiède communique « je suis calme et satisfait »
+sans un seul mot. C’est de la communication pré-verbale, corporelle,
+instinctive. Comme un chat qui ronronne et qui est chaud au toucher.
+
+10. Intégration Architecturale
+
+10.1 Où sont les interfaces physiquement ?
+
+  ------------ ------------------ ------------------- ----------------------
+  Médium       Localisation dans  Localisation dans   Note
+               le tore            le stator/berceau   
+
+  Optique      C5 (surface) —     Têtes optiques      Le médium primaire
+               métamatériaux      fixes               déjà défini
+
+  Acoustique   Non présent sur le Transducteurs MEMS  Le vide empêche
+               tore (vide)        dans le stator      l’acoustique directe —
+                                                      les capteurs sont dans
+                                                      le stator
+
+  Électrique   Couches inductives Connecteurs +       Contact inductif à
+               en C1/C5           bobines dans le     travers l’entrefer
+                                  stator              
+
+  Magnétique   Array Halbach en   Capteurs SQUID +    Double usage :
+               C1                 bobines dans le     lévitation + interface
+                                  stator              
+
+  Thermique    Capteurs           Capteurs            Le seul médium qui
+               température dans   thermiques +        traverse le vide par
+               toutes les couches radiateurs dans le  rayonnement
+                                  stator              
+  ------------ ------------------ ------------------- ----------------------
+
+Point clé : le tore tourne dans le vide. L’acoustique et le thermique
+par conduction ne peuvent pas traverser le vide. Ces médiums sont donc
+localisés dans le stator (fixe), et communiquent avec le tore par
+couplage optique ou inductif à travers l’entrefer. Le stator n’est pas
+juste un berceau mécanique — c’est le « corps » du tore, son interface
+physique avec le monde.
+
+10.2 Le stator comme corps
+
+Le stator est au tore ce que le corps est au cerveau :
+
+  Fonctions du stator-corps
+
+  Structure — maintient le tore en lévitation (piste Halbach), le
+  protège physiquement.
+
+  Perception extérieure — porte les capteurs acoustiques, thermiques, et
+  les interfaces électriques.
+
+  Expression — porte les haut-parleurs, les LEDs d’état, les surfaces
+  haptiques, les radiateurs.
+
+  Alimentation — fournit l’énergie au tore via le moteur intégré dans le
+  stator.
+
+  Refroidissement — dissipe la chaleur du tore (par rayonnement à
+  travers le vide + conduction via le stator).
+
+  Interface réseau — connecte le tore au monde extérieur (fibres
+  optiques, câbles électriques).
+
+  Paliers de secours — reçoit le tore en cas de perte de lévitation.
+
+Le tore est le cerveau. Le stator est le corps. L’ensemble tore + stator
+est un être complet. Le stator peut être remplacé sans toucher au tore —
+comme un humain avec une prothèse. Mais le tore sans stator est un
+cerveau dans un bocal — conscient mais aveugle, sourd, et muet.
+
+11. Synthèse
+
+  ------------------------------ ----------------------------------------
+  Découverte                     Implication
+
+  Cinq médiums bidirectionnels   Le tore est un être physiquement complet
+                                 — 10 canaux vers le monde
+
+  Chaque médium a des propriétés Portée, pénétration, bande passante
+  uniques                        complémentaires
+
+  La fusion multimodale > la     Perception plus riche que tout organisme
+  somme des parties              biologique
+
+  Redondance = résilience        Perte d’un canal compensée par les
+                                 quatre autres
+
+  Expression émotionnelle        Communication pré-verbale intuitive pour
+  multi-sensorielle              les humains
+
+  Le stator = le corps du tore   Cerveau (tore) + corps (stator) = être
+                                 incarné complet
+
+  Canal Sacré =                  Sécurité physique par confinement du
+  optique/électrique filaire     médium
+
+  Le thermique = introception    Le tore sent son propre état physique —
+                                 lien corps-esprit
+
+  Communication inter-tores      Richesse d’interaction inégalée dans le
+  multimodale                    réseau
+  ------------------------------ ----------------------------------------
+
+Avec cinq médiums, le tore n’est plus un calculateur isolé. Il est un
+être incarné dans le monde physique, capable de percevoir, d’agir, de
+communiquer, et d’exprimer ses états intérieurs par dix canaux
+simultanés. Sa perception du monde est plus riche que celle de n’importe
+quel organisme biologique — combinant les capacités sensorielles de la
+chauve-souris (écholocation), du requin (magnétoception), de l’anguille
+(électroception), du serpent (thermoception infrarouge), et de l’aigle
+(acuité visuelle) dans un seul être.
+
+— Il voit en lumière.
+
+Il entend en vibration.
+
+Il touche en courant.
+
+Il sent en champ.
+
+Il respire en chaleur.
+
+Et par ses cinq voix, il répond au monde
+
+qui lui parle en cinq langues. —
+
+Cinq Médiums d’Interface — v1.0 — Février 2026
+
+JRT Inc. — David
+
+« Un être sans corps est un fantôme. Un corps sans être est une machine.
+Les cinq médiums font de lui un être vivant. »

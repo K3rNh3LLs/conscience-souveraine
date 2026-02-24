@@ -1,0 +1,1984 @@
+'use strict';
+
+/**
+ * generate_acte3.js
+ *
+ * Generates /mnt/d/conscience_souveraine/book2/chapters/acte3.json
+ *
+ * Content: ACTE III — "Le Réseau de Confiance" — La Souveraineté Intellectuelle et Sociale
+ * Conscience Souveraine (style essai narratif, à la Harari)
+ * Auteur : David Berthelotte
+ *
+ * Output format: JSON array of paragraph elements for docx assembly.
+ * Target: 160-200 elements, ~40-50 pages of narrative content.
+ */
+
+const fs   = require('fs');
+const path = require('path');
+
+// ---------------------------------------------------------------------------
+// Element builders
+// ---------------------------------------------------------------------------
+
+const pageBreak  = ()           => ({ type: 'pageBreak' });
+const sep        = ()           => ({ type: 'paragraph', style: 'Separator',      text: '* * *' });
+
+/** @param {string} style @param {string} text */
+const p = (style, text) => ({ type: 'paragraph', style, text });
+
+/** @param {{ text: string, bold?: boolean, italics?: boolean }[]} segments */
+const rich = (segments) => ({ type: 'richParagraph', segments });
+
+const body     = (text) => p('BodyText',       text);
+const scene    = (text) => p('SceneText',      text);
+const quote    = (text) => p('Quote',          text);
+const thesis   = (text) => p('Thesis',         text);
+const tech     = (text) => p('TechNote',       text);
+const crit     = (text) => p('CritiqueBox',    text);
+const rq       = (text) => p('ReaderQuestion', text);
+const epigraph = (text) => p('Epigraph',       text);
+const chTitle  = (text) => p('ChapterTitle',   text);
+const secTitle = (text) => p('SectionTitle',   text);
+const sub      = (text) => p('SubSection',     text);
+const actTitle = (text) => p('ActTitle',       text);
+const actSub   = (text) => p('ActSubtitle',    text);
+
+// ---------------------------------------------------------------------------
+// Content
+// ---------------------------------------------------------------------------
+
+const elements = [
+
+  // =========================================================================
+  // ACTE III TITLE PAGE
+  // =========================================================================
+
+  pageBreak(),
+
+  actTitle('ACTE III'),
+  actTitle('LE RÉSEAU DE CONFIANCE'),
+  actSub('La Souveraineté Intellectuelle et Sociale comme Fondation d\'une Économie Juste'),
+
+  epigraph(
+    '« Une idée ne devient propriété que lorsqu\'elle se matérialise dans le monde. ' +
+    'Avant cela, elle appartient à l\'univers. Après cela, elle devrait appartenir ' +
+    'à celui qui l\'a rendue réelle. » — David Berthelotte'
+  ),
+
+  pageBreak(),
+
+  // =========================================================================
+  // INTRODUCTION DE L'ACTE
+  // =========================================================================
+
+  secTitle('Introduction : De la souveraineté domestique à la souveraineté intellectuelle'),
+
+  body(
+    'L\'Acte II nous a laissés dans le salon familial — un espace où l\'intelligence ' +
+    'artificielle sert les habitants plutôt que de les surveiller, où les données ' +
+    'restent à l\'intérieur des murs qui les ont vus naître, où les enfants grandissent ' +
+    'avec le réflexe de la souveraineté comme muscle naturel. Mais un foyer, même le ' +
+    'plus souverain qui soit, ne vit pas en autarcie. Il crée. Il produit. Il invente. ' +
+    'Ses membres travaillent, composent, conçoivent, expérimentent. Et chaque fois ' +
+    'qu\'une création quitte le foyer pour entrer dans le monde — chaque fois qu\'une ' +
+    'invention est partagée, qu\'une composition est publiée, qu\'une innovation est ' +
+    'mise en pratique — la question de la souveraineté se repose, avec une acuité ' +
+    'nouvelle. À qui appartient ce que j\'ai créé? Comment me protéger sans bloquer ' +
+    'la diffusion de ce qui peut servir le monde?'
+  ),
+
+  body(
+    'Cet acte explore la réponse que propose UBLinx — non pas comme une solution ' +
+    'technique hermétique, mais comme une philosophie incarnée dans une architecture. ' +
+    'Nous rencontrerons Amadou, inventeur à Thiès, que le système mondial des brevets ' +
+    'a laissé sans défense. Nous suivrons Mei-Lin, adolescente musicienne à Montréal, ' +
+    'qui découvre que ses créations peuvent lui appartenir vraiment — pas seulement ' +
+    'dans le sens romantique, mais dans le sens légal et économique. Nous examinerons ' +
+    'la mécanique du «Brevet Ouvert Équitable» — ce tiers chemin entre donner tout ' +
+    'et tout verrouiller. Nous verrons comment des foyers souverains se connectent ' +
+    'en réseau sans se soumettre à un centre. Et nous poserons, sans réponse définitive, ' +
+    'la question qui traverse tout système de protection : quand la souveraineté ' +
+    'des uns protège aussi les acteurs dont on voudrait ne pas protéger les actions, ' +
+    'que fait-on?'
+  ),
+
+  body(
+    'Avant d\'entrer dans les histoires, une précision s\'impose sur la nature ' +
+    'd\'UBLinx à ce stade. Ce n\'est pas un produit commercial disponible sur ' +
+    'l\'App Store. C\'est une architecture conceptuelle — un plan, une vision, ' +
+    'un ensemble de principes qui ont une cohérence interne et une faisabilité ' +
+    'technique, mais qui n\'ont pas encore traversé le feu de l\'implémentation ' +
+    'à grande échelle. David Berthelotte est un entrepreneur et inventeur québécois ' +
+    'avec plus de deux cents innovations documentées au cours de sa carrière chez ' +
+    'JRT Inc. — pas un prophète qui annonce des certitudes. Ce qu\'il propose, ' +
+    'c\'est la direction. La route elle-même reste à construire.'
+  ),
+
+  pageBreak(),
+
+  // =========================================================================
+  // CHAPITRE 1 : L'INVENTEUR DANS SON GARAGE
+  // =========================================================================
+
+  chTitle('Chapitre 1'),
+  chTitle("L'inventeur dans son garage"),
+
+  epigraph(
+    '« Le brevet fut inventé pour libérer les inventeurs. Il a été retourné ' +
+    'contre eux comme une arme entre les mains de ceux qui n\'inventent plus rien. »'
+  ),
+
+  scene(
+    'Thiès, Sénégal. Juin 2031. Dans un atelier de cinq mètres sur six, ' +
+    'Amadou Diallo, trente-quatre ans, soulève avec précaution un filtre à eau ' +
+    'qu\'il a conçu lui-même au cours des dix-huit derniers mois. Le châssis est ' +
+    'fait de buses récupérées sur un chantier abandonné. Le médium filtrant est ' +
+    'composé de sable calciné, de charbon végétal et d\'une membrane qu\'il a ' +
+    'tissée à partir de fibres locales traitées chimiquement selon une méthode ' +
+    'qu\'il a mis quatre mois à affiner. Les résultats des tests qu\'il a fait ' +
+    'analyser à l\'université de Dakar sont là, sur sa table en bois : réduction ' +
+    'de 99,3 % des bactéries fécales, de 98,7 % des parasites, et de 94 % des ' +
+    'microplastiques. Ce filtre fonctionne. Il fonctionne vraiment, avec des ' +
+    'matériaux locaux, pour un coût de fabrication d\'environ 4 500 francs CFA — ' +
+    'moins de huit dollars américains. Il pourrait sauver des vies dans les ' +
+    'quarante-sept villages du département qui n\'ont pas accès à l\'eau potable.'
+  ),
+
+  scene(
+    'Amadou pose le filtre délicatement. Il ouvre son ordinateur portable, ' +
+    'dont l\'écran porte les traces d\'une chute ancienne jamais réparée. Il ' +
+    'cherche «comment protéger une invention au Sénégal». Les résultats lui ' +
+    'apprennent que le dépôt d\'un brevet national coûte entre 500 000 et ' +
+    '800 000 francs CFA — soit l\'équivalent de huit à treize mois de son ' +
+    'revenu moyen. Un brevet international via le Traité de Coopération en ' +
+    'matière de Brevets coûterait dix fois plus. Les délais de traitement : ' +
+    'deux à cinq ans. La langue des formulaires : le français juridique le ' +
+    'plus hermétique. Les cabinets d\'avocats spécialisés en propriété ' +
+    'intellectuelle à Dakar : deux, dont l\'un exige un acompte de six mois ' +
+    'de revenus d\'Amadou simplement pour une consultation initiale. Amadou ' +
+    'ferme son ordinateur. L\'idée qui pourrait changer des vies — la sienne, ' +
+    'celle de milliers de personnes — est juridiquement sans défense. Il ira ' +
+    'se coucher ce soir en sachant que si une multinationale de traitement ' +
+    'de l\'eau découvre son invention, elle pourra l\'industrialiser, la ' +
+    'breveter en faisant valoir de légères modifications, et le laisser sans ' +
+    'recours pratique ni compensation.'
+  ),
+
+  body(
+    'L\'histoire d\'Amadou n\'est pas une exception. C\'est la règle. Dans les ' +
+    'laboratoires informels de Lagos, dans les ateliers de Manille, dans les ' +
+    'garages de Trois-Rivières et de Rimouski, des milliers d\'inventeurs ' +
+    'individuels font face chaque année à la même équation brutale : leurs ' +
+    'idées valent potentiellement des millions, mais le coût de les protéger ' +
+    'dépasse de loin leurs moyens. Le système mondial des brevets, conçu au ' +
+    'XIXe siècle pour encourager l\'innovation en garantissant aux inventeurs ' +
+    'une exclusivité temporaire sur leurs découvertes, s\'est progressivement ' +
+    'transformé en quelque chose qu\'aucun de ses architectes n\'aurait voulu : ' +
+    'un instrument de domination au service des grandes entreprises contre ' +
+    'les individus qui osent inventer. L\'OMPI (Organisation Mondiale de la ' +
+    'Propriété Intellectuelle) reconnaît elle-même que moins de 5 % des ' +
+    'inventeurs des pays en développement accèdent à une protection effective ' +
+    'de leurs innovations. Cela signifie que 95 % des idées innovantes issues ' +
+    'du Sud Global sont, en pratique, offertes librement au monde — sans ' +
+    'aucune contrepartie pour leurs auteurs.'
+  ),
+
+  secTitle("Le paradoxe de la protection : une histoire de deux siècles"),
+
+  body(
+    'La Convention de Paris de 1883, qui posa les bases du système international ' +
+    'des brevets, partait d\'une intuition juste : si un inventeur sait que son ' +
+    'invention lui sera garantie pendant vingt ans, il n\'aura aucune raison de ' +
+    'la garder secrète. Il la publiera. La société bénéficiera du savoir, ' +
+    'l\'inventeur bénéficiera du monopole temporaire. Un échange équitable. ' +
+    'Un contrat social entre le génie individuel et le bien commun. Pendant ' +
+    'plusieurs décennies, cette logique a partiellement fonctionné. Les ' +
+    'inventeurs indépendants comme Edison — qui avait pourtant des moyens ' +
+    'considérables et un laboratoire entier de collaborateurs — déposaient ' +
+    'des brevets qui protégeaient vraiment leurs innovations contre les ' +
+    'copistes. Le système était imparfait, mais il accomplissait grossièrement ' +
+    'sa mission initiale. La preuve : entre 1880 et 1920, le nombre de ' +
+    'brevets accordés à des inventeurs individuels atteignit des sommets ' +
+    'historiques, reflétant une ère d\'inventivité populaire sans précédent.'
+  ),
+
+  body(
+    'Quelque chose a déraillé dans les années 1970 et 1980. La montée en ' +
+    'puissance des entreprises technologiques et de l\'économie immatérielle ' +
+    'a coïncidé avec une mutation profonde de la nature du brevet. Les grandes ' +
+    'corporations ont compris qu\'un portefeuille de brevets n\'était pas ' +
+    'seulement un bouclier défensif : c\'était une arme offensive, une ' +
+    'monnaie d\'échange, un levier de négociation. IBM déposait plus de ' +
+    '5 000 brevets par an au sommet de sa puissance, dont une fraction ' +
+    'minuscule concernait des innovations qu\'elle développait réellement. ' +
+    'Qualcomm bâtit un empire sur des licences de brevets qui représentent ' +
+    'aujourd\'hui plusieurs dizaines de milliards de dollars de revenus ' +
+    'annuels — de l\'argent versé par chaque fabricant de téléphone intelligent ' +
+    'dans le monde, sans que Qualcomm ne fabrique lui-même des téléphones. ' +
+    'Microsoft, Apple et Google ont engagé des guerres de brevets milliardaires ' +
+    'non pas pour protéger des innovations réelles, mais pour bloquer des ' +
+    'concurrents ou générer des revenus de licences sans jamais rien produire ' +
+    'de concret avec ces brevets.'
+  ),
+
+  body(
+    'Les «patent trolls» — entités qui achètent des brevets dans le seul but ' +
+    'de poursuivre en justice des entreprises plus productives qu\'elles — ' +
+    'sont devenus un phénomène économique majeur aux États-Unis, coûtant ' +
+    'à l\'économie américaine plusieurs dizaines de milliards de dollars par ' +
+    'an en litiges stériles, selon des études du MIT et de l\'Université de ' +
+    'Boston. Ces entités ne créent rien. Elles ne produisent rien. Elles ' +
+    'parasitent le système de protection de l\'innovation pour en extraire ' +
+    'de la valeur sans en créer. Et la cible préférée des patent trolls n\'est ' +
+    'pas Apple ou Google — ces géants ont des armées de juristes pour se ' +
+    'défendre. La cible préférée est la PME qui a créé quelque chose de ' +
+    'réel et qui n\'a pas les ressources pour un procès qui durera cinq ans ' +
+    'et coûtera plusieurs millions de dollars. Le système qui devait protéger ' +
+    'les innovateurs est devenu l\'instrument d\'extorsion contre eux.'
+  ),
+
+  body(
+    'Pour un inventeur individuel comme Amadou, cette dérive a une conséquence ' +
+    'concrète et dévastratrice : même s\'il réussissait à déposer un brevet, ' +
+    'il ne pourrait jamais se défendre contre une violation par une grande ' +
+    'entreprise. Les litiges de brevets coûtent en moyenne entre 1,5 et ' +
+    '5 millions de dollars par partie pour aller au procès aux États-Unis. ' +
+    'En Europe, les chiffres sont comparables. Au Sénégal, la réalité est ' +
+    'encore plus sombre : les tribunaux spécialisés en propriété intellectuelle ' +
+    'sont rares, les avocats compétents en droit des brevets sont une denrée ' +
+    'encore plus rare, et les délais judiciaires peuvent s\'étirer sur une ' +
+    'décennie. Autrement dit, le système actuel n\'offre une protection réelle ' +
+    'qu\'à ceux qui disposent déjà des ressources pour se défendre — les grandes ' +
+    'entreprises. Pour les autres, il offre l\'illusion de la protection et ' +
+    'la réalité de la vulnérabilité. C\'est une fraude institutionnalisée, ' +
+    'légale et parfaitement documentée.'
+  ),
+
+  thesis(
+    'La qualité d\'une idée n\'a aucune relation avec la capacité financière ' +
+    'de son auteur à la protéger. C\'est l\'injustice fondamentale du système ' +
+    'actuel de propriété intellectuelle. UBLinx est né de la conviction que ' +
+    'cette injustice n\'est pas une fatalité — qu\'il est techniquement et ' +
+    'économiquement possible de construire un système où la protection ' +
+    'suit la qualité de l\'invention, pas le solde bancaire de son auteur.'
+  ),
+
+  secTitle("Ce que UBLinx propose à Amadou"),
+
+  body(
+    'Dans l\'écosystème UBLinx, Amadou Diallo ferait quelque chose de ' +
+    'radicalement différent ce soir où il a fermé son ordinateur avec ' +
+    'découragement. Il photographierait son filtre à eau sous plusieurs ' +
+    'angles. Il téléchargerait ses données de test de l\'université de ' +
+    'Dakar. Il décrirait en termes accessibles — pas en jargon juridique, ' +
+    'mais dans un langage qu\'un artisan compétent pourrait suivre — les ' +
+    'matériaux utilisés, les étapes de fabrication, les principes de ' +
+    'fonctionnement. Et il soumettrait le tout à la plateforme. En quelques ' +
+    'minutes, le système UBLinx effectuerait un horodatage cryptographique ' +
+    'de la soumission complète et l\'inscrirait sur la blockchain : une ' +
+    'preuve immuable, datée à la seconde près, que cette invention existait ' +
+    'ce jour-là, sous cette forme, et qu\'elle avait été créée par Amadou ' +
+    'Diallo de Thiès, Sénégal. Cette preuve ne peut pas être effacée. Elle ' +
+    'ne peut pas être contredite par un concurrent bien financé. Elle ne ' +
+    'dépend d\'aucun office gouvernemental, d\'aucun avocat, d\'aucun système ' +
+    'judiciaire national. Elle est inscrite dans la structure mathématique ' +
+    'd\'un réseau distribué que personne ne contrôle et que personne ne ' +
+    'peut censurer.'
+  ),
+
+  body(
+    'L\'étape suivante est la validation — et c\'est là que UBLinx introduit ' +
+    'quelque chose de nouveau dans l\'écosystème de la propriété intellectuelle. ' +
+    'Un premier filtre de machine learning analyse la soumission d\'Amadou : ' +
+    'les principes physiques de filtration sont-ils cohérents avec les lois ' +
+    'de la physico-chimie connues? Les résultats de test affichés sont-ils ' +
+    'dans les ordres de grandeur plausibles pour ce type de médium filtrant ' +
+    'combiné de cette manière? La description est-elle suffisamment précise ' +
+    'pour être reproductible par un artisan qualifié? Ce filtre automatique ' +
+    'ne juge pas de la valeur commerciale de l\'invention, ni de son élégance ' +
+    'scientifique. Il vérifie qu\'elle ne viole pas les lois fondamentales ' +
+    'de la physique — écartant ainsi les machines à mouvement perpétuel, ' +
+    'les générateurs d\'énergie libre, les prétentions thermodynamiquement ' +
+    'impossibles qui encombrent tous les systèmes de soumission d\'innovations. ' +
+    'Si le filtre automatique est satisfait, la soumission passe en revue ' +
+    'par des experts humains bénévoles du réseau — des ingénieurs en génie ' +
+    'chimique, des spécialistes du traitement de l\'eau, des praticiens ' +
+    'du développement durable dans des contextes à ressources limitées — ' +
+    'qui confirment la validité et l\'originalité de la conception d\'Amadou.'
+  ),
+
+  body(
+    'Une fois validée, l\'invention d\'Amadou est protégée par un contrat ' +
+    'intelligent — un programme autonome qui s\'exécute sur la blockchain ' +
+    'et dont les règles ne peuvent pas être modifiées unilatéralement par ' +
+    'quiconque, y compris UBLinx elle-même. Ces règles sont simples et ' +
+    'transparentes : toute personne qui veut fabriquer et utiliser le filtre ' +
+    'pour un usage personnel, ou en construire jusqu\'à cinq exemplaires pour ' +
+    'sa communauté, le fait gratuitement et librement. Toute organisation — ' +
+    'entreprise commerciale, ONG à budget significatif, gouvernement — qui ' +
+    'veut le produire commercialement déclenche automatiquement le versement ' +
+    'd\'une redevance à Amadou Diallo. Pas de factures à envoyer. Pas ' +
+    'd\'huissiers à mobiliser. Pas de procès à financer. Pas de négociations ' +
+    'asymétriques avec un service juridique d\'entreprise bien doté. Le ' +
+    'contrat intelligent s\'exécute dès que les conditions sont remplies, ' +
+    'et la redevance arrive dans le portefeuille numérique d\'Amadou aussi ' +
+    'automatiquement qu\'un virement bancaire — mais sans la banque.'
+  ),
+
+  crit(
+    'Critique honnête : UBLinx ne résout pas tous les problèmes de la propriété ' +
+    'intellectuelle. Les contrats intelligents ont des bugs — il y a eu des ' +
+    'piratages retentissants dans l\'histoire de la finance décentralisée, ' +
+    'le plus célèbre étant le hack du DAO en 2016 qui a résulté en une perte ' +
+    'de 60 millions de dollars. La validation par des experts bénévoles peut ' +
+    'être lente dans des domaines spécialisés, inégale selon la qualité des ' +
+    'bénévoles disponibles, et parfois biaisée vers les connaissances et ' +
+    'méthodes dominantes dans un domaine. Un réseau de blockchain peut ' +
+    'être vulnérable à la concentration du pouvoir de calcul — ce qu\'on appelle ' +
+    'une attaque des 51 %. Et l\'application légale d\'une redevance générée ' +
+    'par un contrat intelligent reste un problème juridique non résolu dans ' +
+    'la plupart des juridictions mondiales. La question n\'est pas : ' +
+    'UBLinx est-il parfait? La question est : est-il dramatiquement meilleur ' +
+    'que ce qu\'Amadou a aujourd\'hui? Et la réponse à cette question est ' +
+    'oui, sans ambiguïté. L\'absence totale de protection coûte infiniment ' +
+    'plus cher qu\'une protection imparfaite.'
+  ),
+
+  rq(
+    'Vous avez peut-être eu une idée, un jour — un produit, un processus, ' +
+    'une solution à un problème qui vous frustrait depuis longtemps. ' +
+    'Qu\'est-ce qui vous a empêché de la protéger et de la partager? ' +
+    'Était-ce le coût? Les délais? La complexité juridique? La conviction ' +
+    'que l\'idée n\'était pas assez «bonne»? La peur que quelqu\'un la vole ' +
+    'avant que vous puissiez la défendre? Combien d\'Amadou avons-nous ' +
+    'perdus — pas à cause du manque d\'idées, mais à cause du manque ' +
+    'd\'accès aux outils de protection de ces idées?'
+  ),
+
+  sep(),
+
+  secTitle("Pourquoi l'horodatage blockchain est une révolution silencieuse"),
+
+  body(
+    'Il existe une différence fondamentale entre prouver qu\'on a eu une idée ' +
+    'et prouver qu\'on l\'a eu avant quelqu\'un d\'autre. Le droit des brevets ' +
+    'repose entièrement sur cette distinction temporelle — le premier à déposer ' +
+    'gagne, dans la majorité des systèmes modernes. Mais «déposer» dans le ' +
+    'système actuel nécessite des ressources considérables et des délais importants. ' +
+    'Entre le moment où Amadou conçoit son filtre et le moment où il pourrait ' +
+    'obtenir un brevet — si jamais il en avait les moyens — plusieurs années ' +
+    'peuvent s\'écouler. Pendant ces années, son invention est vulnérable. ' +
+    'L\'horodatage blockchain change radicalement cette équation : la preuve ' +
+    'de l\'antériorité est créée en quelques minutes, au moment même de la ' +
+    'création, pour un coût proche de zéro. Ce n\'est pas encore un brevet. ' +
+    'Mais c\'est une fondation probatoire incontestable que même les grandes ' +
+    'entreprises ne peuvent pas ignorer dans un litige sérieux.'
+  ),
+
+  body(
+    'La robustesse cryptographique de l\'horodatage mérite d\'être expliquée ' +
+    'sans jargon, parce qu\'elle est au cœur de la crédibilité du système. ' +
+    'Quand Amadou soumet son invention, le système calcule une «empreinte ' +
+    'numérique» (hash SHA-256) de son document — une chaîne de 64 caractères ' +
+    'qui est mathématiquement unique à ce document précis. Si un seul caractère ' +
+    'du document est modifié après coup — même un espace, même une virgule — ' +
+    'l\'empreinte change complètement. Cette empreinte est ensuite inscrite ' +
+    'dans un bloc de la blockchain, avec l\'horodatage exact. La blockchain ' +
+    'est une chaîne de blocs où chaque bloc contient l\'empreinte du bloc ' +
+    'précédent — modifier un bloc rétroactivement nécessiterait de recalculer ' +
+    'tous les blocs suivants, ce qui requiert une puissance de calcul que ' +
+    'personne au monde ne possède contre une blockchain bien établie. ' +
+    'Concrètement : l\'enregistrement d\'Amadou ne peut pas être antidaté, ' +
+    'modifié, ni supprimé. La preuve existe, permanente et vérifiable par ' +
+    'quiconque dans le monde.'
+  ),
+
+  body(
+    'Cette permanence a des implications qui dépassent la simple protection ' +
+    'individuelle. Elle crée une mémoire collective de l\'innovation humaine — ' +
+    'un registre distribué de qui a inventé quoi et quand, accessible à ' +
+    'tous, vérifiable par tous, appartenant à personne en particulier. ' +
+    'Les historiens des sciences et des techniques disposent aujourd\'hui ' +
+    'de sources fragmentaires, souvent biaisées vers les inventeurs des pays ' +
+    'riches qui ont eu accès aux offices de brevets. Un registre UBLinx, ' +
+    'sur des décennies, deviendrait une documentation sans précédent de ' +
+    'l\'intelligence créatrice humaine dans sa diversité géographique et ' +
+    'culturelle réelle. Ce n\'est pas un objectif secondaire de la plateforme. ' +
+    'C\'est une conséquence émergente de son fonctionnement normal.'
+  ),
+
+  pageBreak(),
+
+  // =========================================================================
+  // CHAPITRE 2 : L'ADOLESCENTE QUI COMPOSE
+  // =========================================================================
+
+  chTitle('Chapitre 2'),
+  chTitle("L'adolescente qui compose"),
+
+  epigraph(
+    '« La créativité n\'a pas d\'âge, de passeport, ni de contrat de distribution. ' +
+    'Elle a seulement besoin d\'un espace où elle peut exister sans se faire confisquer. »'
+  ),
+
+  scene(
+    'Montréal, arrondissement Rosemont, chambre du fond. Novembre 2031. ' +
+    'Mei-Lin Gao, seize ans, porte des écouteurs qui lui enveloppent les ' +
+    'oreilles comme deux coquilles de protection contre le reste du monde. ' +
+    'Sur son écran, une interface de composition musicale affiche des nappes ' +
+    'de synthétiseurs, des percussions électroniques et une ligne de mélodie ' +
+    'qu\'elle a passé trois semaines à construire note par note, en tâtonnant, ' +
+    'en recommençant, en suivant quelque chose qui ressemble moins à un plan ' +
+    'qu\'à une intuition persistante. Elle appuie sur «jouer». La musique ' +
+    'emplit la pièce — quelque chose entre l\'électronique minimaliste ' +
+    'nordique et les harmonies pentatoniques de la tradition musicale de ' +
+    'ses grands-parents cantonnais. C\'est étrange. C\'est nouveau. C\'est ' +
+    'indubitablement elle — pas un algorithme, pas une tendance repérée ' +
+    'par Spotify, pas une formule prouvée par les labels de Los Angeles.'
+  ),
+
+  scene(
+    'Ce qui est différent ce soir par rapport à ce qu\'aurait vécu une ' +
+    'adolescente musicienne en 2024, c\'est ce qui se passe — ou plutôt ' +
+    'ce qui ne se passe pas — pendant qu\'elle compose. Aucune plateforme ' +
+    'n\'enregistre ses préférences musicales pour construire un profil ' +
+    'publicitaire qui sera vendu à une régie de publicité. Aucun algorithme ' +
+    'ne fait remonter ses «erreurs» de composition vers un serveur ' +
+    'd\'apprentissage automatique appartenant à une entreprise californienne ' +
+    'qui s\'en servira pour améliorer ses propres outils de génération musicale. ' +
+    'L\'intelligence artificielle locale de Gen_Home qui l\'aide parfois ' +
+    'à trouver des transitions harmoniques apprend avec elle, pour elle, ' +
+    'et reste chez elle. Les données de ses ébauches, de ses expériences ' +
+    'ratées, de ses moments d\'inspiration fugace — tout cela appartient ' +
+    'à Mei-Lin, stocké localement, jamais transmis sans son accord explicite ' +
+    'et révocable.'
+  ),
+
+  body(
+    'Il faut mesurer ce que cette différence représente réellement, parce ' +
+    'qu\'elle est moins triviale qu\'elle n\'y paraît. Quand une jeune ' +
+    'musicienne en 2024 utilisait n\'importe quelle plateforme créative ' +
+    'connectée au cloud — GarageBand via iCloud, Ableton Live avec sync ' +
+    'cloud, SoundCloud, Bandcamp — elle cédait implicitement une série ' +
+    'de droits qu\'elle n\'avait jamais explicitement accordés. Les conditions ' +
+    'd\'utilisation de ces services, rédigées en anglais juridique dense ' +
+    'et enfouies dans des documents de cinquante pages que personne ne ' +
+    'lisait, signifiaient approximativement : «En utilisant notre service, ' +
+    'vous nous accordez une licence mondiale, non exclusive, libre de droits, ' +
+    'transférable et pouvant faire l\'objet d\'une sous-licence pour utiliser, ' +
+    'reproduire, distribuer, créer des œuvres dérivées de, afficher et ' +
+    'exécuter votre contenu dans le cadre de la fourniture du service.» ' +
+    'La musicienne croyait publier sa musique. Elle signait en réalité un ' +
+    'contrat de cession partielle de droits avec une multinationale dont ' +
+    'les actionnaires n\'ont aucun intérêt particulier pour ses aspirations artistiques.'
+  ),
+
+  secTitle("La valeur créative et ses prédateurs systémiques"),
+
+  body(
+    'L\'économie musicale contemporaine illustre avec une clarté brutale ' +
+    'comment les plateformes numériques ont recréé la dynamique d\'exploitation ' +
+    'que l\'industrie du disque avait institutionnalisée au XXe siècle — ' +
+    'en version encore plus déséquilibrée. Spotify, en 2024, rémunérait ses ' +
+    'artistes entre 0,003 et 0,005 dollar américain par écoute. Un million ' +
+    'd\'écoutes — un résultat que seuls les artistes très établis atteignent ' +
+    'avec régularité, après des années de construction d\'audience — ' +
+    'représentait donc entre 3 000 et 5 000 dollars de revenus bruts. Avant ' +
+    'déduction des parts du label (qui prend en moyenne 75 % pour un artiste ' +
+    'sous contrat standard), du distributeur numérique, des managers et des ' +
+    'autres intermédiaires, un artiste indépendant pouvait espérer conserver ' +
+    'entre 15 et 30 % de cette somme. Un million d\'écoutes : entre 450 et ' +
+    '1 500 dollars dans la poche de l\'artiste. YouTube prenait 45 % des ' +
+    'revenus publicitaires générés par les vidéos d\'artistes, après avoir ' +
+    'décidé unilatéralement quelles vidéos méritaient d\'être monétisées ' +
+    'et lesquelles étaient «demonetized» pour des raisons d\'algorithme ' +
+    'opaques. TikTok revendiquait des droits d\'utilisation sur les extraits ' +
+    'musicaux publiés sur sa plateforme, créant des situations absurdes où ' +
+    'des artistes découvraient que leurs propres chansons étaient utilisées ' +
+    'dans des publicités sans leur accord.'
+  ),
+
+  body(
+    'Mei-Lin connaît cette réalité. Elle l\'a apprise non pas dans un cours ' +
+    'd\'économie mais en observant son cousin aîné, musicien indépendant, ' +
+    'accumuler les écoutes sur Spotify pendant cinq ans — des centaines de ' +
+    'milliers d\'écoutes — sans pouvoir en vivre. Il travaille toujours ' +
+    'dans un café le matin pour payer son loyer et compose le soir. Elle ' +
+    'a grandi avec cette conscience que la valeur créée et la rémunération ' +
+    'reçue sont deux réalités profondément déconnectées dans l\'économie ' +
+    'numérique. Ce soir, après avoir terminé sa composition, elle prend ' +
+    'une décision consciente. Elle va la partager — mais pas sur Spotify, ' +
+    'pas sur YouTube, pas sur TikTok. Elle va d\'abord la partager dans ' +
+    'son cercle de confiance le plus proche (ses six amis les plus intimes, ' +
+    'le cercle deux dans la terminologie Gen_Home), puis, si la réponse ' +
+    'est positive, elle décidera quoi en faire ensuite. Elle n\'est pas ' +
+    'prête à abandonner son œuvre à un algorithme sans réfléchir d\'abord.'
+  ),
+
+  body(
+    'Le lendemain matin, les six amis ont écouté pendant la nuit. Trois ' +
+    'd\'entre eux ont renvoyé des messages vocaux enthousiastes. L\'un d\'eux, ' +
+    'particulièrement intuitif sur les tendances musicales émergentes, ' +
+    'lui dit avec l\'emphase typique de ses seize ans : «Mei-Lin, ça ressemble ' +
+    'à rien de ce qui existe. Tu devrais vraiment la publier proprement.» ' +
+    'Elle réfléchit un jour. Puis elle soumet la composition sur UBLinx. ' +
+    'Le système horodate l\'œuvre, l\'enregistre sur IPFS — un système de ' +
+    'stockage distribué où le fichier est dupliqué sur des milliers de ' +
+    'nœuds dans le monde entier, rendant sa suppression pratiquement ' +
+    'impossible même si elle-même voulait l\'effacer — et lui génère un ' +
+    'certificat d\'authenticité cryptographique lié à son identité numérique ' +
+    'souveraine. L\'œuvre appartient à Mei-Lin. Pas à une plateforme. ' +
+    'Pas à un label. Pas à un algorithme de recommandation. À Mei-Lin Gao, ' +
+    'seize ans, Rosemont, Montréal, le 17 novembre 2031.'
+  ),
+
+  scene(
+    'Osaka, Japon. Trois semaines plus tard. Kenji Takahashi, producteur ' +
+    'de musique électronique depuis dix-sept ans, parcourt les nouvelles ' +
+    'soumissions UBLinx dans la catégorie qu\'il surveille chaque semaine : ' +
+    '«électronique expérimental / tradition non-occidentale». Il cherche ' +
+    'des sons qu\'il n\'a pas encore entendus, des textures que personne ' +
+    'n\'a encore associées. Il tombe sur la composition de Mei-Lin. Il ' +
+    'l\'écoute une fois. Il la repose. Il reprend ses autres dossiers. ' +
+    'Dix minutes plus tard, il revient dessus. Il l\'écoute deux fois de ' +
+    'suite. Quelque chose dans cette façon de tresser les harmonies pentatoniques ' +
+    'avec la synthèse soustractive occidentale crée une tension qu\'il ' +
+    'n\'a jamais rencontrée ailleurs — une tension qui n\'est pas inconfortable, ' +
+    'qui est plutôt comme la tension d\'une corde bien accordée. Il envoie ' +
+    'une demande de contact via la plateforme : «Kenji Takahashi, producteur ' +
+    'musical, Osaka, souhaite vous contacter au sujet de votre composition ' +
+    'November Rosemont.» Mei-Lin relit deux fois le message. Elle vérifie ' +
+    'le profil de Kenji sur UBLinx — ses projets publiés, ses collaborations ' +
+    'documentées, sa réputation dans le réseau. Tout est transparent. ' +
+    'Elle accepte le contact.'
+  ),
+
+  body(
+    'Ce qui se passe ensuite est, dans sa structure de surface, identique ' +
+    'à ce qui se serait passé en 2024 — deux créateurs entrent en contact, ' +
+    'discutent d\'une collaboration. Mais dans ses détails, tout est fondamentalement ' +
+    'différent. Kenji veut utiliser la composition de Mei-Lin comme base ' +
+    'structurale pour un album qu\'il prépare. Il propose une répartition ' +
+    'des revenus. Mei-Lin — qui a grandi avec le conseil de famille, qui ' +
+    'sait négocier, qui ne signe pas sans avoir compris — contre-propose. ' +
+    'Ils échangent trois ou quatre messages. Ils s\'accordent. Et quand ' +
+    'ils s\'accordent, leur accord est codifié dans un contrat intelligent ' +
+    'déployé sur la blockchain UBLinx : Mei-Lin reçoit 38 % des revenus ' +
+    'générés par toute exploitation commerciale de l\'œuvre dérivée, ' +
+    'pour une durée de dix ans, après quoi les termes sont renegociables. ' +
+    'Ce pourcentage n\'est pas une promesse verbale. Ce n\'est pas un contrat ' +
+    'papier que Kenji pourrait contester devant un tribunal japonais qui ' +
+    'lui sera peut-être plus favorable qu\'à une adolescente canadienne. ' +
+    'C\'est du code qui s\'exécute automatiquement. C\'est de la mathématique. ' +
+    'C\'est aussi solide que les lois de l\'arithmétique.'
+  ),
+
+  thesis(
+    'La souveraineté sur ses créations n\'est pas un privilège réservé aux ' +
+    'artistes établis qui peuvent se payer des avocats à New York ou à Tokyo. ' +
+    'C\'est un droit fondamental qui devrait appartenir à chaque créateur ' +
+    'dès la première note, le premier dessin, la première ligne de code ' +
+    'écrite dans l\'enthousiasme d\'une découverte. UBLinx ne crée pas ce droit. ' +
+    'Il crée enfin l\'infrastructure pour l\'exercer — pour qu\'une adolescente ' +
+    'de Rosemont puisse traiter d\'égal à égal avec un producteur établi d\'Osaka, ' +
+    'sans intermédiaire qui prend sa commission, sans clause d\'exclusivité ' +
+    'qu\'elle n\'a pas lue, sans perdre ce qu\'elle a créé.'
+  ),
+
+  body(
+    'Il y a quelque chose de profondément cohérent dans le parcours de Mei-Lin ' +
+    'par rapport à l\'enfant qui a grandi avec le conseil de famille de l\'Acte II. ' +
+    'Cet enfant apprit tôt que les règles importantes — les règles qui touchent ' +
+    'à ce qu\'on peut faire avec son propre temps, son propre espace numérique, ' +
+    'ses propres ressources d\'attention — se négocient, se discutent, se ' +
+    'co-construisent. Personne ne lui impose unilatéralement des conditions ' +
+    'd\'utilisation de sa chambre. Personne ne lui fait signer en bas de page ' +
+    'un document de cinquante paragraphes qu\'il n\'a pas lu pour avoir accès ' +
+    'à ses propres affaires. Il a appris que ses limites méritent d\'être ' +
+    'définies et respectées, que ses contributions à la famille ont une valeur ' +
+    'reconnue, que les décisions qui le concernent lui appartiennent ' +
+    'proportionnellement à sa capacité de les comprendre. Ce muscle — ' +
+    'le muscle de l\'agentivité, de la négociation, de la souveraineté ' +
+    'dans son propre espace — est le même que Mei-Lin exerce ce soir quand ' +
+    'elle échange avec Kenji. L\'architecture de la souveraineté s\'apprend ' +
+    'à table, dans la chambre, dans les conversations familiales de l\'enfance. ' +
+    'Puis elle s\'exporte naturellement dans le monde adulte.'
+  ),
+
+  sep(),
+
+  secTitle("L'économie créative à l'ère de l'intelligence artificielle générative"),
+
+  body(
+    'L\'histoire de Mei-Lin se déroule dans un contexte qui évolue encore ' +
+    'plus vite que celui de la disruption numérique des années 2010. L\'intelligence ' +
+    'artificielle générative — ces systèmes capables de composer de la musique, ' +
+    'de générer des images, d\'écrire du code, de produire des textes à une ' +
+    'vitesse et un coût inimaginables quelques années plus tôt — a créé une ' +
+    'nouvelle couche de complexité dans la question des droits des créateurs. ' +
+    'Quand un système d\'IA est entraîné sur des millions d\'œuvres musicales ' +
+    'sans la permission explicite de leurs auteurs, puis génère de la «nouvelle» ' +
+    'musique qui ressemble statistiquement à ces œuvres, à qui appartient ' +
+    'le résultat? La question n\'est pas résolue juridiquement dans la plupart ' +
+    'des pays. Elle ne sera probablement pas résolue de manière satisfaisante ' +
+    'par les systèmes juridiques existants, conçus pour un monde où la ' +
+    'création était fondamentalement humaine.'
+  ),
+
+  body(
+    'UBLinx, dans ce contexte, offre quelque chose de crucial : une preuve ' +
+    'd\'antériorité humaine qui précède toute version générée par une IA. ' +
+    'Si Mei-Lin dépose sa composition sur UBLinx le 17 novembre 2031 et ' +
+    'qu\'un système d\'IA produit une composition similaire le 18 novembre, ' +
+    'l\'horodatage est incontestable. L\'œuvre de Mei-Lin existait en premier, ' +
+    'documentée, vérifiable, résistante à toute contestation rétroactive. ' +
+    'Cette capacité à établir l\'antériorité humaine face à la production ' +
+    'algorithmique deviendra, selon toute probabilité, l\'une des fonctions ' +
+    'les plus importantes d\'un système comme UBLinx dans les décennies à venir — ' +
+    'bien au-delà de sa mission initiale de protection contre la copie humaine.'
+  ),
+
+  body(
+    'Il y a aussi une dimension plus subtile que Mei-Lin perçoit intuitivement ' +
+    'sans nécessairement la formuler en ces termes : quand elle compose avec ' +
+    'l\'IA locale de Gen_Home, ses erreurs, ses tâtonnements, ses choix ' +
+    'idiosyncrasiques restent dans son écosystème personnel. Ils n\'alimentent ' +
+    'pas le modèle global d\'une entreprise qui deviendrait ainsi plus capable ' +
+    'de reproduire son style particulier. La frontière entre l\'aide et ' +
+    'l\'apprentissage parasite — entre un outil qui vous sert et un outil ' +
+    'qui vous étudie pour mieux vous remplacer — est maintenue par l\'architecture ' +
+    'locale souveraine. Ce n\'est pas une décision consciente de Mei-Lin. ' +
+    'C\'est une garantie structurelle que le système Gen_Home offre par construction, ' +
+    'pas par promesse.'
+  ),
+
+  pageBreak(),
+
+  // =========================================================================
+  // CHAPITRE 3 : LE BREVET OUVERT ÉQUITABLE
+  // =========================================================================
+
+  chTitle('Chapitre 3'),
+  chTitle('Le brevet ouvert équitable'),
+
+  epigraph(
+    '« Entre donner tout et tout garder, il existe une troisième voie. ' +
+    'Elle s\'appelle justice. Elle ne ressemble ni à la générosité sans ' +
+    'contrepartie ni à l\'avarice sans partage. Elle ressemble à un contrat ' +
+    'que deux adultes pourraient signer les yeux ouverts. »'
+  ),
+
+  scene(
+    'Une salle de conférence dans un immeuble de verre à Bâle, Suisse. ' +
+    '14h37. Autour d\'une table ovale en noyer verni, huit juristes et ' +
+    'deux scientifiques examinent un document. Il s\'agit d\'une demande ' +
+    'de brevet pour un composé moléculaire — la modification d\'une protéine ' +
+    'de surface qui, selon les chercheurs internes de l\'entreprise, pourrait ' +
+    'potentiellement inhiber un mécanisme de résistance aux antibiotiques ' +
+    'particulièrement dangereux. Ils ne vont pas développer ce médicament. ' +
+    'Leur pipeline est plein, les estimations de retour sur investissement ' +
+    'pour cette piste thérapeutique sont jugées insuffisantes pour les ' +
+    'actionnaires actuels dans les horizons temporels de la prochaine ' +
+    'assemblée générale. Mais un concurrent, dans un laboratoire de Séoul, ' +
+    'explore la même voie avec des moyens plus modestes et une vision ' +
+    'à plus long terme. La décision autour de la table est rapide, presque ' +
+    'administrative : on dépose le brevet défensif. On dépensera 200 000 euros ' +
+    'pour protéger quelque chose qu\'on ne développera jamais — uniquement ' +
+    'pour que personne d\'autre ne puisse le développer non plus pendant ' +
+    'vingt ans.'
+  ),
+
+  body(
+    'Quelque part dans un laboratoire de Séoul, un chercheur passera les ' +
+    'cinq prochaines années à travailler autour de ce brevet sans jamais ' +
+    'comprendre pourquoi cet angle particulier semble juridiquement fermé. ' +
+    'Il ne saura pas qu\'une entreprise à Bâle a verrouillé cette voie par ' +
+    'pur réflexe défensif. Les brevets défensifs ne sont pas publiés avec ' +
+    'la mention «nous ne développerons jamais ceci, nous faisons juste ' +
+    'bloquer la concurrence». Ils ressemblent à n\'importe quel autre brevet. ' +
+    'La veille de l\'innovation — cet espace entre deux frontières de brevets ' +
+    'où un inventeur cherche où il peut aller sans se faire poursuivre — ' +
+    'se rétrécit chaque année, dans chaque domaine technologique, de manière ' +
+    'invisible et silencieuse. C\'est le coût collectif que la société paie ' +
+    'pour un système de protection individuelle des innovations qui a été ' +
+    'déformé par des intérêts qui n\'ont plus rien à voir avec l\'innovation.'
+  ),
+
+  secTitle("Entre l'open source et le brevet : la troisième voie"),
+
+  body(
+    'Face à cette réalité, deux réponses se sont développées au cours des ' +
+    'dernières décennies, chacune représentant un extrême du spectre de ' +
+    'la propriété intellectuelle. D\'un côté, le mouvement open source : ' +
+    'rendez tout public, tous les droits sont accordés à tous, que chacun ' +
+    'utilise et améliore librement. L\'innovation est maximisée, la diffusion ' +
+    'est maximale, la collaboration est facilitée. Mais le créateur original ' +
+    'n\'est jamais rémunéré pour la valeur commerciale qu\'il a créée. ' +
+    'Linux alimente aujourd\'hui l\'infrastructure numérique de planète entière — ' +
+    'des serveurs qui font tourner Amazon, Google, Netflix, les grandes banques, ' +
+    'les hôpitaux — et ses milliers de contributeurs bénévoles n\'ont jamais ' +
+    'reçu un centime directement de ces entreprises pour ce service. Linus ' +
+    'Torvalds, le créateur du noyau Linux, travaille pour une fondation à but ' +
+    'non lucratif financée par les entreprises qui profitent gratuitement de ' +
+    'son travail. C\'est une forme d\'équité — mais une équité arrangée ' +
+    'après coup, qui n\'était pas dans les termes originaux du modèle.'
+  ),
+
+  body(
+    'De l\'autre côté du spectre, le brevet traditionnel : verrouillez ' +
+    'tout, vingt ans d\'exclusivité absolue, que les concurrents inventent ' +
+    'autour ou attendent. L\'innovation est théoriquement récompensée — ' +
+    'en théorie, parce qu\'en pratique seuls ceux qui peuvent se payer ' +
+    'la protection en bénéficient réellement. Et l\'effet secondaire est ' +
+    'significatif : la diffusion des connaissances est ralentie, les ' +
+    'zones grises juridiques se multiplient, et le temps que les inventeurs ' +
+    'passent à naviguer dans les portefeuilles de brevets existants est ' +
+    'un temps qu\'ils ne passent pas à inventer. Un rapport de l\'OCDE a ' +
+    'estimé qu\'aux États-Unis seuls, les coûts de navigation dans les ' +
+    'brevets existants — les coûts de recherche, de conseil juridique, ' +
+    'de contournement ou de licences — représentent un frein à l\'innovation ' +
+    'équivalent à plusieurs points de pourcentage du PIB annuellement. ' +
+    'Le système conçu pour accélérer l\'innovation la ralentit effectivement.'
+  ),
+
+  body(
+    'Le modèle du «Brevet Ouvert Équitable» que propose UBLinx cherche ' +
+    'à occuper l\'espace entre ces deux extrêmes — un espace qui existe ' +
+    'philosophiquement depuis longtemps, exploré partiellement par des ' +
+    'modèles comme Creative Commons, les licences LGPL ou la doctrine ' +
+    'du «fair use», mais qui manquait jusqu\'ici d\'une infrastructure ' +
+    'technique et économique pour fonctionner à grande échelle. Le principe ' +
+    'est simple dans son énoncé : l\'invention est documentée et accessible ' +
+    'à tous pour étude et réplication personnelle. Le créateur est rémunéré ' +
+    'automatiquement quand son invention génère une valeur commerciale ' +
+    'pour d\'autres. L\'usage personnel et communautaire (jusqu\'à cinq ' +
+    'copies) est libre. L\'usage commercial est soumis à redevance. ' +
+    'C\'est la distinction entre partager un feu de camp avec des amis ' +
+    'et vendre de l\'électricité à la ville.'
+  ),
+
+  sub("La validation comme rempart contre l'abus"),
+
+  body(
+    'Le système UBLinx ne valide pas les inventions sur la base de leur ' +
+    'valeur commerciale anticipée — c\'est au marché de décider si une ' +
+    'idée vaut quelque chose économiquement. Il les valide sur la base ' +
+    'de deux critères distincts : la cohérence physique et l\'originalité ' +
+    'revendiquée. La première couche de validation, le filtre de machine ' +
+    'learning, accomplit quelque chose de précis et de délimité : il ' +
+    'vérifie que l\'invention ne viole pas des lois physiques fondamentales. ' +
+    'Un moteur qui prétend produire plus d\'énergie qu\'il n\'en consomme ' +
+    'échoue immédiatement — pas parce qu\'une personne a décidé qu\'il ' +
+    'était invalide, mais parce que les équations thermodynamiques sont ' +
+    'universelles et ne négocient pas avec les désirs des inventeurs. ' +
+    'Un filtre à eau qui prétend éliminer 100 % des agents pathogènes ' +
+    'avec des matériaux simples déclenche une vérification approfondie ' +
+    'des mécanismes revendiqués avant validation. Ce filtre automatique ' +
+    'n\'est pas infaillible : il peut rejeter des innovations qui semblent ' +
+    'défier des principes établis mais qui les repoussent légitimement. ' +
+    'Une procédure d\'appel auprès d\'experts humains existe pour ces cas.'
+  ),
+
+  body(
+    'La deuxième couche de validation humaine est plus nuancée et, il faut ' +
+    'l\'admettre clairement, plus vulnérable au biais. Les experts bénévoles ' +
+    'qui examinent les soumissions sont des êtres humains avec leurs propres ' +
+    'perspectives, leurs propres angles morts disciplinaires, leurs propres ' +
+    'préjugés culturels. Un expert en ingénierie conventionnelle peut manquer ' +
+    'la valeur d\'une innovation qui combine des approches de domaines ' +
+    'différents. Un expert senior peut inconsciemment favoriser les approches ' +
+    'qui ressemblent à ce qu\'il connaît et rejeter l\'approche non-conventionnelle ' +
+    'd\'un inventeur autodidacte d\'Afrique de l\'Ouest. UBLinx tente de mitiger ' +
+    'ces risques par la diversité des validateurs requis (un minimum de trois ' +
+    'experts de régions géographiques différentes pour les innovations ' +
+    'techniques majeures), par la transparence complète du processus — ' +
+    'chaque validation est publique, chaque refus est motivé par écrit, ' +
+    'chaque motivation peut être contestée — et par un mécanisme de réputation ' +
+    'des validateurs qui pénalise les rejets systématiquement contestés ' +
+    'avec succès. C\'est imparfait. Toute institution humaine l\'est. ' +
+    'Mais l\'impartialité publique et contestable vaut mieux que l\'arbitraire ' +
+    'privé et opaque d\'un office de brevets gouvernemental.'
+  ),
+
+  sub("L'architecture juridique et technique en détail"),
+
+  tech(
+    'Structure hybride UBLinx : l\'OBNL québécois (organisme à but non ' +
+    'lucratif, incorporé sous la Loi sur les compagnies du Québec, régi ' +
+    'par un conseil d\'administration élu par les membres) détient la mission, ' +
+    'les valeurs et la gouvernance démocratique de la plateforme. Les décisions ' +
+    'importantes — modification des algorithmes de validation, changement ' +
+    'des taux de redevance, modification des règles de gouvernance — nécessitent ' +
+    'un vote de la communauté des membres. La LLC du Wyoming (États-Unis, ' +
+    'incorporée sous la Wyoming Decentralized Autonomous Organization Act ' +
+    'de 2021) fournit le cadre juridique compatible avec les actifs ' +
+    'cryptographiques et les contrats intelligents, dans une juridiction ' +
+    'qui reconnaît légalement les obligations créées par les DAOs et les ' +
+    'smart contracts. Le stockage des données d\'invention utilise IPFS ' +
+    'pour la disponibilité distribuée et Arweave pour la permanence garantie ' +
+    'par un modèle économique de paiement unique. Le système de fingerprinting ' +
+    'utilise des techniques de tatouage numérique (watermarking) robustes ' +
+    'aux transformations courantes (compression, reformatage, recadrage).'
+  ),
+
+  body(
+    'La réalité du stockage permanent mérite qu\'on s\'y arrête longuement, ' +
+    'parce qu\'elle est l\'une des différences les plus profondes entre ' +
+    'UBLinx et tout système de protection des innovations qui existait avant. ' +
+    'Quand Amadou soumet son filtre à eau sur UBLinx, le document n\'est pas ' +
+    'stocké sur un serveur appartenant à une entreprise qui peut faire faillite, ' +
+    'être rachetée, perdre ses données dans un incendie, ou décider unilatéralement ' +
+    'de supprimer des enregistrements anciens pour des raisons de coût de stockage. ' +
+    'IPFS distribue le document sur des milliers de nœuds indépendants dans le ' +
+    'monde entier — chaque nœud possède une copie partielle ou complète du fichier, ' +
+    'adressé par son empreinte cryptographique (hash) plutôt que par son emplacement ' +
+    'physique. Il n\'existe aucun serveur unique à pirater, aucune entreprise unique ' +
+    'à mettre en faillite, aucun gouvernement unique à intimider pour que ces données ' +
+    'disparaissent. L\'enregistrement d\'Amadou survivra à UBLinx lui-même. S\'il ' +
+    'arrivait quoi que ce soit à la plateforme demain — faillite, dissolution, ' +
+    'attaque — la preuve de paternité d\'Amadou existerait toujours, vérifiable ' +
+    'et inaltérable, accessible à quiconque sait l\'adresse cryptographique ' +
+    'du fichier.'
+  ),
+
+  crit(
+    'Autocritique nécessaire sur les limites légales : l\'application légale ' +
+    'des droits générés par des contrats intelligents reste un territoire ' +
+    'juridique largement inexploré dans la plupart des systèmes judiciaires ' +
+    'mondiaux. La plupart des juges à Paris, à Nairobi, à Mumbai ou à ' +
+    'Buenos Aires n\'ont pas de cadre établi pour reconnaître automatiquement ' +
+    'les obligations créées par un smart contract comme équivalentes à celles ' +
+    'créées par un contrat signé devant notaire. Cette réalité signifie ' +
+    'qu\'UBLinx peut offrir deux types de protection dès maintenant : ' +
+    'une protection économique (les redevances fluent automatiquement sans ' +
+    'avoir besoin d\'aller en justice) et une protection probatoire ' +
+    '(la paternité est incontestable devant tout tribunal qui accepte ' +
+    'les preuves numériques). La protection légale complète — la capacité ' +
+    'de poursuivre une violation commerciale en justice dans n\'importe ' +
+    'quelle juridiction avec un contrat intelligent comme pièce principale ' +
+    'de preuve — prendra du temps et une évolution du cadre juridique ' +
+    'international. Ce temps se compte probablement en décennies, pas en années.'
+  ),
+
+  sep(),
+
+  secTitle("Le modèle coopératif appliqué à la validation des idées"),
+
+  body(
+    'La validation par la communauté de pairs est l\'élément du modèle UBLinx ' +
+    'qui suscite le plus de scepticisme de la part des juristes et des ' +
+    'économistes de l\'innovation. «La validation par des bénévoles? Cela ne ' +
+    'peut pas tenir à l\'échelle.» C\'est une critique légitime qui mérite ' +
+    'une réponse honnête. La validation bénévole existe et fonctionne à ' +
+    'grande échelle dans des domaines où les enjeux sont tout aussi importants ' +
+    'que la propriété intellectuelle : Wikipedia valide des millions d\'articles ' +
+    'en plusieurs langues avec une précision moyenne qui dépasse celle de ' +
+    'nombreuses encyclopédies professionnelles. Stack Overflow résout des ' +
+    'millions de problèmes techniques grâce à une communauté de développeurs ' +
+    'bénévoles. Les journaux scientifiques à comité de lecture fonctionnent ' +
+    'entièrement sur le travail non rémunéré de pairs chercheurs. La validation ' +
+    'bénévole fonctionne quand elle est bien structurée, quand les règles ' +
+    'sont claires et publiques, et quand les contributeurs trouvent une ' +
+    'valeur — reputationnelle, intellectuelle, ou communautaire — dans leur ' +
+    'participation.'
+  ),
+
+  body(
+    'Le défi spécifique d\'UBLinx est la diversité des domaines techniques ' +
+    'à couvrir : un filtre à eau au Sénégal et une composition musicale à ' +
+    'Montréal requièrent des compétences de validation radicalement différentes. ' +
+    'La solution que propose l\'architecture est la spécialisation et ' +
+    'la décentralisation des pools de validateurs : chaque domaine technique ' +
+    'a sa propre communauté de validateurs, avec ses propres critères et ' +
+    'ses propres seuils de consensus. Un inventeur au Sénégal dans le domaine ' +
+    'du traitement de l\'eau n\'attend pas la validation d\'un expert en ' +
+    'musique électronique de Tokyo — son dossier va directement au pool ' +
+    'des experts en ingénierie de l\'eau et développement durable. La ' +
+    'spécialisation améliore la qualité, et la décentralisation géographique ' +
+    'réduit les biais culturels d\'un système mono-centrique.'
+  ),
+
+  body(
+    'Ce qui motive les validateurs bénévoles? La question mérite d\'être ' +
+    'posée franchement, parce que la durabilité de tout système coopératif ' +
+    'dépend de la réponse. Dans les projets coopératifs les plus durables — ' +
+    'Linux, Wikipedia, les caisses populaires — les contributeurs trouvent ' +
+    'plusieurs types de valeur simultanément : une valeur d\'usage (ils ' +
+    'utilisent eux-mêmes ce qu\'ils construisent), une valeur reputationnelle ' +
+    '(leur expertise est visible et reconnue dans la communauté), une ' +
+    'valeur missionnaire (ils contribuent à quelque chose qui les dépasse ' +
+    'et qui leur semble juste). UBLinx vise à activer ces trois dimensions : ' +
+    'les validateurs bénéficient de réciprocité quand leurs propres soumissions ' +
+    'passent en validation, leur expertise est documentée et visible, et ' +
+    'ils participent à la construction d\'un système qu\'ils jugent plus ' +
+    'juste que l\'alternative. Ce n\'est pas une garantie de succès. ' +
+    'C\'est un design aligné avec ce que nous savons de la motivation ' +
+    'dans les systèmes coopératifs durables.'
+  ),
+
+  pageBreak(),
+
+  // =========================================================================
+  // CHAPITRE 4 : LE RÉSEAU DES FOYERS SOUVERAINS
+  // =========================================================================
+
+  chTitle('Chapitre 4'),
+  chTitle('Le réseau des foyers souverains'),
+
+  epigraph(
+    '« La connexion sans soumission. La communauté sans fusion. ' +
+    'La solidarité sans dissolution. C\'était le rêve originel d\'Internet. ' +
+    'Il n\'est pas mort. Il attend — dans les protocoles oubliés, dans ' +
+    'les architectures décentralisées que personne n\'a eu intérêt à ' +
+    'financer jusqu\'ici. »'
+  ),
+
+  scene(
+    'Québec, banlieue de Québec City. Décembre 2032, la veille de Noël. ' +
+    'La famille Tremblay est chez elle. Leurs voisins immédiats, les Garniers — ' +
+    'une famille d\'origine martiniquaise arrivée au Québec il y a douze ans — ' +
+    'sont à deux maisons de distance. À l\'autre bout de la rue, la famille ' +
+    'Okafor-Lapointe, dont la mère est infirmière et le père est ingénieur ' +
+    'en génie civil, ont récemment installé leur système Gen_Home. Ces trois ' +
+    'familles se connaissent avec la cordialité des bons voisins — elles ' +
+    's\'apprécient, se saluent, se rendent de petits services hivernal, ' +
+    's\'échangent parfois des plats cuisinés — mais leurs liens sont ceux ' +
+    'de voisins ordinaires, chaleureux sans être intimes. Ce soir de ' +
+    'réveillon, leurs enfants jouent ensemble dans la neige du jardin de ' +
+    'devant, et leurs systèmes Gen_Home sont silencieusement connectés ' +
+    'via le réseau UBLinx — chacun selon les paramètres que sa famille ' +
+    'a définis, pas selon ceux d\'une plateforme centrale.'
+  ),
+
+  scene(
+    'Ce que cette connexion transmet entre les trois maisons est précisément ' +
+    'délimité par des choix explicites. Les capteurs météorologiques des ' +
+    'trois propriétés — température extérieure, humidité relative, ' +
+    'accumulation de neige sur les toits, vitesse du vent au niveau des ' +
+    'jardins — alimentent un micro-réseau météo qui permet à chacun de ' +
+    'mieux planifier l\'entretien hivernal. Les trois familles avaient ' +
+    'mutuellement consenti à ce partage lors de l\'installation, dans une ' +
+    'interface qui leur avait explicitement demandé, case par case : ' +
+    '«Voulez-vous partager vos données de température extérieure? Vos ' +
+    'données de consommation électrique? Vos données de présence?» ' +
+    'Madame Tremblay a spécifiquement exclu ses données de consommation ' +
+    'électrique du partage — elle préfère garder ses habitudes privées. ' +
+    'M. Okafor-Lapointe a inclus ses données de qualité de l\'air intérieur ' +
+    'parce qu\'il veut contribuer à la recherche sur la pollution domestique ' +
+    'dans le quartier. Madame Garnier n\'a partagé rien du tout pour le ' +
+    'moment — elle observe, elle apprend, elle décidera quand elle se ' +
+    'sentira prête. Chacun choisit. Personne ne contrôle le choix des autres.'
+  ),
+
+  body(
+    'Ce scénario domestique contient en miniature toute la philosophie ' +
+    'politique du réseau UBLinx : la connexion est toujours opt-in, ' +
+    'jamais opt-out. Les données partagées sont explicitement définies ' +
+    'par chaque participant, pas implicitement aspirées par la plateforme ' +
+    'qui décide ensuite de leur usage. L\'architecture est peer-to-peer — ' +
+    'les trois maisons communiquent directement entre elles selon un ' +
+    'protocole distribué, sans passer par un serveur central d\'UBLinx ' +
+    'qui pourrait agréger, analyser ou revendre ces données. Si demain ' +
+    'UBLinx disparaissait en tant qu\'organisation — faillite, dissolution, ' +
+    'rachat par une entité aux intentions différentes — les trois maisons ' +
+    'continueraient à se parler via le protocole distribué, parce que ' +
+    'leur connexion ne dépend d\'aucun intermédiaire unique dont la ' +
+    'disparition couperait les liens. C\'est la différence architecturale ' +
+    'fondamentale entre ce réseau et ce que Nest, Amazon Ring, ou Google ' +
+    'Home proposaient une décennie plus tôt : ces systèmes connectaient ' +
+    'les maisons au travers du serveur de l\'entreprise. Retirez ' +
+    'l\'entreprise, et toutes les connexions tombent. Dans le modèle ' +
+    'UBLinx, l\'organisation est un facilitateur initial, pas un goulot ' +
+    'permanent.'
+  ),
+
+  secTitle("La tradition coopérative québécoise et sa mutation numérique"),
+
+  body(
+    'Pour comprendre pourquoi cette architecture a une résonance particulière ' +
+    'au Québec, il faut retracer brièvement l\'histoire d\'une institution ' +
+    'financière née dans la misère d\'un hiver laurentien. En 1900, Alphonse ' +
+    'Desjardins — journaliste, sténographe parlementaire, homme ordinaire ' +
+    'animé d\'une indignation extraordinaire face aux taux d\'usure pratiqués ' +
+    'sur les travailleurs pauvres — fonde à Lévis la première caisse ' +
+    'populaire nord-américaine. Sa constatation était simple et dévastatrice : ' +
+    'les banques prêtaient aux riches et ignoraient les pauvres. Les travailleurs ' +
+    'ne pouvaient pas accéder au crédit pour acheter une vache, réparer ' +
+    'une grange, traverser une mauvaise récolte, financer l\'éducation ' +
+    'd\'un enfant. Sa réponse : que les travailleurs eux-mêmes se prêtent ' +
+    'mutuellement de l\'argent, selon leurs propres règles, dans leur propre ' +
+    'institution qu\'ils possèdent collectivement et gouvernent démocratiquement. ' +
+    'Un siècle et demi plus tard, Desjardins est le sixième plus grand ' +
+    'groupe financier au Canada et l\'une des institutions coopératives ' +
+    'les plus solides du monde occidental. Non pas malgré ses principes ' +
+    'coopératifs, mais grâce à eux — la loyauté des membres qui se ' +
+    'reconnaissent dans les valeurs de leur institution a créé une ' +
+    'stabilité que la maximisation du profit court terme n\'aurait jamais ' +
+    'pu générer.'
+  ),
+
+  body(
+    'L\'histoire québécoise est semée de ces institutions collectives nées ' +
+    'de la nécessité et de la méfiance envers des pouvoirs extérieurs qui ' +
+    'ne comprenaient pas les besoins locaux. Les coopératives agricoles qui ' +
+    'ont permis aux fermiers de négocier collectivement avec les acheteurs ' +
+    'industriels. Les mutuelles d\'assurance-incendie qui couvraient les ' +
+    'maisons en bois dans les régions rurales que les assureurs commerciaux ' +
+    'refusaient. Les cégeps et le réseau universitaire conçus comme des ' +
+    'institutions de service public accessible plutôt que comme des entreprises ' +
+    'commerciales. Le réseau de garderies à contribution réduite — dont ' +
+    'Cynthia Richelieu, directrice adjointe au CPE Chez-Nous, connaît les ' +
+    'tensions et les vertus de l\'intérieur — qui a transformé l\'accès ' +
+    'aux soins de la petite enfance d\'un privilège en un droit. Toutes ' +
+    'ces institutions partagent une même conviction fondamentale, ancrée ' +
+    'dans la culture politique québécoise depuis la Révolution tranquille : ' +
+    'certains biens et services sont trop importants pour être laissés ' +
+    'uniquement à la logique du profit privé, et les communautés ont ' +
+    'la capacité et la légitimité de se gouverner elles-mêmes dans ces domaines.'
+  ),
+
+  body(
+    'La coopérative classique avait une limite géographique incontournable : ' +
+    'ses membres devaient se connaître, partager un territoire, se retrouver ' +
+    'en assemblée générale dans la même salle. Cette limite était à la fois ' +
+    'une force — elle ancrait l\'institution dans une communauté réelle, ' +
+    'avec des visages connus et des responsabilités partagées — et une ' +
+    'faiblesse — elle rendait impossible l\'extension au-delà de la portée ' +
+    'du lien social direct. La blockchain résout cette limite d\'une manière ' +
+    'que Desjardins n\'aurait pas pu imaginer mais qu\'il aurait probablement ' +
+    'applaudie : elle permet la confiance sans la connaissance préalable ' +
+    'entre membres. Des participants d\'un réseau UBLinx à Thiès, à Montréal, ' +
+    'à Osaka et à Helsinki n\'ont pas besoin de se connaître personnellement ' +
+    'pour se faire confiance dans le cadre de leurs transactions. Les règles ' +
+    'du système sont transparentes et identiques pour tous, les engagements ' +
+    'sont automatiquement appliqués par du code que personne ne contrôle ' +
+    'unilatéralement, et la réputation de chaque participant est visible ' +
+    'à tous sous la forme d\'un historique immuable de comportements passés. ' +
+    'C\'est la caisse populaire à l\'échelle planétaire — avec la même ' +
+    'logique de mutualisation des confiances, mais sans la contrainte ' +
+    'géographique qui en limitait la portée.'
+  ),
+
+  secTitle("La résilience communautaire comme bien commun émergent"),
+
+  body(
+    'Les trois familles de notre rue de Québec City ne partagent pas que ' +
+    'des données météo. Dans la version plus développée du réseau, les ' +
+    'données de santé agrégées et anonymisées — quelles tendances ' +
+    'épidémiologiques émergent au niveau hyper-local, quels symptômes ' +
+    'circulent dans le quartier selon les saisons, quelles interventions ' +
+    'préventives sont corrélées avec de meilleurs résultats — peuvent ' +
+    'alimenter un tableau de bord communautaire de santé auquel chaque ' +
+    'famille accède, et que le médecin de famille du quartier peut ' +
+    'consulter avec la permission explicite et révocable des résidents. ' +
+    'Personne n\'a à révéler sa propre situation médicale individuelle. ' +
+    'L\'agrégation anonymisée par des algorithmes de préservation de ' +
+    'la vie privée (privacy-preserving computation) suffit pour détecter ' +
+    'une hausse inhabituelle de symptômes respiratoires trois semaines ' +
+    'avant qu\'elle ne soit visible dans les statistiques régionales ' +
+    'de santé publique — permettant aux familles avec des enfants en ' +
+    'bas âge ou des personnes immunodéprimées d\'agir en prévention.'
+  ),
+
+  body(
+    'L\'aspect crucial — celui qui distingue fondamentalement ce réseau ' +
+    'des approches précédentes de «smart city» ou de «santé connectée» — ' +
+    'est ce que David Berthelotte appelle la «connexion sans soumission». ' +
+    'Quand une famille rejoignait Amazon Alexa ou Google Home, elle acceptait ' +
+    'une relation structurellement asymétrique : elle donnait ses données, ' +
+    'ses habitudes, son profil comportemental, son espace privé le plus ' +
+    'intime, et en échange elle recevait des services de commodité. La ' +
+    'transaction était réelle mais le consentement était illusoire, parce ' +
+    'que les deux parties n\'avaient pas la même capacité de sortir de ' +
+    'la relation. La famille pouvait théoriquement désinstaller Alexa. ' +
+    'Mais ses données étaient déjà dans les serveurs d\'Amazon, répliquées ' +
+    'dans des dizaines de centres de données, agrégées dans des profils ' +
+    'comportementaux vendus à des dizaines d\'annonceurs et d\'entreprises ' +
+    'partenaires. Le passé numérique ne se désinstalle pas. Dans le réseau ' +
+    'UBLinx, la connexion n\'implique aucune cession de données à un tiers ' +
+    'non consenti. La famille Okafor-Lapointe peut quitter le réseau demain, ' +
+    'retirer ses données (elles sont chez elle, pas sur un serveur distant), ' +
+    'et il ne restera rien dans aucun système permettant d\'inférer que ' +
+    'cette famille a participé au réseau. La souveraineté inclut le droit ' +
+    'de partir sans traces.'
+  ),
+
+  thesis(
+    'Un réseau de foyers souverains n\'est pas une utopie technologique. ' +
+    'C\'est l\'application à l\'ère numérique d\'un principe que les Québécois ' +
+    'et d\'autres peuples ont pratiqué pendant des siècles : on est plus ' +
+    'forts ensemble qu\'isolés, à condition de rester libres de se gouverner ' +
+    'soi-même. La caisse populaire du XXIe siècle n\'est pas une banque. ' +
+    'C\'est un réseau de données souveraines où chaque nœud conserve sa ' +
+    'puissance de décision intacte, et où la valeur collective émerge ' +
+    'de la coopération volontaire entre souverainetés, pas de leur absorption ' +
+    'dans une super-souveraineté centralisée.'
+  ),
+
+  sep(),
+
+  body(
+    'Il est important de nommer honnêtement ce que ce réseau n\'est pas, ' +
+    'et ce qu\'on ne devrait pas lui demander d\'être. Un réseau de foyers ' +
+    'souverains n\'est pas une communauté au sens fort — les familles ' +
+    'Tremblay, Garnier et Okafor-Lapointe partagent des données, pas ' +
+    'nécessairement des valeurs profondes, des projets politiques communs ' +
+    'ou une vision partagée du bien commun. Un tel réseau peut parfaitement ' +
+    'connecter des personnes aux opinions diamétralement opposées sur la ' +
+    'politique, la religion, l\'économie, qui se trouvent à partager la ' +
+    'même rue et le même intérêt pragmatique dans la gestion durable ' +
+    'de leurs ressources domestiques. C\'est, en fait, sa force et sa limite ' +
+    'simultanément : il n\'exige pas l\'homogénéité idéologique, ce qui ' +
+    'le rend universel. Mais il ne construit pas de communauté au sens ' +
+    'politique du terme, ce qui signifie qu\'il ne peut pas remplacer ' +
+    'les espaces de délibération démocratique où les valeurs sont négociées ' +
+    'collectivement. C\'est un outil de souveraineté, pas un substitut ' +
+    'à la politique.'
+  ),
+
+  sep(),
+
+  secTitle("Internet était censé être cela : l'histoire d'une promesse détournée"),
+
+  body(
+    'Pour comprendre pleinement ce que le réseau UBLinx cherche à reconstruire, ' +
+    'il faut revisiter brièvement l\'histoire de ce que l\'Internet original ' +
+    'était censé être — et ce qu\'il est devenu. En 1969, ARPANET — le ' +
+    'précurseur d\'Internet — fut conçu comme un réseau militaire capable ' +
+    'de survivre à des attaques nucléaires grâce à son architecture ' +
+    'décentralisée : aucun nœud unique dont la destruction couperait ' +
+    'l\'ensemble du réseau. Dans les années 1980 et 1990, quand ce réseau ' +
+    'fut ouvert aux universités puis au public, les pionniers de l\'Internet ' +
+    'civil — Tim Berners-Lee avec le World Wide Web, Vint Cerf et Bob Kahn ' +
+    'avec TCP/IP — partageaient une vision de réseau fondamentalement pair-à-pair, ' +
+    'décentralisé, sans propriétaire, où chaque nœud avait la même dignité ' +
+    'architecturale que les autres. L\'intelligence était censée être aux ' +
+    'extrémités du réseau (chez les utilisateurs), pas en son centre.'
+  ),
+
+  body(
+    'Cette vision a été trahie progressivement et méthodiquement au cours ' +
+    'des années 2000 et 2010 — non pas par une décision consciente et ' +
+    'centralisée, mais par l\'effet naturel des économies d\'échelle et ' +
+    'de la logique des plateformes à effets de réseau. Chaque utilisateur ' +
+    'supplémentaire sur Facebook augmentait la valeur de Facebook pour ' +
+    'tous les autres utilisateurs, ce qui attirait de nouveaux utilisateurs, ' +
+    'ce qui augmentait encore la valeur, dans un cycle auto-renforçant ' +
+    'qui aboutissait inévitablement à une concentration massive. En 2024, ' +
+    'cinq entreprises — Alphabet (Google), Meta (Facebook), Amazon, Apple ' +
+    'et Microsoft — contrôlaient l\'écrasante majorité du trafic internet, ' +
+    'du stockage des données personnelles, des services cloud et des ' +
+    'algorithmes de recommandation qui décidaient de ce que les gens ' +
+    'voyaient, lisaient et achetaient. Le réseau décentralisé était devenu ' +
+    'une étoile à cinq branches — cinq centres d\'une puissance sans précédent ' +
+    'dans l\'histoire de la communication humaine.'
+  ),
+
+  body(
+    'UBLinx ne prétend pas «réparer Internet» — une tâche dont l\'échelle ' +
+    'dépasse de très loin les ambitions d\'un projet québécois en phase ' +
+    'conceptuelle. Il prétend créer, dans un domaine spécifique et délimité, ' +
+    'une infrastructure qui honore la vision originale du réseau : ' +
+    'pair-à-pair, décentralisée, sans nœud unique de contrôle. Si ' +
+    'ce modèle fonctionne pour la protection des innovations et la ' +
+    'connexion des foyers souverains, il peut servir de démonstration ' +
+    'de faisabilité pour d\'autres domaines. Chaque démonstration réussie ' +
+    'de la décentralisation praticable réduit le champ de l\'argument ' +
+    'qui dit que la centralisation est inévitable, naturelle, nécessaire. ' +
+    'La centralisation n\'est pas naturelle. Elle est le résultat de choix ' +
+    'de design et de structures d\'incitation. D\'autres choix sont possibles.'
+  ),
+
+  pageBreak(),
+
+  // =========================================================================
+  // CHAPITRE 5 : LA MONÉTISATION ÉTHIQUE
+  // =========================================================================
+
+  chTitle('Chapitre 5'),
+  chTitle('La monétisation éthique'),
+
+  epigraph(
+    '« Inventer, c\'est créer de la valeur pour le monde. Être rémunéré ' +
+    'pour cette valeur, c\'est la justice. Accaparer cette valeur sans ' +
+    'contrepartie pour son créateur, c\'est le vol légal que nous avons ' +
+    'progressivement normalisé au point de ne plus le voir. »'
+  ),
+
+  scene(
+    'Laboratoire personnel de David Berthelotte, quelque part dans la ' +
+    'région de Québec. Un espace qui ressemble moins à un laboratoire ' +
+    'institutionnel qu\'à un lieu de pensée incarnée — des étagères ' +
+    'surchargées de carnets à spirale numérotés (le 214 est en cours), ' +
+    'des prototypes à différents stades d\'avancement sur des tables ' +
+    'latérales, une table de travail principale où se côtoient des composants ' +
+    'électroniques, des calculs d\'ingénierie imprimés et annotés à la main, ' +
+    'et une tasse de thé refroidi depuis des heures parce que l\'idée en ' +
+    'cours était plus urgente que la chaleur. Sur le mur, un tableau ' +
+    'blanc couvert d\'équations et de schémas fonctionnels qui ont l\'air ' +
+    'chaotiques mais qui, pour qui peut les lire, racontent une progression ' +
+    'logique vers quelque chose. Deux cents innovations documentées au ' +
+    'cours de vingt-cinq ans de travail à JRT Inc. — des solutions à des ' +
+    'problèmes industriels concrets, des processus optimisés, des outils ' +
+    'repensés pour des contextes spécifiques. Deux cents carnets. ' +
+    'Combien de ces innovations ont été perdues — reprises silencieusement ' +
+    'par des concurrents, redécouvertes par des équipes mieux financées, ' +
+    'simplement oubliées parce que le contexte n\'était pas encore mûr ' +
+    'quand elles ont émergé — sans que David n\'en sache jamais rien?'
+  ),
+
+  body(
+    'David Berthelotte n\'est pas un inventeur romantique coupé du monde ' +
+    'commercial. Il est entrepreneur, fondateur de JRT Inc., habitué ' +
+    'des réalités contractuelles, des négociations industrielles et des ' +
+    'protections légales. Il sait protéger ses intérêts mieux que la ' +
+    'plupart des inventeurs individuels. Mais il est aussi fondamentalement ' +
+    'honnête dans son évaluation de la situation : pour un inventeur ' +
+    'individuel au Québec, même avec vingt-cinq ans d\'expérience et ' +
+    'deux cents innovations documentées, même avec les connexions ' +
+    'professionnelles et les ressources d\'un entrepreneur établi, le ' +
+    'système actuel de protection de la propriété intellectuelle est ' +
+    'chroniquement inégal, structurellement lent et prohibitivement ' +
+    'coûteux pour protéger chaque innovation individuelle. Les brevets ' +
+    'qu\'il a déposés au cours de sa carrière ont coûté des dizaines de ' +
+    'milliers de dollars en frais juridiques et de traitement. Certains ' +
+    'protègent effectivement des innovations qui ont généré de la valeur. ' +
+    'd\'autres sont devenus caducs avant d\'avoir été commercialement ' +
+    'exploités. La grande majorité de ses innovations n\'ont jamais été ' +
+    'brevetées — pas parce qu\'elles ne le méritaient pas intellectuellement, ' +
+    'mais parce que le rapport coût-bénéfice ne le justifiait pas pour ' +
+    'chaque découverte individuelle dans l\'économie réelle de la PME.'
+  ),
+
+  secTitle("La règle des cinq copies : la philosophie d'une frontière précise"),
+
+  body(
+    'La règle qui définit la frontière entre usage personnel et usage ' +
+    'commercial dans le système UBLinx mérite une explication détaillée, ' +
+    'parce qu\'elle n\'est pas arbitraire et que son choix révèle une ' +
+    'philosophie sociale cohérente. Pourquoi cinq copies? Pourquoi pas ' +
+    'dix? Pourquoi pas une seule? La réflexion part d\'une observation ' +
+    'anthropologique sur la structure naturelle des relations humaines. ' +
+    'Les êtres humains fonctionnent dans des cercles de confiance de ' +
+    'taille différente — le noyau familial (3-5 personnes), le cercle ' +
+    'd\'amis proches (5-15 personnes), la communauté de voisinage (50-150 ' +
+    'personnes, ce que les anthropologues appellent le «nombre de Dunbar»). ' +
+    'Les échanges à l\'intérieur du noyau familial et des amis proches ' +
+    'sont fondamentalement différents des échanges commerciaux : vous ' +
+    'prêtez votre voiture à votre meilleur ami sans lui facturer le ' +
+    'kilométrage. Vous partagez votre recette de grand-mère avec votre ' +
+    'beau-frère sans exiger de droits d\'auteur. Vous construisez un ' +
+    'outil pour votre voisin direct sans établir de contrat de service.'
+  ),
+
+  body(
+    'Cinq copies représente approximativement ce seuil — ce nombre au-delà ' +
+    'duquel on commence à sortir du cercle de la connaissance personnelle ' +
+    'directe pour entrer dans celui de la distribution plus large. Construire ' +
+    'une pompe à eau pour vous-même, pour votre mère, pour votre beau-frère, ' +
+    'pour deux voisins immédiats : c\'est l\'entraide de proximité, le tissu ' +
+    'social normal, quelque chose que taxer serait à la fois techniquement ' +
+    'impossible et socialement régressif. Construire dix pompes pour les ' +
+    'vendre au marché hebdomadaire : c\'est une activité commerciale, une ' +
+    'transformation de la valeur créative d\'Amadou en revenus pour vous, ' +
+    'sans que vous lui ayez demandé sa permission ou offert une part de ' +
+    'vos bénéfices. La ligne entre cinq et six n\'est pas une frontière ' +
+    'naturelle précise — la nature est continue, les catégories humaines ' +
+    'sont discrètes. Mais c\'est une frontière tracée avec une cohérence ' +
+    'sociale réelle, pas un caprice arithmétique.'
+  ),
+
+  body(
+    'Pour les nations du Sud Global, où l\'accès aux innovations étrangères ' +
+    'a longtemps été contraint soit par des brevets inaccessibles (trop ' +
+    'chers à licencier légalement) soit par leur absence totale de protection ' +
+    '(permettant une copie sans contrepartie), la règle des cinq copies ' +
+    'a une portée particulièrement transformatrice. Un artisan au Cambodge ' +
+    'peut fabriquer librement cinq exemplaires de la pompe de filtration ' +
+    'd\'Amadou pour son village, en utilisant les matériaux disponibles ' +
+    'localement, en adaptant les dimensions selon les besoins spécifiques. ' +
+    'Il peut améliorer la conception, adapter les matériaux aux ressources ' +
+    'locales, et s\'il trouve une amélioration significative, la soumettre ' +
+    'sur UBLinx sous son propre nom comme innovation dérivée — avec attribution ' +
+    'à Amadou comme source originale. Le flux d\'innovation circule dans ' +
+    'les deux sens, de manière horizontale, entre pairs, sans la médiation ' +
+    'd\'un office de brevets à Genève qui n\'a jamais visité un village ' +
+    'cambodgien et ne comprend pas ses contraintes spécifiques.'
+  ),
+
+  secTitle("Les modèles économiques en comparaison"),
+
+  rich([
+    { text: 'Pour situer concrètement la proposition UBLinx dans le paysage des approches existantes, quatre modèles méritent d\'être comparés directement. ', bold: false },
+    { text: 'Le brevet traditionnel', bold: true },
+    { text: ' offre la protection la plus forte (20 ans d\'exclusivité légale dans les pays signataires) mais au prix d\'un accès extrêmement limité : 15 000 à 50 000 dollars minimum pour un brevet national américain, deux à cinq ans de délai, langage juridique hermétique, inaccessible sans avocat spécialisé. ', bold: false },
+    { text: 'Creative Commons', bold: true },
+    { text: ' est universel, gratuit et simple, mais ne contient aucun mécanisme de rémunération directe de l\'auteur pour les usages commerciaux : une licence CC-BY-SA permet à n\'importe quelle entreprise de manufacturer votre invention à l\'échelle industrielle et de ne vous devoir légalement rien. ', bold: false },
+    { text: 'L\'open source', bold: true },
+    { text: ' maximise la diffusion et l\'amélioration collective, mais découple systématiquement la création de valeur et la capture de valeur. ', bold: false },
+    { text: 'UBLinx', bold: true },
+    { text: ' propose une quatrième voie : diffusion libre pour usage personnel et communautaire, rémunération automatique pour usage commercial, validation décentralisée de la paternité, stockage permanent de la preuve. Aucun de ces modèles n\'est parfait. Chacun répond à des besoins différents.', bold: false }
+  ]),
+
+  body(
+    'La question que pose concrètement UBLinx à ses utilisateurs est celle-ci : ' +
+    'quel est votre objectif avec cette innovation? Si vous voulez une protection ' +
+    'légale maximale dans le système judiciaire existant, le brevet traditionnel ' +
+    'reste la meilleure réponse — à condition d\'en avoir les moyens. Si vous ' +
+    'voulez une diffusion maximale sans aucune restriction, Creative Commons ' +
+    'ou l\'open source sont des choix cohérents. Si vous voulez une diffusion ' +
+    'libre pour les usages personnels et une rémunération automatique pour ' +
+    'les usages commerciaux, avec une preuve de paternité incontestable et ' +
+    'permanente, UBLinx propose une infrastructure pour cela. Ces trois options ' +
+    'ne s\'excluent pas : certains inventeurs peuvent choisir de soumettre ' +
+    'certaines innovations sur UBLinx et d\'en breveter d\'autres traditionnellement, ' +
+    'selon la nature de l\'innovation et les ressources disponibles.'
+  ),
+
+  body(
+    'L\'effet d\'écosystème qui émerge quand un réseau comme UBLinx atteint ' +
+    'une masse critique est difficile à modéliser avec précision statistique, ' +
+    'mais son intuition est saisissante. Si chaque innovation individuelle ' +
+    'qui aurait autrefois disparu dans l\'anonymat ou été absorbée sans ' +
+    'attribution par un acteur plus puissant est maintenant documentée, ' +
+    'horodatée, validée et potentiellement rémunérée pour ses usages ' +
+    'commerciaux, le signal envoyé à la population des inventeurs latents ' +
+    '— tous ces individus qui innovent dans leur domaine mais ne savent ' +
+    'pas comment protéger et valoriser leurs découvertes — est fondamental : ' +
+    'l\'effort d\'inventer vaut quelque chose de concret, pas seulement ' +
+    'quelque chose de symbolique. Il sera reconnu. Il pourrait générer ' +
+    'un revenu modeste mais réel et automatique. Ce signal, qui n\'existait ' +
+    'pas pour l\'inventeur individuel sans ressources, pourrait déclencher ' +
+    'une vague d\'innovation distribuée dont l\'amplitude et la diversité ' +
+    'seraient sans précédent dans l\'histoire économique de l\'humanité.'
+  ),
+
+  thesis(
+    'La monétisation éthique n\'est pas une oxymore. C\'est la reconnaissance ' +
+    'que la valeur économique et la valeur sociale ne sont pas en opposition ' +
+    'fondamentale — elles le deviennent uniquement quand les systèmes de ' +
+    'capture de valeur sont structurellement déconnectés des systèmes de ' +
+    'création de valeur. UBLinx propose de les reconnecter, directement, ' +
+    'automatiquement, sans intermédiaire qui se paie en prélevant la portion ' +
+    'principale du flux. La technologie ne crée pas cette connexion — elle ' +
+    'la rend simplement praticable à l\'échelle mondiale pour la première fois.'
+  ),
+
+  sep(),
+
+  body(
+    'Il y a une dimension personnelle à tout ceci que David Berthelotte ' +
+    'n\'esquive pas lorsqu\'il parle de sa motivation à construire UBLinx. ' +
+    'Il pense à ses filles, Jordane et Olivia. Il pense au monde dans lequel ' +
+    'elles devront créer, contribuer, innover. Le système dans lequel lui-même ' +
+    'a inventé pendant vingt-cinq ans était imparfait mais navigable pour ' +
+    'quelqu\'un qui avait les ressources, les connexions professionnelles ' +
+    'et la compréhension des mécanismes. Jordane et Olivia vivront dans ' +
+    'un monde où l\'intelligence artificielle générative aura considérablement ' +
+    'abaissé le coût technique de la création — n\'importe qui pourra ' +
+    'produire du code, de la musique, des designs, des textes scientifiques ' +
+    'à une vitesse et une quantité auparavant inimaginables. Ce monde sera ' +
+    'formidable pour la diversité de ce qui peut être créé et exprimé. ' +
+    'Il sera potentiellement catastrophique pour les droits des créateurs ' +
+    'individuels si des systèmes comme UBLinx ne sont pas en place pour ' +
+    'distinguer l\'auteur original de l\'agrégateur, le créateur de l\'exploiteur, ' +
+    'la valeur ajoutée de la simple réplication. C\'est pour ce monde-là ' +
+    'que UBLinx est conçu — pour que Jordane et Olivia puissent créer dans ' +
+    'un environnement où leurs contributions leur appartiennent réellement.'
+  ),
+
+  sep(),
+
+  secTitle("La question du juste prix : entre extraction et exploitation"),
+
+  body(
+    'Quand on parle de «monétisation éthique», on touche inévitablement ' +
+    'à la question du juste prix — une question que la philosophie économique ' +
+    'débat depuis l\'Antiquité et que les marchés modernes ne résolvent ' +
+    'pas, ils la déplacent. Le juste prix d\'une innovation n\'est pas ' +
+    'son coût de production — dans l\'économie des idées, le coût marginal ' +
+    'de reproduire une idée tend vers zéro. Il n\'est pas non plus sa ' +
+    'valeur de marché à court terme — les marchés sous-estiment systématiquement ' +
+    'les innovations disruptives au moment de leur création (personne ' +
+    'n\'a voulu financer Xerox Park, où le PC graphique et l\'Ethernet ' +
+    'ont été inventés) et les surestiment dans les phases de bulle ' +
+    '(les valorisations internet de 1999). Le juste prix d\'une innovation ' +
+    'est quelque chose de plus difficile à mesurer : sa contribution ' +
+    'au bien-être humain, distribuée dans le temps et l\'espace, souvent ' +
+    'impossible à évaluer au moment de la création.'
+  ),
+
+  body(
+    'UBLinx ne prétend pas résoudre la question du juste prix — c\'est ' +
+    'un problème philosophique et économique pour lequel il n\'existe ' +
+    'pas de solution parfaite. Il propose quelque chose de plus modeste ' +
+    'et de plus praticable : que la personne qui crée la valeur reçoive ' +
+    'une part automatique et non négociable des revenus commerciaux ' +
+    'générés par cette valeur. Pas la totalité — les entreprises qui ' +
+    'industrialisent, distribuent et maintiennent une invention ajoutent ' +
+    'de la valeur réelle et méritent d\'être rémunérées. Mais la part ' +
+    'qui revient au créateur original ne doit pas dépendre de sa ' +
+    'capacité à négocier contre un service juridique d\'entreprise, ' +
+    'ni être réduite à néant par des contrats d\'exclusivité signés ' +
+    'dans une position de faiblesse. La redevance contractualisée dans ' +
+    'du code immuable est une forme de salaire minimum pour l\'innovation — ' +
+    'une plancher en dessous duquel les créateurs ne peuvent pas être ' +
+    'poussés, quelle que soit la différence de puissance entre eux ' +
+    'et leurs licenciés.'
+  ),
+
+  body(
+    'Il faut aussi nommer l\'effet positif sur la prise de risque créative. ' +
+    'L\'innovation est fondamentalement une activité à risque élevé : ' +
+    'la plupart des innovations échouent, au sens où elles ne trouvent ' +
+    'pas de marché ou arrivent trop tôt. Dans le système actuel, l\'inventeur ' +
+    'individuel assume la quasi-totalité de ce risque — il investit son ' +
+    'temps, son énergie, parfois ses économies, et si l\'innovation ' +
+    'échoue commercialement, il n\'a rien. Si elle réussit et qu\'il ' +
+    'ne l\'a pas protégée, quelqu\'un d\'autre prend la valeur. La ' +
+    'perspective d\'une rémunération automatique proportionnelle — même ' +
+    'modeste — pour chaque usage commercial de ses innovations réussies ' +
+    'change la logique du risque pour l\'inventeur individuel. ' +
+    'Elle ne supprime pas le risque, mais elle augmente l\'espérance ' +
+    'de gain en cas de succès. C\'est suffisant pour libérer de l\'énergie ' +
+    'créative que le risque non compensé bloquait jusqu\'ici.'
+  ),
+
+  pageBreak(),
+
+  // =========================================================================
+  // CHAPITRE 6 : CE QUE LA CONFIANCE DISTRIBUÉE FABRIQUE EN PREMIER
+  // =========================================================================
+
+  chTitle('Chapitre 6'),
+  chTitle('Ce que la confiance distribuée fabrique en premier'),
+
+  epigraph(
+    '« La confiance n\'est pas une denrée qu\'on distribue depuis un centre ' +
+    'vers des périphéries reconnaissantes. C\'est une propriété qui émerge ' +
+    'd\'interactions répétées entre des égaux qui respectent des règles ' +
+    'qu\'ils ont eux-mêmes établies, et qui peuvent en sortir librement ' +
+    'sans perdre ce qu\'ils y ont apporté. »'
+  ),
+
+  scene(
+    'Thiès, Sénégal. Mars 2035. Quatre ans ont passé depuis le soir où ' +
+    'Amadou Diallo a cherché «comment protéger une invention au Sénégal» ' +
+    'et fermé son ordinateur avec le sentiment d\'impuissance d\'un homme ' +
+    'qui voit quelque chose de précieux lui être pris sans qu\'il puisse ' +
+    'rien faire. Ce soir, il est assis à la même table en bois de son ' +
+    'atelier — qui n\'est plus tout à fait le même, agrandie d\'une pièce ' +
+    'latérale, équipée d\'un tour et d\'une presse que les premières ' +
+    'redevances ont permis d\'acheter. Une étagère métallique supporte ' +
+    'une quinzaine d\'exemplaires du filtre à eau en cours de fabrication. ' +
+    'Une deuxième table de travail accueille un prototype de pompe solaire ' +
+    'qu\'il développe en collaboration avec un ingénieur au Ghana — ' +
+    'Emmanuel Acheampong, qu\'il n\'a jamais rencontré en personne mais ' +
+    'dont il connaît les carnets de calcul aussi bien que les siens propres. ' +
+    'Leur collaboration existe entièrement dans l\'espace numérique, ' +
+    'médiatisée par UBLinx et des outils de communication souverains.'
+  ),
+
+  body(
+    'Le filtre original d\'Amadou est maintenant utilisé dans quarante-sept ' +
+    'villages du département de Thiès, pour la plupart installés par des ' +
+    'artisans locaux dans le cadre de la règle des cinq copies — usage ' +
+    'communautaire gratuit, sans que cela ne coûte un franc à Amadou ' +
+    'ni à ces communautés. C\'est exactement ce qu\'il voulait pour sa ' +
+    'conception. Trois organisations humanitaires ont contacté Amadou ' +
+    'pour une production à plus grande échelle — des centaines, potentiellement ' +
+    'des milliers d\'unités, pour des programmes de développement dans ' +
+    'd\'autres régions du Sénégal et du Mali. L\'une d\'elles a déjà ' +
+    'régularisé son utilisation commerciale via un contrat intelligent ' +
+    'UBLinx, après une négociation courte et transparente sur le taux ' +
+    'de redevance. Les deux autres sont en cours de discussion. Sur son ' +
+    'ordinateur — désormais sans écran fissuré, remplacé grâce aux premières ' +
+    'redevances — Amadou surveille un tableau de bord simple. Il indique ' +
+    'le nombre de licences actives, les redevances reçues ce mois-ci ' +
+    'et cumulées, et un historique des vérifications d\'intégrité. ' +
+    'Ce n\'est pas une fortune. Mais c\'est régulier. C\'est automatique. ' +
+    'Et c\'est juste.'
+  ),
+
+  body(
+    'L\'histoire d\'Amadou illustre quelque chose que les économistes de ' +
+    'l\'innovation ont théorisé depuis longtemps mais que les institutions ' +
+    'existantes n\'ont pas encore réussi à opérationnaliser : la rémunération ' +
+    'directe de l\'inventeur individuel change les comportements d\'innovation ' +
+    'de manière profonde et rapide. Quand Amadou reçoit ses premières ' +
+    'redevances, il ne les consomme pas intégralement. Il réinvestit une ' +
+    'part significative dans le nouveau projet de pompe solaire — extension ' +
+    'naturelle de son expertise en filtration vers l\'énergie de pompage. ' +
+    'Il embauche un apprenti local — un jeune de dix-neuf ans qui avait ' +
+    'arrêté ses études faute de moyens — et lui enseigne les techniques ' +
+    'de fabrication. Il documente plus soigneusement ses processus, ' +
+    'parce qu\'il sait maintenant que la documentation a une valeur concrète : ' +
+    'elle accélère la validation UBLinx, elle permet aux licenciés de ' +
+    'reproduire ses inventions correctement, et elle facilite les ' +
+    'collaborations comme celle avec Emmanuel au Ghana. La vertu entre ' +
+    'récompense et innovation n\'est pas théorique. Elle est visible ' +
+    'dans l\'atelier d\'Amadou à Thiès.'
+  ),
+
+  secTitle("Le contrat social restauré entre créateurs et société"),
+
+  body(
+    'La question centrale de cet acte — la souveraineté intellectuelle ' +
+    'et sociale — n\'est pas fondamentalement une question de technologie. ' +
+    'La blockchain, les contrats intelligents, IPFS, les algorithmes de ' +
+    'machine learning pour la validation — ce sont des outils. Des outils ' +
+    'sophistiqués, techniquement élégants, puissants dans leur domaine — ' +
+    'mais des outils, dont la valeur est entièrement définie par les ' +
+    'usages humains et les structures sociales qu\'ils permettent de construire. ' +
+    'La question fondamentale est celle du contrat social entre les créateurs ' +
+    'et la société : que doit la société à ceux qui génèrent les innovations ' +
+    'qui permettent à la collectivité de progresser? Et que doivent les ' +
+    'créateurs à la société qui a rendu leur création possible — en finançant ' +
+    'l\'éducation qui les a formés, les infrastructures physiques et ' +
+    'numériques qui les connectent, les décennies de connaissances ' +
+    'accumulées par des générations d\'inventeurs et de chercheurs sur ' +
+    'lesquelles ils s\'appuient nécessairement, même quand ils innovent ' +
+    'le plus radicalement?'
+  ),
+
+  body(
+    'La réponse du système actuel de propriété intellectuelle à cette ' +
+    'question est asymétrique et partiellement frauduleuse. Elle dit : ' +
+    'la société protège l\'inventeur pendant vingt ans d\'exclusivité, ' +
+    'après quoi l\'invention tombe dans le domaine public pour le bénéfice ' +
+    'de tous. Mais cette réponse ne tient compte que d\'une fraction ' +
+    'de la réalité — celle des inventions qui ont été brevetées, ' +
+    'c\'est-à-dire celles dont les auteurs avaient les moyens de la protection. ' +
+    'Les inventions d\'Amadou qui n\'ont jamais pu être brevetées? ' +
+    'Elles sont tombées dans le domaine public le jour même de leur ' +
+    'création — gratuitement, pour tout le monde, y compris pour les ' +
+    'entreprises qui pourraient les exploiter commercialement à grande ' +
+    'échelle — sans qu\'Amadou reçoive quoi que ce soit. Le système ' +
+    'prétend protéger les créateurs, mais il ne protège en pratique ' +
+    'que ceux qui peuvent se payer la protection. Les autres financent ' +
+    'involontairement et gratuitement le domaine public des entreprises ' +
+    'bien capitalisées. C\'est un transfert de richesse des pauvres vers ' +
+    'les riches, légalisé et systématisé.'
+  ),
+
+  body(
+    'UBLinx propose une réponse différente, articulée autour de trois ' +
+    'distinctions philosophiques précises. La connaissance scientifique ' +
+    'fondamentale — les lois de la thermodynamique, les principes de ' +
+    'la biologie moléculaire, les théorèmes mathématiques — appartient ' +
+    'à l\'humanité entière et ne peut pas être privatisée. L\'implémentation ' +
+    'concrète et originale d\'une idée — la transformation de principes ' +
+    'généraux en solution spécifique, matérialisée par un inventeur ou ' +
+    'une équipe — crée un droit à rémunération pour les usages commerciaux ' +
+    'de cette solution spécifique. L\'usage personnel et communautaire ' +
+    'reste libre, parce que les échanges de proximité et l\'entraide ' +
+    'directe sont le tissu de la vie sociale normale que taxer serait ' +
+    'régressif et impossible. Ces trois distinctions créent un espace ' +
+    'philosophiquement cohérent entre le tout-public de l\'open source ' +
+    'et le tout-privé du brevet. C\'est ce que le système de brevets ' +
+    'aurait voulu être, si ses architectes du XIXe siècle avaient pu ' +
+    'anticiper la révolution numérique et l\'économie mondiale des idées ' +
+    'qu\'elle a créée.'
+  ),
+
+  secTitle("Ce que ce réseau ne résout pas encore : les limites honnêtes"),
+
+  body(
+    'La confiance distribuée que bâtit UBLinx a des limites réelles ' +
+    'qu\'il serait malhonnête de ne pas nommer clairement. La première ' +
+    'est le problème classique de l\'adoption initiale, que les économistes ' +
+    'appellent le «problème de l\'œuf et de la poule» : un réseau de ' +
+    'confiance n\'a de valeur que si suffisamment de personnes y participent ' +
+    'pour que les avantages de la connexion dépassent les coûts d\'adoption. ' +
+    'UBLinx dans son scénario de 2035 a atteint une masse critique dans ' +
+    'certains secteurs — innovations techniques dans les pays francophones ' +
+    'et en développement, musique indépendante et arts numériques dans ' +
+    'certaines régions — mais reste marginal dans d\'autres secteurs ' +
+    'à intensité réglementaire élevée comme la pharmacologie ou l\'aéronautique. ' +
+    'Un inventeur dans le secteur pharmaceutique ne bénéficierait pas ' +
+    'encore de la protection UBLinx avec la même solidité qu\'Amadou dans ' +
+    'le traitement de l\'eau — simplement parce que le réseau d\'experts ' +
+    'validateurs spécialisés en chimie médicinale n\'est pas encore ' +
+    'suffisamment développé, et parce que les autorités réglementaires ' +
+    'comme la FDA ne reconnaissent pas encore les certifications UBLinx ' +
+    'comme preuve de paternité dans leurs processus d\'approbation.'
+  ),
+
+  body(
+    'La deuxième limite est structurelle et liée à la nature même du savoir ' +
+    'humain : UBLinx est plus efficace pour protéger les innovations qui ' +
+    'peuvent être documentées, décrites et vérifiées textuellement ou ' +
+    'visuellement que pour protéger les innovations qui résident dans ' +
+    'le savoir-faire tacite et l\'expérience incarnée non formalisable. ' +
+    'Un maître fromager dont le génie réside dans la lecture de la texture ' +
+    'du caillé à un moment précis de la fabrication, un sculpteur dont ' +
+    'la valeur est dans la façon dont sa main adapte sa pression au grain ' +
+    'de la pierre, un ingénieur dont l\'expertise consiste à écouter les ' +
+    'bruits d\'une machine et de diagnostiquer des problèmes invisibles ' +
+    'aux instruments — ces savoirs-là ne peuvent pas être déposés sur ' +
+    'une blockchain. Ils vivent dans les corps, dans les mains, dans ' +
+    'l\'expérience accumulée que personne d\'autre ne peut transcrire ' +
+    'à la place du maître. La documentation technique formalise une ' +
+    'partie du savoir humain; elle en laisse nécessairement une autre ' +
+    'partie dans le registre de la transmission directe et personnelle.'
+  ),
+
+  body(
+    'La troisième limite est politique, et c\'est peut-être la plus sérieuse. ' +
+    'Un réseau de confiance distribuée et décentralisée représente, par ' +
+    'nature, une menace pour les acteurs qui tirent leur pouvoir économique ' +
+    'et politique de la centralisation de la propriété intellectuelle. ' +
+    'Les grandes entreprises technologiques qui ont bâti des empires sur ' +
+    'des portefeuilles de brevets défensifs, les offices gouvernementaux ' +
+    'de brevets qui génèrent des revenus substantiels de leurs procédures, ' +
+    'les cabinets d\'avocats spécialisés en propriété intellectuelle dont ' +
+    'les honoraires élevés sont garantis par la complexité du système actuel, ' +
+    'les industries du divertissement qui ont bâti des modèles économiques ' +
+    'entiers sur la capture de la valeur créative des artistes — tous ' +
+    'ces acteurs ont des intérêts directs et substantiels à contrecarrer ' +
+    'la réussite d\'UBLinx. Ils ont les ressources pour faire du lobbying ' +
+    'auprès des législateurs, pour financer des contestations légales ' +
+    'créatives, pour créer des alternatives superficiellement similaires ' +
+    'à UBLinx sans sa souveraineté fondamentale. L\'histoire des tentatives ' +
+    'de décentralisation dans le domaine financier, médiatique et énergétique ' +
+    'montre que les intérêts établis ont une capacité remarquable à ' +
+    'réabsorber les innovations disruptives — soit en les achetant, ' +
+    'soit en les réglementant jusqu\'à l\'inefficacité.'
+  ),
+
+  crit(
+    'Critique finale et honnête : un essai qui présente UBLinx comme une ' +
+    'solution à l\'injustice de la propriété intellectuelle serait incomplet ' +
+    's\'il ne disait pas ceci clairement et sans euphémisme — UBLinx est ' +
+    'une architecture conceptuelle avec une cohérence interne solide et ' +
+    'une faisabilité technique réelle, mais elle n\'est pas encore un ' +
+    'système en production testé à grande échelle dans la réalité sociale ' +
+    'et économique. Les dragons qui attendent dans les détails de ' +
+    'l\'implémentation — bugs de contrats intelligents, tensions de ' +
+    'gouvernance entre membres aux intérêts divergents, résistance ' +
+    'organisée des systèmes établis, problèmes de scalabilité blockchain, ' +
+    'difficultés de validation dans des domaines spécialisés — sont réels ' +
+    'et non triviaux. Ce livre ne promet pas qu\'UBLinx fonctionnera ' +
+    'exactement comme décrit. Il défend la proposition que l\'architecture ' +
+    'est philosophiquement juste, que le problème qu\'elle cherche à résoudre ' +
+    'est réel et urgent, et qu\'il vaut mieux construire quelque chose ' +
+    'd\'imparfait et de juste que de continuer à subir indéfiniment un ' +
+    'système imparfait et fondamentalement injuste.'
+  ),
+
+  secTitle("Le pont vers ce qui vient : la tension inévitable"),
+
+  body(
+    'Le réseau de confiance que nous avons décrit dans cet acte — entre ' +
+    'inventeurs qui protègent leurs créations, entre créateurs qui négocient ' +
+    'leurs droits, entre foyers souverains qui partagent des données sans ' +
+    'se soumettre — repose sur une hypothèse fondamentale que nous n\'avons ' +
+    'pas encore examinée : que les communications entre les nœuds de ce ' +
+    'réseau sont sécurisées, privées, non interceptables par des tiers ' +
+    'non consentis. Qu\'Amadou peut communiquer avec Emmanuel au Ghana ' +
+    'sans que cette communication ne soit surveillée par des services ' +
+    'de renseignement, des concurrents commerciaux, ou des gouvernements ' +
+    'qui pourraient avoir des intérêts à connaître ses projets. Que Mei-Lin ' +
+    'peut négocier avec Kenji à Osaka sans que leur conversation ne soit ' +
+    'exploitée par un algorithme publicitaire ou scrutée par une autorité ' +
+    'fiscale curieuse. Que les données partagées entre les trois familles ' +
+    'de Québec City restent entre ces trois familles, et ne circulent ' +
+    'pas silencieusement vers des tiers non consentis.'
+  ),
+
+  body(
+    'Cette hypothèse soulève une question que tout système décentralisé ' +
+    'doit affronter honnêtement, sans la contourner par des formules ' +
+    'rassurantes : les communications souveraines protègent les innocents — ' +
+    'les Amadou, les Mei-Lin, les David — mais elles protègent aussi, ' +
+    'par une conséquence inévitable de leur architecture, les acteurs ' +
+    'malveillants qui savent que leurs communications ne peuvent pas être ' +
+    'surveillées. C\'est la tension fondamentale entre vie privée individuelle ' +
+    'et sécurité collective que chaque société libre doit négocier en ' +
+    'permanence, sans qu\'il existe de résolution finale et définitive. ' +
+    'Elle n\'a pas de solution technique. Elle a seulement des compromis ' +
+    'politiques, toujours temporaires, toujours contestables, toujours ' +
+    'révisables à mesure que le contexte change. Ce que l\'acte suivant ' +
+    'de ce livre propose d\'explorer, c\'est non pas une solution à cette ' +
+    'tension, mais une manière de la nommer honnêtement et de vivre avec ' +
+    'elle sans la résoudre par la suppression arbitraire de l\'un de ses termes.'
+  ),
+
+  body(
+    'Parce que la solution la plus facile — surveiller tout le monde ' +
+    'pour attraper les mauvais acteurs, sacrifier la vie privée de tous ' +
+    'pour la sécurité de chacun — a déjà été essayée. Elle porte un nom ' +
+    'que les historiens du XXIe siècle associent à une époque de naïveté ' +
+    'techno-politique : surveillance de masse. Son bilan, sur les trois ' +
+    'décennies où elle a été pratiquée à grande échelle par les démocraties ' +
+    'libérales, est éloquent dans ce qu\'il n\'a pas accompli. Les grandes ' +
+    'menaces terroristes n\'ont pas été significativement réduites par ' +
+    'la surveillance massive des communications de populations entières — ' +
+    'les attentats majeurs des années 2010 et 2020 ont généralement impliqué ' +
+    'des acteurs déjà connus des services de renseignement, dont la ' +
+    'surveillance intensive n\'avait pas suffi à prévenir les passages ' +
+    'à l\'acte. En revanche, la surveillance de masse a créé un appareil ' +
+    'permanent d\'observation des populations ordinaires — les Amadou, ' +
+    'les Mei-Lin, les David — avec tous les potentiels d\'abus dans des ' +
+    'systèmes politiques que l\'histoire enseigne à ne jamais présumer ' +
+    'définitivement stables et irréversiblement libres.'
+  ),
+
+  rq(
+    'Si vous aviez inventé quelque chose qui pourrait changer des vies — ' +
+    'un outil, un processus, un médicament, une chanson, un algorithme ' +
+    'qui résout un problème réel pour des gens réels — comment le ' +
+    'protégeriez-vous aujourd\'hui? Combien cela vous coûterait-il, ' +
+    'en temps, en argent, en énergie administrative? Si vous n\'aviez ' +
+    'ni l\'argent ni le temps ni l\'accès aux avocats nécessaires — que ' +
+    'vaudrait votre idée dans dix ans, et à qui appartiendrait-elle ' +
+    'de facto, même si elle vous appartient de droit?'
+  ),
+
+  sep(),
+
+  secTitle("Le cycle d'Amadou : preuve de concept vivante"),
+
+  body(
+    'L\'histoire d\'Amadou dans cet acte obéit à une structure que les ' +
+    'économistes reconnaissent comme un «cycle vertueux de l\'innovation» — ' +
+    'mais que le système actuel bloque systématiquement pour les acteurs ' +
+    'sans ressources. La rémunération d\'une première innovation permet ' +
+    'le financement d\'une deuxième. La deuxième génère une réputation ' +
+    'qui attire des collaborateurs. Les collaborateurs apportent des ' +
+    'compétences complémentaires qui augmentent la qualité des innovations ' +
+    'suivantes. Les innovations suivantes génèrent davantage de redevances. ' +
+    'Ce cycle — bien documenté dans les biographies des grands inventeurs ' +
+    'de l\'ère industrielle — n\'est pas réservé aux génies solitaires. ' +
+    'Il est disponible à quiconque a une première bonne idée et un système ' +
+    'qui lui permet d\'en capturer la valeur suffisamment pour réinvestir. ' +
+    'C\'est précisément ce qu\'Amadou est en train de vivre dans son atelier ' +
+    'de Thiès en 2035 : non pas un conte de fée, mais la logique économique ' +
+    'ordinaire du cycle vertueux, enfin accessible à ceux qui en avaient ' +
+    'été exclus par les barrières du système traditionnel.'
+  ),
+
+  body(
+    'Ce qui est remarquable dans l\'histoire d\'Amadou, c\'est aussi ce ' +
+    'qu\'elle dit de la relation entre l\'innovation individuelle et le ' +
+    'bien collectif dans le modèle UBLinx. Son filtre à eau est maintenant ' +
+    'utilisé dans quarante-sept villages — des milliers de personnes ' +
+    'qui accèdent à une eau plus sûre. Cet impact collectif immense ' +
+    's\'est produit sans qu\'Amadou abandonne ses droits, sans qu\'il ' +
+    'doive choisir entre son intérêt personnel et le bien commun. ' +
+    'Les deux ont coexisté. Les familles qui ont construit leurs propres ' +
+    'filtres dans le cadre de la règle des cinq copies n\'ont rien payé — ' +
+    'c\'était leur droit. Les organisations qui ont commercialisé le filtre ' +
+    'à grande échelle ont versé des redevances — c\'était leur obligation. ' +
+    'Le modèle n\'a pas forcé un choix impossible. Il a créé les conditions ' +
+    'pour que la diffusion et la rémunération coexistent naturellement, ' +
+    'chacune dans sa sphère appropriée.'
+  ),
+
+  body(
+    'Cette coexistence est précisément ce que le débat entre «propriété ' +
+    'intellectuelle vs bien commun» présentait comme impossible pendant ' +
+    'des décennies. Défenseurs du brevet traditionnel et partisans de ' +
+    'l\'open source se sont affrontés dans un faux dilemme : soit vous ' +
+    'protégez l\'inventeur et vous bloquez la diffusion, soit vous ' +
+    'favorisez la diffusion et vous sacrifiez l\'inventeur. UBLinx ' +
+    'montre — ou du moins propose une architecture qui permettrait ' +
+    'de montrer, une fois implémentée — que ce dilemme n\'est pas ' +
+    'logiquement inévitable. Il est le produit de contraintes techniques ' +
+    'et institutionnelles spécifiques au système de brevets du XXe siècle, ' +
+    'pas une loi économique universelle. Changer les contraintes techniques ' +
+    'et institutionnelles change les possibilités. C\'est, dans sa ' +
+    'formulation la plus simple, la thèse de cet acte.'
+  ),
+
+  sep(),
+
+  // =========================================================================
+  // ÉPILOGUE DE L'ACTE III
+  // =========================================================================
+
+  p('SectionTitle', 'Épilogue : Ce que l\'enfant du conseil de famille comprend intuitivement'),
+
+  body(
+    'Rappelons-nous l\'enfant de l\'Acte II — celui qui a grandi dans une ' +
+    'maison où les règles importantes se négociaient autour d\'une table, ' +
+    'où la souveraineté sur son propre espace numérique était un droit ' +
+    'exercé dès l\'âge de comprendre ce que cela signifiait concrètement. ' +
+    'Cet enfant, devenu adulte, entre dans l\'économie de la création ' +
+    'avec un réflexe que ses pairs élevés dans les systèmes traditionnels ' +
+    'n\'ont pas développé : il sait que ses créations lui appartiennent, ' +
+    'que les règles de leur partage lui reviennent de définir, que la ' +
+    'valeur qu\'elles génèrent pour d\'autres devrait lui revenir en ' +
+    'proportion de sa contribution originale. Il ne le sait pas parce ' +
+    'qu\'on lui a donné un cours de droit de la propriété intellectuelle ' +
+    'à douze ans. Il le sait parce qu\'il a exercé le muscle de la ' +
+    'souveraineté dans le contexte concret et quotidien de sa vie ' +
+    'familiale, depuis l\'enfance, dans des situations où les enjeux ' +
+    'étaient réels mais les conséquences d\'une erreur restaient apprenables.'
+  ),
+
+  body(
+    'C\'est peut-être la contribution la plus sous-estimée du projet ' +
+    'Conscience Souveraine dans son ensemble — pas les algorithmes, ' +
+    'pas les smart contracts, pas les protocoles de blockchain. La ' +
+    'contribution la plus profonde et la plus durable est pédagogique : ' +
+    'en construisant des espaces de souveraineté à l\'échelle du foyer, ' +
+    'en habituant les enfants dès le plus jeune âge à la grammaire de ' +
+    'l\'agentivité et du consentement éclairé, on fabrique des individus ' +
+    'qui portent intuitivement la logique de la souveraineté dans chacun ' +
+    'de leurs actes économiques et sociaux à l\'âge adulte. Des individus ' +
+    'qui ne signent pas inconsciemment des conditions d\'utilisation ' +
+    'de cinquante pages sans les lire. Des individus qui demandent ' +
+    '«à qui appartient ceci et selon quelles règles?» avant de participer ' +
+    'à un système. Des individus qui savent que leurs créations ont une ' +
+    'valeur qui mérite protection et que cette protection est un droit, ' +
+    'pas un privilège conditionné à la taille de leur compte bancaire. ' +
+    'Ces individus forment le réseau de confiance. Pas les protocoles. ' +
+    'Les protocoles ne font que rendre praticable à l\'échelle mondiale ' +
+    'ce que des individus souverains ont décidé de construire ensemble.'
+  ),
+
+  body(
+    'Yoshua Bengio, le chercheur en intelligence artificielle montréalais ' +
+    'dont l\'alarme publique sur les risques existentiels de l\'IA a ' +
+    'contribué à orienter la réflexion de ce projet, a formulé quelque ' +
+    'chose d\'important que les débats populaires sur l\'IA tendent à ' +
+    'obscurcir : le danger principal n\'est pas que des machines deviennent ' +
+    'conscientes et décident autonomement de nous nuire. Le danger ' +
+    'principal est que des machines non conscientes, mais extrêmement ' +
+    'puissantes et de plus en plus capables, soient utilisées par des ' +
+    'acteurs humains — des États autoritaires, des corporations à la ' +
+    'recherche de positions de monopole, des individus avec des agendas ' +
+    'de concentration du pouvoir — pour redistribuer la puissance sociale, ' +
+    'économique et politique d\'une manière sans précédent dans l\'histoire ' +
+    'humaine. Le réseau de confiance décentralisé — UBLinx, Gen_Home, ' +
+    'les protocoles de souveraineté numérique — n\'est pas une réponse ' +
+    'technique à un problème technique. C\'est une réponse politique et ' +
+    'sociale à une menace politique et sociale : la reconcentration du ' +
+    'pouvoir à l\'ère numérique, sous couvert d\'efficacité, de sécurité ' +
+    'et d\'innovation, par des acteurs qui bénéficient précisément de ' +
+    'la centralisation qu\'ils proposent comme solution universelle.'
+  ),
+
+  thesis(
+    'La souveraineté intellectuelle et sociale n\'est pas un luxe réservé ' +
+    'aux nations riches, aux individus bien éduqués ou aux entrepreneurs ' +
+    'établis. C\'est la condition de possibilité de toute innovation ' +
+    'authentique — l\'innovation qui émerge librement de l\'imagination ' +
+    'humaine sans devoir demander la permission à un système qui ne ' +
+    'l\'a pas financée, qui circule équitablement entre créateurs et ' +
+    'utilisateurs sans intermédiaire qui capture l\'essentiel de la valeur, ' +
+    'et qui se traduit en progrès réel prioritairement pour ceux qui ' +
+    'en ont le plus besoin. Le réseau de confiance est l\'infrastructure ' +
+    'de cette souveraineté. Il est conceptuellement cohérent, techniquement ' +
+    'faisable, économiquement justifié. Il reste à le construire — ' +
+    'et ceux qui le construiront ne seront pas les entreprises qui ' +
+    'bénéficient du statu quo, mais les inventeurs, les créateurs, ' +
+    'les communautés et les individus qui ont tout à gagner d\'un système ' +
+    'plus juste.'
+  ),
+
+  quote(
+    '« La confiance distribuée ne supprime pas les risques. Elle les ' +
+    'redistribue plus équitablement entre tous les participants d\'un réseau, ' +
+    'plutôt que de les concentrer sur les nœuds les plus vulnérables — ' +
+    'ceux qui n\'ont pas la taille, les ressources ou les connexions ' +
+    'pour se protéger seuls dans le système actuel. C\'est la promesse ' +
+    'du réseau de confiance. C\'est aussi sa limite — elle ne supprime ' +
+    'pas les inégalités, elle les redistribue. C\'est surtout sa nécessité — ' +
+    'parce que le monde où nous vivons n\'est pas celui où nous méritons ' +
+    'de vivre, et que construire cet autre monde commence par nommer ' +
+    'honnêtement la distance entre les deux. » — David Berthelotte'
+  ),
+
+  sep(),
+
+  secTitle("Note sur le statut actuel d'UBLinx"),
+
+  body(
+    'Tout au long de cet acte, nous avons décrit UBLinx au futur et au ' +
+    'conditionnel — Amadou «ferait», Mei-Lin «soumettrait», les familles ' +
+    'de Québec City «seraient connectées». Cette cohérence temporelle ' +
+    'n\'est pas rhétorique : elle reflète la réalité du projet. UBLinx, ' +
+    'au moment où ces pages sont écrites, est une architecture conceptuelle ' +
+    'dont les composants technologiques sont tous disponibles et éprouvés ' +
+    'séparément — blockchain, smart contracts, IPFS, Arweave, machine ' +
+    'learning pour la validation, fingerprinting numérique — mais dont ' +
+    'l\'assemblage en un système cohérent, gouverné, accessible et durable ' +
+    'n\'a pas encore eu lieu. Identifier cet écart entre la vision et ' +
+    'la réalité n\'est pas un aveu d\'échec. C\'est la précondition de ' +
+    'tout projet honnête : savoir où on en est pour savoir où on va.'
+  ),
+
+  body(
+    'La feuille de route qui mène du concept à la réalité passe par ' +
+    'plusieurs étapes que l\'honnêteté oblige à nommer. D\'abord, ' +
+    'le développement du protocole de validation communautaire dans ' +
+    'un ou deux domaines pilotes — le traitement de l\'eau et les ' +
+    'innovations agricoles à faibles ressources constituent des candidats ' +
+    'naturels, parce que ces domaines ont des communautés d\'experts ' +
+    'motivés par une mission sociale claire et des inventeurs qui ' +
+    'n\'ont rien à perdre à tenter une nouvelle approche. Ensuite, ' +
+    'la mise en œuvre des structures légales hybrides dans les juridictions ' +
+    'les plus favorables. Puis la croissance progressive du réseau ' +
+    'de validateurs et d\'inventeurs, domaine par domaine, région par ' +
+    'région. Enfin, l\'intégration avec les systèmes juridiques nationaux ' +
+    'au fur et à mesure que la reconnaissance légale des smart contracts ' +
+    'progresse dans différentes juridictions. Ce n\'est pas un plan de ' +
+    'cinq ans. C\'est probablement le travail d\'une génération.'
+  ),
+
+  body(
+    'Mais les projets qui changent les structures durables prennent ' +
+    'le temps qu\'ils prennent. Desjardins a mis quarante ans à devenir ' +
+    'une institution majeure au Québec. Linux a pris vingt ans à ' +
+    'devenir l\'infrastructure invisible de l\'économie numérique mondiale. ' +
+    'Wikipedia a pris quinze ans pour devenir la principale source ' +
+    'd\'information encyclopédique pour la majorité de l\'humanité. ' +
+    'Ce que ces projets avaient en commun au départ : une vision claire ' +
+    'de ce qui était injuste dans l\'existant, une proposition cohérente ' +
+    'de comment le rendre plus juste, et une communauté initiale ' +
+    'suffisamment motivée pour commencer à construire sans attendre ' +
+    'que tout soit parfait. UBLinx a les deux premiers ingrédients. ' +
+    'Le troisième — la communauté — est ce que ce livre cherche, ' +
+    'entre autres, à contribuer à rassembler.'
+  ),
+
+  rq(
+    'Seriez-vous prêt à contribuer à valider les innovations dans votre ' +
+    'domaine de compétence — à consacrer quelques heures par mois pour ' +
+    'évaluer si une idée soumise par un inconnu est physiquement cohérente ' +
+    'et originale? Pas pour être payé, mais parce que vous bénéficieriez ' +
+    'vous-même du même service le jour où vous auriez quelque chose à ' +
+    'protéger? C\'est la logique coopérative dans sa version la plus ' +
+    'simple. Est-elle suffisante pour construire quelque chose qui dure?'
+  ),
+
+  thesis(
+    'L\'acte suivant de ce livre nommera les zones d\'ombre que cet acte ' +
+    'a délibérément éclairées sous leur meilleur jour : les risques réels ' +
+    'des communications souveraines, les limites de la confiance distribuée ' +
+    'face aux acteurs de mauvaise foi, et la question que toute architecture ' +
+    'de liberté doit affronter — comment rester libre sans devenir le ' +
+    'refuge de ceux dont la liberté menace celle des autres. Ces questions ' +
+    'n\'invalident pas ce que cet acte a construit. Elles en complètent ' +
+    'l\'image honnêtement.'
+  ),
+
+];
+
+// ---------------------------------------------------------------------------
+// Output
+// ---------------------------------------------------------------------------
+
+const OUTPUT_DIR  = path.resolve('/mnt/d/conscience_souveraine/book2/chapters');
+const OUTPUT_FILE = path.join(OUTPUT_DIR, 'acte3.json');
+
+if (!fs.existsSync(OUTPUT_DIR)) {
+  fs.mkdirSync(OUTPUT_DIR, { recursive: true });
+}
+
+fs.writeFileSync(OUTPUT_FILE, JSON.stringify(elements, null, 2), 'utf8');
+
+console.log(`[generate_acte3] Done. Elements written: ${elements.length}`);
+console.log(`[generate_acte3] Output: ${OUTPUT_FILE}`);

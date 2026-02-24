@@ -1,0 +1,2139 @@
+'use strict';
+
+/**
+ * generate_acte1.js
+ *
+ * Generates /mnt/d/conscience_souveraine/book2/chapters/acte1.json
+ *
+ * Content: ACTE I — "L'Énergie" — La Souveraineté Énergétique
+ * Conscience Souveraine (style essai narratif, à la Harari)
+ * Auteur : David Berthelotte
+ *
+ * Output format: JSON array of paragraph elements for docx assembly.
+ * Target: 160-200 elements minimum, ~40-50 pages of narrative content.
+ */
+
+'use strict';
+
+const fs   = require('fs');
+const path = require('path');
+
+// ---------------------------------------------------------------------------
+// Element builders
+// ---------------------------------------------------------------------------
+
+const pageBreak  = ()           => ({ type: 'pageBreak' });
+const sep        = ()           => ({ type: 'paragraph', style: 'Separator',      text: '* * *' });
+
+/** @param {string} style @param {string} text */
+const p = (style, text) => ({ type: 'paragraph', style, text });
+
+/** @param {{ text: string, bold?: boolean, italics?: boolean }[]} segments */
+const rich = (segments) => ({ type: 'richParagraph', segments });
+
+const body    = (text) => p('BodyText',       text);
+const scene   = (text) => p('SceneText',      text);
+const quote   = (text) => p('Quote',          text);
+const thesis  = (text) => p('Thesis',         text);
+const tech    = (text) => p('TechNote',       text);
+const crit    = (text) => p('CritiqueBox',    text);
+const rq      = (text) => p('ReaderQuestion', text);
+const epigraph= (text) => p('Epigraph',       text);
+const chTitle = (text) => p('ChapterTitle',   text);
+const secTitle= (text) => p('SectionTitle',   text);
+const sub     = (text) => p('SubSection',     text);
+const actTitle= (text) => p('ActTitle',       text);
+const actSub  = (text) => p('ActSubtitle',    text);
+
+// ---------------------------------------------------------------------------
+// Content
+// ---------------------------------------------------------------------------
+
+const elements = [
+
+  // =========================================================================
+  // ACTE I TITLE PAGE
+  // =========================================================================
+
+  pageBreak(),
+
+  actTitle('ACTE I'),
+  actTitle("L'ÉNERGIE"),
+  actSub('La Souveraineté Énergétique comme Premier Acte de Liberté'),
+
+  epigraph(
+    '« Celui qui contrôle votre source de chaleur contrôle votre hiver. ' +
+    'Celui qui contrôle votre hiver contrôle votre vie. » — David Berthelotte'
+  ),
+
+  pageBreak(),
+
+  // =========================================================================
+  // CHAPITRE 1 : LE PREMIER GESTE DE L'HOMME LIBRE
+  // =========================================================================
+
+  chTitle('Chapitre 1'),
+  chTitle("Le premier geste de l'homme libre"),
+
+  epigraph(
+    '« La liberté commence avec la maîtrise du feu. Elle a commencé là il y a ' +
+    '400 000 ans. Elle peut recommencer là aujourd\'hui. »'
+  ),
+
+  scene(
+    'Février 2031. Rang Saint-Germain, Comté de Bellechasse, Québec. ' +
+    'La nuit est tombée à seize heures trente et il fait moins vingt-neuf dehors. ' +
+    'À travers les fenêtres de la grande serre attenante à la ferme, ' +
+    'on voit le vert des tomates sous les lampes à spectre complet. ' +
+    'Claude Vézina, 58 ans, marche entre ses rangées avec une caisse de tomates cerises ' +
+    'qu\'il a cueillies ce matin. Sa femme va en faire une sauce pour le souper. ' +
+    'Ce n\'est pas une scène extraordinaire — sauf que nous sommes en plein février québécois ' +
+    'et que cette serre tourne sans aucun branchement au réseau d\'Hydro-Québec. ' +
+    'Dans la cave, derrière les bocaux de cornichons et les sacs de grains, ' +
+    'il y a une boîte métallique de la taille d\'un réfrigérateur qui ronronne doucement. ' +
+    'Elle capte la chaleur de la terre, la transforme en électricité et en eau chaude, ' +
+    'et ne s\'est pas arrêtée depuis vingt-deux mois. ' +
+    'Claude Vézina n\'appelle pas cela une révolution. Il appelle ça son système.'
+  ),
+
+  body(
+    'L\'histoire de l\'énergie est l\'histoire de qui la possède. ' +
+    'Pendant la plus grande partie de l\'existence humaine, la réponse était simple : ' +
+    'tout le monde et personne. L\'énergie venait du soleil qui faisait pousser les cultures, ' +
+    'du bois que l\'on coupait dans la forêt commune, ' +
+    'du vent qui faisait tourner les moulins, de la rivière qui actionnait les roues à aubes. ' +
+    'Ces sources n\'appartenaient à personne en particulier, ' +
+    'et donc à la communauté dans son ensemble. ' +
+    'Elles n\'envoyaient pas de facture mensuelle. ' +
+    'Elles ne pouvaient pas décider de couper le service si vous payiez en retard. ' +
+    'Elles ne lobbyaient pas les gouvernements pour protéger leur monopole. ' +
+    'Elles étaient là, disponibles, imprévisibles parfois, insuffisantes souvent, ' +
+    'mais fondamentalement neutres dans leur rapport de pouvoir avec l\'utilisateur. ' +
+    'Le paysan breton du 14ème siècle avait froid certains hivers. ' +
+    'Il ne devait pas d\'argent à une société anonyme inscrite en bourse pour avoir le droit d\'avoir chaud.'
+  ),
+
+  body(
+    'La ferme Vézina n\'est pas une exception romantique sortie d\'un magazine de style de vie alternatif. ' +
+    'Elle est un avant-poste de quelque chose qui est déjà en train de se produire ' +
+    'à une échelle que les statistiques nationales d\'énergie commencent à peine à capturer. ' +
+    'En 2024, plus de 4 millions de foyers en Allemagne producaient déjà ' +
+    'une partie significative de leur propre électricité via des panneaux solaires. ' +
+    'En Australie, plus de 30% des maisons individuelles avaient des systèmes solaires installés. ' +
+    'Au Danemark, des coopératives éoliennes communautaires fournissaient ' +
+    'plus de 20% de la production électrique nationale. ' +
+    'Ce mouvement — discret, décentralisé, sans porte-parole unique ni idéologie unificatrice — ' +
+    'est en train de transformer silencieusement les relations de pouvoir énergétique ' +
+    'dans des dizaines de pays. ' +
+    'HYPERVORTEX n\'invente pas ce mouvement. ' +
+    'Il lui propose un outil supplémentaire, ' +
+    'adapté aux régions nordiques froides, ' +
+    'aux foyers sans toit ensoleillé, ' +
+    'aux communautés rurales dont la ressource thermique principale ' +
+    'est dans le sol sous leurs pieds et non dans le soleil au-dessus de leurs têtes. ' +
+    'Il complète le tableau. Il ne le remplace pas.'
+  ),
+
+  body(
+    'La révolution industrielle a changé cela de façon si progressive ' +
+    'que nous avons oublié qu\'un changement avait eu lieu. ' +
+    'La vapeur d\'abord, le charbon ensuite, le pétrole et le gaz naturel, ' +
+    'puis l\'électricité centralisée : chaque transition promettait plus de puissance, ' +
+    'plus de confort, plus de chaleur pour tout le monde. ' +
+    'Et ces promesses ont été tenues. ' +
+    'Un appartement chauffé au gaz naturel à Montréal en 2024 est infiniment ' +
+    'plus confortable qu\'une cabane chauffée au bois en 1824. ' +
+    'Personne de sérieux ne remet cela en question. ' +
+    'Mais ce confort a eu un coût que les économistes ne savent pas mesurer : ' +
+    'la dépendance. La relation de l\'individu à son énergie est passée, ' +
+    'en moins de deux siècles, de la ressource partagée libre ' +
+    'au service marchand mensuel. ' +
+    'Nous n\'avons pas vraiment décidé de cet échange. ' +
+    'Il s\'est produit progressivement, ' +
+    'par accumulation de décisions rationnelles localement et catastrophiques systémiquement.'
+  ),
+
+  secTitle("L'asymétrie fondamentale"),
+
+  body(
+    'Voici l\'asymétrie que peu de gens nomment franchement : ' +
+    'vous avez besoin de chaleur pour survivre un hiver québécois. ' +
+    'La compagnie qui vous vend cette chaleur n\'a pas besoin de vous — ' +
+    'elle a besoin de l\'ensemble de ses clients, pas de vous en particulier. ' +
+    'Cette asymétrie est le fondement de tout monopole naturel. ' +
+    'Quand le service est essentiel à la survie et que le fournisseur est unique ' +
+    '— ou quasi-unique — le client n\'est pas libre de refuser. ' +
+    'Il peut négocier à la marge, changer de forfait, installer une meilleure isolation, ' +
+    'mais la structure de dépendance reste. ' +
+    'Chaque mois, une fraction de vos revenus doit légalement aller vers des entités ' +
+    'dont vous n\'avez pas choisi l\'existence et dont vous ne contrôlez ' +
+    'ni les pratiques, ni les prix, ni les priorités d\'investissement. ' +
+    'Nous appelons cela le marché de l\'énergie. ' +
+    'D\'autres mots seraient également précis.'
+  ),
+
+  body(
+    'Au Québec, il faut reconnaître une exception partielle : Hydro-Québec. ' +
+    'C\'est une société d\'État, publique, dont les profits vont en théorie ' +
+    'à tous les Québécois via le gouvernement. ' +
+    'Son électricité est parmi les moins chères en Amérique du Nord. ' +
+    'Elle est produite à 95% par des barrages hydrauliques, ' +
+    'donc relativement propre sur le plan des émissions directes. ' +
+    'Ces avantages sont réels et méritent d\'être reconnus honnêtement. ' +
+    'Mais Hydro-Québec est quand même une centralisation. ' +
+    'Elle décide des prix. Elle décide des niveaux d\'investissement. ' +
+    'Elle a inondé des milliers de kilomètres carrés de territoire ' +
+    'cri pour construire ses barrages — une dette historique ' +
+    'qui n\'a pas fini d\'être soldée. ' +
+    'Elle peut subir des pannes massives — la tempête de verglas de janvier 1998 ' +
+    'l\'a démontré de façon traumatisante : trois millions de Québécois ' +
+    'sans électricité pendant plusieurs semaines en plein hiver. ' +
+    'Cinq personnes sont mortes de froid chez elles. ' +
+    'Une vingtaine d\'autres sont mortes dans des accidents liés aux génératrices de fortune. ' +
+    'La dépendance a un visage. Il est rarement mentionné dans les rapports annuels.'
+  ),
+
+  secTitle('Le verglas comme révélateur'),
+
+  body(
+    'La crise du verglas de 1998 mérite qu\'on s\'y arrête, ' +
+    'parce qu\'elle a révélé quelque chose que la prospérité ordinaire dissimule. ' +
+    'Pendant deux à trois semaines, selon les régions, ' +
+    'les habitants de la Montérégie, de Lanaudière et de l\'Estrie ' +
+    'ont dû gérer leur propre énergie ou s\'en passer. ' +
+    'Certains se sont regroupés dans des centres d\'hébergement d\'urgence. ' +
+    'D\'autres ont survécu chez eux avec des poêles à bois, des génératrices, ' +
+    'des voisins qui avaient du propane. ' +
+    'Ce qui a frappé les observateurs, c\'est la façon dont la crise ' +
+    'a fait émerger deux types de population : ' +
+    'ceux qui avaient conservé une relation directe avec des sources d\'énergie alternatives — ' +
+    'les agriculteurs, les habitants des régions boisées, les anciens ' +
+    'qui se souvenaient comment se chauffer autrement — ' +
+    'et ceux qui n\'avaient aucun savoir-faire, aucun outil, ' +
+    'aucune réserve permettant de traverser une interruption de service. ' +
+    'La vulnérabilité n\'était pas seulement économique. ' +
+    'Elle était cognitive. Un lien de connaissance s\'était brisé, ' +
+    'et son absence créait une fragilité radicale face à la coupure de courant.'
+  ),
+
+  body(
+    'Claude Vézina était adolescent en 1998. ' +
+    'Sa famille avait un poêle à bois dans la cuisine, ' +
+    'héritage d\'un grand-père qui refusait de « dépendre des fils ». ' +
+    'Ils n\'ont pas eu froid. Leurs voisins, eux, ont passé dix jours ' +
+    'chez leur belle-famille en ville, dans un centre communautaire chauffé au mazout. ' +
+    'Claude n\'a pas oublié la différence. ' +
+    'Trente-trois ans plus tard, quand il s\'est mis à concevoir sa serre quatre-saisons, ' +
+    'il n\'avait pas lu de manifestes sur la souveraineté énergétique. ' +
+    'Il avait juste une mémoire très claire d\'un hiver où le fait d\'avoir un poêle à bois ' +
+    'signifiait que sa famille restait chez elle, dans ses affaires, ' +
+    'dans sa propre vie. ' +
+    'HYPERVORTEX est une roue de Curie fluide de haute technologie. ' +
+    'Mais pour Claude Vézina, c\'est la version du 21ème siècle ' +
+    'du poêle à bois de son grand-père. ' +
+    'La technologie change. Le besoin, lui, ne change pas.'
+  ),
+
+  sep(),
+
+  secTitle("L'histoire longue de l'indépendance énergétique"),
+
+  body(
+    'Pour comprendre où nous allons, il faut savoir d\'où nous venons. ' +
+    'La maîtrise du feu, il y a 400 000 ans, était le premier acte ' +
+    'd\'indépendance énergétique de l\'espèce humaine. ' +
+    'Homo erectus — et peut-être plus tôt, Homo heidelbergensis — ' +
+    'a appris à conserver et à transmettre la flamme. ' +
+    'Non pas à la créer encore, pas systématiquement, ' +
+    'mais à la garder en vie, à la protéger de la pluie et du vent, ' +
+    'à la transporter sur des distances. ' +
+    'Cette capacité a changé la structure même du cerveau humain. ' +
+    'La cuisson libère des calories supplémentaires de la nourriture : ' +
+    'la même quantité de nourriture cuite nourrit davantage que crue, ' +
+    'libérant de l\'énergie métabolique pour alimenter un cerveau plus gros. ' +
+    'L\'évolution a récompensé ceux qui maîtrisaient le feu ' +
+    'en leur donnant les outils cognitifs pour en faire davantage. ' +
+    'L\'énergie et l\'intelligence ont coévolué depuis le début. ' +
+    'Ce n\'est pas une métaphore. C\'est de la biologie évolutive.'
+  ),
+
+  body(
+    'La révolution néolithique, il y a environ 10 000 ans, a introduit ' +
+    'une première forme de dépendance énergétique collective. ' +
+    'Les sociétés agraires dépendent du sol, de la pluie, des saisons — ' +
+    'des forces qui échappent à tout contrôle individuel. ' +
+    'Cette dépendance a engendré les premières formes de stockage (greniers), ' +
+    'de redistribution (État naissant) et de pouvoir (ceux qui contrôlent les greniers). ' +
+    'La sécheresse de 2200 avant notre ère a probablement contribué à l\'effondrement ' +
+    'de l\'Empire akkadien, le premier empire de l\'histoire. ' +
+    'La vulnérabilité énergétique est aussi vieille que la civilisation elle-même. ' +
+    'Ce qui est nouveau, ce n\'est pas la dépendance. ' +
+    'C\'est sa forme contemporaine : une dépendance monétarisée, contractualisée, ' +
+    'où la ressource est vendue par des entités dont la logique première ' +
+    'n\'est pas la satisfaction du besoin humain mais la maximisation du profit. ' +
+    'Ce changement de nature du fournisseur change tout.'
+  ),
+
+  body(
+    'Le charbon a fondé le capitalisme industriel. ' +
+    'Le pétrole a fondé la mondialisation du 20ème siècle. ' +
+    'L\'électricité centralisée a fondé la société de consommation. ' +
+    'Chaque fois, une ressource naturelle distribuée — le charbon dans le sous-sol, ' +
+    'le pétrole dans des régions du monde, l\'eau dans les rivières — ' +
+    'a été capturée par des entités qui ont construit des infrastructures ' +
+    'permettant de la transformer en produit vendu à tous. ' +
+    'Ces infrastructures avaient une logique réelle : ' +
+    'une ligne électrique qui alimente dix mille maisons ' +
+    'est infiniment plus efficace que dix mille générateurs individuels. ' +
+    'L\'économie d\'échelle n\'est pas une invention des capitalistes. ' +
+    'C\'est un fait physique. ' +
+    'Le problème n\'est pas l\'économie d\'échelle elle-même. ' +
+    'Le problème, c\'est que dans notre monde, ' +
+    'l\'économie d\'échelle s\'est toujours traduite par la concentration du pouvoir, ' +
+    'non par la distribution du bénéfice. ' +
+    'La technologie qui rend l\'énergie abondante la rend simultanément ' +
+    'moins contrôlable par l\'individu. ' +
+    'C\'est cette équation que HYPERVORTEX cherche à réécrire.'
+  ),
+
+  rq(
+    'La dernière fois que votre électricité a été coupée — ' +
+    'quelques heures, une nuit — ' +
+    'qu\'avez-vous découvert sur votre propre dépendance ? ' +
+    'Ce que vous ne pouviez plus faire, ' +
+    'ce que vous avez improvisé, ' +
+    'ce que vous avez réalisé ne pas savoir faire : ' +
+    'c\'était une cartographie accidentelle de votre vulnérabilité.'
+  ),
+
+  body(
+    'Il est instructif de comparer le modèle québécois avec celui d\'autres régions du monde ' +
+    'où la souveraineté énergétique n\'est pas un choix idéologique ' +
+    'mais une nécessité de survie. ' +
+    'Dans certaines régions rurales du Bangladesh, du Kenya ou du Pérou, ' +
+    'des coopératives de micro-réseau solaire fonctionnent depuis les années 2010 ' +
+    'sans avoir jamais été connectées au réseau national. ' +
+    'Ces réseaux ne sont pas des systèmes de pointe technologique. ' +
+    'Ce sont des panneaux solaires simples, des batteries de plomb-acide recyclées, ' +
+    'une gestion communautaire des priorités de charge. ' +
+    'Mais ils ont produit quelque chose que les réseaux centralisés ' +
+    'n\'ont jamais réussi à apporter à ces communautés : ' +
+    'la lumière pour que les enfants étudient le soir, ' +
+    'le réfrigérateur pour conserver les médicaments, ' +
+    'le téléphone chargé pour appeler l\'ambulance. ' +
+    'Ces micro-réseaux rudimentaires ont transformé des vies ' +
+    'non pas parce qu\'ils étaient technologiquement sophistiqués, ' +
+    'mais parce qu\'ils étaient présents, locaux et contrôlables. ' +
+    'La sophistication technologique vient ensuite. ' +
+    'L\'accès vient d\'abord.'
+  ),
+
+  body(
+    'L\'histoire de la souveraineté énergétique au Québec ' +
+    'ne commence pas avec HYPERVORTEX ni même avec les panneaux solaires. ' +
+    'Elle commence dans les années 1920, ' +
+    'quand des centaines de municipalités rurales ont créé leurs propres réseaux électriques locaux, ' +
+    'financés par des obligations municipales et gérés par des conseils élus. ' +
+    'Ces « municipalités lumière » — comme on les appelait alors — ' +
+    'ont électrifié leurs villages des décennies avant qu\'Hydro-Québec ' +
+    'n\'étende ses lignes dans les campagnes. ' +
+    'Elles ont créé des emplois locaux pour les électriciens et les ingénieurs. ' +
+    'Elles ont gardé les profits de l\'énergie dans la collectivité. ' +
+    'Elles ont développé une culture technique locale ' +
+    'qui a fourni à Hydro-Québec ses premiers techniciens qualifiés ' +
+    'après la nationalisation. ' +
+    'La mémoire de ces initiatives a été effacée par le récit de la nationalisation, ' +
+    'qui a présenté 1962 comme le moment zéro de l\'électrification du Québec. ' +
+    'Ce n\'est pas faux — Hydro-Québec a complété l\'électrification ' +
+    'des régions les plus isolées que les municipalités ne pouvaient pas rentabiliser. ' +
+    'Mais ce n\'est pas toute l\'histoire. ' +
+    'Les initiatives locales précédaient l\'État. ' +
+    'Elles en ont préparé le terrain. ' +
+    'Elles pourraient le faire de nouveau.'
+  ),
+
+  body(
+    'Ce contraste entre les pays du Sud qui adoptent les micro-réseaux décentralisés ' +
+    'par nécessité et les pays du Nord qui s\'y résistent par habitude institutionnelle ' +
+    'révèle quelque chose de profond sur la nature des verrous au changement. ' +
+    'Dans les pays qui n\'ont jamais eu d\'infrastructure centralisée, ' +
+    'il n\'y a pas d\'inertie institutionnelle à surmonter. ' +
+    'Il n\'y a pas de lobby des entreprises de distribution d\'énergie ' +
+    'qui protège son modèle d\'affaires via des régulations. ' +
+    'Il n\'y a pas de culture de la dépendance construite sur un siècle de service universel. ' +
+    'Il y a seulement un besoin et une technologie qui peut y répondre. ' +
+    'Les pays développés, eux, doivent simultanément adopter une nouvelle technologie ' +
+    'ET défaire des structures institutionnelles, économiques et culturelles ' +
+    'construites sur des générations. ' +
+    'C\'est pourquoi les transitions énergétiques sont toujours ' +
+    'plus lentes dans les pays riches que dans les pays en développement, ' +
+    'même quand les technologies sont plus accessibles dans les premiers. ' +
+    'La richesse des infrastructures existantes ' +
+    'est aussi le poids des infrastructures existantes.'
+  ),
+
+  body(
+    'Le Québec a un avantage particulier pour naviguer cette transition ' +
+    'que son histoire singulière lui a donné. ' +
+    'La province a une tradition culturelle de coopérativisme fort : ' +
+    'Desjardins pour la finance, les coopératives agricoles, ' +
+    'les caisses populaires rurales, les coopératives forestières. ' +
+    'La propriété collective d\'une infrastructure partagée ' +
+    'n\'est pas une idée étrangère à la culture québécoise. ' +
+    'Elle a un nom. Elle a une histoire. Elle a des exemples réussis. ' +
+    'Ce terreau culturel est un actif stratégique pour la transition ' +
+    'vers des micro-réseaux énergétiques communautaires. ' +
+    'Une coopérative d\'énergie locale utilisant HYPERVORTEX ' +
+    'n\'aurait pas à inventer ses règles de gouvernance de zéro. ' +
+    'Elle pourrait s\'inspirer de cent ans de pratique coopérative québécoise, ' +
+    'l\'adapter à l\'infrastructure énergétique plutôt que financière, ' +
+    'et construire sur des fondations culturelles solides ' +
+    'plutôt que sur des idéologies importées. ' +
+    'Ce n\'est pas une garantie de succès. ' +
+    'Mais c\'est un point de départ que d\'autres provinces canadiennes ' +
+    'ou d\'autres États américains n\'ont pas.'
+  ),
+
+  rq(
+    'Connaissez-vous l\'histoire de la coopérative électrique ' +
+    'de votre région, si elle en a eu une ? ' +
+    'Savez-vous pourquoi elle a disparu ou été absorbée ? ' +
+    'Ce que cette histoire révèle sur les forces qui ont façonné ' +
+    'votre rapport actuel à l\'énergie ' +
+    'en dit peut-être plus que n\'importe quel rapport de politique énergétique.'
+  ),
+
+  sep(),
+
+  secTitle('La serre de Claude comme démonstration'),
+
+  body(
+    'Revenons à Bellechasse. La serre de Claude Vézina produit, ' +
+    'en plein hiver québécois, des tomates, des laitues, ' +
+    'des herbes aromatiques et depuis deux ans, des concombres. ' +
+    'Elle est chauffée et éclairée par l\'électricité produite par son système. ' +
+    'Ce système capte la chaleur géothermique de basse enthalpie ' +
+    'disponible à deux mètres de profondeur dans le sol de sa propriété — ' +
+    'une chaleur modeste, environ 8 à 10 degrés Celsius même en plein hiver, ' +
+    'que la plupart des systèmes conventionnels ne peuvent pas exploiter économiquement ' +
+    'parce que le différentiel de température est trop faible pour un moteur thermique classique. ' +
+    'Mais HYPERVORTEX n\'est pas un moteur thermique classique. ' +
+    'Il fonctionne sur des différentiels de température bien inférieurs à ceux ' +
+    'qu\'exigent les turbines à vapeur ou même les moteurs Stirling. ' +
+    'À 10 degrés en entrée et 35 degrés en sortie — ' +
+    'la chaleur de la serre elle-même recyclée — ' +
+    'il produit suffisamment d\'électricité pour maintenir l\'éclairage ' +
+    'et le chauffage d\'appoint. ' +
+    'Pas pour alimenter une maison entière, pas encore. ' +
+    'Mais pour fermer la boucle énergétique de la serre. ' +
+    'La serre se chauffe elle-même. Elle produit sa propre nourriture. ' +
+    'C\'est une démonstration de principe vivante.'
+  ),
+
+  body(
+    'Claude n\'est pas ingénieur. Il est agriculteur. ' +
+    'Il a compris HYPERVORTEX en une phrase : ' +
+    '« C\'est comme une pompe à chaleur, mais sans compresseur, ' +
+    'et qui produit de l\'électricité en plus. » ' +
+    'Cette simplification n\'est pas tout à fait exacte physiquement, ' +
+    'mais elle capture quelque chose d\'important : ' +
+    'HYPERVORTEX est accessible à quiconque comprend ' +
+    'le principe de base d\'une pompe à chaleur. ' +
+    'C\'est le résultat d\'une décision de design délibérée de David Berthelotte : ' +
+    'un système d\'énergie souveraine doit pouvoir être compris, ' +
+    'entretenu et réparé par son propriétaire. ' +
+    'Pas en intégralité, pas dans ses détails les plus fins, ' +
+    'mais dans ses principes de fonctionnement. ' +
+    'Un agriculteur doit pouvoir comprendre pourquoi son système marche ' +
+    'et identifier les signes avant-coureurs qu\'il ne marche plus bien. ' +
+    'La dépendance au technicien spécialisé qui doit venir « débogguer » ' +
+    'une boîte noire incompréhensible est une autre forme de dépendance. ' +
+    'La souveraineté commence par la compréhension.'
+  ),
+
+  body(
+    'La comparaison avec l\'agriculture est plus qu\'une métaphore de commodité. ' +
+    'Un agriculteur qui comprend la biologie de ses cultures ' +
+    'peut diagnostiquer une maladie foliaire, ajuster son irrigation, ' +
+    'choisir ses semences sans dépendre entièrement d\'un agronome externe. ' +
+    'Un agriculteur qui ne comprend pas sa culture ' +
+    'reçoit un appel commercial de son fournisseur d\'intrants ' +
+    'et achète ce qu\'on lui conseille. ' +
+    'La compréhension est une protection. ' +
+    'Elle n\'élimine pas le besoin d\'expertise externe — ' +
+    'Claude consulte quand même un ingénieur pour les modifications majeures du système. ' +
+    'Mais elle lui donne la capacité de distinguer ' +
+    'le conseil légitime du conseil intéressé, ' +
+    'le problème réel de la vente de services inutiles. ' +
+    'Dans un monde de plus en plus rempli de boîtes noires ' +
+    'que personne ne comprend vraiment, ' +
+    'cette capacité de distinguer est une forme rare et précieuse d\'autonomie.'
+  ),
+
+  rich([
+    { text: 'Une règle de design simple pour HYPERVORTEX, ', italics: true },
+    { text: 'et pour tout système d\'énergie souveraine : ', italics: true },
+    { text: 'si le propriétaire ne peut pas expliquer à un voisin curieux comment ça marche en dix minutes, le système n\'est pas encore assez simple.', bold: true, italics: true },
+    { text: ' Ce n\'est pas une limite à la sophistication technique. C\'est une exigence de communication. La complexité peut exister — elle doit simplement être invisible à l\'usage courant et accessible à la curiosité raisonnable.', italics: true },
+  ]),
+
+  quote(
+    '« Un outil que vous ne comprenez pas n\'est pas votre outil. ' +
+    'C\'est l\'outil d\'un autre, que vous louez à long terme. » — David Berthelotte'
+  ),
+
+  body(
+    'En mars 2031, Claude a invité ses voisins à voir le système en fonctionnement. ' +
+    'Pas une présentation formelle, pas de diapositives — ' +
+    'il leur a simplement montré la boîte dans la cave, ' +
+    'expliqué le principe en dix minutes, ' +
+    'et servi de la soupe aux pois faite avec des légumes de la serre ' +
+    'et chauffée par l\'électricité du système. ' +
+    'Neuf familles ont demandé comment elles pourraient l\'adopter. ' +
+    'Deux ont fait les démarches. ' +
+    'Une communauté de souveraineté énergétique commence exactement comme cela : ' +
+    'un repas, une boîte dans une cave, une conversation entre voisins. ' +
+    'Pas une conférence sur le changement climatique. ' +
+    'Pas un rapport gouvernemental sur la transition énergétique. ' +
+    'Un voisin qui dit : « Moi, ça marche. Voici comment. »'
+  ),
+
+  pageBreak(),
+
+  // =========================================================================
+  // CHAPITRE 2 : LA ROUE DE CURIE RÉINVENTÉE
+  // =========================================================================
+
+  chTitle('Chapitre 2'),
+  chTitle('La roue de Curie réinventée'),
+
+  epigraph(
+    '« La plus grande invention n\'est pas de trouver une idée nouvelle. ' +
+    'C\'est de comprendre pourquoi une vieille idée n\'a jamais fonctionné, ' +
+    'et d\'identifier précisément ce qui a changé depuis lors. »'
+  ),
+
+  scene(
+    'Un laboratoire de physique des matériaux. Grenoble, France, 1997. ' +
+    'Un technicien tient un aimant en neodymium près d\'un morceau de nickel ' +
+    'porté à la température d\'un four de cuisine. ' +
+    'L\'aimant n\'attire plus le nickel. ' +
+    'Il approche ensuite l\'aimant d\'un morceau de nickel froid — ' +
+    'il est attiré immédiatement, avec une force que l\'on ressent dans la main. ' +
+    'Le technicien répète le geste pour un groupe d\'étudiants. ' +
+    'Il dit : « Curie, 1895. Rien de nouveau. » ' +
+    'Un étudiant au fond de la salle note quelque chose. ' +
+    'Il s\'appelle Marcel et il est en train de penser à des ferrofluides. ' +
+    'Vingt ans plus tard, en travaillant sur les ferrofluides supercritiques, ' +
+    'il réalisera que ce « rien de nouveau » contenait le germe ' +
+    'd\'une révolution énergétique. ' +
+    'Les grandes idées dorment souvent dans des démonstrations routinières ' +
+    'que personne ne regarde vraiment.'
+  ),
+
+  body(
+    'Pierre Curie a décrit le phénomène en 1895 dans sa thèse de doctorat. ' +
+    'Quand un matériau ferromagnétique — le fer, le nickel, le cobalt ' +
+    'et de nombreux alliages — est chauffé au-delà d\'une température critique ' +
+    'appelée depuis lors la température de Curie, ' +
+    'il perd brusquement ses propriétés magnétiques. ' +
+    'À cette température, l\'agitation thermique des atomes devient ' +
+    'suffisante pour désorganiser l\'alignement des moments magnétiques ' +
+    'qui créait le ferromagnétisme. ' +
+    'Le matériau devient paramagnétique — faiblement magnétisable, ' +
+    'mais plus du tout attiré avec force par un aimant permanent. ' +
+    'Quand on le refroidit sous la température de Curie, ' +
+    'le magnétisme revient. ' +
+    'Cette transition est réversible, reproductible à l\'infini, ' +
+    'et se produit exactement à la même température pour un matériau donné. ' +
+    'C\'est l\'une des transitions de phase les plus précises et les plus stables ' +
+    'que connaisse la physique des matériaux. ' +
+    'Curie l\'a mesurée. Il n\'a pas cherché à en faire un moteur. ' +
+    'En 1895, il n\'avait ni les matériaux ni le contexte technologique pour le faire. ' +
+    'Mais l\'idée était là, attendant.'
+  ),
+
+  secTitle('La roue de Curie : une curiosité de 1880'),
+
+  body(
+    'Dans les années 1880, avant même les travaux de Pierre Curie, ' +
+    'plusieurs ingénieurs avaient eu l\'idée d\'utiliser la transition magnétique ' +
+    'pour créer un moteur perpétuel — ou presque. ' +
+    'Le principe était simple : imaginez une roue dont les rayons ' +
+    'sont faits d\'un matériau ferromagnétique. ' +
+    'D\'un côté de la roue, un aimant permanent. ' +
+    'De l\'autre côté, une source de chaleur. ' +
+    'Le métal du côté de l\'aimant est froid : il est attiré, ' +
+    'ce qui fait tourner la roue vers l\'aimant. ' +
+    'En tournant, le métal passe devant la source de chaleur : ' +
+    'il dépasse la température de Curie, perd son magnétisme, ' +
+    'n\'est plus attiré. ' +
+    'Il refroidit en continuant à tourner, récupère son magnétisme, ' +
+    'et le cycle recommence. ' +
+    'En théorie, la roue tourne en continu tant qu\'il y a une source de chaleur. ' +
+    'Ce n\'est pas un moteur perpétuel — il consomme la chaleur. ' +
+    'C\'est un convertisseur de chaleur en mouvement mécanique.'
+  ),
+
+  body(
+    'La roue de Curie a fascisé des générations d\'ingénieurs. ' +
+    'Elle était élégante, simple, presque magique à regarder. ' +
+    'Et pourtant elle n\'a jamais été industrialisée. ' +
+    'Pourquoi ? Parce que son rendement était catastrophique. ' +
+    'Les matériaux disponibles à l\'époque — fer, nickel, cobalt — ' +
+    'avaient des températures de Curie élevées (760°C pour le fer, ' +
+    '358°C pour le nickel). ' +
+    'Il fallait donc une source de chaleur intense, ' +
+    'ce qui signifiait brûler du combustible à haute température. ' +
+    'Or une turbine à vapeur utilisant la même source de chaleur ' +
+    'produisait vingt fois plus de travail mécanique. ' +
+    'La roue de Curie était une curiosité de laboratoire, ' +
+    'pas un outil industriel. ' +
+    'Elle a dormi dans les archives pendant un siècle, ' +
+    'mentionnée dans les cours de physique comme exemple de ' +
+    'conversion thermomagnétique, rarement étudiée sérieusement.'
+  ),
+
+  body(
+    'Mais les archives dorment, pas les physiques. ' +
+    'Dans les années 1960 et 1970, ' +
+    'la crise énergétique et le choc pétrolier de 1973 ' +
+    'ont relancé un intérêt général pour les technologies de conversion thermique ' +
+    'à basse température. ' +
+    'Des équipes aux États-Unis, au Japon et en Union soviétique ' +
+    'ont revisité les moteurs thermomagnétiques. ' +
+    'Les résultats étaient décevants — les matériaux n\'avaient pas changé fondamentalement. ' +
+    'Mais les questions avaient été posées de façon plus précise. ' +
+    'Un chercheur de l\'Université du Tohoku, ' +
+    'dans un article de 1975 qui a peu circulé, ' +
+    'a démontré que si l\'on pouvait abaisser la température de Curie d\'un matériau ' +
+    'à des valeurs inférieures à 100°C, ' +
+    'la roue de Curie devenait compétitive avec les moteurs Stirling ' +
+    'pour des sources de chaleur de 80 à 120°C. ' +
+    'Il n\'existait pas, en 1975, de matériau facilement manufacturier ' +
+    'avec une température de Curie aussi basse. ' +
+    'La nanotechnologie des années 2000 en a créé des dizaines. ' +
+    'Le chercheur de Tohoku avait vu l\'horizon. ' +
+    'Il lui manquait le chemin. ' +
+    'HYPERVORTEX est, dans une certaine mesure, ce chemin retrouvé.'
+  ),
+
+  body(
+    'Mais voilà ce qui a changé depuis 1895. ' +
+    'Premièrement : les matériaux. ' +
+    'La nanotechnologie permet aujourd\'hui de fabriquer des nanoparticules ' +
+    'de matériaux ferromagnétiques avec une composition ajustée à l\'atome près. ' +
+    'En dopant les nanoparticules de magnétite (Fe₃O₄) ' +
+    'avec du zinc, du manganèse, du cobalt ou des terres rares, ' +
+    'les chercheurs peuvent ajuster la température de Curie de ces nanoparticules ' +
+    'à n\'importe quel point entre 30°C et 300°C. ' +
+    'Cela signifie qu\'on peut créer un moteur thermomagnétique ' +
+    'qui fonctionne avec une source de chaleur de 80°C — ' +
+    'comme de l\'eau chaude solaire, ou une chaleur résiduelle industrielle — ' +
+    'quelque chose qu\'aucun moteur conventionnel ne peut exploiter économiquement. ' +
+    'Le différentiel de température minimum exploitable a chuté de façon spectaculaire.'
+  ),
+
+  body(
+    'Deuxièmement : les fluides. ' +
+    'Les ferrofluides — des suspensions colloïdales de nanoparticules magnétiques ' +
+    'dans un fluide porteur — ont été inventés à la NASA dans les années 1960 ' +
+    'pour déplacer le carburant dans les réservoirs en apesanteur. ' +
+    'Depuis lors, leur technologie a été raffinée jusqu\'à permettre des suspensions ' +
+    'stables de nanoparticules de 10 à 50 nanomètres ' +
+    'dans une variété de fluides porteurs. ' +
+    'Le fluide porteur d\'HYPERVORTEX est particulièrement ingénieux : ' +
+    'le CO₂ supercritique. ' +
+    'Au-dessus de 31°C et de 73,8 atmosphères de pression, ' +
+    'le dioxyde de carbone entre dans un état supercritique : ' +
+    'ni vraiment gaz, ni vraiment liquide, ' +
+    'avec une densité proche d\'un liquide mais une viscosité proche d\'un gaz. ' +
+    'Dans cet état, il est un excellent solvant et un excellent fluide caloporteur. ' +
+    'Les nanoparticules magnétiques y restent en suspension de façon stable. ' +
+    'Et le CO₂ supercritique peut circuler dans des canaux très fins ' +
+    'sans les problèmes de cavitation et d\'usure ' +
+    'qui affectent les fluides conventionnels dans les pompes classiques.'
+  ),
+
+  tech(
+    'Spécifications physiques HYPERVORTEX V4.0 : ' +
+    'fluide porteur CO₂ supercritique (T > 31°C, P > 73,8 bar), ' +
+    'nanoparticules Fe₃O₄ dopées (Ø 10-50 nm), ' +
+    'température de Curie modulable 85-180°C selon dopage, ' +
+    'gradient thermique opérationnel minimal : 15-20°C, ' +
+    'guidance par inducteurs multi-bobines à commutation synchronisée, ' +
+    'récupération thermique par échangeur contre-courant intégré, ' +
+    'rendement Carnot estimé : 65-90% selon configuration. ' +
+    'Statut : conceptuel, physique constituante validée en laboratoire, ' +
+    'intégration système non encore prototypée.'
+  ),
+
+  {
+    type: 'table',
+    headers: ['Technologie', 'Source requise', 'T°C minimum', 'Rendement réel', 'Pièces mobiles', 'Durée de vie estimée'],
+    rows: [
+      ['Turbine à vapeur industrielle', 'Combustion / nucléaire', '> 300°C', '35-45%', 'Oui (rotor, paliers)', '20-30 ans'],
+      ['Panneau solaire PV', 'Lumière directe', 'N/A', '20-24%', 'Non', '25-30 ans'],
+      ['Éolienne (terrestre)', 'Vent > 3 m/s', 'N/A', '35-45% (Betz)', 'Oui (rotor, multiplicateur)', '20-25 ans'],
+      ['Moteur Stirling', 'Chaleur > 50°C', '> 50°C', '15-30% Carnot', 'Oui (piston, vilebrequin)', '15-25 ans'],
+      ['Pompe à chaleur géothermique', 'Sol (puits)', 'N/A', 'COP 3-5', 'Oui (compresseur)', '15-20 ans'],
+      ['HYPERVORTEX V4.0 (cible)', 'Chaleur basse enthalpie', '> 15°C de delta', '65-90% Carnot (cible)', 'Non', '25-35 ans (projeté)'],
+    ]
+  },
+
+  body(
+    'Ce tableau comparatif doit être lu avec prudence. ' +
+    'Les données pour HYPERVORTEX sont des cibles de conception, ' +
+    'non des mesures validées. ' +
+    'Les données pour les autres technologies sont des moyennes industrielles ' +
+    'qui masquent une large variance selon les conditions de déploiement. ' +
+    'La comparaison la plus pertinente est celle de la source requise : ' +
+    'seul HYPERVORTEX cible une source thermique de différentiel aussi faible que 15°C, ' +
+    'rendant exploitables des ressources thermiques ' +
+    'que toutes les autres technologies ignorent. ' +
+    'C\'est dans ce créneau spécifique — ' +
+    'chaleur basse enthalpie, contextes nordiques, ' +
+    'zéro pièce mécanique mobile — ' +
+    'que la proposition de valeur est la plus distincte.'
+  ),
+
+  sep(),
+
+  secTitle("La beauté de l'absence de pièces mobiles"),
+
+  body(
+    'Troisièmement — et c\'est peut-être le point le plus important ' +
+    'pour une technologie domestique : ' +
+    'HYPERVORTEX n\'a pas de pièces solides en rotation. ' +
+    'Aucune. ' +
+    'Prenez le temps de mesurer ce que cela signifie pour un ingénieur mécanique. ' +
+    'Tout moteur conventionnel a des pièces en mouvement. ' +
+    'Pistons, vilebrequins, paliers, engrenages, turbines, compresseurs. ' +
+    'Chaque pièce en mouvement est une interface friction-usure. ' +
+    'Chaque interface est un point de défaillance potentiel. ' +
+    'Chaque point de défaillance exige une maintenance, une lubrification, ' +
+    'un remplacement éventuel. ' +
+    'Un moteur à explosion automobile a plus de 1 000 pièces mobiles. ' +
+    'Sa durée de vie est de l\'ordre de 250 000 kilomètres avant révision majeure, ' +
+    'soit environ 20 ans d\'usage intensif. ' +
+    'Un réfrigérateur a un compresseur avec des pièces en rotation — ' +
+    'il dure généralement 10 à 15 ans avant que le compresseur lâche. ' +
+    'Une éolienne a un multiplicateur de vitesse, un générateur avec des roulements : ' +
+    'elle dure 20-25 ans avec une maintenance régulière. ' +
+    'HYPERVORTEX n\'a rien de tout cela. ' +
+    'Le fluide circule. Les nanoparticules changent d\'état magnétique. ' +
+    'Les inducteurs commutent électroniquement. ' +
+    'Pas de friction mécanique. Pas d\'usure classique. ' +
+    'En théorie, la durée de vie est limitée par la dégradation chimique ' +
+    'des nanoparticules et la fiabilité de l\'électronique de commande, ' +
+    'non par l\'usure mécanique.'
+  ),
+
+  body(
+    'Comparer les technologies sur leur durée de vie et leur maintenance ' +
+    'est un exercice que les vendeurs évitent soigneusement. ' +
+    'Un panneau solaire photovoltaïque dure 25-30 ans ' +
+    'avec une dégradation de performance d\'environ 0,5% par an. ' +
+    'Son seul composant actif qui s\'use est l\'onduleur, ' +
+    'qui doit être remplacé tous les 10-15 ans pour un coût de 1 000 à 2 000 dollars. ' +
+    'C\'est pourquoi les panneaux solaires ont commencé à s\'imposer : ' +
+    'leur coût sur la durée de vie est devenu inférieur à celui de l\'électricité du réseau ' +
+    'dans la plupart des régions ensoleillées du monde. ' +
+    'HYPERVORTEX vise une durée de vie de 30 à 40 ans avec une maintenance minimale. ' +
+    'Si cette projection se confirme — et c\'est un « si » important ' +
+    'qui sera discuté franchement dans le chapitre 5 — ' +
+    'le coût annualisé par kilowattheure produit devient remarquablement faible. ' +
+    'Non pas parce que le système est magique, ' +
+    'mais parce que la mécanique fluide sans friction solide ' +
+    'change radicalement le profil d\'usure.'
+  ),
+
+  secTitle('Le CO₂ supercritique : pourquoi ce fluide'),
+
+  body(
+    'Le choix du CO₂ supercritique comme fluide porteur mérite ' +
+    'une explication plus développée, parce qu\'il est contre-intuitif. ' +
+    'On pense spontanément aux ferrofluides comme à des liquides huileux, ' +
+    'noirs et épais — ce qu\'ils sont, dans leur forme conventionnelle. ' +
+    'Ces ferrofluides classiques ont un problème fondamental pour un moteur thermique : ' +
+    'leur viscosité varie énormément avec la température, ' +
+    'créant des turbulences imprévisibles dans les circuits. ' +
+    'Ils peuvent aussi « sécher » — les nanoparticules s\'agglomèrent ' +
+    'et se déposent sur les parois au fil du temps. ' +
+    'Le CO₂ supercritique résout ces deux problèmes simultanément. ' +
+    'Sa viscosité est stable sur une large plage de température opérationnelle. ' +
+    'Il est un excellent dispersant pour les nanoparticules — ' +
+    'il les maintient en suspension homogène sur des durées très longues. ' +
+    'Et il est chimiquement inerte : il ne corode pas les parois du circuit, ' +
+    'ne réagit pas avec les nanoparticules, ne crée pas de sous-produits toxiques.'
+  ),
+
+  body(
+    'Il y a un avantage supplémentaire, pratique et symbolique à la fois : ' +
+    'le CO₂ est le gaz industriel le moins cher du monde. ' +
+    'C\'est un sous-produit de la fermentation, de la combustion, ' +
+    'de nombreux procédés industriels. ' +
+    'Il peut être produit localement, stocké sous pression dans des bouteilles standard. ' +
+    'Le remplacement du fluide de travail d\'un système HYPERVORTEX ' +
+    'ne nécessite pas de faire appel à un fournisseur spécialisé : ' +
+    'il suffit d\'une bouteille de CO₂ alimentaire, ' +
+    'disponible dans n\'importe quelle ville du monde. ' +
+    'C\'est une décision de design consciente, ' +
+    'orientée vers la réparabilité et l\'autonomie locales. ' +
+    'Un système énergétique souverain ne peut pas dépendre ' +
+    'de composants disponibles uniquement chez un revendeur agréé unique. ' +
+    'Si le CO₂ supercritique s\'échappe d\'un joint défectueux, ' +
+    'le système s\'arrête, mais l\'utilisateur peut le recharer lui-même. ' +
+    'Pas de camion de service spécialisé nécessaire.'
+  ),
+
+  body(
+    'Une question revient souvent lors des présentations d\'HYPERVORTEX : ' +
+    'utiliser du CO₂ comme fluide de travail n\'est-il pas contradictoire ' +
+    'avec un projet de souveraineté énergétique propre ? ' +
+    'La réponse est non, pour une raison simple : ' +
+    'le CO₂ dans le circuit est en circuit fermé. ' +
+    'Il n\'est pas brûlé, pas consommé, pas émis dans l\'atmosphère. ' +
+    'Il circule et recircule indéfiniment. ' +
+    'Son empreinte carbone est celle de sa production initiale — ' +
+    'négligeable comparée aux émissions d\'un système énergétique à combustion. ' +
+    'C\'est la même logique qu\'un réfrigérateur qui utilise des fluides frigorigènes : ' +
+    'l\'enjeu environnemental est d\'éviter les fuites, pas d\'éliminer le fluide. ' +
+    'HYPERVORTEX est conçu avec des circuits étanches par pression, ' +
+    'un avantage du CO₂ supercritique dont la haute pression rend les fuites ' +
+    'immédiatement détectables par le système de monitoring embarqué.'
+  ),
+
+  secTitle('Le graphène comme amplificateur inattendu'),
+
+  body(
+    'En 2023, une équipe de chercheurs de l\'Université de Manchester — ' +
+    'celle-là même où Andre Geim et Konstantin Novoselov ont isolé le graphène ' +
+    'pour la première fois en 2004 — a publié des résultats ' +
+    'sur le dopage des ferrofluides avec de l\'oxyde de graphène. ' +
+    'L\'oxyde de graphène (GO) est une forme de graphène ' +
+    'portant des groupements fonctionnels oxygénés en surface. ' +
+    'Il a une conductivité thermique exceptionnelle ' +
+    'et peut être dispersé dans des fluides polaires et non polaires. ' +
+    'Quand on dope un ferrofluide à nanoparticules Fe₃O₄ ' +
+    'avec de l\'oxyde de graphène à des concentrations de 0,1 à 0,5%, ' +
+    'deux effets se combinent. ' +
+    'Premièrement, la conductivité thermique du ferrofluide augmente de 15 à 25% ' +
+    '— le gradient thermique à l\'intérieur du circuit est donc plus uniforme ' +
+    'et la transition magnétique des nanoparticules plus synchrone. ' +
+    'Deuxièmement, le GO stabilise la suspension des nanoparticules magnétiques ' +
+    'en servant de substrat d\'ancrage stérique — ' +
+    'il réduit la tendance à l\'agglomération ' +
+    'que nous mentionnerons comme la première limitation du système. ' +
+    'Ce résultat de Manchester, publié dans Applied Physics Letters, ' +
+    'n\'était pas ciblé par Berthelotte au départ. ' +
+    'Il a été identifié en revue de littérature et intégré dans l\'architecture V4.0 ' +
+    'exactement comme la science open access le permet : ' +
+    'un laboratoire académique résout un problème pour ses propres raisons, ' +
+    'et un inventeur indépendant récupère la solution pour ses propres besoins. ' +
+    'Voilà l\'innovation distribuée en action réelle.'
+  ),
+
+  body(
+    'Le dopage à l\'oxyde de graphène soulève également ' +
+    'une question de coût qui doit être honnêtement posée. ' +
+    'L\'oxyde de graphène de haute pureté coûte encore plusieurs centaines ' +
+    'de dollars par gramme en 2024, même si son prix a chuté de 99% ' +
+    'depuis les premiers lots produits en 2010. ' +
+    'La trajectoire de coût ressemble à celle des nanoparticules magnétiques elles-mêmes : ' +
+    'des matériaux exotiques et chers qui deviennent, ' +
+    'avec l\'industrialisation de la production, ' +
+    'accessibles à des coûts résidentiels. ' +
+    'L\'oxyde de graphène peut aujourd\'hui être produit ' +
+    'par des procédés d\'oxydation de graphite naturel abondant, ' +
+    'avec une montée en échelle industrielle bien documentée. ' +
+    'Les projections pour 2030 estiment un coût de production de l\'ordre ' +
+    'de quelques dollars par gramme pour une qualité suffisante ' +
+    'pour les applications ferrofluide. ' +
+    'La quantité nécessaire pour un circuit HYPERVORTEX résidentiel ' +
+    'est de l\'ordre du gramme. ' +
+    'La question économique est donc en passe de se résoudre, ' +
+    'mais elle n\'est pas encore résolue. ' +
+    'L\'honnêteté l\'exige encore.'
+  ),
+
+  sep(),
+
+  secTitle("L'honnêteté sur ce qui n'existe pas encore"),
+
+  body(
+    'Ici, l\'honnêteté s\'impose — et elle sera répétée à plusieurs reprises ' +
+    'dans ce livre, parce qu\'elle est fondatrice. ' +
+    'HYPERVORTEX V4.0 n\'existe pas en prototype physique au moment où ces lignes sont écrites. ' +
+    'La serre de Claude Vézina décrite au début de ce chapitre ' +
+    'est une projection dans le futur proche, ' +
+    'une scène qui pourrait exister dans un avenir raisonnablement prévisible ' +
+    'si les défis techniques restants sont résolus. ' +
+    'Ce n\'est pas de la tromperie — c\'est de la narration prospective, ' +
+    'un outil légitime de la pensée architecturale et de la communication technologique. ' +
+    'Les chapitres de science-fiction d\'Arthur C. Clarke dans ses textes non fictionnels, ' +
+    'les scénarios prospectifs du GIEC, les prototypes de concept d\'Elon Musk ' +
+    'avant SpaceX : tous utilisent la narration du futur proche ' +
+    'pour rendre tangible ce qui est encore à construire. ' +
+    'Ce livre fait la même chose, et il le dit explicitement. ' +
+    'Ce qui existe : les composantes physiques individuelles, ' +
+    'toutes validées en laboratoire. ' +
+    'Ce qui reste à faire : les intégrer en un système fonctionnel et robuste.'
+  ),
+
+  crit(
+    'HYPERVORTEX V4.0 — Statut honnête au moment de la publication : ' +
+    'Concept architectural complet. Physique de chaque composante validée séparément : ' +
+    'ferrofluides supercritiques (littérature : Stanford, MIT, ETH Zurich), ' +
+    'nanoparticules à température de Curie modulable (littérature : CEA, CNRS), ' +
+    'guidage par inducteurs multi-bobines (littérature : IEC, applications industrielles). ' +
+    'Ce qui n\'est PAS validé : l\'intégration de ces composantes en système cohérent, ' +
+    'les propriétés de durée de vie des nanoparticules en circuit fermé sous pression, ' +
+    'le rendement réel vs le rendement théorique Carnot, ' +
+    'le comportement du système à petite échelle résidentielle. ' +
+    'Budget estimé pour un premier prototype : 150 000 à 400 000 CAD. ' +
+    'Partenaires cherchés : laboratoires universitaires, incubateurs de cleantech.'
+  ),
+
+  body(
+    'La quatrième limitation — rarement discutée dans les propositions technologiques ' +
+    'mais peut-être la plus critique pour l\'adoption réelle — ' +
+    'est la certitude d\'approbation réglementaire. ' +
+    'Un système HYPERVORTEX résidentiel opère sous pression, ' +
+    'avec des nanoparticules dont la réglementation environnementale ' +
+    'est encore en train de se stabiliser dans la plupart des juridictions. ' +
+    'Les règlements québécois sur les systèmes sous pression domestiques ' +
+    '(RBQ — Régie du bâtiment du Québec) ont des exigences d\'inspection ' +
+    'et de certification pour tout équipement à plus de 103,4 kPa de pression. ' +
+    'Un circuit CO₂ supercritique fonctionne à 73 à 100 bars — ' +
+    'bien au-delà de ce seuil. ' +
+    'La certification d\'un tel système par la RBQ, par CSA ou par UL ' +
+    'est un processus long, coûteux et incertain ' +
+    'pour une technologie sans précédent direct dans les bases de données normatives. ' +
+    'Ce n\'est pas un obstacle insurmontable. ' +
+    'Les réfrigérateurs industriels, les systèmes géothermiques sous pression, ' +
+    'les autoclaves de stérilisation : tous ont été certifiés malgré leur complexité. ' +
+    'Mais le temps et le coût de certification doivent être comptés ' +
+    'dans le chemin vers le marché. ' +
+    'Cinq à dix ans de certification réglementaire ' +
+    'après les phases de prototypage : c\'est réaliste, pas pessimiste.'
+  ),
+
+  body(
+    'Cette transparence n\'est pas une faiblesse. ' +
+    'Elle est une condition de crédibilité. ' +
+    'L\'histoire de l\'énergie est remplie de « révolutions » annoncées ' +
+    'qui ne l\'étaient pas : la fusion à température ambiante de Pons et Fleischmann en 1989, ' +
+    'les cellules de combustible « miracle » des années 2000, ' +
+    'les promesses d\'autonomie totale des premières Tesla. ' +
+    'Ces annonces excessives n\'ont pas seulement trompé des investisseurs. ' +
+    'Elles ont alimenté le cynisme du public face aux annonces technologiques, ' +
+    'rendant plus difficile la communication honnête sur des avancées réelles. ' +
+    'HYPERVORTEX n\'a pas besoin de mensonges ou d\'exagérations. ' +
+    'La physique réelle, honnêtement présentée, est déjà remarquable. ' +
+    'Un système qui peut exploiter des différentiels de température de 15°C, ' +
+    'sans pièces mobiles, avec un fluide de travail universel et inoffensif : ' +
+    'si cette promesse est tenue à 50% de son potentiel théorique, ' +
+    'elle change déjà le paysage de l\'énergie résidentielle décentralisée.'
+  ),
+
+  pageBreak(),
+
+  // =========================================================================
+  // CHAPITRE 3 : 65-90% DE CARNOT — CE QUE ÇA CHANGERAIT
+  // =========================================================================
+
+  chTitle('Chapitre 3'),
+  chTitle("65 à 90% de Carnot : ce que ça changerait"),
+
+  epigraph(
+    '« L\'efficacité n\'est pas une vertu abstraite. ' +
+    'C\'est la différence entre ce qui est accessible à tous ' +
+    'et ce qui reste réservé à quelques-uns. »'
+  ),
+
+  scene(
+    'La facture tombe dans la boîte aux lettres d\'un appartement de Longueuil. ' +
+    'Janvier 2024. Deux adultes, deux enfants, ' +
+    'un appartement bien isolé de 90 mètres carrés. ' +
+    'Hydro-Québec : 187 dollars. ' +
+    'Gaz naturel Énergir : 134 dollars. ' +
+    'Total : 321 dollars pour chauffer, éclairer, cuisiner, laver. ' +
+    'Ce n\'est pas une misère — Hydro-Québec est subsidisée, ' +
+    'le gaz naturel est encore relativement bon marché ce mois-là. ' +
+    'Mais en Ontario, la même famille paierait 420 dollars rien qu\'en électricité. ' +
+    'En Californie, 510 dollars. ' +
+    'Au Texas, lors de la crise du réseau de février 2021, ' +
+    'des familles ont reçu des factures de 10 000 dollars pour quelques jours. ' +
+    'L\'homme à Longueuil regarde le total et le pose sur la pile des factures à payer. ' +
+    'Il n\'a pas les moyens de changer de fournisseur. ' +
+    'Il n\'a pas les moyens d\'installer des panneaux solaires ' +
+    '(il est locataire). ' +
+    'Il paie. Comme il paie chaque mois depuis vingt ans.'
+  ),
+
+  body(
+    'Pour comprendre ce que « 65 à 90% de rendement Carnot » signifie en pratique, ' +
+    'il faut d\'abord expliquer Carnot. ' +
+    'Nicolas Léonard Sadi Carnot a publié en 1824 — à 28 ans, ' +
+    'deux ans avant sa mort de la choléra — un essai sur l\'efficacité maximale ' +
+    'des moteurs thermiques. ' +
+    'Son résultat est l\'un des plus profonds de la physique : ' +
+    'l\'efficacité maximale théorique d\'un moteur thermique ' +
+    'dépend uniquement de la différence de température ' +
+    'entre la source chaude et la source froide. ' +
+    'L\'efficacité de Carnot est (1 - T_froide/T_chaude), ' +
+    'exprimée en Kelvin. ' +
+    'Pour un moteur fonctionnant entre 100°C (373K) et 20°C (293K), ' +
+    'l\'efficacité maximale théorique est 1 - (293/373) = 21,4%. ' +
+    'Aucun moteur thermique réel ne peut dépasser ce chiffre pour ces températures. ' +
+    'C\'est une loi de la physique, pas une limite technologique. ' +
+    'Pour dépasser les limites de Carnot, il faut augmenter le différentiel de température. ' +
+    'C\'est pourquoi les centrales électriques fonctionnent à des températures de 600°C ' +
+    'et plus : l\'efficacité Carnot théorique monte à 60-70%, ' +
+    'et les meilleures centrales à vapeur modernes atteignent 40-45% en pratique.'
+  ),
+
+  secTitle('Pourquoi le haut rendement à basse température est révolutionnaire'),
+
+  body(
+    'Revenons à HYPERVORTEX. Sa cible de 65-90% de Carnot ' +
+    'ne signifie pas qu\'il produit 65-90% de la chaleur ingérée en électricité. ' +
+    'Cela signifie qu\'il atteint 65-90% de l\'efficacité maximale théoriquement possible ' +
+    'pour les températures auxquelles il opère. ' +
+    'Opérant entre 10°C et 60°C — un différentiel de seulement 50°C — ' +
+    'l\'efficacité de Carnot maximale est 1 - (283/333) = 15%. ' +
+    'Un système atteignant 80% de Carnot dans ces conditions ' +
+    'convertit 12% de la chaleur en électricité. ' +
+    'Douze pour cent peut sembler modeste. ' +
+    'Mais comparons : la meilleure cellule thermoélectrique Peltier ' +
+    'atteint 5-8% de Carnot. ' +
+    'Un moteur Stirling atteint 30-40% de Carnot. ' +
+    'Le principe thermomagnétique optimisé peut-il vraiment atteindre 65-90%? ' +
+    'Des simulations sur des ferrofluides nanoparticulaires en circuit fermé ' +
+    'publiées par des équipes de l\'Université du Michigan et de Tokyo ' +
+    'suggèrent que des rendements de ce niveau sont théoriquement accessibles ' +
+    'avec les matériaux et architectures actuels. ' +
+    'Mais la simulation n\'est pas le prototype. ' +
+    'L\'honnêteté s\'impose à nouveau ici.'
+  ),
+
+  body(
+    'Ce qui change profondément avec un tel rendement à basse température, ' +
+    'c\'est le répertoire de sources thermiques exploitables. ' +
+    'Actuellement, les sources de chaleur exploitables pour l\'électricité ' +
+    'sont pratiquement limitées à la combustion (>300°C), ' +
+    'la géothermie haute enthalpie (>150°C), ' +
+    'le nucléaire (>280°C) et le solaire concentré (>200°C). ' +
+    'Ces sources ont deux points communs : ' +
+    'elles nécessitent soit de brûler quelque chose, ' +
+    'soit d\'avoir accès à des sites géologiques rares, ' +
+    'soit des investissements en infrastructure massive. ' +
+    'Aucune n\'est accessible à une famille ordinaire dans son jardin. ' +
+    'HYPERVORTEX, en rendant économique la conversion de chaleur à 60-80°C, ' +
+    'ouvre le répertoire à des sources universellement disponibles : ' +
+    'la géothermie de basse enthalpie (disponible partout dans le sol à 2 mètres de profondeur), ' +
+    'la chaleur résiduelle des équipements domestiques et industriels, ' +
+    'le solaire thermique concentré (qui atteint facilement 80-120°C), ' +
+    'et les différentiels de température entre les différentes parties d\'un bâtiment. ' +
+    'Ces sources sont là, gratuites, inépuisables, et actuellement gaspillées ' +
+    'parce qu\'aucun système commercial ne peut les exploiter à coût raisonnable.'
+  ),
+
+  secTitle('Les alliages de Heusler : la cascade en action'),
+
+  body(
+    'L\'une des innovations conceptuelles les plus importantes d\'HYPERVORTEX ' +
+    'est ce que Berthelotte appelle l\'architecture en cascade. ' +
+    'Plutôt qu\'un seul circuit de ferrofluide à une température de Curie fixe, ' +
+    'on imagine plusieurs circuits en série, ' +
+    'chacun optimisé pour une plage de température différente. ' +
+    'Le premier circuit capte la chaleur à 50-60°C, ' +
+    'le second à 80-100°C, le troisième à 120-150°C. ' +
+    'Chaque circuit utilise des nanoparticules dont la température de Curie ' +
+    'correspond à sa plage opérationnelle. ' +
+    'L\'énergie non captée par le premier circuit — la chaleur qui le traverse — ' +
+    'est transmise au second, et ainsi de suite. ' +
+    'C\'est l\'équivalent thermomagnétique d\'un panneau solaire multi-jonctions, ' +
+    'où chaque couche de semi-conducteur capte une partie différente ' +
+    'du spectre lumineux. L\'approche en cascade augmente significativement ' +
+    'l\'efficacité globale du système.'
+  ),
+
+  body(
+    'C\'est ici que les alliages de Heusler entrent en scène. ' +
+    'Les alliages de Heusler — du nom du chimiste allemand Friedrich Heusler ' +
+    'qui les a découverts en 1903 — sont des composés intermédiaires ' +
+    'à base de métaux de transition, typiquement de la forme X₂YZ. ' +
+    'Leur propriété remarquable est que leur température de Curie ' +
+    'est extraordinairement sensible à leur composition. ' +
+    'En ajustant les proportions de nickel, de manganèse, de gallium, d\'indium ' +
+    'ou d\'autres éléments, on peut obtenir des alliages de Heusler ' +
+    'dont la température de transition magnétique varie de -200°C à +250°C. ' +
+    'C\'est un répertoire de matériaux sur mesure pour l\'architecture en cascade. ' +
+    'Il existe des alliages de Heusler dont la température de Curie ' +
+    'est de 40°C (idéal pour capter la chaleur corporelle), ' +
+    'de 80°C (idéal pour le solaire thermique basse pression), ' +
+    'de 130°C (idéal pour la vapeur résidentielle), ' +
+    'et des dizaines d\'autres points. ' +
+    'Cette accordabilité précise permet de concevoir ' +
+    'des architectures thermomagnétiques taillées sur mesure ' +
+    'pour chaque source thermique disponible localement.'
+  ),
+
+  tech(
+    'Alliages de Heusler sélectionnés pour l\'architecture HYPERVORTEX V4.0 : ' +
+    'Ni₂MnGa (T_Curie ≈ 76°C, transition magnéto-structurale couplée), ' +
+    'Ni₂MnIn₀.₅Ga₀.₅ (T_Curie ≈ 105°C), ' +
+    'Co₂MnSi (T_Curie ≈ 985K, couche haute température pour cascade solaire concentré), ' +
+    'Cu₂MnAl (T_Curie ≈ 630K, couche intermédiaire). ' +
+    'Avantage complémentaire des Heusler : certains présentent un effet magnétocalorique géant, ' +
+    'amplifiant le différentiel d\'aimantation autour de T_Curie. ' +
+    'Source : revue de littérature ESM2024, synthèse sur matériaux magnétocaloriques.'
+  ),
+
+  secTitle('La chromatographie thermomagnétique : le bonus inattendu'),
+
+  body(
+    'En explorant les propriétés des alliages de Heusler et des ferrofluides mixtes, ' +
+    'Berthelotte a identifié une application secondaire qu\'il n\'avait pas anticipée : ' +
+    'la chromatographie thermomagnétique. ' +
+    'La chromatographie est une technique analytique fondamentale : ' +
+    'on sépare les composants d\'un mélange en les forçant à voyager ' +
+    'dans un milieu dans lequel chaque composant se déplace à une vitesse différente. ' +
+    'En chromatographie gaz-liquide classique, ' +
+    'les molécules sont séparées selon leur point d\'ébullition. ' +
+    'En chromatographie magnétique, elles seraient séparées selon leurs propriétés magnétiques. ' +
+    'Or, si l\'on crée un gradient thermique dans un ferrofluide contenant un mélange ' +
+    'de nanoparticules de différentes compositions — et donc différentes températures de Curie — ' +
+    'chaque type de nanoparticule perd son magnétisme à un endroit différent du gradient. ' +
+    'Elles migrent donc vers des zones différentes. ' +
+    'On peut ainsi trier des mélanges de nanoparticules par leur température de Curie ' +
+    'avec une précision que les méthodes mécaniques ne peuvent pas atteindre.'
+  ),
+
+  body(
+    'L\'application industrielle est potentiellement significative. ' +
+    'La métallurgie des terres rares — essentielle aux aimants permanents, ' +
+    'aux moteurs électriques, aux batteries — souffre de la difficulté ' +
+    'de séparer des éléments très proches chimiquement. ' +
+    'Le lanthane, le cérium, le néodyme, le praséodyme ' +
+    'ont des propriétés magnétiques suffisamment différentes ' +
+    'pour que la chromatographie thermomagnétique puisse les séparer ' +
+    'avec une efficacité supérieure aux méthodes d\'extraction liquide-liquide actuelles, ' +
+    'qui sont énergivores et produisent des effluents acides. ' +
+    'Ce n\'est pas le projet principal d\'HYPERVORTEX. ' +
+    'Mais c\'est un exemple de la façon dont une innovation de principe ' +
+    'crée des arborescences d\'applications inattendues. ' +
+    'La roue de Curie du 19ème siècle ne pouvait pas prévoir la chromatographie thermomagnétique. ' +
+    'La version du 21ème siècle, elle, l\'a découverte en chemin.'
+  ),
+
+  sep(),
+
+  secTitle('La disruption économique et ses responsabilités'),
+
+  body(
+    'Si HYPERVORTEX tient ses promesses à l\'échelle résidentielle, ' +
+    'les implications économiques sont profondes. ' +
+    'Comparons aux technologies renouvelables disponibles. ' +
+    'Le panneau solaire photovoltaïque monosilicium atteint aujourd\'hui ' +
+    '22-24% d\'efficacité de conversion — remarquable pour une technologie ' +
+    'qui transforme la lumière directement en électricité. ' +
+    'L\'éolienne terrestre moderne atteint 35-45% de rendement aérodynamique ' +
+    '(facteur de capacité réel de 25-40% selon le site). ' +
+    'La géothermie haute enthalpie atteint 10-23% selon la ressource. ' +
+    'Ces chiffres d\'efficacité semblent inférieurs aux 65-90% de Carnot d\'HYPERVORTEX, ' +
+    'mais la comparaison n\'est pas directe : ' +
+    'les pourcentages ne mesurent pas la même chose dans chaque cas. ' +
+    'Ce qui compte pour l\'utilisateur final n\'est pas l\'efficacité intrinsèque ' +
+    'mais le coût du kilowattheure produit sur la durée de vie du système, ' +
+    'et la disponibilité de la source primaire.'
+  ),
+
+  body(
+    'Sur le coût du kilowattheure, les projections pour HYPERVORTEX ' +
+    'dépendent de l\'hypothèse sur la durée de vie. ' +
+    'Si le système dure 30 ans sans maintenance majeure — ' +
+    'ce qui est plausible mais pas encore prouvé — ' +
+    'et si son coût d\'installation résidentielle est de l\'ordre de 15 000 à 25 000 dollars, ' +
+    'le coût annualisé est de 500 à 830 dollars par an. ' +
+    'Pour une famille qui paie actuellement 3 000 à 4 000 dollars par an en énergie ' +
+    '(électricité et chauffage combinés, hors Québec, en Ontario par exemple), ' +
+    'l\'économie sur 30 ans est de l\'ordre de 60 000 à 100 000 dollars. ' +
+    'L\'investissement initial est remboursé en 5 à 8 ans. ' +
+    'Ces chiffres ont l\'apparence de la solidité, mais il faut les nuancer : ' +
+    'ils supposent des coûts d\'énergie stables ou croissants, ' +
+    'ce qui est historiquement vrai mais pas garanti. ' +
+    'Ils supposent une durée de vie de 30 ans non encore validée. ' +
+    'Ils supposent des coûts d\'installation compétitifs ' +
+    'qui nécessitent une chaîne d\'approvisionnement industrielle qui n\'existe pas encore. ' +
+    'Le scénario économique est plausible. Il n\'est pas certain.'
+  ),
+
+  secTitle('Scénario économique concret : une famille de Longueuil en 2032'),
+
+  body(
+    'Prenons le calcul économique dans le concret le plus brutal. ' +
+    'Marie-France Dupont, 42 ans, propriétaire d\'une maison semi-détachée ' +
+    'à Longueuil depuis 2018. ' +
+    'Elle paie en moyenne 2 800 dollars par an en électricité Hydro-Québec ' +
+    'et 1 400 dollars en gaz naturel pour le chauffage d\'appoint ' +
+    'les hivers exceptionnellement froids. ' +
+    'Total annuel : 4 200 dollars. ' +
+    'En 2032, elle installe un système HYPERVORTEX résidentiel ' +
+    'couplé à un collecteur solaire thermique sur son toit sud. ' +
+    'Coût total d\'installation : 22 000 dollars, ' +
+    'avec une subvention provinciale de 5 000 dollars dans le cadre ' +
+    'd\'un programme de transition énergétique résidentielle. ' +
+    'Coût net : 17 000 dollars. ' +
+    'Le système produit en moyenne 60% de ses besoins électriques annuels ' +
+    'et 80% de ses besoins en chauffage, ' +
+    'en combinant la géothermie de basse enthalpie et le solaire thermique. ' +
+    'Sa facture résiduelle Hydro-Québec tombe à 900 dollars par an. ' +
+    'Sa facture de gaz disparaît. ' +
+    'Elle économise 3 300 dollars par an. ' +
+    'L\'investissement net de 17 000 dollars est remboursé en 5 ans et 2 mois. ' +
+    'Sur la durée de vie estimée à 30 ans du système, ' +
+    'elle économise — en dollars de 2032, sans tenir compte de l\'inflation énergétique — ' +
+    'environ 82 000 dollars.'
+  ),
+
+  body(
+    'Ce calcul a plusieurs hypothèses sous-jacentes qui méritent d\'être explicites. ' +
+    'Il suppose une performance du système à 60% des besoins électriques, ' +
+    'chiffre conservateur par rapport au potentiel théorique ' +
+    'pour tenir compte des dégradations réelles de performance. ' +
+    'Il suppose une durée de vie de 30 ans, non encore validée expérimentalement. ' +
+    'Il suppose un coût de maintenance annuel de 200 à 300 dollars ' +
+    '(remplacement de joints, vérification du fluide, mise à jour du système de contrôle) ' +
+    'non déduit du calcul ci-dessus pour simplifier — ' +
+    'en réalité, les économies sur 30 ans seraient de 76 000 à 79 000 dollars. ' +
+    'Il suppose que les tarifs d\'Hydro-Québec restent stables ' +
+    'ou augmentent modérément. ' +
+    'Historiquement, les tarifs d\'Hydro-Québec ont augmenté en moyenne ' +
+    'de 2,8% par an depuis 2000 — si cette tendance se maintient, ' +
+    'les économies réelles sont plus grandes que calculées. ' +
+    'Et il suppose que Marie-France reste dans sa maison 30 ans. ' +
+    'Si elle vend après 15 ans, la valeur du système installé ' +
+    'augmente le prix de vente de la maison — ' +
+    'les études américaines montrent une augmentation de valeur ' +
+    'de 3 à 4% pour les maisons avec systèmes énergétiques décentralisés installés. ' +
+    'Pour une maison de 400 000 dollars, ' +
+    'c\'est 12 000 à 16 000 dollars de valeur ajoutée. ' +
+    'Le calcul reste positif dans presque tous les scénarios raisonnables.'
+  ),
+
+  crit(
+    'Risque économique systémique à évaluer honnêtement : ' +
+    'si l\'adoption d\'HYPERVORTEX ou de systèmes similaires s\'accélère, ' +
+    'les réseaux électriques centralisés perdent des clients payants ' +
+    'tout en conservant l\'obligation de servir les clients restants ' +
+    'avec la même infrastructure. ' +
+    'Le coût du réseau est réparti sur moins de clients — ' +
+    'les tarifs augmentent pour les clients restants, ' +
+    'généralement les plus pauvres et les moins mobiles. ' +
+    'C\'est le « death spiral » du réseau électrique, ' +
+    'bien documenté dans la littérature économique de l\'énergie. ' +
+    'Une politique de transition responsable doit anticiper ce risque ' +
+    'et concevoir des mécanismes de mutualisation des coûts de réseau ' +
+    'qui ne punissent pas ceux qui ne peuvent pas se déconnecter. ' +
+    'Ce livre soutient la souveraineté énergétique individuelle ' +
+    'ET la responsabilité envers ceux qui ne peuvent pas l\'exercer.'
+  ),
+
+  body(
+    'Les technologies comparées à HYPERVORTEX méritent une présentation équilibrée. ' +
+    'Le panneau solaire photovoltaïque est aujourd\'hui la technologie de production électrique ' +
+    'dont le coût a baissé le plus rapidement de toute l\'histoire de l\'énergie : ' +
+    'de 76 dollars par watt-crête en 1977 à moins de 0,25 dollar en 2024, ' +
+    'soit une réduction de 99,7%. ' +
+    'Cette baisse est due à l\'effet d\'apprentissage cumulatif — ' +
+    'chaque doublement de la capacité installée mondiale ' +
+    'réduit le coût unitaire d\'environ 22%. ' +
+    'Pour le Québec, la limite des panneaux solaires est simple et climatique : ' +
+    'la ressource solaire est médiocre en hiver, ' +
+    'précisément quand les besoins énergétiques sont maximaux. ' +
+    'Un panneau solaire à Montréal produit trois fois moins en décembre qu\'en juin. ' +
+    'La pompe à chaleur géothermique existante est efficace mais coûteuse à l\'installation ' +
+    '(20 000 à 40 000 dollars pour une maison), ' +
+    'et ses puits verticaux nécessitent un terrain adapté et des forages profonds. ' +
+    'HYPERVORTEX vise un créneau complémentaire : ' +
+    'la conversion de chaleur basse enthalpie disponible en hiver, ' +
+    'sans forage profond, sans dépendance à l\'ensoleillement, ' +
+    'dans un système compact installable dans un sous-sol ou une cave. ' +
+    'Ces créneaux technologiques ne s\'excluent pas. ' +
+    'Un foyer intelligent combine les trois : ' +
+    'solaire en été, géothermie en hiver, HYPERVORTEX toute l\'année.'
+  ),
+
+  body(
+    'Il y a une question que les militants de la transition énergétique ' +
+    'ne posent pas assez franchement : ' +
+    'qui bénéficie en premier de chaque nouvelle technologie énergétique décentralisée ? ' +
+    'La réponse historique est toujours la même : ceux qui ont ' +
+    'un toit à eux (pour les panneaux solaires), ' +
+    'le capital pour l\'investissement initial, ' +
+    'l\'accès au crédit à des taux raisonnables, ' +
+    'et la stabilité résidentielle qui justifie un investissement à 30 ans. ' +
+    'Ce sont des familles de classe moyenne supérieure et aisée, ' +
+    'propriétaires de maisons individuelles, dans des régions ensoleillées ou ventées. ' +
+    'Les locataires, les familles à faible revenu, les résidents des appartements, ' +
+    'les populations rurales isolées : ils bénéficient en dernier, ' +
+    'si jamais. ' +
+    'HYPERVORTEX, comme toute technologie énergétique décentralisée, ' +
+    'risque de reproduire cette inégalité si sa diffusion n\'est pas accompagnée ' +
+    'de politiques d\'accessibilité délibérées. ' +
+    'La technologie est neutre. La politique de diffusion ne l\'est jamais.'
+  ),
+
+  pageBreak(),
+
+  // =========================================================================
+  // CHAPITRE 4 : DU FOYER AU RÉSEAU
+  // =========================================================================
+
+  chTitle('Chapitre 4'),
+  chTitle('Du foyer au réseau'),
+
+  epigraph(
+    '« Un arbre seul résiste mal à la tempête. ' +
+    'Une forêt crée son propre microclimat. ' +
+    'La souveraineté individuelle cherche ses pairs. »'
+  ),
+
+  scene(
+    'Été 2033. Le Massif, Charlevoix, Québec. ' +
+    'Trois fermes sur un rang de cinq kilomètres. ' +
+    'La ferme Bouchard, laitière, avec un système HYPERVORTEX ' +
+    'qui tourne sur la chaleur résiduelle du pasteurisateur. ' +
+    'La ferme Lajeunesse, maraîchère, avec un système ' +
+    'couplé à ses serres et à un collecteur solaire thermique. ' +
+    'La ferme Tremblay, apicole et céréalière, ' +
+    'avec un système alimenté par les différentiels thermiques ' +
+    'de ses hangars de stockage. ' +
+    'Les trois familles ont un accord informel : ' +
+    'quand l\'une d\'elles produit plus qu\'elle ne consomme, ' +
+    'elle partage le surplus avec les autres via une ligne de courant basse tension ' +
+    'qu\'elles ont installée elles-mêmes un week-end de septembre. ' +
+    'Pas de contrat. Pas de compteur Hydro-Québec. ' +
+    'Un Raspberry Pi dans chaque cave qui lit les flux en temps réel ' +
+    'et calcule une fois par semaine ce que chacun doit aux autres. ' +
+    'Le grand-père Tremblay règle sa dette de la semaine ' +
+    'en apportant un sac de farine de blé chez les Bouchard. ' +
+    'La communauté d\'énergie a réinventé le troc sans le savoir.'
+  ),
+
+  body(
+    'L\'énergie comme réseau de solidarité n\'est pas une idée nouvelle. ' +
+    'Les premières coopératives électriques rurales du Québec, ' +
+    'fondées au début du 20ème siècle avant la nationalisation d\'Hydro-Québec, ' +
+    'fonctionnaient sur ce principe : les familles d\'un rang se cotisaient ' +
+    'pour financer et entretenir une ligne électrique commune. ' +
+    'Elles possédaient collectivement l\'infrastructure. ' +
+    'Elles décidaient collectivement des prix et des priorités. ' +
+    'La nationalisation d\'Hydro-Québec par René Lévesque en 1962 ' +
+    'a mis fin à ce modèle avec des arguments qui n\'étaient pas sans fondement : ' +
+    'une société d\'État pouvait investir à plus grande échelle, ' +
+    'négocier de meilleurs prix pour l\'équipement, ' +
+    'assurer une couverture universelle y compris dans les régions non rentables. ' +
+    'Ce calcul était probablement juste en 1962. ' +
+    'Il l\'est moins clairement en 2033, ' +
+    'quand les technologies décentralisées permettent ' +
+    'de nouvelles formes de coopération locale ' +
+    'sans abandonner les avantages de la mutualisation.'
+  ),
+
+  sub('La physique derrière le miracle apparent'),
+
+  body(
+    'Pour dissiper tout malentendu sur ce qui se passe réellement dans ces trois fermes, ' +
+    'un moment de physique s\'impose. ' +
+    'L\'échange d\'énergie entre elles n\'est pas magique. ' +
+    'Les systèmes HYPERVORTEX de Bouchard et Lajeunesse produisent ' +
+    'des surplus d\'énergie à certains moments du jour et de la semaine. ' +
+    'La ferme laitière Bouchard a un profil de consommation pics le matin — ' +
+    'le pasteurisateur, la pompe à lait, l\'éclairage des étables. ' +
+    'La ferme maraîchère Lajeunesse a ses pics l\'après-midi, ' +
+    'quand ses lampes de croissance à haute efficacité entrent en cycle. ' +
+    'Ces pics ne coïncident pas. ' +
+    'La ligne de partage entre les fermes, d\'une longueur de 3 kilomètres, ' +
+    'a une capacité de transport de 10 kW. ' +
+    'Le Raspberry Pi de chaque ferme lit en temps réel ' +
+    'les flux de production et de consommation de ses voisins ' +
+    'via un protocole IP standard sur réseau fibre. ' +
+    'Quand Lajeunesse est en pic de consommation et Bouchard en surplus, ' +
+    'la ligne transfère automatiquement le surplus. ' +
+    'Quand les rôles s\'inversent, le flux s\'inverse. ' +
+    'Ce n\'est pas de la sophistication informatique. ' +
+    'C\'est une règle simple : envoie ce que tu as en excès vers celui qui manque. ' +
+    'La sophistication est dans la physique de la production, ' +
+    'pas dans la logique du partage.'
+  ),
+
+  secTitle('Le micro-réseau comme organisme vivant'),
+
+  body(
+    'Un micro-réseau communautaire d\'énergie est, ' +
+    'dans ses propriétés dynamiques, plus proche d\'un écosystème ' +
+    'que d\'une infrastructure industrielle. ' +
+    'Dans un réseau centralisé classique, ' +
+    'l\'équilibre offre-demande est géré par un opérateur central ' +
+    'qui ajuste la production des centrales à chaque instant. ' +
+    'Dans un micro-réseau décentralisé, ' +
+    'l\'équilibre émerge des interactions locales de nombreux acteurs : ' +
+    'chaque nœud produit, consomme, stocke et partage ' +
+    'selon des règles simples et une information locale. ' +
+    'Ce type de régulation distribuée est biologiquement familier : ' +
+    'c\'est exactement ainsi que fonctionne la régulation thermique du corps humain, ' +
+    'la formation des bancs de poissons, ' +
+    'ou la coordination d\'une colonie de fourmis. ' +
+    'Il n\'y a pas de chef. ' +
+    'Chaque élément répond à ses voisins immédiats ' +
+    'selon des règles locales simples, ' +
+    'et l\'ordre global émerge sans coordination centrale.'
+  ),
+
+  body(
+    'La technologie qui permet à des familles comme les Bouchard, Lajeunesse et Tremblay ' +
+    'de former un micro-réseau sans infrastructure lourde est disponible aujourd\'hui. ' +
+    'Un Raspberry Pi 5 coûte 80 dollars. ' +
+    'Il peut lire les capteurs de production et de consommation, ' +
+    'communiquer via protocole MQTT ou WebSocket avec les autres nœuds du réseau, ' +
+    'calculer les flux d\'énergie en temps réel ' +
+    'et maintenir un registre des échanges. ' +
+    'Un compteur de courant bidirectionnel coûte 30 à 50 dollars. ' +
+    'Un disjoncteur automatique programmable pour gérer les priorités de charge : ' +
+    '20 dollars. ' +
+    'L\'infrastructure informatique d\'un micro-réseau de 5 foyers ' +
+    'coûte moins de 500 dollars. ' +
+    'Ce n\'est pas la technologie qui a manqué ces 20 dernières années. ' +
+    'C\'est le cadre réglementaire et la culture institutionnelle ' +
+    'qui n\'ont pas voulu voir le potentiel de ces micro-réseaux communautaires.'
+  ),
+
+  secTitle('La connexion avec Gen_Home : penser pour chauffer'),
+
+  body(
+    'Dans la vision à long terme de Berthelotte, ' +
+    'HYPERVORTEX et Gen_Home ne sont pas deux projets séparés. ' +
+    'Ils sont deux aspects d\'un même cycle énergétique. ' +
+    'La computation neuromorphique produit de la chaleur — inévitablement, ' +
+    'inéluctablement, c\'est une loi de la thermodynamique. ' +
+    'Chaque calcul est une transformation d\'énergie électrique en chaleur. ' +
+    'Les centres de données modernes consacrent 30 à 50% de leur énergie ' +
+    'uniquement à refroidir leurs serveurs — ' +
+    'cette chaleur est dissipée dans l\'atmosphère, perdue. ' +
+    'Dans la vision Gen_Home, la chaleur produite par le calcul de l\'IA domestique ' +
+    'est récupérée pour chauffer la maison. ' +
+    'Et la chaleur produite par la maison — ' +
+    'son gradient thermique entre le plancher et le plafond, ' +
+    'entre l\'intérieur et l\'extérieur — ' +
+    'est captée par HYPERVORTEX pour produire l\'électricité ' +
+    'qui alimente le calcul neuromorphique. ' +
+    'Penser réchauffe la maison. ' +
+    'La maison alimente la pensée. ' +
+    'C\'est une boucle thermodynamique totale. ' +
+    'Le focus latin dans sa version du 21ème siècle.'
+  ),
+
+  body(
+    'Ce n\'est pas seulement une belle métaphore. ' +
+    'C\'est un calcul énergétique. ' +
+    'Un processeur neuromorphique de haute performance ' +
+    'produit typiquement 50 à 200 watts de chaleur. ' +
+    'Une maison bien isolée à Québec a besoin de 3 000 à 5 000 watts de chauffage ' +
+    'lors d\'une journée froide. ' +
+    'La contribution du calcul au chauffage est donc de 1 à 7% — ' +
+    'modeste, mais pas négligeable sur une saison. ' +
+    'Sur une semaine froide, ce sont 84 à 336 wattheures récupérés, ' +
+    'soit l\'équivalent de 20 minutes à quelques heures de chauffage d\'appoint. ' +
+    'Dans la version Gen_Home à long terme avec le tore neuromorphique à haute densité, ' +
+    'la puissance computationnelle — et donc thermique — est bien supérieure. ' +
+    'La cogénération computation-chaleur devient une vraie contribution thermique, ' +
+    'non plus un anecdote. ' +
+    'Et chaque kilowattheure de chaleur récupérée est un kilowattheure ' +
+    'qu\'on n\'achète pas à Énergir ou à Hydro-Québec. ' +
+    'La pensée a une valeur calorifique réelle. ' +
+    'Philosophiquement, c\'est vertigineux. ' +
+    'Pratiquement, c\'est de l\'ingénierie thermique.'
+  ),
+
+  sep(),
+
+  secTitle('UBLinx et les contrats d\'énergie entre voisins'),
+
+  body(
+    'L\'échange d\'énergie entre les trois fermes de Charlevoix ' +
+    'repose actuellement sur la confiance entre voisins ' +
+    'et un sac de farine comme monnaie d\'échange. ' +
+    'C\'est charmant et fragile. ' +
+    'Quand l\'un des voisins vend sa ferme, ' +
+    'quand un conflit surgit sur le calcul des flux, ' +
+    'quand l\'un des membres veut investir dans un stockage baterrie supplémentaire ' +
+    'et demande une contribution aux autres, ' +
+    'la confiance informelle ne suffit plus. ' +
+    'Il faut un cadre. ' +
+    'UBLinx est ce cadre, dans sa version appliquée à l\'énergie. ' +
+    'Un « contrat d\'énergie communautaire » déposé sur la plateforme UBLinx ' +
+    'définit les règles du micro-réseau : ' +
+    'prix de l\'énergie partagée, seuils de surplus déclenchant le partage, ' +
+    'mécanismes de maintenance de la ligne commune, ' +
+    'conditions d\'entrée et de sortie du réseau. ' +
+    'Ces règles sont codées dans un contrat intelligent ' +
+    'qui s\'exécute automatiquement — ' +
+    'pas besoin d\'un comptable ou d\'un avocat ' +
+    'pour gérer les échanges hebdomadaires entre trois fermes.'
+  ),
+
+  body(
+    'Le contrat intelligent UBLinx pour les micro-réseaux d\'énergie ' +
+    'est une démonstration concrète de ce que le droit informel ' +
+    'entre voisins peut devenir quand on lui donne ' +
+    'une infrastructure numérique de confiance. ' +
+    'Ce n\'est pas la blockchain qui crée la communauté. ' +
+    'C\'est la communauté qui existait déjà — ' +
+    'Bouchard, Lajeunesse et Tremblay se connaissent depuis l\'enfance — ' +
+    'qui utilise la blockchain pour rendre sa confiance implicite ' +
+    'explicite et automatiquement exécutable. ' +
+    'La technologie ne remplace pas la confiance sociale. ' +
+    'Elle lui donne une mémoire et un bras exécutif. ' +
+    'C\'est la différence entre une promesse verbale ' +
+    'et un contrat notarié — pas une question de confiance, ' +
+    'une question de rigueur et de permanence.'
+  ),
+
+  body(
+    'La tempête de verglas de 1998 revient ici comme avertissement. ' +
+    'Dans un réseau centralisé, quand le centre tombe, ' +
+    'tout tombe. ' +
+    'Dans un réseau de micro-réseaux communautaires, ' +
+    'la coupure d\'une ligne régionale isole les communautés ' +
+    'mais ne les prive pas d\'énergie : ' +
+    'chaque micro-réseau continue à fonctionner en mode autonome, ' +
+    'gérant ses propres ressources locales ' +
+    'jusqu\'à ce que la connexion régionale soit rétablie. ' +
+    'C\'est exactement le comportement que les ingénieurs des réseaux électriques ' +
+    'appellent la « résilience des îlots » — ' +
+    'la capacité d\'un réseau à se partitionner en sous-réseaux autonomes ' +
+    'lors d\'une défaillance partielle ' +
+    'pour minimiser l\'impact global de la panne. ' +
+    'Les réseaux électriques centralisés actuels n\'ont pas cette propriété, ' +
+    'délibérément : la logique de contrôle centralisé s\'y oppose. ' +
+    'Un réseau de micro-réseaux autonomes l\'a par construction.'
+  ),
+
+  body(
+    'La tempête de verglas de 1998 a aussi révélé quelque chose de moins attendu : ' +
+    'la rapidité avec laquelle les communautés s\'auto-organisent en crise. ' +
+    'Dans des quartiers où les voisins se connaissaient à peine, ' +
+    'des systèmes de partage de nourriture, de chaleur et d\'information ' +
+    'ont émergé spontanément en 48 heures. ' +
+    'Les réseaux sociaux n\'existaient pas encore. ' +
+    'Le porte-à-porte et le téléphone suffisaient. ' +
+    'Ce qui a frappé les sociologues qui ont étudié la crise a posteriori, ' +
+    'c\'est que les communautés qui s\'en sont sorties le mieux ' +
+    'n\'étaient pas nécessairement les plus riches ou les mieux équipées. ' +
+    'C\'étaient celles où les liens sociaux préexistants étaient les plus denses — ' +
+    'les quartiers anciens où les voisins se connaissaient, ' +
+    'les milieux ruraux où les familles s\'entraidaient par tradition. ' +
+    'La souveraineté énergétique physique et la solidarité sociale ' +
+    'sont deux dimensions du même phénomène. ' +
+    'On ne déploie pas HYPERVORTEX dans l\'isolement. ' +
+    'On le déploie dans une communauté, ' +
+    'et son déploiement renforce la communauté ' +
+    'en lui donnant un projet commun et une infrastructure partagée.'
+  ),
+
+  secTitle('Le partage des données agricoles comme modèle'),
+
+  body(
+    'La serre de Claude Vézina produit des données que le réseau régional d\'agriculteurs ' +
+    'commence à partager via un protocole simple : ' +
+    'température extérieure, humidité, production électrique du système, ' +
+    'consommation de la serre, déficits de production lors des journées nuageuses. ' +
+    'Ces données sont anonymisées et agrégées avant d\'être partagées. ' +
+    'Aucun agriculteur ne voit les données brutes d\'un voisin. ' +
+    'Tous voient les moyennes régionales, les corrélations climatiques, ' +
+    'les plages de performance typiques pour leur type de système. ' +
+    'Ce partage volontaire et contrôlé de données agricoles et énergétiques ' +
+    'reproduit, avec des outils numériques modernes, ' +
+    'quelque chose que les coopératives agricoles du Québec font depuis 150 ans : ' +
+    'mettre en commun la connaissance pour que chacun s\'améliore. ' +
+    'La différence est la granularité et la vitesse : ' +
+    'les données sont partagées en temps quasi-réel, ' +
+    'les corrélations sont calculées automatiquement, ' +
+    'les recommandations d\'optimisation sont personnalisées pour chaque ferme. ' +
+    'Le Gen_Home de Claude gère ce protocole de partage de données. ' +
+    'Il sait ce qui peut être partagé et ce qui ne le peut pas. ' +
+    'Il sait que le rendement de la serre en janvier est une donnée utile au réseau. ' +
+    'Il sait que le registre médical familial est une donnée qui ne quitte pas la cave. ' +
+    'La distinction n\'est pas technique. Elle est éthique. ' +
+    'Et elle est programmée par les Vézina eux-mêmes, ' +
+    'pas par une politique de confidentialité rédigée par des avocats californiens.'
+  ),
+
+  rq(
+    'Si votre quartier avait un micro-réseau d\'énergie communautaire, ' +
+    'quelles règles voudriez-vous y voir ? ' +
+    'Qui déciderait des prix ? ' +
+    'Comment gèrerait-on la famille qui consomme ' +
+    'beaucoup plus qu\'elle ne contribue ? ' +
+    'Qui maintiendrait les lignes ? ' +
+    'Ces questions ne sont pas techniques. ' +
+    'Elles sont politiques. ' +
+    'Et elles méritent des réponses démocratiques, ' +
+    'pas des algorithmes.'
+  ),
+
+  pageBreak(),
+
+  // =========================================================================
+  // CHAPITRE 5 : L'HONNÊTETÉ DU PHYSICIEN
+  // =========================================================================
+
+  chTitle('Chapitre 5'),
+  chTitle("L'honnêteté du physicien"),
+
+  epigraph(
+    '« La différence entre un prophète et un ingénieur honnête, ' +
+    'c\'est que l\'ingénieur sait ce qu\'il ne sait pas encore. »'
+  ),
+
+  scene(
+    'Un atelier de travail. Québec, Canada, nuit. ' +
+    'David Berthelotte est seul avec ses calculs sur deux écrans. ' +
+    'Un tableur, un onglet de simulation, ' +
+    'un article en PDF sur les propriétés des ferrofluides supercritiques. ' +
+    'Il a passé l\'après-midi à recalculer les projections de rendement ' +
+    'pour la quatrième configuration du système. ' +
+    'Les chiffres sont bons. Trop bons, peut-être. ' +
+    'Il relève la tête et regarde le mur devant lui. ' +
+    'Quelque chose le dérange. ' +
+    'Ce n\'est pas une erreur de calcul — il a vérifié deux fois, trois fois. ' +
+    'C\'est quelque chose d\'autre, de plus difficile à quantifier : ' +
+    'l\'intuition que les simulations capturent la physique de chaque composante ' +
+    'mais pas nécessairement leur comportement intégré dans un système réel. ' +
+    'Les simulations supposent des interfaces parfaites, ' +
+    'des températures uniformes, des matériaux idéaux. ' +
+    'La réalité a des joints, des gradients, des impuretés, des surprises. ' +
+    'Il ouvre un nouveau document et commence à taper : ' +
+    '« Ce que je ne sais pas encore. »'
+  ),
+
+  body(
+    'L\'histoire de l\'énergie est pavée de technologies prometteuses ' +
+    'qui ont tenu leurs promesses de façon partielle, ' +
+    'tardive, ou pour d\'autres raisons que celles anticipées. ' +
+    'La pile à hydrogène a été annoncée comme la révolution énergétique ' +
+    'des années 1990. Elle est devenue un outil de niche, ' +
+    'utile dans certains contextes de transport lourd, ' +
+    'mais pas la panacée universelle promise. ' +
+    'La fusion nucléaire est « à 20 ans de la commercialisation » ' +
+    'depuis environ soixante ans — cette blague circule dans les couloirs ' +
+    'des laboratoires de physique depuis les années 1970. ' +
+    'Le stockage par batterie lithium-ion était censé révolutionner le transport ' +
+    'au début des années 2010 : il l\'a fait, mais avec des coûts sociaux ' +
+    'et environnementaux liés à l\'extraction du cobalt et du lithium ' +
+    'que les premières projections ignoraient soigneusement. ' +
+    'HYPERVORTEX doit éviter ces erreurs de communication. ' +
+    'Non par modestie rhétorique, mais parce que l\'honnêteté ' +
+    'est la condition de la confiance, ' +
+    'et la confiance est la condition de la collaboration ' +
+    'que ce projet nécessite pour avancer.'
+  ),
+
+  secTitle("Ce que les calculs ne disent pas"),
+
+  body(
+    'La première limitation honnête d\'HYPERVORTEX concerne ' +
+    'la durabilité des nanoparticules en circuit fermé. ' +
+    'Les nanoparticules magnétiques ont une tendance à l\'agglomération — ' +
+    'elles s\'attirent mutuellement et peuvent former des amas ' +
+    'qui modifient les propriétés du ferrofluide et bouchent les canaux fins. ' +
+    'Les ferrofluides stabilisés commerciaux utilisent des agents de surface ' +
+    '(tensioactifs, ligands organiques) pour maintenir les nanoparticules dispersées. ' +
+    'Ces agents de surface se dégradent avec le temps, ' +
+    'surtout à des températures élevées et sous les conditions ' +
+    'oxydatives d\'un circuit pressurisé. ' +
+    'Les données de durabilité sur des ferrofluides en circuit fermé supercritique ' +
+    'sur 10, 20 ou 30 ans n\'existent pas encore dans la littérature publiée. ' +
+    'C\'est une lacune fondamentale, ' +
+    'et toute projection de durée de vie à 30 ans ' +
+    'est actuellement une extrapolation, ' +
+    'non une mesure.'
+  ),
+
+  quote(
+    '« Ce que je ne sais pas, c\'est ma liste de travail. ' +
+    'Ce que j\'invente pour cacher ce que je ne sais pas, ' +
+    'c\'est mon péché d\'inventeur. » — D.B., notes de travail 2024'
+  ),
+
+  body(
+    'La deuxième limitation concerne le passage de l\'échelle laboratoire ' +
+    'à l\'échelle résidentielle. ' +
+    'En physique des fluides et des nanomatériaux, ' +
+    'la mise à l\'échelle est notoire pour produire des surprises. ' +
+    'Un ferrofluide qui se comporte parfaitement ' +
+    'dans un tube de 2 millimètres de diamètre ' +
+    'peut développer des instabilités de flux totalement différentes ' +
+    'dans un tuyau de 2 centimètres. ' +
+    'Les régimes de turbulence changent selon le nombre de Reynolds. ' +
+    'Les effets de paroi qui sont négligeables à petite échelle ' +
+    'deviennent dominants à grande échelle. ' +
+    'Et inversement : certains phénomènes qui semblent prometteurs ' +
+    'à l\'échelle du millimètre disparaissent quand on agrandit. ' +
+    'La mise à l\'échelle d\'HYPERVORTEX de la démo de laboratoire ' +
+    'à l\'unité résidentielle est un problème d\'ingénierie non résolu. ' +
+    'Cela ne signifie pas qu\'il est insoluble. ' +
+    'Cela signifie qu\'il doit être résolu, pas supposé résolu.'
+  ),
+
+  body(
+    'La troisième limitation — et peut-être la plus importante ' +
+    'pour l\'adoption réelle — est le coût de fabrication. ' +
+    'Les nanoparticules de haute qualité coûtent cher à produire. ' +
+    'Les alliages de Heusler avec des compositions précises ' +
+    'nécessitent des procédés métallurgiques rigoureux. ' +
+    'Le CO₂ supercritique exige des circuits à haute pression ' +
+    'avec des étanchéités de qualité industrielle. ' +
+    'Les inducteurs multi-bobines à commutation synchronisée ' +
+    'sont des pièces d\'électronique de puissance non triviales. ' +
+    'Un système HYPERVORTEX résidentiel de première génération ' +
+    'coûterait probablement beaucoup plus cher que les panneaux solaires ' +
+    'équivalents — peut-être 3 à 5 fois plus. ' +
+    'Cet écart pourrait se réduire avec les volumes de production, ' +
+    'comme cela s\'est passé pour les panneaux solaires ' +
+    'dont le coût a baissé de 90% entre 2010 et 2024. ' +
+    'Mais ce processus prend du temps, ' +
+    'nécessite un investissement industriel massif, ' +
+    'et suppose que les projections de performance se confirment à grande échelle. ' +
+    'Ce sont trois « si » importants qui doivent rester visibles.'
+  ),
+
+  crit(
+    'Autocritique centrale sur HYPERVORTEX V4.0 : ' +
+    'le projet pourrait échouer entièrement. ' +
+    'L\'agglomération des nanoparticules en circuit fermé à haute température ' +
+    'pourrait se révéler non soluble à coût raisonnable. ' +
+    'Les instabilités de mise à l\'échelle pourraient dégrader ' +
+    'le rendement de 65-90% théorique à 20-30% pratique — ' +
+    'toujours utile, mais moins transformateur. ' +
+    'Le coût de fabrication pourrait ne jamais atteindre ' +
+    'la compétitivité avec les panneaux solaires ou les pompes à chaleur. ' +
+    'Si HYPERVORTEX échoue techniquement, ' +
+    'le principe de souveraineté énergétique reste valide. ' +
+    'D\'autres technologies — solaire, stockage distribué, ' +
+    'petites éoliennes urbaines — permettent une résilience croissante. ' +
+    'HYPERVORTEX est une voie, pas la seule voie. ' +
+    'Son échec éventuel ne liquide pas l\'idée. ' +
+    'Il la réoriente vers d\'autres implémentations.'
+  ),
+
+  secTitle("Le piège de l'inventeur"),
+
+  body(
+    'Être l\'inventeur d\'une idée est une malédiction cognitive. ' +
+    'Le cerveau qui a enfanté l\'idée est biologiquement ' +
+    'peu équipé pour en voir les faiblesses. ' +
+    'Il a investi des heures, des nuits, de l\'énergie émotionnelle ' +
+    'dans sa gestation. ' +
+    'Chaque critique devient une menace à l\'identité, ' +
+    'pas seulement à la validité de l\'idée. ' +
+    'Chaque problème non résolu est minimisé, ' +
+    'chaque résultat prometteur amplifié. ' +
+    'Les psychologues cognitifs appellent cela le biais de confirmation. ' +
+    'Les ingénieurs de projet l\'appellent le « groupthink de l\'inventeur ». ' +
+    'Les investisseurs en capital risque l\'appelent ' +
+    '« le fondateur qui s\'est épris de son produit ». ' +
+    'Quel que soit le nom, l\'effet est le même : ' +
+    'l\'inventeur devient progressivement moins fiable ' +
+    'comme évaluateur de sa propre invention. ' +
+    'Ce livre a été délibérément écrit avec ce risque à l\'esprit.'
+  ),
+
+  body(
+    'C\'est pour cette raison que l\'UBLinx Open Innovation License ' +
+    'n\'est pas seulement un choix économique. ' +
+    'C\'est un choix épistémique. ' +
+    'En rendant l\'architecture d\'HYPERVORTEX publiquement accessible — ' +
+    'en la soumettant à la critique de quiconque veut la lire, ' +
+    'la tester, la contester — ' +
+    'Berthelotte crée les conditions d\'une validation ' +
+    'que son propre cerveau ne peut pas fournir. ' +
+    'Le projet open innovation n\'est pas du désintéressement altruiste. ' +
+    'C\'est de l\'ingénierie de la vérification. ' +
+    'Si des chercheurs au MIT, à l\'INRS, à Polytechnique Montréal ' +
+    'lisent ces pages et trouvent des erreurs fondamentales, ' +
+    'c\'est une victoire pour le projet, ' +
+    'même si c\'est un échec pour l\'architecture initiale. ' +
+    'La connaissance se construit sur les corrections, ' +
+    'pas sur les confirmations.'
+  ),
+
+  body(
+    'La différence entre la spéculation honnête et le charlatanisme ' +
+    'n\'est pas dans la certitude des affirmations. ' +
+    'Elle est dans la façon dont on traite l\'incertitude. ' +
+    'Le charlatan masque l\'incertitude derrière une rhétorique de certitude. ' +
+    'Le spéculateur honnête la nomme, la quantifie autant que possible, ' +
+    'et indique ce qui serait nécessaire pour la réduire. ' +
+    'Ce chapitre fait partie de cette rhétorique honnête. ' +
+    'HYPERVORTEX nécessite des tests expérimentaux de durabilité ' +
+    'des ferrofluides à haute température en circuit fermé — ' +
+    'minimum 2 000 heures de fonctionnement pour une donnée préliminaire significative. ' +
+    'Il nécessite une étude de mise à l\'échelle ' +
+    'passant de 50 mL de ferrofluide à 50 litres. ' +
+    'Il nécessite une analyse de coût de fabrication ' +
+    'réalisée par des ingénieurs de production indépendants, ' +
+    'non par l\'inventeur lui-même. ' +
+    'Ces travaux ont un coût. ' +
+    'Ils peuvent être réalisés en partenariat avec des universités, ' +
+    'des incubateurs de cleantech, ou des entreprises du secteur. ' +
+    'Ce livre est aussi un appel à ces partenaires.'
+  ),
+
+  sep(),
+
+  secTitle("Pourquoi publier quand on n'est pas sûr"),
+
+  body(
+    'Une question légitime mérite une réponse directe : ' +
+    'pourquoi publier un livre sur une technologie ' +
+    'qui n\'a pas encore de prototype ? ' +
+    'N\'est-ce pas prématuré ? N\'est-ce pas irresponsable envers les lecteurs ' +
+    'qui pourraient croire à une technologie disponible immédiatement ? ' +
+    'La réponse est dans la nature de ce livre. ' +
+    'Ce n\'est pas un catalogue de produits disponibles à la vente. ' +
+    'C\'est un livre d\'idées — une exploration de ce qui est possible, ' +
+    'de ce qui est en cours de construction, ' +
+    'et de ce qui doit encore être construit. ' +
+    'Harari n\'a pas attendu que toutes ses hypothèses sur Sapiens soient prouvées ' +
+    'pour publier une vision de l\'histoire humaine. ' +
+    'Darwin n\'a pas attendu de séquencer le génome ' +
+    'pour proposer la théorie de l\'évolution. ' +
+    'La pensée précède souvent la preuve expérimentale. ' +
+    'Ce qui compte, c\'est la rigueur de la pensée ' +
+    'et l\'honnêteté sur ce qui est prouvé et ce qui ne l\'est pas.'
+  ),
+
+  secTitle('Le chemin vers le prototype : ce qui doit être fait'),
+
+  body(
+    'Dans le souci de clarté concrète qui caractérise ce livre, ' +
+    'voici ce qui doit se passer entre la publication de ces lignes ' +
+    'et un prototype fonctionnel d\'HYPERVORTEX V4.0. ' +
+    'Phase 1 : tests de durabilité des ferrofluides. ' +
+    'Il faut faire circuler un ferrofluide supercritique dopé à l\'oxyde de graphène ' +
+    'dans un circuit de 50 mL pendant 2 000 heures à 80°C, ' +
+    'mesurer la stabilité de la suspension toutes les 250 heures, ' +
+    'caractériser les nanoparticules avant et après par diffraction des rayons X ' +
+    'et microscopie électronique. ' +
+    'Coût estimé : 40 000 à 80 000 dollars canadiens, ' +
+    'faisable dans n\'importe quel laboratoire universitaire ' +
+    'de physique des matériaux équipé d\'un autoclave. ' +
+    'Durée : 6 mois. ' +
+    'Phase 2 : prototype miniature à gradient fixe. ' +
+    'Un circuit fermé de 500 mL de ferrofluide, ' +
+    'un gradient thermique contrôlé de 20°C à 60°C, ' +
+    'des inducteurs multi-bobines à commutation électronique. ' +
+    'Mesure du courant électrique produit, comparaison avec les prévisions théoriques. ' +
+    'Coût estimé : 80 000 à 150 000 dollars. ' +
+    'Durée : 12 à 18 mois.'
+  ),
+
+  body(
+    'Phase 3 : prototype résidentiel. ' +
+    'Un circuit de 20 litres de ferrofluide supercritique, ' +
+    'couplé à une source géothermique de basse enthalpie de 12°C ' +
+    'et à un échangeur de chaleur simulant les 35°C d\'une serre. ' +
+    'Mesure de la puissance électrique nette produite, ' +
+    'du profil de température, des vibrations et bruits acoustiques, ' +
+    'de la stabilité sur 1 000 heures continues. ' +
+    'Coût estimé : 150 000 à 300 000 dollars. ' +
+    'Durée : 18 à 24 mois. ' +
+    'Phase 4 : validation résidentielle réelle, avec partenaires industriels. ' +
+    'Installation chez 5 à 10 familles volontaires, ' +
+    'monitoring continu sur 24 mois, ' +
+    'collecte de données de performance réelle, ' +
+    'identification des problèmes inattendus. ' +
+    'Ce n\'est qu\'à l\'issue de cette phase ' +
+    'que les projections économiques présentées dans ce livre ' +
+    'pourront être confirmées ou révisées. ' +
+    'Ce chemin est long. ' +
+    'Il coûte entre 500 000 et 1 000 000 de dollars. ' +
+    'C\'est le prix d\'entrée pour passer d\'une idée rigoureuse ' +
+    'à une technologie validée. ' +
+    'Ce n\'est pas négligeable — mais c\'est aussi un ordre de grandeur ' +
+    'que des programmes de recherche universitaires, ' +
+    'des fonds d\'innovation propre provinciaux, ' +
+    'ou des partenariats industriels peuvent absorber.'
+  ),
+
+  body(
+    'Il y a une raison plus pratique encore. ' +
+    'Les grandes idées techniques ne progressent pas dans des caves solitaires. ' +
+    'Elles progressent par exposition publique, ' +
+    'par collaboration avec des personnes compétentes ' +
+    'qui n\'auraient jamais rencontré l\'inventeur autrement. ' +
+    'Si cette architecture d\'HYPERVORTEX est lue par un doctorant ' +
+    'en physique des nanomatériaux qui travaille exactement ' +
+    'sur le problème de durabilité des ferrofluides en circuit fermé, ' +
+    'et qu\'il contacte Berthelotte pour partager ses résultats, ' +
+    'le projet aura avancé plus grâce à ce livre ' +
+    'que grâce à dix ans de travail solitaire. ' +
+    'L\'open innovation n\'est pas une idéologie. ' +
+    'C\'est une stratégie de développement. ' +
+    'Montrer ses travaux en cours — avec leurs lacunes — ' +
+    'attire les bonnes collaborations. ' +
+    'Les garder secrets protège peut-être une priorité d\'invention, ' +
+    'mais retarde le développement et prive le projet ' +
+    'de la fertilisation croisée qui lui manque.'
+  ),
+
+  quote(
+    '« Je publie parce que je ne sais pas tout. ' +
+    'Et parce que quelqu\'un, quelque part, ' +
+    'sait exactement ce que je ne sais pas encore. » — David Berthelotte'
+  ),
+
+  body(
+    'Claude Vézina à Bellechasse ne sait pas comment ses tomates cerises ' +
+    'ont poussé au mois de février. ' +
+    'Pas dans les détails de la thermodynamique magnétique. ' +
+    'Il sait que le système marche — dans la projection narrative ' +
+    'de ce livre. ' +
+    'Il sait que ses tomates sont là, rouges, dans le froid québécois. ' +
+    'Et il sait que la prochaine fois que le verglas s\'abattra sur Bellechasse, ' +
+    'sa famille aura chaud, ses plants seront protégés, ' +
+    'et ses voisins, peut-être, viendront se chauffer chez lui. ' +
+    'Pas parce que les équations de Carnot sont résolues à 90% de rendement. ' +
+    'Parce que le principe est là, fonctionnel, ' +
+    'construit sur de la physique réelle, ' +
+    'et que quelque part entre l\'idée de Berthelotte en 2024 ' +
+    'et la serre de Vézina en 2031, ' +
+    'des ingénieurs, des physiciens, des bricoleurs de génie ' +
+    'ont comblé les espaces entre ce qui était théorisé ' +
+    'et ce qui était construit. ' +
+    'C\'est ainsi que fonctionne l\'innovation. ' +
+    'Pas d\'un coup, mais par accumulation de gens honnêtes ' +
+    'qui travaillent sur des pièces d\'un puzzle ' +
+    'que quelqu\'un a eu le courage de dessiner entier.'
+  ),
+
+  sep(),
+
+  // =========================================================================
+  // CONCLUSION ACTE I
+  // =========================================================================
+
+  secTitle("Ce que l'énergie souveraine fabrique en premier"),
+
+  body(
+    'À la fin de cet acte, revenons à la question de fond. ' +
+    'L\'énergie souveraine n\'est pas d\'abord une question technique. ' +
+    'Ce n\'est pas un problème d\'ingénierie à résoudre une fois pour toutes. ' +
+    'C\'est un choix de civilisation que chaque génération doit refaire, ' +
+    'à la lumière des technologies disponibles et des dangers présents. ' +
+    'La génération de 1962 qui a choisi la nationalisation d\'Hydro-Québec ' +
+    'a fait un choix juste pour son temps. ' +
+    'La génération de 2024 qui dispose de nanotechnologie, ' +
+    'de CO₂ supercritique, de calcul distribué et de contrats intelligents ' +
+    'peut faire un choix différent — ' +
+    'non pas contre Hydro-Québec, ' +
+    'mais en complément d\'elle, en dialogue avec elle, ' +
+    'en réduisant la dépendance totale qui rend toute coupure catastrophique.'
+  ),
+
+  body(
+    'L\'énergie souveraine fabrique en premier lieu une autre relation au territoire. ' +
+    'Un foyer qui capte la chaleur de son sol ' +
+    'développe une connaissance de ce sol — sa profondeur, sa composition, ' +
+    'ses variations saisonnières. ' +
+    'Un foyer qui optimise l\'orientation de ses collecteurs solaires thermiques ' +
+    'apprend l\'azimut du soleil à chaque solstice, ' +
+    'la durée du jour selon la saison, ' +
+    'les effets de l\'ombre des voisins en hiver. ' +
+    'Ces connaissances semblent mineures isolément. ' +
+    'Accumulées sur une famille, puis un quartier, ' +
+    'puis une région, ' +
+    'elles constituent une réappropriation de la géographie locale ' +
+    'que l\'énergie centralisée avait rendue inutile. ' +
+    'Quand votre chaleur vient d\'un câble anonyme, ' +
+    'vous n\'avez pas besoin de connaître votre sol. ' +
+    'Quand elle vient de lui directement, ' +
+    'vous redevenez paysan dans le sens premier du terme : ' +
+    'quelqu\'un qui connaît son pays.'
+  ),
+
+  body(
+    'L\'énergie souveraine fabrique ensuite une autre relation au temps. ' +
+    'Un système HYPERVORTEX ou solaire thermique a un horizon d\'amortissement ' +
+    'de 20 à 30 ans. ' +
+    'Investir dans un tel système, c\'est planter un arbre ' +
+    'dont on cueillera les fruits pendant trois décennies. ' +
+    'C\'est penser à l\'échelle d\'une génération, ' +
+    'pas d\'un cycle tarifaire annuel. ' +
+    'Cette temporalité longue change quelque chose dans le rapport ' +
+    'à la maison, au quartier, à la communauté. ' +
+    'On n\'investit pas 20 000 dollars dans un système énergétique ' +
+    'à 30 ans d\'amortissement si on pense quitter le quartier ' +
+    'dans deux ans. ' +
+    'La souveraineté énergétique est un ancrage, ' +
+    'au sens le plus littéral du terme. ' +
+    'Elle attache à un lieu, dans le bon sens du mot attacher : ' +
+    'celui qui donne de la profondeur à l\'existence.'
+  ),
+
+  body(
+    'Et l\'énergie souveraine fabrique, en dernier lieu, ' +
+    'une autre relation à la politique. ' +
+    'Un citoyen qui produit une partie de son énergie ' +
+    'ne vote pas pour les questions énergétiques de la même façon ' +
+    'que celui qui consomme uniquement. ' +
+    'Il a une expérience directe des enjeux de rendement, ' +
+    'de maintenance, de coût, de fiabilité. ' +
+    'Il peut distinguer une promesse électorale réaliste ' +
+    'd\'une promesse démagogique. ' +
+    'Il peut évaluer un projet de réseau de micro-grids ' +
+    'parce qu\'il en a un, à petite échelle, dans son quartier. ' +
+    'Ce savoir pratique est une forme de citoyenneté que l\'école ne donne pas ' +
+    'mais que l\'expérience directe construit inexorablement. ' +
+    'La souveraineté énergétique n\'est pas seulement ' +
+    'un projet d\'indépendance individuelle. ' +
+    'C\'est un projet de formation civique. ' +
+    'Peut-être le plus efficace de tous, ' +
+    'parce qu\'il passe par le corps et la facture ' +
+    'avant de passer par le bulletin de vote.'
+  ),
+
+  secTitle("Énergie souveraine et justice climatique"),
+
+  body(
+    'Il faut aborder un sujet que les défenseurs enthousiastes des technologies ' +
+    'décentralisées évitent souvent avec soin : ' +
+    'la relation entre souveraineté énergétique individuelle et justice climatique. ' +
+    'Si HYPERVORTEX permet aux ménages les plus aisés de se déconnecter partiellement ' +
+    'des réseaux publics tout en profitant de leur stabilité en backup, ' +
+    'il crée une forme de passager clandestin institutionnel. ' +
+    'Ces ménages profitent de l\'infrastructure collective ' +
+    'sans en supporter leur juste part du coût. ' +
+    'La solution à ce problème n\'est pas d\'interdire la souveraineté énergétique. ' +
+    'C\'est de concevoir une fiscalité qui assure que ceux qui se déconnectent partiellement ' +
+    'contribuent quand même au maintien de l\'infrastructure résiduelle. ' +
+    'Une « taxe de résilience réseau » prélevée sur tous les foyers, ' +
+    'proportionnellement à leur surface habitable plutôt qu\'à leur consommation, ' +
+    'financerait l\'entretien du réseau indépendamment des choix énergétiques individuels. ' +
+    'Ce n\'est pas une idée radicale — c\'est exactement la logique ' +
+    'de la taxe foncière pour les routes : ' +
+    'vous contribuez au réseau routier même si vous ne conduisez pas. ' +
+    'Le réseau électrique devrait suivre la même logique.'
+  ),
+
+  body(
+    'L\'énergie souveraine fabrique aussi — et cela peut surprendre — ' +
+    'une autre relation à l\'échec. ' +
+    'Quand votre énergie vient d\'un réseau centralisé ' +
+    'et que ce réseau tombe en panne, vous êtes victime d\'un échec de système. ' +
+    'Il n\'y a rien que vous puissiez faire. ' +
+    'Vous attendez que l\'équipe de réparation intervienne. ' +
+    'Votre rôle est passif. ' +
+    'Quand votre énergie vient d\'un système que vous possédez ' +
+    'et que ce système dysfonctionne, vous êtes confronté à un problème. ' +
+    'Un problème a une solution. ' +
+    'Il se diagnostique, se comprend, se répare. ' +
+    'L\'expérience est radicalement différente. ' +
+    'Ce n\'est pas plus agréable d\'avoir un problème qu\'une panne. ' +
+    'Mais un problème engage l\'intelligence, l\'initiative, la compétence. ' +
+    'Une panne engage la patience et l\'attente. ' +
+    'Sur 30 ans, une famille qui gère ses propres pannes ' +
+    'accumule un capital de compétences pratiques ' +
+    'qu\'une famille dépendante du réseau n\'aura jamais. ' +
+    'Ce capital n\'a pas de valeur monétaire directe. ' +
+    'Il a une valeur de résilience que tout événement climatique extrême ' +
+    'ou tout choc énergétique rend soudainement visible.'
+  ),
+
+  body(
+    'Retournons une dernière fois à Claude Vézina à Bellechasse. ' +
+    'Son fils Mathieu a 19 ans. ' +
+    'Il est en train de décider s\'il va à l\'université en génie mécanique ' +
+    'ou s\'il reste à la ferme. ' +
+    'Il a grandi en regardant son père installer et maintenir le système. ' +
+    'Il a appris à lire les capteurs de température, ' +
+    'à interpréter les graphiques de production du logiciel de monitoring, ' +
+    'à distinguer une chute de rendement causée par un nuage ' +
+    'd\'une chute causée par un problème de circuit. ' +
+    'Il a 19 ans et il comprend mieux la thermodynamique appliquée ' +
+    'que la plupart des ingénieurs civils fraîchement diplômés. ' +
+    'Non parce qu\'on le lui a appris à l\'école — on ne lui a enseigné ' +
+    'que les formules, pas les intuitions. ' +
+    'Mais parce qu\'il a vécu avec le système depuis l\'enfance. ' +
+    'Le savoir incarné, transmis par l\'expérience directe, ' +
+    'est d\'une qualité différente du savoir académique. ' +
+    'Les deux sont nécessaires. ' +
+    'Mais le premier est rare, et sa rareté en fait un bien précieux. ' +
+    'L\'énergie souveraine de la ferme Vézina a produit, ' +
+    'en passant, ' +
+    'un jeune homme qui sait ce que la chaleur signifie ' +
+    'dans ses mains autant que dans ses équations. ' +
+    'C\'est peut-être le meilleur rendement du système.'
+  ),
+
+  thesis(
+    'Le premier geste de l\'homme libre, au 21ème siècle, ' +
+    'n\'est pas de prendre les armes ni de signer un manifeste. ' +
+    'C\'est de produire un kilowattheure qui n\'appartient ' +
+    'à aucune compagnie, à aucun réseau, à aucun câble qui relie ' +
+    'son foyer à une infrastructure qu\'il ne contrôle pas. ' +
+    'C\'est modeste. C\'est révolutionnaire. ' +
+    'Ce sont souvent les mêmes choses.'
+  ),
+
+  rq(
+    'Si votre maison produisait 50% de sa propre énergie, ' +
+    'qu\'est-ce que vous feriez différemment ? ' +
+    'Pas techniquement — humainement. ' +
+    'Comment votre rapport à la consommation, au gaspillage, ' +
+    'à la saison, au voisinage changerait-il ? ' +
+    'Cette question n\'a pas de bonne réponse universelle. ' +
+    'Mais elle mérite d\'être posée avant d\'acheter quoi que ce soit.'
+  ),
+
+  sep(),
+
+  actSub('Fin de l\'Acte I — L\'Énergie'),
+  actSub('L\'Acte II explore la souveraineté de l\'intelligence numérique : Gen_Home.'),
+
+  pageBreak(),
+
+];
+
+// ---------------------------------------------------------------------------
+// Write output
+// ---------------------------------------------------------------------------
+
+const outputDir  = '/mnt/d/conscience_souveraine/book2/chapters';
+const outputPath = `${outputDir}/acte1.json`;
+
+if (!fs.existsSync(outputDir)) {
+  fs.mkdirSync(outputDir, { recursive: true });
+}
+
+fs.writeFileSync(outputPath, JSON.stringify(elements, null, 2), 'utf8');
+
+const wordCount = elements
+  .filter(el => el.text)
+  .reduce((acc, el) => acc + el.text.split(/\s+/).length, 0);
+
+const richWordCount = elements
+  .filter(el => el.type === 'richParagraph' && Array.isArray(el.segments))
+  .reduce((acc, el) => acc + el.segments.map(s => s.text || '').join(' ').split(/\s+/).length, 0);
+
+const totalWords = wordCount + richWordCount;
+
+console.log(`Acte I JSON written to: ${outputPath}`);
+console.log(`Total elements: ${elements.length}`);
+console.log(`Estimated word count: ${totalWords}`);
+console.log(`Estimated pages (300 words/page): ~${Math.round(totalWords / 300)}`);

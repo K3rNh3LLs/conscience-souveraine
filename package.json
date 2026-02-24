@@ -1,0 +1,17 @@
+{
+  "name": "conscience-souveraine-manuel",
+  "version": "1.0.0",
+  "description": "Générateur du Manuel Complet Conscience Souveraine (350-400 pages)",
+  "author": "David Berthelotte",
+  "license": "SEE UBLINX_LICENSE.md",
+  "scripts": {
+    "build": "bash build.sh",
+    "status": "bash build.sh status",
+    "assemble": "node scripts/assemble.js",
+    "validate": "bash build.sh validate",
+    "clean": "bash build.sh clean"
+  },
+  "dependencies": {
+    "docx": "^9.0.0"
+  }
+}
