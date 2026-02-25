@@ -83,7 +83,7 @@
   {
     "type": "paragraph",
     "style": "BodyText",
-    "text": "Trois couches logicielles constituent le système. La première est Ollama, un environnement d'exécution pour modèles de langage locaux : il gère le chargement et le déchargement des modèles en mémoire, optimise leur utilisation du matériel, et fournit une interface de communication standardisée. La deuxième est Whisper, le système de transcription vocale d'OpenAI, exécuté localement : il convertit votre parole en texte sur le boîtier lui-même, sans passer par un serveur externe. La troisième est un système de synthèse vocale qui transforme les réponses textuelles en parole naturelle. Ces trois composants, assemblés dans l'architecture Gen_Home développée par JRT Inc., forment un système complet qui fonctionne même si le câble internet est débranché. La maison pense pour elle-même."
+    "text": "Trois couches logicielles constituent le système. La première est Ollama, un environnement d'exécution pour modèles de langage locaux : il gère le chargement et le déchargement des modèles en mémoire, optimise leur utilisation du matériel, et fournit une interface de communication standardisée. La deuxième est Whisper, le système de transcription vocale d'OpenAI, exécuté localement : il convertit votre parole en texte sur le boîtier lui-même, sans passer par un serveur externe. La troisième est un système de synthèse vocale qui transforme les réponses textuelles en parole naturelle. Ces trois composants, assemblés dans l'architecture Gen_Home, forment un système complet qui fonctionne même si le câble internet est débranché. La maison pense pour elle-même."
   },
   {
     "type": "paragraph",
@@ -188,7 +188,7 @@
       "Amazon Echo",
       "Google Nest",
       "Apple HomePod",
-      "Gen_Home (JRT)"
+      "Gen_Home"
     ],
     "rows": [
       [
@@ -664,7 +664,7 @@
   {
     "type": "paragraph",
     "style": "BodyText",
-    "text": "Le chiffrement de la mémoire locale n'est pas un détail technique accessoire. C'est une déclaration d'intention architecturale. Même si quelqu'un accédait physiquement au boîtier — en cas de saisie judiciaire, par exemple, ou d'intrusion — les données seraient illisibles sans la clé de chiffrement qui appartient à la famille. Cette clé n'est pas conservée sur des serveurs de JRT Inc. Elle est générée localement, lors de l'initialisation du système, et la famille en est l'unique détentrice. JRT Inc. ne peut pas, même si elle le voulait, accéder aux données de vos conversions familiales. Ce n'est pas seulement une garantie de confidentialité. C'est une limitation architecturale de la confiance nécessaire. Vous n'avez pas à faire confiance à JRT Inc. Vous devez seulement faire confiance à votre propre porte d'entrée."
+    "text": "Le chiffrement de la mémoire locale n'est pas un détail technique accessoire. C'est une déclaration d'intention architecturale. Même si quelqu'un accédait physiquement au boîtier — en cas de saisie judiciaire, par exemple, ou d'intrusion — les données seraient illisibles sans la clé de chiffrement qui appartient à la famille. Cette clé n'est conservée sur aucun serveur externe. Elle est générée localement, lors de l'initialisation du système, et la famille en est l'unique détentrice. Personne d'autre — pas même l'éditeur du logiciel — ne peut accéder aux données de vos conversations familiales. Ce n'est pas seulement une garantie de confidentialité. C'est une limitation architecturale de la confiance nécessaire. Vous n'avez pas à faire confiance à qui que ce soit d'autre. Vous devez seulement faire confiance à votre propre porte d'entrée."
   },
   {
     "type": "paragraph",
@@ -837,12 +837,12 @@
   {
     "type": "paragraph",
     "style": "SectionTitle",
-    "text": "L'écosystème Gen by JRT : intelligence au-delà du foyer"
+    "text": "L'écosystème Gen_by_JRT : intelligence au-delà du foyer"
   },
   {
     "type": "paragraph",
     "style": "BodyText",
-    "text": "Gen_Home n'est pas un produit isolé. Il est le nœud domestique d'un écosystème plus large que JRT Inc. a nommé Gen by JRT. Cet écosystème articule plusieurs modules qui, ensemble, couvrent les principaux besoins numériques d'une famille, d'une entreprise locale, ou d'une communauté — sans aucun de ces besoins ne passer par une plateforme extractive. Gen-AI est le moteur central : une architecture Mixture of Experts qui combine des petits modèles spécialisés pour les tâches courantes avec un grand modèle de soixante-dix milliards de paramètres pour les raisonnements complexes, le tout routé par un réseau de neurones impulsionnels qui choisit dynamiquement le bon modèle pour chaque requête. Cette architecture multi-couche permet des performances compétitives avec une consommation énergétique maîtrisée."
+    "text": "Gen_Home n'est pas un produit isolé. Il est le nœud domestique d'un écosystème plus large : Gen_by_JRT, un projet de co-développement dont le système RAG constitue le noyau partagé. Cet écosystème articule plusieurs modules qui, ensemble, couvrent les principaux besoins numériques d'une famille, d'une entreprise locale, ou d'une communauté — sans aucun de ces besoins ne passer par une plateforme extractive. Gen-AI est le moteur central : une architecture Mixture of Experts qui combine des petits modèles spécialisés pour les tâches courantes avec un grand modèle de soixante-dix milliards de paramètres pour les raisonnements complexes, le tout routé par un réseau de neurones impulsionnels qui choisit dynamiquement le bon modèle pour chaque requête. Cette architecture multi-couche permet des performances compétitives avec une consommation énergétique maîtrisée."
   },
   {
     "type": "paragraph",
@@ -1020,7 +1020,7 @@
   {
     "type": "paragraph",
     "style": "BodyText",
-    "text": "David Berthelotte, à travers JRT Inc., n'est pas en train de proposer un produit technologique avec des fonctionnalités civiques secondaires. Il propose une thèse : que la technologie du foyer, si elle est conçue avec les bons principes, peut être une institution de formation citoyenne plus puissante que de nombreuses institutions explicitement consacrées à cet objectif. La famille est le premier espace politique de l'individu — le premier lieu où il apprend qu'il n'est pas seul, que ses décisions ont des effets sur les autres, que les ressources sont finies et doivent être réparties, que les règles peuvent être injustes et méritent d'être contestées par des arguments. Outiller ce premier espace politique avec une infrastructure qui le prend au sérieux — qui en préserve la mémoire, qui rend ses délibérations visibles et ses décisions traçables — c'est parier sur la démocratie à sa racine la plus profonde."
+    "text": "Ce que je propose ici n'est pas un produit technologique avec des fonctionnalités civiques secondaires. C'est une thèse : que la technologie du foyer, si elle est conçue avec les bons principes, peut être une institution de formation citoyenne plus puissante que de nombreuses institutions explicitement consacrées à cet objectif. La famille est le premier espace politique de l'individu — le premier lieu où il apprend qu'il n'est pas seul, que ses décisions ont des effets sur les autres, que les ressources sont finies et doivent être réparties, que les règles peuvent être injustes et méritent d'être contestées par des arguments. Outiller ce premier espace politique avec une infrastructure qui le prend au sérieux — qui en préserve la mémoire, qui rend ses délibérations visibles et ses décisions traçables — c'est parier sur la démocratie à sa racine la plus profonde."
   },
   {
     "type": "paragraph",
@@ -1045,17 +1045,17 @@
   {
     "type": "paragraph",
     "style": "CritiqueBox",
-    "text": "Il serait malhonnête de terminer cet acte sans nommer les frictions réelles. Le niveau 1 de Gen_Home — le boîtier logiciel — est faisable aujourd'hui, mais il requiert une configuration technique initiale que la grande majorité des familles ne peut pas faire elle-même. JRT Inc. doit résoudre le problème de l'accessibilité sans sacrifier la souveraineté. La solution d'un technicien certifié JRT qui installe et configure à domicile est un modèle crédible — mais elle requiert un réseau de techniciens qualifiés que JRT doit encore constituer. Ce n'est pas une impossibilité. C'est un travail en cours."
+    "text": "Il serait malhonnête de terminer cet acte sans nommer les frictions réelles. Le niveau 1 de Gen_Home — le boîtier logiciel — est faisable aujourd'hui, mais il requiert une configuration technique initiale que la grande majorité des familles ne peut pas faire elle-même. Nous devons résoudre le problème de l'accessibilité sans sacrifier la souveraineté. La solution d'un technicien certifié qui installe et configure à domicile est un modèle crédible — mais elle requiert un réseau de techniciens qualifiés encore à constituer. Ce n'est pas une impossibilité. C'est un travail en cours."
   },
   {
     "type": "paragraph",
     "style": "BodyText",
-    "text": "Il y a aussi la question du prix d'entrée. Un Beelink SER8 avec 64 gigaoctets de mémoire vive coûte, au moment de la rédaction de ce texte, entre 700 et 900 dollars canadiens. Ajoutez le temps d'installation et une licence logicielle JRT — et vous avez un investissement initial qui représente plusieurs semaines de dépenses d'une famille à revenu médian. Deux éléments tempèrent cette préoccupation : d'abord, le prix du matériel informatique continue de baisser — ce qui coûte 800 dollars en 2025 en coûtera peut-être 300 en 2028. Ensuite, si Gen_Home remplace effectivement plusieurs abonnements existants — Netflix partiellement, Google One, Microsoft 365 — le retour sur investissement peut être positif en deux à trois ans. Mais nommer l'obstacle clairement est nécessaire : la démocratisation ne se produit pas par magie. Elle se construit par des choix de prix, de modèle commercial et de subvention."
+    "text": "Il y a aussi la question du prix d'entrée. Un Beelink SER8 avec 64 gigaoctets de mémoire vive coûte, au moment de la rédaction de ce texte, entre 700 et 900 dollars canadiens. Ajoutez le temps d'installation et une licence logicielle — et vous avez un investissement initial qui représente plusieurs semaines de dépenses d'une famille à revenu médian. Deux éléments tempèrent cette préoccupation : d'abord, le prix du matériel informatique continue de baisser — ce qui coûte 800 dollars en 2025 en coûtera peut-être 300 en 2028. Ensuite, si Gen_Home remplace effectivement plusieurs abonnements existants — Netflix partiellement, Google One, Microsoft 365 — le retour sur investissement peut être positif en deux à trois ans. Mais nommer l'obstacle clairement est nécessaire : la démocratisation ne se produit pas par magie. Elle se construit par des choix de prix, de modèle commercial et de subvention."
   },
   {
     "type": "paragraph",
     "style": "Thesis",
-    "text": "La souveraineté numérique ne peut pas être un privilège de classe. Si Gen_Home reste un produit pour familles aisées, il reproduit exactement la fracture numérique qu'il prétend guérir — juste avec une esthétique différente. David Berthelotte et JRT Inc. portent la responsabilité de résoudre l'équation de l'accessibilité aussi sérieusement que l'équation technique."
+    "text": "La souveraineté numérique ne peut pas être un privilège de classe. Si Gen_Home reste un produit pour familles aisées, il reproduit exactement la fracture numérique qu'il prétend guérir — juste avec une esthétique différente. Je porte la responsabilité de résoudre l'équation de l'accessibilité aussi sérieusement que l'équation technique."
   },
   {
     "type": "paragraph",
