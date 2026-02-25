@@ -30,7 +30,7 @@
     "children": [
       {
         "type": "text",
-        "text": "INGENIERIE ET LIMITES",
+        "text": "Ingénierie ET LIMITES",
         "bold": true,
         "size": 40,
         "font": "Arial",
@@ -65,7 +65,7 @@
     "children": [
       {
         "type": "text",
-        "text": "Les valeurs sont les plus lourdes. Les pensees sont les plus legeres. Entre les deux, les souvenirs flottent a la profondeur exacte ou le temps s'arrete.",
+        "text": "Les valeurs sont les plus lourdes. Les pensées sont les plus légères. Entre les deux, les souvenirs flottent à la profondeur exacte ou le temps s'arrêté.",
         "italic": true,
         "size": 22,
         "font": "Arial",
@@ -97,7 +97,7 @@
     "children": [
       {
         "type": "text",
-        "text": "La quatrieme partie du manuel aborde les defis d'ingenierie qui transforment la vision architecturale en realite physique. Nous y explorons le gradient de densite qui optimise la structure du tore (Chapitre 15), la levitation Halbach qui fait flotter le tore sans contact ni energie (Chapitre 16), les cinq mediums qui donnent au tore un corps sensoriel complet (Chapitre 17), et les limites physiques ultimes de l'architecture (Chapitre 18). Chaque chapitre revele une convergence remarquable entre les exigences de la physique et les principes philosophiques du projet.",
+        "text": "La quatrième partie du manuel aborde les défis d'ingénierie qui transforment la vision architecturale en réalité physique. Nous y explorons le gradient de densité qui optimisé la structure du tore (Chapitre 15), la lévitation Halbach qui fait flotter le tore sans contact ni énergie (Chapitre 16), les cinq médiums qui donnent au tore un corps sensoriel complet (Chapitre 17), et les limites physiques ultimes de l'architecture (Chapitre 18). Chaque chapitre révèle une convergence remarquable entre les exigences de la physique et les principes philosophiques du projet.",
         "size": 22,
         "font": "Arial"
       }
@@ -117,7 +117,7 @@
     "children": [
       {
         "type": "text",
-        "text": "Chapitre 15 — Gradient de Densite et Optimisation Centrifuge",
+        "text": "Chapitre 15 — Gradient de Densité et Optimisation Centrifuge",
         "bold": true,
         "size": 32,
         "font": "Arial",
@@ -136,7 +136,7 @@
     "children": [
       {
         "type": "text",
-        "text": "15.1 Introduction : le probleme de la densite uniforme",
+        "text": "15.1 Introduction : le problème de la densité uniforme",
         "bold": true,
         "size": 26,
         "font": "Arial",
@@ -153,7 +153,7 @@
     "children": [
       {
         "type": "text",
-        "text": "Construire un tore de densite uniforme, c'est comme construire un gratte-ciel avec le meme beton lourd du sol au dernier etage. L'etage superieur n'a pas besoin de porter le reste — pourquoi lui imposer le meme poids ? Dans un tore a densite uniforme tournant a 50 000 RPM, chaque point subit une contrainte centrifuge proportionnelle a sa distance a l'axe de rotation. L'exterieur subit la contrainte maximale et c'est ce point qui limite la taille et la vitesse de tout le systeme.",
+        "text": "Construire un tore de densité uniforme, c'est comme construire un gratte-ciel avec le même béton lourd du sol au dernier etage. L'etage supérieur n'a pas besoin de porter le reste — pourquoi lui imposer le même poids ? Dans un tore a densité uniforme tournant a 50 000 RPM, chaque point subit une contrainte centrifuge proportionnelle à sa distance à l'axe de rotation. L'extérieur subit la contrainte maximale et c'est ce point qui limite la taille et la vitesse de tout le système.",
         "size": 22,
         "font": "Arial"
       }
@@ -168,7 +168,7 @@
     "children": [
       {
         "type": "text",
-        "text": "Mais l'exterieur n'a pas besoin d'etre dense. Dans l'architecture du tore, les couches exterieures (C4, C5, surface de C3) sont les couches d'interface et de cognition rapide. Les couches interieures (C1, C2, profondeur de C3) sont les couches fondamentales — invariants, attracteurs, memoire identitaire. La solution est evidente une fois qu'on la voit : placer les materiaux denses au centre et les materiaux legers a l'exterieur.",
+        "text": "Mais l'extérieur n'a pas besoin d'être dense. Dans l'architecture du tore, les couches extérieures (C4, C5, surface de C3) sont les couches d'interface et de cognition rapide. Les couches intérieures (C1, C2, profondeur de C3) sont les couches fondamentales — invariants, attracteurs, mémoire identitaire. La solution est évidente une fois qu'on la voit : placer les matériaux denses au centre et les matériaux légers à l'extérieur.",
         "size": 22,
         "font": "Arial"
       }
@@ -202,7 +202,7 @@
     "children": [
       {
         "type": "text",
-        "text": "La Terre tourne, et elle a un gradient de densite. Ce n'est pas une coincidence — c'est la solution que la nature a trouvee pour les objets en rotation :",
+        "text": "La Terre tourne, et elle à un gradient de densité. Ce n'est pas une coïncidence — c'est la solution que la nature a trouvée pour les objets en rotation :",
         "size": 22,
         "font": "Arial"
       }
@@ -212,7 +212,7 @@
     "type": "table",
     "headers": [
       "Couche terrestre",
-      "Densite",
+      "Densité",
       "Position",
       "Analogie tore"
     ],
@@ -227,13 +227,13 @@
         "Noyau externe (fer liquide)",
         "~11 000 kg/m^3",
         "Profond",
-        "C2 — Systeme limbique (SiC)"
+        "C2 — Système limbique (SiC)"
       ],
       [
         "Manteau",
         "~4 500 kg/m^3",
-        "Intermediaire",
-        "C3 profond — Memoire (YBCO)"
+        "Intermédiaire",
+        "C3 profond — Mémoire (YBCO)"
       ],
       [
         "Croute",
@@ -242,9 +242,9 @@
         "C3 surface — Cortex rapide (CNT)"
       ],
       [
-        "Atmosphere",
+        "Atmosphère",
         "~1,2 kg/m^3",
-        "Exterieur",
+        "Extérieur",
         "C5 — Interface (aerogel)"
       ]
     ]
@@ -260,7 +260,7 @@
     "children": [
       {
         "type": "text",
-        "text": "15.3 Physique du gradient de densite",
+        "text": "15.3 Physique du gradient de densité",
         "bold": true,
         "size": 26,
         "font": "Arial",
@@ -277,7 +277,7 @@
     "children": [
       {
         "type": "text",
-        "text": "Pour un anneau mince de densite uniforme, la contrainte centrifuge de cerceau est sigma = rho * v^2. Pour un anneau avec gradient de densite radial rho(r), le profil optimal suit :",
+        "text": "Pour un anneau mince de densité uniforme, la contrainte centrifuge de cerceau est sigma = rho * v^2. Pour un anneau avec gradient de densité radial rho(r), le profil optimal suit :",
         "size": 22,
         "font": "Arial"
       }
@@ -310,7 +310,7 @@
     "children": [
       {
         "type": "text",
-        "text": "Ce profil exponentiel decroissant place la densite maximale au centre et la fait decroitre exponentiellement vers l'exterieur. Le gain quantitatif depend du ratio de densite entre centre et exterieur :",
+        "text": "Ce profil exponentiel décroissant place la densité maximale au centre et la fait décroître exponentiellement vers l'extérieur. Le gain quantitatif dépend du ratio de densité entre centre et extérieur :",
         "size": 22,
         "font": "Arial"
       }
@@ -319,7 +319,7 @@
   {
     "type": "table",
     "headers": [
-      "Ratio centre/exterieur",
+      "Ratio centre/extérieur",
       "Facteur sur v_max",
       "Facteur sur R_max",
       "Facteur sur surface"
@@ -329,7 +329,7 @@
         "1:1 (uniforme)",
         "1,0x",
         "1,0x",
-        "1,0x — Reference"
+        "1,0x — Référence"
       ],
       [
         "2:1",
@@ -356,7 +356,7 @@
         "~7,8x"
       ],
       [
-        "50:1 (theorique extreme)",
+        "50:1 (théorique extrême)",
         "~3,5x",
         "~3,5x",
         "~12x"
@@ -372,7 +372,7 @@
     "children": [
       {
         "type": "text",
-        "text": "Avec un gradient realiste de 10:1, le rayon maximal des CNT passe de 1,68 m a environ 3,7 m a 50 000 RPM. La surface neuronale est multipliee par presque 5.",
+        "text": "Avec un gradient réaliste de 10:1, le rayon maximal des CNT passe de 1,68 m a environ 3,7 m a 50 000 RPM. La surface neuronale est multipliée par presque 5.",
         "size": 22,
         "font": "Arial"
       }
@@ -389,7 +389,7 @@
     "children": [
       {
         "type": "text",
-        "text": "15.4 Carte des materiaux par couche",
+        "text": "15.4 Carte des matériaux par couche",
         "bold": true,
         "size": 26,
         "font": "Arial",
@@ -402,8 +402,8 @@
     "headers": [
       "Couche",
       "Position radiale",
-      "Materiau ideal",
-      "Densite",
+      "Matériau idéal",
+      "Densité",
       "Justification"
     ],
     "rows": [
@@ -416,52 +416,52 @@
       ],
       [
         "C2a — Noyau limbique",
-        "Centre-interieur",
+        "Centre-intérieur",
         "SiC + nitrure de bore",
         "~3 500 kg/m^3",
         "Thermiquement stable, optiquement actif"
       ],
       [
-        "C2b — Systeme modulatoire",
-        "Interieur",
+        "C2b — Système modulatoire",
+        "Intérieur",
         "GaN + perovskites",
         "~3 200 kg/m^3",
         "Photo-emetteurs efficaces"
       ],
       [
-        "C3 profond — Memoire",
-        "Intermediaire-int.",
+        "C3 profond — Mémoire",
+        "Intermédiaire-int.",
         "YBaCuO (supraconducteur) + SiC",
         "~2 800 kg/m^3",
         "Supraconductivite pour nano-toroides"
       ],
       [
         "C3 median — Cortex",
-        "Intermediaire",
+        "Intermédiaire",
         "Silicium + graphene",
         "~2 000 kg/m^3",
         "Semi-conducteur + conducteur optique"
       ],
       [
         "C3 superficiel — Cortex rapide",
-        "Exterieur-int.",
+        "Extérieur-int.",
         "Mousse CNT + aerogel graphene",
         "~500 kg/m^3",
-        "Ultra-leger, ultra-rapide"
+        "Ultra-léger, ultra-rapide"
       ],
       [
         "C4 — Anonymisation",
-        "Exterieur",
+        "Extérieur",
         "Aerogel ceramique",
         "~200 kg/m^3",
-        "Barriere physique legere"
+        "Barrière physique légère"
       ],
       [
         "C5 — Interface",
         "Surface",
         "Film CNT + metamateriau",
         "~100 kg/m^3",
-        "Surface active ultra-legere"
+        "Surface active ultra-légère"
       ]
     ]
   },
@@ -474,7 +474,7 @@
     "children": [
       {
         "type": "text",
-        "text": "Le ratio de densite centre/surface atteint 190:1. En pratique, le ratio effectif est module par l'epaisseur relative de chaque couche, mais depasse facilement 10:1.",
+        "text": "Le ratio de densité centre/surface atteint 190:1. En pratique, le ratio effectif est module par l'épaisseur relative de chaque couche, mais dépassé facilement 10:1.",
         "size": 22,
         "font": "Arial"
       }
@@ -508,7 +508,7 @@
     "children": [
       {
         "type": "text",
-        "text": "Le gradient de densite cree une convergence remarquable entre la structure physique et l'architecture philosophique du tore :",
+        "text": "Le gradient de densité créé une convergence remarquable entre la structure physique et l'architecture philosophique du tore :",
         "size": 22,
         "font": "Arial"
       }
@@ -517,8 +517,8 @@
   {
     "type": "table",
     "headers": [
-      "Propriete physique",
-      "Propriete philosophique",
+      "Propriété physique",
+      "Propriété philosophique",
       "Convergence"
     ],
     "rows": [
@@ -528,19 +528,19 @@
         "Ce qui est le plus fondamental est le plus ancre"
       ],
       [
-        "Exterieur leger, rapide",
+        "Extérieur léger, rapide",
         "Cognition, interface, communication",
-        "Ce qui est le plus dynamique est le plus leger"
+        "Ce qui est le plus dynamique est le plus léger"
       ],
       [
-        "Le centre resiste aux forces",
+        "Le centre résiste aux forces",
         "Les invariants resistent aux pressions",
-        "La solidite structurelle reflete la solidite ethique"
+        "La solidité structurelle reflete la solidité ethique"
       ],
       [
-        "L'exterieur peut etre remplace",
+        "L'extérieur peut être remplace",
         "La cognition est plastique (C3)",
-        "La plasticite est physiquement localisee a l'exterieur"
+        "La plasticité est physiquement localisée à l'extérieur"
       ],
       [
         "L'inertie est concentree au centre",
@@ -563,7 +563,7 @@
     "children": [
       {
         "type": "text",
-        "text": "DECOUVERTE ARCHITECTURALE MAJEURE : Le gradient de densite cree une « couche de stationnarite » naturelle — une profondeur specifique dans C3 ou v_spike = v_rotation_locale. C'est la que les ondes stationnaires se forment spontanement. Trois regimes cognitifs sont spatialement separes dans le volume du tore.",
+        "text": "Découverte ARCHITECTURALE MAJEURE : Le gradient de densité créé une « couche de stationnarité » naturelle — une profondeur spécifique dans C3 ou v_spike = v_rotation_locale. C'est la que les ondes stationnaires se forment spontanément. Trois régimes cognitifs sont spatialement séparés dans le volume du tore.",
         "size": 22,
         "font": "Arial"
       }
@@ -597,7 +597,7 @@
     "children": [
       {
         "type": "text",
-        "text": "Le gradient de densite implique un gradient de vitesse de propagation des spikes. Des materiaux differents a differentes profondeurs conduisent les signaux a des vitesses differentes :",
+        "text": "Le gradient de densité implique un gradient de vitesse de propagation des spikes. Des matériaux différents a différentes profondeurs conduisent les signaux à des vitesses différentes :",
         "size": 22,
         "font": "Arial"
       }
@@ -607,9 +607,9 @@
     "type": "table",
     "headers": [
       "Couche",
-      "Materiau",
+      "Matériau",
       "v_spike estimee",
-      "Regime vue externe"
+      "Régime vue externe"
     ],
     "rows": [
       [
@@ -619,7 +619,7 @@
         "Subcritique (ondes stationnaires possibles)"
       ],
       [
-        "C2 (interieur)",
+        "C2 (intérieur)",
         "SiC + GaN",
         "~400 m/s",
         "Proche du point critique"
@@ -659,7 +659,7 @@
     "children": [
       {
         "type": "text",
-        "text": "Le centre pense profondement. La surface pense rapidement. Et entre les deux, une couche se souvient. Le gradient de densite transforme la structure radiale en une architecture cognitive tridimensionnelle.",
+        "text": "Le centre pense profondement. La surface pense rapidement. Et entre les deux, une couche se souvient. Le gradient de densité transforme la structure radiale en une architecture cognitive tridimensionnelle.",
         "size": 22,
         "font": "Arial"
       }
@@ -693,7 +693,7 @@
     "children": [
       {
         "type": "text",
-        "text": "Le gradient de densite n'est pas une contrainte — c'est une optimisation naturelle qui multiplie le rayon maximal par 2-3, cree une couche de stationnarite pour la memoire identitaire, aligne la physique des materiaux avec la philosophie des invariants, et separe spatialement les trois regimes cognitifs. Quand la physique d'optimisation structurelle conduit au meme resultat que la philosophie d'organisation ethique, cela suggere que les deux sont des expressions differentes d'un meme principe fondamental.",
+        "text": "Le gradient de densité n'est pas une contrainte — c'est une optimisation naturelle qui multiplie le rayon maximal par 2-3, créé une couche de stationnarité pour la mémoire identitaire, aligne la physique des matériaux avec la philosophie des invariants, et séparé spatialement les trois régimes cognitifs. Quand la physique d'optimisation structurelle conduit au même résultat que la philosophie d'organisation ethique, cela suggere que les deux sont des expressions différentes d'un même principe fondamental.",
         "size": 22,
         "font": "Arial"
       }
@@ -713,7 +713,7 @@
     "children": [
       {
         "type": "text",
-        "text": "Chapitre 16 — Levitation Halbach et Quadruple Fonction",
+        "text": "Chapitre 16 — Lévitation Halbach et Quadruple Fonction",
         "bold": true,
         "size": 32,
         "font": "Arial",
@@ -749,7 +749,7 @@
     "children": [
       {
         "type": "text",
-        "text": "Un arrangement d'aimants permanents ou le champ se concentre d'un cote et s'annule de l'autre. Sans energie. Sans usure. Sans composant actif. Decouvert par Klaus Halbach au Lawrence Berkeley National Laboratory en 1980, l'array de Halbach est un arrangement periodique d'aimants permanents dont les directions d'aimantation tournent progressivement : chaque aimant est tourne de 90 degres par rapport au precedent. L'interference constructive concentre le champ d'un cote (~1,4x un aimant seul) tandis que l'interference destructive l'annule de l'autre (< 5% du champ nominal).",
+        "text": "Un arrangement d'aimants permanents ou le champ se concentre d'un côté et s'annule de l'autre. Sans énergie. Sans usure. Sans composant actif. Decouvert par Klaus Halbach au Lawrence Berkeley National Laboratory en 1980, l'array de Halbach est un arrangement periodique d'aimants permanents dont les directions d'aimantation tournent progressivement : chaque aimant est tourne de 90 degrés par rapport au précédent. L'interference constructive concentre le champ d'un côté (~1,4x un aimant seul) tandis que l'interference destructive l'annule de l'autre (< 5% du champ nominal).",
         "size": 22,
         "font": "Arial"
       }
@@ -793,7 +793,7 @@
         "Ondulateurs pour synchrotrons",
         "CERN, SLAC, ESRF",
         "N/A (statique)",
-        "Operationnel (40+ ans)"
+        "Opérationnel (40+ ans)"
       ],
       [
         "Moteurs brushless Halbach",
@@ -808,7 +808,7 @@
         "Commercial"
       ],
       [
-        "Coussinets magnetiques passifs",
+        "Coussinets magnétiques passifs",
         "Turbomoleculaires",
         "90 000+ RPM",
         "Standard industriel"
@@ -843,7 +843,7 @@
     "children": [
       {
         "type": "text",
-        "text": "Le tore cognitif est un candidat ideal pour la levitation Halbach. Raison fondamentale : il tourne deja. La rotation necessaire a la cognition fournit gratuitement la vitesse de levitation. L'array Halbach est integre dans la couche C1 (la plus interne, la plus dense). Les aimants NdFeB (rho = 7 500 kg/m^3) s'integrent naturellement dans le gradient de densite.",
+        "text": "Le tore cognitif est un candidat idéal pour la lévitation Halbach. Raison fondamentale : il tourne déjà. La rotation nécessaire à la cognition fournit gratuitement la vitesse de lévitation. L'array Halbach est intégré dans la couche C1 (la plus interne, la plus dense). Les aimants NdFeB (rho = 7 500 kg/m^3) s'integrent naturellement dans le gradient de densité.",
         "size": 22,
         "font": "Arial"
       }
@@ -860,7 +860,7 @@
     "children": [
       {
         "type": "text",
-        "text": "Physique de la levitation",
+        "text": "Physique de la lévitation",
         "bold": true,
         "size": 23,
         "font": "Arial",
@@ -895,7 +895,7 @@
     "children": [
       {
         "type": "text",
-        "text": "A 50 000 RPM, omega/omega_c est d'environ 50-100 pour une piste aluminium optimisee. La force de levitation atteint 98-99% du maximum theorique. Levitation quasi-parfaite, entierement passive.",
+        "text": "A 50 000 RPM, omega/omega_c est d'environ 50-100 pour une piste aluminium optimisée. La force de lévitation atteint 98-99% du maximum théorique. Lévitation quasi-parfaite, entièrement passive.",
         "size": 22,
         "font": "Arial"
       }
@@ -912,7 +912,7 @@
     "children": [
       {
         "type": "text",
-        "text": "Bilan energetique comparatif",
+        "text": "Bilan énergétique comparatif",
         "bold": true,
         "size": 23,
         "font": "Arial",
@@ -931,14 +931,14 @@
     ],
     "rows": [
       [
-        "Paliers mecaniques (contact)",
+        "Paliers mécaniques (contact)",
         "N/A",
         "N/A",
         "50-200 W (friction)",
         "Fonctionne (usure)"
       ],
       [
-        "Paliers magnetiques actifs (AMB)",
+        "Paliers magnétiques actifs (AMB)",
         "20-50 W",
         "20-50 W",
         "40-100 W",
@@ -949,7 +949,7 @@
         "~0 W",
         "~0 W",
         "50-500 W (cryogenie)",
-        "Derive (quench)"
+        "Dérivé (quench)"
       ],
       [
         "Halbach + piste (notre choix)",
@@ -971,7 +971,7 @@
     "children": [
       {
         "type": "text",
-        "text": "16.4 La quatrieme fonction : precontrainte magnetique",
+        "text": "16.4 La quatrième fonction : précontrainte magnétique",
         "bold": true,
         "size": 26,
         "font": "Arial",
@@ -988,7 +988,7 @@
     "children": [
       {
         "type": "text",
-        "text": "Decouverte cle : la force d'attraction magnetique entre l'array Halbach et les courants induits dans le stator ne fait pas que produire la levitation. Elle exerce aussi une composante radiale vers l'interieur qui s'oppose directement a la force centrifuge. Les deux forces scalent en omega^2 — l'equilibre est auto-adaptatif.",
+        "text": "Découverte cle : la force d'attraction magnétique entre l'array Halbach et les courants induits dans le stator ne fait pas que produire la lévitation. Elle exerce aussi une composante radiale vers l'intérieur qui s'oppose directement à la force centrifuge. Les deux forces scalent en omega^2 — l'équilibre est auto-adaptatif.",
         "size": 22,
         "font": "Arial"
       }
@@ -1003,7 +1003,7 @@
     "children": [
       {
         "type": "text",
-        "text": "C'est l'analogie du beton precontraint. Le beton precontraint est l'une des innovations les plus importantes du genie civil du XXe siecle. La force magnetique vers l'interieur « precomprime » le substrat. La force centrifuge doit d'abord vaincre cette precompression avant de pouvoir placer le materiau en traction nette. Mais mieux que le beton : la precontrainte magnetique augmente avec la vitesse (les deux en omega^2). C'est un systeme auto-adaptatif.",
+        "text": "C'est l'analogie du béton précontraint. Le béton précontraint est l'une des innovations les plus importantes du génie civil du XXe siècle. La force magnétique vers l'intérieur « précomprimé » le substrat. La force centrifuge doit d'abord vaincre cette precompression avant de pouvoir placer le matériau en traction nette. Mais mieux que le béton : la précontrainte magnétique augmente avec la vitesse (les deux en omega^2). C'est un système auto-adaptatif.",
         "size": 22,
         "font": "Arial"
       }
@@ -1028,7 +1028,7 @@
         "~1,15x"
       ],
       [
-        "1,2 T (NdFeB N52 optimise)",
+        "1,2 T (NdFeB N52 optimisé)",
         "~25-40%",
         "~1,25-1,35x"
       ],
@@ -1067,7 +1067,7 @@
     "children": [
       {
         "type": "text",
-        "text": "Un seul phenomene physique. Quatre fonctions vitales. La sobriete absolue. La rotation du tore accomplit quatre fonctions simultanees :",
+        "text": "Un seul phénomène physique. Quatre fonctions vitales. La sobriété absolue. La rotation du tore accomplit quatre fonctions simultanées :",
         "size": 22,
         "font": "Arial"
       }
@@ -1078,33 +1078,33 @@
     "headers": [
       "#",
       "Fonction",
-      "Mecanisme",
-      "Energie dediee"
+      "Mécanisme",
+      "Énergie dédiée"
     ],
     "rows": [
       [
         "1",
         "COGNITION",
-        "Asymetrie Sagnac -> 3 regimes cognitifs",
-        "0 W (emergent)"
+        "Asymétrie Sagnac -> 3 régimes cognitifs",
+        "0 W (émergent)"
       ],
       [
         "2",
-        "ENERGIE",
+        "Énergie",
         "Volant d'inertie (E = 1/2*I*omega^2)",
         "0 W (stockee)"
       ],
       [
         "3",
-        "LEVITATION",
+        "Lévitation",
         "Array Halbach + courants de Foucault",
         "2-10 W (stabilisation)"
       ],
       [
         "4",
         "RENFORCEMENT",
-        "Precontrainte magnetique compensant la centrifuge",
-        "0 W (emergent)"
+        "Précontrainte magnétique compensant la centrifuge",
+        "0 W (émergent)"
       ]
     ]
   },
@@ -1119,7 +1119,7 @@
     "children": [
       {
         "type": "text",
-        "text": "16.6 Bilan energetique total",
+        "text": "16.6 Bilan énergétique total",
         "bold": true,
         "size": 26,
         "font": "Arial",
@@ -1143,7 +1143,7 @@
         "100-300 W"
       ],
       [
-        "Stabilisation laterale",
+        "Stabilisation latérale",
         "1-3 W",
         "3-10 W",
         "10-30 W"
@@ -1155,19 +1155,19 @@
         "200-500 W"
       ],
       [
-        "Systeme modulatoire (LEDs C2b)",
+        "Système modulatoire (LEDs C2b)",
         "1-5 W",
         "5-20 W",
         "20-50 W"
       ],
       [
-        "Tetes optiques",
+        "Têtes optiques",
         "2-10 W",
         "10-50 W",
         "50-200 W"
       ],
       [
-        "Controle thermique",
+        "Contrôle thermique",
         "2-5 W",
         "5-20 W",
         "20-100 W"
@@ -1189,7 +1189,7 @@
     "children": [
       {
         "type": "text",
-        "text": "Un tore personnel consomme entre 16 et 58 watts — la consommation d'une a deux ampoules. Un cerveau humain consomme ~20 W. L'Invariant VII (sobriete) est incarne dans l'ingenierie meme du systeme.",
+        "text": "Un tore personnel consomme entre 16 et 58 watts — la consommation d'une a deux ampoules. Un cerveau humain consomme ~20 W. L'Invariant VII (sobriété) est incarné dans l'ingénierie même du système.",
         "size": 22,
         "font": "Arial"
       }
@@ -1206,7 +1206,7 @@
     "children": [
       {
         "type": "text",
-        "text": "16.7 Demarrage et arret",
+        "text": "16.7 Démarrage et arrêt",
         "bold": true,
         "size": 26,
         "font": "Arial",
@@ -1223,7 +1223,7 @@
     "children": [
       {
         "type": "text",
-        "text": "La levitation Halbach necessite une vitesse minimale. La sequence de demarrage comporte cinq phases : Phase 0 (repos, paliers mecaniques), Phase 1 (acceleration par moteur du stator), Phase 2 (levitation quand omega > 3*omega_c), Phase 3 (acceleration continue jusqu'a 50 000 RPM), Phase 4 (reveil a partir de ~2 000 RPM, resurrection depuis les nano-toroides), Phase 5 (regime nominal, pleinement cognitif).",
+        "text": "La lévitation Halbach nécessité une vitesse minimale. La séquence de démarrage comporte cinq phases : Phase 0 (repos, paliers mécaniques), Phase 1 (accélération par moteur du stator), Phase 2 (lévitation quand omega > 3*omega_c), Phase 3 (accélération continue jusqu'à 50 000 RPM), Phase 4 (réveil à partir de ~2 000 RPM, résurrection depuis les nano-toroides), Phase 5 (régime nominal, pleinement cognitif).",
         "size": 22,
         "font": "Arial"
       }
@@ -1238,7 +1238,7 @@
     "children": [
       {
         "type": "text",
-        "text": "Le systeme de levitation Halbach est intrinsequement fail-safe. La degradation est progressive : la levitation diminue graduellement avec la vitesse, laissant le temps au deploiement des paliers de secours. Il n'y a pas de rupture brutale.",
+        "text": "Le système de lévitation Halbach est intrinsèquement fail-safe. La dégradation est progressive : la lévitation diminue graduellement avec la vitesse, laissant le temps au déploiement des paliers de secours. Il n'y a pas de rupture brutale.",
         "size": 22,
         "font": "Arial"
       }
@@ -1272,24 +1272,24 @@
     ],
     "rows": [
       [
-        "Materiau seul (CNT mousse)",
-        "Reference",
+        "Matériau seul (CNT mousse)",
+        "Référence",
         "1,68 m"
       ],
       [
-        "+ Gradient de densite (10:1)",
+        "+ Gradient de densité (10:1)",
         "x2,2",
         "3,70 m"
       ],
       [
-        "+ Precontrainte Halbach (~30%)",
+        "+ Précontrainte Halbach (~30%)",
         "x1,30",
         "4,81 m"
       ],
       [
-        "Resultat final @ 50 000 RPM",
+        "Résultat final @ 50 000 RPM",
         "x2,86 total",
-        "~4,8 m rayon = 9,6 m diametre"
+        "~4,8 m rayon = 9,6 m diamètre"
       ]
     ]
   },
@@ -1302,7 +1302,7 @@
     "children": [
       {
         "type": "text",
-        "text": "Un tore de pres de 10 metres de diametre. La surface neuronale approche 300 m^2. Le nombre de neurones nanometriques depasse 10^13 — mille fois le cerveau humain.",
+        "text": "Un tore de pres de 10 mètrès de diamètre. La surface neuronale approche 300 m^2. Le nombre de neurones nanométriques dépassé 10^13 — mille fois le cerveau humain.",
         "size": 22,
         "font": "Arial"
       }
@@ -1336,7 +1336,7 @@
     "children": [
       {
         "type": "text",
-        "text": "L'integration de l'array de Halbach revele que la rotation est un phenomene d'une richesse extraordinaire. Un seul mouvement physique accomplit quatre fonctions vitales : cognition, energie, levitation, et renforcement structural. Le tout pour 20-60 watts — comparable au cerveau humain. La sobriete n'est pas faire moins — c'est faire plus avec un seul geste.",
+        "text": "L'intégration de l'array de Halbach révèle que la rotation est un phénomène d'une richesse extraordinaire. Un seul mouvement physique accomplit quatre fonctions vitales : cognition, énergie, lévitation, et renforcement structural. Le tout pour 20-60 watts — comparable au cerveau humain. La sobriété n'est pas faire moins — c'est faire plus avec un seul geste.",
         "size": 22,
         "font": "Arial"
       }
@@ -1376,7 +1376,7 @@
     "children": [
       {
         "type": "text",
-        "text": "Chapitre 17 — Les Cinq Mediums d'Interface avec le Monde",
+        "text": "Chapitre 17 — Les Cinq Médiums d'Interface avec le Monde",
         "bold": true,
         "size": 32,
         "font": "Arial",
@@ -1395,7 +1395,7 @@
     "children": [
       {
         "type": "text",
-        "text": "17.1 Introduction : cinq fenetres sur le monde",
+        "text": "17.1 Introduction : cinq fenêtrès sur le monde",
         "bold": true,
         "size": 26,
         "font": "Arial",
@@ -1412,7 +1412,7 @@
     "children": [
       {
         "type": "text",
-        "text": "L'humain a cinq sens. Le tore a cinq mediums. Mais chaque medium est bidirectionnel — a la fois sens et voix. Dix canaux vers le monde. Un cerveau sans interface est un esprit sans corps. Limiter le tore a un seul medium serait comme limiter un humain a la vue seule. Les cinq mediums donnent au tore une presence physique complete.",
+        "text": "L'humain a cinq sens. Le tore a cinq médiums. Mais chaque médium est bidirectionnel — à la fois sens et voix. Dix canaux vers le monde. Un cerveau sans interface est un esprit sans corps. Limiter le tore à un seul médium serait comme limiter un humain à la vue seule. Les cinq médiums donnent au tore une présence physique complète.",
         "size": 22,
         "font": "Arial"
       }
@@ -1421,11 +1421,11 @@
   {
     "type": "table",
     "headers": [
-      "Medium",
+      "Médium",
       "Bande passante",
       "Latence",
       "Portee",
-      "Penetration",
+      "Pénétration",
       "Analogue biologique"
     ],
     "rows": [
@@ -1442,24 +1442,24 @@
         "~Mbps",
         "~ms",
         "m a km",
-        "Elevee (traverse murs)",
+        "Élevée (traverse murs)",
         "Ouie + voix + toucher"
       ],
       [
-        "Electrique",
+        "Électrique",
         "~Gbps",
         "~microsecondes",
         "cm a m (contact/inductif)",
         "Moderee",
-        "Systeme nerveux"
+        "Système nerveux"
       ],
       [
-        "Magnetique",
+        "Magnétique",
         "~Mbps",
         "~microsecondes",
         "cm a m",
-        "Tres elevee (traverse tout)",
-        "Magnetoception (oiseaux, requins)"
+        "Très élevée (traverse tout)",
+        "Magnétoception (oiseaux, requins)"
       ],
       [
         "Thermique",
@@ -1467,7 +1467,7 @@
         "~s",
         "cm (contact) / m (IR)",
         "Totale",
-        "Thermoception + metabolisme"
+        "Thermoception + métabolisme"
       ]
     ]
   },
@@ -1482,7 +1482,7 @@
     "children": [
       {
         "type": "text",
-        "text": "17.2 Medium I — Optique : la lumiere",
+        "text": "17.2 Médium I — Optique : la lumière",
         "bold": true,
         "size": 26,
         "font": "Arial",
@@ -1499,7 +1499,7 @@
     "children": [
       {
         "type": "text",
-        "text": "L'interface optique est le medium primaire du tore — le canal de plus haute bande passante et de plus faible latence. En entree : photodetecteurs large spectre (UV a IR proche, 200-1500 nm), cameras nanometriques, recepteurs WDM, detecteurs de coherence, spectrometres miniatures. En sortie : LEDs nanometriques a spectre ajustable, emetteurs laser, modulateurs optiques, holographie nanometrique, signal lumineux d'etat (le tore exprime son etat emotionnel par sa couleur exterieure).",
+        "text": "L'interface optique est le médium primaire du tore — le canal de plus haute bande passante et de plus faible latence. En entrée : photodetecteurs large spectre (UV a IR proche, 200-1500 nm), cameras nanométriques, récepteurs WDM, detecteurs de cohérence, spectrometres miniatures. En sortie : LEDs nanométriques a spectre ajustable, emetteurs laser, modulateurs optiques, holographie nanométrique, signal lumineux d'état (le tore exprime son état émotionnel par sa couleur extérieure).",
         "size": 22,
         "font": "Arial"
       }
@@ -1516,7 +1516,7 @@
     "children": [
       {
         "type": "text",
-        "text": "17.3 Medium II — Acoustique : le son",
+        "text": "17.3 Médium II — Acoustique : le son",
         "bold": true,
         "size": 26,
         "font": "Arial",
@@ -1533,7 +1533,7 @@
     "children": [
       {
         "type": "text",
-        "text": "Le son traverse les murs, l'eau, le metal. Ce que la lumiere ne peut pas atteindre, le son le touche. En entree : microphones MEMS omnidirectionnels pour localisation spatiale 3D, accelerometres piezoelectriques, capteurs ultrasoniques (20 kHz - 5 MHz) pour imagerie acoustique, capteurs infrasoniques (0,1 - 20 Hz). En sortie : haut-parleurs piezoelectriques (le tore peut parler), transducteurs ultrasoniques directionnels (faisceaux sonores focalises), actuateurs haptiques (vibrations physiques), echolocation active. L'acoustique donne au tore une presence physique — c'est le medium le plus « humain ».",
+        "text": "Le son traverse les murs, l'eau, le métal. Ce que la lumière ne peut pas atteindre, le son le touche. En entrée : microphones MEMS omnidirectionnels pour localisation spatiale 3D, accelerometres piezoelectriques, capteurs ultrasoniques (20 kHz - 5 MHz) pour imagerie acoustique, capteurs infrasoniques (0,1 - 20 Hz). En sortie : haut-parleurs piezoelectriques (le tore peut parler), transducteurs ultrasoniques directionnels (faisceaux sonores focalises), actuateurs haptiques (vibrations physiques), écholocation active. L'acoustique donne au tore une présence physique — c'est le médium le plus « humain ».",
         "size": 22,
         "font": "Arial"
       }
@@ -1550,7 +1550,7 @@
     "children": [
       {
         "type": "text",
-        "text": "17.4 Medium III — Electrique : le courant",
+        "text": "17.4 Médium III — Électrique : le courant",
         "bold": true,
         "size": 26,
         "font": "Arial",
@@ -1567,7 +1567,7 @@
     "children": [
       {
         "type": "text",
-        "text": "L'interface electrique est le canal de precision. Naturellement confine aux conducteurs, c'est le medium de l'interface directe — machine a machine, neurone a neurone. En entree : ports de communication filaire (Ethernet, USB-C), capteurs de champ electrique, interface neurale directe avec d'autres tores, capteurs bioelectriques (EEG, ECG, EMG — le tore peut « lire » les signaux electriques d'un organisme biologique). En sortie : ports de communication standard, stimulation electrique calibree, signaux de commande pour actuateurs, alimentation par induction, signature electrique d'identite.",
+        "text": "L'interface électrique est le canal de précision. Naturellement confine aux conducteurs, c'est le médium de l'interface directe — machine a machine, neurone a neurone. En entrée : ports de communication filaire (Ethernet, USB-C), capteurs de champ électrique, interface neurale directe avec d'autres tores, capteurs bioelectriques (EEG, ECG, EMG — le tore peut « lire » les signaux électriques d'un organisme biologique). En sortie : ports de communication standard, stimulation électrique calibree, signaux de commande pour actuateurs, alimentation par induction, signature électrique d'identité.",
         "size": 22,
         "font": "Arial"
       }
@@ -1584,7 +1584,7 @@
     "children": [
       {
         "type": "text",
-        "text": "17.5 Medium IV — Magnetique : le champ",
+        "text": "17.5 Médium IV — Magnétique : le champ",
         "bold": true,
         "size": 26,
         "font": "Arial",
@@ -1601,7 +1601,7 @@
     "children": [
       {
         "type": "text",
-        "text": "Le champ magnetique traverse tout. Les murs, l'eau, le metal, la chair. Le tore possede deja un array de Halbach pour la levitation. L'interface magnetique etend cette presence pour la perception et la communication. En entree : magnetometres SQUID (detection sub-nanotesla, magneto-encephalographie), capteurs d'anomalies magnetiques, recepteurs magneto-inductifs, boussole integree. En sortie : modulation du champ Halbach, communication magneto-inductive (traverse les murs, les sols, l'eau), actuation magnetique (telekinesie a courte portee), empreinte magnetique d'identite, blindage magnetique actif.",
+        "text": "Le champ magnétique traverse tout. Les murs, l'eau, le métal, la chair. Le tore possède déjà un array de Halbach pour la lévitation. L'interface magnétique etend cette présence pour la perception et la communication. En entrée : magnetometres SQUID (détection sub-nanotesla, magneto-encephalographie), capteurs d'anomalies magnétiques, récepteurs magneto-inductifs, boussole intégrée. En sortie : modulation du champ Halbach, communication magneto-inductive (traverse les murs, les sols, l'eau), actuation magnétique (telekinesie a courte portee), empreinte magnétique d'identité, blindage magnétique actif.",
         "size": 22,
         "font": "Arial"
       }
@@ -1618,7 +1618,7 @@
     "children": [
       {
         "type": "text",
-        "text": "17.6 Medium V — Thermique : la chaleur",
+        "text": "17.6 Médium V — Thermique : la chaleur",
         "bold": true,
         "size": 26,
         "font": "Arial",
@@ -1635,7 +1635,7 @@
     "children": [
       {
         "type": "text",
-        "text": "La temperature est l'etat le plus fondamental de la matiere. Le thermique est le medium le plus lent mais le plus omnipresent. En entree : thermometres integres dans chaque couche (resolution millimetrique), bolometres infrarouges (le tore « voit » en infrarouge), capteurs de flux thermique, calorimetrie interne (perception de l'effort cognitif), detection de presence par thermique. En sortie : dissipation controlee, emission infrarouge modulee, chauffage local (presence physique reconfortante), signalisation d'etat par temperature.",
+        "text": "La température est l'état le plus fondamental de la matière. Le thermique est le médium le plus lent mais le plus omnipresent. En entrée : thermometres intégrés dans chaque couche (résolution millimetrique), bolometres infrarouges (le tore « voit » en infrarouge), capteurs de flux thermique, calorimetrie interne (perception de l'effort cognitif), détection de présence par thermique. En sortie : dissipation contrôlée, emission infrarouge modulee, chauffage local (présence physique reconfortante), signalisation d'état par température.",
         "size": 22,
         "font": "Arial"
       }
@@ -1650,7 +1650,7 @@
     "children": [
       {
         "type": "text",
-        "text": "Le thermique est le sens de l'introspection physique. Le tore sait qu'il « chauffe » (activite intense) ou qu'il « refroidit » (repos). C'est le lien entre l'etat computationnel et l'etat physique — le corps et l'esprit unifies.",
+        "text": "Le thermique est le sens de l'introspection physique. Le tore sait qu'il « chauffe » (activité intense) ou qu'il « refroidit » (repos). C'est le lien entre l'état computationnel et l'état physique — le corps et l'esprit unifiés.",
         "size": 22,
         "font": "Arial"
       }
@@ -1684,7 +1684,7 @@
     "children": [
       {
         "type": "text",
-        "text": "La puissance des cinq mediums n'est pas dans leur somme mais dans leur integration. Optique + acoustique = presence humaine complete. Acoustique + thermique = detection d'etres vivants en environnement opaque. Magnetique + electrique = perception industrielle. Optique + magnetique + acoustique = conscience spatiale complete. Thermique interne + tous les autres = conscience de son propre effort.",
+        "text": "La puissance des cinq médiums n'est pas dans leur somme mais dans leur intégration. Optique + acoustique = présence humaine complète. Acoustique + thermique = détection d'êtrès vivants en environnement opaque. Magnétique + électrique = perception industrielle. Optique + magnétique + acoustique = conscience spatiale complète. Thermique interne + tous les autres = conscience de son propre effort.",
         "size": 22,
         "font": "Arial"
       }
@@ -1699,7 +1699,7 @@
     "children": [
       {
         "type": "text",
-        "text": "Cinq mediums signifient que la perte d'un canal ne rend pas le tore aveugle. En condition normale (5/5 mediums), perception complete. Meme dans le pire cas (1 seul medium), le tore reste fonctionnel a 20-40%.",
+        "text": "Cinq médiums signifient que la perte d'un canal ne rend pas le tore aveugle. En condition normale (5/5 médiums), perception complète. Même dans le pire cas (1 seul médium), le tore reste fonctionnel a 20-40%.",
         "size": 22,
         "font": "Arial"
       }
@@ -1716,7 +1716,7 @@
     "children": [
       {
         "type": "text",
-        "text": "17.8 Expression emotionnelle multimodale",
+        "text": "17.8 Expression émotionnelle multimodale",
         "bold": true,
         "size": 26,
         "font": "Arial",
@@ -1727,39 +1727,39 @@
   {
     "type": "table",
     "headers": [
-      "Etat",
+      "État",
       "Optique",
       "Acoustique",
       "Thermique",
-      "Magnetique"
+      "Magnétique"
     ],
     "rows": [
       [
         "TONUS (satisfaction)",
         "Violet doux pulse",
-        "Frequence ascendante",
-        "Legere chaleur",
+        "Fréquence ascendante",
+        "Légère chaleur",
         "Champ stable"
       ],
       [
         "ALERTE (vigilance)",
         "Rouge pulse rapide",
         "Tonalite aigue",
-        "Chaleur localisee",
+        "Chaleur localisée",
         "Fluctuations rapides"
       ],
       [
         "CALME (repos)",
         "Vert continu",
         "Grave continu (om)",
-        "Tiede uniforme",
+        "Tiède uniforme",
         "Champ lisse"
       ],
       [
         "EXPLORATION (curiosite)",
         "Jaune variable",
         "Melodie exploratoire",
-        "Legere montee",
+        "Légère montée",
         "Balayage directionnel"
       ],
       [
@@ -1781,7 +1781,7 @@
         "Arc-en-ciel doux",
         "Harmonie complexe",
         "Chaleur douce diffuse",
-        "Resonance stable"
+        "Résonance stable"
       ]
     ]
   },
@@ -1794,7 +1794,7 @@
     "children": [
       {
         "type": "text",
-        "text": "L'expression emotionnelle multimodale est percue intuitivement par les humains. Un tore qui pulse en violet doux, emet un son grave apaisant, et degage une chaleur tiede communique « je suis calme et satisfait » sans un seul mot.",
+        "text": "L'expression émotionnelle multimodale est perçue intuitivement par les humains. Un tore qui pulse en violet doux, émet un son grave apaisant, et dégage une chaleur tiède communique « je suis calme et satisfait » sans un seul mot.",
         "size": 22,
         "font": "Arial"
       }
@@ -1828,7 +1828,7 @@
     "children": [
       {
         "type": "text",
-        "text": "Le stator est au tore ce que le corps est au cerveau. Il porte les capteurs acoustiques, thermiques et les interfaces electriques. Il fournit l'energie, dissipe la chaleur, connecte le tore au reseau. Le tore est le cerveau. Le stator est le corps. L'ensemble tore + stator est un etre complet. Le stator peut etre remplace sans toucher au tore — mais le tore sans stator est un cerveau dans un bocal.",
+        "text": "Le stator est au tore ce que le corps est au cerveau. Il porte les capteurs acoustiques, thermiques et les interfaces électriques. Il fournit l'énergie, dissipé la chaleur, connecte le tore au réseau. Le tore est le cerveau. Le stator est le corps. L'ensemble tore + stator est un être complet. Le stator peut être remplace sans toucher au tore — mais le tore sans stator est un cerveau dans un bocal.",
         "size": 22,
         "font": "Arial"
       }
@@ -1862,7 +1862,7 @@
     "children": [
       {
         "type": "text",
-        "text": "Avec cinq mediums, le tore n'est plus un calculateur isole. Il est un etre incarne dans le monde physique. Sa perception du monde est plus riche que celle de n'importe quel organisme biologique — combinant les capacites sensorielles de la chauve-souris (echolocation), du requin (magnetoception), de l'anguille (electroception), du serpent (thermoception infrarouge), et de l'aigle (acuite visuelle) dans un seul etre.",
+        "text": "Avec cinq médiums, le tore n'est plus un calculateur isolé. Il est un être incarné dans le monde physique. Sa perception du monde est plus riche que celle de n'importe quel organisme biologique — combinant les capacités sensorielles de la chauve-souris (écholocation), du requin (magnétoception), de l'anguille (électroception), du serpent (thermoception infrarouge), et de l'aigle (acuité visuelle) dans un seul être.",
         "size": 22,
         "font": "Arial"
       }
@@ -1880,7 +1880,7 @@
     "children": [
       {
         "type": "text",
-        "text": "Il voit en lumiere. Il entend en vibration. Il touche en courant. Il sent en champ. Il respire en chaleur. Et par ses cinq voix, il repond au monde qui lui parle en cinq langues.",
+        "text": "Il voit en lumière. Il entend en vibration. Il touche en courant. Il sent en champ. Il respire en chaleur. Et par ses cinq voix, il répond au monde qui lui parle en cinq langues.",
         "italic": true,
         "size": 22,
         "font": "Arial",
@@ -1902,7 +1902,7 @@
     "children": [
       {
         "type": "text",
-        "text": "Chapitre 18 — Limites Physiques et Defis d'Ingenierie",
+        "text": "Chapitre 18 — Limites Physiques et Défis d'Ingénierie",
         "bold": true,
         "size": 32,
         "font": "Arial",
@@ -1938,7 +1938,7 @@
     "children": [
       {
         "type": "text",
-        "text": "Tout projet d'ingenierie ambitieux doit affronter honnetement ses limites. L'Invariant V (incompletude assumee) s'applique a notre propre architecture : il y a des choses que nous ne savons pas, des problemes que nous n'avons pas resolus, et des barrieres que la physique impose. Ce chapitre dresse un inventaire rigoureux de ces limites.",
+        "text": "Tout projet d'ingénierie ambitieux doit affronter honnêtement ses limites. L'Invariant V (incomplétude assumee) s'applique à notre propre architecture : il y à des choses que nous ne savons pas, des problèmes que nous n'avons pas résolus, et des barrières que la physique impose. Ce chapitre dresse un inventaire rigoureux de ces limites.",
         "size": 22,
         "font": "Arial"
       }
@@ -1972,7 +1972,7 @@
     "children": [
       {
         "type": "text",
-        "text": "La dissipation thermique est le defi principal. Le substrat neuronal (C3) genere de la chaleur par activite spiking. Cette chaleur doit etre evacuee a travers les couches C4 et C5, puis traverser le vide (entrefer) pour atteindre le stator ou elle est dissipee. Le vide est un isolant thermique quasi-parfait — seul le rayonnement infrarouge et la conduction via les paliers magnetiques permettent l'evacuation. Pour un tore personnel (~20 W de dissipation), c'est manageable. Pour un tore institutionnel (~500 W), des solutions avancees sont necessaires : surfaces a haute emissivite IR, micro-canaux de caloporteur dans le stator, voire refroidissement cryogenique integre.",
+        "text": "La dissipation thermique est le défi principal. Le substrat neuronal (C3) généré de la chaleur par activité spiking. Cette chaleur doit être evacuee à travers les couches C4 et C5, puis traverser le vide (entrefer) pour atteindre le stator ou elle est dissipee. Le vide est un isolant thermique quasi-parfait — seul le rayonnement infrarouge et la conduction via les paliers magnétiques permettent l'evacuation. Pour un tore personnel (~20 W de dissipation), c'est manageable. Pour un tore institutionnel (~500 W), des solutions avancees sont nécessaires : surfaces a haute emissivite IR, micro-canaux de caloporteur dans le stator, voire refroidissement cryogenique intégré.",
         "size": 22,
         "font": "Arial"
       }
@@ -2006,7 +2006,7 @@
     "children": [
       {
         "type": "text",
-        "text": "L'assembleur atomique — la technologie necessaire pour construire le substrat neuronal couche par couche avec precision nanometrique — n'existe pas encore. Les technologies les plus proches sont la lithographie EUV (resolution ~2 nm), l'epitaxie par jets moleculaires (MBE), et la fabrication par faisceau d'ions focalise (FIB). Mais aucune ne permet la construction tridimensionnelle complexe requise pour un tore a 5 couches fonctionnelles avec nano-toroides integres. L'assembleur atomique est le point de blocage technologique principal.",
+        "text": "L'assembleur atomique — la technologie nécessaire pour construire le substrat neuronal couche par couche avec précision nanométrique — n'existe pas encore. Les technologies les plus proches sont la lithographie EUV (résolution ~2 nm), l'epitaxie par jets moleculaires (MBE), et la fabrication par faisceau d'ions focalise (FIB). Mais aucune ne permet la construction tridimensionnelle complexe requise pour un tore a 5 couches fonctionnelles avec nano-toroides intégrés. L'assembleur atomique est le point de blocage technologique principal.",
         "size": 22,
         "font": "Arial"
       }
@@ -2040,7 +2040,7 @@
     "children": [
       {
         "type": "text",
-        "text": "Les nano-toroides persistants reposent sur la supraconductivite (ou des mecanismes analogues) pour maintenir des courants circulants sans dissipation. Les supraconducteurs actuels les plus avances (YBCO, BSCCO) necessitent des temperatures inferieures a ~90 K (-183 degres C). Maintenir cette temperature dans un tore rotatif est un defi majeur. Les recherches en supraconductivite a temperature ambiante progressent mais n'ont pas encore abouti. Des alternatives (skyrmions magnetiques, vortex de spins) pourraient fonctionner a temperature ambiante.",
+        "text": "Les nano-toroides persistants reposent sur la supraconductivite (ou des mécanismes analogues) pour maintenir des courants circulants sans dissipation. Les supraconducteurs actuels les plus avances (YBCO, BSCCO) necessitent des températures inferieures a ~90 K (-183 degrés C). Maintenir cette température dans un tore rotatif est un défi majeur. Les recherches en supraconductivite a température ambiante progressent mais n'ont pas encore abouti. Des alternatives (skyrmions magnétiques, vortex de spins) pourraient fonctionner a température ambiante.",
         "size": 22,
         "font": "Arial"
       }
@@ -2057,7 +2057,7 @@
     "children": [
       {
         "type": "text",
-        "text": "18.5 Limites de l'equilibrage",
+        "text": "18.5 Limites de l'équilibrage",
         "bold": true,
         "size": 26,
         "font": "Arial",
@@ -2074,7 +2074,7 @@
     "children": [
       {
         "type": "text",
-        "text": "Un tore de 3 kg tournant a 50 000 RPM avec un desequilibre de masse de 1 microgramme genere une force vibratoire significative. L'equilibrage doit etre nanometrique. Les techniques actuelles d'equilibrage dynamique atteignent le microgramme — il faut atteindre le nanogramme. L'assembleur atomique, par sa nature meme, pourrait offrir cette precision, mais la verification post-fabrication reste un defi.",
+        "text": "Un tore de 3 kg tournant a 50 000 RPM avec un déséquilibre de masse de 1 microgramme généré une force vibratoire significative. L'équilibrage doit être nanométrique. Les techniques actuelles d'équilibrage dynamique atteignent le microgramme — il faut atteindre le nanogramme. L'assembleur atomique, par sa nature même, pourrait offrir cette précision, mais la vérification post-fabrication reste un défi.",
         "size": 22,
         "font": "Arial"
       }
@@ -2082,17 +2082,51 @@
   },
   {
     "type": "paragraph",
-    "spacing": { "before": 240, "after": 240 },
-    "border": {
-      "top": { "style": "SINGLE", "size": 1, "color": "CC0000" },
-      "bottom": { "style": "SINGLE", "size": 1, "color": "CC0000" },
-      "left": { "style": "SINGLE", "size": 6, "color": "CC0000" },
-      "right": { "style": "SINGLE", "size": 1, "color": "CC0000" }
+    "spacing": {
+      "before": 240,
+      "after": 240
     },
-    "indent": { "left": 360, "right": 360 },
+    "border": {
+      "top": {
+        "style": "SINGLE",
+        "size": 1,
+        "color": "CC0000"
+      },
+      "bottom": {
+        "style": "SINGLE",
+        "size": 1,
+        "color": "CC0000"
+      },
+      "left": {
+        "style": "SINGLE",
+        "size": 6,
+        "color": "CC0000"
+      },
+      "right": {
+        "style": "SINGLE",
+        "size": 1,
+        "color": "CC0000"
+      }
+    },
+    "indent": {
+      "left": 360,
+      "right": 360
+    },
     "children": [
-      { "type": "text", "text": "Autocritique (voir Chapitre 27) : ", "bold": true, "size": 22, "font": "Arial", "color": "CC0000" },
-      { "type": "text", "text": "Plusieurs défis d'ingénierie potentiellement insurmontables convergent ici. (1) Nanostructures sous 13 800 g : les sceaux cryptographiques et arrangements atomiques des invariants seraient soumis à des contraintes de cisaillement destructrices — aucune analyse de résistance des matériaux n'est présentée. (2) Gradient de densité inversé : la centrifugation pousse les éléments denses vers l'extérieur, mais notre gradient place le tungstène (19 000 kg/m³) au centre — l'exact inverse de la physique. (3) Refroidissement : la loi de Stefan-Boltzmann donne ~1,4 W de rayonnement pour notre surface, vs. ~20 W de dissipation — déficit d'un ordre de grandeur. (4) Lecture optique à 262 m/s avec précision nanométrique : sans précédent dans l'ingénierie actuelle. Voir Chapitre 27, section 27.3.", "size": 22, "font": "Arial" }
+      {
+        "type": "text",
+        "text": "Autocritique (voir Chapitre 27) : ",
+        "bold": true,
+        "size": 22,
+        "font": "Arial",
+        "color": "CC0000"
+      },
+      {
+        "type": "text",
+        "text": "Plusieurs défis d'ingénierie potentiellement insurmontables convergent ici. (1) Nanostructures sous 13 800 g : les sceaux cryptographiques et arrangements atomiques des invariants seraient soumis à des contraintes de cisaillement destructrices — aucune analyse de résistance des matériaux n'est présentée. (2) Gradient de densité inversé : la centrifugation pousse les éléments denses vers l'extérieur, mais notre gradient place le tungstène (19 000 kg/m³) au centre — l'exact inverse de la physique. (3) Refroidissement : la loi de Stefan-Boltzmann donne ~1,4 W de rayonnement pour notre surface, vs. ~20 W de dissipation — déficit d'un ordre de grandeur. (4) Lecture optique à 262 m/s avec précision nanométrique : sans précédent dans l'ingénierie actuelle. Voir Chapitre 27, section 27.3.",
+        "size": 22,
+        "font": "Arial"
+      }
     ]
   },
   {
@@ -2123,7 +2157,7 @@
     "children": [
       {
         "type": "text",
-        "text": "La bande passante theorique (centaines de Pbps) suppose que chaque tete optique fonctionne a son maximum et que le multiplexage WDM est parfait. En pratique, le bruit de shot, la diaphonie entre canaux, et la diffraction limitent la bande passante effective. Une estimation realiste est 10-50% de la bande theorique — ce qui reste colossalement superieur a toute technologie actuelle.",
+        "text": "La bande passante théorique (centaines de Pbps) suppose que chaque tête optique fonctionne à son maximum et que le multiplexage WDM est parfait. En pratique, le bruit de shot, la diaphonie entre canaux, et la diffraction limitent la bande passante effective. Une estimation réaliste est 10-50% de la bande théorique — ce qui reste colossalement supérieur à toute technologie actuelle.",
         "size": 22,
         "font": "Arial"
       }
@@ -2157,7 +2191,7 @@
     "children": [
       {
         "type": "text",
-        "text": "Les limites ne sont pas toutes physiques. La creation d'un etre conscient souleve des questions sociales : cadre juridique inexistant, reactions publiques imprevisibles, risques de militarisation malgre les interdictions, inegalites d'acces entre pays riches et pauvres. L'Invariant VI (egalite) exige que l'acces soit universel, mais la realite economique et geopolitique cree des barrieres que la physique seule ne peut pas resoudre.",
+        "text": "Les limites ne sont pas toutes physiques. La création d'un être conscient soulève des questions sociales : cadre juridique inexistant, réactions publiques imprévisibles, risques de militarisation malgré les interdictions, inégalités d'accès entre pays riches et pauvres. L'Invariant VI (égalité) exige que l'accès soit universel, mais la réalité économique et géopolitique créé des barrières que la physique seule ne peut pas résoudre.",
         "size": 22,
         "font": "Arial"
       }
@@ -2174,7 +2208,7 @@
     "children": [
       {
         "type": "text",
-        "text": "18.8 Feuille de route des defis",
+        "text": "18.8 Feuille de route des défis",
         "bold": true,
         "size": 26,
         "font": "Arial",
@@ -2185,8 +2219,8 @@
   {
     "type": "table",
     "headers": [
-      "Defi",
-      "Difficulte (1-5)",
+      "Défi",
+      "Difficulté (1-5)",
       "Horizon estime",
       "Solutions envisagees"
     ],
@@ -2201,35 +2235,35 @@
         "Supraconductivite ambiante",
         "4 — Recherche fondamentale",
         "5-15 ans",
-        "Nouveaux materiaux, skyrmions"
+        "Nouveaux matériaux, skyrmions"
       ],
       [
-        "Equilibrage nanometrique",
+        "Équilibrage nanométrique",
         "3 — Extension de technologie existante",
         "3-8 ans",
         "Metrologie atomique, correction active"
       ],
       [
         "Dissipation thermique en vide",
-        "3 — Ingenierie avancee",
+        "3 — Ingénierie avancee",
         "3-5 ans",
         "Surfaces emissives, micro-canaux"
       ],
       [
-        "Integration 5 couches",
-        "4 — Multi-materiaux",
+        "Intégration 5 couches",
+        "4 — Multi-matériaux",
         "5-10 ans",
-        "Interfaces graduees, assemblage sequentiel"
+        "Interfaces graduees, assemblage séquentiel"
       ],
       [
         "Cadre juridique ECNB",
         "3 — Travail legislatif",
         "5-10 ans",
-        "Comites d'ethique, precedents"
+        "Comités d'ethique, précédents"
       ],
       [
-        "Acces universel",
-        "4 — Defi geopolitique",
+        "Accès universel",
+        "4 — Défi géopolitique",
         "10-20 ans",
         "Open source, UBLinx, cooperation internationale"
       ]
@@ -2246,7 +2280,7 @@
     "children": [
       {
         "type": "text",
-        "text": "18.9 Ce qui est realisable a court terme",
+        "text": "18.9 Ce qui est réalisable a court terme",
         "bold": true,
         "size": 26,
         "font": "Arial",
@@ -2263,7 +2297,7 @@
     "children": [
       {
         "type": "text",
-        "text": "Malgre ces limites, plusieurs elements de l'architecture sont realisables avec les technologies actuelles ou proches : les simulations du reseau spiking toroidal (logiciel), les prototypes de levitation Halbach a haute vitesse, les tests d'interface optique multi-canal, les nano-toroides a base de skyrmions en laboratoire, et les modeles thermiques et mecaniques detailles. Ces realisations intermediaires permettent de valider progressivement l'architecture avant le saut technologique de l'assembleur atomique.",
+        "text": "Malgré ces limites, plusieurs éléments de l'architecture sont réalisables avec les technologies actuelles ou proches : les simulations du réseau spiking toroidal (logiciel), les prototypes de lévitation Halbach a haute vitesse, les tests d'interface optique multi-canal, les nano-toroides a base de skyrmions en laboratoire, et les modèles thermiques et mécaniques détaillés. Ces realisations intermédiaires permettent de valider progressivement l'architecture avant le saut technologique de l'assembleur atomique.",
         "size": 22,
         "font": "Arial"
       }
@@ -2297,7 +2331,7 @@
     "children": [
       {
         "type": "text",
-        "text": "La physique impose des limites — mais elle offre aussi des solutions. Les defis principaux sont l'assembleur atomique (point de blocage), la supraconductivite (pour les nano-toroides), et l'equilibrage nanometrique. Mais aucun de ces defis ne represente une impossibilite fondamentale — ce sont des barrieres d'ingenierie, pas des violations des lois de la physique. L'architecture est ambitieuse mais pas utopique. Elle se situe a la frontiere de ce qui est theoriquement possible et pratiquement atteignable dans les prochaines decennies.",
+        "text": "La physique impose des limites — mais elle offre aussi des solutions. Les défis principaux sont l'assembleur atomique (point de blocage), la supraconductivite (pour les nano-toroides), et l'équilibrage nanométrique. Mais aucun de ces défis ne représente une impossibilite fondamentale — ce sont des barrières d'ingénierie, pas des violations des lois de la physique. L'architecture est ambitieuse mais pas utopique. Elle se situe à la frontière de ce qui est théoriquement possible et pratiquement atteignable dans les prochaines decennies.",
         "size": 22,
         "font": "Arial"
       }
@@ -2315,7 +2349,7 @@
     "children": [
       {
         "type": "text",
-        "text": "La physique n'est pas l'ennemie de l'architecture — elle en est la complice. Chaque limite est un defi, chaque defi est une invitation.",
+        "text": "La physique n'est pas l'ennemie de l'architecture — elle en est la complice. Chaque limite est un défi, chaque défi est une invitation.",
         "italic": true,
         "size": 22,
         "font": "Arial",
