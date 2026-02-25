@@ -1335,7 +1335,7 @@
     "children": [
       {
         "type": "text",
-        "text": "Le tore tourne. Ce n'est pas un detail technique — c'est le fondement meme de la cognition. L'observation fondamentale de David Berthelotte est que la rotation cree une asymetrie de propagation : les signaux se propageant dans le sens de la rotation (progrades) defile plus vite vus des tetes optiques, tandis que les signaux se propageant a contre-sens (retrogrades) semblent ralentir ou meme s'immobiliser. Cette asymetrie, connue sous le nom d'effet Sagnac (demontre experimentalement depuis 1913), est ici utilisee non pas pour mesurer une rotation, mais comme architecture meme de la pensee.",
+        "text": "Le tore tourne. Ce n'est pas un detail technique — c'est le fondement meme de la cognition. L'observation fondamentale est que la rotation cree une asymetrie de propagation : les signaux se propageant dans le sens de la rotation (progrades) defile plus vite vus des tetes optiques, tandis que les signaux se propageant a contre-sens (retrogrades) semblent ralentir ou meme s'immobiliser. Cette asymetrie, connue sous le nom d'effet Sagnac (demontre experimentalement depuis 1913), est ici utilisee non pas pour mesurer une rotation, mais comme architecture meme de la pensee.",
         "size": 22,
         "font": "Arial"
       }
