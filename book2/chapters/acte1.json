@@ -678,7 +678,7 @@
   {
     "type": "paragraph",
     "style": "SceneText",
-    "text": "Un atelier de travail. Québec, Canada, nuit. Je suis seul avec mes calculs sur deux écrans. Un tableur, un onglet de simulation, un article en PDF sur les propriétés des ferrofluides supercritiques. J'ai passé l'après-midi à recalculer les projections de rendement pour la quatrième configuration du système. Les chiffres sont bons. Trop bons, peut-être. Je relève la tête et regarde le mur devant moi. Quelque chose me dérange. Ce n'est pas une erreur de calcul — j'ai vérifié deux fois, trois fois. C'est quelque chose d'autre, de plus difficile à quantifier : l'intuition que les simulations capturent la physique de chaque composante mais pas nécessairement leur comportement intégré dans un système réel. Les simulations supposent des interfaces parfaites, des températures uniformes, des matériaux idéaux. La réalité a des joints, des gradients, des impuretés, des surprises. J'ouvre un nouveau document et commence à taper : « Ce que je ne sais pas encore. »"
+    "text": "Un atelier de travail. Québec, Canada, nuit. Je suis seul avec mes calculs sur trois écrans. Un tableur, un onglet de simulation, un article en PDF sur les propriétés des ferrofluides supercritiques. J'ai passé l'après-midi à recalculer les projections de rendement pour la quatrième configuration du système. Les chiffres sont bons. Trop bons, peut-être. Je relève la tête et regarde le mur devant moi. Quelque chose me dérange. Ce n'est pas une erreur de calcul — j'ai vérifié deux fois, trois fois. C'est quelque chose d'autre, de plus difficile à quantifier : l'intuition que les simulations capturent la physique de chaque composante mais pas nécessairement leur comportement intégré dans un système réel. Les simulations supposent des interfaces parfaites, des températures uniformes, des matériaux idéaux. La réalité a des joints, des gradients, des impuretés, des surprises. J'ouvre un nouveau document et commence à taper : « Ce que je ne sais pas encore. »"
   },
   {
     "type": "paragraph",
@@ -698,7 +698,7 @@
   {
     "type": "paragraph",
     "style": "Quote",
-    "text": "« Ce que je ne sais pas, c'est ma liste de travail. Ce que j'invente pour cacher ce que je ne sais pas, c'est mon péché d'inventeur. » — D.B., notes de travail 2024"
+    "text": "« Ce que je ne sais pas, c'est ma liste de travail. Ce que j'invente pour cacher ce que je ne sais pas, c'est mon péché d'inventeur. »"
   },
   {
     "type": "paragraph",
@@ -778,7 +778,7 @@
   {
     "type": "paragraph",
     "style": "BodyText",
-    "text": "Claude Vézina à Bellechasse ne sait pas comment ses tomates cerises ont poussé au mois de février. Pas dans les détails de la thermodynamique magnétique. Il sait que le système marche — dans la projection narrative de ce livre. Il sait que ses tomates sont là, rouges, dans le froid québécois. Et il sait que la prochaine fois que le verglas s'abattra sur Bellechasse, sa famille aura chaud, ses plants seront protégés, et ses voisins, peut-être, viendront se chauffer chez lui. Pas parce que les équations de Carnot sont résolues à 90% de rendement. Parce que le principe est là, fonctionnel, construit sur de la physique réelle, et que quelque part entre l'idée de Berthelotte en 2024 et la serre de Vézina en 2031, des ingénieurs, des physiciens, des bricoleurs de génie ont comblé les espaces entre ce qui était théorisé et ce qui était construit. C'est ainsi que fonctionne l'innovation. Pas d'un coup, mais par accumulation de gens honnêtes qui travaillent sur des pièces d'un puzzle que quelqu'un a eu le courage de dessiner entier."
+    "text": "Claude Vézina à Bellechasse ne sait pas comment ses tomates cerises ont poussé au mois de février. Pas dans les détails de la thermodynamique magnétique. Il sait que le système marche — dans la projection narrative de ce livre. Il sait que ses tomates sont là, rouges, dans le froid québécois. Et il sait que la prochaine fois que le verglas s'abattra sur Bellechasse, sa famille aura chaud, ses plants seront protégés, et ses voisins, peut-être, viendront se chauffer chez lui. Pas parce que les équations de Carnot sont résolues à 90% de rendement. Parce que le principe est là, fonctionnel, construit sur de la physique réelle, et que quelque part entre l'idée de Berthelotte en 2025 et la serre de Vézina en 2031, des ingénieurs, des physiciens, des bricoleurs de génie ont comblé les espaces entre ce qui était théorisé et ce qui était construit. C'est ainsi que fonctionne l'innovation. Pas d'un coup, mais par accumulation de gens honnêtes qui travaillent sur des pièces d'un puzzle que quelqu'un a eu le courage de dessiner entier."
   },
   {
     "type": "paragraph",
