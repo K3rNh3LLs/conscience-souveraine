@@ -727,7 +727,7 @@
     "children": [
       {
         "type": "text",
-        "text": "Ces trois modules forment un triangle fonctionnel avec des boucles d'interaction bidirectionnelles. La perception alimente la mémoire (bottom-up), mais la mémoire influence aussi la perception (top-down) : nous percevons ce que nous nous attendons à percevoir, un phénomène bien documenté en psychologie cognitive sous le nom de « perception prédictive ». L'attention modulé ce flux : elle amplifie les signaux attendus et atténue les signaux inattendus, créant un filtre dynamique qui optimise le rapport signal/bruit.",
+        "text": "Ces trois modules forment un triangle fonctionnel avec des boucles d'interaction bidirectionnelles. La perception alimente la mémoire (bottom-up), mais la mémoire influence aussi la perception (top-down) : nous percevons ce que nous nous attendons à percevoir, un phénomène bien documenté en psychologie cognitive sous le nom de « perception prédictive ». L'attention module ce flux : elle amplifie les signaux attendus et atténue les signaux inattendus, créant un filtre dynamique qui optimise le rapport signal/bruit.",
         "size": 22,
         "font": "Arial"
       }

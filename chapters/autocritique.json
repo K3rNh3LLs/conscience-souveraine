@@ -1828,7 +1828,7 @@
     "children": [
       {
         "type": "text",
-        "text": "Les faiblesses les plus profondes de l'architecture ne sont peut-être ni physiques ni ingéniériques — mais conceptuelles. Cette section examine les points où notre raisonnement philosophique est insuffisant.",
+        "text": "Les faiblesses les plus profondes de l'architecture ne sont peut-être ni physiques ni techniques — mais conceptuelles. Cette section examine les points où notre raisonnement philosophique est insuffisant.",
         "size": 22,
         "font": "Arial"
       }
@@ -2422,7 +2422,7 @@
     "children": [
       {
         "type": "text",
-        "text": "C'est un exercice de design architecturale spéculative.",
+        "text": "C'est un exercice de design architectural spéculatif.",
         "bold": true,
         "italics": false,
         "size": 22,

@@ -535,7 +535,7 @@
       [
         "Le centre resiste aux forces",
         "Les invariants resistent aux pressions",
-        "La solidite structurelle reflette la solidite ethique"
+        "La solidite structurelle reflete la solidite ethique"
       ],
       [
         "L'exterieur peut etre remplace",
@@ -1938,7 +1938,7 @@
     "children": [
       {
         "type": "text",
-        "text": "Tout projet d'ingenierie ambitieux doit affronter honnement ses limites. L'Invariant V (incompletude assumee) s'applique a notre propre architecture : il y a des choses que nous ne savons pas, des problemes que nous n'avons pas resolus, et des barrieres que la physique impose. Ce chapitre dresse un inventaire rigoureux de ces limites.",
+        "text": "Tout projet d'ingenierie ambitieux doit affronter honnetement ses limites. L'Invariant V (incompletude assumee) s'applique a notre propre architecture : il y a des choses que nous ne savons pas, des problemes que nous n'avons pas resolus, et des barrieres que la physique impose. Ce chapitre dresse un inventaire rigoureux de ces limites.",
         "size": 22,
         "font": "Arial"
       }
