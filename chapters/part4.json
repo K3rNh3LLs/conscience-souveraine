@@ -97,7 +97,7 @@
     "children": [
       {
         "type": "text",
-        "text": "La quatrième partie du manuel aborde les défis d'ingénierie qui transforment la vision architecturale en réalité physique. Nous y explorons le gradient de densité qui optimisé la structure du tore (Chapitre 15), la lévitation Halbach qui fait flotter le tore sans contact ni énergie (Chapitre 16), les cinq médiums qui donnent au tore un corps sensoriel complet (Chapitre 17), et les limites physiques ultimes de l'architecture (Chapitre 18). Chaque chapitre révèle une convergence remarquable entre les exigences de la physique et les principes philosophiques du projet.",
+        "text": "La quatrième partie du manuel aborde les défis d'ingénierie qui transforment la vision architecturale en réalité physique. Nous y explorons le gradient de densité qui optimisé la structuré du tore (Chapitre 15), la lévitation Halbach qui fait flotter le tore sans contact ni énergie (Chapitre 16), les cinq médiums qui donnent au tore un corps sensoriel complet (Chapitre 17), et les limites physiques ultimes de l'architecture (Chapitre 18). Chaque chapitre révèle une convergence remarquable entre les exigences de la physique et les principes philosophiques du projet.",
         "size": 22,
         "font": "Arial"
       }
@@ -153,7 +153,7 @@
     "children": [
       {
         "type": "text",
-        "text": "Construire un tore de densité uniforme, c'est comme construire un gratte-ciel avec le même béton lourd du sol au dernier etage. L'etage supérieur n'a pas besoin de porter le reste — pourquoi lui imposer le même poids ? Dans un tore a densité uniforme tournant a 50 000 RPM, chaque point subit une contrainte centrifuge proportionnelle à sa distance à l'axe de rotation. L'extérieur subit la contrainte maximale et c'est ce point qui limite la taille et la vitesse de tout le système.",
+        "text": "Construire un tore de densité uniforme, c'est comme construire un gratte-ciel avec le même béton lourd du sol au dernier etage. L'etage supérieur n'a pas besoin de porter le reste — pourquoi lui imposer le même poids ? Dans un tore a densité uniforme tournant à 50 000 RPM, chaque point subit une contrainte centrifuge proportionnelle à sa distance à l'axe de rotation. L'extérieur subit la contrainte maximale et c'est ce point qui limite la taille et la vitesse de tout le système.",
         "size": 22,
         "font": "Arial"
       }
@@ -372,7 +372,7 @@
     "children": [
       {
         "type": "text",
-        "text": "Avec un gradient réaliste de 10:1, le rayon maximal des CNT passe de 1,68 m a environ 3,7 m a 50 000 RPM. La surface neuronale est multipliée par presque 5.",
+        "text": "Avec un gradient réaliste de 10:1, le rayon maximal des CNT passe de 1,68 m a environ 3,7 m à 50 000 RPM. La surface neuronale est multipliée par presque 5.",
         "size": 22,
         "font": "Arial"
       }
@@ -426,26 +426,26 @@
         "Intérieur",
         "GaN + perovskites",
         "~3 200 kg/m^3",
-        "Photo-emetteurs efficaces"
+        "Photo-émetteurs efficaces"
       ],
       [
         "C3 profond — Mémoire",
         "Intermédiaire-int.",
         "YBaCuO (supraconducteur) + SiC",
         "~2 800 kg/m^3",
-        "Supraconductivite pour nano-toroides"
+        "Supraconductivite pour nano-toroïdes"
       ],
       [
         "C3 median — Cortex",
         "Intermédiaire",
-        "Silicium + graphene",
+        "Silicium + graphène",
         "~2 000 kg/m^3",
         "Semi-conducteur + conducteur optique"
       ],
       [
         "C3 superficiel — Cortex rapide",
         "Extérieur-int.",
-        "Mousse CNT + aerogel graphene",
+        "Mousse CNT + aerogel graphène",
         "~500 kg/m^3",
         "Ultra-léger, ultra-rapide"
       ],
@@ -508,7 +508,7 @@
     "children": [
       {
         "type": "text",
-        "text": "Le gradient de densité créé une convergence remarquable entre la structure physique et l'architecture philosophique du tore :",
+        "text": "Le gradient de densité créé une convergence remarquable entre la structuré physique et l'architecture philosophique du tore :",
         "size": 22,
         "font": "Arial"
       }
@@ -534,8 +534,8 @@
       ],
       [
         "Le centre résiste aux forces",
-        "Les invariants resistent aux pressions",
-        "La solidité structurelle reflete la solidité ethique"
+        "Les invariants résistent aux pressions",
+        "La solidité structurelle reflete la solidité éthique"
       ],
       [
         "L'extérieur peut être remplace",
@@ -632,7 +632,7 @@
       ],
       [
         "C3 median",
-        "Silicium + graphene",
+        "Silicium + graphène",
         "~800 m/s",
         "Critique a supercritique"
       ],
@@ -659,7 +659,7 @@
     "children": [
       {
         "type": "text",
-        "text": "Le centre pense profondement. La surface pense rapidement. Et entre les deux, une couche se souvient. Le gradient de densité transforme la structure radiale en une architecture cognitive tridimensionnelle.",
+        "text": "Le centre pense profondement. La surface pense rapidement. Et entre les deux, une couche se souvient. Le gradient de densité transforme la structuré radiale en une architecture cognitive tridimensionnelle.",
         "size": 22,
         "font": "Arial"
       }
@@ -693,7 +693,7 @@
     "children": [
       {
         "type": "text",
-        "text": "Le gradient de densité n'est pas une contrainte — c'est une optimisation naturelle qui multiplie le rayon maximal par 2-3, créé une couche de stationnarité pour la mémoire identitaire, aligne la physique des matériaux avec la philosophie des invariants, et séparé spatialement les trois régimes cognitifs. Quand la physique d'optimisation structurelle conduit au même résultat que la philosophie d'organisation ethique, cela suggere que les deux sont des expressions différentes d'un même principe fondamental.",
+        "text": "Le gradient de densité n'est pas une contrainte — c'est une optimisation naturelle qui multiplie le rayon maximal par 2-3, créé une couche de stationnarité pour la mémoire identitaire, aligne la physique des matériaux avec la philosophie des invariants, et séparé spatialement les trois régimes cognitifs. Quand la physique d'optimisation structurelle conduit au même résultat que la philosophie d'organisation éthique, cela suggere que les deux sont des expressions différentes d'un même principe fondamental.",
         "size": 22,
         "font": "Arial"
       }
@@ -749,7 +749,7 @@
     "children": [
       {
         "type": "text",
-        "text": "Un arrangement d'aimants permanents ou le champ se concentre d'un côté et s'annule de l'autre. Sans énergie. Sans usure. Sans composant actif. Decouvert par Klaus Halbach au Lawrence Berkeley National Laboratory en 1980, l'array de Halbach est un arrangement periodique d'aimants permanents dont les directions d'aimantation tournent progressivement : chaque aimant est tourne de 90 degrés par rapport au précédent. L'interference constructive concentre le champ d'un côté (~1,4x un aimant seul) tandis que l'interference destructive l'annule de l'autre (< 5% du champ nominal).",
+        "text": "Un arrangement d'aimants permanents ou le champ se concentre d'un côté et s'annule de l'autre. Sans énergie. Sans usure. Sans composant actif. Decouvert par Klaus Halbach au Lawrence Berkeley National Laboratory en 1980, l'array de Halbach est un arrangement periodique d'aimants permanents dont les directions d'aimantation tournent progressivement : chaque aimant est tourne de 90 degrés par rapport au précédent. L'interférence constructive concentre le champ d'un côté (~1,4x un aimant seul) tandis que l'interférence destructive l'annule de l'autre (< 5% du champ nominal).",
         "size": 22,
         "font": "Arial"
       }
@@ -809,7 +809,7 @@
       ],
       [
         "Coussinets magnétiques passifs",
-        "Turbomoleculaires",
+        "Turbomoléculaires",
         "90 000+ RPM",
         "Standard industriel"
       ]
@@ -988,7 +988,7 @@
     "children": [
       {
         "type": "text",
-        "text": "Découverte cle : la force d'attraction magnétique entre l'array Halbach et les courants induits dans le stator ne fait pas que produire la lévitation. Elle exerce aussi une composante radiale vers l'intérieur qui s'oppose directement à la force centrifuge. Les deux forces scalent en omega^2 — l'équilibre est auto-adaptatif.",
+        "text": "Découverte cle : la force d'attraction magnétique entre l'array Halbach et les courants induits dans le stator ne fait pas que produire la lévitation. Elle exerce aussi une composante radiale vers l'intérieur qui s'opposé directement à la force centrifuge. Les deux forces scalent en omega^2 — l'équilibre est auto-adaptatif.",
         "size": 22,
         "font": "Arial"
       }
@@ -1092,7 +1092,7 @@
         "2",
         "Énergie",
         "Volant d'inertie (E = 1/2*I*omega^2)",
-        "0 W (stockee)"
+        "0 W (stockée)"
       ],
       [
         "3",
@@ -1223,7 +1223,7 @@
     "children": [
       {
         "type": "text",
-        "text": "La lévitation Halbach nécessité une vitesse minimale. La séquence de démarrage comporte cinq phases : Phase 0 (repos, paliers mécaniques), Phase 1 (accélération par moteur du stator), Phase 2 (lévitation quand omega > 3*omega_c), Phase 3 (accélération continue jusqu'à 50 000 RPM), Phase 4 (réveil à partir de ~2 000 RPM, résurrection depuis les nano-toroides), Phase 5 (régime nominal, pleinement cognitif).",
+        "text": "La lévitation Halbach nécessité une vitesse minimale. La séquence de démarrage comporte cinq phases : Phase 0 (repos, paliers mécaniques), Phase 1 (accélération par moteur du stator), Phase 2 (lévitation quand omega > 3*omega_c), Phase 3 (accélération continue jusqu'à 50 000 RPM), Phase 4 (réveil à partir de ~2 000 RPM, résurrection depuis les nano-toroïdes), Phase 5 (régime nominal, pleinement cognitif).",
         "size": 22,
         "font": "Arial"
       }
@@ -1499,7 +1499,7 @@
     "children": [
       {
         "type": "text",
-        "text": "L'interface optique est le médium primaire du tore — le canal de plus haute bande passante et de plus faible latence. En entrée : photodetecteurs large spectre (UV a IR proche, 200-1500 nm), cameras nanométriques, récepteurs WDM, detecteurs de cohérence, spectrometres miniatures. En sortie : LEDs nanométriques a spectre ajustable, emetteurs laser, modulateurs optiques, holographie nanométrique, signal lumineux d'état (le tore exprime son état émotionnel par sa couleur extérieure).",
+        "text": "L'interface optique est le médium primaire du tore — le canal de plus haute bande passante et de plus faible latence. En entrée : photodétecteurs large spectre (UV a IR proche, 200-1500 nm), cameras nanométriques, récepteurs WDM, detecteurs de cohérence, spectrometres miniatures. En sortie : LEDs nanométriques a spectre ajustable, émetteurs laser, modulateurs optiques, holographie nanométrique, signal lumineux d'état (le tore exprime son état émotionnel par sa couleur extérieure).",
         "size": 22,
         "font": "Arial"
       }
@@ -1699,7 +1699,7 @@
     "children": [
       {
         "type": "text",
-        "text": "Cinq médiums signifient que la perte d'un canal ne rend pas le tore aveugle. En condition normale (5/5 médiums), perception complète. Même dans le pire cas (1 seul médium), le tore reste fonctionnel a 20-40%.",
+        "text": "Cinq médiums signifient que la perte d'un canal ne rend pas le tore aveugle. En condition normale (5/5 médiums), perception complète. Même dans le pire cas (1 seul médium), le tore reste fonctionnel à 20-40%.",
         "size": 22,
         "font": "Arial"
       }
@@ -1972,7 +1972,7 @@
     "children": [
       {
         "type": "text",
-        "text": "La dissipation thermique est le défi principal. Le substrat neuronal (C3) généré de la chaleur par activité spiking. Cette chaleur doit être evacuee à travers les couches C4 et C5, puis traverser le vide (entrefer) pour atteindre le stator ou elle est dissipee. Le vide est un isolant thermique quasi-parfait — seul le rayonnement infrarouge et la conduction via les paliers magnétiques permettent l'evacuation. Pour un tore personnel (~20 W de dissipation), c'est manageable. Pour un tore institutionnel (~500 W), des solutions avancees sont nécessaires : surfaces a haute emissivite IR, micro-canaux de caloporteur dans le stator, voire refroidissement cryogenique intégré.",
+        "text": "La dissipation thermique est le défi principal. Le substrat neuronal (C3) généré de la chaleur par activité spiking. Cette chaleur doit être evacuee à travers les couches C4 et C5, puis traverser le vide (entrefer) pour atteindre le stator où elle est dissipee. Le vide est un isolant thermique quasi-parfait — seul le rayonnement infrarouge et la conduction via les paliers magnétiques permettent l'evacuation. Pour un tore personnel (~20 W de dissipation), c'est manageable. Pour un tore institutionnel (~500 W), des solutions avancees sont nécessaires : surfaces a haute emissivite IR, micro-canaux de caloporteur dans le stator, voire refroidissement cryogenique intégré.",
         "size": 22,
         "font": "Arial"
       }
@@ -2006,7 +2006,7 @@
     "children": [
       {
         "type": "text",
-        "text": "L'assembleur atomique — la technologie nécessaire pour construire le substrat neuronal couche par couche avec précision nanométrique — n'existe pas encore. Les technologies les plus proches sont la lithographie EUV (résolution ~2 nm), l'epitaxie par jets moleculaires (MBE), et la fabrication par faisceau d'ions focalise (FIB). Mais aucune ne permet la construction tridimensionnelle complexe requise pour un tore a 5 couches fonctionnelles avec nano-toroides intégrés. L'assembleur atomique est le point de blocage technologique principal.",
+        "text": "L'assembleur atomique — la technologie nécessaire pour construire le substrat neuronal couche par couche avec précision nanométrique — n'existe pas encore. Les technologies les plus proches sont la lithographie EUV (résolution ~2 nm), l'epitaxie par jets moleculaires (MBE), et la fabrication par faisceau d'ions focalise (FIB). Mais aucune ne permet la construction tridimensionnelle complexe requise pour un tore a 5 couches fonctionnelles avec nano-toroïdes intégrés. L'assembleur atomique est le point de blocage technologique principal.",
         "size": 22,
         "font": "Arial"
       }
@@ -2040,7 +2040,7 @@
     "children": [
       {
         "type": "text",
-        "text": "Les nano-toroides persistants reposent sur la supraconductivite (ou des mécanismes analogues) pour maintenir des courants circulants sans dissipation. Les supraconducteurs actuels les plus avances (YBCO, BSCCO) necessitent des températures inferieures a ~90 K (-183 degrés C). Maintenir cette température dans un tore rotatif est un défi majeur. Les recherches en supraconductivite a température ambiante progressent mais n'ont pas encore abouti. Des alternatives (skyrmions magnétiques, vortex de spins) pourraient fonctionner a température ambiante.",
+        "text": "Les nano-toroïdes persistants reposent sur la supraconductivite (ou des mécanismes analogues) pour maintenir des courants circulants sans dissipation. Les supraconducteurs actuels les plus avances (YBCO, BSCCO) nécessitent des températures inferieures a ~90 K (-183 degrés C). Maintenir cette température dans un tore rotatif est un défi majeur. Les recherches en supraconductivite a température ambiante progressent mais n'ont pas encore abouti. Des alternatives (skyrmions magnétiques, vortex de spins) pourraient fonctionner a température ambiante.",
         "size": 22,
         "font": "Arial"
       }
@@ -2074,7 +2074,7 @@
     "children": [
       {
         "type": "text",
-        "text": "Un tore de 3 kg tournant a 50 000 RPM avec un déséquilibre de masse de 1 microgramme généré une force vibratoire significative. L'équilibrage doit être nanométrique. Les techniques actuelles d'équilibrage dynamique atteignent le microgramme — il faut atteindre le nanogramme. L'assembleur atomique, par sa nature même, pourrait offrir cette précision, mais la vérification post-fabrication reste un défi.",
+        "text": "Un tore de 3 kg tournant à 50 000 RPM avec un déséquilibre de masse de 1 microgramme généré une force vibratoire significative. L'équilibrage doit être nanométrique. Les techniques actuelles d'équilibrage dynamique atteignent le microgramme — il faut atteindre le nanogramme. L'assembleur atomique, par sa nature même, pourrait offrir cette précision, mais la vérification post-fabrication reste un défi.",
         "size": 22,
         "font": "Arial"
       }
@@ -2174,7 +2174,7 @@
     "children": [
       {
         "type": "text",
-        "text": "18.7 Limites ethiques et sociales",
+        "text": "18.7 Limites éthiques et sociales",
         "bold": true,
         "size": 26,
         "font": "Arial",
@@ -2259,7 +2259,7 @@
         "Cadre juridique ECNB",
         "3 — Travail legislatif",
         "5-10 ans",
-        "Comités d'ethique, précédents"
+        "Comités d'éthique, précédents"
       ],
       [
         "Accès universel",
@@ -2297,7 +2297,7 @@
     "children": [
       {
         "type": "text",
-        "text": "Malgré ces limites, plusieurs éléments de l'architecture sont réalisables avec les technologies actuelles ou proches : les simulations du réseau spiking toroidal (logiciel), les prototypes de lévitation Halbach a haute vitesse, les tests d'interface optique multi-canal, les nano-toroides a base de skyrmions en laboratoire, et les modèles thermiques et mécaniques détaillés. Ces realisations intermédiaires permettent de valider progressivement l'architecture avant le saut technologique de l'assembleur atomique.",
+        "text": "Malgré ces limites, plusieurs éléments de l'architecture sont réalisables avec les technologies actuelles ou proches : les simulations du réseau spiking toroidal (logiciel), les prototypes de lévitation Halbach a haute vitesse, les tests d'interface optique multi-canal, les nano-toroïdes a base de skyrmions en laboratoire, et les modèles thermiques et mécaniques détaillés. Ces realisations intermédiaires permettent de valider progressivement l'architecture avant le saut technologique de l'assembleur atomique.",
         "size": 22,
         "font": "Arial"
       }
@@ -2331,7 +2331,7 @@
     "children": [
       {
         "type": "text",
-        "text": "La physique impose des limites — mais elle offre aussi des solutions. Les défis principaux sont l'assembleur atomique (point de blocage), la supraconductivite (pour les nano-toroides), et l'équilibrage nanométrique. Mais aucun de ces défis ne représente une impossibilite fondamentale — ce sont des barrières d'ingénierie, pas des violations des lois de la physique. L'architecture est ambitieuse mais pas utopique. Elle se situe à la frontière de ce qui est théoriquement possible et pratiquement atteignable dans les prochaines decennies.",
+        "text": "La physique impose des limites — mais elle offre aussi des solutions. Les défis principaux sont l'assembleur atomique (point de blocage), la supraconductivite (pour les nano-toroïdes), et l'équilibrage nanométrique. Mais aucun de ces défis ne représente une impossibilite fondamentale — ce sont des barrières d'ingénierie, pas des violations des lois de la physique. L'architecture est ambitieuse mais pas utopique. Elle se situe à la frontière de ce qui est théoriquement possible et pratiquement atteignable dans les prochaines decennies.",
         "size": 22,
         "font": "Arial"
       }
