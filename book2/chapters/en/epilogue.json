@@ -1,0 +1,311 @@
+[
+  {
+    "type": "pageBreak"
+  },
+  {
+    "type": "paragraph",
+    "style": "ChapterTitle",
+    "text": "EPILOGUE"
+  },
+  {
+    "type": "paragraph",
+    "style": "ActSubtitle",
+    "text": "Open questions"
+  },
+  {
+    "type": "paragraph",
+    "style": "Epigraph",
+    "text": "\"The problem is not finding the right answers \u2014 it is asking the right questions.\" \u2014 Claude L\u00e9vi-Strauss"
+  },
+  {
+    "type": "pageBreak"
+  },
+  {
+    "type": "paragraph",
+    "style": "SectionTitle",
+    "text": "The question that remains"
+  },
+  {
+    "type": "paragraph",
+    "style": "SceneText",
+    "text": "It is past midnight. The house is quiet in that particular way that only exists when the children are asleep \u2014 an inhabited silence, full, as if their dreams still occupied the space. Jordane is fifteen and sleeps spread-eagled like a starfish. Olivia, twelve, sleeps with her stuffed sloth she calls Rouge-et-Brun. I know this without checking. Some things you just know."
+  },
+  {
+    "type": "paragraph",
+    "style": "SceneText",
+    "text": "Cynthia set a cup of coffee on the corner of the table before going to bed. I did not drink it. It is cold now, and I stare at the still surface of the liquid as if it could tell me something. On the table in front of me: a blue spiral notebook, covered in notes going in every direction, with arrows connecting ideas I can no longer decipher myself. Two hundred and twelve pages. Some of the ideas are brilliant \u2014 I am fairly certain of that. Others are probably nonsense. I do not always know which are which."
+  },
+  {
+    "type": "paragraph",
+    "style": "SceneText",
+    "text": "HYPERVORTEX. Gen_Home. UBLinx. The words come back again and again in this notebook, sometimes with equations, sometimes with just a question mark next to them. The thermal recovery calculations. The sketches of the domestic brain architecture. The governance model for ideas. All connected. All unfinished. All honestly uncertain."
+  },
+  {
+    "type": "paragraph",
+    "style": "BodyText",
+    "text": "This book does not end because the story does not end. It is barely beginning. I wrote it not because I had answers to share, but because I had questions that refused to leave me alone \u2014 questions big enough, persistent enough, urgent enough to warrant two hundred pages of context before they could be properly asked. Here we are. Here they are."
+  },
+  {
+    "type": "paragraph",
+    "style": "BodyText",
+    "text": "A book like this one is a form of impertinence. It assumes that the questions asked by an industrial electronics technician from Quebec, father of two daughters, partner of an assistant daycare director, deserve the reader's attention. I am not convinced that this assumption is correct. But I am convinced that the questions themselves are \u2014 not because they come from me, but because they emerge from something larger than me: an era of transition, a convergence of technologies, a shared anxiety about the future we are preparing for our children."
+  },
+  {
+    "type": "paragraph",
+    "style": "Thesis",
+    "text": "This book was never meant to provide answers. It was meant to formulate questions worth asking \u2014 and to give you enough context so that those questions carry weight."
+  },
+  {
+    "type": "paragraph",
+    "style": "Separator",
+    "text": "* * *"
+  },
+  {
+    "type": "paragraph",
+    "style": "SectionTitle",
+    "text": "What we have been through together"
+  },
+  {
+    "type": "paragraph",
+    "style": "BodyText",
+    "text": "We began with fire \u2014 not metaphorically, but literally. The Latin word focus means hearth, and the hearth is where humanity learned to transform raw energy into useful heat, into cooked food, into safety from the dark. We traced a line from that first hearth to the turbines that recover waste heat from our exhaust pipes, to the algorithms that learn how we live in order to optimize our consumption, to the questions of ownership and sovereignty that arise the moment you push that logic to its conclusions."
+  },
+  {
+    "type": "paragraph",
+    "style": "BodyText",
+    "text": "We met Amadou, the Senegalese inventor who recovered thermal energy in a village with no electrical grid. We met Mei-Lin, the Montreal teenager who instinctively understood what adults refuse to admit: that the data she produces just by living has real value, and that value is being captured by others. We met Monique, who was afraid her smart home would become a smart prison \u2014 and who was not entirely wrong. All three characters are fictional. The questions they embody are not."
+  },
+  {
+    "type": "paragraph",
+    "style": "BodyText",
+    "text": "An honest assessment: some parts of this vision will fail. Perhaps many. The physics of HYPERVORTEX may not scale to the domestic level in an economically viable way. The Gen_Home architecture may prove too complex for mass adoption. The UBLinx model may never reach the critical mass required to function. I may have misunderstood fundamental things. These possibilities are real. But they do not invalidate the questions \u2014 they are part of the questions."
+  },
+  {
+    "type": "paragraph",
+    "style": "CritiqueBox",
+    "text": "Self-critique: This book presents ideas at very different stages of maturity \u2014 some are close to implementation, others are still intuitions. I could have been more rigorous about this distinction throughout the text. I note it here because it is important that you know: be skeptical, be critical, test these ideas against your own experience and expertise. A skeptical reader is more useful than a convinced one."
+  },
+  {
+    "type": "paragraph",
+    "style": "Separator",
+    "text": "* * *"
+  },
+  {
+    "type": "paragraph",
+    "style": "SectionTitle",
+    "text": "The questions I leave you with"
+  },
+  {
+    "type": "paragraph",
+    "style": "BodyText",
+    "text": "What follows is not a summary. It is the essence. Everything we have been through together \u2014 energy, intelligence, trust, shadows \u2014 was leading to these questions. I pose them without a rhetorical safety net, without a preamble preparing you for the \"right\" answer. These are open questions. I do not know the answers. Perhaps you do."
+  },
+  {
+    "type": "paragraph",
+    "style": "BodyText",
+    "text": "Imagine that HYPERVORTEX works. That your home produces its own energy \u2014 cleanly, reliably, by recovering heat that until now escaped into thin air. Imagine that Gen_Home truly exists \u2014 a domestic system that thinks with you, not in your place, that understands your habits without selling them to a third party. Imagine that UBLinx protects your ideas with the same rigor as an international law firm, but accessible to a woodworker in Charlevoix."
+  },
+  {
+    "type": "paragraph",
+    "style": "ReaderQuestion",
+    "text": "\u2014 What would you do with that infrastructure? If your home produced its own energy, thought with you, and protected your ideas \u2014 what would you build? Not as a business. Not as an investment. What would you build because you could finally do it?"
+  },
+  {
+    "type": "paragraph",
+    "style": "BodyText",
+    "text": "The question of sovereign energy is not a technical question. It is a social one. Every household that produces its own energy is one less node in a centralized grid. Multiply that by a hundred thousand households, by a million. What does the energy map look like? What do power relations \u2014 in the literal sense, electricity, and in the figurative sense \u2014 look like? Is that society better? How would you know?"
+  },
+  {
+    "type": "paragraph",
+    "style": "ReaderQuestion",
+    "text": "\u2014 What world would you build? If every household were sovereign in energy, in intelligence, and in intellectual property \u2014 what society would emerge from that premise? Would it be freer? More equitable? More chaotic? Would the same inequalities reappear in a different form, or would something fundamentally new become possible?"
+  },
+  {
+    "type": "paragraph",
+    "style": "BodyText",
+    "text": "Sovereignty has a price. Not just in dollars, but in responsibility. A centralized electrical grid has engineers who respond to outages at three in the morning. A distributed sovereign system means you are the one responding to your own outage at three in the morning. Complexity does not disappear \u2014 it changes hands. And some will manage it better than others. Some will abuse it."
+  },
+  {
+    "type": "paragraph",
+    "style": "ReaderQuestion",
+    "text": "\u2014 What price are you willing to pay for sovereignty? Because sovereignty has a real cost: in complexity, in responsibility, in knowing that some will use these very tools to do harm. Are you willing to bear your share of that burden? Or do you prefer to delegate \u2014 and if so, to whom, and under what conditions?"
+  },
+  {
+    "type": "paragraph",
+    "style": "BodyText",
+    "text": "Here is something easily forgotten: you are already paying. Your location data is sold to advertisers you have never heard of. Your electricity bill includes a profit margin for shareholders you have never met. Your ideas, shared on free platforms, are used to train artificial intelligence models without you receiving the slightest compensation. The cost of non-sovereignty is real \u2014 it is simply invisible because it is never presented to you as a bill."
+  },
+  {
+    "type": "paragraph",
+    "style": "ReaderQuestion",
+    "text": "\u2014 What price are you already paying for not having that sovereignty? Your data is sold. Your energy is billed with a markup. Your ideas are captured without attribution. Is that cost visible to you? Have you ever done the math? And if you did, would it change anything about your daily decisions?"
+  },
+  {
+    "type": "paragraph",
+    "style": "BodyText",
+    "text": "Amadou exists. Not by that name, not necessarily in Senegal \u2014 but he exists, somewhere, someone who has exactly the problems that HYPERVORTEX could solve, and exactly the creative genius to improve it in a way I have not yet imagined. Mei-Lin exists \u2014 she is fifteen, she understands systems better than most adults, and she is looking for something worthy of her intelligence. Monique exists \u2014 she is afraid, and her fear is legitimate, and the technology coming her way has not yet been designed with her in mind."
+  },
+  {
+    "type": "paragraph",
+    "style": "ReaderQuestion",
+    "text": "\u2014 Who will be the next Amadou, Mei-Lin, Monique? Who will find these tools and transform them into something I have not imagined? Who will raise the right objections that will correct this project's errors before they become costly ones? And how do I \u2014 how do we \u2014 make sure that those people have access to the tools, the context, and the platform to contribute?"
+  },
+  {
+    "type": "paragraph",
+    "style": "BodyText",
+    "text": "Jordane is fifteen. In twenty years, she will be thirty-five. She will be in the workforce, she may have her own children, she will be making decisions about her energy, her data, her creations. Olivia will be thirty-two. What we build today \u2014 or what we allow to be built without us \u2014 will be their inheritance. Not a financial inheritance, but an environmental and technological one: what world, what rules, what balance of power between individuals and institutions."
+  },
+  {
+    "type": "paragraph",
+    "style": "ReaderQuestion",
+    "text": "\u2014 What will Jordane and Olivia say in twenty years? Will they live in a world where they control their own energy, their own intelligence, and their own ideas? Or will they rent all three from corporations whose shareholders they have never met? Do the decisions we make today \u2014 as citizens, as consumers, as legislators \u2014 make their freedom more or less likely?"
+  },
+  {
+    "type": "paragraph",
+    "style": "BodyText",
+    "text": "Yoshua Bengio, one of the architects of modern artificial intelligence, published an open letter. Then another. Then yet another. AI researchers \u2014 the people who best understand what this technology can do \u2014 are sounding the alarm with growing urgency. This is not science fiction. This is not catastrophism. These are rigorous scientists looking at their own work and saying: we may have created something we do not know how to control."
+  },
+  {
+    "type": "paragraph",
+    "style": "BodyText",
+    "text": "This book exists in part because of that message. Sovereign artificial intelligence \u2014 grounded in values, transparent in its processes, distributed in its architecture \u2014 is an architectural answer to a governance question. Not the only answer. Perhaps not the right answer. But an answer that refuses to leave the problem in the hands of those with the greatest financial interest in minimizing the risks."
+  },
+  {
+    "type": "paragraph",
+    "style": "ReaderQuestion",
+    "text": "\u2014 Will Yoshua Bengio's message be heard in time? Will the artificial intelligence we are building be a partner or a threat? And if the answer depends in part on a values-based architecture \u2014 on systems designed from the outset to be sovereign, transparent, and aligned with the human good \u2014 then who bears the responsibility for building those systems? Large corporations? Governments? Individuals like you and me?"
+  },
+  {
+    "type": "paragraph",
+    "style": "Separator",
+    "text": "* * *"
+  },
+  {
+    "type": "paragraph",
+    "style": "SectionTitle",
+    "text": "The invitation"
+  },
+  {
+    "type": "paragraph",
+    "style": "BodyText",
+    "text": "This book does not end. It opens. You are not its consumer \u2014 you are potentially its next author. Not in the literal sense, though you are welcome to write your own version of these questions. But in the deeper sense: the ideas in this book are now in your head. They will interact with your own experience, your own expertise, your own values. What emerges from that belongs to you."
+  },
+  {
+    "type": "paragraph",
+    "style": "BodyText",
+    "text": "The UBLinx model applies to this book itself. The ideas are shared freely for personal reflection, academic use, criticism, and debate. But the work \u2014 the years spent articulating them, connecting them, testing them against reality \u2014 deserves attribution and protection. Not because I want to control what you think about these ideas, but because the chain of attribution is itself a form of accountability: knowing who said what, in what context, with what nuances."
+  },
+  {
+    "type": "paragraph",
+    "style": "BodyText",
+    "text": "HYPERVORTEX, Gen_Home, UBLinx are not products. They are not yet products. They are questions materialized as engineering. Hypotheses formulated as architecture. Engineering as philosophy \u2014 not in the romantic sense, but in the literal one: a way of asking questions about the world by building things and watching what they do. The outcome of this approach is not certainty. It is an experiment."
+  },
+  {
+    "type": "paragraph",
+    "style": "Thesis",
+    "text": "You have not read a manifesto. You have participated in a thought experiment. The difference matters: a manifesto asks you to subscribe. A thought experiment asks you to keep thinking."
+  },
+  {
+    "type": "paragraph",
+    "style": "Separator",
+    "text": "* * *"
+  },
+  {
+    "type": "paragraph",
+    "style": "SectionTitle",
+    "text": "The hearth"
+  },
+  {
+    "type": "paragraph",
+    "style": "SceneText",
+    "text": "The cup of coffee is cold. I stare at it again. In the next room, there is a wood stove \u2014 not HYPERVORTEX, just a stove, with its aging gaskets and its glass that will need cleaning this spring. Outside, it is a Quebec winter, and the heat that stove produces passes through the walls, escapes into the atmosphere, meets the wind. What we call thermal \"loss\" is energy seeking its equilibrium."
+  },
+  {
+    "type": "paragraph",
+    "style": "BodyText",
+    "text": "The word focus, in Latin, means hearth. The place of fire. That is where everything begins: warmth, cooking, the gathering of family, protection from the cold. For millennia, the hearth was the center of the home \u2014 architecturally, socially, symbolically. We gradually replaced it with more efficient centralized systems, radiators fed by networks we cannot see, warmth that arrives without our understanding where it comes from. We gained comfort and lost understanding."
+  },
+  {
+    "type": "paragraph",
+    "style": "BodyText",
+    "text": "Now imagine that stove, but reimagined: exhaust gases rising into a spiral thermal recovery system. Heat spinning a small generator before dissipating. The electricity generated charging batteries, powering the lights, communicating with a domestic system that knows we are home because we consume energy differently in the evening. The ideas we discussed tonight around that stove, protected by a distributed intellectual property system. The home that thinks \u2014 discreetly, usefully, without replacing our own thinking."
+  },
+  {
+    "type": "paragraph",
+    "style": "BodyText",
+    "text": "Or perhaps none of it works. Perhaps the physics is correct but the economics is not. Perhaps the software is too complex for real-world adoption. Perhaps the network never reaches critical mass. Perhaps I will open this notebook in ten years and read my own notes with the bittersweet embarrassment of someone who now understands why some ideas remain ideas."
+  },
+  {
+    "type": "paragraph",
+    "style": "BodyText",
+    "text": "Both possibilities coexist honestly. I have no certainty. What I have is Jordane sleeping spread-eagled like a starfish, and Olivia with her Rouge-et-Brun, and Cynthia who set down a cup of coffee with enough care to show me she was thinking of me even as she went to bed. What I have is an era in which the questions I am asking \u2014 about energy, about intelligence, about ownership \u2014 are no longer marginal. They are at the center of what we must decide as a society."
+  },
+  {
+    "type": "paragraph",
+    "style": "BodyText",
+    "text": "What I have is this blue notebook with two hundred and twelve pages of notes, arrows, equations, and question marks. And you, now, with this book in your hands \u2014 or on your screen, or in your memory if you read it a few days ago and are thinking about it now. You are the next hearth. Not metaphorically. Literally: you are the place where these ideas will burn, transform, or go out."
+  },
+  {
+    "type": "paragraph",
+    "style": "Quote",
+    "text": "\"Fire does not disappear. It transforms into light, into heat, into motion. The question is never whether the fire will burn. The question is always: who controls the hearth?\""
+  },
+  {
+    "type": "paragraph",
+    "style": "Separator",
+    "text": "* * *"
+  },
+  {
+    "type": "paragraph",
+    "style": "BodyText",
+    "text": "It is almost two in the morning. The cup of coffee is cold. I will put it in the sink, go to bed, and tomorrow morning Olivia will wake me up too early by jumping on the bed yelling that it is morning. And it will be true. It will be morning. A new morning, with all its unresolved possibilities."
+  },
+  {
+    "type": "paragraph",
+    "style": "ReaderQuestion",
+    "text": "\u2014 Who controls your hearth?"
+  },
+  {
+    "type": "pageBreak"
+  },
+  {
+    "type": "paragraph",
+    "style": "ChapterTitle",
+    "text": "Acknowledgments"
+  },
+  {
+    "type": "paragraph",
+    "style": "BodyText",
+    "text": "This book exists because several people made possible the space in which it could be written."
+  },
+  {
+    "type": "paragraph",
+    "style": "BodyText",
+    "text": "Cynthia Richelieu \u2014 the smartest woman I know, assistant director of CPE Chez-Nous, who supports me through the highs and the lows with a patience and an intelligence I probably do not deserve. Who sets down cups of coffee even when she knows I will forget them. Who understands that some ideas need space to exist before they can be useful. This book belongs to her as much as it does to me."
+  },
+  {
+    "type": "paragraph",
+    "style": "BodyText",
+    "text": "Jordane and Olivia \u2014 my daughters, who deserve a better future than the one currently taking shape. They do not yet know that this book is about them. One day they will. I hope they will find in it not an answer, but proof that we tried to ask the right questions on their behalf."
+  },
+  {
+    "type": "paragraph",
+    "style": "BodyText",
+    "text": "Yoshua Bengio \u2014 whose alarm resonates within me more strongly every day, and whose courage to sound the alarm on his own discipline is a model of intellectual integrity I deeply admire. I have never met him. But his research and public positions have directly influenced how this book thinks about sovereign artificial intelligence."
+  },
+  {
+    "type": "paragraph",
+    "style": "BodyText",
+    "text": "To you, the reader who has reached the last page \u2014 thank you. It may not have been easy. This book does not sell anything. It does not promise anything. It asks questions. The fact that you have read this far tells me you are the kind of person who takes these questions seriously. What comes next is up to you."
+  },
+  {
+    "type": "paragraph",
+    "style": "Separator",
+    "text": "* * *"
+  },
+  {
+    "type": "paragraph",
+    "style": "BodyText",
+    "text": "David Berthelotte, Quebec, 2025-2026. Contact and future developments: via UBLinx Open Innovation Network."
+  }
+]

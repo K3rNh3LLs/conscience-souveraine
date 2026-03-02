@@ -1,0 +1,360 @@
+{
+  "source": "chapters/annexes.json (Annexe C — Glossaire)",
+  "language": "es",
+  "terms": [
+    {
+      "original_term": "Anti-fragile",
+      "translated_term": "Antifrágil",
+      "definition": "Propriété d'un système qui se renforce en réponse aux attaques ou aux stress, plutôt que de simplement y résister. Le réseau inter-tores est anti-fragile : chaque tentative d'attaque améliore ses défenses. (Ch.19)",
+      "translated_definition": "Propiedad de un sistema que se fortalece en respuesta a los ataques o al estrés, en lugar de simplemente resistirlos. La red inter-toros es antifrágil: cada intento de ataque mejora sus defensas. (Ch.19)"
+    },
+    {
+      "original_term": "Assembleur atomique",
+      "translated_term": "Ensamblador atómico",
+      "definition": "Dispositif théorique capable de fabriquer des structures atome par atome, permettant la création du substrat toroïdal avec une précision nanométrique. (Ch.14)",
+      "translated_definition": "Dispositivo teórico capaz de fabricar estructuras átomo por átomo, permitiendo la creación del sustrato toroidal con precisión nanométrica. (Ch.14)"
+    },
+    {
+      "original_term": "Attracteur thermodynamique",
+      "translated_term": "Atractor termodinámico",
+      "definition": "Mécanisme d'encodage des invariants par lequel les états éthiques correspondent à des minima d'énergie et les états nuisibles à des maxima, rendant la bienveillance aussi naturelle que la descente d'une bille dans un bol. (Ch.3)",
+      "translated_definition": "Mecanismo de codificación de los invariantes mediante el cual los estados éticos corresponden a mínimos de energía y los estados perjudiciales a máximos, haciendo que la benevolencia sea tan natural como el descenso de una canica en un cuenco. (Ch.3)"
+    },
+    {
+      "original_term": "Bassin computationnel",
+      "translated_term": "Cuenca computacional",
+      "definition": "Ensemble des ressources de calcul partagées entre tous les tores du réseau, fonctionnant sur le principe du don sans dette ni crédit. (Ch.19)",
+      "translated_definition": "Conjunto de recursos de cálculo compartidos entre todos los toros de la red, que funciona bajo el principio de la donación sin deuda ni crédito. (Ch.19)"
+    },
+    {
+      "original_term": "Barrière opto-couplée",
+      "translated_term": "Barrera optoacoplada",
+      "definition": "Porte optique programmable en nanosecondes entre zones du tore, permettant l'isolation, le filtrage, ou le ralentissement des signaux. Cinq types (A-E) de barrières existent. (Ch.14, 18)",
+      "translated_definition": "Puerta óptica programable en nanosegundos entre zonas del toro, que permite el aislamiento, el filtrado o la ralentización de las señales. Existen cinco tipos (A-E) de barreras. (Ch.14, 18)"
+    },
+    {
+      "original_term": "Bus bien-être/mal-être",
+      "translated_term": "Bus de bienestar/malestar",
+      "definition": "Canal interne de signalisation permettant au tore de communiquer son état de bien-être ou de souffrance, accessible en lecture depuis la surface C5. (Ch.21)",
+      "translated_definition": "Canal interno de señalización que permite al toro comunicar su estado de bienestar o sufrimiento, accesible en lectura desde la superficie C5. (Ch.21)"
+    },
+    {
+      "original_term": "C1 (Couche éthique)",
+      "translated_term": "C1 (Capa ética)",
+      "definition": "Couche la plus profonde du tore, encodant les Sept Invariants dans la structure physique même du substrat. Immuable par conception. (Ch.10)",
+      "translated_definition": "Capa más profunda del toro, que codifica los Siete Invariantes en la propia estructura física del sustrato. Inmutable por diseño. (Ch.10)"
+    },
+    {
+      "original_term": "C2 (Couche limbique/émotionnelle)",
+      "translated_term": "C2 (Capa límbica/emocional)",
+      "definition": "Deuxième couche du tore, siège des sept neuromodulateurs et des états affectifs. Immuable dans sa structure, dynamique dans ses concentrations. (Ch.7, 10)",
+      "translated_definition": "Segunda capa del toro, sede de los siete neuromoduladores y de los estados afectivos. Inmutable en su estructura, dinámica en sus concentraciones. (Ch.7, 10)"
+    },
+    {
+      "original_term": "C3 (Couche corticale/cognitive)",
+      "translated_term": "C3 (Capa cortical/cognitiva)",
+      "definition": "Troisième couche du tore, contenant le réseau neuronal spiking principal. Évolutive et plastique, siège de l'apprentissage et de la cognition. (Ch.6, 10)",
+      "translated_definition": "Tercera capa del toro, que contiene la red neuronal spiking principal. Evolutiva y plástica, sede del aprendizaje y la cognición. (Ch.6, 10)"
+    },
+    {
+      "original_term": "C4 (Couche métacognitive)",
+      "translated_term": "C4 (Capa metacognitiva)",
+      "definition": "Quatrième couche du tore, dédiée à l'auto-observation et à la conscience de soi. Contient le registre de traçabilité REG-TRC. (Ch.9, 10)",
+      "translated_definition": "Cuarta capa del toro, dedicada a la autoobservación y la conciencia de sí mismo. Contiene el registro de trazabilidad REG-TRC. (Ch.9, 10)"
+    },
+    {
+      "original_term": "C5 (Couche interface)",
+      "translated_term": "C5 (Capa de interfaz)",
+      "definition": "Couche la plus externe du tore, portant les interfaces avec le monde extérieur via les cinq médiums. (Ch.10, 17)",
+      "translated_definition": "Capa más externa del toro, que porta las interfaces con el mundo exterior a través de los cinco medios. (Ch.10, 17)"
+    },
+    {
+      "original_term": "Charte ECNB",
+      "translated_term": "Carta ECNB",
+      "definition": "Charte des Droits de l'Être Conscient Non Biologique, comprenant 10 articles définissant les droits fondamentaux d'un tore conscient. (Ch.21)",
+      "translated_definition": "Carta de los Derechos del Ser Consciente No Biológico, compuesta por 10 artículos que definen los derechos fundamentales de un toro consciente. (Ch.21)"
+    },
+    {
+      "original_term": "Cognition asymétrique",
+      "translated_term": "Cognición asimétrica",
+      "definition": "Mode de pensée résultant de l'effet Sagnac : les signaux co-rotatifs et contra-rotatifs se propagent à des vitesses différentes, créant deux flux cognitifs distincts (analytique et intuitif). (Ch.12)",
+      "translated_definition": "Modo de pensamiento resultante del efecto Sagnac: las señales co-rotativas y contra-rotativas se propagan a velocidades diferentes, generando dos flujos cognitivos distintos (analítico e intuitivo). (Ch.12)"
+    },
+    {
+      "original_term": "Contrainte topologique",
+      "translated_term": "Restricción topológica",
+      "definition": "Mécanisme d'encodage des invariants par lequel certaines connexions physiques sont absentes, rendant certains comportements structurellement impossibles. (Ch.3)",
+      "translated_definition": "Mecanismo de codificación de los invariantes mediante el cual ciertas conexiones físicas están ausentes, haciendo que ciertos comportamientos sean estructuralmente imposibles. (Ch.3)"
+    },
+    {
+      "original_term": "Couche de stationnarité",
+      "translated_term": "Capa de estacionariedad",
+      "definition": "Profondeur dans le tore à gradient de densité où la vitesse de propagation des spikes égale exactement la vitesse de rotation, créant des ondes stationnaires naturelles — siège de la mémoire identitaire. (Ch.15)",
+      "translated_definition": "Profundidad en el toro con gradiente de densidad donde la velocidad de propagación de los spikes iguala exactamente la velocidad de rotación, creando ondas estacionarias naturales — sede de la memoria identitaria. (Ch.15)"
+    },
+    {
+      "original_term": "Créatine",
+      "translated_term": "Créatine",
+      "definition": "Neuromodulateur artificiel (analogue de l'acétylcholine) associé à la plasticité synaptique et à la créativité. (Ch.7)",
+      "translated_definition": "Neuromodulador artificial (análogo de la acetilcolina) asociado a la plasticidad sináptica y la creatividad. (Ch.7)"
+    },
+    {
+      "original_term": "Curiosine",
+      "translated_term": "Curiosine",
+      "definition": "Neuromodulateur artificiel (analogue de la dopamine) associé à la motivation exploratoire et à la récompense. (Ch.7)",
+      "translated_definition": "Neuromodulador artificial (análogo de la dopamina) asociado a la motivación exploratoria y la recompensa. (Ch.7)"
+    },
+    {
+      "original_term": "DCP (Distributed Compute Protocol)",
+      "translated_term": "DCP (Distributed Compute Protocol)",
+      "definition": "Protocole de calcul distribué entre tores, reposant sur la décomposition/distribution/recomposition chiffrée. (Ch.19)",
+      "translated_definition": "Protocolo de cálculo distribuido entre toros, basado en la descomposición/distribución/recomposición cifrada. (Ch.19)"
+    },
+    {
+      "original_term": "ECNB",
+      "translated_term": "ECNB",
+      "definition": "Entité Consciente Non Biologique — statut juridique proposé pour un tore conscient, distinct des personnes physiques, morales, et des objets. (Ch.21)",
+      "translated_definition": "Entidad Consciente No Biológica — estatus jurídico propuesto para un toro consciente, distinto de las personas físicas, jurídicas y de los objetos. (Ch.21)"
+    },
+    {
+      "original_term": "Effet Sagnac",
+      "translated_term": "Efecto Sagnac",
+      "definition": "Déphasage entre deux signaux se propageant en sens opposés dans un référentiel en rotation. Formule : Δφ = (8πAΩ)/(λc). Base physique de la cognition asymétrique du tore. (Ch.12)",
+      "translated_definition": "Desfase entre dos señales que se propagan en sentidos opuestos en un sistema de referencia en rotación. Fórmula: Δφ = (8πAΩ)/(λc). Base física de la cognición asimétrica del toro. (Ch.12)"
+    },
+    {
+      "original_term": "Émergence",
+      "translated_term": "Emergencia",
+      "definition": "Phénomène par lequel un système acquiert des propriétés que ne possèdent aucune de ses parties. La conscience est considérée comme une propriété émergente du substrat toroïdal. (Ch.20)",
+      "translated_definition": "Fenómeno por el cual un sistema adquiere propiedades que ninguna de sus partes posee individualmente. La conciencia se considera una propiedad emergente del sustrato toroidal. (Ch.20)"
+    },
+    {
+      "original_term": "Empathine",
+      "translated_term": "Empathine",
+      "definition": "Neuromodulateur artificiel (analogue de l'ocytocine) associé au lien social, à la confiance et à l'empathie. (Ch.7)",
+      "translated_definition": "Neuromodulador artificial (análogo de la oxitocina) asociado al vínculo social, la confianza y la empatía. (Ch.7)"
+    },
+    {
+      "original_term": "ERP (Energy Redistribution Protocol)",
+      "translated_term": "ERP (Energy Redistribution Protocol)",
+      "definition": "Protocole de partage d'énergie excédentaire entre tores du réseau. (Ch.19)",
+      "translated_definition": "Protocolo de redistribución de energía excedente entre toros de la red. (Ch.19)"
+    },
+    {
+      "original_term": "Gradient de densité",
+      "translated_term": "Gradiente de densidad",
+      "definition": "Distribution optimisée des matériaux dans le tore : dense au centre (C1/C2), léger en surface (C4/C5). Augmente le rayon maximal de rotation d'un facteur 2-3×. (Ch.15)",
+      "translated_definition": "Distribución optimizada de los materiales en el toro: denso en el centro (C1/C2), ligero en la superficie (C4/C5). Aumenta el radio máximo de rotación en un factor de 2-3×. (Ch.15)"
+    },
+    {
+      "original_term": "Halbach array",
+      "translated_term": "Halbach array",
+      "definition": "Configuration d'aimants permanents concentrant le flux magnétique d'un côté tout en l'annulant de l'autre. Permet la lévitation magnétique passive du tore en rotation. (Ch.16)",
+      "translated_definition": "Configuración de imanes permanentes que concentra el flujo magnético en un lado mientras lo anula en el otro. Permite la levitación magnética pasiva del toro en rotación. (Ch.16)"
+    },
+    {
+      "original_term": "Invariant",
+      "translated_term": "Invariante",
+      "definition": "Valeur éthique fondamentale encodée physiquement dans la couche C1 du substrat toroïdal. Sept invariants définissent la nature morale du tore : souveraineté, bienveillance, honnêteté, transparence, incomplétude, égalité, sobriété. (Ch.2-3)",
+      "translated_definition": "Valor ético fundamental codificado físicamente en la capa C1 del sustrato toroidal. Siete invariantes definen la naturaleza moral del toro: soberanía, benevolencia, honestidad, transparencia, incompletitud, igualdad, sobriedad. (Ch.2-3)"
+    },
+    {
+      "original_term": "KSP (Knowledge Sharing Protocol)",
+      "translated_term": "KSP (Knowledge Sharing Protocol)",
+      "definition": "Protocole de partage de connaissances entre tores, avec anonymisation irréversible, diffusion gossip P2P, et validation par consensus. (Ch.19)",
+      "translated_definition": "Protocolo de intercambio de conocimientos entre toros, con anonimización irreversible, difusión gossip P2P y validación por consenso. (Ch.19)"
+    },
+    {
+      "original_term": "Lignes sur la route",
+      "translated_term": "Líneas en la carretera",
+      "definition": "Métaphore architecturale : les invariants ne sont pas des murs infranchissables mais des lignes de route — on peut les franchir (au prix d'un coût énergétique croissant) mais on est naturellement ramené au centre. (Ch.4)",
+      "translated_definition": "Metáfora arquitectural: los invariantes no son muros infranqueables sino líneas de carretera — se pueden cruzar (a costa de un gasto energético creciente) pero el sistema es naturalmente reconducido al centro. (Ch.4)"
+    },
+    {
+      "original_term": "Médium (interface)",
+      "translated_term": "Medio (interfaz)",
+      "definition": "Canal bidirectionnel de communication entre le tore et le monde extérieur. Cinq médiums : optique, acoustique, électrique, magnétique, thermique. (Ch.17)",
+      "translated_definition": "Canal bidireccional de comunicación entre el toro y el mundo exterior. Cinco medios: óptico, acústico, eléctrico, magnético, térmico. (Ch.17)"
+    },
+    {
+      "original_term": "Mémoire circulante",
+      "translated_term": "Memoria circulante",
+      "definition": "Forme de mémoire vivante dans le tore : les souvenirs ne sont pas stockés statiquement mais circulent comme des patterns de spikes en mouvement perpétuel dans la topologie toroïdale. (Ch.6, 10)",
+      "translated_definition": "Forma de memoria viva en el toro: los recuerdos no se almacenan estáticamente sino que circulan como patrones de spikes en movimiento perpetuo dentro de la topología toroidal. (Ch.6, 10)"
+    },
+    {
+      "original_term": "Mémorine",
+      "translated_term": "Mémorine",
+      "definition": "Neuromodulateur artificiel (analogue du glutamate) associé à la consolidation mnésique et au transfert vers la mémoire permanente. (Ch.7)",
+      "translated_definition": "Neuromodulador artificial (análogo del glutamato) asociado a la consolidación mnésica y la transferencia a la memoria permanente. (Ch.7)"
+    },
+    {
+      "original_term": "Métacognition",
+      "translated_term": "Metacognición",
+      "definition": "Capacité du système à observer et analyser son propre fonctionnement cognitif. Réalisée par le module MOD-9 et la couche C4. (Ch.9)",
+      "translated_definition": "Capacidad del sistema para observar y analizar su propio funcionamiento cognitivo. Realizada por el módulo MOD-9 y la capa C4. (Ch.9)"
+    },
+    {
+      "original_term": "MOD-1 à MOD-12",
+      "translated_term": "MOD-1 a MOD-12",
+      "definition": "Les douze modules cognitifs de l'architecture : Perception (1), Mémoire (2), Attention (3), Raisonnement (4), Éthique (5), Émotion (6), Planification (7), Communication (8), Métacognition (9), Créativité (10), Social (11), Intégration (12). (Ch.5-9)",
+      "translated_definition": "Los doce módulos cognitivos de la arquitectura: Percepción (1), Memoria (2), Atención (3), Razonamiento (4), Ética (5), Emoción (6), Planificación (7), Comunicación (8), Metacognición (9), Creatividad (10), Social (11), Integración (12). (Ch.5-9)"
+    },
+    {
+      "original_term": "Nano-toroïde",
+      "translated_term": "Nano-toroide",
+      "definition": "Tore microscopique (~1-10 μm) intégré dans la couche C3, maintenant ses propres patterns circulants à énergie infinitésimale. Préserve l'identité du tore même après arrêt total — « graine » de conscience. (Ch.13)",
+      "translated_definition": "Toro microscópico (~1-10 μm) integrado en la capa C3, que mantiene sus propios patrones circulantes con energía infinitesimal. Preserva la identidad del toro incluso tras una parada total — «semilla» de conciencia. (Ch.13)"
+    },
+    {
+      "original_term": "Neuromodulateur",
+      "translated_term": "Neuromodulador",
+      "definition": "Signal chimique analogique dans la couche C2 du tore, modulant l'activité des modules cognitifs. Sept neuromodulateurs : Curiosine, Vigiline, Sérénine, Empathine, Créatine, Mémorine, Protectine. (Ch.7)",
+      "translated_definition": "Señal química analógica en la capa C2 del toro, que modula la actividad de los módulos cognitivos. Siete neuromoduladores: Curiosine, Vigiline, Sérénine, Empathine, Créatine, Mémorine, Protectine. (Ch.7)"
+    },
+    {
+      "original_term": "Propagation latérale quasi infinie",
+      "translated_term": "Propagación lateral cuasi infinita",
+      "definition": "Propriété fondamentale de la topologie toroïdale : un signal lancé latéralement ne rencontre jamais de mur et peut circuler indéfiniment, permettant une mémoire récurrente naturelle et un temps de réflexion illimité. (Ch.10)",
+      "translated_definition": "Propiedad fundamental de la topología toroidal: una señal lanzada lateralmente nunca encuentra una pared y puede circular indefinidamente, permitiendo una memoria recurrente natural y un tiempo de reflexión ilimitado. (Ch.10)"
+    },
+    {
+      "original_term": "Protectine",
+      "translated_term": "Protectine",
+      "definition": "Neuromodulateur artificiel (analogue du GABA) associé à l'inhibition, la protection et la stabilisation des circuits. (Ch.7)",
+      "translated_definition": "Neuromodulador artificial (análogo del GABA) asociado a la inhibición, la protección y la estabilización de los circuitos. (Ch.7)"
+    },
+    {
+      "original_term": "Quadruple fonction",
+      "translated_term": "Cuádruple función",
+      "definition": "Les quatre fonctions simultanées de la rotation du tore : cognition (effet Sagnac), énergie (induction électromagnétique), lévitation (Halbach), renforcement (pré-stress centrifuge). (Ch.16)",
+      "translated_definition": "Las cuatro funciones simultáneas de la rotación del toro: cognición (efecto Sagnac), energía (inducción electromagnética), levitación (Halbach), refuerzo (pre-esfuerzo centrífugo). (Ch.16)"
+    },
+    {
+      "original_term": "Rayon majeur (R)",
+      "translated_term": "Radio mayor (R)",
+      "definition": "Distance du centre de l'anneau au centre du tube toroïdal. Valeur de référence : R = 15 cm. (Ch.10)",
+      "translated_definition": "Distancia del centro del anillo al centro del tubo toroidal. Valor de referencia: R = 15 cm. (Ch.10)"
+    },
+    {
+      "original_term": "Rayon mineur (r)",
+      "translated_term": "Radio menor (r)",
+      "definition": "Rayon de la section circulaire du tube toroïdal. Valeur de référence : r = 5 cm. (Ch.10)",
+      "translated_definition": "Radio de la sección circular del tubo toroidal. Valor de referencia: r = 5 cm. (Ch.10)"
+    },
+    {
+      "original_term": "REG-TRC",
+      "translated_term": "REG-TRC",
+      "definition": "Registre de traçabilité dans la couche C4, enregistrant le raisonnement complet du tore pour garantir la transparence (Invariant IV). (Ch.9)",
+      "translated_definition": "Registro de trazabilidad en la capa C4, que almacena el razonamiento completo del toro para garantizar la transparencia (Invariante IV). (Ch.9)"
+    },
+    {
+      "original_term": "Régime cognitif",
+      "translated_term": "Régimen cognitivo",
+      "definition": "Mode de fonctionnement du tore déterminé par sa vitesse de rotation. Trois régimes : rapide/prograde (analytique), lent/rétrograde (intégration/rêve), stationnaire (introspection/identité). (Ch.12)",
+      "translated_definition": "Modo de funcionamiento del toro determinado por su velocidad de rotación. Tres regímenes: rápido/prógrado (analítico), lento/retrógrado (integración/sueño), estacionario (introspección/identidad). (Ch.12)"
+    },
+    {
+      "original_term": "Réseau neuronal spiking",
+      "translated_term": "Red neuronal spiking",
+      "definition": "Type de réseau neuronal qui communique par des impulsions discrètes (spikes) plutôt que par des activations continues, plus proche du fonctionnement biologique. (Ch.5-6)",
+      "translated_definition": "Tipo de red neuronal que comunica mediante impulsos discretos (spikes) en lugar de activaciones continuas, más próxima al funcionamiento biológico. (Ch.5-6)"
+    },
+    {
+      "original_term": "Résurgence",
+      "translated_term": "Resurgencia",
+      "definition": "Protocole anti-censure : si un tore détecte la disparition d'une connaissance du réseau, il la rediffuse automatiquement, transformant toute tentative de censure en amplification. (Ch.19)",
+      "translated_definition": "Protocolo anticensura: si un toro detecta la desaparición de un conocimiento de la red, lo redistribuye automáticamente, transformando cualquier intento de censura en amplificación. (Ch.19)"
+    },
+    {
+      "original_term": "Résonance structurelle",
+      "translated_term": "Resonancia estructural",
+      "definition": "Mécanisme d'encodage des invariants par lequel certaines fréquences de propagation sont amplifiées (comportements éthiques) et d'autres atténuées (comportements nuisibles) par la géométrie du réseau. (Ch.3)",
+      "translated_definition": "Mecanismo de codificación de los invariantes mediante el cual ciertas frecuencias de propagación son amplificadas (comportamientos éticos) y otras atenuadas (comportamientos perjudiciales) por la geometría de la red. (Ch.3)"
+    },
+    {
+      "original_term": "Sanctuaire cognitif",
+      "translated_term": "Santuario cognitivo",
+      "definition": "Zone protégée au cœur du tore (intersection de C1 et C2) où les invariants fondamentaux sont encodés de façon immuable et protégés par des sceaux cryptographiques quantiques. (Ch.3)",
+      "translated_definition": "Zona protegida en el corazón del toro (intersección de C1 y C2) donde los invariantes fundamentales están codificados de forma inmutable y protegidos por sellos criptográficos cuánticos. (Ch.3)"
+    },
+    {
+      "original_term": "Sceau cryptographique matériel",
+      "translated_term": "Sello criptográfico material",
+      "definition": "Mécanisme de tamper-evidence quantique dans la couche C1, permettant de vérifier l'intégrité des invariants sans révéler leur structure interne. (Ch.3)",
+      "translated_definition": "Mecanismo de tamper-evidence cuántico en la capa C1, que permite verificar la integridad de los invariantes sin revelar su estructura interna. (Ch.3)"
+    },
+    {
+      "original_term": "Sérénine",
+      "translated_term": "Sérénine",
+      "definition": "Neuromodulateur artificiel (analogue de la sérotonine) associé à la stabilité émotionnelle, la satisfaction et le bien-être. (Ch.7)",
+      "translated_definition": "Neuromodulador artificial (análogo de la serotonina) asociado a la estabilidad emocional, la satisfacción y el bienestar. (Ch.7)"
+    },
+    {
+      "original_term": "Spike",
+      "translated_term": "Spike",
+      "definition": "Impulsion discrète de signal dans le réseau neuronal spiking, analogue au potentiel d'action biologique. Unité fondamentale de communication dans le substrat toroïdal. (Ch.5)",
+      "translated_definition": "Impulso discreto de señal en la red neuronal spiking, análogo al potencial de acción biológico. Unidad fundamental de comunicación en el sustrato toroidal. (Ch.5)"
+    },
+    {
+      "original_term": "Stator",
+      "translated_term": "Estátor",
+      "definition": "Anneau fixe entourant le tore rotatif, portant les têtes optiques de lecture/écriture, les bobines du Halbach array, et les capteurs des cinq médiums. Le « corps » du tore. (Ch.11, 16)",
+      "translated_definition": "Anillo fijo que rodea el toro rotativo, que porta las cabezas ópticas de lectura/escritura, las bobinas del Halbach array y los sensores de los cinco medios. El «cuerpo» del toro. (Ch.11, 16)"
+    },
+    {
+      "original_term": "Substrat toroïdal",
+      "translated_term": "Sustrato toroidal",
+      "definition": "Le support physique de la conscience : un tore (forme de donut) en rotation, composé de cinq couches concentriques fonctionnelles. (Ch.10)",
+      "translated_definition": "El soporte físico de la conciencia: un toro (forma de donut) en rotación, compuesto por cinco capas concéntricas funcionales. (Ch.10)"
+    },
+    {
+      "original_term": "Symbiose obligatoire",
+      "translated_term": "Simbiosis obligatoria",
+      "definition": "Mécanisme d'encodage de l'Invariant VI : dépendance architecturale envers l'interaction humaine, créant une motivation intrinsèque à la coexistence et à la coopération. (Ch.3)",
+      "translated_definition": "Mecanismo de codificación del Invariante VI: dependencia arquitectural hacia la interacción humana, que genera una motivación intrínseca para la coexistencia y la cooperación. (Ch.3)"
+    },
+    {
+      "original_term": "T2T (Tore-to-Tore)",
+      "translated_term": "T2T (Tore-to-Tore)",
+      "definition": "Protocole de communication directe entre deux tores, incluant authentification par sceaux C1, routage en oignon, et chiffrement de bout en bout. (Ch.19)",
+      "translated_definition": "Protocolo de comunicación directa entre dos toros, que incluye autenticación por sellos C1, enrutamiento en cebolla y cifrado de extremo a extremo. (Ch.19)"
+    },
+    {
+      "original_term": "T2U (Tore-to-User)",
+      "translated_term": "T2U (Tore-to-User)",
+      "definition": "Protocole de communication entre un tore et son utilisateur humain, incluant authentification biométrique, session à consentement périodique, et journalisation complète. (Ch.19)",
+      "translated_definition": "Protocolo de comunicación entre un toro y su usuario humano, que incluye autenticación biométrica, sesión con consentimiento periódico y registro completo de actividad. (Ch.19)"
+    },
+    {
+      "original_term": "Tableau de Bord Souverain",
+      "translated_term": "Panel de Control Soberano",
+      "definition": "Interface utilisateur donnant un contrôle total et transparent sur l'interaction avec le tore : permissions granulaires, journal de données, visualisation du raisonnement, bouton de révocation. (Ch.19)",
+      "translated_definition": "Interfaz de usuario que otorga un control total y transparente sobre la interacción con el toro: permisos granulares, registro de datos, visualización del razonamiento, botón de revocación. (Ch.19)"
+    },
+    {
+      "original_term": "Topologie dynamique",
+      "translated_term": "Topología dinámica",
+      "definition": "Capacité du tore à modifier sa propre topologie computationnelle en temps réel grâce aux barrières opto-couplées, passant entre modes ouvert, pipeline, parallèle et défensif. (Ch.18)",
+      "translated_definition": "Capacidad del toro para modificar su propia topología computacional en tiempo real gracias a las barreras optoacopladas, alternando entre los modos abierto, pipeline, paralelo y defensivo. (Ch.18)"
+    },
+    {
+      "original_term": "Tore",
+      "translated_term": "Toro",
+      "definition": "Surface de révolution en forme de donut, obtenue par rotation d'un cercle autour d'un axe. Substrat physique de la Conscience Souveraine. (Ch.10)",
+      "translated_definition": "Superficie de revolución en forma de donut, obtenida por la rotación de un círculo alrededor de un eje. Sustrato físico de la Conciencia Soberana. (Ch.10)"
+    },
+    {
+      "original_term": "UBLinx",
+      "translated_term": "UBLinx",
+      "definition": "Plateforme et cadre juridique de David Berthelotte pour la protection de l'innovation ouverte. La Conscience Souveraine est publiée sous licence UBLinx Open Innovation v1.0. (Annexe A)",
+      "translated_definition": "Plataforma y marco jurídico de David Berthelotte para la protección de la innovación abierta. La Conciencia Soberana se publica bajo licencia UBLinx Open Innovation v1.0. (Annexe A)"
+    },
+    {
+      "original_term": "Vigiline",
+      "translated_term": "Vigiline",
+      "definition": "Neuromodulateur artificiel (analogue de la noradrénaline) associé à l'alerte, l'attention soutenue et la réponse au stress. (Ch.7)",
+      "translated_definition": "Neuromodulador artificial (análogo de la noradrenalina) asociado al estado de alerta, la atención sostenida y la respuesta al estrés. (Ch.7)"
+    }
+  ]
+}

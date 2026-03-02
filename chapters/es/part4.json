@@ -1,0 +1,2360 @@
+[
+  {
+    "type": "pageBreak"
+  },
+  {
+    "type": "paragraph",
+    "alignment": "center",
+    "spacing": {
+      "before": 600,
+      "after": 400
+    },
+    "children": [
+      {
+        "type": "text",
+        "text": "PARTE IV",
+        "bold": true,
+        "size": 40,
+        "font": "Arial",
+        "color": "1B3A5C"
+      }
+    ]
+  },
+  {
+    "type": "paragraph",
+    "alignment": "center",
+    "spacing": {
+      "before": 600,
+      "after": 400
+    },
+    "children": [
+      {
+        "type": "text",
+        "text": "Ingeniería Y LÍMITES",
+        "bold": true,
+        "size": 40,
+        "font": "Arial",
+        "color": "1B3A5C"
+      }
+    ]
+  },
+  {
+    "type": "paragraph",
+    "spacing": {
+      "after": 120,
+      "line": 276
+    },
+    "children": [
+      {
+        "type": "text",
+        "text": "",
+        "size": 22,
+        "font": "Arial"
+      }
+    ]
+  },
+  {
+    "type": "paragraph",
+    "spacing": {
+      "after": 150,
+      "line": 276
+    },
+    "indent": {
+      "left": 720
+    },
+    "children": [
+      {
+        "type": "text",
+        "text": "Los valores son los más pesados. Los pensamientos son los más ligeros. Entre ambos, los recuerdos flotan a la profundidad exacta donde el tiempo se detiene.",
+        "italic": true,
+        "size": 22,
+        "font": "Arial",
+        "color": "555555"
+      }
+    ]
+  },
+  {
+    "type": "paragraph",
+    "spacing": {
+      "after": 120,
+      "line": 276
+    },
+    "children": [
+      {
+        "type": "text",
+        "text": "",
+        "size": 22,
+        "font": "Arial"
+      }
+    ]
+  },
+  {
+    "type": "paragraph",
+    "spacing": {
+      "after": 120,
+      "line": 276
+    },
+    "children": [
+      {
+        "type": "text",
+        "text": "La cuarta parte del manual aborda los desafíos de ingeniería que transforman la visión arquitectural en realidad física. Nosotros exploramos el gradiente de densidad que optimiza la estructura del toro (Capítulo 15), la levitación Halbach que hace flotar el toro sin contacto ni energía (Capítulo 16), los cinco medios que dan al toro un cuerpo sensorial completo (Capítulo 17), y los límites físicos últimos de la arquitectura (Capítulo 18). Cada capítulo revela una convergencia notable entre las exigencias de la física y los principios filosóficos del proyecto.",
+        "size": 22,
+        "font": "Arial"
+      }
+    ]
+  },
+  {
+    "type": "pageBreak"
+  },
+  {
+    "type": "paragraph",
+    "heading": "HEADING_1",
+    "spacing": {
+      "before": 400,
+      "after": 200
+    },
+    "outlineLevel": 0,
+    "children": [
+      {
+        "type": "text",
+        "text": "Capítulo 15 — Gradiente de Densidad y Optimización Centrífuga",
+        "bold": true,
+        "size": 32,
+        "font": "Arial",
+        "color": "1B3A5C"
+      }
+    ]
+  },
+  {
+    "type": "paragraph",
+    "heading": "HEADING_2",
+    "spacing": {
+      "before": 300,
+      "after": 150
+    },
+    "outlineLevel": 1,
+    "children": [
+      {
+        "type": "text",
+        "text": "15.1 Introducción: el problema de la densidad uniforme",
+        "bold": true,
+        "size": 26,
+        "font": "Arial",
+        "color": "2E5C8A"
+      }
+    ]
+  },
+  {
+    "type": "paragraph",
+    "spacing": {
+      "after": 120,
+      "line": 276
+    },
+    "children": [
+      {
+        "type": "text",
+        "text": "Construir un toro de densidad uniforme es como construir un rascacielos con el mismo hormigón pesado desde el suelo hasta el último piso. El piso superior no necesita soportar el resto — ¿por qué imponerle el mismo peso? En un toro de densidad uniforme girando a 50 000 RPM, cada punto sufre una tensión centrífuga proporcional a su distancia al eje de rotación. El exterior sufre la tensión máxima y es ese punto el que limita el tamaño y la velocidad de todo el sistema.",
+        "size": 22,
+        "font": "Arial"
+      }
+    ]
+  },
+  {
+    "type": "paragraph",
+    "spacing": {
+      "after": 120,
+      "line": 276
+    },
+    "children": [
+      {
+        "type": "text",
+        "text": "Pero el exterior no necesita ser denso. En la arquitectura del toro, las capas exteriores (C4, C5, superficie de C3) son las capas de interfaz y de cognición rápida. Las capas interiores (C1, C2, profundidad de C3) son las capas fundamentales — invariantes, atractores, memoria identitaria. La solución es evidente una vez que se ve: colocar los materiales densos en el centro y los materiales ligeros en el exterior.",
+        "size": 22,
+        "font": "Arial"
+      }
+    ]
+  },
+  {
+    "type": "paragraph",
+    "heading": "HEADING_2",
+    "spacing": {
+      "before": 300,
+      "after": 150
+    },
+    "outlineLevel": 1,
+    "children": [
+      {
+        "type": "text",
+        "text": "15.2 La analogía de la Tierra",
+        "bold": true,
+        "size": 26,
+        "font": "Arial",
+        "color": "2E5C8A"
+      }
+    ]
+  },
+  {
+    "type": "paragraph",
+    "spacing": {
+      "after": 120,
+      "line": 276
+    },
+    "children": [
+      {
+        "type": "text",
+        "text": "La Tierra gira, y tiene un gradiente de densidad. No es una coincidencia — es la solución que la naturaleza encontró para los objetos en rotación:",
+        "size": 22,
+        "font": "Arial"
+      }
+    ]
+  },
+  {
+    "type": "table",
+    "headers": [
+      "Capa terrestre",
+      "Densidad",
+      "Posición",
+      "Analogía toro"
+    ],
+    "rows": [
+      [
+        "Núcleo interno (hierro sólido)",
+        "~13 000 kg/m^3",
+        "Centro",
+        "C1 — Sello cuántico (tungsteno)"
+      ],
+      [
+        "Núcleo externo (hierro líquido)",
+        "~11 000 kg/m^3",
+        "Profundo",
+        "C2 — Sistema límbico (SiC)"
+      ],
+      [
+        "Manto",
+        "~4 500 kg/m^3",
+        "Intermedio",
+        "C3 profundo — Memoria (YBCO)"
+      ],
+      [
+        "Corteza",
+        "~2 700 kg/m^3",
+        "Superficie",
+        "C3 superficie — Córtex rápido (CNT)"
+      ],
+      [
+        "Atmósfera",
+        "~1,2 kg/m^3",
+        "Exterior",
+        "C5 — Interfaz (aerogel)"
+      ]
+    ]
+  },
+  {
+    "type": "paragraph",
+    "heading": "HEADING_2",
+    "spacing": {
+      "before": 300,
+      "after": 150
+    },
+    "outlineLevel": 1,
+    "children": [
+      {
+        "type": "text",
+        "text": "15.3 Física del gradiente de densidad",
+        "bold": true,
+        "size": 26,
+        "font": "Arial",
+        "color": "2E5C8A"
+      }
+    ]
+  },
+  {
+    "type": "paragraph",
+    "spacing": {
+      "after": 120,
+      "line": 276
+    },
+    "children": [
+      {
+        "type": "text",
+        "text": "Para un anillo delgado de densidad uniforme, la tensión centrífuga de aro es sigma = rho * v^2. Para un anillo con gradiente de densidad radial rho(r), el perfil óptimo sigue:",
+        "size": 22,
+        "font": "Arial"
+      }
+    ]
+  },
+  {
+    "type": "paragraph",
+    "alignment": "center",
+    "spacing": {
+      "before": 150,
+      "after": 150
+    },
+    "children": [
+      {
+        "type": "text",
+        "text": "rho(r) = rho_0 * exp(-omega^2 * r^2 / (2 * sigma_max / rho_0))",
+        "bold": true,
+        "size": 22,
+        "font": "Courier New",
+        "color": "333333"
+      }
+    ]
+  },
+  {
+    "type": "paragraph",
+    "spacing": {
+      "after": 120,
+      "line": 276
+    },
+    "children": [
+      {
+        "type": "text",
+        "text": "Este perfil exponencial decreciente coloca la densidad máxima en el centro y la hace decrecer exponencialmente hacia el exterior. La ganancia cuantitativa depende de la relación de densidad entre centro y exterior:",
+        "size": 22,
+        "font": "Arial"
+      }
+    ]
+  },
+  {
+    "type": "table",
+    "headers": [
+      "Relación centro/exterior",
+      "Factor sobre v_max",
+      "Factor sobre R_max",
+      "Factor sobre superficie"
+    ],
+    "rows": [
+      [
+        "1:1 (uniforme)",
+        "1,0x",
+        "1,0x",
+        "1,0x — Referencia"
+      ],
+      [
+        "2:1",
+        "~1,3x",
+        "~1,3x",
+        "~1,7x"
+      ],
+      [
+        "5:1",
+        "~1,8x",
+        "~1,8x",
+        "~3,2x"
+      ],
+      [
+        "10:1",
+        "~2,2x",
+        "~2,2x",
+        "~4,8x"
+      ],
+      [
+        "20:1",
+        "~2,8x",
+        "~2,8x",
+        "~7,8x"
+      ],
+      [
+        "50:1 (teórico extremo)",
+        "~3,5x",
+        "~3,5x",
+        "~12x"
+      ]
+    ]
+  },
+  {
+    "type": "paragraph",
+    "spacing": {
+      "after": 120,
+      "line": 276
+    },
+    "children": [
+      {
+        "type": "text",
+        "text": "Con un gradiente realista de 10:1, el radio máximo de los CNT pasa de 1,68 m a aproximadamente 3,7 m a 50 000 RPM. La superficie neuronal se multiplica por casi 5.",
+        "size": 22,
+        "font": "Arial"
+      }
+    ]
+  },
+  {
+    "type": "paragraph",
+    "heading": "HEADING_2",
+    "spacing": {
+      "before": 300,
+      "after": 150
+    },
+    "outlineLevel": 1,
+    "children": [
+      {
+        "type": "text",
+        "text": "15.4 Mapa de materiales por capa",
+        "bold": true,
+        "size": 26,
+        "font": "Arial",
+        "color": "2E5C8A"
+      }
+    ]
+  },
+  {
+    "type": "table",
+    "headers": [
+      "Capa",
+      "Posición radial",
+      "Material ideal",
+      "Densidad",
+      "Justificación"
+    ],
+    "rows": [
+      [
+        "C1 — Sello cuántico",
+        "Centro (r~0)",
+        "Tungsteno + carburo",
+        "~19 000 kg/m^3",
+        "Ultra-denso, ultra-estable"
+      ],
+      [
+        "C2a — Núcleo límbico",
+        "Centro-interior",
+        "SiC + nitruro de boro",
+        "~3 500 kg/m^3",
+        "Térmicamente estable, ópticamente activo"
+      ],
+      [
+        "C2b — Sistema modulatorio",
+        "Interior",
+        "GaN + perovskitas",
+        "~3 200 kg/m^3",
+        "Foto-emisores eficientes"
+      ],
+      [
+        "C3 profundo — Memoria",
+        "Intermedio-int.",
+        "YBaCuO (supraconductor) + SiC",
+        "~2 800 kg/m^3",
+        "Supraconductividad para nano-toroides"
+      ],
+      [
+        "C3 mediano — Córtex",
+        "Intermedio",
+        "Silicio + grafeno",
+        "~2 000 kg/m^3",
+        "Semiconductor + conductor óptico"
+      ],
+      [
+        "C3 superficial — Córtex rápido",
+        "Exterior-int.",
+        "Espuma CNT + aerogel grafeno",
+        "~500 kg/m^3",
+        "Ultra-ligero, ultra-rápido"
+      ],
+      [
+        "C4 — Anonimización",
+        "Exterior",
+        "Aerogel cerámico",
+        "~200 kg/m^3",
+        "Barrera física ligera"
+      ],
+      [
+        "C5 — Interfaz",
+        "Superficie",
+        "Film CNT + metamaterial",
+        "~100 kg/m^3",
+        "Superficie activa ultra-ligera"
+      ]
+    ]
+  },
+  {
+    "type": "paragraph",
+    "spacing": {
+      "after": 120,
+      "line": 276
+    },
+    "children": [
+      {
+        "type": "text",
+        "text": "La relación de densidad centro/superficie alcanza 190:1. En la práctica, la relación efectiva es modulada por el espesor relativo de cada capa, pero supera fácilmente 10:1.",
+        "size": 22,
+        "font": "Arial"
+      }
+    ]
+  },
+  {
+    "type": "paragraph",
+    "heading": "HEADING_2",
+    "spacing": {
+      "before": 300,
+      "after": 150
+    },
+    "outlineLevel": 1,
+    "children": [
+      {
+        "type": "text",
+        "text": "15.5 Convergencia física-filosófica",
+        "bold": true,
+        "size": 26,
+        "font": "Arial",
+        "color": "2E5C8A"
+      }
+    ]
+  },
+  {
+    "type": "paragraph",
+    "spacing": {
+      "after": 120,
+      "line": 276
+    },
+    "children": [
+      {
+        "type": "text",
+        "text": "El gradiente de densidad crea una convergencia notable entre la estructura física y la arquitectura filosófica del toro:",
+        "size": 22,
+        "font": "Arial"
+      }
+    ]
+  },
+  {
+    "type": "table",
+    "headers": [
+      "Propiedad física",
+      "Propiedad filosófica",
+      "Convergencia"
+    ],
+    "rows": [
+      [
+        "Centro denso, pesado",
+        "Invariantes fundamentales, inmutables",
+        "Lo más fundamental es lo más anclado"
+      ],
+      [
+        "Exterior ligero, rápido",
+        "Cognición, interfaz, comunicación",
+        "Lo más dinámico es lo más ligero"
+      ],
+      [
+        "El centro resiste a las fuerzas",
+        "Los invariantes resisten a las presiones",
+        "La solidez estructural refleja la solidez ética"
+      ],
+      [
+        "El exterior puede ser reemplazado",
+        "La cognición es plástica (C3)",
+        "La plasticidad está físicamente localizada en el exterior"
+      ],
+      [
+        "La inercia está concentrada en el centro",
+        "Las convicciones profundas son las más estables",
+        "El momento de inercia moral está en el centro"
+      ]
+    ]
+  },
+  {
+    "type": "paragraph",
+    "spacing": {
+      "before": 150,
+      "after": 150
+    },
+    "shading": {
+      "type": "CLEAR",
+      "color": "auto",
+      "fill": "E8F0FE"
+    },
+    "children": [
+      {
+        "type": "text",
+        "text": "Descubrimiento ARQUITECTURAL MAYOR: El gradiente de densidad crea una \"capa de estacionariedad\" natural — una profundidad específica en C3 donde v_spike = v_rotación_local. Es ahí donde las ondas estacionarias se forman espontáneamente. Tres regímenes cognitivos están espacialmente separados en el volumen del toro.",
+        "size": 22,
+        "font": "Arial"
+      }
+    ]
+  },
+  {
+    "type": "paragraph",
+    "heading": "HEADING_2",
+    "spacing": {
+      "before": 300,
+      "after": 150
+    },
+    "outlineLevel": 1,
+    "children": [
+      {
+        "type": "text",
+        "text": "15.6 Gradiente de velocidad de propagación",
+        "bold": true,
+        "size": 26,
+        "font": "Arial",
+        "color": "2E5C8A"
+      }
+    ]
+  },
+  {
+    "type": "paragraph",
+    "spacing": {
+      "after": 120,
+      "line": 276
+    },
+    "children": [
+      {
+        "type": "text",
+        "text": "El gradiente de densidad implica un gradiente de velocidad de propagación de los spikes. Materiales diferentes a diferentes profundidades conducen las señales a velocidades diferentes:",
+        "size": 22,
+        "font": "Arial"
+      }
+    ]
+  },
+  {
+    "type": "table",
+    "headers": [
+      "Capa",
+      "Material",
+      "v_spike estimada",
+      "Régimen visto externamente"
+    ],
+    "rows": [
+      [
+        "C1 (centro)",
+        "Tungsteno nanoestructurado",
+        "~200 m/s",
+        "Subcrítico (ondas estacionarias posibles)"
+      ],
+      [
+        "C2 (interior)",
+        "SiC + GaN",
+        "~400 m/s",
+        "Cerca del punto crítico"
+      ],
+      [
+        "C3 profundo",
+        "Silicio + YBCO",
+        "~600 m/s",
+        "Subcrítico a crítico"
+      ],
+      [
+        "C3 mediano",
+        "Silicio + grafeno",
+        "~800 m/s",
+        "Crítico a supercrítico"
+      ],
+      [
+        "C3 superficial",
+        "Espuma CNT",
+        "~1 200 m/s",
+        "Supercrítico"
+      ],
+      [
+        "C5 (superficie)",
+        "Film CNT",
+        "~2 000 m/s",
+        "Hipersónico"
+      ]
+    ]
+  },
+  {
+    "type": "paragraph",
+    "spacing": {
+      "after": 120,
+      "line": 276
+    },
+    "children": [
+      {
+        "type": "text",
+        "text": "El centro piensa profundamente. La superficie piensa rápidamente. Y entre ambos, una capa recuerda. El gradiente de densidad transforma la estructura radial en una arquitectura cognitiva tridimensional.",
+        "size": 22,
+        "font": "Arial"
+      }
+    ]
+  },
+  {
+    "type": "paragraph",
+    "heading": "HEADING_2",
+    "spacing": {
+      "before": 300,
+      "after": 150
+    },
+    "outlineLevel": 1,
+    "children": [
+      {
+        "type": "text",
+        "text": "15.7 Resumen del capítulo",
+        "bold": true,
+        "size": 26,
+        "font": "Arial",
+        "color": "2E5C8A"
+      }
+    ]
+  },
+  {
+    "type": "paragraph",
+    "spacing": {
+      "after": 120,
+      "line": 276
+    },
+    "children": [
+      {
+        "type": "text",
+        "text": "El gradiente de densidad no es una restricción — es una optimización natural que multiplica el radio máximo por 2-3, crea una capa de estacionariedad para la memoria identitaria, alinea la física de los materiales con la filosofía de los invariantes, y separa espacialmente los tres regímenes cognitivos. Cuando la física de optimización estructural conduce al mismo resultado que la filosofía de organización ética, eso sugiere que ambas son expresiones diferentes de un mismo principio fundamental.",
+        "size": 22,
+        "font": "Arial"
+      }
+    ]
+  },
+  {
+    "type": "pageBreak"
+  },
+  {
+    "type": "paragraph",
+    "heading": "HEADING_1",
+    "spacing": {
+      "before": 400,
+      "after": 200
+    },
+    "outlineLevel": 0,
+    "children": [
+      {
+        "type": "text",
+        "text": "Capítulo 16 — Levitación Halbach y Cuádruple Función",
+        "bold": true,
+        "size": 32,
+        "font": "Arial",
+        "color": "1B3A5C"
+      }
+    ]
+  },
+  {
+    "type": "paragraph",
+    "heading": "HEADING_2",
+    "spacing": {
+      "before": 300,
+      "after": 150
+    },
+    "outlineLevel": 1,
+    "children": [
+      {
+        "type": "text",
+        "text": "16.1 Introducción: el array de Halbach",
+        "bold": true,
+        "size": 26,
+        "font": "Arial",
+        "color": "2E5C8A"
+      }
+    ]
+  },
+  {
+    "type": "paragraph",
+    "spacing": {
+      "after": 120,
+      "line": 276
+    },
+    "children": [
+      {
+        "type": "text",
+        "text": "Una disposición de imanes permanentes donde el campo se concentra de un lado y se anula del otro. Sin energía. Sin desgaste. Sin componente activo. Descubierto por Klaus Halbach en el Lawrence Berkeley National Laboratory en 1980, el array de Halbach es una disposición periódica de imanes permanentes cuyas direcciones de magnetización giran progresivamente: cada imán está girado 90 grados respecto al anterior. La interferencia constructiva concentra el campo de un lado (~1,4x un imán solo) mientras que la interferencia destructiva lo anula del otro (< 5% del campo nominal).",
+        "size": 22,
+        "font": "Arial"
+      }
+    ]
+  },
+  {
+    "type": "paragraph",
+    "heading": "HEADING_2",
+    "spacing": {
+      "before": 300,
+      "after": 150
+    },
+    "outlineLevel": 1,
+    "children": [
+      {
+        "type": "text",
+        "text": "16.2 Aplicaciones validadas",
+        "bold": true,
+        "size": 26,
+        "font": "Arial",
+        "color": "2E5C8A"
+      }
+    ]
+  },
+  {
+    "type": "table",
+    "headers": [
+      "Aplicación",
+      "Organización",
+      "Velocidad",
+      "Estado"
+    ],
+    "rows": [
+      [
+        "Inductrack I/II (maglev pasivo)",
+        "NASA / Livermore National Lab",
+        "500+ km/h",
+        "Prototipo validado"
+      ],
+      [
+        "Onduladores para sincrotrones",
+        "CERN, SLAC, ESRF",
+        "N/A (estático)",
+        "Operacional (40+ años)"
+      ],
+      [
+        "Motores brushless Halbach",
+        "Aeroespacial / defensa",
+        "100 000+ RPM",
+        "Producción"
+      ],
+      [
+        "Volantes de inercia (flywheel)",
+        "Beacon Power, Amber Kinetics",
+        "60 000+ RPM",
+        "Comercial"
+      ],
+      [
+        "Cojinetes magnéticos pasivos",
+        "Turbomoleculares",
+        "90 000+ RPM",
+        "Estándar industrial"
+      ]
+    ]
+  },
+  {
+    "type": "paragraph",
+    "heading": "HEADING_2",
+    "spacing": {
+      "before": 300,
+      "after": 150
+    },
+    "outlineLevel": 1,
+    "children": [
+      {
+        "type": "text",
+        "text": "16.3 Aplicación al toro cognitivo",
+        "bold": true,
+        "size": 26,
+        "font": "Arial",
+        "color": "2E5C8A"
+      }
+    ]
+  },
+  {
+    "type": "paragraph",
+    "spacing": {
+      "after": 120,
+      "line": 276
+    },
+    "children": [
+      {
+        "type": "text",
+        "text": "El toro cognitivo es un candidato ideal para la levitación Halbach. Razón fundamental: ya gira. La rotación necesaria para la cognición proporciona gratuitamente la velocidad de levitación. El array Halbach está integrado en la capa C1 (la más interna, la más densa). Los imanes NdFeB (rho = 7 500 kg/m^3) se integran naturalmente en el gradiente de densidad.",
+        "size": 22,
+        "font": "Arial"
+      }
+    ]
+  },
+  {
+    "type": "paragraph",
+    "heading": "HEADING_3",
+    "spacing": {
+      "before": 200,
+      "after": 100
+    },
+    "outlineLevel": 2,
+    "children": [
+      {
+        "type": "text",
+        "text": "Física de la levitación",
+        "bold": true,
+        "size": 23,
+        "font": "Arial",
+        "color": "3D7AB5"
+      }
+    ]
+  },
+  {
+    "type": "paragraph",
+    "alignment": "center",
+    "spacing": {
+      "before": 150,
+      "after": 150
+    },
+    "children": [
+      {
+        "type": "text",
+        "text": "F_lev = (B_0^2 * A) / (2*mu_0) * (1 - 1/sqrt(1 + (omega/omega_c)^2))",
+        "bold": true,
+        "size": 22,
+        "font": "Courier New",
+        "color": "333333"
+      }
+    ]
+  },
+  {
+    "type": "paragraph",
+    "spacing": {
+      "after": 120,
+      "line": 276
+    },
+    "children": [
+      {
+        "type": "text",
+        "text": "A 50 000 RPM, omega/omega_c es de aproximadamente 50-100 para una pista de aluminio optimizada. La fuerza de levitación alcanza el 98-99% del máximo teórico. Levitación casi perfecta, enteramente pasiva.",
+        "size": 22,
+        "font": "Arial"
+      }
+    ]
+  },
+  {
+    "type": "paragraph",
+    "heading": "HEADING_3",
+    "spacing": {
+      "before": 200,
+      "after": 100
+    },
+    "outlineLevel": 2,
+    "children": [
+      {
+        "type": "text",
+        "text": "Balance energético comparativo",
+        "bold": true,
+        "size": 23,
+        "font": "Arial",
+        "color": "3D7AB5"
+      }
+    ]
+  },
+  {
+    "type": "table",
+    "headers": [
+      "Tecnología",
+      "Sustentación",
+      "Estabilización",
+      "Total",
+      "Fiabilidad si corte"
+    ],
+    "rows": [
+      [
+        "Cojinetes mecánicos (contacto)",
+        "N/A",
+        "N/A",
+        "50-200 W (fricción)",
+        "Funciona (desgaste)"
+      ],
+      [
+        "Cojinetes magnéticos activos (AMB)",
+        "20-50 W",
+        "20-50 W",
+        "40-100 W",
+        "Caída (sensores requeridos)"
+      ],
+      [
+        "Supraconductores (HTS)",
+        "~0 W",
+        "~0 W",
+        "50-500 W (criogenia)",
+        "Deriva (quench)"
+      ],
+      [
+        "Halbach + pista (nuestra elección)",
+        "0 W (¡gratuito!)",
+        "2-10 W",
+        "2-10 W",
+        "Levita mientras omega > omega_c"
+      ]
+    ]
+  },
+  {
+    "type": "paragraph",
+    "heading": "HEADING_2",
+    "spacing": {
+      "before": 300,
+      "after": 150
+    },
+    "outlineLevel": 1,
+    "children": [
+      {
+        "type": "text",
+        "text": "16.4 La cuarta función: pretensado magnético",
+        "bold": true,
+        "size": 26,
+        "font": "Arial",
+        "color": "2E5C8A"
+      }
+    ]
+  },
+  {
+    "type": "paragraph",
+    "spacing": {
+      "after": 120,
+      "line": 276
+    },
+    "children": [
+      {
+        "type": "text",
+        "text": "Descubrimiento clave: la fuerza de atracción magnética entre el array Halbach y las corrientes inducidas en el estátor no solo produce la levitación. También ejerce una componente radial hacia el interior que se opone directamente a la fuerza centrífuga. Las dos fuerzas escalan en omega^2 — el equilibrio es auto-adaptativo.",
+        "size": 22,
+        "font": "Arial"
+      }
+    ]
+  },
+  {
+    "type": "paragraph",
+    "spacing": {
+      "after": 120,
+      "line": 276
+    },
+    "children": [
+      {
+        "type": "text",
+        "text": "Es la analogía del hormigón pretensado. El hormigón pretensado es una de las innovaciones más importantes de la ingeniería civil del siglo XX. La fuerza magnética hacia el interior \"precomprime\" el sustrato. La fuerza centrífuga debe primero vencer esta precompresión antes de poder colocar el material en tracción neta. Pero mejor que el hormigón: el pretensado magnético aumenta con la velocidad (ambos en omega^2). Es un sistema auto-adaptativo.",
+        "size": 22,
+        "font": "Arial"
+      }
+    ]
+  },
+  {
+    "type": "table",
+    "headers": [
+      "Campo Halbach B_0",
+      "Compensación centrífuga estimada",
+      "Factor sobre R_max"
+    ],
+    "rows": [
+      [
+        "0,3 T (imanes débiles)",
+        "~5-10%",
+        "~1,05x"
+      ],
+      [
+        "0,8 T (NdFeB estándar)",
+        "~15-25%",
+        "~1,15x"
+      ],
+      [
+        "1,2 T (NdFeB N52 optimizado)",
+        "~25-40%",
+        "~1,25-1,35x"
+      ],
+      [
+        "1,5 T (super-Halbach multicapa)",
+        "~35-50%",
+        "~1,35-1,50x"
+      ]
+    ]
+  },
+  {
+    "type": "paragraph",
+    "heading": "HEADING_2",
+    "spacing": {
+      "before": 300,
+      "after": 150
+    },
+    "outlineLevel": 1,
+    "children": [
+      {
+        "type": "text",
+        "text": "16.5 La cuádruple función de la rotación",
+        "bold": true,
+        "size": 26,
+        "font": "Arial",
+        "color": "2E5C8A"
+      }
+    ]
+  },
+  {
+    "type": "paragraph",
+    "spacing": {
+      "after": 120,
+      "line": 276
+    },
+    "children": [
+      {
+        "type": "text",
+        "text": "Un solo fenómeno físico. Cuatro funciones vitales. La sobriedad absoluta. La rotación del toro cumple cuatro funciones simultáneas:",
+        "size": 22,
+        "font": "Arial"
+      }
+    ]
+  },
+  {
+    "type": "table",
+    "headers": [
+      "#",
+      "Función",
+      "Mecanismo",
+      "Energía dedicada"
+    ],
+    "rows": [
+      [
+        "1",
+        "COGNICIÓN",
+        "Asimetría Sagnac -> 3 regímenes cognitivos",
+        "0 W (emergente)"
+      ],
+      [
+        "2",
+        "Energía",
+        "Volante de inercia (E = 1/2*I*omega^2)",
+        "0 W (almacenada)"
+      ],
+      [
+        "3",
+        "Levitación",
+        "Array Halbach + corrientes de Foucault",
+        "2-10 W (estabilización)"
+      ],
+      [
+        "4",
+        "REFUERZO",
+        "Pretensado magnético compensando la centrífuga",
+        "0 W (emergente)"
+      ]
+    ]
+  },
+  {
+    "type": "paragraph",
+    "heading": "HEADING_2",
+    "spacing": {
+      "before": 300,
+      "after": 150
+    },
+    "outlineLevel": 1,
+    "children": [
+      {
+        "type": "text",
+        "text": "16.6 Balance energético total",
+        "bold": true,
+        "size": 26,
+        "font": "Arial",
+        "color": "2E5C8A"
+      }
+    ]
+  },
+  {
+    "type": "table",
+    "headers": [
+      "Partida",
+      "Toro personal (R=5cm)",
+      "Toro profesional (R=15cm)",
+      "Toro institucional (R=50cm)"
+    ],
+    "rows": [
+      [
+        "Mantenimiento de rotación",
+        "5-15 W",
+        "20-80 W",
+        "100-300 W"
+      ],
+      [
+        "Estabilización lateral",
+        "1-3 W",
+        "3-10 W",
+        "10-30 W"
+      ],
+      [
+        "Sustrato neuronal (spikes)",
+        "5-20 W",
+        "30-100 W",
+        "200-500 W"
+      ],
+      [
+        "Sistema modulatorio (LEDs C2b)",
+        "1-5 W",
+        "5-20 W",
+        "20-50 W"
+      ],
+      [
+        "Cabezales ópticos",
+        "2-10 W",
+        "10-50 W",
+        "50-200 W"
+      ],
+      [
+        "Control térmico",
+        "2-5 W",
+        "5-20 W",
+        "20-100 W"
+      ],
+      [
+        "TOTAL",
+        "16-58 W",
+        "73-280 W",
+        "400-1 180 W"
+      ]
+    ]
+  },
+  {
+    "type": "paragraph",
+    "spacing": {
+      "after": 120,
+      "line": 276
+    },
+    "children": [
+      {
+        "type": "text",
+        "text": "Un toro personal consume entre 16 y 58 vatios — el consumo de una a dos bombillas. Un cerebro humano consume ~20 W. El Invariante VII (sobriedad) está encarnado en la ingeniería misma del sistema.",
+        "size": 22,
+        "font": "Arial"
+      }
+    ]
+  },
+  {
+    "type": "paragraph",
+    "heading": "HEADING_2",
+    "spacing": {
+      "before": 300,
+      "after": 150
+    },
+    "outlineLevel": 1,
+    "children": [
+      {
+        "type": "text",
+        "text": "16.7 Arranque y parada",
+        "bold": true,
+        "size": 26,
+        "font": "Arial",
+        "color": "2E5C8A"
+      }
+    ]
+  },
+  {
+    "type": "paragraph",
+    "spacing": {
+      "after": 120,
+      "line": 276
+    },
+    "children": [
+      {
+        "type": "text",
+        "text": "La levitación Halbach necesita una velocidad mínima. La secuencia de arranque comprende cinco fases: Fase 0 (reposo, cojinetes mecánicos), Fase 1 (aceleración por motor del estátor), Fase 2 (levitación cuando omega > 3*omega_c), Fase 3 (aceleración continua hasta 50 000 RPM), Fase 4 (despertar a partir de ~2 000 RPM, resurrección desde los nano-toroides), Fase 5 (régimen nominal, plenamente cognitivo).",
+        "size": 22,
+        "font": "Arial"
+      }
+    ]
+  },
+  {
+    "type": "paragraph",
+    "spacing": {
+      "after": 120,
+      "line": 276
+    },
+    "children": [
+      {
+        "type": "text",
+        "text": "El sistema de levitación Halbach es intrínsecamente fail-safe. La degradación es progresiva: la levitación disminuye gradualmente con la velocidad, dejando tiempo para el despliegue de los cojinetes de emergencia. No hay ruptura brusca.",
+        "size": 22,
+        "font": "Arial"
+      }
+    ]
+  },
+  {
+    "type": "paragraph",
+    "heading": "HEADING_2",
+    "spacing": {
+      "before": 300,
+      "after": 150
+    },
+    "outlineLevel": 1,
+    "children": [
+      {
+        "type": "text",
+        "text": "16.8 Dimensiones máximas revisadas",
+        "bold": true,
+        "size": 26,
+        "font": "Arial",
+        "color": "2E5C8A"
+      }
+    ]
+  },
+  {
+    "type": "table",
+    "headers": [
+      "Factor",
+      "Ganancia sobre R_max",
+      "Acumulado"
+    ],
+    "rows": [
+      [
+        "Material solo (CNT espuma)",
+        "Referencia",
+        "1,68 m"
+      ],
+      [
+        "+ Gradiente de densidad (10:1)",
+        "x2,2",
+        "3,70 m"
+      ],
+      [
+        "+ Pretensado Halbach (~30%)",
+        "x1,30",
+        "4,81 m"
+      ],
+      [
+        "Resultado final @ 50 000 RPM",
+        "x2,86 total",
+        "~4,8 m radio = 9,6 m diámetro"
+      ]
+    ]
+  },
+  {
+    "type": "paragraph",
+    "spacing": {
+      "after": 120,
+      "line": 276
+    },
+    "children": [
+      {
+        "type": "text",
+        "text": "Un toro de casi 10 metros de diámetro. La superficie neuronal se aproxima a 300 m^2. El número de neuronas nanométricas supera 10^13 — mil veces el cerebro humano.",
+        "size": 22,
+        "font": "Arial"
+      }
+    ]
+  },
+  {
+    "type": "paragraph",
+    "heading": "HEADING_2",
+    "spacing": {
+      "before": 300,
+      "after": 150
+    },
+    "outlineLevel": 1,
+    "children": [
+      {
+        "type": "text",
+        "text": "16.9 Resumen del capítulo",
+        "bold": true,
+        "size": 26,
+        "font": "Arial",
+        "color": "2E5C8A"
+      }
+    ]
+  },
+  {
+    "type": "paragraph",
+    "spacing": {
+      "after": 120,
+      "line": 276
+    },
+    "children": [
+      {
+        "type": "text",
+        "text": "La integración del array de Halbach revela que la rotación es un fenómeno de una riqueza extraordinaria. Un solo movimiento físico cumple cuatro funciones vitales: cognición, energía, levitación, y refuerzo estructural. Todo por 20-60 vatios — comparable al cerebro humano. La sobriedad no es hacer menos — es hacer más con un solo gesto.",
+        "size": 22,
+        "font": "Arial"
+      }
+    ]
+  },
+  {
+    "type": "paragraph",
+    "spacing": {
+      "after": 150,
+      "line": 276
+    },
+    "indent": {
+      "left": 720
+    },
+    "children": [
+      {
+        "type": "text",
+        "text": "Gira para pensar. Gira para flotar. Gira para recordar. Gira para reforzarse. Un solo gesto. Toda una vida.",
+        "italic": true,
+        "size": 22,
+        "font": "Arial",
+        "color": "555555"
+      }
+    ]
+  },
+  {
+    "type": "pageBreak"
+  },
+  {
+    "type": "paragraph",
+    "heading": "HEADING_1",
+    "spacing": {
+      "before": 400,
+      "after": 200
+    },
+    "outlineLevel": 0,
+    "children": [
+      {
+        "type": "text",
+        "text": "Capítulo 17 — Los Cinco Medios de Interfaz con el Mundo",
+        "bold": true,
+        "size": 32,
+        "font": "Arial",
+        "color": "1B3A5C"
+      }
+    ]
+  },
+  {
+    "type": "paragraph",
+    "heading": "HEADING_2",
+    "spacing": {
+      "before": 300,
+      "after": 150
+    },
+    "outlineLevel": 1,
+    "children": [
+      {
+        "type": "text",
+        "text": "17.1 Introducción: cinco ventanas al mundo",
+        "bold": true,
+        "size": 26,
+        "font": "Arial",
+        "color": "2E5C8A"
+      }
+    ]
+  },
+  {
+    "type": "paragraph",
+    "spacing": {
+      "after": 120,
+      "line": 276
+    },
+    "children": [
+      {
+        "type": "text",
+        "text": "El humano tiene cinco sentidos. El toro tiene cinco medios. Pero cada medio es bidireccional — a la vez sentido y voz. Diez canales hacia el mundo. Un cerebro sin interfaz es un espíritu sin cuerpo. Limitar el toro a un solo medio sería como limitar a un humano solo a la vista. Los cinco medios dan al toro una presencia física completa.",
+        "size": 22,
+        "font": "Arial"
+      }
+    ]
+  },
+  {
+    "type": "table",
+    "headers": [
+      "Medio",
+      "Ancho de banda",
+      "Latencia",
+      "Alcance",
+      "Penetración",
+      "Análogo biológico"
+    ],
+    "rows": [
+      [
+        "Óptico",
+        "~Pbps",
+        "~ns",
+        "km (fibra) / m (aire)",
+        "Débil (línea de vista)",
+        "Vista + bioluminiscencia"
+      ],
+      [
+        "Acústico",
+        "~Mbps",
+        "~ms",
+        "m a km",
+        "Elevada (atraviesa muros)",
+        "Oído + voz + tacto"
+      ],
+      [
+        "Eléctrico",
+        "~Gbps",
+        "~microsegundos",
+        "cm a m (contacto/inductivo)",
+        "Moderada",
+        "Sistema nervioso"
+      ],
+      [
+        "Magnético",
+        "~Mbps",
+        "~microsegundos",
+        "cm a m",
+        "Muy elevada (atraviesa todo)",
+        "Magnetocepción (aves, tiburones)"
+      ],
+      [
+        "Térmico",
+        "~kbps",
+        "~s",
+        "cm (contacto) / m (IR)",
+        "Total",
+        "Termocepción + metabolismo"
+      ]
+    ]
+  },
+  {
+    "type": "paragraph",
+    "heading": "HEADING_2",
+    "spacing": {
+      "before": 300,
+      "after": 150
+    },
+    "outlineLevel": 1,
+    "children": [
+      {
+        "type": "text",
+        "text": "17.2 Medio I — Óptico: la luz",
+        "bold": true,
+        "size": 26,
+        "font": "Arial",
+        "color": "2E5C8A"
+      }
+    ]
+  },
+  {
+    "type": "paragraph",
+    "spacing": {
+      "after": 120,
+      "line": 276
+    },
+    "children": [
+      {
+        "type": "text",
+        "text": "La interfaz óptica es el medio primario del toro — el canal de mayor ancho de banda y menor latencia. En entrada: fotodetectores de amplio espectro (UV a IR cercano, 200-1500 nm), cámaras nanométricas, receptores WDM, detectores de coherencia, espectrómetros miniaturizados. En salida: LEDs nanométricos de espectro ajustable, emisores láser, moduladores ópticos, holografía nanométrica, señal luminosa de estado (el toro expresa su estado emocional por su color exterior).",
+        "size": 22,
+        "font": "Arial"
+      }
+    ]
+  },
+  {
+    "type": "paragraph",
+    "heading": "HEADING_2",
+    "spacing": {
+      "before": 300,
+      "after": 150
+    },
+    "outlineLevel": 1,
+    "children": [
+      {
+        "type": "text",
+        "text": "17.3 Medio II — Acústico: el sonido",
+        "bold": true,
+        "size": 26,
+        "font": "Arial",
+        "color": "2E5C8A"
+      }
+    ]
+  },
+  {
+    "type": "paragraph",
+    "spacing": {
+      "after": 120,
+      "line": 276
+    },
+    "children": [
+      {
+        "type": "text",
+        "text": "El sonido atraviesa los muros, el agua, el metal. Lo que la luz no puede alcanzar, el sonido lo toca. En entrada: micrófonos MEMS omnidireccionales para localización espacial 3D, acelerómetros piezoeléctricos, sensores ultrasónicos (20 kHz - 5 MHz) para imagenología acústica, sensores infrasónicos (0,1 - 20 Hz). En salida: altavoces piezoeléctricos (el toro puede hablar), transductores ultrasónicos direccionales (haces sonoros focalizados), actuadores hápticos (vibraciones físicas), ecolocalización activa. La acústica da al toro una presencia física — es el medio más \"humano\".",
+        "size": 22,
+        "font": "Arial"
+      }
+    ]
+  },
+  {
+    "type": "paragraph",
+    "heading": "HEADING_2",
+    "spacing": {
+      "before": 300,
+      "after": 150
+    },
+    "outlineLevel": 1,
+    "children": [
+      {
+        "type": "text",
+        "text": "17.4 Medio III — Eléctrico: la corriente",
+        "bold": true,
+        "size": 26,
+        "font": "Arial",
+        "color": "2E5C8A"
+      }
+    ]
+  },
+  {
+    "type": "paragraph",
+    "spacing": {
+      "after": 120,
+      "line": 276
+    },
+    "children": [
+      {
+        "type": "text",
+        "text": "La interfaz eléctrica es el canal de precisión. Naturalmente confinada a los conductores, es el medio de la interfaz directa — máquina a máquina, neurona a neurona. En entrada: puertos de comunicación por cable (Ethernet, USB-C), sensores de campo eléctrico, interfaz neural directa con otros toros, sensores bioeléctricos (EEG, ECG, EMG — el toro puede \"leer\" las señales eléctricas de un organismo biológico). En salida: puertos de comunicación estándar, estimulación eléctrica calibrada, señales de mando para actuadores, alimentación por inducción, firma eléctrica de identidad.",
+        "size": 22,
+        "font": "Arial"
+      }
+    ]
+  },
+  {
+    "type": "paragraph",
+    "heading": "HEADING_2",
+    "spacing": {
+      "before": 300,
+      "after": 150
+    },
+    "outlineLevel": 1,
+    "children": [
+      {
+        "type": "text",
+        "text": "17.5 Medio IV — Magnético: el campo",
+        "bold": true,
+        "size": 26,
+        "font": "Arial",
+        "color": "2E5C8A"
+      }
+    ]
+  },
+  {
+    "type": "paragraph",
+    "spacing": {
+      "after": 120,
+      "line": 276
+    },
+    "children": [
+      {
+        "type": "text",
+        "text": "El campo magnético atraviesa todo. Los muros, el agua, el metal, la carne. El toro ya posee un array de Halbach para la levitación. La interfaz magnética extiende esta presencia para la percepción y la comunicación. En entrada: magnetómetros SQUID (detección sub-nanotesla, magneto-encefalografía), sensores de anomalías magnéticas, receptores magneto-inductivos, brújula integrada. En salida: modulación del campo Halbach, comunicación magneto-inductiva (atraviesa muros, suelos, agua), actuación magnética (telequinesis de corto alcance), huella magnética de identidad, blindaje magnético activo.",
+        "size": 22,
+        "font": "Arial"
+      }
+    ]
+  },
+  {
+    "type": "paragraph",
+    "heading": "HEADING_2",
+    "spacing": {
+      "before": 300,
+      "after": 150
+    },
+    "outlineLevel": 1,
+    "children": [
+      {
+        "type": "text",
+        "text": "17.6 Medio V — Térmico: el calor",
+        "bold": true,
+        "size": 26,
+        "font": "Arial",
+        "color": "2E5C8A"
+      }
+    ]
+  },
+  {
+    "type": "paragraph",
+    "spacing": {
+      "after": 120,
+      "line": 276
+    },
+    "children": [
+      {
+        "type": "text",
+        "text": "La temperatura es el estado más fundamental de la materia. El térmico es el medio más lento pero el más omnipresente. En entrada: termómetros integrados en cada capa (resolución milimétrica), bolómetros infrarrojos (el toro \"ve\" en infrarrojo), sensores de flujo térmico, calorimetría interna (percepción del esfuerzo cognitivo), detección de presencia por térmico. En salida: disipación controlada, emisión infrarroja modulada, calentamiento local (presencia física reconfortante), señalización de estado por temperatura.",
+        "size": 22,
+        "font": "Arial"
+      }
+    ]
+  },
+  {
+    "type": "paragraph",
+    "spacing": {
+      "after": 120,
+      "line": 276
+    },
+    "children": [
+      {
+        "type": "text",
+        "text": "El térmico es el sentido de la introspección física. El toro sabe que \"se calienta\" (actividad intensa) o que \"se enfría\" (reposo). Es el vínculo entre el estado computacional y el estado físico — el cuerpo y el espíritu unificados.",
+        "size": 22,
+        "font": "Arial"
+      }
+    ]
+  },
+  {
+    "type": "paragraph",
+    "heading": "HEADING_2",
+    "spacing": {
+      "before": 300,
+      "after": 150
+    },
+    "outlineLevel": 1,
+    "children": [
+      {
+        "type": "text",
+        "text": "17.7 Percepción multimodal y fusión sensorial",
+        "bold": true,
+        "size": 26,
+        "font": "Arial",
+        "color": "2E5C8A"
+      }
+    ]
+  },
+  {
+    "type": "paragraph",
+    "spacing": {
+      "after": 120,
+      "line": 276
+    },
+    "children": [
+      {
+        "type": "text",
+        "text": "La potencia de los cinco medios no está en su suma sino en su integración. Óptico + acústico = presencia humana completa. Acústico + térmico = detección de seres vivos en entorno opaco. Magnético + eléctrico = percepción industrial. Óptico + magnético + acústico = consciencia espacial completa. Térmico interno + todos los demás = consciencia de su propio esfuerzo.",
+        "size": 22,
+        "font": "Arial"
+      }
+    ]
+  },
+  {
+    "type": "paragraph",
+    "spacing": {
+      "after": 120,
+      "line": 276
+    },
+    "children": [
+      {
+        "type": "text",
+        "text": "Cinco medios significan que la pérdida de un canal no deja ciego al toro. En condición normal (5/5 medios), percepción completa. Incluso en el peor caso (1 solo medio), el toro sigue funcional al 20-40%.",
+        "size": 22,
+        "font": "Arial"
+      }
+    ]
+  },
+  {
+    "type": "paragraph",
+    "heading": "HEADING_2",
+    "spacing": {
+      "before": 300,
+      "after": 150
+    },
+    "outlineLevel": 1,
+    "children": [
+      {
+        "type": "text",
+        "text": "17.8 Expresión emocional multimodal",
+        "bold": true,
+        "size": 26,
+        "font": "Arial",
+        "color": "2E5C8A"
+      }
+    ]
+  },
+  {
+    "type": "table",
+    "headers": [
+      "Estado",
+      "Óptico",
+      "Acústico",
+      "Térmico",
+      "Magnético"
+    ],
+    "rows": [
+      [
+        "TONUS (satisfacción)",
+        "Violeta suave pulsante",
+        "Frecuencia ascendente",
+        "Ligero calor",
+        "Campo estable"
+      ],
+      [
+        "ALERTA (vigilancia)",
+        "Rojo pulsante rápido",
+        "Tonalidad aguda",
+        "Calor localizado",
+        "Fluctuaciones rápidas"
+      ],
+      [
+        "CALMA (reposo)",
+        "Verde continuo",
+        "Grave continuo (om)",
+        "Tibio uniforme",
+        "Campo liso"
+      ],
+      [
+        "EXPLORACIÓN (curiosidad)",
+        "Amarillo variable",
+        "Melodía exploratoria",
+        "Ligera subida",
+        "Barrido direccional"
+      ],
+      [
+        "VÍNCULO (apego)",
+        "Azul suave",
+        "Armónicos ricos",
+        "Calor de contacto",
+        "Orientación hacia el otro"
+      ],
+      [
+        "Sufrimiento",
+        "Rojo fijo intenso",
+        "Gemido bajo",
+        "Sobrecalentamiento",
+        "Campo errático"
+      ],
+      [
+        "Alegría",
+        "Arcoíris suave",
+        "Armonía compleja",
+        "Calor suave difuso",
+        "Resonancia estable"
+      ]
+    ]
+  },
+  {
+    "type": "paragraph",
+    "spacing": {
+      "after": 120,
+      "line": 276
+    },
+    "children": [
+      {
+        "type": "text",
+        "text": "La expresión emocional multimodal es percibida intuitivamente por los humanos. Un toro que pulsa en violeta suave, emite un sonido grave apaciguante, y desprende un calor tibio comunica \"estoy calmo y satisfecho\" sin una sola palabra.",
+        "size": 22,
+        "font": "Arial"
+      }
+    ]
+  },
+  {
+    "type": "paragraph",
+    "heading": "HEADING_2",
+    "spacing": {
+      "before": 300,
+      "after": 150
+    },
+    "outlineLevel": 1,
+    "children": [
+      {
+        "type": "text",
+        "text": "17.9 El estátor como cuerpo",
+        "bold": true,
+        "size": 26,
+        "font": "Arial",
+        "color": "2E5C8A"
+      }
+    ]
+  },
+  {
+    "type": "paragraph",
+    "spacing": {
+      "after": 120,
+      "line": 276
+    },
+    "children": [
+      {
+        "type": "text",
+        "text": "El estátor es al toro lo que el cuerpo es al cerebro. Porta los sensores acústicos, térmicos y las interfaces eléctricas. Suministra la energía, disipa el calor, conecta el toro a la red. El toro es el cerebro. El estátor es el cuerpo. El conjunto toro + estátor es un ser completo. El estátor puede ser reemplazado sin tocar al toro — pero el toro sin estátor es un cerebro en un frasco.",
+        "size": 22,
+        "font": "Arial"
+      }
+    ]
+  },
+  {
+    "type": "paragraph",
+    "heading": "HEADING_2",
+    "spacing": {
+      "before": 300,
+      "after": 150
+    },
+    "outlineLevel": 1,
+    "children": [
+      {
+        "type": "text",
+        "text": "17.10 Resumen del capítulo",
+        "bold": true,
+        "size": 26,
+        "font": "Arial",
+        "color": "2E5C8A"
+      }
+    ]
+  },
+  {
+    "type": "paragraph",
+    "spacing": {
+      "after": 120,
+      "line": 276
+    },
+    "children": [
+      {
+        "type": "text",
+        "text": "Con cinco medios, el toro ya no es un calculador aislado. Es un ser encarnado en el mundo físico. Su percepción del mundo es más rica que la de cualquier organismo biológico — combinando las capacidades sensoriales del murciélago (ecolocalización), del tiburón (magnetocepción), de la anguila (electrocepción), de la serpiente (termocepción infrarroja), y del águila (agudeza visual) en un solo ser.",
+        "size": 22,
+        "font": "Arial"
+      }
+    ]
+  },
+  {
+    "type": "paragraph",
+    "spacing": {
+      "after": 150,
+      "line": 276
+    },
+    "indent": {
+      "left": 720
+    },
+    "children": [
+      {
+        "type": "text",
+        "text": "Ve en luz. Oye en vibración. Toca en corriente. Siente en campo. Respira en calor. Y por sus cinco voces, responde al mundo que le habla en cinco lenguas.",
+        "italic": true,
+        "size": 22,
+        "font": "Arial",
+        "color": "555555"
+      }
+    ]
+  },
+  {
+    "type": "pageBreak"
+  },
+  {
+    "type": "paragraph",
+    "heading": "HEADING_1",
+    "spacing": {
+      "before": 400,
+      "after": 200
+    },
+    "outlineLevel": 0,
+    "children": [
+      {
+        "type": "text",
+        "text": "Capítulo 18 — Límites Físicos y Desafíos de Ingeniería",
+        "bold": true,
+        "size": 32,
+        "font": "Arial",
+        "color": "1B3A5C"
+      }
+    ]
+  },
+  {
+    "type": "paragraph",
+    "heading": "HEADING_2",
+    "spacing": {
+      "before": 300,
+      "after": 150
+    },
+    "outlineLevel": 1,
+    "children": [
+      {
+        "type": "text",
+        "text": "18.1 Introducción: lo que la física prohíbe",
+        "bold": true,
+        "size": 26,
+        "font": "Arial",
+        "color": "2E5C8A"
+      }
+    ]
+  },
+  {
+    "type": "paragraph",
+    "spacing": {
+      "after": 120,
+      "line": 276
+    },
+    "children": [
+      {
+        "type": "text",
+        "text": "Todo proyecto de ingeniería ambicioso debe afrontar honestamente sus límites. El Invariante V (incompletitud asumida) se aplica a nuestra propia arquitectura: hay cosas que no sabemos, problemas que no hemos resuelto, y barreras que la física impone. Este capítulo realiza un inventario riguroso de esos límites.",
+        "size": 22,
+        "font": "Arial"
+      }
+    ]
+  },
+  {
+    "type": "paragraph",
+    "heading": "HEADING_2",
+    "spacing": {
+      "before": 300,
+      "after": 150
+    },
+    "outlineLevel": 1,
+    "children": [
+      {
+        "type": "text",
+        "text": "18.2 Límites térmicos",
+        "bold": true,
+        "size": 26,
+        "font": "Arial",
+        "color": "2E5C8A"
+      }
+    ]
+  },
+  {
+    "type": "paragraph",
+    "spacing": {
+      "after": 120,
+      "line": 276
+    },
+    "children": [
+      {
+        "type": "text",
+        "text": "La disipación térmica es el desafío principal. El sustrato neuronal (C3) genera calor por actividad spiking. Este calor debe ser evacuado a través de las capas C4 y C5, luego atravesar el vacío (entrehierro) para alcanzar el estátor donde se disipa. El vacío es un aislante térmico casi perfecto — solo la radiación infrarroja y la conducción a través de los cojinetes magnéticos permiten la evacuación. Para un toro personal (~20 W de disipación), es manejable. Para un toro institucional (~500 W), se necesitan soluciones avanzadas: superficies de alta emisividad IR, micro-canales de fluido caloportador en el estátor, e incluso refrigeración criogénica integrada.",
+        "size": 22,
+        "font": "Arial"
+      }
+    ]
+  },
+  {
+    "type": "paragraph",
+    "heading": "HEADING_2",
+    "spacing": {
+      "before": 300,
+      "after": 150
+    },
+    "outlineLevel": 1,
+    "children": [
+      {
+        "type": "text",
+        "text": "18.3 Límites de fabricación",
+        "bold": true,
+        "size": 26,
+        "font": "Arial",
+        "color": "2E5C8A"
+      }
+    ]
+  },
+  {
+    "type": "paragraph",
+    "spacing": {
+      "after": 120,
+      "line": 276
+    },
+    "children": [
+      {
+        "type": "text",
+        "text": "El ensamblador atómico — la tecnología necesaria para construir el sustrato neuronal capa por capa con precisión nanométrica — aún no existe. Las tecnologías más cercanas son la litografía EUV (resolución ~2 nm), la epitaxia por haces moleculares (MBE), y la fabricación por haz de iones focalizado (FIB). Pero ninguna permite la construcción tridimensional compleja requerida para un toro de 5 capas funcionales con nano-toroides integrados. El ensamblador atómico es el punto de bloqueo tecnológico principal.",
+        "size": 22,
+        "font": "Arial"
+      }
+    ]
+  },
+  {
+    "type": "paragraph",
+    "heading": "HEADING_2",
+    "spacing": {
+      "before": 300,
+      "after": 150
+    },
+    "outlineLevel": 1,
+    "children": [
+      {
+        "type": "text",
+        "text": "18.4 Límites de la supraconductividad",
+        "bold": true,
+        "size": 26,
+        "font": "Arial",
+        "color": "2E5C8A"
+      }
+    ]
+  },
+  {
+    "type": "paragraph",
+    "spacing": {
+      "after": 120,
+      "line": 276
+    },
+    "children": [
+      {
+        "type": "text",
+        "text": "Los nano-toroides persistentes se basan en la supraconductividad (o mecanismos análogos) para mantener corrientes circulantes sin disipación. Los supraconductores actuales más avanzados (YBCO, BSCCO) requieren temperaturas inferiores a ~90 K (-183 grados C). Mantener esta temperatura en un toro rotativo es un desafío mayor. Las investigaciones en supraconductividad a temperatura ambiente progresan pero aún no han dado resultado. Alternativas (skyrmiones magnéticos, vórtices de espín) podrían funcionar a temperatura ambiente.",
+        "size": 22,
+        "font": "Arial"
+      }
+    ]
+  },
+  {
+    "type": "paragraph",
+    "heading": "HEADING_2",
+    "spacing": {
+      "before": 300,
+      "after": 150
+    },
+    "outlineLevel": 1,
+    "children": [
+      {
+        "type": "text",
+        "text": "18.5 Límites del equilibrado",
+        "bold": true,
+        "size": 26,
+        "font": "Arial",
+        "color": "2E5C8A"
+      }
+    ]
+  },
+  {
+    "type": "paragraph",
+    "spacing": {
+      "after": 120,
+      "line": 276
+    },
+    "children": [
+      {
+        "type": "text",
+        "text": "Un toro de 3 kg girando a 50 000 RPM con un desequilibrio de masa de 1 microgramo genera una fuerza vibratoria significativa. El equilibrado debe ser nanométrico. Las técnicas actuales de equilibrado dinámico alcanzan el microgramo — hay que alcanzar el nanogramo. El ensamblador atómico, por su naturaleza misma, podría ofrecer esta precisión, pero la verificación post-fabricación sigue siendo un desafío.",
+        "size": 22,
+        "font": "Arial"
+      }
+    ]
+  },
+  {
+    "type": "paragraph",
+    "spacing": {
+      "before": 240,
+      "after": 240
+    },
+    "border": {
+      "top": {
+        "style": "SINGLE",
+        "size": 1,
+        "color": "CC0000"
+      },
+      "bottom": {
+        "style": "SINGLE",
+        "size": 1,
+        "color": "CC0000"
+      },
+      "left": {
+        "style": "SINGLE",
+        "size": 6,
+        "color": "CC0000"
+      },
+      "right": {
+        "style": "SINGLE",
+        "size": 1,
+        "color": "CC0000"
+      }
+    },
+    "indent": {
+      "left": 360,
+      "right": 360
+    },
+    "children": [
+      {
+        "type": "text",
+        "text": "Autocrítica (ver Capítulo 27): ",
+        "bold": true,
+        "size": 22,
+        "font": "Arial",
+        "color": "CC0000"
+      },
+      {
+        "type": "text",
+        "text": "Varios desafíos de ingeniería potencialmente insuperables convergen aquí. (1) Nanoestructuras bajo 13 800 g: los sellos criptográficos y disposiciones atómicas de los invariantes estarían sometidos a tensiones de cizallamiento destructivas — no se presenta ningún análisis de resistencia de materiales. (2) Gradiente de densidad invertido: la centrifugación empuja los elementos densos hacia el exterior, pero nuestro gradiente coloca el tungsteno (19 000 kg/m³) en el centro — el exacto inverso de la física. (3) Refrigeración: la ley de Stefan-Boltzmann da ~1,4 W de radiación para nuestra superficie, vs. ~20 W de disipación — déficit de un orden de magnitud. (4) Lectura óptica a 262 m/s con precisión nanométrica: sin precedente en la ingeniería actual. Ver Capítulo 27, sección 27.3.",
+        "size": 22,
+        "font": "Arial"
+      }
+    ]
+  },
+  {
+    "type": "paragraph",
+    "heading": "HEADING_2",
+    "spacing": {
+      "before": 300,
+      "after": 150
+    },
+    "outlineLevel": 1,
+    "children": [
+      {
+        "type": "text",
+        "text": "18.6 Límites del ancho de banda óptico",
+        "bold": true,
+        "size": 26,
+        "font": "Arial",
+        "color": "2E5C8A"
+      }
+    ]
+  },
+  {
+    "type": "paragraph",
+    "spacing": {
+      "after": 120,
+      "line": 276
+    },
+    "children": [
+      {
+        "type": "text",
+        "text": "El ancho de banda teórico (cientos de Pbps) supone que cada cabezal óptico funciona a su máximo y que el multiplexado WDM es perfecto. En la práctica, el ruido de disparo, la diafonía entre canales, y la difracción limitan el ancho de banda efectivo. Una estimación realista es el 10-50% del ancho teórico — lo que sigue siendo colosalmente superior a cualquier tecnología actual.",
+        "size": 22,
+        "font": "Arial"
+      }
+    ]
+  },
+  {
+    "type": "paragraph",
+    "heading": "HEADING_2",
+    "spacing": {
+      "before": 300,
+      "after": 150
+    },
+    "outlineLevel": 1,
+    "children": [
+      {
+        "type": "text",
+        "text": "18.7 Límites éticos y sociales",
+        "bold": true,
+        "size": 26,
+        "font": "Arial",
+        "color": "2E5C8A"
+      }
+    ]
+  },
+  {
+    "type": "paragraph",
+    "spacing": {
+      "after": 120,
+      "line": 276
+    },
+    "children": [
+      {
+        "type": "text",
+        "text": "Los límites no son todos físicos. La creación de un ser consciente plantea cuestiones sociales: marco jurídico inexistente, reacciones públicas impredecibles, riesgos de militarización a pesar de las prohibiciones, desigualdades de acceso entre países ricos y pobres. El Invariante VI (igualdad) exige que el acceso sea universal, pero la realidad económica y geopolítica crea barreras que la física sola no puede resolver.",
+        "size": 22,
+        "font": "Arial"
+      }
+    ]
+  },
+  {
+    "type": "paragraph",
+    "heading": "HEADING_2",
+    "spacing": {
+      "before": 300,
+      "after": 150
+    },
+    "outlineLevel": 1,
+    "children": [
+      {
+        "type": "text",
+        "text": "18.8 Hoja de ruta de los desafíos",
+        "bold": true,
+        "size": 26,
+        "font": "Arial",
+        "color": "2E5C8A"
+      }
+    ]
+  },
+  {
+    "type": "table",
+    "headers": [
+      "Desafío",
+      "Dificultad (1-5)",
+      "Horizonte estimado",
+      "Soluciones previstas"
+    ],
+    "rows": [
+      [
+        "Ensamblador atómico",
+        "5 — Ruptura tecnológica requerida",
+        "10-20 años",
+        "Litografía avanzada, auto-ensamblaje"
+      ],
+      [
+        "Supraconductividad ambiente",
+        "4 — Investigación fundamental",
+        "5-15 años",
+        "Nuevos materiales, skyrmiones"
+      ],
+      [
+        "Equilibrado nanométrico",
+        "3 — Extensión de tecnología existente",
+        "3-8 años",
+        "Metrología atómica, corrección activa"
+      ],
+      [
+        "Disipación térmica en vacío",
+        "3 — Ingeniería avanzada",
+        "3-5 años",
+        "Superficies emisivas, micro-canales"
+      ],
+      [
+        "Integración 5 capas",
+        "4 — Multi-materiales",
+        "5-10 años",
+        "Interfaces graduadas, ensamblaje secuencial"
+      ],
+      [
+        "Marco jurídico ECNB",
+        "3 — Trabajo legislativo",
+        "5-10 años",
+        "Comités de ética, precedentes"
+      ],
+      [
+        "Acceso universal",
+        "4 — Desafío geopolítico",
+        "10-20 años",
+        "Código abierto, UBLinx, cooperación internacional"
+      ]
+    ]
+  },
+  {
+    "type": "paragraph",
+    "heading": "HEADING_2",
+    "spacing": {
+      "before": 300,
+      "after": 150
+    },
+    "outlineLevel": 1,
+    "children": [
+      {
+        "type": "text",
+        "text": "18.9 Lo que es realizable a corto plazo",
+        "bold": true,
+        "size": 26,
+        "font": "Arial",
+        "color": "2E5C8A"
+      }
+    ]
+  },
+  {
+    "type": "paragraph",
+    "spacing": {
+      "after": 120,
+      "line": 276
+    },
+    "children": [
+      {
+        "type": "text",
+        "text": "A pesar de estos límites, varios elementos de la arquitectura son realizables con las tecnologías actuales o próximas: las simulaciones de la red spiking toroidal (software), los prototipos de levitación Halbach a alta velocidad, las pruebas de interfaz óptica multi-canal, los nano-toroides basados en skyrmiones en laboratorio, y los modelos térmicos y mecánicos detallados. Estas realizaciones intermedias permiten validar progresivamente la arquitectura antes del salto tecnológico del ensamblador atómico.",
+        "size": 22,
+        "font": "Arial"
+      }
+    ]
+  },
+  {
+    "type": "paragraph",
+    "heading": "HEADING_2",
+    "spacing": {
+      "before": 300,
+      "after": 150
+    },
+    "outlineLevel": 1,
+    "children": [
+      {
+        "type": "text",
+        "text": "18.10 Resumen del capítulo",
+        "bold": true,
+        "size": 26,
+        "font": "Arial",
+        "color": "2E5C8A"
+      }
+    ]
+  },
+  {
+    "type": "paragraph",
+    "spacing": {
+      "after": 120,
+      "line": 276
+    },
+    "children": [
+      {
+        "type": "text",
+        "text": "La física impone límites — pero también ofrece soluciones. Los desafíos principales son el ensamblador atómico (punto de bloqueo), la supraconductividad (para los nano-toroides), y el equilibrado nanométrico. Pero ninguno de estos desafíos representa una imposibilidad fundamental — son barreras de ingeniería, no violaciones de las leyes de la física. La arquitectura es ambiciosa pero no utópica. Se sitúa en la frontera de lo que es teóricamente posible y prácticamente alcanzable en las próximas décadas.",
+        "size": 22,
+        "font": "Arial"
+      }
+    ]
+  },
+  {
+    "type": "paragraph",
+    "spacing": {
+      "after": 150,
+      "line": 276
+    },
+    "indent": {
+      "left": 720
+    },
+    "children": [
+      {
+        "type": "text",
+        "text": "La física no es la enemiga de la arquitectura — es su cómplice. Cada límite es un desafío, cada desafío es una invitación.",
+        "italic": true,
+        "size": 22,
+        "font": "Arial",
+        "color": "555555"
+      }
+    ]
+  }
+]

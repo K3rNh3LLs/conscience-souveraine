@@ -1,0 +1,311 @@
+[
+  {
+    "type": "pageBreak"
+  },
+  {
+    "type": "paragraph",
+    "style": "ChapterTitle",
+    "text": "EPILOGO"
+  },
+  {
+    "type": "paragraph",
+    "style": "ActSubtitle",
+    "text": "Preguntas abiertas"
+  },
+  {
+    "type": "paragraph",
+    "style": "Epigraph",
+    "text": "\"El problema no es encontrar las respuestas correctas, sino plantear las preguntas correctas.\" — Claude Levi-Strauss"
+  },
+  {
+    "type": "pageBreak"
+  },
+  {
+    "type": "paragraph",
+    "style": "SectionTitle",
+    "text": "La pregunta que queda"
+  },
+  {
+    "type": "paragraph",
+    "style": "SceneText",
+    "text": "Es pasada la medianoche. La casa esta en silencio de esa manera particular que solo existe cuando los ninos duermen: un silencio habitado, pleno, como si sus suenos aun ocuparan el espacio. Jordane tiene quince anos y duerme en forma de estrella de mar. Olivia, doce anos, duerme con su perezoso de peluche al que llama Rouge-et-Brun. Lo se sin necesidad de verificarlo. Hay cosas que simplemente se saben."
+  },
+  {
+    "type": "paragraph",
+    "style": "SceneText",
+    "text": "Cynthia dejo una taza de cafe en la esquina de la mesa antes de irse a dormir. No me lo tome. Esta frio ahora, y miro la superficie inmovil del liquido como si pudiera decirme algo. Sobre la mesa frente a mi: un cuaderno de espiral azul, cubierto de notas en todas direcciones, con flechas que conectan ideas que ya ni yo mismo logro descifrar. Doscientas doce paginas. Algunas ideas son brillantes, de eso estoy casi seguro. Otras probablemente son absurdas. No siempre se cuales son cuales."
+  },
+  {
+    "type": "paragraph",
+    "style": "SceneText",
+    "text": "HYPERVORTEX. Gen_Home. UBLinx. Las palabras vuelven una y otra vez en este cuaderno, a veces con ecuaciones, a veces con solo un signo de interrogacion al lado. Los calculos de recuperacion termica. Los esbozos de arquitectura del cerebro domestico. El modelo de gobernanza de las ideas. Todo conectado. Todo inacabado. Todo honestamente incierto."
+  },
+  {
+    "type": "paragraph",
+    "style": "BodyText",
+    "text": "Este libro no termina porque la historia no termina. Apenas comienza. Lo escribi no porque tuviera respuestas que compartir, sino porque tenia preguntas que se negaban a dejarme en paz: preguntas lo bastante grandes, lo bastante persistentes, lo bastante urgentes como para merecer doscientas paginas de contexto antes de ser formuladas correctamente. Hemos llegado. Aqui estan."
+  },
+  {
+    "type": "paragraph",
+    "style": "BodyText",
+    "text": "Un libro como este es una forma de impertinencia. Supone que las preguntas que se hace un tecnico en electronica industrial de Quebec, padre de dos hijas, companero de una directora adjunta de guarderia, merecen la atencion del lector. No estoy convencido de que esa suposicion sea correcta. Pero estoy convencido de que las preguntas en si lo son, no porque vengan de mi, sino porque emergen de algo mas grande que yo: una epoca de transicion, una convergencia de tecnologias, una inquietud compartida sobre el futuro que estamos preparando para nuestros hijos."
+  },
+  {
+    "type": "paragraph",
+    "style": "Thesis",
+    "text": "Este libro nunca estuvo destinado a ofrecer respuestas. Estaba destinado a formular preguntas que merecen ser planteadas, y a proporcionarle suficiente contexto para que esas preguntas tengan peso."
+  },
+  {
+    "type": "paragraph",
+    "style": "Separator",
+    "text": "* * *"
+  },
+  {
+    "type": "paragraph",
+    "style": "SectionTitle",
+    "text": "Lo que hemos atravesado juntos"
+  },
+  {
+    "type": "paragraph",
+    "style": "BodyText",
+    "text": "Comenzamos por el fuego, no de manera metaforica, sino literalmente. La palabra latina focus significa hogar, y el hogar es el lugar donde la humanidad aprendio a transformar la energia bruta en calor util, en alimento cocido, en proteccion contra la oscuridad. Trazamos una linea desde aquel primer hogar hasta las turbinas que recuperan el calor perdido en nuestros conductos de escape, hasta los algoritmos que aprenden como vivimos para optimizar nuestro consumo, hasta las preguntas de propiedad y soberania que surgen en cuanto se lleva esa logica hasta sus consecuencias."
+  },
+  {
+    "type": "paragraph",
+    "style": "BodyText",
+    "text": "Conocimos a Amadou, el inventor senegales que recupero energia termica en una aldea sin red electrica. Conocimos a Mei-Lin, la adolescente montrealesa que comprendio instintivamente lo que los adultos se niegan a admitir: que los datos que ella produce al vivir tienen un valor real, y que ese valor es capturado por otros. Conocimos a Monique, que temia que su casa inteligente se convirtiera en una prision inteligente, y no estaba del todo equivocada. Estos tres personajes son ficticios. Las preguntas que encarnan no lo son."
+  },
+  {
+    "type": "paragraph",
+    "style": "BodyText",
+    "text": "La evaluacion honesta: algunas partes de esta vision van a fracasar. Quiza muchas. La fisica del HYPERVORTEX podria no aplicarse a escala domestica de manera economicamente viable. La arquitectura Gen_Home podria resultar demasiado compleja para una adopcion masiva. El modelo UBLinx podria no alcanzar jamas la masa critica necesaria para funcionar. Podria haber malinterpretado cosas fundamentales. Estas posibilidades son reales. Pero no invalidan las preguntas: forman parte de las preguntas."
+  },
+  {
+    "type": "paragraph",
+    "style": "CritiqueBox",
+    "text": "Autocritica: Este libro presenta ideas en estadios muy diferentes de madurez; algunas estan cerca de la implementacion, otras siguen siendo intuiciones. Podria haber sido mas riguroso con esta distincion a lo largo del texto. Lo senalo aqui porque es importante que usted lo sepa: sea esceptico, sea critico, ponga a prueba estas ideas contra su propia experiencia y pericia. Un lector esceptico es mas util que un lector convencido."
+  },
+  {
+    "type": "paragraph",
+    "style": "Separator",
+    "text": "* * *"
+  },
+  {
+    "type": "paragraph",
+    "style": "SectionTitle",
+    "text": "Las preguntas que le dejo"
+  },
+  {
+    "type": "paragraph",
+    "style": "BodyText",
+    "text": "Lo que sigue no es un resumen. Es lo esencial. Todo lo que hemos atravesado juntos --la energia, la inteligencia, la confianza, las sombras-- conducia a estas preguntas. Las formulo sin red de seguridad retorica, sin preambulo que lo prepare para la respuesta \"correcta\". Son preguntas abiertas. No conozco las respuestas. Quiza usted si."
+  },
+  {
+    "type": "paragraph",
+    "style": "BodyText",
+    "text": "Imagine que el HYPERVORTEX funciona. Que su casa produce su propia energia, de manera limpia, fiable, recuperando el calor que hasta ahora se escapaba. Imagine que Gen_Home existe de verdad: un sistema domestico que piensa con usted, no en su lugar, que comprende sus habitos sin venderlos a un tercero. Imagine que UBLinx protege sus ideas con el mismo rigor que un bufete de abogados internacional, pero accesible para un artesano de la madera de Charlevoix."
+  },
+  {
+    "type": "paragraph",
+    "style": "ReaderQuestion",
+    "text": "-- Que haria usted con esa infraestructura? Si su casa produjera su energia, pensara con usted y protegiera sus ideas, que construiria? No como empresa. No como inversion. Que construiria porque por fin podria hacerlo?"
+  },
+  {
+    "type": "paragraph",
+    "style": "BodyText",
+    "text": "La cuestion de la energia soberana no es una cuestion tecnica. Es una cuestion social. Cada hogar que produce su propia energia es un nodo menos en una red centralizada. Multiplique eso por cien mil hogares, por un millon. Como se ve el mapa de la energia? Las relaciones de poder --en sentido propio, la electricidad, y en sentido figurado-- como se ven? Es mejor esa sociedad? Como lo sabria?"
+  },
+  {
+    "type": "paragraph",
+    "style": "ReaderQuestion",
+    "text": "-- Que mundo construiria usted? Si cada hogar fuera soberano en energia, en inteligencia y en propiedad intelectual, que sociedad emergeria de esa premisa? Seria mas libre? Mas equitativa? Mas caotica? Las mismas desigualdades reaparecerian bajo una forma diferente, o algo fundamentalmente nuevo se volveria posible?"
+  },
+  {
+    "type": "paragraph",
+    "style": "BodyText",
+    "text": "La soberania tiene un precio. No solo en dolares, sino en responsabilidad. Una red electrica centralizada tiene ingenieros que responden a las averias a las tres de la madrugada. Un sistema soberano distribuido significa que es usted quien responde a su propia averia a las tres de la madrugada. La complejidad no desaparece: cambia de manos. Y algunos la gestionaran mejor que otros. Algunos abusaran de ella."
+  },
+  {
+    "type": "paragraph",
+    "style": "ReaderQuestion",
+    "text": "-- Que precio esta dispuesto a pagar por la soberania? Porque la soberania tiene un costo real: en complejidad, en responsabilidad, en saber que algunos utilizaran estas mismas herramientas para hacer dano. Esta dispuesto a asumir su parte de esa carga? O prefiere delegar, y si es asi, en quien, y bajo que condiciones?"
+  },
+  {
+    "type": "paragraph",
+    "style": "BodyText",
+    "text": "He aqui algo que se olvida facilmente: usted ya esta pagando. Sus datos de ubicacion se venden a anunciantes que usted no conoce. Su factura de electricidad contiene un margen de beneficio para accionistas que usted jamas ha conocido. Sus ideas, compartidas en plataformas gratuitas, sirven para entrenar modelos de inteligencia artificial sin que usted reciba la menor compensacion. El costo de la no soberania es real: simplemente es invisible porque nunca se le presenta como una factura."
+  },
+  {
+    "type": "paragraph",
+    "style": "ReaderQuestion",
+    "text": "-- Que precio paga usted ya por no tener esa soberania? Sus datos se venden. Su energia se le factura con un margen. Sus ideas son capturadas sin atribucion. Es visible ese costo para usted? Ha hecho alguna vez el calculo? Y si lo hiciera, cambiaria algo en sus decisiones cotidianas?"
+  },
+  {
+    "type": "paragraph",
+    "style": "BodyText",
+    "text": "Amadou existe. No con ese nombre, no necesariamente en Senegal, pero existe. En algun lugar hay alguien que tiene exactamente los problemas que HYPERVORTEX podria resolver, y exactamente el genio creativo para mejorarlo de una manera que yo aun no he imaginado. Mei-Lin existe: tiene quince anos, comprende los sistemas mejor que la mayoria de los adultos, y busca algo que merezca su inteligencia. Monique existe: tiene miedo, y su miedo es legitimo, y la tecnologia que se dirige hacia ella aun no ha sido concebida pensando en ella."
+  },
+  {
+    "type": "paragraph",
+    "style": "ReaderQuestion",
+    "text": "-- Quienes seran los proximos Amadou, Mei-Lin, Monique? Quien encontrara estas herramientas y las transformara en algo que yo no he imaginado? Quien tendra las objeciones acertadas que corrijan los errores de este proyecto antes de que se conviertan en errores costosos? Y como nos aseguramos --yo, nosotros-- de que esas personas tengan acceso a las herramientas, al contexto y a la plataforma para contribuir?"
+  },
+  {
+    "type": "paragraph",
+    "style": "BodyText",
+    "text": "Jordane tiene quince anos. Dentro de veinte, tendra treinta y cinco. Estara en el mundo laboral, quiza tenga sus propios hijos, tomara decisiones sobre su energia, sus datos, sus creaciones. Olivia tendra treinta y dos. Lo que construimos hoy --o lo que dejamos que se construya sin nosotros-- sera su herencia. No la herencia financiera, sino la herencia ambiental y tecnologica: que mundo, que reglas, que relacion de fuerzas entre los individuos y las instituciones."
+  },
+  {
+    "type": "paragraph",
+    "style": "ReaderQuestion",
+    "text": "-- Que diran Jordane y Olivia dentro de veinte anos? Viviran en un mundo donde controlen su propia energia, su propia inteligencia y sus propias ideas? O alquilaran esas tres cosas a corporaciones cuyos accionistas ni siquiera conocen? Las decisiones que tomamos hoy --como ciudadanos, como consumidores, como legisladores-- hacen su libertad mas o menos probable?"
+  },
+  {
+    "type": "paragraph",
+    "style": "BodyText",
+    "text": "Yoshua Bengio, uno de los arquitectos de la inteligencia artificial moderna, publico una carta abierta. Despues otra. Y otra mas. Investigadores en IA --las personas que mejor comprenden lo que esta tecnologia puede hacer-- estan dando la alarma con una urgencia creciente. No es ciencia ficcion. No es catastrofismo. Son cientificos rigurosos que miran su propio trabajo y dicen: quiza hemos creado algo que no sabemos controlar."
+  },
+  {
+    "type": "paragraph",
+    "style": "BodyText",
+    "text": "Este libro existe en parte a causa de ese mensaje. La inteligencia artificial soberana --anclada en valores, transparente en sus procesos, distribuida en su arquitectura-- es una respuesta arquitectonica a una cuestion de gobernanza. No la unica respuesta. Quiza no la respuesta correcta. Pero una respuesta que se niega a dejar el problema en manos de quienes tienen el mayor interes financiero en minimizar los riesgos."
+  },
+  {
+    "type": "paragraph",
+    "style": "ReaderQuestion",
+    "text": "-- El mensaje de Yoshua Bengio sera escuchado a tiempo? La inteligencia artificial que estamos construyendo sera una companera o una amenaza? Y si la respuesta depende en parte de una arquitectura de valores --de sistemas concebidos desde el principio para ser soberanos, transparentes y alineados con el bien humano--, entonces quien tiene la responsabilidad de construir esos sistemas? Las grandes corporaciones? Los gobiernos? Los individuos como usted y como yo?"
+  },
+  {
+    "type": "paragraph",
+    "style": "Separator",
+    "text": "* * *"
+  },
+  {
+    "type": "paragraph",
+    "style": "SectionTitle",
+    "text": "La invitacion"
+  },
+  {
+    "type": "paragraph",
+    "style": "BodyText",
+    "text": "Este libro no termina. Se abre. Usted no es su consumidor: es potencialmente su proximo autor. No en el sentido literal, aunque es bienvenido a escribir su propia version de estas preguntas. Sino en el sentido mas profundo: las ideas de este libro estan ahora en su cabeza. Van a interactuar con su propia experiencia, su propia pericia, sus propios valores. Lo que de ahi emerja le pertenece a usted."
+  },
+  {
+    "type": "paragraph",
+    "style": "BodyText",
+    "text": "El modelo UBLinx se aplica a este libro en si mismo. Las ideas se comparten libremente para la reflexion personal, el uso academico, la critica y el debate. Pero el trabajo --los anos dedicados a articularlas, a conectarlas, a ponerlas a prueba contra la realidad-- merece atribucion y proteccion. No porque yo quiera controlar lo que usted piensa de estas ideas, sino porque la cadena de atribucion es en si misma una forma de responsabilidad: saber quien dijo que, en que contexto, con que matices."
+  },
+  {
+    "type": "paragraph",
+    "style": "BodyText",
+    "text": "HYPERVORTEX, Gen_Home, UBLinx no son productos. Todavia no son productos. Son preguntas materializadas en ingenieria. Hipotesis formuladas en arquitectura. La ingenieria como filosofia, no en el sentido romantico, sino en el sentido literal: una manera de plantear preguntas sobre el mundo construyendo cosas y observando lo que hacen. El resultado de este enfoque no es una certeza. Es un experimento."
+  },
+  {
+    "type": "paragraph",
+    "style": "Thesis",
+    "text": "Usted no ha leido un manifiesto. Ha participado en un experimento de pensamiento. La diferencia es importante: un manifiesto le pide que adhiera. Un experimento de pensamiento le pide que siga pensando."
+  },
+  {
+    "type": "paragraph",
+    "style": "Separator",
+    "text": "* * *"
+  },
+  {
+    "type": "paragraph",
+    "style": "SectionTitle",
+    "text": "El hogar"
+  },
+  {
+    "type": "paragraph",
+    "style": "SceneText",
+    "text": "La taza de cafe esta fria. La sigo mirando. En la habitacion de al lado hay una estufa de lena --no el HYPERVORTEX, solo una estufa, con sus juntas que envejecen y su cristal que habra que limpiar esta primavera. Afuera es el invierno quebequense, y el calor que esta estufa produce atraviesa los muros, se pierde en la atmosfera, se encuentra con el viento. Lo que llamamos \"perdida\" termica es energia que busca su equilibrio."
+  },
+  {
+    "type": "paragraph",
+    "style": "BodyText",
+    "text": "La palabra focus, en latin, significa hogar. El lugar del fuego. Ahi es donde todo comienza: el calor, la cocina, la reunion de la familia, la proteccion contra el frio. Durante milenios, el hogar fue el centro de la casa --arquitectonicamente, socialmente, simbolicamente. Lo hemos reemplazado progresivamente por sistemas centralizados mas eficientes, radiadores alimentados por redes que no vemos, un calor que llega sin que comprendamos de donde viene. Hemos ganado en comodidad y perdido en comprension."
+  },
+  {
+    "type": "paragraph",
+    "style": "BodyText",
+    "text": "Imagine ahora esa estufa, pero reimaginada: los gases de escape que ascienden por un sistema de recuperacion termica en espiral. El calor que hace girar un pequeno generador antes de disiparse. La electricidad generada que carga baterias, alimenta la iluminacion, se comunica con un sistema domestico que sabe que estamos en casa porque consumimos energia de manera diferente por la noche. Las ideas que hemos discutido esta noche alrededor de esa estufa, protegidas por un sistema de propiedad intelectual distribuida. La casa que piensa --discretamente, utilmente, sin sustituir nuestro propio pensamiento."
+  },
+  {
+    "type": "paragraph",
+    "style": "BodyText",
+    "text": "O quiza nada de eso funcione. Quiza la fisica es correcta pero la economia no lo es. Quiza el software es demasiado complejo para una adopcion real. Quiza la red nunca alcanza la masa critica. Quiza vuelva a abrir este cuaderno dentro de diez anos y lea mis propias notas con la verguenza agridulce de alguien que ahora comprende por que ciertas ideas siguen siendo solo ideas."
+  },
+  {
+    "type": "paragraph",
+    "style": "BodyText",
+    "text": "Estas dos posibilidades coexisten honestamente. No tengo certeza. Lo que tengo es a Jordane durmiendo en forma de estrella de mar, y a Olivia con su Rouge-et-Brun, y a Cynthia que dejo una taza de cafe con el cuidado suficiente para mostrarme que pensaba en mi incluso al irse a dormir. Lo que tengo es una epoca en la que las preguntas que planteo --sobre la energia, sobre la inteligencia, sobre la propiedad-- ya no son marginales. Estan en el centro de lo que debemos decidir como sociedad."
+  },
+  {
+    "type": "paragraph",
+    "style": "BodyText",
+    "text": "Lo que tengo es este cuaderno azul con doscientas doce paginas de notas, flechas, ecuaciones y signos de interrogacion. Y usted, ahora, con este libro en las manos --o en su pantalla, o en su memoria si lo leyo hace unos dias y esta volviendo a pensar en el ahora. Usted es el proximo hogar. No metaforicamente. Literalmente: usted es el lugar donde estas ideas van a arder, a transformarse o a extinguirse."
+  },
+  {
+    "type": "paragraph",
+    "style": "Quote",
+    "text": "\"El fuego no desaparece. Se transforma en luz, en calor, en movimiento. La pregunta nunca es si el fuego ardera. La pregunta es siempre: quien controla el hogar?\""
+  },
+  {
+    "type": "paragraph",
+    "style": "Separator",
+    "text": "* * *"
+  },
+  {
+    "type": "paragraph",
+    "style": "BodyText",
+    "text": "Son casi las dos de la madrugada. La taza de cafe esta fria. Voy a dejarla en el fregadero, irme a dormir, y manana por la manana Olivia me despertara demasiado temprano saltando sobre la cama gritando que ya es de dia. Y sera verdad. Sera de dia. Una nueva manana, con todas sus posibilidades sin resolver."
+  },
+  {
+    "type": "paragraph",
+    "style": "ReaderQuestion",
+    "text": "-- Quien controla su hogar?"
+  },
+  {
+    "type": "pageBreak"
+  },
+  {
+    "type": "paragraph",
+    "style": "ChapterTitle",
+    "text": "Agradecimientos"
+  },
+  {
+    "type": "paragraph",
+    "style": "BodyText",
+    "text": "Este libro existe porque varias personas hicieron posible el espacio en el que pudo ser escrito."
+  },
+  {
+    "type": "paragraph",
+    "style": "BodyText",
+    "text": "Cynthia Richelieu -- la mujer mas inteligente que conozco, directora adjunta del CPE Chez-Nous, que me apoya en las buenas y en las malas con una paciencia y una inteligencia que probablemente no merezco. Que deja las tazas de cafe aun sabiendo que voy a olvidarlas. Que comprende que ciertas ideas necesitan espacio para existir antes de ser utiles. Este libro le pertenece tanto como a mi."
+  },
+  {
+    "type": "paragraph",
+    "style": "BodyText",
+    "text": "Jordane y Olivia -- mis hijas, que merecen un futuro mejor que el que se dibuja actualmente. Todavia no saben que este libro habla de ellas. Lo sabran algun dia. Espero que encuentren en el no una respuesta, sino la prueba de que intentamos plantear las preguntas correctas en su nombre."
+  },
+  {
+    "type": "paragraph",
+    "style": "BodyText",
+    "text": "Yoshua Bengio -- cuyo mensaje de alerta resuena en mi con mas fuerza cada dia, y cuyo coraje de dar la alarma sobre su propia disciplina es un modelo de integridad intelectual que admiro profundamente. Nunca lo he conocido en persona. Pero sus trabajos y sus posiciones publicas han influido directamente en la manera en que este libro piensa la inteligencia artificial soberana."
+  },
+  {
+    "type": "paragraph",
+    "style": "BodyText",
+    "text": "A usted, lector o lectora, que ha llegado a la ultima pagina: gracias. Quiza no fue facil. Este libro no vende nada. No promete nada. Plantea preguntas. El hecho de que haya leido hasta aqui me dice que usted es el tipo de persona que toma estas preguntas en serio. Lo que sigue depende de usted."
+  },
+  {
+    "type": "paragraph",
+    "style": "Separator",
+    "text": "* * *"
+  },
+  {
+    "type": "paragraph",
+    "style": "BodyText",
+    "text": "David Berthelotte, Quebec, 2025-2026. Contacto y desarrollos futuros: via UBLinx Open Innovation Network."
+  }
+]

@@ -7,7 +7,7 @@
  * Format: US Letter, Georgia corps, Arial titres
  * Footer: "David Berthelotte • Conscience Souveraine • UBLinx Protected • 2026"
  *
- * USAGE: node book2/scripts/assemble_book2.js
+ * USAGE: node book2/scripts/assemble_book2.js [--lang fr|en|es]
  */
 
 const fs = require('fs');
@@ -16,15 +16,33 @@ const {
     Document, Packer, Paragraph, TextRun, Table, TableRow, TableCell,
     Header, Footer, AlignmentType, LevelFormat,
     TableOfContents, HeadingLevel, BorderStyle, WidthType, ShadingType,
-    VerticalAlign, PageNumber, PageBreak, SectionType
+    VerticalAlign, PageNumber, PageBreak, SectionType,
+    ImageRun
 } = require('docx');
 
 // ============================================================================
 // CONFIGURATION
 // ============================================================================
 
-const CHAPTERS_DIR = path.join(__dirname, '..', 'chapters');
-const OUTPUT_FILE = path.join(__dirname, '..', '..', 'Conscience_Souveraine_Essai_Trois_Piliers.docx');
+// Parse --lang argument (default: fr)
+const langArg = process.argv.find(a => a === '--lang');
+const LANG = langArg ? process.argv[process.argv.indexOf(langArg) + 1] || 'fr' : 'fr';
+if (!['fr', 'en', 'es'].includes(LANG)) {
+    console.error(`Langue non supportee: ${LANG}. Utiliser fr, en ou es.`);
+    process.exit(1);
+}
+
+// Charger les chaines localisees
+const STRINGS_PATH = path.join(__dirname, '..', '..', 'i18n', `strings_${LANG}.json`);
+let strings = {};
+if (fs.existsSync(STRINGS_PATH)) {
+    strings = JSON.parse(fs.readFileSync(STRINGS_PATH, 'utf-8'));
+}
+
+const CHAPTERS_DIR = LANG === 'fr'
+    ? path.join(__dirname, '..', 'chapters')
+    : path.join(__dirname, '..', 'chapters', LANG);
+const OUTPUT_FILE = path.join(__dirname, '..', '..', strings.output_file_book2 || 'Conscience_Souveraine_Essai_Trois_Piliers.docx');
 
 // Sections à charger dans l'ordre
 const SECTIONS = [
@@ -266,6 +284,49 @@ function jsonToDocx(element) {
             });
         }
 
+        case 'image': {
+            const imgPath = path.resolve(__dirname, '..', '..', element.path);
+            if (!fs.existsSync(imgPath)) {
+                console.warn(`Image non trouvée: ${imgPath}`);
+                return null;
+            }
+
+            const imageData = fs.readFileSync(imgPath);
+            const imgWidth = element.width || 500;
+            const imgHeight = element.height || 350;
+            const alignment = AlignmentType[element.alignment] || AlignmentType.CENTER;
+
+            const elements = [];
+
+            elements.push(new Paragraph({
+                alignment,
+                spacing: { before: 240, after: element.caption ? 60 : 240 },
+                children: [
+                    new ImageRun({
+                        data: imageData,
+                        transformation: { width: imgWidth, height: imgHeight },
+                        type: 'png'
+                    })
+                ]
+            }));
+
+            if (element.caption) {
+                elements.push(new Paragraph({
+                    alignment: AlignmentType.CENTER,
+                    spacing: { before: 60, after: 240 },
+                    children: [new TextRun({
+                        text: element.caption,
+                        italics: true,
+                        size: 18,
+                        font: 'Georgia',
+                        color: '666666'
+                    })]
+                }));
+            }
+
+            return elements;
+        }
+
         default:
             console.warn(`Unknown element type: ${element.type}`);
             return null;
@@ -324,8 +385,8 @@ async function assemble() {
     }
 
     // Convertir en éléments docx
-    const dedicaceDocx = dedicaceElements.map(jsonToDocx).filter(e => e !== null);
-    const contentDocx = contentElements.map(jsonToDocx).filter(e => e !== null);
+    const dedicaceDocx = dedicaceElements.map(jsonToDocx).filter(e => e !== null).flat();
+    const contentDocx = contentElements.map(jsonToDocx).filter(e => e !== null).flat();
     const totalDocx = dedicaceDocx.length + contentDocx.length;
 
     console.log(`\n📄 Éléments docx: ${totalDocx} (${dedicaceDocx.length} dédicace + ${contentDocx.length} contenu)`);
@@ -337,7 +398,7 @@ async function assemble() {
             alignment: AlignmentType.CENTER,
             spacing: { after: 200 },
             children: [new TextRun({
-                text: 'CONSCIENCE SOUVERAINE',
+                text: strings.cover_title || 'CONSCIENCE SOUVERAINE',
                 bold: true, size: 56, font: 'Arial', color: '2C1810'
             })]
         }),
@@ -353,7 +414,7 @@ async function assemble() {
             alignment: AlignmentType.CENTER,
             spacing: { after: 400 },
             children: [new TextRun({
-                text: 'Les Trois Piliers de la Souveraineté',
+                text: strings.cover_subtitle || 'Les Trois Piliers de la Souveraineté',
                 italics: true, size: 32, font: 'Georgia', color: '4A3728'
             })]
         }),
@@ -361,7 +422,7 @@ async function assemble() {
             alignment: AlignmentType.CENTER,
             spacing: { after: 100 },
             children: [new TextRun({
-                text: 'Énergie • Intelligence • Réseau',
+                text: strings.cover_pillars || 'Énergie • Intelligence • Réseau',
                 size: 24, font: 'Georgia', color: '8B4513'
             })]
         }),
@@ -370,7 +431,7 @@ async function assemble() {
             alignment: AlignmentType.CENTER,
             spacing: { after: 200 },
             children: [new TextRun({
-                text: 'David Berthelotte',
+                text: strings.cover_author || 'David Berthelotte',
                 bold: true, size: 28, font: 'Arial', color: '2C1810'
             })]
         }),
@@ -378,7 +439,7 @@ async function assemble() {
             alignment: AlignmentType.CENTER,
             spacing: { after: 200 },
             children: [new TextRun({
-                text: 'Québec, Canada • 2026',
+                text: strings.cover_location || 'Québec, Canada • 2026',
                 size: 22, font: 'Georgia', color: '666666'
             })]
         }),
@@ -386,7 +447,7 @@ async function assemble() {
             alignment: AlignmentType.CENTER,
             spacing: { after: 200 },
             children: [new TextRun({
-                text: 'Licence UBLinx Open Innovation v1.0',
+                text: strings.cover_license || 'Licence UBLinx Open Innovation v1.0',
                 italics: true, size: 20, font: 'Georgia', color: '888888'
             })]
         }),
@@ -442,7 +503,7 @@ async function assemble() {
                     children: [new Paragraph({
                         alignment: AlignmentType.RIGHT,
                         children: [new TextRun({
-                            text: 'Conscience Souveraine — Les Trois Piliers',
+                            text: strings.header_book2 || 'Conscience Souveraine — Les Trois Piliers',
                             italics: true, size: 18, font: 'Georgia', color: '999999'
                         })]
                     })]
@@ -453,8 +514,7 @@ async function assemble() {
                     children: [new Paragraph({
                         alignment: AlignmentType.CENTER,
                         children: [
-                            new TextRun({ text: 'David Berthelotte ', size: 16, font: 'Georgia', color: '999999' }),
-                            new TextRun({ text: '• Conscience Souveraine • UBLinx Protected • 2026 — ', size: 16, font: 'Georgia', color: '999999' }),
+                            new TextRun({ text: (strings.footer_book2 || 'David Berthelotte • Conscience Souveraine • UBLinx Protected • 2026') + ' — ', size: 16, font: 'Georgia', color: '999999' }),
                             new TextRun({ children: [PageNumber.CURRENT], size: 16, font: 'Georgia', color: '999999' }),
                         ]
                     })]
@@ -466,9 +526,9 @@ async function assemble() {
                 // 2. Dédicace (extraite du prologue)
                 ...dedicaceDocx,
                 // 3. Table des matières
-                new TableOfContents("Table des matières", {
+                new TableOfContents(strings.toc_title_book2 || "Table des matières", {
                     hyperlink: true,
-                    headingStyleRange: "1-3"
+                    headingStyleRange: "1-2"
                 }),
                 new Paragraph({ children: [new PageBreak()] }),
                 // 4. Contenu (prologue + actes + épilogue)

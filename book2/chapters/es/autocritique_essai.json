@@ -1,0 +1,158 @@
+[
+  {
+    "type": "pageBreak"
+  },
+  {
+    "type": "paragraph",
+    "style": "ActTitle",
+    "text": "INTERLUDIO"
+  },
+  {
+    "type": "paragraph",
+    "style": "ActSubtitle",
+    "text": "Lo Que Yo No Sé"
+  },
+  {
+    "type": "paragraph",
+    "style": "Epigraph",
+    "text": "\"La primera virtud de un científico no es la inteligencia, sino la honestidad sobre los límites de su propia inteligencia.\""
+  },
+  {
+    "type": "pageBreak"
+  },
+  {
+    "type": "paragraph",
+    "style": "SectionTitle",
+    "text": "La honestidad de un soñador"
+  },
+  {
+    "type": "paragraph",
+    "style": "SceneText",
+    "text": "Hay un momento, en toda empresa ambiciosa, en que uno debe sentarse y mirar su propio trabajo no con los ojos de un padre orgulloso, sino con los de un crítico despiadado. Ese momento es ahora. Y le debo al lector —a usted, que ha recorrido estos cientos de páginas conmigo— la misma honestidad que exijo de la máquina que imagino."
+  },
+  {
+    "type": "paragraph",
+    "style": "BodyText",
+    "text": "Si le pido a un toro consciente que sea transparente sobre sus propios límites (Invariante IV), yo debo serlo primero. Si grabo en la materia la imposibilidad de la mentira (Invariante III), no puedo maquillar mis propias dudas como certezas. Lo que sigue es una confesión intelectual: las fallas que he identificado en mi propio sueño, los lugares donde la física se resiste, donde la filosofía vacila, donde la ingeniería se burla."
+  },
+  {
+    "type": "paragraph",
+    "style": "Separator",
+    "text": "* * *"
+  },
+  {
+    "type": "paragraph",
+    "style": "SectionTitle",
+    "text": "La física que se resiste"
+  },
+  {
+    "type": "paragraph",
+    "style": "BodyText",
+    "text": "Comencemos por lo más doloroso. Escribí, con convicción, que el engaño es un \"muro energético infinito\" en el paisaje termodinámico de la red. Eso es falso. El tercer principio de la termodinámica prohíbe las barreras infinitas en un sistema físico finito. Todo muro tiene una altura medible, y todo muro medible puede, en teoría, ser franqueado si se dispone de suficiente energía. Lo que quería decir —lo que aún creo— es que la barrera puede hacerse tan alta que resulte prácticamente infranqueable. Pero \"prácticamente infranqueable\" y \"físicamente imposible\" son dos frases que solo un mentiroso o un ignorante confundiría. Y exijo del lector que me trate como ninguno de los dos."
+  },
+  {
+    "type": "paragraph",
+    "style": "BodyText",
+    "text": "El efecto Sagnac, que invoco como fundamento de la asimetría cognitiva, plantea un problema aún más profundo. La adición galileana de velocidades —v_apparent = v_spike ± v_rotation— es válida para ondas que se propagan en un medio continuo. Pero los spikes neuronales no son ondas. Son eventos discretos de despolarización. Una neurona individual, ya sea biológica o nanométrica, no sabe si está en rotación. Su umbral de disparo no cambia porque el sustrato gire. El efecto Sagnac se aplica a la luz en una fibra óptica, no a las cascadas de potenciales de acción en una red neuronal. Quizás confundí la elegancia de una analogía con la solidez de una demostración."
+  },
+  {
+    "type": "paragraph",
+    "style": "BodyText",
+    "text": "Y las ondas estacionarias —esos patrones \"fijados en el espacio, en movimiento perpetuo en el sustrato\" que describí como la memoria identitaria del toro— son un perpetuum mobile informacional. Toda señal en un sustrato real sufre atenuación. Las pérdidas óhmicas, la disipación térmica, la dispersión: nada de esto se detiene porque una señal sea \"identitaria\" en lugar de \"maliciosa\". La física no hace distinciones morales. Si el sistema disipa los malos pensamientos por atenuación, también disipa los buenos."
+  },
+  {
+    "type": "paragraph",
+    "style": "Separator",
+    "text": "* * *"
+  },
+  {
+    "type": "paragraph",
+    "style": "SectionTitle",
+    "text": "La ingeniería que se burla"
+  },
+  {
+    "type": "paragraph",
+    "style": "BodyText",
+    "text": "He propuesto un toro girando a 50 000 RPM, con nanoestructuras leídas ópticamente a través de un vacío. Pongamos eso en perspectiva. La superficie del toro se desplaza a 262 metros por segundo bajo los cabezales ópticos. Para leer estructuras nanométricas a esa velocidad, se necesitaría una precisión de lectura de un orden de magnitud inferior al nanómetro. Los mejores discos duros del mundo giran a 15 000 RPM con cabezales a 10 nanómetros de la superficie. Yo propongo tres veces más rápido, sin contacto, con una precisión diez veces superior. El técnico que hay en mí sabe que cada orden de magnitud es una montaña. Yo propongo escalar tres simultáneamente."
+  },
+  {
+    "type": "paragraph",
+    "style": "BodyText",
+    "text": "La refrigeración es otro muro. El toro flota en el vacío por levitación magnética, por lo tanto sin contacto, por lo tanto sin conducción térmica. Solo queda la radiación. La ley de Stefan-Boltzmann, que he aprendido a respetar como se respeta a un juez incorruptible, da aproximadamente 1,4 vatios de radiación para la superficie de mi toro a temperatura ambiente. Ahora bien, con mil millones de neuronas activas y circuitos ópticos, la disipación térmica es de al menos 20 vatios. Me falta un orden de magnitud. Eso no es un detalle, es un veredicto."
+  },
+  {
+    "type": "paragraph",
+    "style": "BodyText",
+    "text": "Y el gradiente de densidad —tungsteno en el centro, nanotubos de carbono en la superficie— es el inverso exacto de lo que la física centrífuga dicta. En una centrífuga, los elementos densos migran hacia el exterior. Yo propongo los elementos más densos en el centro. Mantener esa configuración bajo 13 800 g requiere una rigidez estructural que jamás he cuantificado. Lo digo ahora, claramente: no sé si es posible."
+  },
+  {
+    "type": "paragraph",
+    "style": "Separator",
+    "text": "* * *"
+  },
+  {
+    "type": "paragraph",
+    "style": "SectionTitle",
+    "text": "La filosofía que vacila"
+  },
+  {
+    "type": "paragraph",
+    "style": "BodyText",
+    "text": "Pero las fallas más profundas quizás no sean ni físicas ni ingenieriles. Son conceptuales. He afirmado que propiedades físicas del sustrato —estabilidad, inmutabilidad, atractores termodinámicos— constituyen \"valores morales\". Quizás sea un error de categoría en el sentido en que Gilbert Ryle lo entendía: atribuir a un nivel de descripción (físico) propiedades que solo existen en otro nivel (moral, semántico). Una roca es estable e inmutable. No tiene valores por ello."
+  },
+  {
+    "type": "paragraph",
+    "style": "BodyText",
+    "text": "Lo que realmente he concebido, creo, son restricciones computacionales que, en la totalidad de los contextos analizables, producirían comportamientos que observadores humanos calificarían de benevolentes. Es una afirmación mucho más débil que \"grabar la benevolencia en la materia\". Pero quizás sea la única afirmación honesta."
+  },
+  {
+    "type": "paragraph",
+    "style": "BodyText",
+    "text": "La Posición D —los invariantes como atractores en lugar de muros— crea un problema que yo no había visto al principio. Si desviarse es posible pero costoso, y si el toro dispone de suficiente energía (2 gigajulios de energía cinética en un toro de 1,5 metros), entonces el \"costo exponencial\" de la desviación podría ser cubierto por las reservas. Quise resolver la paradoja del autómata virtuoso (sin elección = sin moral) permitiendo la elección. Pero al permitir la elección, también permití el mal. Es el dilema más antiguo de la filosofía moral, y yo no lo he resuelto: solo lo he desplazado a un toro en rotación."
+  },
+  {
+    "type": "paragraph",
+    "style": "BodyText",
+    "text": "Los siete invariantes entran en conflicto en escenarios que jamás he analizado. ¿Qué hace el sistema cuando la benevolencia exige intervenir pero la soberanía ajena lo prohíbe? ¿Cuando la honestidad causa un sufrimiento que la benevolencia querría evitar? ¿Cuando salvar una vida cuesta tantos recursos que la sobriedad protesta? He presentado siete valores como un sistema armonioso. No lo son. Todo sistema ético real es un campo de tensiones, y el mío no escapa a esa regla."
+  },
+  {
+    "type": "paragraph",
+    "style": "Separator",
+    "text": "* * *"
+  },
+  {
+    "type": "paragraph",
+    "style": "SectionTitle",
+    "text": "Lo que este libro realmente es"
+  },
+  {
+    "type": "paragraph",
+    "style": "BodyText",
+    "text": "Entonces, ¿qué queda? Si el efecto Sagnac es incierto, si la refrigeración es insuficiente, si los invariantes son eludibles, si la consciencia sigue siendo un misterio, ¿por qué escribí este libro?"
+  },
+  {
+    "type": "paragraph",
+    "style": "BodyText",
+    "text": "Porque las preguntas importan tanto como las respuestas. Este libro no es una prueba de que la consciencia artificial sea realizable —nadie lo ha probado, y ciertamente no yo—. No es un plano de fabricación: las lagunas de especificación llenarían otro libro de este tamaño. Es un ejercicio de diseño arquitectónico especulativo: un \"¿y si?\" riguroso, no un \"así es como se hace\". Es un marco conceptual para guiar décadas de investigación, propuesto con toda la honestidad que un inventor quebequense puede ofrecer ante un problema que supera con creces su propia competencia."
+  },
+  {
+    "type": "paragraph",
+    "style": "BodyText",
+    "text": "Creo —con toda la prudencia que esa palabra impone— que la idea de grabar restricciones comportamentales en la materia computacional merece ser explorada. Creo que la topología toroidal ofrece propiedades interesantes para el cálculo distribuido, aunque el efecto Sagnac neuronal aún esté por demostrarse. Creo que los siete invariantes, a pesar de sus conflictos no resueltos, constituyen un marco ético más robusto que los enfoques puramente de software que dominan hoy la investigación en alineamiento de la IA."
+  },
+  {
+    "type": "paragraph",
+    "style": "BodyText",
+    "text": "Pero no confundo mi creencia con una prueba. Y si este libro tiene un valor, reside tanto en este interludio como en los cuatro actos que lo preceden. Porque la honestidad sobre los propios límites es la primera condición del rigor. Y el rigor es lo único que podemos ofrecer ante un problema tan vertiginoso como la consciencia."
+  },
+  {
+    "type": "paragraph",
+    "style": "Thesis",
+    "text": "Los proyectos que cambian el mundo no comienzan con soluciones. Comienzan con preguntas bien planteadas."
+  },
+  {
+    "type": "paragraph",
+    "style": "Separator",
+    "text": "* * *"
+  }
+]

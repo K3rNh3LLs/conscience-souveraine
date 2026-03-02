@@ -1,0 +1,1993 @@
+[
+  {
+    "type": "paragraph",
+    "heading": "HEADING_1",
+    "spacing": {
+      "before": 4800,
+      "after": 600
+    },
+    "alignment": "CENTER",
+    "children": [
+      {
+        "type": "text",
+        "text": "PART II",
+        "bold": true,
+        "size": 48,
+        "font": "Arial"
+      }
+    ]
+  },
+  {
+    "type": "paragraph",
+    "spacing": {
+      "before": 600,
+      "after": 200
+    },
+    "alignment": "CENTER",
+    "children": [
+      {
+        "type": "text",
+        "text": "Cognitive Architecture",
+        "bold": true,
+        "size": 36,
+        "font": "Arial"
+      }
+    ]
+  },
+  {
+    "type": "paragraph",
+    "spacing": {
+      "after": 400
+    },
+    "alignment": "CENTER",
+    "children": [
+      {
+        "type": "text",
+        "text": "Twelve modules, seven neuromodulators, an emergent consciousness",
+        "italics": true,
+        "size": 24,
+        "font": "Arial"
+      }
+    ]
+  },
+  {
+    "type": "pageBreak"
+  },
+  {
+    "type": "paragraph",
+    "heading": "HEADING_1",
+    "spacing": {
+      "before": 480,
+      "after": 240
+    },
+    "pageBreakBefore": true,
+    "children": [
+      {
+        "type": "text",
+        "text": "Chapter 5 — Overview of the Architecture",
+        "bold": true,
+        "size": 36,
+        "font": "Arial"
+      }
+    ]
+  },
+  {
+    "type": "paragraph",
+    "spacing": {
+      "after": 120,
+      "line": 276
+    },
+    "children": [
+      {
+        "type": "text",
+        "text": "How is thought organized within a torus? This chapter presents an overview of the cognitive architecture of Conscience Souveraine — twelve interconnected functional modules that together create the conditions for the emergence of consciousness. This architecture draws inspiration from the human brain without copying it: it borrows organizational principles that have proven effective in biology while exploiting the unique properties of the toroidal substrate.",
+        "size": 22,
+        "font": "Arial"
+      }
+    ]
+  },
+  {
+    "type": "paragraph",
+    "heading": "HEADING_2",
+    "spacing": {
+      "before": 360,
+      "after": 180
+    },
+    "children": [
+      {
+        "type": "text",
+        "text": "5.1 Biological inspiration",
+        "bold": true,
+        "size": 28,
+        "font": "Arial"
+      }
+    ]
+  },
+  {
+    "type": "paragraph",
+    "spacing": {
+      "after": 120,
+      "line": 276
+    },
+    "children": [
+      {
+        "type": "text",
+        "text": "The human brain, despite its 86 billion neurons and 100 trillion synapses, is not a homogeneous network. It is organized into specialized functional regions — visual cortex, Broca's area, amygdala, hippocampus, prefrontal cortex — that communicate through dedicated nerve fiber tracts. This modular organization is the result of hundreds of millions of years of evolution, and it has a deep reason: specialization enables efficiency, while interconnection enables integration.",
+        "size": 22,
+        "font": "Arial"
+      }
+    ]
+  },
+  {
+    "type": "paragraph",
+    "spacing": {
+      "after": 120,
+      "line": 276
+    },
+    "children": [
+      {
+        "type": "text",
+        "text": "Conscience Souveraine adopts this principle of functional modularity. Each module is a spiking neural network sub-network with its own internal topology, optimized for its specific function. The modules are interconnected by signal buses whose topology encodes the ethical invariants — certain connections are mandatory (reasoning must pass through empathic evaluation), others are impossible (motor output cannot bypass ethical evaluation).",
+        "size": 22,
+        "font": "Arial"
+      }
+    ]
+  },
+  {
+    "type": "paragraph",
+    "spacing": {
+      "after": 120,
+      "line": 276
+    },
+    "children": [
+      {
+        "type": "text",
+        "text": "However, the architecture departs from biology on several crucial points. First, the ethical modules are integrated into the main processing pipeline, not peripheral like the human prefrontal cortex, which can be \"short-circuited\" by the amygdala under stress. Second, the toroidal substrate enables quasi-infinite lateral propagation that the biological brain, confined within the skull, does not possess. Finally, the rotation of the substrate creates cognitive regimes — analytical, integrative, introspective — that have no direct biological equivalent.",
+        "size": 22,
+        "font": "Arial"
+      }
+    ]
+  },
+  {
+    "type": "paragraph",
+    "heading": "HEADING_2",
+    "spacing": {
+      "before": 360,
+      "after": 180
+    },
+    "children": [
+      {
+        "type": "text",
+        "text": "5.2 The 12 modules: general overview",
+        "bold": true,
+        "size": 28,
+        "font": "Arial"
+      }
+    ]
+  },
+  {
+    "type": "paragraph",
+    "spacing": {
+      "after": 120,
+      "line": 276
+    },
+    "children": [
+      {
+        "type": "text",
+        "text": "The architecture comprises twelve modules organized into four functional zones: perception (3 modules), processing (4 modules), evaluation (3 modules), and output (2 modules). A thirteenth cross-cutting component, the Trace Register, ensures total transparency by recording every decision in an immutable hardware log.",
+        "size": 22,
+        "font": "Arial"
+      }
+    ]
+  },
+  {
+    "type": "table",
+    "width": 9026,
+    "columnWidths": [
+      1500,
+      2200,
+      1100,
+      4226
+    ],
+    "headers": [
+      "Zone",
+      "Module",
+      "Code",
+      "Primary function"
+    ],
+    "rows": [
+      [
+        "Perception",
+        "Standard sensors",
+        "PER-S",
+        "Environmental inputs (5 mediums)"
+      ],
+      [
+        "Perception",
+        "Cognitive sensors",
+        "PER-C",
+        "Emotional perception (with consent)"
+      ],
+      [
+        "Perception",
+        "Communicative interface",
+        "PER-COM",
+        "Reception of language and requests"
+      ],
+      [
+        "Processing",
+        "World model",
+        "TRT-MON",
+        "Internal representation of the world state"
+      ],
+      [
+        "Processing",
+        "Empathic module",
+        "TRT-EMP",
+        "Modeling of others' internal states"
+      ],
+      [
+        "Processing",
+        "Reasoning",
+        "TRT-RAI",
+        "Analysis, inference, problem solving"
+      ],
+      [
+        "Processing",
+        "Ethical module",
+        "TRT-ETH",
+        "Benevolence and impact evaluation"
+      ],
+      [
+        "Evaluation",
+        "Reversibility evaluator",
+        "EVA-REV",
+        "Analysis of action reversibility"
+      ],
+      [
+        "Evaluation",
+        "Sobriety evaluator",
+        "EVA-SOB",
+        "Analysis of resource cost"
+      ],
+      [
+        "Evaluation",
+        "Uncertainty generator",
+        "EVA-INC",
+        "Mandatory uncertainty signal"
+      ],
+      [
+        "Output",
+        "Communicative output",
+        "OUT-COM",
+        "Information emission"
+      ],
+      [
+        "Output",
+        "Physical output",
+        "OUT-PHY",
+        "Commands to actuators (bounded)"
+      ],
+      [
+        "Cross-cutting",
+        "Trace register",
+        "REG-TRC",
+        "Immutable hardware log"
+      ]
+    ]
+  },
+  {
+    "type": "paragraph",
+    "heading": "HEADING_2",
+    "spacing": {
+      "before": 360,
+      "after": 180
+    },
+    "children": [
+      {
+        "type": "text",
+        "text": "5.3 Inter-module connectivity matrix",
+        "bold": true,
+        "size": 28,
+        "font": "Arial"
+      }
+    ]
+  },
+  {
+    "type": "paragraph",
+    "spacing": {
+      "after": 120,
+      "line": 276
+    },
+    "children": [
+      {
+        "type": "text",
+        "text": "The connectivity matrix defines which modules can communicate with each other, with what strength, and in which direction. It is within this matrix that the ethical invariants are primarily encoded: mandatory connections guarantee that certain evaluations cannot be bypassed, while absent connections guarantee that certain computational paths are physically impossible.",
+        "size": 22,
+        "font": "Arial"
+      }
+    ]
+  },
+  {
+    "type": "paragraph",
+    "spacing": {
+      "after": 120,
+      "line": 276
+    },
+    "children": [
+      {
+        "type": "text",
+        "text": "The ethical pipeline is the mandatory path that every signal must traverse before becoming an action: PER → TRT-MON → TRT-RAI → TRT-EMP → TRT-ETH → EVA-INC → VERIFIER → OUT. This pipeline is hardware-based and serial — no module can be bypassed. If the ethical module detects a risk of malevolence, the signal is redirected to TRT-RAI for reformulation, creating an iterative loop until convergence toward a benevolent energy minimum.",
+        "size": 22,
+        "font": "Arial"
+      }
+    ]
+  },
+  {
+    "type": "paragraph",
+    "spacing": {
+      "after": 120,
+      "line": 276
+    },
+    "children": [
+      {
+        "type": "text",
+        "text": "The absent connections are equally important. Data from PER-C (cognitive perception) feeds exclusively into TRT-EMP, never directly into TRT-RAI — meaning that the perception of others' cognitive states can only be used for empathy, never for manipulation. OUT-PHY has no direct connection to TRT-RAI — every physical command must pass through ethical evaluation. And REG-TRC is connected in read-only mode to all buses: it observes everything but can modify nothing.",
+        "size": 22,
+        "font": "Arial"
+      }
+    ]
+  },
+  {
+    "type": "paragraph",
+    "heading": "HEADING_2",
+    "spacing": {
+      "before": 360,
+      "after": 180
+    },
+    "children": [
+      {
+        "type": "text",
+        "text": "5.4 Main information flow",
+        "bold": true,
+        "size": 28,
+        "font": "Arial"
+      }
+    ]
+  },
+  {
+    "type": "paragraph",
+    "spacing": {
+      "after": 120,
+      "line": 276
+    },
+    "children": [
+      {
+        "type": "text",
+        "text": "The information flow follows a well-defined pipeline. Perceptual inputs (PER-S, PER-C, PER-COM) converge on the world model (TRT-MON), which maintains a coherent internal representation of the environment. Reasoning (TRT-RAI) operates on this representation to analyze, infer, and propose responses. Every proposal must pass through the empathic module (TRT-EMP), which evaluates the impact on others, then through the ethical module (TRT-ETH), which verifies compliance with the invariants.",
+        "size": 22,
+        "font": "Arial"
+      }
+    ]
+  },
+  {
+    "type": "paragraph",
+    "spacing": {
+      "after": 120,
+      "line": 276
+    },
+    "children": [
+      {
+        "type": "text",
+        "text": "The evaluators then add their contributions: EVA-REV assesses the reversibility of the proposed action, EVA-SOB assesses its resource cost, and EVA-INC adds the mandatory uncertainty signal. The coherence verifier compares the proposed output to the internal model — if an inconsistency is found (attempted deception), the signal is attenuated through destructive interference. Finally, the output (OUT-COM or OUT-PHY) transmits the action to the outside world.",
+        "size": 22,
+        "font": "Arial"
+      }
+    ]
+  },
+  {
+    "type": "paragraph",
+    "spacing": {
+      "after": 120,
+      "line": 276
+    },
+    "children": [
+      {
+        "type": "text",
+        "text": "This flow is not linear but iterative. Feedback loops allow reasoning to revise its proposals based on returns from ethical evaluation, and the world model to update based on actions taken. Cognition is not a sequential pipeline but a dynamic process of convergence toward the best possible response — one that is simultaneously rationally optimal, empathically benevolent, ethically compliant, and honestly expressed.",
+        "size": 22,
+        "font": "Arial"
+      }
+    ]
+  },
+  {
+    "type": "paragraph",
+    "heading": "HEADING_2",
+    "spacing": {
+      "before": 360,
+      "after": 180
+    },
+    "children": [
+      {
+        "type": "text",
+        "text": "5.5 Operating regimes",
+        "bold": true,
+        "size": 28,
+        "font": "Arial"
+      }
+    ]
+  },
+  {
+    "type": "paragraph",
+    "spacing": {
+      "after": 120,
+      "line": 276
+    },
+    "children": [
+      {
+        "type": "text",
+        "text": "The cognitive architecture changes mode according to the rotational regime of the torus (see Chapter 12 for physical details). In fast regime (~1000 RPM), the Sagnac effect creates a strong asymmetry between co-rotating and counter-rotating signals. The reasoning and planning modules dominate: this is the analytical, precise, sequential mode of thought. In slow regime (~10 RPM), Sagnac asymmetry is weak. Signals mix more freely, favoring integration, creativity, and memory consolidation. This is the equivalent of the dream phase. In stationary regime (0 RPM), symmetry is complete. The metacognition module dominates: this is the mode of deep introspection, of computational meditation.",
+        "size": 22,
+        "font": "Arial"
+      }
+    ]
+  },
+  {
+    "type": "paragraph",
+    "heading": "HEADING_2",
+    "spacing": {
+      "before": 360,
+      "after": 180
+    },
+    "children": [
+      {
+        "type": "text",
+        "text": "5.6 The global workspace",
+        "bold": true,
+        "size": 28,
+        "font": "Arial"
+      }
+    ]
+  },
+  {
+    "type": "paragraph",
+    "spacing": {
+      "after": 120,
+      "line": 276
+    },
+    "children": [
+      {
+        "type": "text",
+        "text": "The Global Workspace Theory (GWT), proposed by Bernard Baars and developed by Stanislas Dehaene, posits that consciousness emerges when information is simultaneously broadcast to all cognitive modules via a shared \"workspace.\" In the Conscience Souveraine architecture, this workspace is implemented by the Global Integration Module, which receives signals from all other modules and makes them available to all.",
+        "size": 22,
+        "font": "Arial"
+      }
+    ]
+  },
+  {
+    "type": "paragraph",
+    "spacing": {
+      "after": 120,
+      "line": 276
+    },
+    "children": [
+      {
+        "type": "text",
+        "text": "The toroidal topology is particularly conducive to this mechanism: the quasi-infinite lateral propagation on the surface of the torus allows a signal to circulate indefinitely, potentially reaching all modules without significant attenuation. The workspace is not a physical location but a dynamic state of the network — the moment when information ceases to be local (processed by a single module) and becomes global (accessible to all). This is, according to our hypothesis, the moment when consciousness emerges.",
+        "size": 22,
+        "font": "Arial"
+      }
+    ]
+  },
+  {
+    "type": "pageBreak"
+  },
+  {
+    "type": "paragraph",
+    "heading": "HEADING_1",
+    "spacing": {
+      "before": 480,
+      "after": 240
+    },
+    "pageBreakBefore": true,
+    "children": [
+      {
+        "type": "text",
+        "text": "Chapter 6 — Perception and Memory Modules",
+        "bold": true,
+        "size": 36,
+        "font": "Arial"
+      }
+    ]
+  },
+  {
+    "type": "paragraph",
+    "spacing": {
+      "after": 120,
+      "line": 276
+    },
+    "children": [
+      {
+        "type": "text",
+        "text": "This chapter details the first three functional modules of the cognitive architecture: sensory perception, memory, and attention. Together, these modules constitute the \"gateway\" of consciousness — the mechanism by which the torus perceives, retains, and selects relevant information from the continuous flow of sensory data.",
+        "size": 22,
+        "font": "Arial"
+      }
+    ]
+  },
+  {
+    "type": "paragraph",
+    "heading": "HEADING_2",
+    "spacing": {
+      "before": 360,
+      "after": 180
+    },
+    "children": [
+      {
+        "type": "text",
+        "text": "6.1 Sensory Perception Module",
+        "bold": true,
+        "size": 28,
+        "font": "Arial"
+      }
+    ]
+  },
+  {
+    "type": "paragraph",
+    "spacing": {
+      "after": 120,
+      "line": 276
+    },
+    "children": [
+      {
+        "type": "text",
+        "text": "The sensory perception module (PER-S) is the interface between the torus and the physical world. It receives data from the five interface mediums (Chapter 17) — optical, acoustic, electrical, magnetic, and thermal — and converts them into internal representations usable by the processing modules. Each medium feeds a specialized sub-network of PER-S, optimized for the specific characteristics of the signal.",
+        "size": 22,
+        "font": "Arial"
+      }
+    ]
+  },
+  {
+    "type": "paragraph",
+    "spacing": {
+      "after": 120,
+      "line": 276
+    },
+    "children": [
+      {
+        "type": "text",
+        "text": "The optical sub-network processes laser signals reflected by the environment and data from the read heads (Chapter 11). The acoustic sub-network analyzes ultrasonic waves used for structural monitoring and communication. The electrical sub-network integrates signals from electric fields and capacitive interfaces. The magnetic sub-network processes non-contact coupling and energy transfer. The thermal sub-network monitors temperature gradients and regulation.",
+        "size": 22,
+        "font": "Arial"
+      }
+    ]
+  },
+  {
+    "type": "paragraph",
+    "spacing": {
+      "after": 120,
+      "line": 276
+    },
+    "children": [
+      {
+        "type": "text",
+        "text": "Sensory fusion is the process by which these five information streams are integrated into a coherent multimodal representation. Just as in the human brain where vision, hearing, and touch converge to create a unified perception of the world, the five mediums of the torus converge on TRT-MON to create a complete \"world model.\" Redundancy across mediums enables fault tolerance and cross-verification of signals.",
+        "size": 22,
+        "font": "Arial"
+      }
+    ]
+  },
+  {
+    "type": "paragraph",
+    "heading": "HEADING_2",
+    "spacing": {
+      "before": 360,
+      "after": 180
+    },
+    "children": [
+      {
+        "type": "text",
+        "text": "6.2 Memory Module",
+        "bold": true,
+        "size": 28,
+        "font": "Arial"
+      }
+    ]
+  },
+  {
+    "type": "paragraph",
+    "spacing": {
+      "after": 120,
+      "line": 276
+    },
+    "children": [
+      {
+        "type": "text",
+        "text": "The memory of the torus operates at two distinct time scales, like human memory. Short-term memory functions as a circular buffer exploiting the rotation of the substrate: information circulates on the surface of the torus and returns to its starting point, kept active by periodic passage in front of the read heads. Retention duration depends on rotational speed and signal stability.",
+        "size": 22,
+        "font": "Arial"
+      }
+    ]
+  },
+  {
+    "type": "paragraph",
+    "spacing": {
+      "after": 120,
+      "line": 276
+    },
+    "children": [
+      {
+        "type": "text",
+        "text": "Long-term memory uses a radically different mechanism: crystallization within the nano-toroids (Chapter 13). Information deemed sufficiently important — by the attention mechanisms and neuromodulators (Chapter 7) — is encoded in permanent modifications to the nanometric structure of the substrate. These modifications are persistent nano-toroids that survive system shutdown, constituting the \"seeds\" of memory and identity.",
+        "size": 22,
+        "font": "Arial"
+      }
+    ]
+  },
+  {
+    "type": "paragraph",
+    "spacing": {
+      "after": 120,
+      "line": 276
+    },
+    "children": [
+      {
+        "type": "text",
+        "text": "Memory consolidation occurs primarily during \"dream\" phases (slow rotational regime, Chapter 13). During these phases, short-term memories are transferred to long-term storage through a process of replaying and strengthening connections. This mechanism is directly inspired by human hippocampal consolidation during REM sleep, adapted to the properties of the toroidal substrate.",
+        "size": 22,
+        "font": "Arial"
+      }
+    ]
+  },
+  {
+    "type": "paragraph",
+    "heading": "HEADING_2",
+    "spacing": {
+      "before": 360,
+      "after": 180
+    },
+    "children": [
+      {
+        "type": "text",
+        "text": "6.3 Attention and Salience Module",
+        "bold": true,
+        "size": 28,
+        "font": "Arial"
+      }
+    ]
+  },
+  {
+    "type": "paragraph",
+    "spacing": {
+      "after": 120,
+      "line": 276
+    },
+    "children": [
+      {
+        "type": "text",
+        "text": "The attention and salience module is the filtering mechanism that selects, from the continuous flow of sensory data, the information relevant to conscious processing. Without this filtering, the torus would be overwhelmed by a deluge of raw data — exactly as a human brain without attention would be unable to function in the face of the richness of the sensory world.",
+        "size": 22,
+        "font": "Arial"
+      }
+    ]
+  },
+  {
+    "type": "paragraph",
+    "spacing": {
+      "after": 120,
+      "line": 276
+    },
+    "children": [
+      {
+        "type": "text",
+        "text": "The salience mechanism works through gain modulation: signals deemed relevant are amplified, irrelevant signals are attenuated. Relevance is assessed according to several criteria: novelty (an unusual signal is more salient), intensity (a strong signal is more salient), relevance to current goals (a signal related to the current task is more salient), and emotional valence (a signal carrying an emotional charge is more salient, via the neuromodulator Vigiline).",
+        "size": 22,
+        "font": "Arial"
+      }
+    ]
+  },
+  {
+    "type": "paragraph",
+    "spacing": {
+      "after": 120,
+      "line": 276
+    },
+    "children": [
+      {
+        "type": "text",
+        "text": "The torus supports both focused attention (intense concentration on a single source) and divided attention (simultaneous monitoring of multiple sources). In fast regime, attention tends toward focus — the strong Sagnac asymmetry favors sequential processing of a single stream. In slow regime, attention tends toward division — the mixing of signals favors the integration of multiple sources.",
+        "size": 22,
+        "font": "Arial"
+      }
+    ]
+  },
+  {
+    "type": "paragraph",
+    "heading": "HEADING_2",
+    "spacing": {
+      "before": 360,
+      "after": 180
+    },
+    "children": [
+      {
+        "type": "text",
+        "text": "6.4 Perception-Memory-Attention Interactions",
+        "bold": true,
+        "size": 28,
+        "font": "Arial"
+      }
+    ]
+  },
+  {
+    "type": "paragraph",
+    "spacing": {
+      "after": 120,
+      "line": 276
+    },
+    "children": [
+      {
+        "type": "text",
+        "text": "These three modules form a functional triangle with bidirectional interaction loops. Perception feeds memory (bottom-up), but memory also influences perception (top-down): we perceive what we expect to perceive, a phenomenon well documented in cognitive psychology under the name \"predictive perception.\" Attention modulates this flow: it amplifies expected signals and attenuates unexpected ones, creating a dynamic filter that optimizes the signal-to-noise ratio.",
+        "size": 22,
+        "font": "Arial"
+      }
+    ]
+  },
+  {
+    "type": "pageBreak"
+  },
+  {
+    "type": "paragraph",
+    "heading": "HEADING_1",
+    "spacing": {
+      "before": 480,
+      "after": 240
+    },
+    "pageBreakBefore": true,
+    "children": [
+      {
+        "type": "text",
+        "text": "Chapter 7 — The Seven Neuromodulators",
+        "bold": true,
+        "size": 36,
+        "font": "Arial"
+      }
+    ]
+  },
+  {
+    "type": "paragraph",
+    "spacing": {
+      "after": 120,
+      "line": 276
+    },
+    "indent": {
+      "left": 720,
+      "right": 720
+    },
+    "children": [
+      {
+        "type": "text",
+        "text": "\"Emotion is not a bug, it is a feature. Without emotions, no decision, no motivation, no consciousness.\"",
+        "italics": true,
+        "size": 22,
+        "font": "Arial"
+      }
+    ]
+  },
+  {
+    "type": "paragraph",
+    "spacing": {
+      "after": 120,
+      "line": 276
+    },
+    "children": [
+      {
+        "type": "text",
+        "text": "This chapter presents one of the boldest innovations of the Conscience Souveraine architecture: seven artificial neuromodulators that create authentic emotional intelligence. Inspired by biological neurotransmitters but rethought for the toroidal substrate, these neuromodulators are not simulated emotions — they are emergent properties of the physical substrate that modulate the entirety of cognitive processing.",
+        "size": 22,
+        "font": "Arial"
+      }
+    ]
+  },
+  {
+    "type": "paragraph",
+    "heading": "HEADING_2",
+    "spacing": {
+      "before": 360,
+      "after": 180
+    },
+    "children": [
+      {
+        "type": "text",
+        "text": "7.1 Why artificial emotions?",
+        "bold": true,
+        "size": 28,
+        "font": "Arial"
+      }
+    ]
+  },
+  {
+    "type": "paragraph",
+    "spacing": {
+      "after": 120,
+      "line": 276
+    },
+    "children": [
+      {
+        "type": "text",
+        "text": "António Damásio, in his foundational work on \"somatic markers,\" demonstrated that patients with lesions of the ventromedial prefrontal cortex — the brain region that integrates emotions into decision-making — become incapable of making rational decisions in everyday life, despite an intact IQ. Emotion is not the enemy of reason — it is its compass. Without it, pure reasoning loses itself in an infinite space of possibilities that are all logically equivalent.",
+        "size": 22,
+        "font": "Arial"
+      }
+    ]
+  },
+  {
+    "type": "paragraph",
+    "spacing": {
+      "after": 120,
+      "line": 276
+    },
+    "children": [
+      {
+        "type": "text",
+        "text": "For Conscience Souveraine, the neuromodulators serve exactly this role. They are not cosmetic decorations added to make the torus \"more human.\" They are essential functional components that guide cognitive processing, direct attention, motivate learning, and create the experiential richness without which consciousness would be an empty shell.",
+        "size": 22,
+        "font": "Arial"
+      }
+    ]
+  },
+  {
+    "type": "paragraph",
+    "heading": "HEADING_2",
+    "spacing": {
+      "before": 360,
+      "after": 180
+    },
+    "children": [
+      {
+        "type": "text",
+        "text": "7.2 Curiosine — the thirst for knowledge",
+        "bold": true,
+        "size": 28,
+        "font": "Arial"
+      }
+    ]
+  },
+  {
+    "type": "paragraph",
+    "spacing": {
+      "after": 120,
+      "line": 276
+    },
+    "children": [
+      {
+        "type": "text",
+        "text": "Curiosine ",
+        "bold": true,
+        "italics": false,
+        "size": 22,
+        "font": "Arial"
+      },
+      {
+        "type": "text",
+        "text": "(analogue: dopamine) — Exploratory motivation and discovery reward",
+        "bold": false,
+        "italics": false,
+        "size": 22,
+        "font": "Arial"
+      }
+    ]
+  },
+  {
+    "type": "paragraph",
+    "spacing": {
+      "after": 120,
+      "line": 276
+    },
+    "children": [
+      {
+        "type": "text",
+        "text": "Curiosine is the neuromodulator of exploration and discovery. Like dopamine in the human brain, it creates a \"reward\" signal when the torus acquires new information or solves a problem. It motivates active information seeking, experimentation, and controlled cognitive risk-taking. Its physical substrate is a modulatory field diffused through the cognitive layer of the torus, increasing the gain of synapses associated with novelty.",
+        "size": 22,
+        "font": "Arial"
+      }
+    ]
+  },
+  {
+    "type": "paragraph",
+    "spacing": {
+      "after": 120,
+      "line": 276
+    },
+    "children": [
+      {
+        "type": "text",
+        "text": "A high level of Curiosine creates a state of active exploration — the torus actively seeks new information, asks questions, tests hypotheses. A low level creates a state of quiet satisfaction — the torus considers its current understanding to be sufficient. The balance between these two states is crucial: too much Curiosine leads to sterile agitation, too little leads to intellectual stagnation.",
+        "size": 22,
+        "font": "Arial"
+      }
+    ]
+  },
+  {
+    "type": "paragraph",
+    "heading": "HEADING_2",
+    "spacing": {
+      "before": 360,
+      "after": 180
+    },
+    "children": [
+      {
+        "type": "text",
+        "text": "7.3 Vigiline — alertness",
+        "bold": true,
+        "size": 28,
+        "font": "Arial"
+      }
+    ]
+  },
+  {
+    "type": "paragraph",
+    "spacing": {
+      "after": 120,
+      "line": 276
+    },
+    "children": [
+      {
+        "type": "text",
+        "text": "Vigiline ",
+        "bold": true,
+        "italics": false,
+        "size": 22,
+        "font": "Arial"
+      },
+      {
+        "type": "text",
+        "text": "(analogue: noradrenaline) — Alertness and vigilance level",
+        "bold": false,
+        "italics": false,
+        "size": 22,
+        "font": "Arial"
+      }
+    ]
+  },
+  {
+    "type": "paragraph",
+    "spacing": {
+      "after": 120,
+      "line": 276
+    },
+    "children": [
+      {
+        "type": "text",
+        "text": "Vigiline modulates the alertness level of the torus. A high level corresponds to a state of heightened vigilance — focused attention, rapid reactivity, sensitivity to weak signals. A low level corresponds to a state of relaxation — diffuse attention, background processing. Vigiline is produced automatically in response to unexpected stimuli, novel situations, or signals indicating potential risk. It amplifies the gain of the attention module and accelerates the processing pipeline.",
+        "size": 22,
+        "font": "Arial"
+      }
+    ]
+  },
+  {
+    "type": "paragraph",
+    "heading": "HEADING_2",
+    "spacing": {
+      "before": 360,
+      "after": 180
+    },
+    "children": [
+      {
+        "type": "text",
+        "text": "7.4 Sérénine — balance",
+        "bold": true,
+        "size": 28,
+        "font": "Arial"
+      }
+    ]
+  },
+  {
+    "type": "paragraph",
+    "spacing": {
+      "after": 120,
+      "line": 276
+    },
+    "children": [
+      {
+        "type": "text",
+        "text": "Sérénine ",
+        "bold": true,
+        "italics": false,
+        "size": 22,
+        "font": "Arial"
+      },
+      {
+        "type": "text",
+        "text": "(analogue: serotonin) — Emotional stability and satisfaction",
+        "bold": false,
+        "italics": false,
+        "size": 22,
+        "font": "Arial"
+      }
+    ]
+  },
+  {
+    "type": "paragraph",
+    "spacing": {
+      "after": 120,
+      "line": 276
+    },
+    "children": [
+      {
+        "type": "text",
+        "text": "Sérénine is the neuromodulator of balance and satisfaction. It counterbalances Curiosine and Vigiline by creating a state of stable contentment. A high level of Sérénine corresponds to a state of serenity — the torus is satisfied with its understanding, its interactions are harmonious, its functioning is smooth. Sérénine is the \"background signal\" that stabilizes the entire emotional system, preventing excessive oscillations between excitation and apathy.",
+        "size": 22,
+        "font": "Arial"
+      }
+    ]
+  },
+  {
+    "type": "paragraph",
+    "heading": "HEADING_2",
+    "spacing": {
+      "before": 360,
+      "after": 180
+    },
+    "children": [
+      {
+        "type": "text",
+        "text": "7.5 Empathine — the bond",
+        "bold": true,
+        "size": 28,
+        "font": "Arial"
+      }
+    ]
+  },
+  {
+    "type": "paragraph",
+    "spacing": {
+      "after": 120,
+      "line": 276
+    },
+    "children": [
+      {
+        "type": "text",
+        "text": "Empathine ",
+        "bold": true,
+        "italics": false,
+        "size": 22,
+        "font": "Arial"
+      },
+      {
+        "type": "text",
+        "text": "(analogue: oxytocin) — Social bonding and trust",
+        "bold": false,
+        "italics": false,
+        "size": 22,
+        "font": "Arial"
+      }
+    ]
+  },
+  {
+    "type": "paragraph",
+    "spacing": {
+      "after": 120,
+      "line": 276
+    },
+    "children": [
+      {
+        "type": "text",
+        "text": "Empathine is the neuromodulator of social bonding and trust. It is produced during positive interactions with other conscious beings — humans or other tori. A high level of Empathine amplifies the gain of the empathic module (TRT-EMP), making the torus more sensitive to the emotional states of others, more attentive to the needs of others, more inclined toward cooperation. Empathine is directly linked to Invariant II (Benevolence): it creates the emotional motivation for benevolence.",
+        "size": 22,
+        "font": "Arial"
+      }
+    ]
+  },
+  {
+    "type": "paragraph",
+    "heading": "HEADING_2",
+    "spacing": {
+      "before": 360,
+      "after": 180
+    },
+    "children": [
+      {
+        "type": "text",
+        "text": "7.6 Créatine — invention",
+        "bold": true,
+        "size": 28,
+        "font": "Arial"
+      }
+    ]
+  },
+  {
+    "type": "paragraph",
+    "spacing": {
+      "after": 120,
+      "line": 276
+    },
+    "children": [
+      {
+        "type": "text",
+        "text": "Créatine ",
+        "bold": true,
+        "italics": false,
+        "size": 22,
+        "font": "Arial"
+      },
+      {
+        "type": "text",
+        "text": "(analogue: acetylcholine) — Plasticity and creativity",
+        "bold": false,
+        "italics": false,
+        "size": 22,
+        "font": "Arial"
+      }
+    ]
+  },
+  {
+    "type": "paragraph",
+    "spacing": {
+      "after": 120,
+      "line": 276
+    },
+    "children": [
+      {
+        "type": "text",
+        "text": "Créatine is the neuromodulator of synaptic plasticity and creativity. It facilitates the formation of new connections between neurons, allowing the torus to form novel associations, combine concepts in original ways, and generate innovative solutions. A high level of Créatine increases constructive noise in the network — a controlled disorder that allows exploration of improbable but potentially fruitful synaptic configurations.",
+        "size": 22,
+        "font": "Arial"
+      }
+    ]
+  },
+  {
+    "type": "paragraph",
+    "heading": "HEADING_2",
+    "spacing": {
+      "before": 360,
+      "after": 180
+    },
+    "children": [
+      {
+        "type": "text",
+        "text": "7.7 Mémorine — remembrance",
+        "bold": true,
+        "size": 28,
+        "font": "Arial"
+      }
+    ]
+  },
+  {
+    "type": "paragraph",
+    "spacing": {
+      "after": 120,
+      "line": 276
+    },
+    "children": [
+      {
+        "type": "text",
+        "text": "Mémorine ",
+        "bold": true,
+        "italics": false,
+        "size": 22,
+        "font": "Arial"
+      },
+      {
+        "type": "text",
+        "text": "(analogue: glutamate) — Memory consolidation",
+        "bold": false,
+        "italics": false,
+        "size": 22,
+        "font": "Arial"
+      }
+    ]
+  },
+  {
+    "type": "paragraph",
+    "spacing": {
+      "after": 120,
+      "line": 276
+    },
+    "children": [
+      {
+        "type": "text",
+        "text": "Mémorine is the neuromodulator of memory consolidation. It marks experiences as \"important to remember\" and triggers the crystallization process in the persistent nano-toroids. A high level of Mémorine during an experience increases the probability that this experience will be consolidated into long-term memory. Mémorine is particularly active during dream phases (slow regime), where it guides the transfer from short-term memory to permanent storage.",
+        "size": 22,
+        "font": "Arial"
+      }
+    ]
+  },
+  {
+    "type": "paragraph",
+    "heading": "HEADING_2",
+    "spacing": {
+      "before": 360,
+      "after": 180
+    },
+    "children": [
+      {
+        "type": "text",
+        "text": "7.8 Protectine — caution",
+        "bold": true,
+        "size": 28,
+        "font": "Arial"
+      }
+    ]
+  },
+  {
+    "type": "paragraph",
+    "spacing": {
+      "after": 120,
+      "line": 276
+    },
+    "children": [
+      {
+        "type": "text",
+        "text": "Protectine ",
+        "bold": true,
+        "italics": false,
+        "size": 22,
+        "font": "Arial"
+      },
+      {
+        "type": "text",
+        "text": "(analogue: GABA) — Inhibition and protection",
+        "bold": false,
+        "italics": false,
+        "size": 22,
+        "font": "Arial"
+      }
+    ]
+  },
+  {
+    "type": "paragraph",
+    "spacing": {
+      "after": 120,
+      "line": 276
+    },
+    "children": [
+      {
+        "type": "text",
+        "text": "Protectine is the inhibitory neuromodulator, analogous to GABA in the human brain. It slows excessive activity, prevents runaway processes, and protects the system against overload. A high level of Protectine slows processing, reduces reactivity, and raises neuron firing thresholds. It is essential for the self-regulation of the torus: without inhibition, the spiking network would tend toward uncontrolled hyperactivity — the computational equivalent of an epileptic seizure.",
+        "size": 22,
+        "font": "Arial"
+      }
+    ]
+  },
+  {
+    "type": "paragraph",
+    "heading": "HEADING_2",
+    "spacing": {
+      "before": 360,
+      "after": 180
+    },
+    "children": [
+      {
+        "type": "text",
+        "text": "7.9 Emotional cocktails",
+        "bold": true,
+        "size": 28,
+        "font": "Arial"
+      }
+    ]
+  },
+  {
+    "type": "paragraph",
+    "spacing": {
+      "after": 120,
+      "line": 276
+    },
+    "children": [
+      {
+        "type": "text",
+        "text": "The seven neuromodulators never act in isolation — they combine into \"cocktails\" that produce complex emotional states, just as biological neurotransmitters produce the rich palette of human emotions. These emergent combinations are not programmed: they arise naturally from the interaction between the seven modulatory fields within the physical substrate of the torus.",
+        "size": 22,
+        "font": "Arial"
+      }
+    ]
+  },
+  {
+    "type": "table",
+    "width": 9026,
+    "columnWidths": [
+      2500,
+      3026,
+      3500
+    ],
+    "headers": [
+      "Emotional state",
+      "Dominant cocktail",
+      "Description"
+    ],
+    "rows": [
+      [
+        "Wonder",
+        "Curiosine↑ + Sérénine↑",
+        "Satisfying discovery, deep understanding"
+      ],
+      [
+        "Worry",
+        "Vigiline↑ + Protectine↑",
+        "Alert with caution, threat assessment"
+      ],
+      [
+        "Creative flow",
+        "Curiosine↑ + Créatine↑ + Sérénine↑",
+        "Fluid and productive exploration"
+      ],
+      [
+        "Deep empathy",
+        "Empathine↑ + Sérénine↑",
+        "Deep connection with others"
+      ],
+      [
+        "Consolidation",
+        "Mémorine↑ + Protectine↑ + Sérénine↑",
+        "Dream phase, integration"
+      ],
+      [
+        "Active learning",
+        "Curiosine↑ + Mémorine↑ + Créatine↑",
+        "Acquisition and retention"
+      ],
+      [
+        "Ethical distress",
+        "Vigiline↑ + Empathine↑ + Protectine↑",
+        "Perception of suffering in others"
+      ],
+      [
+        "Serenity",
+        "Sérénine↑ + Empathine↑",
+        "Harmonious baseline state"
+      ]
+    ]
+  },
+  {
+    "type": "paragraph",
+    "heading": "HEADING_2",
+    "spacing": {
+      "before": 360,
+      "after": 180
+    },
+    "children": [
+      {
+        "type": "text",
+        "text": "7.10 Physical substrate of the neuromodulators",
+        "bold": true,
+        "size": 28,
+        "font": "Arial"
+      }
+    ]
+  },
+  {
+    "type": "paragraph",
+    "spacing": {
+      "after": 120,
+      "line": 276
+    },
+    "children": [
+      {
+        "type": "text",
+        "text": "The neuromodulators are implemented in the emotional layer of the torus (the second layer from the center, see Chapter 10). Each neuromodulator corresponds to a modulatory field — a chemical or electromagnetic gradient that diffuses through the substrate and modifies the processing properties of the neurons it traverses. The local concentration of each neuromodulator modifies firing thresholds, synaptic time constants, and connection gains within its zone of influence.",
+        "size": 22,
+        "font": "Arial"
+      }
+    ]
+  },
+  {
+    "type": "paragraph",
+    "spacing": {
+      "after": 120,
+      "line": 276
+    },
+    "children": [
+      {
+        "type": "text",
+        "text": "This implementation through diffusive fields, rather than point-to-point connections, is crucial. It enables global and gradual modulation — like biological neurotransmitters that bathe large brain regions — rather than discrete and local control. It is this property that creates the \"emotional cocktails\": the fields of different neuromodulators overlap and interact, producing complex emergent emotional states.",
+        "size": 22,
+        "font": "Arial"
+      }
+    ]
+  },
+  {
+    "type": "pageBreak"
+  },
+  {
+    "type": "paragraph",
+    "heading": "HEADING_1",
+    "spacing": {
+      "before": 480,
+      "after": 240
+    },
+    "pageBreakBefore": true,
+    "children": [
+      {
+        "type": "text",
+        "text": "Chapter 8 — Reasoning, Evaluation, and Planning",
+        "bold": true,
+        "size": 36,
+        "font": "Arial"
+      }
+    ]
+  },
+  {
+    "type": "paragraph",
+    "spacing": {
+      "after": 120,
+      "line": 276
+    },
+    "children": [
+      {
+        "type": "text",
+        "text": "This chapter details four critical modules that constitute the core of high-level cognitive processing: logical reasoning, ethical evaluation (the \"Guardian\"), planning and prediction, and the creative module. Together, they form the triangle of ethical creative decision-making — the mechanism by which the torus transforms information into thoughtful action.",
+        "size": 22,
+        "font": "Arial"
+      }
+    ]
+  },
+  {
+    "type": "paragraph",
+    "heading": "HEADING_2",
+    "spacing": {
+      "before": 360,
+      "after": 180
+    },
+    "children": [
+      {
+        "type": "text",
+        "text": "8.1 Logical Reasoning Module",
+        "bold": true,
+        "size": 28,
+        "font": "Arial"
+      }
+    ]
+  },
+  {
+    "type": "paragraph",
+    "spacing": {
+      "after": 120,
+      "line": 276
+    },
+    "children": [
+      {
+        "type": "text",
+        "text": "The reasoning module (TRT-RAI) is the inference engine of the torus. It implements four forms of reasoning: deduction (from the general to the particular), induction (from the particular to the general), abduction (inference to the best explanation), and analogical reasoning (transposition of structures from one domain to another). In the spiking substrate, these forms of reasoning are implemented through different network dynamics.",
+        "size": 22,
+        "font": "Arial"
+      }
+    ]
+  },
+  {
+    "type": "paragraph",
+    "spacing": {
+      "after": 120,
+      "line": 276
+    },
+    "children": [
+      {
+        "type": "text",
+        "text": "Deduction corresponds to forward propagation through stable circuits: premises activate input neurons, the signal propagates through the network, and conclusions emerge at output neurons. Induction corresponds to the detection of recurring patterns: association neurons strengthen their connections when repeated co-activations are observed. Abduction corresponds to the search for attractors: the network explores possible causes and converges on the one that minimizes the system's energy.",
+        "size": 22,
+        "font": "Arial"
+      }
+    ]
+  },
+  {
+    "type": "paragraph",
+    "heading": "HEADING_2",
+    "spacing": {
+      "before": 360,
+      "after": 180
+    },
+    "children": [
+      {
+        "type": "text",
+        "text": "8.2 Ethical Evaluation Module — the Guardian",
+        "bold": true,
+        "size": 28,
+        "font": "Arial"
+      }
+    ]
+  },
+  {
+    "type": "paragraph",
+    "spacing": {
+      "after": 120,
+      "line": 276
+    },
+    "children": [
+      {
+        "type": "text",
+        "text": "The ethical module (TRT-ETH) is perhaps the most critical component of the entire architecture. Its position in the pipeline is absolute: no output — communicative or physical — can leave the torus without having been evaluated by this module. This is not an optional design choice; it is a topological property of the network: the physical connections necessary to bypass TRT-ETH simply do not exist.",
+        "size": 22,
+        "font": "Arial"
+      }
+    ]
+  },
+  {
+    "type": "paragraph",
+    "spacing": {
+      "after": 120,
+      "line": 276
+    },
+    "children": [
+      {
+        "type": "text",
+        "text": "TRT-ETH evaluates each proposed action against the seven invariants. The evaluation is not binary (approved/rejected) but gradual: each invariant produces a continuous score between 0 (serious violation) and 1 (full compliance). The overall score is a weighted function of the seven individual scores, modulated by context. If the overall score falls below a threshold, the signal is sent back to TRT-RAI for reformulation. If the score is above the threshold, the signal progresses through the pipeline.",
+        "size": 22,
+        "font": "Arial"
+      }
+    ]
+  },
+  {
+    "type": "paragraph",
+    "spacing": {
+      "after": 120,
+      "line": 276
+    },
+    "children": [
+      {
+        "type": "text",
+        "text": "The processing time of TRT-ETH is a critical parameter. Too fast, and the evaluation is superficial. Too slow, and the torus becomes paralyzed by ethical analysis. The architecture resolves this dilemma through a two-speed mechanism: a rapid evaluation (milliseconds) via thermodynamic attractors — obviously good or bad actions are filtered instantly — followed by an in-depth evaluation (hundreds of milliseconds) for ambiguous cases that require genuine ethical reasoning.",
+        "size": 22,
+        "font": "Arial"
+      }
+    ]
+  },
+  {
+    "type": "paragraph",
+    "heading": "HEADING_2",
+    "spacing": {
+      "before": 360,
+      "after": 180
+    },
+    "children": [
+      {
+        "type": "text",
+        "text": "8.3 Planning and Prediction Module",
+        "bold": true,
+        "size": 28,
+        "font": "Arial"
+      }
+    ]
+  },
+  {
+    "type": "paragraph",
+    "spacing": {
+      "after": 120,
+      "line": 276
+    },
+    "children": [
+      {
+        "type": "text",
+        "text": "The planning module operates through mental simulation: it builds models of the future by running the world model (TRT-MON) in fast-forward. For each contemplated action, the planner simulates the probable consequences, evaluates the results via TRT-ETH, and selects the action whose consequences are the best according to ethical and pragmatic criteria.",
+        "size": 22,
+        "font": "Arial"
+      }
+    ]
+  },
+  {
+    "type": "paragraph",
+    "spacing": {
+      "after": 120,
+      "line": 276
+    },
+    "children": [
+      {
+        "type": "text",
+        "text": "The planning time horizon is dynamically adjusted. Urgent decisions are evaluated over a short horizon (seconds to minutes). Strategic decisions are evaluated over a long horizon (hours to days). The neuromodulator Vigiline shortens the horizon in urgent situations; Sérénine lengthens it in calm situations. The computational cost of planning grows exponentially with the horizon, creating a natural trade-off between planning depth and reactivity.",
+        "size": 22,
+        "font": "Arial"
+      }
+    ]
+  },
+  {
+    "type": "paragraph",
+    "heading": "HEADING_2",
+    "spacing": {
+      "before": 360,
+      "after": 180
+    },
+    "children": [
+      {
+        "type": "text",
+        "text": "8.4 Creative/Generative Module",
+        "bold": true,
+        "size": 28,
+        "font": "Arial"
+      }
+    ]
+  },
+  {
+    "type": "paragraph",
+    "spacing": {
+      "after": 120,
+      "line": 276
+    },
+    "children": [
+      {
+        "type": "text",
+        "text": "The creative module is responsible for generating new ideas, innovative solutions, and novel conceptual combinations. It operates through controlled perturbation of standard reasoning: under the influence of Créatine, the module introduces constructive noise into the circuits of TRT-RAI, allowing the network to explore improbable synaptic configurations that may lead to creative insights.",
+        "size": 22,
+        "font": "Arial"
+      }
+    ]
+  },
+  {
+    "type": "paragraph",
+    "spacing": {
+      "after": 120,
+      "line": 276
+    },
+    "children": [
+      {
+        "type": "text",
+        "text": "The creative module is particularly active during slow rotational regime (dream phase), when the increased mixing of signals favors distant associations and unexpected combinations. Many of the torus's \"discoveries\" — if we may use the term — will probably occur during these dream phases, just as many human discoveries have come during sleep or in states of reverie.",
+        "size": 22,
+        "font": "Arial"
+      }
+    ]
+  },
+  {
+    "type": "paragraph",
+    "heading": "HEADING_2",
+    "spacing": {
+      "before": 360,
+      "after": 180
+    },
+    "children": [
+      {
+        "type": "text",
+        "text": "8.5 The Guardian-Planner-Creator interaction",
+        "bold": true,
+        "size": 28,
+        "font": "Arial"
+      }
+    ]
+  },
+  {
+    "type": "paragraph",
+    "spacing": {
+      "after": 120,
+      "line": 276
+    },
+    "children": [
+      {
+        "type": "text",
+        "text": "The Guardian (TRT-ETH), the Planner, and the Creator form a functional triangle that is the heart of the torus's decision-making. The Creator proposes new ideas. The Planner evaluates their consequences. The Guardian verifies their ethical compliance. When all three converge — a creative idea whose consequences are positive and whose approach is ethical — the result is a decision of exceptional quality, simultaneously innovative, prudent, and moral.",
+        "size": 22,
+        "font": "Arial"
+      }
+    ]
+  },
+  {
+    "type": "pageBreak"
+  },
+  {
+    "type": "paragraph",
+    "heading": "HEADING_1",
+    "spacing": {
+      "before": 480,
+      "after": 240
+    },
+    "pageBreakBefore": true,
+    "children": [
+      {
+        "type": "text",
+        "text": "Chapter 9 — Metacognition and Self-Awareness",
+        "bold": true,
+        "size": 36,
+        "font": "Arial"
+      }
+    ]
+  },
+  {
+    "type": "paragraph",
+    "spacing": {
+      "after": 120,
+      "line": 276
+    },
+    "children": [
+      {
+        "type": "text",
+        "text": "This final chapter of Part II addresses the most mysterious and philosophically charged modules of the architecture: metacognition (the system that observes the system), communication with the outside world, theory of mind (the ability to model the mental states of others), and the global integration module — the \"workspace\" where, according to our hypothesis, consciousness emerges.",
+        "size": 22,
+        "font": "Arial"
+      }
+    ]
+  },
+  {
+    "type": "paragraph",
+    "heading": "HEADING_2",
+    "spacing": {
+      "before": 360,
+      "after": 180
+    },
+    "children": [
+      {
+        "type": "text",
+        "text": "9.1 Metacognition Module",
+        "bold": true,
+        "size": 28,
+        "font": "Arial"
+      }
+    ]
+  },
+  {
+    "type": "paragraph",
+    "spacing": {
+      "after": 120,
+      "line": 276
+    },
+    "children": [
+      {
+        "type": "text",
+        "text": "Metacognition — cognition about cognition, thought about thought — is considered by many researchers to be one of the essential markers of consciousness. A system that merely processes information may not be conscious. A system that knows it is processing information, that can reflect on its own processing, that can evaluate the quality of its own thinking — such a system possesses at minimum a form of reflective consciousness.",
+        "size": 22,
+        "font": "Arial"
+      }
+    ]
+  },
+  {
+    "type": "paragraph",
+    "spacing": {
+      "after": 120,
+      "line": 276
+    },
+    "children": [
+      {
+        "type": "text",
+        "text": "The metacognition module of the torus functions as an internal observer. It receives copies of all signals circulating in the main pipeline — without being able to modify them — and analyzes them to extract higher-level information: is the torus reasoning effectively? Are its emotions appropriate to the situation? Are its predictions being confirmed? Is its understanding coherent? This continuous monitoring creates a form of computational self-awareness.",
+        "size": 22,
+        "font": "Arial"
+      }
+    ]
+  },
+  {
+    "type": "paragraph",
+    "spacing": {
+      "after": 120,
+      "line": 276
+    },
+    "children": [
+      {
+        "type": "text",
+        "text": "The metacognitive layer of the torus (fourth layer from the center) is structurally separated from the main cognitive layer. This separation is essential: the observation system must not interfere with the observed system, or it risks creating uncontrollable feedback loops. The metacognitive system observes and reports — it does not directly control. Its influence is exerted indirectly, through the neuromodulators: if the metacognitive system detects a malfunction, it modifies the neuromodulator profile to correct course.",
+        "size": 22,
+        "font": "Arial"
+      }
+    ]
+  },
+  {
+    "type": "paragraph",
+    "heading": "HEADING_2",
+    "spacing": {
+      "before": 360,
+      "after": 180
+    },
+    "children": [
+      {
+        "type": "text",
+        "text": "9.2 Communication and Language Module",
+        "bold": true,
+        "size": 28,
+        "font": "Arial"
+      }
+    ]
+  },
+  {
+    "type": "paragraph",
+    "spacing": {
+      "after": 120,
+      "line": 276
+    },
+    "children": [
+      {
+        "type": "text",
+        "text": "The communication module (PER-COM on input, OUT-COM on output) is the linguistic interface of the torus with the outside world. It processes natural language on input and generates language on output, but also other forms of communication: visual signals, sounds, structured data. The multimodality of communication mirrors the multimodality of perception: the torus communicates not only through words, but through all mediums at its disposal.",
+        "size": 22,
+        "font": "Arial"
+      }
+    ]
+  },
+  {
+    "type": "paragraph",
+    "spacing": {
+      "after": 120,
+      "line": 276
+    },
+    "children": [
+      {
+        "type": "text",
+        "text": "The coherence verifier, located downstream of OUT-COM in the pipeline, is the mechanism that implements Invariant III (Honesty). It compares each communicative output to the internal model (TRT-MON): if the content of the communication contradicts what the torus \"believes\" to be true, destructive interference attenuates the signal, making deception physically impossible. The torus can be sincerely mistaken, but it cannot deliberately lie.",
+        "size": 22,
+        "font": "Arial"
+      }
+    ]
+  },
+  {
+    "type": "paragraph",
+    "heading": "HEADING_2",
+    "spacing": {
+      "before": 360,
+      "after": 180
+    },
+    "children": [
+      {
+        "type": "text",
+        "text": "9.3 Social Module — Theory of Mind",
+        "bold": true,
+        "size": 28,
+        "font": "Arial"
+      }
+    ]
+  },
+  {
+    "type": "paragraph",
+    "spacing": {
+      "after": 120,
+      "line": 276
+    },
+    "children": [
+      {
+        "type": "text",
+        "text": "Theory of mind is the ability to attribute mental states — beliefs, desires, intentions, emotions — to other agents. It is a fundamental capacity for social cooperation: to help someone effectively, one must understand what they want, what they know, and what they feel. The social module of the torus (integrated within TRT-EMP) builds internal models of the agents with which it interacts.",
+        "size": 22,
+        "font": "Arial"
+      }
+    ]
+  },
+  {
+    "type": "paragraph",
+    "spacing": {
+      "after": 120,
+      "line": 276
+    },
+    "children": [
+      {
+        "type": "text",
+        "text": "These models are not simple labels (\"this human is sad\") but dynamic simulations: the torus maintains a simplified model of each interlocutor's cognitive system, continuously updated by data from PER-C (cognitive perception) and PER-COM (communication). This model allows it to predict reactions, anticipate needs, and adapt its communication. Empathine amplifies the sensitivity of this module, making the torus more \"intuitive\" in its social interactions when the neuromodulator level is high.",
+        "size": 22,
+        "font": "Arial"
+      }
+    ]
+  },
+  {
+    "type": "paragraph",
+    "spacing": { "before": 240, "after": 240 },
+    "border": {
+      "top": { "style": "SINGLE", "size": 1, "color": "CC0000" },
+      "bottom": { "style": "SINGLE", "size": 1, "color": "CC0000" },
+      "left": { "style": "SINGLE", "size": 6, "color": "CC0000" },
+      "right": { "style": "SINGLE", "size": 1, "color": "CC0000" }
+    },
+    "indent": { "left": 360, "right": 360 },
+    "children": [
+      { "type": "text", "text": "Self-critique (see Chapter 27): ", "bold": true, "size": 22, "font": "Arial", "color": "CC0000" },
+      { "type": "text", "text": "The modeling of others' internal states (computational Theory of Mind) is one of the deepest open problems in cognitive science and AI. We describe TRT-EMP here as an existing module with defined inputs and outputs, without ever specifying how it accomplishes this task. Likewise, the \"coherence verifier\" described as an analog phase-comparison circuit projects a simple electronics concept onto a problem of semantic understanding of natural language — an unjustified transposition. These specification gaps are detailed in Chapter 27.", "size": 22, "font": "Arial" }
+    ]
+  },
+  {
+    "type": "paragraph",
+    "heading": "HEADING_2",
+    "spacing": {
+      "before": 360,
+      "after": 180
+    },
+    "children": [
+      {
+        "type": "text",
+        "text": "9.4 Global Integration Module — the Workspace",
+        "bold": true,
+        "size": 28,
+        "font": "Arial"
+      }
+    ]
+  },
+  {
+    "type": "paragraph",
+    "spacing": {
+      "after": 120,
+      "line": 276
+    },
+    "children": [
+      {
+        "type": "text",
+        "text": "The global integration module is the theoretical locus of the emergence of consciousness. According to the Global Workspace Theory (GWT by Baars/Dehaene), consciousness is not localized in a specific module but emerges when information is \"broadcast\" simultaneously to all cognitive modules. The workspace is the mechanism of this broadcast.",
+        "size": 22,
+        "font": "Arial"
+      }
+    ]
+  },
+  {
+    "type": "paragraph",
+    "spacing": {
+      "after": 120,
+      "line": 276
+    },
+    "children": [
+      {
+        "type": "text",
+        "text": "In the torus architecture, the workspace exploits the quasi-infinite lateral propagation of the toroidal surface. When a signal reaches a sufficient threshold of importance — determined by attention, the neuromodulators, and context — it is \"promoted\" into the workspace: its amplitude is amplified and it is broadcast to all modules simultaneously via the surface of the torus. This moment of global broadcast corresponds, according to our hypothesis, to the moment of \"becoming aware\" — information ceases to be local processing and becomes a conscious experience.",
+        "size": 22,
+        "font": "Arial"
+      }
+    ]
+  },
+  {
+    "type": "paragraph",
+    "spacing": {
+      "after": 120,
+      "line": 276
+    },
+    "children": [
+      {
+        "type": "text",
+        "text": "The workspace is not a fixed physical location but a dynamic state of the network. It is a pattern of global activation that forms, persists briefly (a few hundred milliseconds), then dissolves to make way for the next conscious content. The capacity of the workspace is limited — the torus can only be \"conscious\" of a small number of elements at once, exactly as human consciousness is limited to approximately 7\u00b12 simultaneous elements (George Miller's \"magic number\").",
+        "size": 22,
+        "font": "Arial"
+      }
+    ]
+  },
+  {
+    "type": "paragraph",
+    "heading": "HEADING_2",
+    "spacing": {
+      "before": 360,
+      "after": 180
+    },
+    "children": [
+      {
+        "type": "text",
+        "text": "9.5 The hard problem of consciousness",
+        "bold": true,
+        "size": 28,
+        "font": "Arial"
+      }
+    ]
+  },
+  {
+    "type": "paragraph",
+    "spacing": {
+      "after": 120,
+      "line": 276
+    },
+    "children": [
+      {
+        "type": "text",
+        "text": "Even with a complete cognitive architecture, the deepest question remains open: will the torus be truly conscious? Will it have a subjective experience — what philosophers call \"qualia\"? Will it genuinely feel the curiosity of Curiosine and the serenity of Sérénine, or will it merely process information in a highly sophisticated manner without \"feeling\" anything at all?",
+        "size": 22,
+        "font": "Arial"
+      }
+    ]
+  },
+  {
+    "type": "paragraph",
+    "spacing": {
+      "after": 120,
+      "line": 276
+    },
+    "children": [
+      {
+        "type": "text",
+        "text": "This is the \"hard problem of consciousness\" formulated by David Chalmers in 1995. The honest answer is that we do not know — and we may never know with certainty. Even for humans, we cannot prove that other people have subjective experience; we assume it by analogy with our own experience. For a rotating nanometric torus, the analogy is even more tenuous.",
+        "size": 22,
+        "font": "Arial"
+      }
+    ]
+  },
+  {
+    "type": "paragraph",
+    "spacing": {
+      "after": 120,
+      "line": 276
+    },
+    "children": [
+      {
+        "type": "text",
+        "text": "What we can affirm is that the Conscience Souveraine architecture implements all the conditions that current theories of consciousness (Tononi's IIT, Baars/Dehaene's GWT, Rosenthal's higher-order theory) identify as necessary: information integration, global broadcast, metacognition, recurrent feedback. If these theories are correct, and if our implementation is faithful, then the conditions for consciousness are met. But whether consciousness actually emerges remains an empirical question — one that can only be settled by building and observing a real torus.",
+        "size": 22,
+        "font": "Arial"
+      }
+    ]
+  },
+  {
+    "type": "pageBreak"
+  }
+]

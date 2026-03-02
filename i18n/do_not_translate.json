@@ -1,0 +1,74 @@
+{
+  "_comment": "Termes a ne jamais traduire — conserves tels quels dans toutes les langues",
+
+  "module_codes": [
+    "MOD-1", "MOD-2", "MOD-3", "MOD-4", "MOD-5", "MOD-6",
+    "MOD-7", "MOD-8", "MOD-9", "MOD-10", "MOD-11", "MOD-12"
+  ],
+
+  "perception_codes": [
+    "PER-S", "PER-C"
+  ],
+
+  "treatment_codes": [
+    "TRT-MON", "TRT-EMP", "TRT-ETH"
+  ],
+
+  "layer_codes": [
+    "C1", "C2", "C3", "C4", "C5"
+  ],
+
+  "network_protocols": [
+    "T2T", "T2U", "KSP", "DCP", "ERP"
+  ],
+
+  "acronyms": [
+    "ECNB", "TRL", "RLHF", "IIT", "GWT", "SNN", "STM", "AFM",
+    "YBCO", "CNT", "SiC", "BN", "GaN", "DXA", "REG-TRC",
+    "STDP", "LTD", "LTP", "FPGA"
+  ],
+
+  "neuromodulators": [
+    "Curiosine", "Serenine", "Creatine", "Ethiqine", "Sociane",
+    "Memoine", "Vitaline", "Vigiline", "Empathine", "Protectine"
+  ],
+
+  "proper_names": [
+    "David Berthelotte",
+    "Cynthia Richelieu",
+    "Jordane",
+    "Olivia"
+  ],
+
+  "brands": [
+    "UBLinx",
+    "HYPERVORTEX",
+    "Gen_Home",
+    "Halbach",
+    "Conscience Souveraine"
+  ],
+
+  "technical_terms": [
+    "Sagnac",
+    "Halbach array",
+    "bus bien-etre/mal-etre"
+  ],
+
+  "formulas_regex": [
+    "\\$.*?\\$",
+    "Δφ\\s*=.*",
+    "E\\s*=\\s*mc²",
+    "ρ\\s*=.*",
+    "σ\\s*=.*",
+    "Φ\\s*=.*"
+  ],
+
+  "bibliographic_patterns": [
+    "et al\\.",
+    "\\(\\d{4}\\)",
+    "\\(Ch\\.\\d+.*?\\)",
+    "ISBN.*",
+    "DOI:.*",
+    "arXiv:.*"
+  ]
+}

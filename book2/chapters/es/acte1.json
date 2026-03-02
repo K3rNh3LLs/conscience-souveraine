@@ -1,0 +1,861 @@
+[
+  {
+    "type": "pageBreak"
+  },
+  {
+    "type": "paragraph",
+    "style": "ActTitle",
+    "text": "ACTO I"
+  },
+  {
+    "type": "paragraph",
+    "style": "ActTitle",
+    "text": "LA ENERGÍA"
+  },
+  {
+    "type": "paragraph",
+    "style": "ActSubtitle",
+    "text": "La Soberanía Energética como Primer Acto de Libertad"
+  },
+  {
+    "type": "paragraph",
+    "style": "Epigraph",
+    "text": "\"Quien controla tu fuente de calor controla tu invierno. Quien controla tu invierno controla tu vida.\" — David Berthelotte"
+  },
+  {
+    "type": "pageBreak"
+  },
+  {
+    "type": "paragraph",
+    "style": "ChapterTitle",
+    "text": "Capítulo 1"
+  },
+  {
+    "type": "paragraph",
+    "style": "ChapterTitle",
+    "text": "El primer gesto del hombre libre"
+  },
+  {
+    "type": "paragraph",
+    "style": "Epigraph",
+    "text": "\"La libertad comienza con el dominio del fuego. Comenzó ahí hace 400 000 años. Puede comenzar ahí de nuevo hoy.\""
+  },
+  {
+    "type": "paragraph",
+    "style": "SceneText",
+    "text": "Febrero de 2031. Rang Saint-Germain, Comté de Bellechasse, Québec. La noche cayó a las cuatro y media de la tarde y afuera hace menos veintinueve grados. A través de las ventanas del gran invernadero adosado a la granja, se ve el verde de los tomates bajo las lámparas de espectro completo. Claude Vézina, 58 años, camina entre sus hileras con una caja de tomates cherry que recogió esta mañana. Su esposa va a hacer una salsa para la cena. No es una escena extraordinaria, salvo que estamos en pleno febrero quebequense y que este invernadero funciona sin ninguna conexión a la red de Hydro-Québec. En el sótano, detrás de los frascos de pepinillos encurtidos y las bolsas de grano, hay una caja metálica del tamaño de un refrigerador que ronronea suavemente. Capta el calor de la tierra, lo transforma en electricidad y agua caliente, y no se ha detenido desde hace veintidós meses. Claude Vézina no llama a eso una revolución. Lo llama su sistema."
+  },
+  {
+    "type": "paragraph",
+    "style": "BodyText",
+    "text": "La historia de la energía es la historia de quién la posee. Durante la mayor parte de la existencia humana, la respuesta era sencilla: todos y nadie. La energía venía del sol que hacía crecer los cultivos, de la leña que se cortaba en el bosque comunal, del viento que hacía girar los molinos, del río que accionaba las ruedas hidráulicas. Esas fuentes no pertenecían a nadie en particular, y por lo tanto pertenecían a la comunidad en su conjunto. No enviaban una factura mensual. No podían decidir cortar el servicio si pagabas con retraso. No presionaban a los gobiernos para proteger su monopolio. Estaban ahí, disponibles, imprevisibles a veces, insuficientes a menudo, pero fundamentalmente neutras en su relación de poder con el usuario. El campesino bretón del siglo XIV pasaba frío algunos inviernos. No debía dinero a una sociedad anónima cotizada en bolsa por el derecho a tener calor."
+  },
+  {
+    "type": "paragraph",
+    "style": "BodyText",
+    "text": "La granja Vézina no es una excepción romántica sacada de una revista de estilo de vida alternativo. Es un puesto avanzado de algo que ya está ocurriendo a una escala que las estadísticas nacionales de energía apenas comienzan a captar. En 2024, más de 4 millones de hogares en Alemania producían ya una parte significativa de su propia electricidad mediante paneles solares. En Australia, más del 30% de las viviendas individuales tenían sistemas solares instalados. En Dinamarca, cooperativas eólicas comunitarias suministraban más del 20% de la producción eléctrica nacional. Este movimiento —discreto, descentralizado, sin portavoz único ni ideología unificadora— está transformando silenciosamente las relaciones de poder energético en decenas de países. HYPERVORTEX no inventa este movimiento. Le propone una herramienta adicional, adaptada a las regiones nórdicas frías, a los hogares sin techo soleado, a las comunidades rurales cuyo recurso térmico principal está en el suelo bajo sus pies y no en el sol sobre sus cabezas. Completa el panorama. No lo reemplaza."
+  },
+  {
+    "type": "paragraph",
+    "style": "BodyText",
+    "text": "La revolución industrial cambió eso de forma tan progresiva que hemos olvidado que un cambio tuvo lugar. Primero el vapor, luego el carbón, el petróleo y el gas natural, después la electricidad centralizada: cada transición prometía más potencia, más confort, más calor para todos. Y esas promesas se cumplieron. Un departamento calefaccionado con gas natural en Montréal en 2024 es infinitamente más confortable que una cabaña calefaccionada con leña en 1824. Nadie serio cuestiona eso. Pero ese confort tuvo un costo que los economistas no saben medir: la dependencia. La relación del individuo con su energía pasó, en menos de dos siglos, del recurso compartido libre al servicio mercantil mensual. No decidimos realmente ese intercambio. Se produjo progresivamente, por acumulación de decisiones racionalmente locales y catastróficamente sistémicas."
+  },
+  {
+    "type": "paragraph",
+    "style": "SectionTitle",
+    "text": "La asimetría fundamental"
+  },
+  {
+    "type": "paragraph",
+    "style": "BodyText",
+    "text": "He aquí la asimetría que pocos nombran con franqueza: tú necesitas calor para sobrevivir un invierno quebequense. La compañía que te vende ese calor no te necesita a ti; necesita al conjunto de sus clientes, no a ti en particular. Esta asimetría es el fundamento de todo monopolio natural. Cuando el servicio es esencial para la supervivencia y el proveedor es único —o casi único—, el cliente no es libre de rechazar. Puede negociar al margen, cambiar de plan, instalar un mejor aislamiento, pero la estructura de dependencia permanece. Cada mes, una fracción de tus ingresos debe ir legalmente hacia entidades cuya existencia no elegiste y cuyas prácticas, precios ni prioridades de inversión controlas. Llamamos a eso el mercado de la energía. Otras palabras serían igualmente precisas."
+  },
+  {
+    "type": "paragraph",
+    "style": "BodyText",
+    "text": "En Québec, hay que reconocer una excepción parcial: Hydro-Québec. Es una sociedad de Estado, pública, cuyos beneficios van en teoría a todos los quebequenses a través del gobierno. Su electricidad está entre las más baratas de América del Norte. Se produce en un 95% por represas hidroeléctricas, por lo tanto relativamente limpia en cuanto a emisiones directas. Estas ventajas son reales y merecen ser reconocidas con honestidad. Pero Hydro-Québec sigue siendo una centralización. Ella decide los precios. Ella decide los niveles de inversión. Inundó miles de kilómetros cuadrados de territorio cree para construir sus represas, una deuda histórica que no ha terminado de saldarse. Puede sufrir apagones masivos: la tormenta de hielo de enero de 1998 lo demostró de manera traumática, tres millones de quebequenses sin electricidad durante varias semanas en pleno invierno. Cinco personas murieron de frío en sus casas. Una veintena más murieron en accidentes vinculados a generadores improvisados. La dependencia tiene un rostro. Rara vez se menciona en los informes anuales."
+  },
+  {
+    "type": "paragraph",
+    "style": "SectionTitle",
+    "text": "La tormenta de hielo como revelador"
+  },
+  {
+    "type": "paragraph",
+    "style": "BodyText",
+    "text": "La crisis de la tormenta de hielo de 1998 merece que nos detengamos, porque reveló algo que la prosperidad ordinaria disimula. Durante dos a tres semanas, según las regiones, los habitantes de la Montérégie, de Lanaudière y de l'Estrie tuvieron que gestionar su propia energía o prescindir de ella. Algunos se reagruparon en centros de albergue de emergencia. Otros sobrevivieron en sus casas con estufas de leña, generadores, vecinos que tenían propano. Lo que impactó a los observadores fue la forma en que la crisis hizo emerger dos tipos de población: aquellos que habían conservado una relación directa con fuentes de energía alternativas —los agricultores, los habitantes de las regiones boscosas, los ancianos que recordaban cómo calentarse de otra manera— y aquellos que no tenían ningún saber hacer, ninguna herramienta, ninguna reserva que permitiera atravesar una interrupción de servicio. La vulnerabilidad no era solamente económica. Era cognitiva. Un vínculo de conocimiento se había roto, y su ausencia creaba una fragilidad radical frente al corte de electricidad."
+  },
+  {
+    "type": "paragraph",
+    "style": "BodyText",
+    "text": "Claude Vézina era adolescente en 1998. Su familia tenía una estufa de leña en la cocina, herencia de un abuelo que se negaba a \"depender de los cables\". No pasaron frío. Sus vecinos, en cambio, pasaron diez días en casa de su familia política en la ciudad, en un centro comunitario calefaccionado con fuel. Claude no olvidó la diferencia. Treinta y tres años después, cuando se puso a diseñar su invernadero cuatro estaciones, no había leído manifiestos sobre la soberanía energética. Solo tenía un recuerdo muy claro de un invierno en el que tener una estufa de leña significaba que su familia se quedaba en su casa, entre sus cosas, en su propia vida. HYPERVORTEX es una rueda de Curie fluida de alta tecnología. Pero para Claude Vézina, es la versión del siglo XXI de la estufa de leña de su abuelo. La tecnología cambia. La necesidad, ella, no cambia."
+  },
+  {
+    "type": "paragraph",
+    "style": "Separator",
+    "text": "* * *"
+  },
+  {
+    "type": "paragraph",
+    "style": "SectionTitle",
+    "text": "La larga historia de la independencia energética"
+  },
+  {
+    "type": "paragraph",
+    "style": "BodyText",
+    "text": "Para comprender hacia dónde vamos, hay que saber de dónde venimos. El dominio del fuego, hace 400 000 años, fue el primer acto de independencia energética de la especie humana. Homo erectus —y quizás antes, Homo heidelbergensis— aprendió a conservar y a transmitir la llama. No a crearla todavía, no sistemáticamente, sino a mantenerla viva, a protegerla de la lluvia y del viento, a transportarla a distancia. Esa capacidad cambió la estructura misma del cerebro humano. La cocción libera calorías adicionales de los alimentos: la misma cantidad de alimento cocido nutre más que crudo, liberando energía metabólica para alimentar un cerebro más grande. La evolución recompensó a quienes dominaban el fuego dándoles las herramientas cognitivas para hacer más con él. La energía y la inteligencia han coevolucionado desde el principio. No es una metáfora. Es biología evolutiva."
+  },
+  {
+    "type": "paragraph",
+    "style": "BodyText",
+    "text": "La revolución neolítica, hace aproximadamente 10 000 años, introdujo una primera forma de dependencia energética colectiva. Las sociedades agrarias dependen del suelo, de la lluvia, de las estaciones, fuerzas que escapan a todo control individual. Esa dependencia engendró las primeras formas de almacenamiento (graneros), de redistribución (Estado naciente) y de poder (quienes controlan los graneros). La sequía del 2200 antes de nuestra era probablemente contribuyó al colapso del Imperio acadio, el primer imperio de la historia. La vulnerabilidad energética es tan vieja como la civilización misma. Lo que es nuevo no es la dependencia. Es su forma contemporánea: una dependencia monetizada, contractualizada, donde el recurso es vendido por entidades cuya lógica primera no es la satisfacción de la necesidad humana sino la maximización del beneficio. Este cambio de naturaleza del proveedor lo cambia todo."
+  },
+  {
+    "type": "paragraph",
+    "style": "BodyText",
+    "text": "El carbón fundó el capitalismo industrial. El petróleo fundó la globalización del siglo XX. La electricidad centralizada fundó la sociedad de consumo. Cada vez, un recurso natural distribuido —el carbón en el subsuelo, el petróleo en regiones del mundo, el agua en los ríos— fue capturado por entidades que construyeron infraestructuras que permitían transformarlo en producto vendido a todos. Esas infraestructuras tenían una lógica real: una línea eléctrica que alimenta diez mil casas es infinitamente más eficiente que diez mil generadores individuales. La economía de escala no es una invención de los capitalistas. Es un hecho físico. El problema no es la economía de escala en sí misma. El problema es que en nuestro mundo, la economía de escala se ha traducido siempre en la concentración del poder, no en la distribución del beneficio. La tecnología que hace la energía abundante la hace simultáneamente menos controlable por el individuo. Es esa ecuación la que HYPERVORTEX busca reescribir."
+  },
+  {
+    "type": "paragraph",
+    "style": "ReaderQuestion",
+    "text": "La última vez que le cortaron la electricidad —unas horas, una noche— ¿qué descubrió sobre su propia dependencia? Lo que ya no podía hacer, lo que improvisó, lo que descubrió que no sabía hacer: era una cartografía accidental de su vulnerabilidad."
+  },
+  {
+    "type": "paragraph",
+    "style": "BodyText",
+    "text": "Es instructivo comparar el modelo quebequense con el de otras regiones del mundo donde la soberanía energética no es una elección ideológica sino una necesidad de supervivencia. En ciertas regiones rurales de Bangladesh, Kenia o Perú, cooperativas de micro-redes solares funcionan desde los años 2010 sin haber estado jamás conectadas a la red nacional. Esas redes no son sistemas de punta tecnológica. Son paneles solares simples, baterías de plomo-ácido recicladas, una gestión comunitaria de las prioridades de carga. Pero han producido algo que las redes centralizadas nunca lograron llevar a esas comunidades: la luz para que los niños estudien por la noche, el refrigerador para conservar los medicamentos, el teléfono cargado para llamar a la ambulancia. Esas micro-redes rudimentarias transformaron vidas no porque fueran tecnológicamente sofisticadas, sino porque estaban presentes, eran locales y controlables. La sofisticación tecnológica viene después. El acceso viene primero."
+  },
+  {
+    "type": "paragraph",
+    "style": "BodyText",
+    "text": "La historia de la soberanía energética en Québec no comienza con HYPERVORTEX ni siquiera con los paneles solares. Comienza en los años 1920, cuando cientos de municipios rurales crearon sus propias redes eléctricas locales, financiadas por obligaciones municipales y gestionadas por concejos electos. Esos \"municipios luminosos\" —como se los llamaba entonces— electrificaron sus pueblos décadas antes de que Hydro-Québec extendiera sus líneas al campo. Crearon empleos locales para electricistas e ingenieros. Mantuvieron los beneficios de la energía en la colectividad. Desarrollaron una cultura técnica local que proporcionó a Hydro-Québec sus primeros técnicos calificados tras la nacionalización. La memoria de esas iniciativas fue borrada por el relato de la nacionalización, que presentó 1962 como el momento cero de la electrificación de Québec. No es falso: Hydro-Québec completó la electrificación de las regiones más aisladas que los municipios no podían rentabilizar. Pero no es toda la historia. Las iniciativas locales precedían al Estado. Prepararon el terreno. Podrían hacerlo de nuevo."
+  },
+  {
+    "type": "paragraph",
+    "style": "BodyText",
+    "text": "Este contraste entre los países del Sur que adoptan las micro-redes descentralizadas por necesidad y los países del Norte que se resisten por hábito institucional revela algo profundo sobre la naturaleza de los bloqueos al cambio. En los países que nunca tuvieron infraestructura centralizada, no hay inercia institucional que superar. No hay lobby de empresas de distribución de energía que proteja su modelo de negocio mediante regulaciones. No hay cultura de la dependencia construida sobre un siglo de servicio universal. Solo hay una necesidad y una tecnología que puede responder a ella. Los países desarrollados, en cambio, deben simultáneamente adoptar una nueva tecnología Y deshacer estructuras institucionales, económicas y culturales construidas durante generaciones. Por eso las transiciones energéticas son siempre más lentas en los países ricos que en los países en desarrollo, incluso cuando las tecnologías son más accesibles en los primeros. La riqueza de las infraestructuras existentes es también el peso de las infraestructuras existentes."
+  },
+  {
+    "type": "paragraph",
+    "style": "BodyText",
+    "text": "Québec tiene una ventaja particular para navegar esta transición que su historia singular le ha dado. La provincia tiene una tradición cultural de cooperativismo fuerte: Desjardins para las finanzas, las cooperativas agrícolas, las cajas populares rurales, las cooperativas forestales. La propiedad colectiva de una infraestructura compartida no es una idea ajena a la cultura quebequense. Tiene un nombre. Tiene una historia. Tiene ejemplos exitosos. Ese terreno cultural es un activo estratégico para la transición hacia micro-redes energéticas comunitarias. Una cooperativa de energía local que use HYPERVORTEX no tendría que inventar sus reglas de gobernanza desde cero. Podría inspirarse de cien años de práctica cooperativa quebequense, adaptarla a la infraestructura energética en lugar de la financiera, y construir sobre cimientos culturales sólidos en lugar de ideologías importadas. No es una garantía de éxito. Pero es un punto de partida que otras provincias canadienses u otros estados estadounidenses no tienen."
+  },
+  {
+    "type": "paragraph",
+    "style": "ReaderQuestion",
+    "text": "¿Conoce la historia de la cooperativa eléctrica de su región, si alguna vez hubo una? ¿Sabe por qué desapareció o fue absorbida? Lo que esa historia revela sobre las fuerzas que moldearon su relación actual con la energía dice quizás más que cualquier informe de política energética."
+  },
+  {
+    "type": "paragraph",
+    "style": "Separator",
+    "text": "* * *"
+  },
+  {
+    "type": "paragraph",
+    "style": "SectionTitle",
+    "text": "El invernadero de Claude como demostración"
+  },
+  {
+    "type": "paragraph",
+    "style": "BodyText",
+    "text": "Volvamos a Bellechasse. El invernadero de Claude Vézina produce, en pleno invierno quebequense, tomates, lechugas, hierbas aromáticas y desde hace dos años, pepinos. Está calefaccionado e iluminado por la electricidad producida por su sistema. Ese sistema capta el calor geotérmico de baja entalpía disponible a dos metros de profundidad en el suelo de su propiedad, un calor modesto, unos 8 a 10 grados Celsius incluso en pleno invierno, que la mayoría de los sistemas convencionales no pueden explotar económicamente porque el diferencial de temperatura es demasiado bajo para un motor térmico clásico. Pero HYPERVORTEX no es un motor térmico clásico. Funciona con diferenciales de temperatura muy inferiores a los que exigen las turbinas de vapor o incluso los motores Stirling. A 10 grados de entrada y 35 grados de salida —el calor del propio invernadero reciclado— produce electricidad suficiente para mantener la iluminación y la calefacción auxiliar. No para alimentar una casa entera, aún no. Pero para cerrar el bucle energético del invernadero. El invernadero se calienta a sí mismo. Produce su propia comida. Es una demostración de principio viviente."
+  },
+  {
+    "type": "paragraph",
+    "style": "BodyText",
+    "text": "Claude no es ingeniero. Es agricultor. Comprendió HYPERVORTEX en una frase: \"Es como una bomba de calor, pero sin compresor, y que produce electricidad además.\" Esta simplificación no es del todo exacta físicamente, pero captura algo importante: HYPERVORTEX es accesible para cualquiera que comprenda el principio básico de una bomba de calor. Es el resultado de una decisión de diseño deliberada: un sistema de energía soberana debe poder ser comprendido, mantenido y reparado por su propietario. No en su totalidad, no en sus detalles más finos, pero sí en sus principios de funcionamiento. Un agricultor debe poder comprender por qué su sistema funciona e identificar las señales precursoras de que ya no funciona bien. La dependencia del técnico especializado que debe venir a \"depurar\" una caja negra incomprensible es otra forma de dependencia. La soberanía comienza por la comprensión."
+  },
+  {
+    "type": "paragraph",
+    "style": "BodyText",
+    "text": "La comparación con la agricultura es más que una metáfora de conveniencia. Un agricultor que comprende la biología de sus cultivos puede diagnosticar una enfermedad foliar, ajustar su riego, elegir sus semillas sin depender enteramente de un agrónomo externo. Un agricultor que no comprende su cultivo recibe una llamada comercial de su proveedor de insumos y compra lo que le aconsejan. La comprensión es una protección. No elimina la necesidad de experiencia externa: Claude consulta igual a un ingeniero para las modificaciones mayores del sistema. Pero le da la capacidad de distinguir el consejo legítimo del consejo interesado, el problema real de la venta de servicios innecesarios. En un mundo cada vez más lleno de cajas negras que nadie comprende realmente, esa capacidad de distinguir es una forma rara y preciosa de autonomía."
+  },
+  {
+    "type": "richParagraph",
+    "segments": [
+      {
+        "text": "Una regla de diseño simple para HYPERVORTEX, ",
+        "italics": true
+      },
+      {
+        "text": "y para todo sistema de energía soberana: ",
+        "italics": true
+      },
+      {
+        "text": "si el propietario no puede explicarle a un vecino curioso cómo funciona en diez minutos, el sistema todavía no es lo suficientemente simple.",
+        "bold": true,
+        "italics": true
+      },
+      {
+        "text": " Esto no es un límite a la sofisticación técnica. Es una exigencia de comunicación. La complejidad puede existir; simplemente debe ser invisible en el uso corriente y accesible a la curiosidad razonable.",
+        "italics": true
+      }
+    ]
+  },
+  {
+    "type": "paragraph",
+    "style": "Quote",
+    "text": "\"Una herramienta que no comprendes no es tu herramienta. Es la herramienta de otro, que alquilas a largo plazo.\" — David Berthelotte"
+  },
+  {
+    "type": "paragraph",
+    "style": "BodyText",
+    "text": "En marzo de 2031, Claude invitó a sus vecinos a ver el sistema en funcionamiento. No fue una presentación formal, no hubo diapositivas; simplemente les mostró la caja en el sótano, explicó el principio en diez minutos y sirvió una sopa de guisantes hecha con verduras del invernadero y calentada con la electricidad del sistema. Nueve familias preguntaron cómo podrían adoptarlo. Dos hicieron los trámites. Una comunidad de soberanía energética comienza exactamente así: una comida, una caja en un sótano, una conversación entre vecinos. No una conferencia sobre el cambio climático. No un informe gubernamental sobre la transición energética. Un vecino que dice: \"A mí me funciona. Así es cómo.\""
+  },
+  {
+    "type": "pageBreak"
+  },
+  {
+    "type": "paragraph",
+    "style": "ChapterTitle",
+    "text": "Capítulo 2"
+  },
+  {
+    "type": "paragraph",
+    "style": "ChapterTitle",
+    "text": "La rueda de Curie reinventada"
+  },
+  {
+    "type": "paragraph",
+    "style": "Epigraph",
+    "text": "\"La mayor invención no es encontrar una idea nueva. Es comprender por qué una vieja idea nunca funcionó, e identificar con precisión lo que ha cambiado desde entonces.\""
+  },
+  {
+    "type": "paragraph",
+    "style": "SceneText",
+    "text": "Un laboratorio de física de materiales. Grenoble, Francia, 1997. Un técnico sostiene un imán de neodimio cerca de un trozo de níquel calentado a la temperatura de un horno de cocina. El imán ya no atrae el níquel. Luego acerca el imán a un trozo de níquel frío: es atraído inmediatamente, con una fuerza que se siente en la mano. El técnico repite el gesto para un grupo de estudiantes. Dice: \"Curie, 1895. Nada nuevo.\" Un estudiante al fondo de la sala anota algo. Se llama Marcel y está pensando en ferrofluidos. Veinte años después, trabajando con ferrofluidos supercríticos, se daría cuenta de que ese \"nada nuevo\" contenía el germen de una revolución energética. Las grandes ideas a menudo duermen en demostraciones rutinarias que nadie mira realmente."
+  },
+  {
+    "type": "paragraph",
+    "style": "BodyText",
+    "text": "Pierre Curie describió el fenómeno en 1895 en su tesis doctoral. Cuando un material ferromagnético —el hierro, el níquel, el cobalto y numerosas aleaciones— se calienta más allá de una temperatura crítica llamada desde entonces la temperatura de Curie, pierde bruscamente sus propiedades magnéticas. A esa temperatura, la agitación térmica de los átomos se vuelve suficiente para desorganizar la alineación de los momentos magnéticos que creaba el ferromagnetismo. El material se vuelve paramagnético: débilmente magnetizable, pero ya no atraído con fuerza por un imán permanente. Cuando se enfría por debajo de la temperatura de Curie, el magnetismo regresa. Esta transición es reversible, reproducible infinitamente, y se produce exactamente a la misma temperatura para un material dado. Es una de las transiciones de fase más precisas y más estables que conoce la física de materiales. Curie la midió. No buscó hacer un motor con ella. En 1895, no tenía ni los materiales ni el contexto tecnológico para hacerlo. Pero la idea estaba ahí, esperando."
+  },
+  {
+    "type": "paragraph",
+    "style": "SectionTitle",
+    "text": "La rueda de Curie: una curiosidad de 1880"
+  },
+  {
+    "type": "paragraph",
+    "style": "BodyText",
+    "text": "En la década de 1880, antes incluso de los trabajos de Pierre Curie, varios ingenieros habían tenido la idea de utilizar la transición magnética para crear un motor perpetuo, o casi. El principio era simple: imaginen una rueda cuyos radios están hechos de un material ferromagnético. De un lado de la rueda, un imán permanente. Del otro lado, una fuente de calor. El metal del lado del imán está frío: es atraído, lo que hace girar la rueda hacia el imán. Al girar, el metal pasa frente a la fuente de calor: supera la temperatura de Curie, pierde su magnetismo, ya no es atraído. Se enfría al seguir girando, recupera su magnetismo, y el ciclo recomienza. En teoría, la rueda gira continuamente mientras haya una fuente de calor. No es un motor perpetuo: consume el calor. Es un convertidor de calor en movimiento mecánico."
+  },
+  {
+    "type": "paragraph",
+    "style": "BodyText",
+    "text": "La rueda de Curie fascinó a generaciones de ingenieros. Era elegante, simple, casi mágica de contemplar. Y sin embargo nunca fue industrializada. ¿Por qué? Porque su rendimiento era catastrófico. Los materiales disponibles en la época —hierro, níquel, cobalto— tenían temperaturas de Curie elevadas (760°C para el hierro, 358°C para el níquel). Hacía falta por lo tanto una fuente de calor intensa, lo que significaba quemar combustible a alta temperatura. Pero una turbina de vapor utilizando la misma fuente de calor producía veinte veces más trabajo mecánico. La rueda de Curie era una curiosidad de laboratorio, no una herramienta industrial. Durmió en los archivos durante un siglo, mencionada en los cursos de física como ejemplo de conversión termomagnética, rara vez estudiada seriamente."
+  },
+  {
+    "type": "paragraph",
+    "style": "BodyText",
+    "text": "Pero los archivos duermen, no la física. En las décadas de 1960 y 1970, la crisis energética y el shock petrolero de 1973 relanzaron un interés general por las tecnologías de conversión térmica a baja temperatura. Equipos en Estados Unidos, Japón y la Unión Soviética revisitaron los motores termomagnéticos. Los resultados eran decepcionantes: los materiales no habían cambiado fundamentalmente. Pero las preguntas se habían formulado de manera más precisa. Un investigador de la Universidad de Tohoku, en un artículo de 1975 que circuló poco, demostró que si se podía bajar la temperatura de Curie de un material a valores inferiores a 100°C, la rueda de Curie se volvía competitiva con los motores Stirling para fuentes de calor de 80 a 120°C. No existía, en 1975, un material fácilmente manufacurable con una temperatura de Curie tan baja. La nanotecnología de los años 2000 creó decenas de ellos. El investigador de Tohoku había visto el horizonte. Le faltaba el camino. HYPERVORTEX es, en cierta medida, ese camino reencontrado."
+  },
+  {
+    "type": "paragraph",
+    "style": "BodyText",
+    "text": "Pero he aquí lo que ha cambiado desde 1895. Primero: los materiales. La nanotecnología permite hoy fabricar nanopartículas de materiales ferromagnéticos con una composición ajustada al átomo. Dopando las nanopartículas de magnetita (Fe₃O₄) con zinc, manganeso, cobalto o tierras raras, los investigadores pueden ajustar la temperatura de Curie de esas nanopartículas a cualquier punto entre 30°C y 300°C. Eso significa que se puede crear un motor termomagnético que funcione con una fuente de calor de 80°C —como agua caliente solar, o un calor residual industrial— algo que ningún motor convencional puede explotar económicamente. El diferencial de temperatura mínimo explotable ha caído de forma espectacular."
+  },
+  {
+    "type": "paragraph",
+    "style": "BodyText",
+    "text": "Segundo: los fluidos. Los ferrofluidos —suspensiones coloidales de nanopartículas magnéticas en un fluido portador— fueron inventados en la NASA en los años 1960 para desplazar el combustible en los tanques en ingravidez. Desde entonces, su tecnología se ha refinado hasta permitir suspensiones estables de nanopartículas de 10 a 50 nanómetros en una variedad de fluidos portadores. El fluido portador de HYPERVORTEX es particularmente ingenioso: el CO₂ supercrítico. Por encima de 31°C y de 73,8 atmósferas de presión, el dióxido de carbono entra en un estado supercrítico: ni verdaderamente gas, ni verdaderamente líquido, con una densidad cercana a la de un líquido pero una viscosidad cercana a la de un gas. En ese estado, es un excelente solvente y un excelente fluido caloportador. Las nanopartículas magnéticas permanecen en suspensión de forma estable. Y el CO₂ supercrítico puede circular por canales muy finos sin los problemas de cavitación y desgaste que afectan a los fluidos convencionales en las bombas clásicas."
+  },
+  {
+    "type": "paragraph",
+    "style": "TechNote",
+    "text": "Especificaciones físicas HYPERVORTEX V4.0: fluido portador CO₂ supercrítico (T > 31°C, P > 73,8 bar), nanopartículas Fe₃O₄ dopadas (Ø 10-50 nm), temperatura de Curie modulable 85-180°C según dopaje, gradiente térmico operacional mínimo: 15-20°C, guía por inductores multi-bobina con conmutación sincronizada, recuperación térmica por intercambiador contracorriente integrado, rendimiento Carnot estimado: 65-90% según configuración. Estatus: conceptual, física constituyente validada en laboratorio, integración de sistema aún no prototipada."
+  },
+  {
+    "type": "table",
+    "headers": [
+      "Tecnología",
+      "Fuente requerida",
+      "T°C mínima",
+      "Rendimiento real",
+      "Piezas móviles",
+      "Vida útil estimada"
+    ],
+    "rows": [
+      [
+        "Turbina de vapor industrial",
+        "Combustión / nuclear",
+        "> 300°C",
+        "35-45%",
+        "Sí (rotor, cojinetes)",
+        "20-30 años"
+      ],
+      [
+        "Panel solar FV",
+        "Luz directa",
+        "N/A",
+        "20-24%",
+        "No",
+        "25-30 años"
+      ],
+      [
+        "Aerogenerador (terrestre)",
+        "Viento > 3 m/s",
+        "N/A",
+        "35-45% (Betz)",
+        "Sí (rotor, multiplicador)",
+        "20-25 años"
+      ],
+      [
+        "Motor Stirling",
+        "Calor > 50°C",
+        "> 50°C",
+        "15-30% Carnot",
+        "Sí (pistón, cigüeñal)",
+        "15-25 años"
+      ],
+      [
+        "Bomba de calor geotérmica",
+        "Suelo (pozo)",
+        "N/A",
+        "COP 3-5",
+        "Sí (compresor)",
+        "15-20 años"
+      ],
+      [
+        "HYPERVORTEX V4.0 (objetivo)",
+        "Calor baja entalpía",
+        "> 15°C de delta",
+        "65-90% Carnot (objetivo)",
+        "No",
+        "25-35 años (proyectado)"
+      ]
+    ]
+  },
+  {
+    "type": "paragraph",
+    "style": "BodyText",
+    "text": "Esta tabla comparativa debe leerse con prudencia. Los datos para HYPERVORTEX son objetivos de diseño, no mediciones validadas. Los datos para las demás tecnologías son promedios industriales que ocultan una amplia varianza según las condiciones de despliegue. La comparación más pertinente es la de la fuente requerida: solo HYPERVORTEX apunta a una fuente térmica con un diferencial tan bajo como 15°C, haciendo explotables recursos térmicos que todas las demás tecnologías ignoran. Es en ese nicho específico —calor de baja entalpía, contextos nórdicos, cero piezas mecánicas móviles— donde la propuesta de valor es más distintiva."
+  },
+  {
+    "type": "paragraph",
+    "style": "Separator",
+    "text": "* * *"
+  },
+  {
+    "type": "paragraph",
+    "style": "SectionTitle",
+    "text": "La belleza de la ausencia de piezas móviles"
+  },
+  {
+    "type": "paragraph",
+    "style": "BodyText",
+    "text": "Tercero —y es quizás el punto más importante para una tecnología doméstica: HYPERVORTEX no tiene piezas sólidas en rotación. Ninguna. Tómense el tiempo de medir lo que eso significa para un ingeniero mecánico. Todo motor convencional tiene piezas en movimiento. Pistones, cigüeñales, cojinetes, engranajes, turbinas, compresores. Cada pieza en movimiento es una interfaz de fricción-desgaste. Cada interfaz es un punto de fallo potencial. Cada punto de fallo exige un mantenimiento, una lubricación, un reemplazo eventual. Un motor de explosión de automóvil tiene más de 1 000 piezas móviles. Su vida útil es del orden de 250 000 kilómetros antes de una revisión mayor, o sea unos 20 años de uso intensivo. Un refrigerador tiene un compresor con piezas en rotación: dura generalmente 10 a 15 años antes de que el compresor falle. Un aerogenerador tiene un multiplicador de velocidad, un generador con rodamientos: dura 20-25 años con mantenimiento regular. HYPERVORTEX no tiene nada de eso. El fluido circula. Las nanopartículas cambian de estado magnético. Los inductores conmutan electrónicamente. Sin fricción mecánica. Sin desgaste clásico. En teoría, la vida útil está limitada por la degradación química de las nanopartículas y la fiabilidad de la electrónica de control, no por el desgaste mecánico."
+  },
+  {
+    "type": "paragraph",
+    "style": "BodyText",
+    "text": "Comparar las tecnologías por su vida útil y su mantenimiento es un ejercicio que los vendedores evitan cuidadosamente. Un panel solar fotovoltaico dura 25-30 años con una degradación de rendimiento de aproximadamente 0,5% anual. Su único componente activo que se desgasta es el inversor, que debe reemplazarse cada 10-15 años a un costo de 1 000 a 2 000 dólares. Por eso los paneles solares han comenzado a imponerse: su costo sobre la vida útil se ha vuelto inferior al de la electricidad de la red en la mayoría de las regiones soleadas del mundo. HYPERVORTEX apunta a una vida útil de 30 a 40 años con un mantenimiento mínimo. Si esta proyección se confirma —y es un \"si\" importante que será discutido con franqueza en el capítulo 5— el costo anualizado por kilovatio-hora producido se vuelve notablemente bajo. No porque el sistema sea mágico, sino porque la mecánica fluida sin fricción sólida cambia radicalmente el perfil de desgaste."
+  },
+  {
+    "type": "paragraph",
+    "style": "SectionTitle",
+    "text": "El CO₂ supercrítico: por qué este fluido"
+  },
+  {
+    "type": "paragraph",
+    "style": "BodyText",
+    "text": "La elección del CO₂ supercrítico como fluido portador merece una explicación más desarrollada, porque es contraintuitiva. Uno piensa espontáneamente en los ferrofluidos como líquidos aceitosos, negros y espesos, que es lo que son en su forma convencional. Esos ferrofluidos clásicos tienen un problema fundamental para un motor térmico: su viscosidad varía enormemente con la temperatura, creando turbulencias impredecibles en los circuitos. También pueden \"secarse\": las nanopartículas se aglomeran y se depositan en las paredes con el tiempo. El CO₂ supercrítico resuelve estos dos problemas simultáneamente. Su viscosidad es estable en un amplio rango de temperatura operacional. Es un excelente dispersante para las nanopartículas: las mantiene en suspensión homogénea durante períodos muy largos. Y es químicamente inerte: no corroe las paredes del circuito, no reacciona con las nanopartículas, no crea subproductos tóxicos."
+  },
+  {
+    "type": "paragraph",
+    "style": "BodyText",
+    "text": "Hay una ventaja adicional, práctica y simbólica a la vez: el CO₂ es el gas industrial más barato del mundo. Es un subproducto de la fermentación, de la combustión, de numerosos procesos industriales. Puede producirse localmente, almacenarse bajo presión en botellas estándar. El reemplazo del fluido de trabajo de un sistema HYPERVORTEX no requiere recurrir a un proveedor especializado: basta con una botella de CO₂ alimentario, disponible en cualquier ciudad del mundo. Es una decisión de diseño consciente, orientada hacia la reparabilidad y la autonomía locales. Un sistema energético soberano no puede depender de componentes disponibles únicamente en un revendedor autorizado único. Si el CO₂ supercrítico escapa por una junta defectuosa, el sistema se detiene, pero el usuario puede recargarlo él mismo. Sin camión de servicio especializado necesario."
+  },
+  {
+    "type": "paragraph",
+    "style": "BodyText",
+    "text": "Una pregunta surge a menudo durante las presentaciones de HYPERVORTEX: ¿usar CO₂ como fluido de trabajo no es contradictorio con un proyecto de soberanía energética limpia? La respuesta es no, por una razón simple: el CO₂ en el circuito está en circuito cerrado. No se quema, no se consume, no se emite a la atmósfera. Circula y recircula indefinidamente. Su huella de carbono es la de su producción inicial, insignificante comparada con las emisiones de un sistema energético de combustión. Es la misma lógica que un refrigerador que usa fluidos refrigerantes: lo que importa ambientalmente es evitar las fugas, no eliminar el fluido. HYPERVORTEX está diseñado con circuitos herméticos por presión, una ventaja del CO₂ supercrítico cuya alta presión hace las fugas inmediatamente detectables por el sistema de monitoreo integrado."
+  },
+  {
+    "type": "paragraph",
+    "style": "SectionTitle",
+    "text": "El grafeno como amplificador inesperado"
+  },
+  {
+    "type": "paragraph",
+    "style": "BodyText",
+    "text": "En 2023, un equipo de investigadores de la Universidad de Manchester —la misma donde Andre Geim y Konstantin Novoselov aislaron el grafeno por primera vez en 2004— publicó resultados sobre el dopaje de ferrofluidos con óxido de grafeno. El óxido de grafeno (GO) es una forma de grafeno que porta grupos funcionales oxigenados en su superficie. Tiene una conductividad térmica excepcional y puede dispersarse en fluidos polares y no polares. Cuando se dopa un ferrofluido de nanopartículas Fe₃O₄ con óxido de grafeno a concentraciones de 0,1 a 0,5%, dos efectos se combinan. Primero, la conductividad térmica del ferrofluido aumenta de 15 a 25%: el gradiente térmico en el interior del circuito es por lo tanto más uniforme y la transición magnética de las nanopartículas más sincrónica. Segundo, el GO estabiliza la suspensión de las nanopartículas magnéticas sirviendo como sustrato de anclaje estérico: reduce la tendencia a la aglomeración que mencionaremos como la primera limitación del sistema. Este resultado de Manchester, publicado en Applied Physics Letters, no era el objetivo inicial de Berthelotte. Fue identificado en una revisión de literatura e integrado en la arquitectura V4.0 exactamente como el acceso abierto a la ciencia lo permite: un laboratorio académico resuelve un problema por sus propias razones, y un inventor independiente recupera la solución para sus propias necesidades. He aquí la innovación distribuida en acción real."
+  },
+  {
+    "type": "paragraph",
+    "style": "BodyText",
+    "text": "El dopaje con óxido de grafeno plantea también una cuestión de costo que debe formularse con honestidad. El óxido de grafeno de alta pureza cuesta aún varios cientos de dólares por gramo en 2024, aunque su precio ha caído un 99% desde los primeros lotes producidos en 2010. La trayectoria de costo se parece a la de las nanopartículas magnéticas mismas: materiales exóticos y caros que se vuelven, con la industrialización de la producción, accesibles a costos residenciales. El óxido de grafeno puede hoy producirse mediante procesos de oxidación de grafito natural abundante, con un escalamiento industrial bien documentado. Las proyecciones para 2030 estiman un costo de producción del orden de unos pocos dólares por gramo para una calidad suficiente para aplicaciones de ferrofluido. La cantidad necesaria para un circuito HYPERVORTEX residencial es del orden del gramo. La cuestión económica está pues en vías de resolverse, pero aún no está resuelta. La honestidad así lo exige todavía."
+  },
+  {
+    "type": "paragraph",
+    "style": "Separator",
+    "text": "* * *"
+  },
+  {
+    "type": "paragraph",
+    "style": "SectionTitle",
+    "text": "La honestidad sobre lo que aún no existe"
+  },
+  {
+    "type": "paragraph",
+    "style": "BodyText",
+    "text": "Aquí, la honestidad se impone, y será repetida varias veces en este libro, porque es fundadora. HYPERVORTEX V4.0 no existe como prototipo físico en el momento en que se escriben estas líneas. El invernadero de Claude Vézina descrito al principio de este capítulo es una proyección en el futuro cercano, una escena que podría existir en un porvenir razonablemente previsible si los desafíos técnicos pendientes se resuelven. No es un engaño: es narración prospectiva, una herramienta legítima del pensamiento arquitectónico y de la comunicación tecnológica. Los capítulos de ciencia ficción de Arthur C. Clarke en sus textos no ficticios, los escenarios prospectivos del IPCC, los prototipos conceptuales de Elon Musk antes de SpaceX: todos utilizan la narración del futuro cercano para hacer tangible lo que aún está por construir. Este libro hace lo mismo, y lo dice explícitamente. Lo que existe: los componentes físicos individuales, todos validados en laboratorio. Lo que queda por hacer: integrarlos en un sistema funcional y robusto."
+  },
+  {
+    "type": "paragraph",
+    "style": "CritiqueBox",
+    "text": "HYPERVORTEX V4.0 — Estatus honesto al momento de la publicación: Concepto arquitectónico completo. Física de cada componente validada por separado: ferrofluidos supercríticos (literatura: Stanford, MIT, ETH Zurich), nanopartículas con temperatura de Curie modulable (literatura: CEA, CNRS), guía por inductores multi-bobina (literatura: IEC, aplicaciones industriales). Lo que NO está validado: la integración de estos componentes en un sistema coherente, las propiedades de vida útil de las nanopartículas en circuito cerrado bajo presión, el rendimiento real vs el rendimiento teórico Carnot, el comportamiento del sistema a pequeña escala residencial. Presupuesto estimado para un primer prototipo: 150 000 a 400 000 CAD. Socios buscados: laboratorios universitarios, incubadoras de cleantech."
+  },
+  {
+    "type": "paragraph",
+    "style": "BodyText",
+    "text": "La cuarta limitación —raramente discutida en las propuestas tecnológicas pero quizás la más crítica para la adopción real— es la certeza de aprobación regulatoria. Un sistema HYPERVORTEX residencial opera bajo presión, con nanopartículas cuya regulación ambiental aún se está estabilizando en la mayoría de las jurisdicciones. Las regulaciones quebequenses sobre sistemas bajo presión domésticos (RBQ — Régie du bâtiment du Québec) tienen exigencias de inspección y certificación para todo equipo a más de 103,4 kPa de presión. Un circuito de CO₂ supercrítico opera a 73 a 100 bares, muy por encima de ese umbral. La certificación de tal sistema por la RBQ, por CSA o por UL es un proceso largo, costoso e incierto para una tecnología sin precedente directo en las bases de datos normativas. No es un obstáculo insuperable. Los refrigeradores industriales, los sistemas geotérmicos bajo presión, los autoclaves de esterilización: todos fueron certificados a pesar de su complejidad. Pero el tiempo y el costo de certificación deben contarse en el camino hacia el mercado. Cinco a diez años de certificación regulatoria después de las fases de prototipado: eso es realista, no pesimista."
+  },
+  {
+    "type": "paragraph",
+    "style": "BodyText",
+    "text": "Esta transparencia no es una debilidad. Es una condición de credibilidad. La historia de la energía está llena de \"revoluciones\" anunciadas que no lo fueron: la fusión a temperatura ambiente de Pons y Fleischmann en 1989, las células de combustible \"milagrosas\" de los años 2000, las promesas de autonomía total de los primeros Tesla. Esos anuncios excesivos no solo engañaron a inversores. Alimentaron el cinismo del público frente a los anuncios tecnológicos, haciendo más difícil la comunicación honesta sobre avances reales. HYPERVORTEX no necesita mentiras ni exageraciones. La física real, honestamente presentada, ya es notable. Un sistema que puede explotar diferenciales de temperatura de 15°C, sin piezas móviles, con un fluido de trabajo universal e inofensivo: si esa promesa se cumple al 50% de su potencial teórico, ya cambia el panorama de la energía residencial descentralizada."
+  },
+  {
+    "type": "pageBreak"
+  },
+  {
+    "type": "paragraph",
+    "style": "ChapterTitle",
+    "text": "Capítulo 3"
+  },
+  {
+    "type": "paragraph",
+    "style": "ChapterTitle",
+    "text": "65 a 90% de Carnot: lo que cambiaría"
+  },
+  {
+    "type": "paragraph",
+    "style": "Epigraph",
+    "text": "\"La eficiencia no es una virtud abstracta. Es la diferencia entre lo que es accesible para todos y lo que queda reservado para unos pocos.\""
+  },
+  {
+    "type": "paragraph",
+    "style": "SceneText",
+    "text": "La factura cae en el buzón de un departamento de Longueuil. Enero de 2024. Dos adultos, dos niños, un departamento bien aislado de 90 metros cuadrados. Hydro-Québec: 187 dólares. Gas natural Énergir: 134 dólares. Total: 321 dólares por calentar, iluminar, cocinar, lavar. No es una miseria: Hydro-Québec está subsidiada, el gas natural todavía es relativamente barato ese mes. Pero en Ontario, la misma familia pagaría 420 dólares solo de electricidad. En California, 510 dólares. En Texas, durante la crisis de la red de febrero de 2021, familias recibieron facturas de 10 000 dólares por unos pocos días. El hombre en Longueuil mira el total y lo pone sobre la pila de facturas por pagar. No tiene los medios para cambiar de proveedor. No tiene los medios para instalar paneles solares (es inquilino). Paga. Como paga cada mes desde hace veinte años."
+  },
+  {
+    "type": "paragraph",
+    "style": "BodyText",
+    "text": "Para comprender lo que \"65 a 90% de rendimiento Carnot\" significa en la práctica, primero hay que explicar Carnot. Nicolas Léonard Sadi Carnot publicó en 1824 —a los 28 años, dos años antes de su muerte por el cólera— un ensayo sobre la eficiencia máxima de los motores térmicos. Su resultado es uno de los más profundos de la física: la eficiencia máxima teórica de un motor térmico depende únicamente de la diferencia de temperatura entre la fuente caliente y la fuente fría. La eficiencia de Carnot es (1 - T_fría/T_caliente), expresada en Kelvin. Para un motor que funciona entre 100°C (373K) y 20°C (293K), la eficiencia máxima teórica es 1 - (293/373) = 21,4%. Ningún motor térmico real puede superar esta cifra para esas temperaturas. Es una ley de la física, no un límite tecnológico. Para superar los límites de Carnot, hay que aumentar el diferencial de temperatura. Por eso las centrales eléctricas funcionan a temperaturas de 600°C y más: la eficiencia Carnot teórica sube al 60-70%, y las mejores centrales de vapor modernas alcanzan el 40-45% en la práctica."
+  },
+  {
+    "type": "paragraph",
+    "style": "SectionTitle",
+    "text": "Por qué el alto rendimiento a baja temperatura es revolucionario"
+  },
+  {
+    "type": "paragraph",
+    "style": "BodyText",
+    "text": "Volvamos a HYPERVORTEX. Su objetivo de 65-90% de Carnot no significa que produzca el 65-90% del calor ingerido en electricidad. Significa que alcanza el 65-90% de la eficiencia máxima teóricamente posible para las temperaturas a las que opera. Operando entre 10°C y 60°C —un diferencial de solo 50°C— la eficiencia de Carnot máxima es 1 - (283/333) = 15%. Un sistema que alcanza el 80% de Carnot en esas condiciones convierte el 12% del calor en electricidad. Doce por ciento puede parecer modesto. Pero comparemos: la mejor celda termoeléctrica Peltier alcanza el 5-8% de Carnot. Un motor Stirling alcanza el 30-40% de Carnot. ¿Puede el principio termomagnético optimizado realmente alcanzar el 65-90%? Simulaciones sobre ferrofluidos nanoparticulares en circuito cerrado publicadas por equipos de la Universidad de Michigan y de Tokio sugieren que rendimientos de ese nivel son teóricamente accesibles con los materiales y arquitecturas actuales. Pero la simulación no es el prototipo. La honestidad se impone una vez más aquí."
+  },
+  {
+    "type": "paragraph",
+    "style": "BodyText",
+    "text": "Lo que cambia profundamente con tal rendimiento a baja temperatura es el repertorio de fuentes térmicas explotables. Actualmente, las fuentes de calor explotables para la electricidad están prácticamente limitadas a la combustión (>300°C), la geotermia de alta entalpía (>150°C), la nuclear (>280°C) y la solar concentrada (>200°C). Esas fuentes tienen dos puntos en común: necesitan ya sea quemar algo, ya sea tener acceso a sitios geológicos raros, ya sea inversiones en infraestructura masiva. Ninguna es accesible para una familia ordinaria en su jardín. HYPERVORTEX, al hacer económica la conversión de calor a 60-80°C, abre el repertorio a fuentes universalmente disponibles: la geotermia de baja entalpía (disponible en todas partes en el suelo a 2 metros de profundidad), el calor residual de los equipos domésticos e industriales, el solar térmico concentrado (que alcanza fácilmente 80-120°C), y los diferenciales de temperatura entre las diferentes partes de un edificio. Esas fuentes están ahí, gratuitas, inagotables, y actualmente desperdiciadas porque ningún sistema comercial puede explotarlas a un costo razonable."
+  },
+  {
+    "type": "paragraph",
+    "style": "SectionTitle",
+    "text": "Las aleaciones de Heusler: la cascada en acción"
+  },
+  {
+    "type": "paragraph",
+    "style": "BodyText",
+    "text": "Una de las innovaciones conceptuales más importantes de HYPERVORTEX es lo que Berthelotte llama la arquitectura en cascada. En lugar de un solo circuito de ferrofluido con una temperatura de Curie fija, se imaginan varios circuitos en serie, cada uno optimizado para un rango de temperatura diferente. El primer circuito capta el calor a 50-60°C, el segundo a 80-100°C, el tercero a 120-150°C. Cada circuito utiliza nanopartículas cuya temperatura de Curie corresponde a su rango operacional. La energía no captada por el primer circuito —el calor que lo atraviesa— se transmite al segundo, y así sucesivamente. Es el equivalente termomagnético de un panel solar multi-unión, donde cada capa de semiconductor capta una parte diferente del espectro luminoso. El enfoque en cascada aumenta significativamente la eficiencia global del sistema."
+  },
+  {
+    "type": "paragraph",
+    "style": "BodyText",
+    "text": "Aquí es donde las aleaciones de Heusler entran en escena. Las aleaciones de Heusler —que llevan el nombre del químico alemán Friedrich Heusler que las descubrió en 1903— son compuestos intermedios a base de metales de transición, típicamente de la forma X₂YZ. Su propiedad notable es que su temperatura de Curie es extraordinariamente sensible a su composición. Ajustando las proporciones de níquel, manganeso, galio, indio u otros elementos, se pueden obtener aleaciones de Heusler cuya temperatura de transición magnética varía de -200°C a +250°C. Es un repertorio de materiales a medida para la arquitectura en cascada. Existen aleaciones de Heusler cuya temperatura de Curie es de 40°C (ideal para captar el calor corporal), de 80°C (ideal para el solar térmico de baja presión), de 130°C (ideal para el vapor residencial), y decenas de otros puntos. Esta ajustabilidad precisa permite diseñar arquitecturas termomagnéticas hechas a medida para cada fuente térmica disponible localmente."
+  },
+  {
+    "type": "paragraph",
+    "style": "TechNote",
+    "text": "Aleaciones de Heusler seleccionadas para la arquitectura HYPERVORTEX V4.0: Ni₂MnGa (T_Curie ≈ 76°C, transición magneto-estructural acoplada), Ni₂MnIn₀.₅Ga₀.₅ (T_Curie ≈ 105°C), Co₂MnSi (T_Curie ≈ 985K, capa de alta temperatura para cascada solar concentrado), Cu₂MnAl (T_Curie ≈ 630K, capa intermedia). Ventaja complementaria de los Heusler: algunos presentan un efecto magnetocalórico gigante, amplificando el diferencial de magnetización alrededor de T_Curie. Fuente: revisión de literatura ESM2024, síntesis sobre materiales magnetocalóricos."
+  },
+  {
+    "type": "paragraph",
+    "style": "SectionTitle",
+    "text": "La cromatografía termomagnética: el bonus inesperado"
+  },
+  {
+    "type": "paragraph",
+    "style": "BodyText",
+    "text": "Al explorar las propiedades de las aleaciones de Heusler y de los ferrofluidos mixtos, Berthelotte identificó una aplicación secundaria que no había anticipado: la cromatografía termomagnética. La cromatografía es una técnica analítica fundamental: se separan los componentes de una mezcla obligándolos a viajar en un medio en el cual cada componente se desplaza a una velocidad diferente. En cromatografía gas-líquido clásica, las moléculas se separan según su punto de ebullición. En cromatografía magnética, se separarían según sus propiedades magnéticas. Ahora bien, si se crea un gradiente térmico en un ferrofluido que contiene una mezcla de nanopartículas de diferentes composiciones —y por tanto diferentes temperaturas de Curie— cada tipo de nanopartícula pierde su magnetismo en un punto diferente del gradiente. Migran por tanto hacia zonas diferentes. Se puede así clasificar mezclas de nanopartículas por su temperatura de Curie con una precisión que los métodos mecánicos no pueden alcanzar."
+  },
+  {
+    "type": "paragraph",
+    "style": "BodyText",
+    "text": "La aplicación industrial es potencialmente significativa. La metalurgia de las tierras raras —esencial para los imanes permanentes, los motores eléctricos, las baterías— sufre de la dificultad de separar elementos químicamente muy cercanos. El lantano, el cerio, el neodimio, el praseodimio tienen propiedades magnéticas lo suficientemente diferentes como para que la cromatografía termomagnética pueda separarlos con una eficiencia superior a los métodos de extracción líquido-líquido actuales, que son intensivos en energía y producen efluentes ácidos. No es el proyecto principal de HYPERVORTEX. Pero es un ejemplo de cómo una innovación de principio crea arborescencias de aplicaciones inesperadas. La rueda de Curie del siglo XIX no podía prever la cromatografía termomagnética. La versión del siglo XXI, ella, la descubrió en el camino."
+  },
+  {
+    "type": "paragraph",
+    "style": "Separator",
+    "text": "* * *"
+  },
+  {
+    "type": "paragraph",
+    "style": "SectionTitle",
+    "text": "La disrupción económica y sus responsabilidades"
+  },
+  {
+    "type": "paragraph",
+    "style": "BodyText",
+    "text": "Si HYPERVORTEX cumple sus promesas a escala residencial, las implicaciones económicas son profundas. Comparemos con las tecnologías renovables disponibles. El panel solar fotovoltaico de monosilicio alcanza hoy un 22-24% de eficiencia de conversión, notable para una tecnología que transforma la luz directamente en electricidad. El aerogenerador terrestre moderno alcanza un 35-45% de rendimiento aerodinámico (factor de capacidad real del 25-40% según el sitio). La geotermia de alta entalpía alcanza un 10-23% según el recurso. Estas cifras de eficiencia parecen inferiores al 65-90% de Carnot de HYPERVORTEX, pero la comparación no es directa: los porcentajes no miden lo mismo en cada caso. Lo que importa para el usuario final no es la eficiencia intrínseca sino el costo del kilovatio-hora producido sobre la vida útil del sistema, y la disponibilidad de la fuente primaria."
+  },
+  {
+    "type": "paragraph",
+    "style": "BodyText",
+    "text": "Sobre el costo del kilovatio-hora, las proyecciones para HYPERVORTEX dependen de la hipótesis sobre la vida útil. Si el sistema dura 30 años sin mantenimiento mayor —lo cual es plausible pero aún no probado— y si su costo de instalación residencial es del orden de 15 000 a 25 000 dólares, el costo anualizado es de 500 a 830 dólares por año. Para una familia que paga actualmente de 3 000 a 4 000 dólares al año en energía (electricidad y calefacción combinados, fuera de Québec, en Ontario por ejemplo), el ahorro sobre 30 años es del orden de 60 000 a 100 000 dólares. La inversión inicial se amortiza en 5 a 8 años. Estas cifras tienen la apariencia de solidez, pero hay que matizarlas: suponen costos de energía estables o crecientes, lo cual es históricamente verdadero pero no garantizado. Suponen una vida útil de 30 años aún no validada. Suponen costos de instalación competitivos que requieren una cadena de suministro industrial que aún no existe. El escenario económico es plausible. No es seguro."
+  },
+  {
+    "type": "paragraph",
+    "style": "SectionTitle",
+    "text": "Escenario económico concreto: una familia de Longueuil en 2032"
+  },
+  {
+    "type": "paragraph",
+    "style": "BodyText",
+    "text": "Llevemos el cálculo económico al concreto más brutal. Marie-France Dupont, 42 años, propietaria de una casa pareada en Longueuil desde 2018. Paga en promedio 2 800 dólares al año en electricidad Hydro-Québec y 1 400 dólares en gas natural para la calefacción auxiliar en los inviernos excepcionalmente fríos. Total anual: 4 200 dólares. En 2032, instala un sistema HYPERVORTEX residencial acoplado a un colector solar térmico en su techo sur. Costo total de instalación: 22 000 dólares, con un subsidio provincial de 5 000 dólares en el marco de un programa de transición energética residencial. Costo neto: 17 000 dólares. El sistema produce en promedio el 60% de sus necesidades eléctricas anuales y el 80% de sus necesidades de calefacción, combinando la geotermia de baja entalpía y el solar térmico. Su factura residual de Hydro-Québec baja a 900 dólares al año. Su factura de gas desaparece. Ahorra 3 300 dólares al año. La inversión neta de 17 000 dólares se amortiza en 5 años y 2 meses. Sobre la vida útil estimada de 30 años del sistema, ahorra —en dólares de 2032, sin tener en cuenta la inflación energética— aproximadamente 82 000 dólares."
+  },
+  {
+    "type": "paragraph",
+    "style": "BodyText",
+    "text": "Este cálculo tiene varias hipótesis subyacentes que merecen hacerse explícitas. Supone un rendimiento del sistema al 60% de las necesidades eléctricas, cifra conservadora respecto al potencial teórico para dar cuenta de las degradaciones reales de rendimiento. Supone una vida útil de 30 años, aún no validada experimentalmente. Supone un costo de mantenimiento anual de 200 a 300 dólares (reemplazo de juntas, verificación del fluido, actualización del sistema de control) no deducido del cálculo anterior para simplificar; en realidad, los ahorros sobre 30 años serían de 76 000 a 79 000 dólares. Supone que las tarifas de Hydro-Québec se mantienen estables o aumentan moderadamente. Históricamente, las tarifas de Hydro-Québec han aumentado en promedio un 2,8% anual desde 2000; si esa tendencia se mantiene, los ahorros reales son mayores que los calculados. Y supone que Marie-France permanece en su casa 30 años. Si vende después de 15 años, el valor del sistema instalado aumenta el precio de venta de la casa: los estudios estadounidenses muestran un aumento de valor del 3 al 4% para las casas con sistemas energéticos descentralizados instalados. Para una casa de 400 000 dólares, son de 12 000 a 16 000 dólares de valor agregado. El cálculo sigue siendo positivo en casi todos los escenarios razonables."
+  },
+  {
+    "type": "paragraph",
+    "style": "CritiqueBox",
+    "text": "Riesgo económico sistémico a evaluar con honestidad: si la adopción de HYPERVORTEX o de sistemas similares se acelera, las redes eléctricas centralizadas pierden clientes que pagan mientras conservan la obligación de servir a los clientes restantes con la misma infraestructura. El costo de la red se reparte entre menos clientes; las tarifas aumentan para los clientes restantes, generalmente los más pobres y los menos móviles. Es la \"espiral de la muerte\" de la red eléctrica, bien documentada en la literatura económica de la energía. Una política de transición responsable debe anticipar este riesgo y diseñar mecanismos de mutualización de los costos de red que no castiguen a quienes no pueden desconectarse. Este libro sostiene la soberanía energética individual Y la responsabilidad hacia quienes no pueden ejercerla."
+  },
+  {
+    "type": "paragraph",
+    "style": "BodyText",
+    "text": "Las tecnologías comparadas con HYPERVORTEX merecen una presentación equilibrada. El panel solar fotovoltaico es hoy la tecnología de producción eléctrica cuyo costo ha bajado más rápidamente en toda la historia de la energía: de 76 dólares por vatio-pico en 1977 a menos de 0,25 dólares en 2024, una reducción del 99,7%. Esta baja se debe al efecto de aprendizaje acumulativo: cada duplicación de la capacidad instalada mundial reduce el costo unitario en aproximadamente un 22%. Para Québec, el límite de los paneles solares es simple y climático: el recurso solar es mediocre en invierno, precisamente cuando las necesidades energéticas son máximas. Un panel solar en Montréal produce tres veces menos en diciembre que en junio. La bomba de calor geotérmica existente es eficiente pero costosa de instalar (20 000 a 40 000 dólares para una casa), y sus pozos verticales requieren un terreno adaptado y perforaciones profundas. HYPERVORTEX apunta a un nicho complementario: la conversión de calor de baja entalpía disponible en invierno, sin perforación profunda, sin dependencia del soleamiento, en un sistema compacto instalable en un sótano o una bodega. Estos nichos tecnológicos no se excluyen mutuamente. Un hogar inteligente combina los tres: solar en verano, geotermia en invierno, HYPERVORTEX todo el año."
+  },
+  {
+    "type": "paragraph",
+    "style": "BodyText",
+    "text": "Hay una pregunta que los militantes de la transición energética no formulan con suficiente franqueza: ¿quién se beneficia primero de cada nueva tecnología energética descentralizada? La respuesta histórica es siempre la misma: quienes tienen un techo propio (para los paneles solares), el capital para la inversión inicial, el acceso al crédito a tasas razonables y la estabilidad residencial que justifica una inversión a 30 años. Son familias de clase media alta y acomodada, propietarias de casas individuales, en regiones soleadas o ventosas. Los inquilinos, las familias de bajos ingresos, los residentes de departamentos, las poblaciones rurales aisladas: se benefician de último, si acaso. HYPERVORTEX, como toda tecnología energética descentralizada, corre el riesgo de reproducir esta desigualdad si su difusión no va acompañada de políticas de accesibilidad deliberadas. La tecnología es neutra. La política de difusión nunca lo es."
+  },
+  {
+    "type": "pageBreak"
+  },
+  {
+    "type": "paragraph",
+    "style": "ChapterTitle",
+    "text": "Capítulo 4"
+  },
+  {
+    "type": "paragraph",
+    "style": "ChapterTitle",
+    "text": "Del hogar a la red"
+  },
+  {
+    "type": "paragraph",
+    "style": "Epigraph",
+    "text": "\"Un árbol solo resiste mal la tormenta. Un bosque crea su propio microclima. La soberanía individual busca a sus pares.\""
+  },
+  {
+    "type": "paragraph",
+    "style": "SceneText",
+    "text": "Verano de 2033. Le Massif, Charlevoix, Québec. Tres granjas a lo largo de un rang de cinco kilómetros. La granja Bouchard, lechera, con un sistema HYPERVORTEX que funciona con el calor residual del pasteurizador. La granja Lajeunesse, hortícola, con un sistema acoplado a sus invernaderos y a un colector solar térmico. La granja Tremblay, apícola y cerealera, con un sistema alimentado por los diferenciales térmicos de sus galpones de almacenamiento. Las tres familias tienen un acuerdo informal: cuando una de ellas produce más de lo que consume, comparte el excedente con las otras mediante una línea de corriente de baja tensión que instalaron ellas mismas un fin de semana de septiembre. Sin contrato. Sin contador de Hydro-Québec. Un Raspberry Pi en cada sótano que lee los flujos en tiempo real y calcula una vez por semana lo que cada uno debe a los demás. El abuelo Tremblay salda su deuda de la semana llevando un saco de harina de trigo a los Bouchard. La comunidad de energía ha reinventado el trueque sin saberlo."
+  },
+  {
+    "type": "paragraph",
+    "style": "BodyText",
+    "text": "La energía como red de solidaridad no es una idea nueva. Las primeras cooperativas eléctricas rurales de Québec, fundadas a principios del siglo XX antes de la nacionalización de Hydro-Québec, funcionaban con ese principio: las familias de un rang se cotizaban para financiar y mantener una línea eléctrica común. Poseían colectivamente la infraestructura. Decidían colectivamente los precios y las prioridades. La nacionalización de Hydro-Québec por René Lévesque en 1962 puso fin a ese modelo con argumentos que no carecían de fundamento: una sociedad de Estado podía invertir a mayor escala, negociar mejores precios para el equipamiento, asegurar una cobertura universal incluidas las regiones no rentables. Ese cálculo probablemente era justo en 1962. Lo es menos claramente en 2033, cuando las tecnologías descentralizadas permiten nuevas formas de cooperación local sin abandonar las ventajas de la mutualización."
+  },
+  {
+    "type": "paragraph",
+    "style": "SubSection",
+    "text": "La física detrás del milagro aparente"
+  },
+  {
+    "type": "paragraph",
+    "style": "BodyText",
+    "text": "Para disipar todo malentendido sobre lo que realmente ocurre en esas tres granjas, un momento de física se impone. El intercambio de energía entre ellas no es mágico. Los sistemas HYPERVORTEX de Bouchard y Lajeunesse producen excedentes de energía en ciertos momentos del día y de la semana. La granja lechera Bouchard tiene un perfil de consumo con picos por la mañana: el pasteurizador, la bomba de leche, la iluminación de los establos. La granja hortícola Lajeunesse tiene sus picos por la tarde, cuando sus lámparas de crecimiento de alta eficiencia entran en ciclo. Esos picos no coinciden. La línea de intercambio entre las granjas, de una longitud de 3 kilómetros, tiene una capacidad de transporte de 10 kW. El Raspberry Pi de cada granja lee en tiempo real los flujos de producción y consumo de sus vecinos mediante un protocolo IP estándar sobre red de fibra. Cuando Lajeunesse está en pico de consumo y Bouchard en excedente, la línea transfiere automáticamente el excedente. Cuando los roles se invierten, el flujo se invierte. No es sofisticación informática. Es una regla simple: envía lo que tienes de más hacia quien le falta. La sofisticación está en la física de la producción, no en la lógica del intercambio."
+  },
+  {
+    "type": "paragraph",
+    "style": "SectionTitle",
+    "text": "La micro-red como organismo vivo"
+  },
+  {
+    "type": "paragraph",
+    "style": "BodyText",
+    "text": "Una micro-red comunitaria de energía es, en sus propiedades dinámicas, más cercana a un ecosistema que a una infraestructura industrial. En una red centralizada clásica, el equilibrio oferta-demanda es gestionado por un operador central que ajusta la producción de las centrales en cada instante. En una micro-red descentralizada, el equilibrio emerge de las interacciones locales de numerosos actores: cada nodo produce, consume, almacena y comparte según reglas simples e información local. Este tipo de regulación distribuida es biológicamente familiar: es exactamente así como funciona la regulación térmica del cuerpo humano, la formación de bancos de peces, o la coordinación de una colonia de hormigas. No hay jefe. Cada elemento responde a sus vecinos inmediatos según reglas locales simples, y el orden global emerge sin coordinación central."
+  },
+  {
+    "type": "paragraph",
+    "style": "BodyText",
+    "text": "La tecnología que permite a familias como los Bouchard, Lajeunesse y Tremblay formar una micro-red sin infraestructura pesada está disponible hoy. Un Raspberry Pi 5 cuesta 80 dólares. Puede leer los sensores de producción y consumo, comunicarse mediante protocolo MQTT o WebSocket con los otros nodos de la red, calcular los flujos de energía en tiempo real y mantener un registro de los intercambios. Un contador de corriente bidireccional cuesta de 30 a 50 dólares. Un disyuntor automático programable para gestionar las prioridades de carga: 20 dólares. La infraestructura informática de una micro-red de 5 hogares cuesta menos de 500 dólares. No es la tecnología la que ha faltado estos últimos 20 años. Es el marco regulatorio y la cultura institucional los que no han querido ver el potencial de estas micro-redes comunitarias."
+  },
+  {
+    "type": "paragraph",
+    "style": "SectionTitle",
+    "text": "La conexión con Gen_Home: pensar para calentar"
+  },
+  {
+    "type": "paragraph",
+    "style": "BodyText",
+    "text": "En mi visión a largo plazo, HYPERVORTEX y Gen_Home no son dos proyectos separados. Son dos aspectos de un mismo ciclo energético. La computación neuromórfica produce calor, inevitablemente, ineluctablemente, es una ley de la termodinámica. Cada cálculo es una transformación de energía eléctrica en calor. Los centros de datos modernos dedican del 30 al 50% de su energía únicamente a enfriar sus servidores; ese calor se disipa en la atmósfera, se pierde. En la visión Gen_Home, el calor producido por el cálculo de la IA doméstica se recupera para calentar la casa. Y el calor producido por la casa —su gradiente térmico entre el piso y el techo, entre el interior y el exterior— es captado por HYPERVORTEX para producir la electricidad que alimenta el cálculo neuromórfico. Pensar calienta la casa. La casa alimenta el pensamiento. Es un bucle termodinámico total. Es el focus latino en su versión del siglo XXI."
+  },
+  {
+    "type": "paragraph",
+    "style": "BodyText",
+    "text": "No es solamente una bella metáfora. Es un cálculo energético. Un procesador neuromórfico de alto rendimiento produce típicamente de 50 a 200 vatios de calor. Una casa bien aislada en Québec necesita de 3 000 a 5 000 vatios de calefacción durante un día frío. La contribución del cálculo a la calefacción es por tanto del 1 al 7%, modesta pero no despreciable sobre una temporada. En una semana fría, son de 84 a 336 vatios-hora recuperados, el equivalente de 20 minutos a algunas horas de calefacción auxiliar. En la versión Gen_Home a largo plazo con el toro neuromórfico de alta densidad, la potencia computacional —y por tanto térmica— es muy superior. La cogeneración computación-calor se convierte en una verdadera contribución térmica, ya no una anécdota. Y cada kilovatio-hora de calor recuperado es un kilovatio-hora que no se compra a Énergir ni a Hydro-Québec. El pensamiento tiene un valor calorífico real. Filosóficamente, es vertiginoso. En la práctica, es ingeniería térmica."
+  },
+  {
+    "type": "paragraph",
+    "style": "Separator",
+    "text": "* * *"
+  },
+  {
+    "type": "paragraph",
+    "style": "SectionTitle",
+    "text": "UBLinx y los contratos de energía entre vecinos"
+  },
+  {
+    "type": "paragraph",
+    "style": "BodyText",
+    "text": "El intercambio de energía entre las tres granjas de Charlevoix se basa actualmente en la confianza entre vecinos y un saco de harina como moneda de cambio. Es encantador y frágil. Cuando uno de los vecinos vende su granja, cuando surge un conflicto sobre el cálculo de los flujos, cuando uno de los miembros quiere invertir en un almacenamiento adicional por batería y pide una contribución a los demás, la confianza informal ya no basta. Hace falta un marco. UBLinx es ese marco, en su versión aplicada a la energía. Un \"contrato de energía comunitaria\" depositado en la plataforma UBLinx define las reglas de la micro-red: precio de la energía compartida, umbrales de excedente que activan el intercambio, mecanismos de mantenimiento de la línea común, condiciones de entrada y salida de la red. Estas reglas están codificadas en un contrato inteligente que se ejecuta automáticamente: no hace falta un contador ni un abogado para gestionar los intercambios semanales entre tres granjas."
+  },
+  {
+    "type": "paragraph",
+    "style": "BodyText",
+    "text": "El contrato inteligente UBLinx para las micro-redes de energía es una demostración concreta de lo que el derecho informal entre vecinos puede llegar a ser cuando se le da una infraestructura digital de confianza. No es la blockchain la que crea la comunidad. Es la comunidad que ya existía —Bouchard, Lajeunesse y Tremblay se conocen desde la infancia— la que utiliza la blockchain para hacer su confianza implícita explícita y automáticamente ejecutable. La tecnología no reemplaza la confianza social. Le da una memoria y un brazo ejecutor. Es la diferencia entre una promesa verbal y un contrato notarial: no una cuestión de confianza, una cuestión de rigor y permanencia."
+  },
+  {
+    "type": "paragraph",
+    "style": "BodyText",
+    "text": "La tormenta de hielo de 1998 vuelve aquí como advertencia. En una red centralizada, cuando el centro cae, todo cae. En una red de micro-redes comunitarias, el corte de una línea regional aísla a las comunidades pero no las priva de energía: cada micro-red sigue funcionando en modo autónomo, gestionando sus propios recursos locales hasta que la conexión regional se restablezca. Es exactamente el comportamiento que los ingenieros de redes eléctricas llaman la \"resiliencia de islas\": la capacidad de una red de particionarse en sub-redes autónomas durante una falla parcial para minimizar el impacto global de la avería. Las redes eléctricas centralizadas actuales no tienen esa propiedad, deliberadamente: la lógica de control centralizado se opone a ella. Una red de micro-redes autónomas la tiene por construcción."
+  },
+  {
+    "type": "paragraph",
+    "style": "BodyText",
+    "text": "La tormenta de hielo de 1998 también reveló algo menos esperado: la rapidez con la que las comunidades se autoorganizan en crisis. En barrios donde los vecinos apenas se conocían, sistemas de intercambio de comida, calor e información emergieron espontáneamente en 48 horas. Las redes sociales no existían aún. El puerta a puerta y el teléfono bastaban. Lo que impactó a los sociólogos que estudiaron la crisis a posteriori fue que las comunidades que mejor salieron adelante no eran necesariamente las más ricas ni las mejor equipadas. Eran aquellas donde los vínculos sociales preexistentes eran más densos: los barrios antiguos donde los vecinos se conocían, los medios rurales donde las familias se ayudaban por tradición. La soberanía energética física y la solidaridad social son dos dimensiones del mismo fenómeno. No se despliega HYPERVORTEX en el aislamiento. Se lo despliega en una comunidad, y su despliegue refuerza a la comunidad dándole un proyecto común y una infraestructura compartida."
+  },
+  {
+    "type": "paragraph",
+    "style": "SectionTitle",
+    "text": "El intercambio de datos agrícolas como modelo"
+  },
+  {
+    "type": "paragraph",
+    "style": "BodyText",
+    "text": "El invernadero de Claude Vézina produce datos que la red regional de agricultores comienza a compartir mediante un protocolo simple: temperatura exterior, humedad, producción eléctrica del sistema, consumo del invernadero, déficits de producción durante los días nublados. Estos datos se anonimizan y agregan antes de compartirse. Ningún agricultor ve los datos brutos de un vecino. Todos ven los promedios regionales, las correlaciones climáticas, los rangos de rendimiento típicos para su tipo de sistema. Este intercambio voluntario y controlado de datos agrícolas y energéticos reproduce, con herramientas digitales modernas, algo que las cooperativas agrícolas de Québec hacen desde hace 150 años: poner en común el conocimiento para que cada uno mejore. La diferencia es la granularidad y la velocidad: los datos se comparten en tiempo casi real, las correlaciones se calculan automáticamente, las recomendaciones de optimización se personalizan para cada granja. El Gen_Home de Claude gestiona este protocolo de intercambio de datos. Sabe qué puede compartirse y qué no. Sabe que el rendimiento del invernadero en enero es un dato útil para la red. Sabe que el registro médico familiar es un dato que no sale del sótano. La distinción no es técnica. Es ética. Y está programada por los propios Vézina, no por una política de privacidad redactada por abogados californianos."
+  },
+  {
+    "type": "paragraph",
+    "style": "ReaderQuestion",
+    "text": "Si su barrio tuviera una micro-red de energía comunitaria, ¿qué reglas querría ver en ella? ¿Quién decidiría los precios? ¿Cómo se gestionaría a la familia que consume mucho más de lo que contribuye? ¿Quién mantendría las líneas? Estas preguntas no son técnicas. Son políticas. Y merecen respuestas democráticas, no algoritmos."
+  },
+  {
+    "type": "pageBreak"
+  },
+  {
+    "type": "paragraph",
+    "style": "ChapterTitle",
+    "text": "Capítulo 5"
+  },
+  {
+    "type": "paragraph",
+    "style": "ChapterTitle",
+    "text": "La honestidad del físico"
+  },
+  {
+    "type": "paragraph",
+    "style": "Epigraph",
+    "text": "\"La diferencia entre un profeta y un ingeniero honesto es que el ingeniero sabe lo que aún no sabe.\""
+  },
+  {
+    "type": "paragraph",
+    "style": "SceneText",
+    "text": "Un taller de trabajo. Québec, Canadá, de noche. Estoy solo con mis cálculos en tres pantallas. Una hoja de cálculo, una pestaña de simulación, un artículo en PDF sobre las propiedades de los ferrofluidos supercríticos. Pasé la tarde recalculando las proyecciones de rendimiento para la cuarta configuración del sistema. Los números son buenos. Demasiado buenos, quizás. Levanto la cabeza y miro la pared frente a mí. Algo me molesta. No es un error de cálculo: lo verifiqué dos veces, tres veces. Es algo más, más difícil de cuantificar: la intuición de que las simulaciones capturan la física de cada componente pero no necesariamente su comportamiento integrado en un sistema real. Las simulaciones suponen interfaces perfectas, temperaturas uniformes, materiales ideales. La realidad tiene juntas, gradientes, impurezas, sorpresas. Abro un nuevo documento y comienzo a teclear: \"Lo que aún no sé.\""
+  },
+  {
+    "type": "paragraph",
+    "style": "BodyText",
+    "text": "La historia de la energía está pavimentada de tecnologías prometedoras que cumplieron sus promesas de forma parcial, tardía, o por razones distintas a las anticipadas. La pila de hidrógeno fue anunciada como la revolución energética de los años 1990. Se convirtió en una herramienta de nicho, útil en ciertos contextos de transporte pesado, pero no la panacea universal prometida. La fusión nuclear está \"a 20 años de la comercialización\" desde hace unos sesenta años; esta broma circula por los pasillos de los laboratorios de física desde los años 1970. El almacenamiento por batería de litio-ion debía revolucionar el transporte a principios de los años 2010: lo hizo, pero con costos sociales y ambientales vinculados a la extracción de cobalto y litio que las primeras proyecciones ignoraban cuidadosamente. HYPERVORTEX debe evitar esos errores de comunicación. No por modestia retórica, sino porque la honestidad es la condición de la confianza, y la confianza es la condición de la colaboración que este proyecto necesita para avanzar."
+  },
+  {
+    "type": "paragraph",
+    "style": "SectionTitle",
+    "text": "Lo que los cálculos no dicen"
+  },
+  {
+    "type": "paragraph",
+    "style": "BodyText",
+    "text": "La primera limitación honesta de HYPERVORTEX concierne a la durabilidad de las nanopartículas en circuito cerrado. Las nanopartículas magnéticas tienen tendencia a la aglomeración: se atraen mutuamente y pueden formar cúmulos que modifican las propiedades del ferrofluido y obstruyen los canales finos. Los ferrofluidos estabilizados comerciales utilizan agentes de superficie (tensioactivos, ligandos orgánicos) para mantener las nanopartículas dispersas. Estos agentes de superficie se degradan con el tiempo, especialmente a temperaturas elevadas y bajo las condiciones oxidativas de un circuito presurizado. Los datos de durabilidad sobre ferrofluidos en circuito cerrado supercrítico a 10, 20 o 30 años no existen aún en la literatura publicada. Es una laguna fundamental, y toda proyección de vida útil a 30 años es actualmente una extrapolación, no una medición."
+  },
+  {
+    "type": "paragraph",
+    "style": "Quote",
+    "text": "\"Lo que no sé es mi lista de trabajo. Lo que invento para ocultar lo que no sé es mi pecado de inventor.\""
+  },
+  {
+    "type": "paragraph",
+    "style": "BodyText",
+    "text": "La segunda limitación concierne al paso de la escala de laboratorio a la escala residencial. En física de fluidos y nanomateriales, el escalamiento es notorio por producir sorpresas. Un ferrofluido que se comporta perfectamente en un tubo de 2 milímetros de diámetro puede desarrollar inestabilidades de flujo totalmente diferentes en un tubo de 2 centímetros. Los regímenes de turbulencia cambian según el número de Reynolds. Los efectos de pared que son despreciables a pequeña escala se vuelven dominantes a gran escala. E inversamente: ciertos fenómenos que parecen prometedores a escala del milímetro desaparecen cuando se agranda. El escalamiento de HYPERVORTEX de la demostración de laboratorio a la unidad residencial es un problema de ingeniería no resuelto. Eso no significa que sea insoluble. Significa que debe resolverse, no suponerse resuelto."
+  },
+  {
+    "type": "paragraph",
+    "style": "BodyText",
+    "text": "La tercera limitación —y quizás la más importante para la adopción real— es el costo de fabricación. Las nanopartículas de alta calidad son caras de producir. Las aleaciones de Heusler con composiciones precisas requieren procesos metalúrgicos rigurosos. El CO₂ supercrítico exige circuitos de alta presión con estanqueidades de calidad industrial. Los inductores multi-bobina con conmutación sincronizada son piezas de electrónica de potencia no triviales. Un sistema HYPERVORTEX residencial de primera generación costaría probablemente mucho más que los paneles solares equivalentes, quizás de 3 a 5 veces más. Esa brecha podría reducirse con los volúmenes de producción, como ocurrió con los paneles solares cuyo costo bajó un 90% entre 2010 y 2024. Pero ese proceso toma tiempo, necesita una inversión industrial masiva y supone que las proyecciones de rendimiento se confirmen a gran escala. Son tres \"si\" importantes que deben permanecer visibles."
+  },
+  {
+    "type": "paragraph",
+    "style": "CritiqueBox",
+    "text": "Autocrítica central sobre HYPERVORTEX V4.0: el proyecto podría fracasar por completo. La aglomeración de las nanopartículas en circuito cerrado a alta temperatura podría revelarse no soluble a costo razonable. Las inestabilidades de escalamiento podrían degradar el rendimiento del 65-90% teórico al 20-30% práctico, todavía útil pero menos transformador. El costo de fabricación podría no alcanzar nunca la competitividad con los paneles solares o las bombas de calor. Si HYPERVORTEX fracasa técnicamente, el principio de soberanía energética sigue siendo válido. Otras tecnologías —solar, almacenamiento distribuido, pequeños aerogeneradores urbanos— permiten una resiliencia creciente. HYPERVORTEX es una vía, no la única vía. Su fracaso eventual no liquida la idea. La reorienta hacia otras implementaciones."
+  },
+  {
+    "type": "paragraph",
+    "style": "SectionTitle",
+    "text": "La trampa del inventor"
+  },
+  {
+    "type": "paragraph",
+    "style": "BodyText",
+    "text": "Ser el inventor de una idea es una maldición cognitiva. El cerebro que engendró la idea está biológicamente poco equipado para ver sus debilidades. Ha invertido horas, noches, energía emocional en su gestación. Cada crítica se convierte en una amenaza a la identidad, no solamente a la validez de la idea. Cada problema no resuelto es minimizado, cada resultado prometedor amplificado. Los psicólogos cognitivos llaman a eso sesgo de confirmación. Los ingenieros de proyecto lo llaman el \"pensamiento de grupo del inventor\". Los inversores de capital de riesgo lo llaman \"el fundador que se enamoró de su producto\". Cualquiera sea el nombre, el efecto es el mismo: el inventor se vuelve progresivamente menos confiable como evaluador de su propia invención. Este libro fue escrito deliberadamente con ese riesgo en mente."
+  },
+  {
+    "type": "paragraph",
+    "style": "BodyText",
+    "text": "Es por esa razón que la UBLinx Open Innovation License no es solamente una elección económica. Es una elección epistémica. Al hacer la arquitectura de HYPERVORTEX públicamente accesible —al someterla a la crítica de cualquiera que quiera leerla, probarla, cuestionarla— creo las condiciones de una validación que mi propio cerebro no puede proporcionar. El proyecto open innovation no es desinterés altruista. Es ingeniería de la verificación. Si investigadores del MIT, del INRS, de Polytechnique Montréal leen estas páginas y encuentran errores fundamentales, es una victoria para el proyecto, aunque sea un fracaso para la arquitectura inicial. El conocimiento se construye sobre las correcciones, no sobre las confirmaciones."
+  },
+  {
+    "type": "paragraph",
+    "style": "BodyText",
+    "text": "La diferencia entre la especulación honesta y el charlatanismo no está en la certeza de las afirmaciones. Está en la forma en que se trata la incertidumbre. El charlatán enmascara la incertidumbre detrás de una retórica de certeza. El especulador honesto la nombra, la cuantifica en la medida de lo posible, e indica qué sería necesario para reducirla. Este capítulo forma parte de esa retórica honesta. HYPERVORTEX necesita pruebas experimentales de durabilidad de los ferrofluidos a alta temperatura en circuito cerrado: mínimo 2 000 horas de funcionamiento para un dato preliminar significativo. Necesita un estudio de escalamiento que pase de 50 mL de ferrofluido a 50 litros. Necesita un análisis de costo de fabricación realizado por ingenieros de producción independientes, no por el inventor mismo. Estos trabajos tienen un costo. Pueden realizarse en asociación con universidades, incubadoras de cleantech, o empresas del sector. Este libro es también un llamado a esos socios."
+  },
+  {
+    "type": "paragraph",
+    "style": "Separator",
+    "text": "* * *"
+  },
+  {
+    "type": "paragraph",
+    "style": "SectionTitle",
+    "text": "Por qué publicar cuando no se está seguro"
+  },
+  {
+    "type": "paragraph",
+    "style": "BodyText",
+    "text": "Una pregunta legítima merece una respuesta directa: ¿por qué publicar un libro sobre una tecnología que aún no tiene prototipo? ¿No es prematuro? ¿No es irresponsable hacia los lectores que podrían creer en una tecnología disponible de inmediato? La respuesta está en la naturaleza de este libro. No es un catálogo de productos disponibles a la venta. Es un libro de ideas, una exploración de lo que es posible, de lo que está en curso de construcción, y de lo que aún debe construirse. Harari no esperó a que todas sus hipótesis sobre Sapiens fueran probadas para publicar una visión de la historia humana. Darwin no esperó a secuenciar el genoma para proponer la teoría de la evolución. El pensamiento a menudo precede a la prueba experimental. Lo que importa es el rigor del pensamiento y la honestidad sobre lo que está probado y lo que no."
+  },
+  {
+    "type": "paragraph",
+    "style": "SectionTitle",
+    "text": "El camino hacia el prototipo: lo que debe hacerse"
+  },
+  {
+    "type": "paragraph",
+    "style": "BodyText",
+    "text": "En aras de la claridad concreta que caracteriza este libro, he aquí lo que debe ocurrir entre la publicación de estas líneas y un prototipo funcional de HYPERVORTEX V4.0. Fase 1: pruebas de durabilidad de los ferrofluidos. Hay que hacer circular un ferrofluido supercrítico dopado con óxido de grafeno en un circuito de 50 mL durante 2 000 horas a 80°C, medir la estabilidad de la suspensión cada 250 horas, caracterizar las nanopartículas antes y después por difracción de rayos X y microscopía electrónica. Costo estimado: de 40 000 a 80 000 dólares canadienses, factible en cualquier laboratorio universitario de física de materiales equipado con un autoclave. Duración: 6 meses. Fase 2: prototipo miniatura con gradiente fijo. Un circuito cerrado de 500 mL de ferrofluido, un gradiente térmico controlado de 20°C a 60°C, inductores multi-bobina con conmutación electrónica. Medición de la corriente eléctrica producida, comparación con las previsiones teóricas. Costo estimado: de 80 000 a 150 000 dólares. Duración: 12 a 18 meses."
+  },
+  {
+    "type": "paragraph",
+    "style": "BodyText",
+    "text": "Fase 3: prototipo residencial. Un circuito de 20 litros de ferrofluido supercrítico, acoplado a una fuente geotérmica de baja entalpía de 12°C y a un intercambiador de calor que simula los 35°C de un invernadero. Medición de la potencia eléctrica neta producida, del perfil de temperatura, de las vibraciones y ruidos acústicos, de la estabilidad sobre 1 000 horas continuas. Costo estimado: de 150 000 a 300 000 dólares. Duración: 18 a 24 meses. Fase 4: validación residencial real, con socios industriales. Instalación en 5 a 10 familias voluntarias, monitoreo continuo durante 24 meses, recolección de datos de rendimiento real, identificación de problemas inesperados. Solo al término de esta fase las proyecciones económicas presentadas en este libro podrán confirmarse o revisarse. Este camino es largo. Cuesta entre 500 000 y 1 000 000 de dólares. Es el precio de entrada para pasar de una idea rigurosa a una tecnología validada. No es insignificante, pero también es un orden de magnitud que programas de investigación universitaria, fondos de innovación limpia provinciales, o asociaciones industriales pueden absorber."
+  },
+  {
+    "type": "paragraph",
+    "style": "BodyText",
+    "text": "Hay una razón más práctica aún. Las grandes ideas técnicas no progresan en sótanos solitarios. Progresan por exposición pública, por colaboración con personas competentes que jamás habrían encontrado al inventor de otra manera. Si esta arquitectura de HYPERVORTEX es leída por un doctorando en física de nanomateriales que trabaja exactamente sobre el problema de durabilidad de los ferrofluidos en circuito cerrado, y contacta a Berthelotte para compartir sus resultados, el proyecto habrá avanzado más gracias a este libro que gracias a diez años de trabajo solitario. La innovación abierta no es una ideología. Es una estrategia de desarrollo. Mostrar los trabajos en curso —con sus lagunas— atrae las buenas colaboraciones. Mantenerlos en secreto protege quizás una prioridad de invención, pero retrasa el desarrollo y priva al proyecto de la fertilización cruzada que le falta."
+  },
+  {
+    "type": "paragraph",
+    "style": "Quote",
+    "text": "\"Publico porque no lo sé todo. Y porque alguien, en algún lugar, sabe exactamente lo que yo aún no sé.\" — David Berthelotte"
+  },
+  {
+    "type": "paragraph",
+    "style": "BodyText",
+    "text": "Claude Vézina en Bellechasse no sabe cómo crecieron sus tomates cherry en el mes de febrero. No en los detalles de la termodinámica magnética. Sabe que el sistema funciona, en la proyección narrativa de este libro. Sabe que sus tomates están ahí, rojos, en el frío quebequense. Y sabe que la próxima vez que la tormenta de hielo se abata sobre Bellechasse, su familia tendrá calor, sus plantas estarán protegidas, y sus vecinos, quizás, vendrán a calentarse a su casa. No porque las ecuaciones de Carnot estén resueltas al 90% de rendimiento. Porque el principio está ahí, funcional, construido sobre física real, y porque en algún punto entre la idea de Berthelotte en 2025 y el invernadero de Vézina en 2031, ingenieros, físicos, genios del bricolaje colmaron los espacios entre lo que estaba teorizado y lo que estaba construido. Así funciona la innovación. No de golpe, sino por acumulación de personas honestas que trabajan sobre piezas de un rompecabezas que alguien tuvo el coraje de dibujar entero."
+  },
+  {
+    "type": "paragraph",
+    "style": "Separator",
+    "text": "* * *"
+  },
+  {
+    "type": "paragraph",
+    "style": "SectionTitle",
+    "text": "Lo que la energía soberana fabrica primero"
+  },
+  {
+    "type": "paragraph",
+    "style": "BodyText",
+    "text": "Al final de este acto, volvamos a la cuestión de fondo. La energía soberana no es ante todo una cuestión técnica. No es un problema de ingeniería a resolver de una vez por todas. Es una elección de civilización que cada generación debe rehacer, a la luz de las tecnologías disponibles y de los peligros presentes. La generación de 1962 que eligió la nacionalización de Hydro-Québec hizo una elección justa para su tiempo. La generación de 2024 que dispone de nanotecnología, de CO₂ supercrítico, de cálculo distribuido y de contratos inteligentes puede hacer una elección diferente, no en contra de Hydro-Québec sino en complemento de ella, en diálogo con ella, reduciendo la dependencia total que hace catastrófico todo corte."
+  },
+  {
+    "type": "paragraph",
+    "style": "BodyText",
+    "text": "La energía soberana fabrica en primer lugar otra relación con el territorio. Un hogar que capta el calor de su suelo desarrolla un conocimiento de ese suelo: su profundidad, su composición, sus variaciones estacionales. Un hogar que optimiza la orientación de sus colectores solares térmicos aprende el acimut del sol en cada solsticio, la duración del día según la estación, los efectos de la sombra de los vecinos en invierno. Esos conocimientos parecen menores aisladamente. Acumulados sobre una familia, luego un barrio, luego una región, constituyen una reapropiación de la geografía local que la energía centralizada había vuelto inútil. Cuando tu calor viene de un cable anónimo, no necesitas conocer tu suelo. Cuando viene de él directamente, vuelves a ser campesino en el sentido primero del término: alguien que conoce su país."
+  },
+  {
+    "type": "paragraph",
+    "style": "BodyText",
+    "text": "La energía soberana fabrica luego otra relación con el tiempo. Un sistema HYPERVORTEX o solar térmico tiene un horizonte de amortización de 20 a 30 años. Invertir en tal sistema es plantar un árbol cuyos frutos se cosecharán durante tres décadas. Es pensar a escala de una generación, no de un ciclo tarifario anual. Esta temporalidad larga cambia algo en la relación con la casa, con el barrio, con la comunidad. No se invierten 20 000 dólares en un sistema energético con 30 años de amortización si se piensa dejar el barrio en dos años. La soberanía energética es un anclaje, en el sentido más literal del término. Ata a un lugar, en el buen sentido de la palabra atar: el que da profundidad a la existencia."
+  },
+  {
+    "type": "paragraph",
+    "style": "BodyText",
+    "text": "Y la energía soberana fabrica, en último lugar, otra relación con la política. Un ciudadano que produce una parte de su energía no vota sobre las cuestiones energéticas de la misma forma que quien solo consume. Tiene una experiencia directa de los desafíos de rendimiento, de mantenimiento, de costo, de fiabilidad. Puede distinguir una promesa electoral realista de una promesa demagógica. Puede evaluar un proyecto de red de micro-grids porque tiene una, a pequeña escala, en su barrio. Ese saber práctico es una forma de ciudadanía que la escuela no da pero que la experiencia directa construye inexorablemente. La soberanía energética no es solamente un proyecto de independencia individual. Es un proyecto de formación cívica. Quizás el más eficaz de todos, porque pasa por el cuerpo y la factura antes de pasar por la papeleta de voto."
+  },
+  {
+    "type": "paragraph",
+    "style": "SectionTitle",
+    "text": "Energía soberana y justicia climática"
+  },
+  {
+    "type": "paragraph",
+    "style": "BodyText",
+    "text": "Hay que abordar un tema que los defensores entusiastas de las tecnologías descentralizadas suelen evitar con cuidado: la relación entre soberanía energética individual y justicia climática. Si HYPERVORTEX permite a los hogares más acomodados desconectarse parcialmente de las redes públicas mientras aprovechan su estabilidad como respaldo, crea una forma de polizón institucional. Esos hogares aprovechan la infraestructura colectiva sin soportar su justa parte del costo. La solución a este problema no es prohibir la soberanía energética. Es diseñar una fiscalidad que asegure que quienes se desconectan parcialmente sigan contribuyendo al mantenimiento de la infraestructura residual. Una \"tasa de resiliencia de red\" cobrada a todos los hogares, proporcionalmente a su superficie habitable en lugar de a su consumo, financiaría el mantenimiento de la red independientemente de las elecciones energéticas individuales. No es una idea radical: es exactamente la lógica del impuesto predial para las carreteras, uno contribuye a la red vial aunque no conduzca. La red eléctrica debería seguir la misma lógica."
+  },
+  {
+    "type": "paragraph",
+    "style": "BodyText",
+    "text": "La energía soberana fabrica también —y esto puede sorprender— otra relación con el fracaso. Cuando tu energía viene de una red centralizada y esa red falla, eres víctima de un fallo de sistema. No hay nada que puedas hacer. Esperas a que el equipo de reparación intervenga. Tu rol es pasivo. Cuando tu energía viene de un sistema que posees y ese sistema falla, te enfrentas a un problema. Un problema tiene una solución. Se diagnostica, se comprende, se repara. La experiencia es radicalmente diferente. No es más agradable tener un problema que un apagón. Pero un problema involucra la inteligencia, la iniciativa, la competencia. Un apagón involucra la paciencia y la espera. A lo largo de 30 años, una familia que gestiona sus propias averías acumula un capital de competencias prácticas que una familia dependiente de la red nunca tendrá. Ese capital no tiene valor monetario directo. Tiene un valor de resiliencia que todo evento climático extremo o todo shock energético hace súbitamente visible."
+  },
+  {
+    "type": "paragraph",
+    "style": "BodyText",
+    "text": "Volvamos una última vez a Claude Vézina en Bellechasse. Su hijo Mathieu tiene 19 años. Está decidiendo si va a la universidad en ingeniería mecánica o si se queda en la granja. Creció viendo a su padre instalar y mantener el sistema. Aprendió a leer los sensores de temperatura, a interpretar los gráficos de producción del software de monitoreo, a distinguir una caída de rendimiento causada por una nube de una caída causada por un problema de circuito. Tiene 19 años y comprende mejor la termodinámica aplicada que la mayoría de los ingenieros civiles recién graduados. No porque se lo hayan enseñado en la escuela, donde solo le enseñaron las fórmulas, no las intuiciones. Sino porque vivió con el sistema desde la infancia. El saber encarnado, transmitido por la experiencia directa, es de una calidad diferente al saber académico. Ambos son necesarios. Pero el primero es raro, y su rareza lo convierte en un bien precioso. La energía soberana de la granja Vézina ha producido, de paso, un joven que sabe lo que el calor significa en sus manos tanto como en sus ecuaciones. Es quizás el mejor rendimiento del sistema."
+  },
+  {
+    "type": "paragraph",
+    "style": "Thesis",
+    "text": "El primer gesto del hombre libre, en el siglo XXI, no es tomar las armas ni firmar un manifiesto. Es producir un kilovatio-hora que no pertenece a ninguna compañía, a ninguna red, a ningún cable que conecte su hogar a una infraestructura que no controla. Es modesto. Es revolucionario. A menudo son la misma cosa."
+  },
+  {
+    "type": "paragraph",
+    "style": "ReaderQuestion",
+    "text": "Si su casa produjera el 50% de su propia energía, ¿qué haría diferente? No técnicamente, sino humanamente. ¿Cómo cambiaría su relación con el consumo, el desperdicio, la estación, el vecindario? Esta pregunta no tiene una buena respuesta universal. Pero merece ser formulada antes de comprar nada."
+  },
+  {
+    "type": "paragraph",
+    "style": "Separator",
+    "text": "* * *"
+  },
+  {
+    "type": "paragraph",
+    "style": "ActSubtitle",
+    "text": "Fin del Acto I — La Energía"
+  },
+  {
+    "type": "paragraph",
+    "style": "ActSubtitle",
+    "text": "El Acto II explora la soberanía de la inteligencia digital: Gen_Home."
+  },
+  {
+    "type": "pageBreak"
+  }
+]

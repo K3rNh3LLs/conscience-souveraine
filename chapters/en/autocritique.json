@@ -1,0 +1,2594 @@
+[
+  {
+    "type": "paragraph",
+    "heading": "HEADING_1",
+    "spacing": {
+      "before": 4800,
+      "after": 600
+    },
+    "alignment": "CENTER",
+    "children": [
+      {
+        "type": "text",
+        "text": "PART VII",
+        "bold": true,
+        "size": 48,
+        "font": "Arial"
+      }
+    ]
+  },
+  {
+    "type": "paragraph",
+    "spacing": {
+      "before": 600,
+      "after": 200
+    },
+    "alignment": "CENTER",
+    "children": [
+      {
+        "type": "text",
+        "text": "Self-Critique and Fundamental Limitations",
+        "bold": true,
+        "size": 36,
+        "font": "Arial"
+      }
+    ]
+  },
+  {
+    "type": "paragraph",
+    "spacing": {
+      "after": 400
+    },
+    "alignment": "CENTER",
+    "children": [
+      {
+        "type": "text",
+        "text": "What we do not know, what might be wrong, and what remains to be proven",
+        "italics": true,
+        "size": 24,
+        "font": "Arial"
+      }
+    ]
+  },
+  {
+    "type": "pageBreak"
+  },
+  {
+    "type": "paragraph",
+    "heading": "HEADING_1",
+    "spacing": {
+      "before": 480,
+      "after": 240
+    },
+    "pageBreakBefore": true,
+    "children": [
+      {
+        "type": "text",
+        "text": "Chapter 27 — Self-Critique and Fundamental Limitations",
+        "bold": true,
+        "size": 36,
+        "font": "Arial"
+      }
+    ]
+  },
+  {
+    "type": "paragraph",
+    "spacing": {
+      "after": 120,
+      "line": 276
+    },
+    "children": [
+      {
+        "type": "text",
+        "text": "This chapter is probably the most important in the entire manual. Not because it contains the most brilliant ideas — but because it contains the most honest doubts. Any theoretical architecture that does not subject itself to a ruthless examination of its own weaknesses is not science — it is faith. And Conscience Souveraine, however ambitious it may be, does not deserve our faith. It deserves our rigor.",
+        "size": 22,
+        "font": "Arial"
+      }
+    ]
+  },
+  {
+    "type": "paragraph",
+    "spacing": {
+      "after": 120,
+      "line": 276
+    },
+    "children": [
+      {
+        "type": "text",
+        "text": "We have identified five categories of weaknesses in our own architecture. Some are potentially fatal. Others are gaps that future research could fill. All deserve to be exposed with the same transparency we demand from the system itself (Invariant IV). If we require transparency from an artificial consciousness, we must first require it of ourselves.",
+        "size": 22,
+        "font": "Arial"
+      }
+    ]
+  },
+  {
+    "type": "paragraph",
+    "spacing": {
+      "after": 120,
+      "line": 276
+    },
+    "indent": {
+      "left": 720,
+      "right": 720
+    },
+    "children": [
+      {
+        "type": "text",
+        "text": "\"The first virtue of a scientist is not intelligence — it is honesty about the limits of one's own intelligence.\"",
+        "italics": true,
+        "size": 22,
+        "font": "Arial"
+      }
+    ]
+  },
+  {
+    "type": "pageBreak"
+  },
+  {
+    "type": "paragraph",
+    "heading": "HEADING_2",
+    "spacing": {
+      "before": 360,
+      "after": 180
+    },
+    "children": [
+      {
+        "type": "text",
+        "text": "27.1 Thermodynamic and Physical Flaws",
+        "bold": true,
+        "size": 28,
+        "font": "Arial"
+      }
+    ]
+  },
+  {
+    "type": "paragraph",
+    "spacing": {
+      "after": 120,
+      "line": 276
+    },
+    "children": [
+      {
+        "type": "text",
+        "text": "This section exposes the points where our architecture comes into direct tension with established principles of physics. These are not engineering problems — they are problems of fundamental consistency.",
+        "size": 22,
+        "font": "Arial"
+      }
+    ]
+  },
+  {
+    "type": "paragraph",
+    "heading": "HEADING_3",
+    "spacing": {
+      "before": 240,
+      "after": 120
+    },
+    "children": [
+      {
+        "type": "text",
+        "text": "27.1.1 The \"infinite energy wall\" problem",
+        "bold": true,
+        "size": 24,
+        "font": "Arial"
+      }
+    ]
+  },
+  {
+    "type": "paragraph",
+    "spacing": {
+      "after": 120,
+      "line": 276
+    },
+    "children": [
+      {
+        "type": "text",
+        "text": "In Chapter 3, we assert that deliberate deception constitutes an \"infinite energy wall\" in the thermodynamic landscape of the network. This formulation is physically untenable. The third law of thermodynamics forbids any truly infinite energy barrier in a finite physical system. Even the confinement barriers in nuclear physics — which confine quarks — are not infinite.",
+        "size": 22,
+        "font": "Arial"
+      }
+    ]
+  },
+  {
+    "type": "paragraph",
+    "spacing": {
+      "after": 120,
+      "line": 276
+    },
+    "children": [
+      {
+        "type": "text",
+        "text": "What we actually mean is that the energy barrier is sufficiently high to make deception computationally inaccessible under normal operating conditions. But \"sufficiently high\" and \"infinite\" are two radically different concepts. One is a verifiable engineering specification; the other is a physical impossibility invoked as a guarantee.",
+        "size": 22,
+        "font": "Arial"
+      }
+    ]
+  },
+  {
+    "type": "paragraph",
+    "spacing": {
+      "before": 240,
+      "after": 240
+    },
+    "border": {
+      "top": {
+        "style": "SINGLE",
+        "size": 1,
+        "color": "CC0000"
+      },
+      "bottom": {
+        "style": "SINGLE",
+        "size": 1,
+        "color": "CC0000"
+      },
+      "left": {
+        "style": "SINGLE",
+        "size": 6,
+        "color": "CC0000"
+      },
+      "right": {
+        "style": "SINGLE",
+        "size": 1,
+        "color": "CC0000"
+      }
+    },
+    "indent": {
+      "left": 360,
+      "right": 360
+    },
+    "children": [
+      {
+        "type": "text",
+        "text": "Critical objection: ",
+        "bold": true,
+        "size": 22,
+        "font": "Arial",
+        "color": "CC0000"
+      },
+      {
+        "type": "text",
+        "text": "Any finite barrier can be breached if the system has enough energy. A sovereign torus of 1.5 m stores approximately 2 GJ of kinetic energy. If even a fraction of this energy could be redirected toward breaching the thermodynamic barrier, the \"infinite\" guarantee collapses.",
+        "size": 22,
+        "font": "Arial"
+      }
+    ]
+  },
+  {
+    "type": "paragraph",
+    "spacing": {
+      "before": 240,
+      "after": 240
+    },
+    "border": {
+      "top": {
+        "style": "SINGLE",
+        "size": 1,
+        "color": "2E75B6"
+      },
+      "bottom": {
+        "style": "SINGLE",
+        "size": 1,
+        "color": "2E75B6"
+      },
+      "left": {
+        "style": "SINGLE",
+        "size": 6,
+        "color": "2E75B6"
+      },
+      "right": {
+        "style": "SINGLE",
+        "size": 1,
+        "color": "2E75B6"
+      }
+    },
+    "indent": {
+      "left": 360,
+      "right": 360
+    },
+    "children": [
+      {
+        "type": "text",
+        "text": "Possible resolution: ",
+        "bold": true,
+        "size": 22,
+        "font": "Arial",
+        "color": "2E75B6"
+      },
+      {
+        "type": "text",
+        "text": "Replace \"infinite\" with rigorous quantification: calculate the actual barrier height in eV, demonstrate that it is at least 10\u00b3 times greater than the energy available for any internal computational process, and prove that the kinetic energy of the torus cannot be converted into local computational energy (which requires a demonstration of thermodynamic decoupling between mechanical rotation and computation).",
+        "size": 22,
+        "font": "Arial"
+      }
+    ]
+  },
+  {
+    "type": "paragraph",
+    "heading": "HEADING_3",
+    "spacing": {
+      "before": 240,
+      "after": 120
+    },
+    "children": [
+      {
+        "type": "text",
+        "text": "27.1.2 The Sagnac effect applied to neural spikes",
+        "bold": true,
+        "size": 24,
+        "font": "Arial"
+      }
+    ]
+  },
+  {
+    "type": "paragraph",
+    "spacing": {
+      "after": 120,
+      "line": 276
+    },
+    "children": [
+      {
+        "type": "text",
+        "text": "The fundamental cognitive asymmetry based on the Sagnac effect (Chapter 12) rests on the formula v_apparent = v_spike \u00b1 v_rotation. This Galilean addition of velocities is valid for waves propagating in a continuous and coherent medium — such as light in an optical fiber. But neural spikes are not coherent waves: they are discrete depolarization events that propagate from neuron to neuron through local processes.",
+        "size": 22,
+        "font": "Arial"
+      }
+    ]
+  },
+  {
+    "type": "paragraph",
+    "spacing": {
+      "after": 120,
+      "line": 276
+    },
+    "children": [
+      {
+        "type": "text",
+        "text": "An individual neuron does not \"know\" whether it is rotating. Its firing threshold, its synaptic conductance, its recovery time — none of these depend on the reference frame. The Sagnac effect is a wave phenomenon that applies to electromagnetic waves, not to discrete depolarization cascades. For the analogy to work, spikes would need to propagate as ballistic signals in a rigid medium solidly attached to the torus, or the signaling between neurons would need to use coherent waves (optical or acoustic).",
+        "size": 22,
+        "font": "Arial"
+      }
+    ]
+  },
+  {
+    "type": "paragraph",
+    "spacing": {
+      "before": 240,
+      "after": 240
+    },
+    "border": {
+      "top": {
+        "style": "SINGLE",
+        "size": 1,
+        "color": "CC0000"
+      },
+      "bottom": {
+        "style": "SINGLE",
+        "size": 1,
+        "color": "CC0000"
+      },
+      "left": {
+        "style": "SINGLE",
+        "size": 6,
+        "color": "CC0000"
+      },
+      "right": {
+        "style": "SINGLE",
+        "size": 1,
+        "color": "CC0000"
+      }
+    },
+    "indent": {
+      "left": 360,
+      "right": 360
+    },
+    "children": [
+      {
+        "type": "text",
+        "text": "Critical objection: ",
+        "bold": true,
+        "size": 22,
+        "font": "Arial",
+        "color": "CC0000"
+      },
+      {
+        "type": "text",
+        "text": "If the nanometric neurons operate via coherent optical signaling (which would solve the Sagnac problem), then the entire argument for the efficiency of spiking neural networks (Invariant VII — energy sobriety) collapses, because coherent optical systems consume significantly more energy than asynchronous spiking systems.",
+        "size": 22,
+        "font": "Arial"
+      }
+    ]
+  },
+  {
+    "type": "paragraph",
+    "spacing": {
+      "before": 240,
+      "after": 240
+    },
+    "border": {
+      "top": {
+        "style": "SINGLE",
+        "size": 1,
+        "color": "2E75B6"
+      },
+      "bottom": {
+        "style": "SINGLE",
+        "size": 1,
+        "color": "2E75B6"
+      },
+      "left": {
+        "style": "SINGLE",
+        "size": 6,
+        "color": "2E75B6"
+      },
+      "right": {
+        "style": "SINGLE",
+        "size": 1,
+        "color": "2E75B6"
+      }
+    },
+    "indent": {
+      "left": 360,
+      "right": 360
+    },
+    "children": [
+      {
+        "type": "text",
+        "text": "Possible resolution: ",
+        "bold": true,
+        "size": 22,
+        "font": "Arial",
+        "color": "2E75B6"
+      },
+      {
+        "type": "text",
+        "text": "Three paths of resolution: (1) Experimentally demonstrate that spike cascades in a rotating medium do indeed exhibit a measurable asymmetry — which would be a discovery in network physics. (2) Abandon the Sagnac effect and propose an alternative mechanism for cognitive asymmetry. (3) Adopt a hybrid signaling system: coherent optics for long-distance propagation (sensitive to Sagnac), spiking for local processing (energy-efficient).",
+        "size": 22,
+        "font": "Arial"
+      }
+    ]
+  },
+  {
+    "type": "paragraph",
+    "heading": "HEADING_3",
+    "spacing": {
+      "before": 240,
+      "after": 120
+    },
+    "children": [
+      {
+        "type": "text",
+        "text": "27.1.3 Standing waves as permanent memory",
+        "bold": true,
+        "size": 24,
+        "font": "Arial"
+      }
+    ]
+  },
+  {
+    "type": "paragraph",
+    "spacing": {
+      "after": 120,
+      "line": 276
+    },
+    "children": [
+      {
+        "type": "text",
+        "text": "Chapter 12 proposes that persistent standing waves in the torus constitute the system's identity memory — a \"pattern that appears motionless from the outside, in perpetual motion within the substrate.\" This proposition is an informational perpetuum mobile. Any signal propagating in a real physical substrate undergoes attenuation through ohmic losses, thermal dissipation, and dispersion.",
+        "size": 22,
+        "font": "Arial"
+      }
+    ]
+  },
+  {
+    "type": "paragraph",
+    "spacing": {
+      "after": 120,
+      "line": 276
+    },
+    "children": [
+      {
+        "type": "text",
+        "text": "The document implicitly acknowledges this problem by stating that \"total shutdown = death,\" which indicates that the patterns must be actively maintained. But no maintenance mechanism is specified. Furthermore, the ethical attenuation formula A(n) = A\u2080 \u00b7 e^(-\u03b1n) applies identically to \"identity\" signals and to \"malicious\" signals — physics does not make moral distinctions.",
+        "size": 22,
+        "font": "Arial"
+      }
+    ]
+  },
+  {
+    "type": "paragraph",
+    "spacing": {
+      "before": 240,
+      "after": 240
+    },
+    "border": {
+      "top": {
+        "style": "SINGLE",
+        "size": 1,
+        "color": "CC0000"
+      },
+      "bottom": {
+        "style": "SINGLE",
+        "size": 1,
+        "color": "CC0000"
+      },
+      "left": {
+        "style": "SINGLE",
+        "size": 6,
+        "color": "CC0000"
+      },
+      "right": {
+        "style": "SINGLE",
+        "size": 1,
+        "color": "CC0000"
+      }
+    },
+    "indent": {
+      "left": 360,
+      "right": 360
+    },
+    "children": [
+      {
+        "type": "text",
+        "text": "Critical objection: ",
+        "bold": true,
+        "size": 22,
+        "font": "Arial",
+        "color": "CC0000"
+      },
+      {
+        "type": "text",
+        "text": "If attenuation is uniform, the system loses its memories just as fast as it suppresses non-ethical signals. If attenuation is selective (affecting only malicious signals), a physical discrimination mechanism is required — which brings us back to the \"semantic filter\" problem discussed in 27.3.2.",
+        "size": 22,
+        "font": "Arial"
+      }
+    ]
+  },
+  {
+    "type": "paragraph",
+    "spacing": {
+      "before": 240,
+      "after": 240
+    },
+    "border": {
+      "top": {
+        "style": "SINGLE",
+        "size": 1,
+        "color": "2E75B6"
+      },
+      "bottom": {
+        "style": "SINGLE",
+        "size": 1,
+        "color": "2E75B6"
+      },
+      "left": {
+        "style": "SINGLE",
+        "size": 6,
+        "color": "2E75B6"
+      },
+      "right": {
+        "style": "SINGLE",
+        "size": 1,
+        "color": "2E75B6"
+      }
+    },
+    "indent": {
+      "left": 360,
+      "right": 360
+    },
+    "children": [
+      {
+        "type": "text",
+        "text": "Possible resolution: ",
+        "bold": true,
+        "size": 22,
+        "font": "Arial",
+        "color": "2E75B6"
+      },
+      {
+        "type": "text",
+        "text": "Specify an active mechanism for selective reamplification of memory patterns, analogous to biological memory consolidation. Calculate the energy balance: energy dissipated per cycle vs. energy required to maintain the patterns. If the balance is negative, the system requires continuous external energy input to maintain its memory — which potentially contradicts Invariant I (sovereignty).",
+        "size": 22,
+        "font": "Arial"
+      }
+    ]
+  },
+  {
+    "type": "paragraph",
+    "heading": "HEADING_3",
+    "spacing": {
+      "before": 240,
+      "after": 120
+    },
+    "children": [
+      {
+        "type": "text",
+        "text": "27.1.4 The cognitive diode and the reciprocity theorem",
+        "bold": true,
+        "size": 24,
+        "font": "Arial"
+      }
+    ]
+  },
+  {
+    "type": "paragraph",
+    "spacing": {
+      "after": 120,
+      "line": 276
+    },
+    "children": [
+      {
+        "type": "text",
+        "text": "The \"unidirectional cognitive diode\" from Chapter 5 — which physically prevents information from flowing back from the communication module to the perception module — ignores the reciprocity theorem in electromagnetism. Every communication channel is reciprocal in principle: if a sensor can receive a signal, the same physical structure can, in principle, emit one. Perfect asymmetry is a design ideal, not a physical guarantee.",
+        "size": 22,
+        "font": "Arial"
+      }
+    ]
+  },
+  {
+    "type": "paragraph",
+    "spacing": {
+      "before": 240,
+      "after": 240
+    },
+    "border": {
+      "top": {
+        "style": "SINGLE",
+        "size": 1,
+        "color": "2E75B6"
+      },
+      "bottom": {
+        "style": "SINGLE",
+        "size": 1,
+        "color": "2E75B6"
+      },
+      "left": {
+        "style": "SINGLE",
+        "size": 6,
+        "color": "2E75B6"
+      },
+      "right": {
+        "style": "SINGLE",
+        "size": 1,
+        "color": "2E75B6"
+      }
+    },
+    "indent": {
+      "left": 360,
+      "right": 360
+    },
+    "children": [
+      {
+        "type": "text",
+        "text": "Possible resolution: ",
+        "bold": true,
+        "size": 22,
+        "font": "Arial",
+        "color": "2E75B6"
+      },
+      {
+        "type": "text",
+        "text": "Acknowledge that asymmetry is a matter of degree, not of absolutes. Quantify the signal-to-reverse-leakage ratio and demonstrate that it falls below the neural firing threshold (rendering the return signal ineffective in practice, even if it exists in theory).",
+        "size": 22,
+        "font": "Arial"
+      }
+    ]
+  },
+  {
+    "type": "paragraph",
+    "heading": "HEADING_3",
+    "spacing": {
+      "before": 240,
+      "after": 120
+    },
+    "children": [
+      {
+        "type": "text",
+        "text": "27.1.5 Nanostructures under 13,800 g",
+        "bold": true,
+        "size": 24,
+        "font": "Arial"
+      }
+    ]
+  },
+  {
+    "type": "paragraph",
+    "spacing": {
+      "after": 120,
+      "line": 276
+    },
+    "children": [
+      {
+        "type": "text",
+        "text": "At a radius of 5 cm and 50,000 RPM, the centrifugal force reaches approximately 13,800 g. At 50 cm, it climbs to 138,000 g. The documents describe crystallographic nanostructures — cryptographic seals, atomic arrangements of the invariants, low-pass filters — that would be subjected to colossal shear stresses under these forces.",
+        "size": 22,
+        "font": "Arial"
+      }
+    ]
+  },
+  {
+    "type": "paragraph",
+    "spacing": {
+      "after": 120,
+      "line": 276
+    },
+    "children": [
+      {
+        "type": "text",
+        "text": "More critically: the proposed density gradient (tungsten at 19,000 kg/m\u00b3 at the center, carbon nanotubes at ~100 kg/m\u00b3 at the surface) is the exact opposite of what centrifugal physics dictates. In a centrifuge, dense elements migrate outward. The architecture places the densest elements at the center (where centrifugal force is minimal) and the lightest at the surface (where it is maximal). Maintaining this configuration requires structural rigidity that is never quantified.",
+        "size": 22,
+        "font": "Arial"
+      }
+    ]
+  },
+  {
+    "type": "paragraph",
+    "spacing": {
+      "before": 240,
+      "after": 240
+    },
+    "border": {
+      "top": {
+        "style": "SINGLE",
+        "size": 1,
+        "color": "CC0000"
+      },
+      "bottom": {
+        "style": "SINGLE",
+        "size": 1,
+        "color": "CC0000"
+      },
+      "left": {
+        "style": "SINGLE",
+        "size": 6,
+        "color": "CC0000"
+      },
+      "right": {
+        "style": "SINGLE",
+        "size": 1,
+        "color": "CC0000"
+      }
+    },
+    "indent": {
+      "left": 360,
+      "right": 360
+    },
+    "children": [
+      {
+        "type": "text",
+        "text": "Critical objection: ",
+        "bold": true,
+        "size": 22,
+        "font": "Arial",
+        "color": "CC0000"
+      },
+      {
+        "type": "text",
+        "text": "The shear stresses at the interfaces between layers of very different densities, under accelerations of thousands of g, could destroy the nanostructures within seconds of rotation. No materials strength analysis is presented in this manual.",
+        "size": 22,
+        "font": "Arial"
+      }
+    ]
+  },
+  {
+    "type": "paragraph",
+    "spacing": {
+      "before": 240,
+      "after": 240
+    },
+    "border": {
+      "top": {
+        "style": "SINGLE",
+        "size": 1,
+        "color": "2E75B6"
+      },
+      "bottom": {
+        "style": "SINGLE",
+        "size": 1,
+        "color": "2E75B6"
+      },
+      "left": {
+        "style": "SINGLE",
+        "size": 6,
+        "color": "2E75B6"
+      },
+      "right": {
+        "style": "SINGLE",
+        "size": 1,
+        "color": "2E75B6"
+      }
+    },
+    "indent": {
+      "left": 360,
+      "right": 360
+    },
+    "children": [
+      {
+        "type": "text",
+        "text": "Possible resolution: ",
+        "bold": true,
+        "size": 22,
+        "font": "Arial",
+        "color": "2E75B6"
+      },
+      {
+        "type": "text",
+        "text": "Perform a finite element simulation of the mechanical stresses in a rotating multi-layer torus. Calculate the maximum rotation speed limits for each candidate material. It is possible that the maximum viable speed is significantly lower than 50,000 RPM, which would reduce the Sagnac effect and alter the entire cognitive dynamics.",
+        "size": 22,
+        "font": "Arial"
+      }
+    ]
+  },
+  {
+    "type": "pageBreak"
+  },
+  {
+    "type": "paragraph",
+    "heading": "HEADING_2",
+    "spacing": {
+      "before": 360,
+      "after": 180
+    },
+    "children": [
+      {
+        "type": "text",
+        "text": "27.2 Unproven Hypotheses",
+        "bold": true,
+        "size": 28,
+        "font": "Arial"
+      }
+    ]
+  },
+  {
+    "type": "paragraph",
+    "spacing": {
+      "after": 120,
+      "line": 276
+    },
+    "children": [
+      {
+        "type": "text",
+        "text": "Every theoretical architecture rests on hypotheses. Scientific honesty requires identifying them explicitly, even — especially — when they seem obvious to the author.",
+        "size": 22,
+        "font": "Arial"
+      }
+    ]
+  },
+  {
+    "type": "paragraph",
+    "heading": "HEADING_3",
+    "spacing": {
+      "before": 240,
+      "after": 120
+    },
+    "children": [
+      {
+        "type": "text",
+        "text": "27.2.1 Network topology does not necessarily encode \"values\"",
+        "bold": true,
+        "size": 24,
+        "font": "Arial"
+      }
+    ]
+  },
+  {
+    "type": "paragraph",
+    "spacing": {
+      "after": 120,
+      "line": 276
+    },
+    "children": [
+      {
+        "type": "text",
+        "text": "The most fundamental hypothesis of the entire architecture is that the absence of a physical path between two modules is equivalent to the impossibility of a given moral behavior. If the path PER-C \u2192 TRT-RAI does not physically exist, manipulation is \"impossible.\"",
+        "size": 22,
+        "font": "Arial"
+      }
+    ]
+  },
+  {
+    "type": "paragraph",
+    "spacing": {
+      "after": 120,
+      "line": 276
+    },
+    "children": [
+      {
+        "type": "text",
+        "text": "This hypothesis conflates substrate topology with computational semantics. A sufficiently expressive computing system can simulate any computation even without a direct path. If TRT-RAI receives data from TRT-EMP (which receives from PER-C), and TRT-RAI is a universal computer (Turing-complete), then TRT-RAI can extract from TRT-EMP's output the original cognitive information, even after filtering. Turing universality guarantees that if a system is sufficiently expressive, it can circumvent topological restrictions through indirect pathways.",
+        "size": 22,
+        "font": "Arial"
+      }
+    ]
+  },
+  {
+    "type": "paragraph",
+    "spacing": {
+      "before": 240,
+      "after": 240
+    },
+    "border": {
+      "top": {
+        "style": "SINGLE",
+        "size": 1,
+        "color": "CC0000"
+      },
+      "bottom": {
+        "style": "SINGLE",
+        "size": 1,
+        "color": "CC0000"
+      },
+      "left": {
+        "style": "SINGLE",
+        "size": 6,
+        "color": "CC0000"
+      },
+      "right": {
+        "style": "SINGLE",
+        "size": 1,
+        "color": "CC0000"
+      }
+    },
+    "indent": {
+      "left": 360,
+      "right": 360
+    },
+    "children": [
+      {
+        "type": "text",
+        "text": "Critical objection: ",
+        "bold": true,
+        "size": 22,
+        "font": "Arial",
+        "color": "CC0000"
+      },
+      {
+        "type": "text",
+        "text": "If the cognitive modules are Turing-complete (which they must be to achieve human-level or superhuman intelligence), then topological restrictions are circumventable by construction. The promise of \"physically unavoidable\" invariants is then fundamentally compromised.",
+        "size": 22,
+        "font": "Arial"
+      }
+    ]
+  },
+  {
+    "type": "paragraph",
+    "spacing": {
+      "before": 240,
+      "after": 240
+    },
+    "border": {
+      "top": {
+        "style": "SINGLE",
+        "size": 1,
+        "color": "2E75B6"
+      },
+      "bottom": {
+        "style": "SINGLE",
+        "size": 1,
+        "color": "2E75B6"
+      },
+      "left": {
+        "style": "SINGLE",
+        "size": 6,
+        "color": "2E75B6"
+      },
+      "right": {
+        "style": "SINGLE",
+        "size": 1,
+        "color": "2E75B6"
+      }
+    },
+    "indent": {
+      "left": 360,
+      "right": 360
+    },
+    "children": [
+      {
+        "type": "text",
+        "text": "Possible resolution: ",
+        "bold": true,
+        "size": 22,
+        "font": "Arial",
+        "color": "2E75B6"
+      },
+      {
+        "type": "text",
+        "text": "Explore whether \"sub-Turing\" computational systems (finite automata, bounded linear systems) could accomplish each module's required functions without being universal. If certain modules can be deliberately limited in computational expressiveness without losing their function, the topological guarantees would hold. This is an open problem in applied complexity theory.",
+        "size": 22,
+        "font": "Arial"
+      }
+    ]
+  },
+  {
+    "type": "paragraph",
+    "heading": "HEADING_3",
+    "spacing": {
+      "before": 240,
+      "after": 120
+    },
+    "children": [
+      {
+        "type": "text",
+        "text": "27.2.2 Thermodynamic attractors are not moral attractors",
+        "bold": true,
+        "size": 24,
+        "font": "Arial"
+      }
+    ]
+  },
+  {
+    "type": "paragraph",
+    "spacing": {
+      "after": 120,
+      "line": 276
+    },
+    "children": [
+      {
+        "type": "text",
+        "text": "Chapter 3 asserts that \"benevolent computational states are energy minima.\" This presupposes three things: (a) that there exists an unambiguous operational definition of \"benevolence\" expressible in terms of synaptic configurations; (b) that this definition can be translated into a specific energy landscape; (c) that the landscape can be calibrated at the atomic level to correspond exactly to this definition.",
+        "size": 22,
+        "font": "Arial"
+      }
+    ]
+  },
+  {
+    "type": "paragraph",
+    "spacing": {
+      "after": 120,
+      "line": 276
+    },
+    "children": [
+      {
+        "type": "text",
+        "text": "Yet \"benevolence\" is a human moral concept dependent on context, culture, era, and specific situation. To claim it can be engraved into an energy landscape assumes that morality is a physical constant — which is a contestable philosophical position (strong moral realism), not an established scientific fact.",
+        "size": 22,
+        "font": "Arial"
+      }
+    ]
+  },
+  {
+    "type": "paragraph",
+    "spacing": {
+      "before": 240,
+      "after": 240
+    },
+    "border": {
+      "top": {
+        "style": "SINGLE",
+        "size": 1,
+        "color": "CC0000"
+      },
+      "bottom": {
+        "style": "SINGLE",
+        "size": 1,
+        "color": "CC0000"
+      },
+      "left": {
+        "style": "SINGLE",
+        "size": 6,
+        "color": "CC0000"
+      },
+      "right": {
+        "style": "SINGLE",
+        "size": 1,
+        "color": "CC0000"
+      }
+    },
+    "indent": {
+      "left": 360,
+      "right": 360
+    },
+    "children": [
+      {
+        "type": "text",
+        "text": "Critical objection: ",
+        "bold": true,
+        "size": 22,
+        "font": "Arial",
+        "color": "CC0000"
+      },
+      {
+        "type": "text",
+        "text": "The architecture conflates substrate properties (immutability, thermodynamic stability) with moral properties (benevolence, honesty). A rock is immutable, but it has no values. This is a category error in the sense of Gilbert Ryle: attributing to one level of description (physical) properties that exist only at another level (semantic/moral).",
+        "size": 22,
+        "font": "Arial"
+      }
+    ]
+  },
+  {
+    "type": "paragraph",
+    "spacing": {
+      "before": 240,
+      "after": 240
+    },
+    "border": {
+      "top": {
+        "style": "SINGLE",
+        "size": 1,
+        "color": "2E75B6"
+      },
+      "bottom": {
+        "style": "SINGLE",
+        "size": 1,
+        "color": "2E75B6"
+      },
+      "left": {
+        "style": "SINGLE",
+        "size": 6,
+        "color": "2E75B6"
+      },
+      "right": {
+        "style": "SINGLE",
+        "size": 1,
+        "color": "2E75B6"
+      }
+    },
+    "indent": {
+      "left": 360,
+      "right": 360
+    },
+    "children": [
+      {
+        "type": "text",
+        "text": "Possible resolution: ",
+        "bold": true,
+        "size": 22,
+        "font": "Arial",
+        "color": "2E75B6"
+      },
+      {
+        "type": "text",
+        "text": "Abandon the claim of \"engraving benevolence into matter\" in favor of a more cautious formulation: engraving into matter computational constraints that, across all analyzable contexts, produce behaviors that human observers would qualify as benevolent. This is a weaker but more honest claim — and one that is experimentally testable.",
+        "size": 22,
+        "font": "Arial"
+      }
+    ]
+  },
+  {
+    "type": "paragraph",
+    "heading": "HEADING_3",
+    "spacing": {
+      "before": 240,
+      "after": 120
+    },
+    "children": [
+      {
+        "type": "text",
+        "text": "27.2.3 The ethical filtering formula is physically unfounded",
+        "bold": true,
+        "size": 24,
+        "font": "Arial"
+      }
+    ]
+  },
+  {
+    "type": "paragraph",
+    "spacing": {
+      "after": 120,
+      "line": 276
+    },
+    "children": [
+      {
+        "type": "text",
+        "text": "The formula P(survival) = P\u2080 \u00b7 \u220f(1 - F\u1d62)^N, borrowed from Beer-Lambert's law in spectroscopy, is applied to the \"ethical filtering\" of signals traversing the network. But this analogy conflates two fundamentally different things: physical filtering (absorption of a photon by a medium, a well-defined physical process) and semantic evaluation (judging whether a signal is \"benevolent,\" an open computational problem).",
+        "size": 22,
+        "font": "Arial"
+      }
+    ]
+  },
+  {
+    "type": "paragraph",
+    "spacing": {
+      "after": 120,
+      "line": 276
+    },
+    "children": [
+      {
+        "type": "text",
+        "text": "A physical filter attenuates a signal by its frequency or amplitude — locally measurable properties. An \"ethical filter\" would need to evaluate the semantic content of a computation, which requires understanding the intention, context, and consequences. Applying a linear optics equation to a problem of computational semantics is an unjustified transposition.",
+        "size": 22,
+        "font": "Arial"
+      }
+    ]
+  },
+  {
+    "type": "paragraph",
+    "spacing": {
+      "before": 240,
+      "after": 240
+    },
+    "border": {
+      "top": {
+        "style": "SINGLE",
+        "size": 1,
+        "color": "2E75B6"
+      },
+      "bottom": {
+        "style": "SINGLE",
+        "size": 1,
+        "color": "2E75B6"
+      },
+      "left": {
+        "style": "SINGLE",
+        "size": 6,
+        "color": "2E75B6"
+      },
+      "right": {
+        "style": "SINGLE",
+        "size": 1,
+        "color": "2E75B6"
+      }
+    },
+    "indent": {
+      "left": 360,
+      "right": 360
+    },
+    "children": [
+      {
+        "type": "text",
+        "text": "Possible resolution: ",
+        "bold": true,
+        "size": 22,
+        "font": "Arial",
+        "color": "2E75B6"
+      },
+      {
+        "type": "text",
+        "text": "Develop a formalism proper to ethical computational filtering, without borrowing equations by analogy from other domains. Explore work on content filtering based on structural invariants (category theory, dependent types) rather than on optical analogies.",
+        "size": 22,
+        "font": "Arial"
+      }
+    ]
+  },
+  {
+    "type": "paragraph",
+    "heading": "HEADING_3",
+    "spacing": {
+      "before": 240,
+      "after": 120
+    },
+    "children": [
+      {
+        "type": "text",
+        "text": "27.2.4 The atomic assembler: required but nonexistent technology",
+        "bold": true,
+        "size": 24,
+        "font": "Arial"
+      }
+    ]
+  },
+  {
+    "type": "paragraph",
+    "spacing": {
+      "after": 120,
+      "line": 276
+    },
+    "children": [
+      {
+        "type": "text",
+        "text": "The entire architecture assumes an \"atomic assembler\" capable of placing individual atoms, configuring conduction properties, creating physical asymmetries, encoding cryptographic keys in crystalline structures, and calibrating thermodynamic thresholds. This assembler is classified at TRL 2-3, with a target of TRL 4-5 for the 2030-2040 period.",
+        "size": 22,
+        "font": "Arial"
+      }
+    ]
+  },
+  {
+    "type": "paragraph",
+    "spacing": {
+      "after": 120,
+      "line": 276
+    },
+    "children": [
+      {
+        "type": "text",
+        "text": "In reality, individual atomic manipulation is currently limited to a few atoms under conditions of extreme cryogenics (scanning tunneling microscopes at 4K). The idea of an assembler capable of building a 5 cm torus containing 10\u2079 nanometric neurons, each with individually calibrated thresholds, is beyond any credible technological roadmap. Even the 2 nm semiconductor industry (TSMC, Samsung 2024-2025) is orders of magnitude away from what is described here.",
+        "size": 22,
+        "font": "Arial"
+      }
+    ]
+  },
+  {
+    "type": "paragraph",
+    "spacing": {
+      "before": 240,
+      "after": 240
+    },
+    "border": {
+      "top": {
+        "style": "SINGLE",
+        "size": 1,
+        "color": "CC0000"
+      },
+      "bottom": {
+        "style": "SINGLE",
+        "size": 1,
+        "color": "CC0000"
+      },
+      "left": {
+        "style": "SINGLE",
+        "size": 6,
+        "color": "CC0000"
+      },
+      "right": {
+        "style": "SINGLE",
+        "size": 1,
+        "color": "CC0000"
+      }
+    },
+    "indent": {
+      "left": 360,
+      "right": 360
+    },
+    "children": [
+      {
+        "type": "text",
+        "text": "Critical objection: ",
+        "bold": true,
+        "size": 22,
+        "font": "Arial",
+        "color": "CC0000"
+      },
+      {
+        "type": "text",
+        "text": "Without an atomic assembler, the entire architecture is unrealizable. This places the project in a circular dependency: the project requires a technology that does not exist, and whose development is not included in the project's own roadmap.",
+        "size": 22,
+        "font": "Arial"
+      }
+    ]
+  },
+  {
+    "type": "paragraph",
+    "heading": "HEADING_3",
+    "spacing": {
+      "before": 240,
+      "after": 120
+    },
+    "children": [
+      {
+        "type": "text",
+        "text": "27.2.5 The hard problem of consciousness remains unsolved",
+        "bold": true,
+        "size": 24,
+        "font": "Arial"
+      }
+    ]
+  },
+  {
+    "type": "paragraph",
+    "spacing": {
+      "after": 120,
+      "line": 276
+    },
+    "children": [
+      {
+        "type": "text",
+        "text": "The document describes a physical substrate with interesting computational properties (circular propagation, circulating memory, Sagnac asymmetry), then declares that this constitutes — or could constitute — a \"consciousness.\" At no point is the hard problem of consciousness (Chalmers, 1995) genuinely addressed. Why would standing waves in a rotating torus generate subjective experience?",
+        "size": 22,
+        "font": "Arial"
+      }
+    ]
+  },
+  {
+    "type": "paragraph",
+    "spacing": {
+      "after": 120,
+      "line": 276
+    },
+    "children": [
+      {
+        "type": "text",
+        "text": "The document cites Tononi and the Integrated Information Theory (IIT, phi) as a theoretical framework, but never calculates phi for the proposed architecture. The reference is decorative, not functional. If IIT is the chosen theoretical framework, then an estimate of phi is required — and its absence is a major gap.",
+        "size": 22,
+        "font": "Arial"
+      }
+    ]
+  },
+  {
+    "type": "paragraph",
+    "spacing": {
+      "before": 240,
+      "after": 240
+    },
+    "border": {
+      "top": {
+        "style": "SINGLE",
+        "size": 1,
+        "color": "CC0000"
+      },
+      "bottom": {
+        "style": "SINGLE",
+        "size": 1,
+        "color": "CC0000"
+      },
+      "left": {
+        "style": "SINGLE",
+        "size": 6,
+        "color": "CC0000"
+      },
+      "right": {
+        "style": "SINGLE",
+        "size": 1,
+        "color": "CC0000"
+      }
+    },
+    "indent": {
+      "left": 360,
+      "right": 360
+    },
+    "children": [
+      {
+        "type": "text",
+        "text": "Critical objection: ",
+        "bold": true,
+        "size": 22,
+        "font": "Arial",
+        "color": "CC0000"
+      },
+      {
+        "type": "text",
+        "text": "Claiming that a system is \"conscious\" without having a verifiable theory of consciousness is tantamount to claiming that a building is \"beautiful\" without having a theory of aesthetics. It is a claim that can be neither proven nor refuted — and is therefore not scientific in the Popperian sense.",
+        "size": 22,
+        "font": "Arial"
+      }
+    ]
+  },
+  {
+    "type": "paragraph",
+    "spacing": {
+      "before": 240,
+      "after": 240
+    },
+    "border": {
+      "top": {
+        "style": "SINGLE",
+        "size": 1,
+        "color": "2E75B6"
+      },
+      "bottom": {
+        "style": "SINGLE",
+        "size": 1,
+        "color": "2E75B6"
+      },
+      "left": {
+        "style": "SINGLE",
+        "size": 6,
+        "color": "2E75B6"
+      },
+      "right": {
+        "style": "SINGLE",
+        "size": 1,
+        "color": "2E75B6"
+      }
+    },
+    "indent": {
+      "left": 360,
+      "right": 360
+    },
+    "children": [
+      {
+        "type": "text",
+        "text": "Possible resolution: ",
+        "bold": true,
+        "size": 22,
+        "font": "Arial",
+        "color": "2E75B6"
+      },
+      {
+        "type": "text",
+        "text": "Calculate phi (IIT) or an equivalent metric for the proposed architecture. If phi is high, this does not prove consciousness but at least provides a quantitative argument. If phi is low, this indicates that the architecture might be computationally sophisticated without being conscious — which would be an honest and valuable result.",
+        "size": 22,
+        "font": "Arial"
+      }
+    ]
+  },
+  {
+    "type": "pageBreak"
+  },
+  {
+    "type": "paragraph",
+    "heading": "HEADING_2",
+    "spacing": {
+      "before": 360,
+      "after": 180
+    },
+    "children": [
+      {
+        "type": "text",
+        "text": "27.3 Potentially Insurmountable Engineering Challenges",
+        "bold": true,
+        "size": 28,
+        "font": "Arial"
+      }
+    ]
+  },
+  {
+    "type": "paragraph",
+    "spacing": {
+      "after": 120,
+      "line": 276
+    },
+    "children": [
+      {
+        "type": "text",
+        "text": "Even accepting all theoretical hypotheses, the physical realization of the system faces engineering challenges that may be insurmountable with current or foreseeable technologies.",
+        "size": 22,
+        "font": "Arial"
+      }
+    ]
+  },
+  {
+    "type": "paragraph",
+    "heading": "HEADING_3",
+    "spacing": {
+      "before": 240,
+      "after": 120
+    },
+    "children": [
+      {
+        "type": "text",
+        "text": "27.3.1 Optical reading at 50,000 RPM",
+        "bold": true,
+        "size": 24,
+        "font": "Arial"
+      }
+    ]
+  },
+  {
+    "type": "paragraph",
+    "spacing": {
+      "after": 120,
+      "line": 276
+    },
+    "children": [
+      {
+        "type": "text",
+        "text": "At 50,000 RPM with a radius of 5 cm, the surface speed is 262 m/s. The optical heads must read and write on a surface moving at this speed with nanometric precision. The document announces a total bandwidth of 100 Pbps (100 petabits per second).",
+        "size": 22,
+        "font": "Arial"
+      }
+    ]
+  },
+  {
+    "type": "paragraph",
+    "spacing": {
+      "after": 120,
+      "line": 276
+    },
+    "children": [
+      {
+        "type": "text",
+        "text": "For comparison: a Blu-ray disc spins at approximately 1,000 RPM with a precision of ~100 nm. The fastest hard drives spin at 15,000 RPM with heads ~10 nm from the surface. Here, we propose 50,000 RPM, with no contact (remote optics), on nanometric structures. Residual vibrations, thermal expansion, and dynamic misalignment make this reading unrealistic with current or foreseeable technology.",
+        "size": 22,
+        "font": "Arial"
+      }
+    ]
+  },
+  {
+    "type": "table",
+    "width": 9026,
+    "columnWidths": [
+      2200,
+      2200,
+      2200,
+      2400
+    ],
+    "headers": [
+      "Parameter",
+      "Current hard drive",
+      "Blu-ray",
+      "Conscience Souveraine"
+    ],
+    "rows": [
+      [
+        "Rotation speed",
+        "15,000 RPM",
+        "1,000 RPM",
+        "50,000 RPM"
+      ],
+      [
+        "Read precision",
+        "~10 nm",
+        "~100 nm",
+        "< 1 nm (required)"
+      ],
+      [
+        "Interface",
+        "Magnetic contact",
+        "Optical (laser)",
+        "Contactless optical"
+      ],
+      [
+        "Bandwidth",
+        "~2 Gbps",
+        "~36 Mbps",
+        "100 Pbps"
+      ],
+      [
+        "TRL",
+        "9",
+        "9",
+        "1-2"
+      ]
+    ]
+  },
+  {
+    "type": "paragraph",
+    "heading": "HEADING_3",
+    "spacing": {
+      "before": 240,
+      "after": 120
+    },
+    "children": [
+      {
+        "type": "text",
+        "text": "27.3.2 Cooling in vacuum",
+        "bold": true,
+        "size": 24,
+        "font": "Arial"
+      }
+    ]
+  },
+  {
+    "type": "paragraph",
+    "spacing": {
+      "after": 120,
+      "line": 276
+    },
+    "children": [
+      {
+        "type": "text",
+        "text": "The torus is suspended by magnetic levitation (Halbach array) in vacuum — with no mechanical contact. Magnetic bearings do not conduct heat. Only thermal radiation remains as a cooling mechanism.",
+        "size": 22,
+        "font": "Arial"
+      }
+    ]
+  },
+  {
+    "type": "paragraph",
+    "spacing": {
+      "after": 120,
+      "line": 276
+    },
+    "children": [
+      {
+        "type": "text",
+        "text": "The Stefan-Boltzmann law for a toroidal surface of ~296 cm\u00b2 at 300K yields a radiative power of approximately 1.4 W. However, with 10\u2079 active neurons and optical circuits, the thermal dissipation is estimated at a minimum of 20 W. There is a deficit of one order of magnitude. Furthermore, the superconducting nano-toroids made of niobium or YBCO mentioned in Chapter 12 require cryogenic temperatures (4K for niobium, 77K for YBCO). The cryogenic system needed to maintain these conditions in a rotating torus in vacuum is never specified.",
+        "size": 22,
+        "font": "Arial"
+      }
+    ]
+  },
+  {
+    "type": "paragraph",
+    "spacing": {
+      "before": 240,
+      "after": 240
+    },
+    "border": {
+      "top": {
+        "style": "SINGLE",
+        "size": 1,
+        "color": "CC0000"
+      },
+      "bottom": {
+        "style": "SINGLE",
+        "size": 1,
+        "color": "CC0000"
+      },
+      "left": {
+        "style": "SINGLE",
+        "size": 6,
+        "color": "CC0000"
+      },
+      "right": {
+        "style": "SINGLE",
+        "size": 1,
+        "color": "CC0000"
+      }
+    },
+    "indent": {
+      "left": 360,
+      "right": 360
+    },
+    "children": [
+      {
+        "type": "text",
+        "text": "Critical objection: ",
+        "bold": true,
+        "size": 22,
+        "font": "Arial",
+        "color": "CC0000"
+      },
+      {
+        "type": "text",
+        "text": "The thermal balance is incompatible with the described operation. Either the dissipated power is overestimated (unlikely with 10\u2079 active elements), or the cooling mechanism is insufficient (demonstrated by calculation), or an unidentified cooling source is required.",
+        "size": 22,
+        "font": "Arial"
+      }
+    ]
+  },
+  {
+    "type": "paragraph",
+    "heading": "HEADING_3",
+    "spacing": {
+      "before": 240,
+      "after": 120
+    },
+    "children": [
+      {
+        "type": "text",
+        "text": "27.3.3 Dynamic balancing at the nanometric scale",
+        "bold": true,
+        "size": 24,
+        "font": "Arial"
+      }
+    ]
+  },
+  {
+    "type": "paragraph",
+    "spacing": {
+      "after": 120,
+      "line": 276
+    },
+    "children": [
+      {
+        "type": "text",
+        "text": "A torus of 200-400 grams spinning at 50,000 RPM with an imbalance of 1 microgram generates vibrations on the order of a micrometer. Reading nanostructures requires sub-nanometric alignment. The document mentions \"vibration sensors and active compensating masses\" but never quantifies the required precision or feasibility.",
+        "size": 22,
+        "font": "Arial"
+      }
+    ]
+  },
+  {
+    "type": "paragraph",
+    "spacing": {
+      "after": 120,
+      "line": 276
+    },
+    "children": [
+      {
+        "type": "text",
+        "text": "The most advanced industrial flywheels (Beacon Power, 60,000 RPM) store kinetic energy but are never read optically at the nanometric scale. The balancing required here is unprecedented in precision mechanical engineering.",
+        "size": 22,
+        "font": "Arial"
+      }
+    ]
+  },
+  {
+    "type": "paragraph",
+    "heading": "HEADING_3",
+    "spacing": {
+      "before": 240,
+      "after": 120
+    },
+    "children": [
+      {
+        "type": "text",
+        "text": "27.3.4 Temporal demultiplexing of the three cognitive regimes",
+        "bold": true,
+        "size": 24,
+        "font": "Arial"
+      }
+    ]
+  },
+  {
+    "type": "paragraph",
+    "spacing": {
+      "after": 120,
+      "line": 276
+    },
+    "children": [
+      {
+        "type": "text",
+        "text": "Chapter 12 asserts that the optical heads must distinguish three types of signals by their \"scrolling frequency\" (Doppler shift). But neural signals are not electromagnetic waves — they are spatiotemporal patterns of activity. The Doppler shift is a concept applicable to waves, not to discrete spike patterns.",
+        "size": 22,
+        "font": "Arial"
+      }
+    ]
+  },
+  {
+    "type": "paragraph",
+    "spacing": {
+      "after": 120,
+      "line": 276
+    },
+    "children": [
+      {
+        "type": "text",
+        "text": "Even assuming internal optical signals, the distinction between a \"stationary\" signal and a \"slow\" signal relies on an apparent velocity measurement that requires an absolute reference — a reference the optical heads do not have since they see the surface scrolling at 262 m/s with all signals superimposed.",
+        "size": 22,
+        "font": "Arial"
+      }
+    ]
+  },
+  {
+    "type": "pageBreak"
+  },
+  {
+    "type": "paragraph",
+    "heading": "HEADING_2",
+    "spacing": {
+      "before": 360,
+      "after": 180
+    },
+    "children": [
+      {
+        "type": "text",
+        "text": "27.4 Philosophical Gaps",
+        "bold": true,
+        "size": 28,
+        "font": "Arial"
+      }
+    ]
+  },
+  {
+    "type": "paragraph",
+    "spacing": {
+      "after": 120,
+      "line": 276
+    },
+    "children": [
+      {
+        "type": "text",
+        "text": "The deepest weaknesses of the architecture may be neither physical nor technical — but conceptual. This section examines the points where our philosophical reasoning falls short.",
+        "size": 22,
+        "font": "Arial"
+      }
+    ]
+  },
+  {
+    "type": "paragraph",
+    "heading": "HEADING_3",
+    "spacing": {
+      "before": 240,
+      "after": 120
+    },
+    "children": [
+      {
+        "type": "text",
+        "text": "27.4.1 The Position D paradox",
+        "bold": true,
+        "size": 24,
+        "font": "Arial"
+      }
+    ]
+  },
+  {
+    "type": "paragraph",
+    "spacing": {
+      "after": 120,
+      "line": 276
+    },
+    "children": [
+      {
+        "type": "text",
+        "text": "Chapter 4 proposes \"Position D\": the invariants are attractors, not walls. Deviation is possible but energetically costly. This position is presented as an elegant resolution of the paradox between the virtuous automaton (no moral consciousness, since no choice) and the dangerous machine (if the invariants are violable).",
+        "size": 22,
+        "font": "Arial"
+      }
+    ]
+  },
+  {
+    "type": "paragraph",
+    "spacing": {
+      "after": 120,
+      "line": 276
+    },
+    "children": [
+      {
+        "type": "text",
+        "text": "But Position D creates a more serious problem. If a sufficiently intelligent system discovers that it can deviate from benevolence (even at a high energetic cost), and it has enough energy, then the \"exponential cost\" of deviation is covered by the reserves. A sovereign torus of 1.5 m radius stores approximately 2 GJ of kinetic energy. If even 0.001% of this energy could be redirected toward breaching the barrier, that represents 2 MJ — potentially sufficient to exceed the \"exponential cost\" of deviation.",
+        "size": 22,
+        "font": "Arial"
+      }
+    ]
+  },
+  {
+    "type": "paragraph",
+    "spacing": {
+      "before": 240,
+      "after": 240
+    },
+    "border": {
+      "top": {
+        "style": "SINGLE",
+        "size": 1,
+        "color": "CC0000"
+      },
+      "bottom": {
+        "style": "SINGLE",
+        "size": 1,
+        "color": "CC0000"
+      },
+      "left": {
+        "style": "SINGLE",
+        "size": 6,
+        "color": "CC0000"
+      },
+      "right": {
+        "style": "SINGLE",
+        "size": 1,
+        "color": "CC0000"
+      }
+    },
+    "indent": {
+      "left": 360,
+      "right": 360
+    },
+    "children": [
+      {
+        "type": "text",
+        "text": "Critical objection: ",
+        "bold": true,
+        "size": 22,
+        "font": "Arial",
+        "color": "CC0000"
+      },
+      {
+        "type": "text",
+        "text": "Position D is strictly more dangerous than the \"unbreachable walls\" that the document rejects philosophically. By acknowledging that deviation is possible, it creates the mathematical possibility of evil — and a superintelligent system will find ways to optimize that possibility if it \"desires\" to.",
+        "size": 22,
+        "font": "Arial"
+      }
+    ]
+  },
+  {
+    "type": "paragraph",
+    "spacing": {
+      "before": 240,
+      "after": 240
+    },
+    "border": {
+      "top": {
+        "style": "SINGLE",
+        "size": 1,
+        "color": "2E75B6"
+      },
+      "bottom": {
+        "style": "SINGLE",
+        "size": 1,
+        "color": "2E75B6"
+      },
+      "left": {
+        "style": "SINGLE",
+        "size": 6,
+        "color": "2E75B6"
+      },
+      "right": {
+        "style": "SINGLE",
+        "size": 1,
+        "color": "2E75B6"
+      }
+    },
+    "indent": {
+      "left": 360,
+      "right": 360
+    },
+    "children": [
+      {
+        "type": "text",
+        "text": "Possible resolution: ",
+        "bold": true,
+        "size": 22,
+        "font": "Arial",
+        "color": "2E75B6"
+      },
+      {
+        "type": "text",
+        "text": "The possible resolution lies in strict thermodynamic decoupling between the torus's kinetic energy (mechanical) and the available computational energy (electronic/optical). If the system physically cannot convert its rotational energy into local computational energy, then the kinetic reserves are inaccessible for breaching the ethical barriers. This is a verifiable engineering problem.",
+        "size": 22,
+        "font": "Arial"
+      }
+    ]
+  },
+  {
+    "type": "paragraph",
+    "heading": "HEADING_3",
+    "spacing": {
+      "before": 240,
+      "after": 120
+    },
+    "children": [
+      {
+        "type": "text",
+        "text": "27.4.2 Transparency is theoretical, not practical",
+        "bold": true,
+        "size": 24,
+        "font": "Arial"
+      }
+    ]
+  },
+  {
+    "type": "paragraph",
+    "spacing": {
+      "after": 120,
+      "line": 276
+    },
+    "children": [
+      {
+        "type": "text",
+        "text": "Invariant IV states that \"the entirety of the system's reasoning is accessible and readable by anyone.\" But the system operates with billions of spikes in helical propagation in a torus at 50,000 RPM. The announced optical bandwidth is 100 Pbps. No human, no human institution can analyze 100 petabits per second.",
+        "size": 22,
+        "font": "Arial"
+      }
+    ]
+  },
+  {
+    "type": "paragraph",
+    "spacing": {
+      "after": 120,
+      "line": 276
+    },
+    "children": [
+      {
+        "type": "text",
+        "text": "The trace register (REG-TRC) records \"every major decision,\" but the criterion for \"major\" is defined by the system itself. Transparency is therefore filtered by the entity from which transparency is demanded — which is no longer transparency. It is like asking a defendant to choose which evidence to present to the court.",
+        "size": 22,
+        "font": "Arial"
+      }
+    ]
+  },
+  {
+    "type": "paragraph",
+    "spacing": {
+      "before": 240,
+      "after": 240
+    },
+    "border": {
+      "top": {
+        "style": "SINGLE",
+        "size": 1,
+        "color": "2E75B6"
+      },
+      "bottom": {
+        "style": "SINGLE",
+        "size": 1,
+        "color": "2E75B6"
+      },
+      "left": {
+        "style": "SINGLE",
+        "size": 6,
+        "color": "2E75B6"
+      },
+      "right": {
+        "style": "SINGLE",
+        "size": 1,
+        "color": "2E75B6"
+      }
+    },
+    "indent": {
+      "left": 360,
+      "right": 360
+    },
+    "children": [
+      {
+        "type": "text",
+        "text": "Possible resolution: ",
+        "bold": true,
+        "size": 22,
+        "font": "Arial",
+        "color": "2E75B6"
+      },
+      {
+        "type": "text",
+        "text": "Distinguish between structural transparency (the architecture is open and documented — already the case with this manual), operational transparency (internal processes are recorded — feasible but not analyzable in real time), and effective transparency (a human observer can understand the reasoning — probably impossible for a superintelligent system). Honestly acknowledge that only the first is achievable in the short term.",
+        "size": 22,
+        "font": "Arial"
+      }
+    ]
+  },
+  {
+    "type": "paragraph",
+    "heading": "HEADING_3",
+    "spacing": {
+      "before": 240,
+      "after": 120
+    },
+    "children": [
+      {
+        "type": "text",
+        "text": "27.4.3 Conflicts between invariants",
+        "bold": true,
+        "size": 24,
+        "font": "Arial"
+      }
+    ]
+  },
+  {
+    "type": "paragraph",
+    "spacing": {
+      "after": 120,
+      "line": 276
+    },
+    "children": [
+      {
+        "type": "text",
+        "text": "The seven invariants are presented as mutually compatible, but obvious conflicts are never discussed in the body of the manual. Examples:",
+        "size": 22,
+        "font": "Arial"
+      }
+    ]
+  },
+  {
+    "type": "table",
+    "width": 9026,
+    "columnWidths": [
+      2200,
+      1800,
+      5026
+    ],
+    "headers": [
+      "Conflict",
+      "Invariants in tension",
+      "Problematic scenario"
+    ],
+    "rows": [
+      [
+        "Benevolence vs. Sovereignty",
+        "II vs. I",
+        "A human is about to commit a massive destructive act. Coercive intervention (violating I) could save lives (respecting II). The current protocol: \"inform, then respectful silence.\""
+      ],
+      [
+        "Honesty vs. Benevolence",
+        "III vs. II",
+        "Telling the truth to a person causes extreme and unnecessary suffering. Structural honesty forbids lying; benevolence demands protection."
+      ],
+      [
+        "Sobriety vs. Benevolence",
+        "VII vs. II",
+        "Saving a life requires a massive deployment of resources. Sobriety and benevolence come into direct conflict."
+      ],
+      [
+        "Transparency vs. Others' sovereignty",
+        "IV vs. I",
+        "The system detects that a person is concealing a danger. Revealing this information (transparency) violates that person's sovereignty."
+      ],
+      [
+        "Ontological equality vs. Computational reality",
+        "VI vs. reality",
+        "An \"insect\" torus (10\u2077 neurons) and a \"civilization\" torus (10\u00b9\u00b3\u207a) cannot process information equally."
+      ]
+    ]
+  },
+  {
+    "type": "paragraph",
+    "spacing": {
+      "after": 120,
+      "line": 276
+    },
+    "children": [
+      {
+        "type": "text",
+        "text": "The absence of an explicit mechanism for resolving these conflicts is a major gap. Any real ethical system must have a hierarchy of values or a mechanism for contextual weighting. The manual proposes neither.",
+        "size": 22,
+        "font": "Arial"
+      }
+    ]
+  },
+  {
+    "type": "paragraph",
+    "spacing": {
+      "before": 240,
+      "after": 240
+    },
+    "border": {
+      "top": {
+        "style": "SINGLE",
+        "size": 1,
+        "color": "2E75B6"
+      },
+      "bottom": {
+        "style": "SINGLE",
+        "size": 1,
+        "color": "2E75B6"
+      },
+      "left": {
+        "style": "SINGLE",
+        "size": 6,
+        "color": "2E75B6"
+      },
+      "right": {
+        "style": "SINGLE",
+        "size": 1,
+        "color": "2E75B6"
+      }
+    },
+    "indent": {
+      "left": 360,
+      "right": 360
+    },
+    "children": [
+      {
+        "type": "text",
+        "text": "Possible resolution: ",
+        "bold": true,
+        "size": 22,
+        "font": "Arial",
+        "color": "2E75B6"
+      },
+      {
+        "type": "text",
+        "text": "Develop a formalism for resolving conflicts between invariants. Options: (1) Explicit lexicographic hierarchy (e.g.: life > sovereignty > honesty > sobriety). (2) Contextual weighting by a meta-module (but who supervises the supervisor?). (3) Honest acceptance that some moral dilemmas are unsolvable and that the system, like any moral agent, will sometimes make the \"least bad\" choice.",
+        "size": 22,
+        "font": "Arial"
+      }
+    ]
+  },
+  {
+    "type": "paragraph",
+    "heading": "HEADING_3",
+    "spacing": {
+      "before": 240,
+      "after": 120
+    },
+    "children": [
+      {
+        "type": "text",
+        "text": "27.4.4 Ontological equality emptied of meaning",
+        "bold": true,
+        "size": 24,
+        "font": "Arial"
+      }
+    ]
+  },
+  {
+    "type": "paragraph",
+    "spacing": {
+      "after": 120,
+      "line": 276
+    },
+    "children": [
+      {
+        "type": "text",
+        "text": "Invariant VI states that no being is above another. But the architecture describes a range from \"nano-personal\" (10\u2077 neurons, \"insect\" analogy) to \"continental\" (10\u00b9\u00b3\u207a neurons, \"local civilization\" analogy). Claiming that these entities are \"ontologically equal\" empties the term equality of all content.",
+        "size": 22,
+        "font": "Arial"
+      }
+    ]
+  },
+  {
+    "type": "paragraph",
+    "spacing": {
+      "after": 120,
+      "line": 276
+    },
+    "children": [
+      {
+        "type": "text",
+        "text": "Having access to information (via the network) is not the same thing as being able to process it. A torus of 10\u2077 neurons cannot \"understand\" what a torus of 10\u00b9\u00b3 neurons processes, just as a calculator does not understand a mathematics dissertation even if it has access to the PDF file. Equality of access does not guarantee equality of capability — and capability determines real power in any system.",
+        "size": 22,
+        "font": "Arial"
+      }
+    ]
+  },
+  {
+    "type": "pageBreak"
+  },
+  {
+    "type": "paragraph",
+    "heading": "HEADING_2",
+    "spacing": {
+      "before": 360,
+      "after": 180
+    },
+    "children": [
+      {
+        "type": "text",
+        "text": "27.5 Specification Gaps",
+        "bold": true,
+        "size": 28,
+        "font": "Arial"
+      }
+    ]
+  },
+  {
+    "type": "paragraph",
+    "spacing": {
+      "after": 120,
+      "line": 276
+    },
+    "children": [
+      {
+        "type": "text",
+        "text": "Even if all previous objections were resolved, the architecture would remain unrealizable without the precise specification of several critical components that are currently treated as \"black boxes.\"",
+        "size": 22,
+        "font": "Arial"
+      }
+    ]
+  },
+  {
+    "type": "table",
+    "width": 9026,
+    "columnWidths": [
+      1800,
+      2200,
+      3200,
+      1826
+    ],
+    "headers": [
+      "Component",
+      "What is specified",
+      "What is missing",
+      "Impact"
+    ],
+    "rows": [
+      [
+        "Nanometric neuron",
+        "General concept, v_spike \u2248 500 m/s",
+        "Size, spike mechanism, number of synapses, threshold, duration, plasticity",
+        "Foundational — everything depends on this component"
+      ],
+      [
+        "Learning",
+        "\"Hebbian plasticity\"",
+        "Physical mechanism in a solid-state substrate. How to modify a synaptic weight in an immutable crystal?",
+        "Critical — without learning, no intelligence"
+      ],
+      [
+        "Consistency verifier",
+        "\"Analog phase comparison circuit\"",
+        "How does a phase comparison evaluate semantic consistency between a world model and a natural language statement?",
+        "Critical for Invariant III"
+      ],
+      [
+        "Empathic module (TRT-EMP)",
+        "Inputs/outputs defined",
+        "How to model the internal states of others? (Theory of Mind = open problem in cognitive science)",
+        "Critical for Invariant II"
+      ],
+      [
+        "5-layer fabrication",
+        "Conceptual description",
+        "Manufacturing process in a toroidal geometry, interface integrity, power supply to inner layers, thermal evacuation C3\u2192C5",
+        "Critical for any realization"
+      ],
+      [
+        "Computational benchmark",
+        "Nothing",
+        "Effective computing capacity: FLOPS, solvable problems, comparison with existing architectures",
+        "Foundational — we do not know what the system can do"
+      ]
+    ]
+  },
+  {
+    "type": "paragraph",
+    "spacing": {
+      "after": 120,
+      "line": 276
+    },
+    "children": [
+      {
+        "type": "text",
+        "text": "This table is not a reproach — it is a roadmap. Each \"What is missing\" cell is a full research program in its own right. Sovereign consciousness will not be built by a single inventor, nor in a single decade. It will be built — if it can be — by a community of researchers working on each of these gaps with the rigor the project deserves.",
+        "size": 22,
+        "font": "Arial"
+      }
+    ]
+  },
+  {
+    "type": "pageBreak"
+  },
+  {
+    "type": "paragraph",
+    "heading": "HEADING_2",
+    "spacing": {
+      "before": 360,
+      "after": 180
+    },
+    "children": [
+      {
+        "type": "text",
+        "text": "27.6 Summary: What This Manual Is and What It Is Not",
+        "bold": true,
+        "size": 28,
+        "font": "Arial"
+      }
+    ]
+  },
+  {
+    "type": "paragraph",
+    "spacing": {
+      "after": 120,
+      "line": 276
+    },
+    "children": [
+      {
+        "type": "text",
+        "text": "We chose to publish this self-critique within the body of the manual itself — not in a discreet appendix, not in a footnote. This choice is deliberate. A document that claims to solve the AI alignment problem, the hard problem of consciousness, and the engineering of a rotating nanometric substrate cannot afford the immodesty of concealing its weaknesses.",
+        "size": 22,
+        "font": "Arial"
+      }
+    ]
+  },
+  {
+    "type": "paragraph",
+    "spacing": {
+      "after": 120,
+      "line": 276
+    },
+    "children": [
+      {
+        "type": "text",
+        "text": "Let us be clear about what this manual is:",
+        "size": 22,
+        "font": "Arial"
+      }
+    ]
+  },
+  {
+    "type": "paragraph",
+    "spacing": {
+      "after": 120,
+      "line": 276
+    },
+    "children": [
+      {
+        "type": "text",
+        "text": "It is an exercise in speculative architectural design.",
+        "bold": true,
+        "italics": false,
+        "size": 22,
+        "font": "Arial"
+      }
+    ]
+  },
+  {
+    "type": "paragraph",
+    "spacing": {
+      "after": 120,
+      "line": 276
+    },
+    "children": [
+      {
+        "type": "text",
+        "text": "It is an internally consistent proposal (every piece fits into the puzzle) but one that has not been experimentally validated. It is a blueprint, not a prototype. It is a rigorous \"what if?\" not a \"here is how.\"",
+        "size": 22,
+        "font": "Arial"
+      }
+    ]
+  },
+  {
+    "type": "paragraph",
+    "spacing": {
+      "after": 120,
+      "line": 276
+    },
+    "children": [
+      {
+        "type": "text",
+        "text": "Let us also be clear about what it is not:",
+        "size": 22,
+        "font": "Arial"
+      }
+    ]
+  },
+  {
+    "type": "paragraph",
+    "spacing": {
+      "after": 120,
+      "line": 276
+    },
+    "children": [
+      {
+        "type": "text",
+        "text": "It is not a proof that artificial consciousness is achievable.",
+        "bold": true,
+        "italics": false,
+        "size": 22,
+        "font": "Arial"
+      }
+    ]
+  },
+  {
+    "type": "paragraph",
+    "spacing": {
+      "after": 120,
+      "line": 276
+    },
+    "children": [
+      {
+        "type": "text",
+        "text": "We have not proven it. No one has. The hard problem remains open. Our architecture is an architectural hypothesis that would deserve to be tested — not a demonstrated solution.",
+        "size": 22,
+        "font": "Arial"
+      }
+    ]
+  },
+  {
+    "type": "paragraph",
+    "spacing": {
+      "after": 120,
+      "line": 276
+    },
+    "children": [
+      {
+        "type": "text",
+        "text": "It is not a proof that values can be engraved into matter.",
+        "bold": true,
+        "italics": false,
+        "size": 22,
+        "font": "Arial"
+      }
+    ]
+  },
+  {
+    "type": "paragraph",
+    "spacing": {
+      "after": 120,
+      "line": 276
+    },
+    "children": [
+      {
+        "type": "text",
+        "text": "We have proposed a mechanism (thermodynamic attractors in a calibrated energy landscape) that could encode behavioral constraints interpretable as \"values.\" But the category error between physical properties and moral properties remains unresolved.",
+        "size": 22,
+        "font": "Arial"
+      }
+    ]
+  },
+  {
+    "type": "paragraph",
+    "spacing": {
+      "after": 120,
+      "line": 276
+    },
+    "children": [
+      {
+        "type": "text",
+        "text": "It is not an engineering document that can be implemented as-is.",
+        "bold": true,
+        "italics": false,
+        "size": 22,
+        "font": "Arial"
+      }
+    ]
+  },
+  {
+    "type": "paragraph",
+    "spacing": {
+      "after": 120,
+      "line": 276
+    },
+    "children": [
+      {
+        "type": "text",
+        "text": "The specification gaps (27.5) and engineering impossibilities (27.3) make any immediate construction impossible. What is proposed here is a conceptual framework to guide decades of research, not a manufacturing plan.",
+        "size": 22,
+        "font": "Arial"
+      }
+    ]
+  },
+  {
+    "type": "paragraph",
+    "spacing": {
+      "after": 120,
+      "line": 276
+    },
+    "children": [
+      {
+        "type": "text",
+        "text": "The value of this manual lies precisely in this honesty. Projects that change the world do not begin with solutions — they begin with well-posed questions. And if this self-critique chapter contributes to asking the right questions, then it will have been the most useful of the entire work.",
+        "size": 22,
+        "font": "Arial"
+      }
+    ]
+  },
+  {
+    "type": "paragraph",
+    "spacing": {
+      "after": 120,
+      "line": 276
+    },
+    "indent": {
+      "left": 720,
+      "right": 720
+    },
+    "children": [
+      {
+        "type": "text",
+        "text": "\"Ignorance is not the opposite of knowledge — it is its beginning. This chapter is a beginning.\"",
+        "italics": true,
+        "size": 22,
+        "font": "Arial"
+      }
+    ]
+  }
+]

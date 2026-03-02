@@ -4,8 +4,8 @@
  * Charge tous les fichiers JSON de parties (chapters/part*.json),
  * les combine en un seul document docx avec TOC, en-têtes, pieds de page.
  * 
- * USAGE: node scripts/assemble.js
- * OUTPUT: Conscience_Souveraine_Manuel_400p.docx
+ * USAGE: node scripts/assemble.js [--lang fr|en|es]
+ * OUTPUT: depends on language (default: Conscience_Souveraine_Manuel_400p.docx)
  * 
  * INSTALLATION: npm install docx
  */
@@ -18,15 +18,33 @@ const {
     TableOfContents, HeadingLevel, BorderStyle, WidthType, ShadingType,
     VerticalAlign, PageNumber, PageBreak, SectionType,
     PositionalTab, PositionalTabAlignment, PositionalTabRelativeTo, PositionalTabLeader,
-    TabStopType, TabStopPosition
+    TabStopType, TabStopPosition,
+    ImageRun
 } = require('docx');
 
 // ============================================================================
 // CONFIGURATION
 // ============================================================================
 
-const CHAPTERS_DIR = path.join(__dirname, '..', 'chapters');
-const OUTPUT_FILE = path.join(__dirname, '..', 'Conscience_Souveraine_Manuel_400p.docx');
+// Parse --lang argument (default: fr)
+const langArg = process.argv.find(a => a === '--lang');
+const LANG = langArg ? process.argv[process.argv.indexOf(langArg) + 1] || 'fr' : 'fr';
+if (!['fr', 'en', 'es'].includes(LANG)) {
+    console.error(`Langue non supportee: ${LANG}. Utiliser fr, en ou es.`);
+    process.exit(1);
+}
+
+// Charger les chaines localisees
+const STRINGS_PATH = path.join(__dirname, '..', 'i18n', `strings_${LANG}.json`);
+let strings = {};
+if (fs.existsSync(STRINGS_PATH)) {
+    strings = JSON.parse(fs.readFileSync(STRINGS_PATH, 'utf-8'));
+}
+
+const CHAPTERS_DIR = LANG === 'fr'
+    ? path.join(__dirname, '..', 'chapters')
+    : path.join(__dirname, '..', 'chapters', LANG);
+const OUTPUT_FILE = path.join(__dirname, '..', strings.output_file || 'Conscience_Souveraine_Manuel_400p.docx');
 
 // Parts à charger dans l'ordre
 const PARTS = [
@@ -330,6 +348,53 @@ function jsonToDocx(element) {
             });
         }
 
+        case 'image': {
+            const imgPath = path.resolve(__dirname, '..', element.path);
+            if (!fs.existsSync(imgPath)) {
+                console.warn(`Image non trouvée: ${imgPath}`);
+                return null;
+            }
+
+            const imageData = fs.readFileSync(imgPath);
+            const imgWidth = element.width || 500;
+            const imgHeight = element.height || 350;
+            const alignment = AlignmentType[element.alignment] || AlignmentType.CENTER;
+
+            const elements = [];
+
+            // Paragraphe contenant l'image
+            elements.push(new Paragraph({
+                alignment,
+                spacing: { before: 240, after: element.caption ? 60 : 240 },
+                children: [
+                    new ImageRun({
+                        data: imageData,
+                        transformation: { width: imgWidth, height: imgHeight },
+                        type: 'png'
+                    })
+                ]
+            }));
+
+            // Légende optionnelle
+            if (element.caption) {
+                elements.push(new Paragraph({
+                    alignment: AlignmentType.CENTER,
+                    spacing: { before: 60, after: 240 },
+                    children: [new TextRun({
+                        text: element.caption,
+                        italics: true,
+                        size: 18,
+                        font: 'Arial',
+                        color: '666666'
+                    })]
+                }));
+            }
+
+            // Retourner les éléments (image + légende éventuelle)
+            // On retourne un tableau, qui sera aplati dans l'assemblage
+            return elements;
+        }
+
         default:
             console.warn(`Unknown element type: ${element.type}`);
             return null;
@@ -341,7 +406,7 @@ function jsonToDocx(element) {
 // ============================================================================
 
 async function assemble() {
-    console.log('🔧 Assemblage du Manuel Conscience Souveraine');
+    console.log(`🔧 Assemblage du Manuel [${LANG.toUpperCase()}]`);
     console.log('='.repeat(60));
     
     // Charger toutes les parties
@@ -363,10 +428,11 @@ async function assemble() {
     
     console.log(`\n📊 Total: ${totalElements} éléments`);
     
-    // Convertir en éléments docx-js
+    // Convertir en éléments docx-js (aplatir les tableaux retournés par les images)
     const docxElements = allElements
         .map(jsonToDocx)
-        .filter(e => e !== null);
+        .filter(e => e !== null)
+        .flat();
     
     console.log(`📄 Éléments docx: ${docxElements.length}`);
     
@@ -386,7 +452,7 @@ async function assemble() {
                     children: [new Paragraph({
                         alignment: AlignmentType.RIGHT,
                         children: [new TextRun({
-                            text: 'Conscience Souveraine — Manuel Complet',
+                            text: strings.header_text || 'Conscience Souveraine — Manuel Complet',
                             italics: true, size: 16, font: 'Arial', color: '999999'
                         })]
                     })]
@@ -406,9 +472,9 @@ async function assemble() {
             },
             children: [
                 // Table des matières (sera mise à jour par Word/LibreOffice)
-                new TableOfContents("Table des matières", {
+                new TableOfContents(strings.toc_title || "Table des matières", {
                     hyperlink: true,
-                    headingStyleRange: "1-3"
+                    headingStyleRange: "1-2"
                 }),
                 new Paragraph({ children: [new PageBreak()] }),
                 // Contenu assemblé

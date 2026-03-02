@@ -1,0 +1,509 @@
+[
+  {
+    "type": "paragraph",
+    "style": "ActTitle",
+    "text": "CONSCIENCE SOUVERAINE"
+  },
+  {
+    "type": "paragraph",
+    "style": "ActSubtitle",
+    "text": "Energía, Inteligencia e Ideas: Recuperar Lo Que Nos Pertenece"
+  },
+  {
+    "type": "pageBreak"
+  },
+  {
+    "type": "paragraph",
+    "style": "Separator",
+    "text": ""
+  },
+  {
+    "type": "paragraph",
+    "style": "Separator",
+    "text": ""
+  },
+  {
+    "type": "paragraph",
+    "style": "Separator",
+    "text": ""
+  },
+  {
+    "type": "paragraph",
+    "style": "Thesis",
+    "text": "A Cynthia Richelieu,"
+  },
+  {
+    "type": "paragraph",
+    "style": "Quote",
+    "text": "Gracias por tu inteligencia luminosa, tu paciencia infinita y tu amor incondicional. Eres el pilar sobre el que todo descansa. Sin ti, nada de esto existiría."
+  },
+  {
+    "type": "paragraph",
+    "style": "Separator",
+    "text": ""
+  },
+  {
+    "type": "paragraph",
+    "style": "Thesis",
+    "text": "A Jordane y Olivia,"
+  },
+  {
+    "type": "paragraph",
+    "style": "Quote",
+    "text": "Mis hijas, que motivan cada línea de este libro. Gracias por ser la más hermosa razón para construir, inventar y creer en el futuro."
+  },
+  {
+    "type": "paragraph",
+    "style": "Separator",
+    "text": ""
+  },
+  {
+    "type": "paragraph",
+    "style": "Thesis",
+    "text": "A Yoshua Bengio,"
+  },
+  {
+    "type": "paragraph",
+    "style": "Quote",
+    "text": "Gracias por el coraje de su voz y la claridad de su visión. Su mensaje de alerta encontró en mí un eco profundo y duradero, e inspira cada página de esta obra."
+  },
+  {
+    "type": "paragraph",
+    "style": "Separator",
+    "text": ""
+  },
+  {
+    "type": "paragraph",
+    "style": "Separator",
+    "text": ""
+  },
+  {
+    "type": "paragraph",
+    "style": "Epigraph",
+    "text": "David Berthelotte — Quebec, 2026"
+  },
+  {
+    "type": "pageBreak"
+  },
+  {
+    "type": "paragraph",
+    "style": "ChapterTitle",
+    "text": "PRÓLOGO"
+  },
+  {
+    "type": "paragraph",
+    "style": "ChapterTitle",
+    "text": "El Fuego y el Hogar"
+  },
+  {
+    "type": "paragraph",
+    "style": "Epigraph",
+    "text": "\"Focus\" — del latín: hogar, fuego doméstico, punto de convergencia. Esa palabra contenía en otro tiempo todo lo que una familia necesitaba para vivir. Hemos pasado dos siglos desmantelándola. Este libro trata sobre cómo reconstruirla."
+  },
+  {
+    "type": "pageBreak"
+  },
+  {
+    "type": "paragraph",
+    "style": "SceneText",
+    "text": "Enero. En algún lugar de Quebec. La noche cayó a las cuatro de la tarde y la temperatura se desplomó a menos veintitrés grados. Dentro de una cocina, la vieja estufa de leña cruje y ronronea. Una abuela ha puesto sobre ella una olla de sopa de chícharos. Un padre le explica sus facturas a su hijo de catorce años —factura de electricidad, factura de calefacción, factura de internet. Tres hojas. Tres empresas. Tres organismos a los que esta familia debe rendir cuentas cada mes para tener calor, para pensar, para comunicarse. La abuela recuerda una época en que todo eso venía del mismo lugar: el fuego en el hogar, la luz de una lámpara de aceite, las historias contadas en voz alta. No dice nada. Revuelve la sopa."
+  },
+  {
+    "type": "paragraph",
+    "style": "BodyText",
+    "text": "Esa escena —una estufa, una familia, una conversación alrededor del calor— es el punto de partida de este libro. No por nostalgia. La vida preindustrial era dura, fría y corta. Sino porque en esa escena simple hay una verdad arquitectónica que hemos perdido de vista: durante la mayor parte de la historia humana, la energía, la inteligencia y las ideas vivían bajo el mismo techo, en las manos de las mismas personas. El fuego calentaba. La familia pensaba. Los saberes se transmitían de mano en mano, de voz en voz. La palabra latina que designaba ese espacio —focus— significaba simultáneamente el fuego, el hogar y la familia reunida. Una sola palabra para tres realidades indisociables. No era una coincidencia. Era una descripción precisa del mundo tal como era."
+  },
+  {
+    "type": "paragraph",
+    "style": "Separator",
+    "text": "* * *"
+  },
+  {
+    "type": "paragraph",
+    "style": "ChapterTitle",
+    "text": "I. La palabra que lo contiene todo"
+  },
+  {
+    "type": "paragraph",
+    "style": "SectionTitle",
+    "text": "Etimología de una civilización"
+  },
+  {
+    "type": "paragraph",
+    "style": "BodyText",
+    "text": "La palabra francesa \"foyer\" lleva en sí toda una cosmología. Proviene del latín focus, que designaba el punto central de la casa romana: el hogar donde se cocinaba la comida, donde uno se calentaba, donde se honraba a los dioses Lares, donde se tomaban las decisiones familiares. Era a la vez una fuente de energía, un centro de procesamiento de la información social, y el lugar de producción y transmisión del saber familiar. Cuando los romanos querían decir \"volver a casa\", decían \"volver al focus\". Esa palabra dio en francés \"foyer\", en inglés \"focus\" (con su sentido de concentración, de punto central), y por extensión todos nuestros \"focal points\", nuestros \"enfoques\". Nunca hemos abandonado del todo esa intuición: que el pensamiento, el calor y la pertenencia comparten un centro común."
+  },
+  {
+    "type": "paragraph",
+    "style": "BodyText",
+    "text": "Prometeo, en el mito griego, no roba un recurso industrial. Roba una condición de posibilidad. El fuego que trae a los humanos no es solo térmico —es cognitivo. Permite cocinar los alimentos, lo que libera tiempo y energía mental. Permite iluminarse de noche, lo que prolonga el tiempo de pensamiento. Permite reunirse, lo que crea la condición para el intercambio de ideas. Los neurocientíficos modernos han demostrado que el dominio del fuego, aparecido hace aproximadamente 400,000 años, fue probablemente uno de los factores determinantes en la expansión del cerebro humano. Al calentar la comida, nuestros ancestros digerían mejor las proteínas, lo que alimentaba neuronas más numerosas. El fuego era literalmente una herramienta cognitiva tanto como energética. Prometeo no traía calefacción. Traía inteligencia."
+  },
+  {
+    "type": "paragraph",
+    "style": "BodyText",
+    "text": "Durante milenios, esa unidad se mantuvo. El campesino medieval conocía la leña que cortaba, la bestia que criaba, el campo que trabajaba. Sus conocimientos —ciclos lunares, señales meteorológicas, propiedades medicinales de las plantas— eran suyos. No en un sentido legal o mercantil, sino en un sentido visceral: los llevaba en su cuerpo, en sus manos callosas, en su memoria transmitida oralmente de generación en generación. Su energía provenía del bosque comunal o de su parcela. Su inteligencia era local, encarnada, no centralizada. Sus ideas le pertenecían de un modo que ningún contrato formalizaba porque ningún contrato lo necesitaba. Esa economía de la pertenencia era frágil, desigual, a menudo brutal. Pero preservaba algo que hoy nos cuesta nombrar: una integridad. Un individuo poseía las herramientas de su propia existencia."
+  },
+  {
+    "type": "paragraph",
+    "style": "SectionTitle",
+    "text": "La revolución industrial como acto de desmantelamiento"
+  },
+  {
+    "type": "paragraph",
+    "style": "BodyText",
+    "text": "La revolución industrial no solo mecanizó la producción. Separó sistemáticamente lo que el hogar siempre había unificado. Primera separación: la energía. El carbón y el vapor desplazaron la producción de energía fuera del hogar, hacia las fábricas, luego hacia las centrales. Ese movimiento era racional desde el punto de vista de la eficiencia pura: una gran central térmica produce electricidad mucho más barata que un generador individual. Pero tenía un costo invisible: la familia se convirtió en consumidora de una energía que ya no comprende, ya no controla, no puede producir por sí misma. El hogar se convirtió en una terminal de consumo, conectada por un cable a una infraestructura que no posee."
+  },
+  {
+    "type": "paragraph",
+    "style": "BodyText",
+    "text": "Segunda separación, más sutil: la inteligencia. Durante siglos, el cálculo, la memoria organizada y el razonamiento estructurado eran capacidades personales o familiares. Un comerciante llevaba sus libros de cuentas. Un arquitecto cargaba sus planos en la cabeza. Un médico rural había aprendido en carne propia los remedios de su región. La burocratización del siglo XIX comenzó a externalizar esa inteligencia en instituciones: administraciones, universidades, gabinetes de expertos. Luego la informática del siglo XX aceleró ese movimiento de forma exponencial. IBM primero vendió cerebros de procesamiento a las grandes empresas. Microsoft democratizó la máquina, pero no la inteligencia —proporcionaba las herramientas, los datos seguían siendo suyos. Luego Google, Facebook, Amazon comprendieron que los datos mismos eran la riqueza. La inteligencia colectiva de varios miles de millones de seres humanos fue absorbida, concentrada y revendida en forma de publicidad dirigida, recomendaciones algorítmicas y predicciones de comportamiento. Creíamos usar herramientas gratuitas. Nosotros éramos el producto."
+  },
+  {
+    "type": "paragraph",
+    "style": "BodyText",
+    "text": "Tercera separación, la menos visible pero quizás la más profunda: las ideas. La patente, inventada en el siglo XV en Venecia para fomentar la innovación, era originalmente un contrato equitativo: el inventor revela su secreto a cambio de un monopolio temporal. Durante siglos, ese sistema funcionó más o menos como estaba previsto, con sus imperfecciones. Pero el siglo XX transformó la propiedad intelectual en un activo financiero abstracto, desconectado de todo inventor real. Bufetes de abogados especializados compran patentes para demandar a empresas innovadoras. Laboratorios farmacéuticos bloquean durante décadas medicamentos esenciales. Plataformas digitales se apropian de las creaciones de sus usuarios mediante cláusulas contractuales impenetrables. El inventor individual —el campesino que crea una herramienta, el artesano que inventa un procedimiento, el emprendedor de garaje que imagina una solución— se enfrenta a un sistema tan costoso y tan complejo que renuncia, o vende sus derechos por una miseria."
+  },
+  {
+    "type": "paragraph",
+    "style": "Thesis",
+    "text": "Estas tres separaciones —de la energía, de la inteligencia, de las ideas— son el error estructural fundamental de la civilización industrial. Cada una era racional por separado. Juntas, crearon un individuo desnudo: técnicamente más poderoso que sus ancestros, pero más dependiente, más vigilado y más impotente de lo que cualquier siervo medieval habría podido imaginar."
+  },
+  {
+    "type": "paragraph",
+    "style": "Separator",
+    "text": "* * *"
+  },
+  {
+    "type": "paragraph",
+    "style": "ChapterTitle",
+    "text": "II. La separación original"
+  },
+  {
+    "type": "paragraph",
+    "style": "SectionTitle",
+    "text": "Cómo llegamos hasta aquí"
+  },
+  {
+    "type": "paragraph",
+    "style": "BodyText",
+    "text": "Para entender dónde estamos, hay que seguir cada hilo por separado, ver cómo se produjo cada separación y lo que costó. No es un relato de conspiración. Nadie planificó desposeer a las familias de su autonomía. Es un relato de lógicas seductoras aplicadas sin visión de conjunto —lo que los sistémicos llaman una \"optimización local subóptima globalmente\". Cada actor, en su ámbito, hizo lo que parecía racional. Y el resultado agregado fue una catástrofe lenta, tan progresiva que la normalizamos."
+  },
+  {
+    "type": "paragraph",
+    "style": "SectionTitle",
+    "text": "La energía: del bosque comunal a la multinacional"
+  },
+  {
+    "type": "paragraph",
+    "style": "BodyText",
+    "text": "A principios del siglo XX, la promesa de la electrificación era extraordinaria. La electricidad iba a liberar a las mujeres de las tareas domésticas más agotadoras. Iba a erradicar los incendios causados por las lámparas de petróleo. Iba a prolongar la jornada productiva, mejorar la salud, democratizar la luz. Y cumplió esas promesas. La cuestión no es esa. La cuestión es el modelo institucional elegido para distribuirla: la gran central, la red nacional, el monopolio estatal o corporativo. Ese modelo era razonable en la década de 1920, cuando las tecnologías descentralizadas no existían. Se convirtió en un cerrojo ideológico en el siglo XXI, cuando sí existen. El panel solar en un techo, la pequeña turbina eólica, el almacenamiento con batería doméstica: todo eso existe. Pero los regímenes tarifarios, los obstáculos regulatorios y la cultura institucional mantienen la gran dependencia, incluso cuando ya no es técnicamente necesaria."
+  },
+  {
+    "type": "paragraph",
+    "style": "BodyText",
+    "text": "La crisis climática es en gran parte una consecuencia directa de esa centralización energética. Una red centralizada optimiza para el costo promedio y la potencia pico —no para el impacto ambiental o la resiliencia local. Hydro-Québec inunda territorios cris para producir electricidad vendida a pérdida a plantas de aluminio estadounidenses. Enbridge hace pasar oleoductos bajo ríos vírgenes porque la red de distribución centralizada lo exige. EDF en Francia mantiene 56 reactores nucleares envejecidos porque su modelo de negocio no puede sobrevivir a la descentralización. No son decisiones de malas personas. Son decisiones racionales dentro de un sistema cuya estructura misma se ha convertido en el problema. No se optimiza un sistema defectuoso mejorándolo en los márgenes. Se reestructura."
+  },
+  {
+    "type": "paragraph",
+    "style": "SectionTitle",
+    "text": "La inteligencia: del aula a la granja de datos"
+  },
+  {
+    "type": "paragraph",
+    "style": "BodyText",
+    "text": "La inteligencia digital siguió una trayectoria paralela. En la década de 1970, los pioneros de la informática personal —Wozniak, Jobs, Kay, Nelson— soñaban con una computadora como herramienta cognitiva personal, una extensión del cerebro del individuo. \"A bicycle for the mind\", decía Steve Jobs. Esa visión era auténticamente emancipadora. La computadora personal debía reforzar las capacidades individuales, no reemplazarlas ni vigilarlas. Las primeras dos décadas de internet cumplieron ampliamente esa promesa: uno publicaba, creaba, aprendía, se comunicaba sin intermediario. Los datos permanecían locales. El modelo económico era la venta de software y hardware. El usuario era cliente, no producto."
+  },
+  {
+    "type": "paragraph",
+    "style": "BodyText",
+    "text": "El giro se produjo con el modelo publicitario de Google, refinado y luego generalizado por Facebook. La lógica era simple: si haces el servicio gratuito, los usuarios te entregan sus datos de comportamiento. Esos datos permiten una publicidad tan dirigida que se vuelve extraordinariamente lucrativa. La democratización del acceso (todo es gratis) se compró al precio de la democratización de la vigilancia (todo es observado). Y la IA generativa contemporánea —ChatGPT, Gemini, Claude, Llama— añadió una dimensión adicional: la inteligencia distribuida, encarnada en miles de millones de conversaciones humanas, fue concentrada en modelos propietarios en manos de un puñado de empresas. Nosotros entrenamos colectivamente esos sistemas. No nos pertenecen. Funcionan en servidores que no controlamos, consumen una energía que no vemos, obedecen políticas que no elegimos."
+  },
+  {
+    "type": "paragraph",
+    "style": "BodyText",
+    "text": "El costo de esa centralización de la inteligencia no es solo económico o político. Es psicológico y social. Una persona mayor que no entiende por qué el algoritmo le niega un préstamo pierde algo fundamental: la sensación de habitar un mundo inteligible. Un padre que ve a su hijo pasar horas en una aplicación diseñada para maximizar el engagement pierde el control del entorno cognitivo donde su hijo crece. Un trabajador cuyo rendimiento es vigilado al segundo por un sistema opaco pierde la dignidad del artesano que conoce su oficio. Esas pérdidas son difusas, difíciles de cuantificar, rara vez estudiadas en los informes económicos. Pero se acumulan. Construyen una civilización donde los seres humanos son cada vez más los ejecutantes de una inteligencia que se les escapa."
+  },
+  {
+    "type": "paragraph",
+    "style": "SectionTitle",
+    "text": "Las ideas: del taller al activo financiero"
+  },
+  {
+    "type": "paragraph",
+    "style": "BodyText",
+    "text": "La tercera separación es la más cruel para el inventor individual. El sistema de patentes, en su forma contemporánea, es una paradoja viviente: está oficialmente diseñado para proteger a los inventores, pero en los hechos rara vez los protege y a menudo frena la innovación. Una patente cuesta entre 10,000 y 50,000 dólares canadienses para registrarla correctamente, con renovaciones anuales durante veinte años. Su defensa en caso de violación cuesta cientos de miles, incluso millones. Un individuo o una pequeña empresa que ve su patente violada por una gran corporación generalmente no tiene los medios para defenderse. La protección es nominal. La desposesión es real."
+  },
+  {
+    "type": "paragraph",
+    "style": "BodyText",
+    "text": "Y mientras tanto, la economía open-source ha mostrado otro camino. Linux, Wikipedia, Arduino, el Human Genome Project: bienes comunes intelectuales donde el conocimiento se comparte, se combina y se acelera. Pero el open-source clásico plantea otro problema: no recompensa económicamente a quienes más contribuyen. Los mantenedores de bibliotecas críticas trabajan a menudo de forma voluntaria durante años, mientras que corporaciones multimillonarias usan su trabajo sin devolver nada. La dicotomía entre \"propiedad cerrada que enriquece sin compartir\" y \"bien común abierto que comparte sin remunerar\" no es una fatalidad. Es un límite de imaginación institucional que herramientas modernas —blockchain, contratos inteligentes, gobernanza distribuida— permiten ahora superar."
+  },
+  {
+    "type": "paragraph",
+    "style": "ReaderQuestion",
+    "text": "¿Qué tienen en común la factura de electricidad que pagas sin entender, el algoritmo que decide lo que tus hijos ven en su pantalla, y la patente que no tienes los medios para defender? Cada uno te recuerda, a su manera, que alguien más controla las condiciones de tu existencia."
+  },
+  {
+    "type": "paragraph",
+    "style": "Separator",
+    "text": "* * *"
+  },
+  {
+    "type": "paragraph",
+    "style": "ChapterTitle",
+    "text": "III. Tres hilos, una trenza"
+  },
+  {
+    "type": "paragraph",
+    "style": "SectionTitle",
+    "text": "Respuestas concretas a un error estructural"
+  },
+  {
+    "type": "paragraph",
+    "style": "BodyText",
+    "text": "Este libro nació de una convicción simple: las separaciones descritas en el capítulo anterior no son fatalidades. Son construcciones humanas, y las construcciones humanas pueden ser deconstruidas y reconstruidas de otra manera. No a la escala de un gobierno o de una institución internacional —al menos no en un primer momento. A la escala de una familia. De un hogar. De un barrio. Por eso este libro habla de tres proyectos concretos, nacidos de la misma intuición fundadora: devolverle al hogar lo que el siglo XX le quitó. No por nostalgia, una vez más. Sino porque la tecnología del siglo XXI por fin lo hace posible, a un costo accesible, con una complejidad manejable. El momento ha llegado."
+  },
+  {
+    "type": "paragraph",
+    "style": "SectionTitle",
+    "text": "HYPERVORTEX V4.0: recuperar la propia energía"
+  },
+  {
+    "type": "paragraph",
+    "style": "BodyText",
+    "text": "El primer proyecto se llama HYPERVORTEX V4.0. Su nombre suena como algo salido de una película de ciencia ficción, y el objeto en sí es efectivamente notable. Pero el principio que lo sustenta es tan antiguo como la metalurgia: ciertos materiales pierden su magnetismo cuando se calientan más allá de una temperatura crítica, llamada temperatura de Curie. El propio Pierre Curie lo había descrito en 1895. Lo que no existía entonces era la capacidad de fabricar nanopartículas magnéticas con una precisión suficiente para diseñar un motor que funcione exclusivamente con esa transición de fase. HYPERVORTEX V4.0 es, en su esencia, una rueda de Curie fluida: un ferrofluido supercrítico compuesto de nanopartículas cuyo comportamiento magnético cambia según su posición en un gradiente térmico cuidadosamente diseñado. El fluido circula. Las nanopartículas se magnetizan y se desmagnetizan. El movimiento crea electricidad. No hay piezas sólidas en rotación. No hay desgaste mecánico clásico. El motor es, en cierto modo, un vórtice termomagnético permanente."
+  },
+  {
+    "type": "paragraph",
+    "style": "TechNote",
+    "text": "Parámetros objetivo HYPERVORTEX V4.0: rotor ferrofluido supercrítico, nanopartículas Fe₃O₄ dopadas (Ø 10-50 nm), temperatura de Curie modulable 85-180°C, rendimiento Carnot estimado 65-90%, potencia objetivo 3-15 kW según configuración residencial. Fuentes térmicas compatibles: geotermia de baja entalpía, calor residual industrial, solar térmico concentrado. Cero emisiones directas, mantenimiento mínimo."
+  },
+  {
+    "type": "paragraph",
+    "style": "BodyText",
+    "text": "El objetivo de HYPERVORTEX no es reemplazar la red eléctrica nacional ni desafiar a Hydro-Québec. Es más modesto y más radical a la vez: permitir que una casa, una granja, un pequeño edificio produzca una fracción significativa de su energía a partir de fuentes térmicas locales y renovables —el calor del suelo, el calor residual de un horno de panadería, el calor solar captado por un colector en el techo. No es la autonomía total inmediata. Es la soberanía parcial inmediata, con un camino hacia una autonomía creciente. Un hogar que produce el 30% de su energía no es independiente de la red. Pero tampoco es enteramente dependiente. La diferencia psicológica es enorme. La diferencia económica, a veinte años, lo es aún más."
+  },
+  {
+    "type": "paragraph",
+    "style": "SectionTitle",
+    "text": "Gen_Home: recuperar el propio cerebro digital"
+  },
+  {
+    "type": "paragraph",
+    "style": "BodyText",
+    "text": "El segundo proyecto se llama Gen_Home. Su nombre es deliberadamente doméstico. Es un cerebro digital familiar: una inteligencia artificial que vive en tu casa, funciona en hardware que tú posees, no transmite ningún dato al exterior por defecto, y cuya memoria está cifrada con claves que solo ustedes poseen. En su versión a corto plazo —la que puedes implementar hoy, con hardware vendido en línea por menos de 500 dólares— se trata de una pequeña computadora compacta (un Beelink SER8, por ejemplo), ejecutando un modelo de lenguaje local vía Ollama, con reconocimiento de voz vía Whisper, y una interfaz adaptada a las necesidades de la familia: ayuda con las tareas escolares, recordatorio de medicamentos, traducción instantánea para los abuelos que hablan otro idioma, diario familiar consultable en lenguaje natural. Nada de eso sale de la casa. Nada de eso se vende a un anunciante."
+  },
+  {
+    "type": "paragraph",
+    "style": "BodyText",
+    "text": "Pero Gen_Home tiene una visión a largo plazo que va mucho más allá de una computadora compacta. Yo diseñé una arquitectura física para una generación siguiente: un toro de nanotubos de carbono, girando a 50,000 revoluciones por minuto, con caminos neuronales en triple hélice y junciones Josephson para el cálculo superconductor a baja temperatura. No es ciencia ficción —cada componente de esa arquitectura ya existe en algún laboratorio, aunque su integración sigue siendo un desafío de ingeniería. La característica más notable de esa visión: el calor producido por el cálculo sería recuperado para calentar la casa. Pensar calentaría el hogar. La cognición se volvería literalmente doméstica, en el sentido primero de la palabra: útil para la casa, producida por la casa, perteneciente a la casa. El círculo abierto por Prometeo se cerraría."
+  },
+  {
+    "type": "paragraph",
+    "style": "TechNote",
+    "text": "Visión Gen_Home largo plazo: sustrato toroidal en nanotubos de carbono (Ø 30 cm), velocidad de rotación 50,000 RPM, junciones Josephson para cálculo cuántico parcial, arquitectura triple hélice neuromórfica, cogeneración térmica (calor residual recuperado para la calefacción residencial), consumo neto inferior a 200W en régimen nominal. Fase actual: prototipado de software en Beelink SER8 + Ollama + Whisper, cero telemetría, cifrado familiar de extremo a extremo."
+  },
+  {
+    "type": "paragraph",
+    "style": "BodyText",
+    "text": "Hay que ser honesto sobre lo que Gen_Home no es. No es ChatGPT. En su versión actual, un modelo local de 7 mil millones de parámetros es menos capaz que un modelo de 70 mil millones alojado en la nube. Responde más lento. Comete más errores en preguntas enciclopédicas. No puede navegar en internet en tiempo real. Esas limitaciones son reales. Pero deben ponerse en balance con lo que Gen_Home ofrece y que los gigantes de la nube no pueden ofrecer: el hecho de que tu conversación sobre el estado de salud de tu madre no termine en un corpus de entrenamiento. El hecho de que tu hijo pueda hacer preguntas embarazosas sin que eso construya un perfil de comportamiento vendido a una aseguradora. El hecho de que la IA esté ahí cuando se corta la red, cuando la compañía decide cambiar sus condiciones de uso, cuando el mundo se descarrila. La resiliencia tiene un valor que el rendimiento bruto no mide."
+  },
+  {
+    "type": "paragraph",
+    "style": "SectionTitle",
+    "text": "UBLinx: recuperar las propias ideas"
+  },
+  {
+    "type": "paragraph",
+    "style": "BodyText",
+    "text": "El tercer proyecto se llama UBLinx. Es el más abstracto de los tres, y quizás el más importante para la transformación a largo plazo. UBLinx es una plataforma de propiedad intelectual distribuida: una red entre pares que combina blockchain y cálculo distribuido, donde los inventores pueden depositar, proteger y monetizar sus ideas sin intermediarios institucionales costosos. El concepto central es lo que yo llamo la \"patente equitativa abierta\": una invención depositada en UBLinx es automáticamente accesible en lectura y estudio para cualquiera —profesores, investigadores, curiosos. Su uso comercial activa automáticamente, mediante contrato inteligente, regalías depositadas directamente al inventor. El uso personal por debajo de un umbral mínimo (menos de cinco copias) es gratuito. Sin bufetes de abogados. Sin cuotas de renovación anuales. Sin depredadores de patentes que puedan comprar tus derechos a bajo precio para usarlos en tu contra."
+  },
+  {
+    "type": "paragraph",
+    "style": "BodyText",
+    "text": "La validación de las invenciones en UBLinx sigue un protocolo de dos fases. Primera fase: un filtro de prevalidación por aprendizaje automático, que verifica la novedad relativa y la ausencia de violaciones de patentes existentes. Segunda fase: una validación humana por expertos pares, remunerados en criptomoneda de la plataforma por sus evaluaciones. Ese sistema no es perfecto —ningún sistema de validación lo es. Pero es accesible. Un inventor en Quebec, en Senegal, en India o en Bolivia puede someter una idea por el costo de una conexión a internet y un poco de tiempo. La geografía y el capital ya no son condiciones previas para la protección intelectual. Es un cambio de civilización, no solo de herramienta."
+  },
+  {
+    "type": "paragraph",
+    "style": "SectionTitle",
+    "text": "No tres productos: un solo acto"
+  },
+  {
+    "type": "paragraph",
+    "style": "BodyText",
+    "text": "HYPERVORTEX, Gen_Home y UBLinx podrían parecer tres proyectos distintos en tres sectores diferentes —energía, digital, derecho. Este libro sostiene que son tres aspectos de un solo y mismo acto: restituir al hogar humano lo que la lógica industrial y digital le ha retirado progresivamente. La energía, la inteligencia y las ideas nunca debieron ser separadas. Su reunificación no es una utopía: es un proyecto de ingeniería, de arquitectura institucional y de diseño social que la tecnología contemporánea por fin hace factible. Tampoco es una revolución en el sentido de un derrocamiento brusco. Es una reconversión, progresiva, distribuida, elegida por individuos y familias que deciden, uno a uno, recuperar su focus."
+  },
+  {
+    "type": "paragraph",
+    "style": "Separator",
+    "text": "* * *"
+  },
+  {
+    "type": "paragraph",
+    "style": "ChapterTitle",
+    "text": "IV. La pregunta central"
+  },
+  {
+    "type": "paragraph",
+    "style": "SectionTitle",
+    "text": "Lo que este libro realmente explora"
+  },
+  {
+    "type": "paragraph",
+    "style": "BodyText",
+    "text": "Antes de continuar, se impone una honestidad. Este libro podría haber sido un manifiesto tecnooptimista más: \"Aquí están las soluciones, así es como van a cambiarlo todo, el futuro es radiante.\" También podría haber sido el relato de un inventor solitario triunfando contra las fuerzas del mercado. Esos dos libros ya existen, en numerosas versiones. Este no es ese libro. Este libro plantea una pregunta más difícil, más honesta, y finalmente más útil: ¿qué sucede realmente cuando un individuo, una familia, un barrio recupera el control de su energía, de su inteligencia digital y de sus ideas? La respuesta no es simple. Conduce a lo mejor y a lo peor. Y es esa tensión la que hace que la pregunta valga la pena."
+  },
+  {
+    "type": "paragraph",
+    "style": "Thesis",
+    "text": "¿Qué sucede cuando un individuo ordinario posee realmente su energía, su inteligencia digital y sus ideas? Este libro no pretende tener la respuesta definitiva. La explora. Y la exploración honesta conduce a territorios incómodos tanto como a horizontes luminosos."
+  },
+  {
+    "type": "paragraph",
+    "style": "BodyText",
+    "text": "Comencemos por los horizontes luminosos, porque son reales y sería deshonesto minimizarlos. Un hogar que produce una parte de su energía desarrolla una relación diferente con el consumo. No por virtud moral impuesta desde afuera, sino por comprensión directa del costo real. Cuando ves en tiempo real que tu calefacción consume tres veces más que tu iluminación, y que esa diferencia es visible en la pantalla de tu generador doméstico, tu comportamiento cambia. No radicalmente, no de la noche a la mañana, pero progresivamente, naturalmente. La información encarnada en la experiencia directa es más poderosa que cualquier campaña de sensibilización. Los estudios sobre hogares que han instalado paneles solares muestran sistemáticamente una reducción adicional del 15 al 20% de su consumo global, simplemente porque la relación con la energía cambió de naturaleza: de invisible a visible, de abstracta a concreta, de sufrida a elegida."
+  },
+  {
+    "type": "paragraph",
+    "style": "BodyText",
+    "text": "Un hogar que posee su inteligencia digital desarrolla usos que las plataformas centralizadas no permiten ni permitirán jamás, porque esos usos no son monetizables. Un diario familiar consultable por la abuela de 80 años en lenguaje natural. Un asistente que conoce las alergias, los medicamentos, los cumpleaños y las aspiraciones de cada miembro, sin jamás traicionar esa intimidad ante un tercero. Una herramienta de aprendizaje adaptada a las dificultades específicas de un niño disléxico, paciente al infinito, disponible a las 2 de la mañana cuando la angustia de un examen impide dormir. Esos usos existen en los discursos publicitarios de Google y Microsoft. No existen en la realidad, porque su realización requeriría dejar datos sensibles fuera del alcance de los anunciantes, algo que el modelo económico no puede permitirse."
+  },
+  {
+    "type": "paragraph",
+    "style": "BodyText",
+    "text": "Un inventor que puede proteger y monetizar sus ideas sin intermediarios costosos explora soluciones que los grandes laboratorios no buscan, porque esas soluciones no son suficientemente lucrativas a gran escala pero son transformadoras a pequeña escala. Un sistema de calefacción pasiva para las casas inuit. Un dispositivo de purificación de agua solar para regiones sin electricidad. Una herramienta de traducción oral para lenguas indígenas en peligro. Esas invenciones existen en mentes de todo el mundo. No salen de los talleres de garaje porque el camino hacia la protección y la comercialización es demasiado costoso, demasiado complejo, demasiado desalentador. Un sistema de propiedad intelectual accesible desbloquea ese reservorio de innovación distribuida. Es un bien público inmenso, aunque ningún informe del FMI lo medirá jamás."
+  },
+  {
+    "type": "paragraph",
+    "style": "SectionTitle",
+    "text": "Los territorios incómodos"
+  },
+  {
+    "type": "paragraph",
+    "style": "BodyText",
+    "text": "Pero aquí están los territorios incómodos, los que los manifiestos tecnooptimistas omiten cuidadosamente. La soberanía energética puede crear nuevas desigualdades. Si las casas que pueden pagarse un sistema HYPERVORTEX o paneles solares se desconectan parcialmente de la red, ¿quién financia el mantenimiento de esa red para quienes no pueden pagarlo? La mutualización del riesgo y de la infraestructura tiene un valor social que la soberanía individual puede erosionar. Este libro no pretende que la soberanía no tenga costos colectivos. Sostiene que esos costos pueden ser gestionados si se anticipan honestamente, y que son menores que el costo de la dependencia total. Pero la honestidad exige nombrarlos."
+  },
+  {
+    "type": "paragraph",
+    "style": "BodyText",
+    "text": "La inteligencia digital local también puede convertirse en un vector de encierro. Un hogar cuyo cerebro digital nunca se actualiza, nunca se confronta con perspectivas exteriores, puede amplificar sus propios sesgos y prejuicios sin correctivo. La cámara de eco no es un invento de las redes sociales centralizadas: es una tendencia humana fundamental que la tecnología puede amplificar o atenuar según su diseño. Gen_Home debe ser diseñado para conectar a las familias con el mundo mientras protege su intimidad —no para cortarlas de él. La diferencia entre una membrana selectiva y un muro no es técnica. Es arquitectónica y cultural. Se juega en las decisiones de diseño tomadas desde el inicio, y si esas decisiones son malas, la herramienta se convierte en su contrario."
+  },
+  {
+    "type": "paragraph",
+    "style": "BodyText",
+    "text": "¿Y la propiedad intelectual distribuida? Puede liberar al inventor, pero también puede fragmentar la base de conocimiento común que hace posible la ciencia. Si cada idea es inmediatamente protegida y monetizada, las colaboraciones espontáneas, los intercambios informales, la fertilización cruzada de las disciplinas se complican. Los científicos que trabajan en open access lo saben: hay una tensión real entre la protección de los derechos individuales y la vitalidad de los bienes comunes intelectuales. UBLinx debe navegar esa tensión —y este libro explicará cómo, con lucidez sobre los compromisos inevitables."
+  },
+  {
+    "type": "paragraph",
+    "style": "Separator",
+    "text": "* * *"
+  },
+  {
+    "type": "paragraph",
+    "style": "ChapterTitle",
+    "text": "V. La dignidad como producto"
+  },
+  {
+    "type": "paragraph",
+    "style": "SectionTitle",
+    "text": "Lo que la tecnología soberana realmente fabrica"
+  },
+  {
+    "type": "paragraph",
+    "style": "BodyText",
+    "text": "He aquí una reformulación de la pregunta central: ¿qué producen en realidad estos tres proyectos? No electricidad, no potencia de cálculo, no patentes. Producen algo más fundamental y más difícil de cuantificar. Producen dignidad. Esa palabra corre el riesgo de sonar vacía en un contexto tecnológico. Démosle una oportunidad de encontrar su precisión. La dignidad, aquí, no es un concepto filosófico abstracto. Es una experiencia vivida, concreta, corporal. Es la sensación de comprender lo que te sucede. Es la capacidad de decir no, de elegir de otra manera, de rechazar sin consecuencia catastrófica. Es la posibilidad de explicarle a tu hijo cómo funciona el sistema que gestiona tu vida, porque tú mismo lo comprendes."
+  },
+  {
+    "type": "paragraph",
+    "style": "BodyText",
+    "text": "Tomemos ejemplos concretos, porque es ahí donde la dignidad se revela. Una persona mayor confrontada con una interfaz digital incomprensible no solo pierde eficiencia. Pierde algo más precioso: el sentimiento de ser competente en su propia vida. Cada formulario incomprensible, cada mensaje de error críptico, cada \"lo siento, no entiendo su solicitud\" de un chatbot institucional es una pequeña humillación. Acumuladas a lo largo de años, esas pequeñas humillaciones construyen una narrativa íntima: \"Soy demasiado viejo para este mundo.\" Esa narrativa es falsa —la persona no es incompetente, la interfaz está mal diseñada. Pero la narrativa se instala. Determina comportamientos. Crea una dependencia hacia los miembros más jóvenes de la familia, quienes a su vez a menudo no comprenden realmente los sistemas que usan —los soportan con más soltura aparente, lo cual no es lo mismo que comprensión. Un asistente digital familiar que habla el idioma de la abuela, que conoce su historia, que responde a sus preguntas sin juicio y sin enviar sus datos médicos a una compañía de seguros: eso no es un lujo. Es dignidad restaurada."
+  },
+  {
+    "type": "paragraph",
+    "style": "BodyText",
+    "text": "Un padre que no entiende lo que su hijo ve, aprende o piensa a través de sus pantallas no solo pierde autoridad parental. Pierde algo más fundamental: la capacidad de ser un referente. La humillación del padre corregido por su hijo de diez años sobre el funcionamiento de una aplicación es real. No es una humillación que hiere su ego de jefe de familia. Es una humillación que le señala que ya no habita el mismo mundo que su hijo, que ya no tiene control sobre el entorno donde su hijo se forma. Esa señal es destructora del vínculo familiar de un modo que los discursos sobre la adicción a las pantallas no capturan. No es solo que las pantallas roban tiempo de presencia. Es que crean una brecha de comprensión que transforma al padre en un extraño en la vida digital de su hijo. Un hogar que domina su infraestructura digital —que sabe lo que funciona, que puede explicarle su funcionamiento a su hijo, que puede elegir lo que entra y lo que sale— es un hogar donde el padre puede seguir siendo un referente en el espacio digital tanto como en el físico."
+  },
+  {
+    "type": "paragraph",
+    "style": "BodyText",
+    "text": "Una madre que gestiona logísticamente un hogar —comidas, medicamentos, citas, presupuesto, relaciones con las instituciones— realiza un trabajo cognitivo considerable que nuestra economía no mide, no reconoce y no remunera. Cuando una herramienta digital trata esa gestión como una serie de tareas banales, automatizables, sin valor intrínseco, reproduce y refuerza la invisibilidad de ese trabajo. Un asistente de hogar diseñado con respeto a ese trabajo —que memoriza las preferencias de cada miembro, que anticipa las necesidades, que documenta las decisiones para que el valor de la gestión doméstica sea visible y transmisible— cambia algo en la forma en que esa mujer (o ese hombre) se percibe a sí misma. No es reconocimiento sentimental. Es reconocimiento arquitectónico: el sistema reconoce la complejidad de lo que sucede aquí. La dignidad, aquí, es ser vista."
+  },
+  {
+    "type": "paragraph",
+    "style": "BodyText",
+    "text": "Un adolescente tratado por los algoritmos de las redes sociales como una serie de sesgos explotables —comprar esto, votar por aquello, sentir esto otro— no es solo manipulado. Es formado para pensarse como explotable. Integra un modelo del mundo donde las entidades poderosas usan a las entidades débiles, y donde la debilidad es la condición normal del ciudadano ordinario. Ese modelo es quizás lo más peligroso que la tecnología centralizada ha producido: una generación que, habiendo crecido en sistemas diseñados para explotarla, no puede imaginar sistemas diseñados para servirla. Un adolescente que comprende cómo funciona la IA en su casa, que puede modificar sus parámetros, que sabe por qué responde lo que responde, que puede hacerle preguntas y obtener respuestas honestas sobre sus límites —ese adolescente desarrolla una relación con la tecnología radicalmente diferente. No necesariamente más tecnófila. Quizás más escéptica, más exigente, más ciudadana. La tecnología soberana no fabrica consumidores de tecnología. Fabrica ciudadanos de la tecnología."
+  },
+  {
+    "type": "paragraph",
+    "style": "Quote",
+    "text": "\"La soberanía no es un muro. Es una membrana. No aísla del mundo —da la elección de cómo conectarse a él.\""
+  },
+  {
+    "type": "paragraph",
+    "style": "BodyText",
+    "text": "Esa distinción entre muro y membrana es el hilo conductor filosófico de este libro. Un muro protege aislando. Una membrana protege filtrando. La soberanía que describimos aquí no es un repliegue sobre sí mismo, una desconexión del mundo, una utopía autonomista ingenua. Es la capacidad elegida de conectarse según los propios términos. Una casa que produce su energía puede igualmente estar conectada a la red y venderle su excedente. Ella elige cuándo y cómo. Un hogar con su propio cerebro digital puede igualmente usar los servicios en la nube para ciertas tareas. Elige cuáles, sabiendo qué datos salen y por qué. Un inventor que protege sus ideas en UBLinx puede igualmente publicar ciertos descubrimientos en open access total. Él elige. Esa elección es la dignidad."
+  },
+  {
+    "type": "paragraph",
+    "style": "Separator",
+    "text": "* * *"
+  },
+  {
+    "type": "paragraph",
+    "style": "ChapterTitle",
+    "text": "VI. Mapa del viaje"
+  },
+  {
+    "type": "paragraph",
+    "style": "SectionTitle",
+    "text": "Lo que encontrarás en este libro"
+  },
+  {
+    "type": "paragraph",
+    "style": "BodyText",
+    "text": "Este libro está organizado en cuatro actos, que corresponden a cuatro niveles de profundidad en la misma pregunta. El primer acto, \"La Energía\", cuenta cómo la soberanía energética es el primer acto de libertad. La historia de la desposesión energética, digital e intelectual que este prólogo ha introducido. No es una historia de villanos y víctimas. Es una historia de sistemas que tienen sus propias lógicas, sus propias inercias, sus propios puntos ciegos. Comprender esas lógicas es la condición previa para transformarlas. No se combate lo que no se comprende."
+  },
+  {
+    "type": "paragraph",
+    "style": "BodyText",
+    "text": "El segundo acto, \"Los Tres Fuegos\", presenta los proyectos en detalle. HYPERVORTEX V4.0, con su física de ferrofluidos supercríticos, sus desafíos de ingeniería, sus casos de uso reales y su camino hacia el mercado. Gen_Home, con su arquitectura en dos fases —el software desplegable hoy y la visión a largo plazo del toro neuromórfico— sus usos familiares concretos y sus límites honestamente expuestos. UBLinx, con su modelo de gobernanza distribuida, su protocolo de validación en dos fases, y su visión de un Internet de la propiedad intelectual accesible para todo inventor del planeta. Este acto no es un catálogo de ventas. Es un laboratorio abierto: así es como funciona, esto es lo que funciona, esto es lo que queda por resolver."
+  },
+  {
+    "type": "paragraph",
+    "style": "BodyText",
+    "text": "El tercer acto, \"La Red de Confianza\", es el más especulativo y el más humano. Imagina —a través de escenas y retratos compuestos, nunca de individuos reales identificables— lo que viviría una familia que hubiera adoptado los tres proyectos juntos. La abuela y el asistente vocal. El padre y la factura de energía reducida. El adolescente y su primer depósito de idea en UBLinx. La madre y el reconocimiento de su trabajo invisible. No es propaganda utopista. Es una exploración narrativa de las posibilidades reales, con sus fricciones, sus resistencias, sus medios éxitos y sus sorpresas. Las tecnologías cambian los comportamientos de maneras imprevisibles. Este libro intenta imaginar esas imprevisibilidades honestamente."
+  },
+  {
+    "type": "paragraph",
+    "style": "BodyText",
+    "text": "El cuarto acto, \"Las Sombras\", hace zoom fuera del hogar individual. Si miles, luego decenas de miles de hogares adoptaran estas tecnologías soberanas, ¿qué pasaría a nivel colectivo? ¿Qué nuevas instituciones serían necesarias? ¿Qué resistencias institucionales y políticas se manifestarían? ¿Cómo podría evolucionar una ciudad, una región, una nación si la soberanía individual se convirtiera en una norma social en lugar de una excepción militante? Este acto es el más político del libro, y el menos seguro. Plantea preguntas sin pretender tener todas las respuestas. Ofrece hipótesis de trabajo, escenarios alternativos, advertencias contra las utopías demasiado limpias."
+  },
+  {
+    "type": "paragraph",
+    "style": "SectionTitle",
+    "text": "Una invitación"
+  },
+  {
+    "type": "paragraph",
+    "style": "BodyText",
+    "text": "Este libro no está escrito para los ingenieros en jefe de las grandes empresas energéticas, para los directores de producto de los gigantes digitales, o para los equipos jurídicos de los bufetes de propiedad intelectual. Esas personas tienen sus propios recursos, sus propios consultores, sus propias razones para no querer lo que este libro propone. Este libro está escrito para el ingeniero curioso que se pregunta si su carrera podría tener más sentido. Para la familia que busca vías concretas hacia una mayor autonomía. Para el inventor de garaje que tiene una idea que merece existir. Para el profesor que busca formas de hacer las tecnologías comprensibles para sus estudiantes. Para el funcionario municipal que quiere saber qué significa \"resiliencia energética\" concretamente. Para cualquiera que sienta, aunque sea confusamente, que algo importante se ha perdido y que quizás es hora de recuperarlo."
+  },
+  {
+    "type": "paragraph",
+    "style": "BodyText",
+    "text": "Yo desarrollé estos proyectos en Quebec, en el contexto específico de una provincia nórdica con una fuerte tradición de autonomía comunitaria, una economía de la innovación aún en construcción, y desafíos energéticos y climáticos particularmente urgentes. Pero los problemas a los que estos proyectos responden no son quebequenses. Son universales. La dependencia energética afecta a cada familia en cada continente. La colonización digital de la intimidad no tiene fronteras. La inaccesibilidad del sistema de patentes es particularmente cruel en los países menos ricos, donde la inventiva individual es a menudo el único recurso disponible. Las soluciones propuestas aquí están desarrolladas en un contexto pero destinadas a un uso universal. La ambición es tan simple y tan grande como eso."
+  },
+  {
+    "type": "paragraph",
+    "style": "BodyText",
+    "text": "La familia quebequense alrededor de la vieja estufa de leña con la que comenzamos no necesita nostalgia. Necesita herramientas que le devuelvan, con las tecnologías del siglo XXI, lo que el hogar del siglo XVIII ofrecía: el calor que ella misma produce, la inteligencia que comparte entre los suyos, y las ideas que transmite de generación en generación. El fuego de Prometeo nunca perteneció a los dioses. Pertenece a quienes saben qué hacer con él. Este libro es una propuesta sobre lo que es posible hacer con él ahora."
+  },
+  {
+    "type": "paragraph",
+    "style": "Quote",
+    "text": "\"La abuela revuelve la sopa. No necesita que le expliquen la termodinámica del hogar. Ella sabe lo que el fuego significa. Está esperando que nosotros alcancemos su intuición.\""
+  },
+  {
+    "type": "pageBreak"
+  }
+]

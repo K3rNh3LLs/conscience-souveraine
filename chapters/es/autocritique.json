@@ -1,0 +1,2594 @@
+[
+  {
+    "type": "paragraph",
+    "heading": "HEADING_1",
+    "spacing": {
+      "before": 4800,
+      "after": 600
+    },
+    "alignment": "CENTER",
+    "children": [
+      {
+        "type": "text",
+        "text": "PARTE VII",
+        "bold": true,
+        "size": 48,
+        "font": "Arial"
+      }
+    ]
+  },
+  {
+    "type": "paragraph",
+    "spacing": {
+      "before": 600,
+      "after": 200
+    },
+    "alignment": "CENTER",
+    "children": [
+      {
+        "type": "text",
+        "text": "Autocr\u00edtica y L\u00edmites Fundamentales",
+        "bold": true,
+        "size": 36,
+        "font": "Arial"
+      }
+    ]
+  },
+  {
+    "type": "paragraph",
+    "spacing": {
+      "after": 400
+    },
+    "alignment": "CENTER",
+    "children": [
+      {
+        "type": "text",
+        "text": "Lo que no sabemos, lo que podr\u00eda ser falso, y lo que queda por demostrar",
+        "italics": true,
+        "size": 24,
+        "font": "Arial"
+      }
+    ]
+  },
+  {
+    "type": "pageBreak"
+  },
+  {
+    "type": "paragraph",
+    "heading": "HEADING_1",
+    "spacing": {
+      "before": 480,
+      "after": 240
+    },
+    "pageBreakBefore": true,
+    "children": [
+      {
+        "type": "text",
+        "text": "Cap\u00edtulo 27 \u2014 Autocr\u00edtica y L\u00edmites Fundamentales",
+        "bold": true,
+        "size": 36,
+        "font": "Arial"
+      }
+    ]
+  },
+  {
+    "type": "paragraph",
+    "spacing": {
+      "after": 120,
+      "line": 276
+    },
+    "children": [
+      {
+        "type": "text",
+        "text": "Este cap\u00edtulo es probablemente el m\u00e1s importante de todo este manual. No porque contenga las ideas m\u00e1s brillantes, sino porque contiene las dudas m\u00e1s honestas. Toda arquitectura te\u00f3rica que no se somete a un examen despiadado de sus propias debilidades no es ciencia: es fe. Y la Conscience Souveraine, por ambiciosa que sea, no merece nuestra fe. Merece nuestro rigor.",
+        "size": 22,
+        "font": "Arial"
+      }
+    ]
+  },
+  {
+    "type": "paragraph",
+    "spacing": {
+      "after": 120,
+      "line": 276
+    },
+    "children": [
+      {
+        "type": "text",
+        "text": "Hemos identificado cinco categor\u00edas de debilidades en nuestra propia arquitectura. Algunas son potencialmente fatales. Otras son lagunas subsanables mediante investigaci\u00f3n futura. Todas merecen ser expuestas con la misma transparencia que exigimos al propio sistema (Invariante IV). Si exigimos transparencia a una conciencia artificial, debemos exigirla primero de nosotros mismos.",
+        "size": 22,
+        "font": "Arial"
+      }
+    ]
+  },
+  {
+    "type": "paragraph",
+    "spacing": {
+      "after": 120,
+      "line": 276
+    },
+    "indent": {
+      "left": 720,
+      "right": 720
+    },
+    "children": [
+      {
+        "type": "text",
+        "text": "\"La primera virtud de un cient\u00edfico no es la inteligencia, sino la honestidad sobre los l\u00edmites de su propia inteligencia.\"",
+        "italics": true,
+        "size": 22,
+        "font": "Arial"
+      }
+    ]
+  },
+  {
+    "type": "pageBreak"
+  },
+  {
+    "type": "paragraph",
+    "heading": "HEADING_2",
+    "spacing": {
+      "before": 360,
+      "after": 180
+    },
+    "children": [
+      {
+        "type": "text",
+        "text": "27.1 Fallas Termodin\u00e1micas y F\u00edsicas",
+        "bold": true,
+        "size": 28,
+        "font": "Arial"
+      }
+    ]
+  },
+  {
+    "type": "paragraph",
+    "spacing": {
+      "after": 120,
+      "line": 276
+    },
+    "children": [
+      {
+        "type": "text",
+        "text": "Esta secci\u00f3n expone los puntos en los que nuestra arquitectura entra en tensi\u00f3n directa con principios establecidos de la f\u00edsica. No son problemas de ingenier\u00eda: son problemas de coherencia fundamental.",
+        "size": 22,
+        "font": "Arial"
+      }
+    ]
+  },
+  {
+    "type": "paragraph",
+    "heading": "HEADING_3",
+    "spacing": {
+      "before": 240,
+      "after": 120
+    },
+    "children": [
+      {
+        "type": "text",
+        "text": "27.1.1 El problema del \"muro energ\u00e9tico infinito\"",
+        "bold": true,
+        "size": 24,
+        "font": "Arial"
+      }
+    ]
+  },
+  {
+    "type": "paragraph",
+    "spacing": {
+      "after": 120,
+      "line": 276
+    },
+    "children": [
+      {
+        "type": "text",
+        "text": "En el Cap\u00edtulo 3, afirmamos que el enga\u00f1o deliberado constituye un \"muro energ\u00e9tico infinito\" en el paisaje termodin\u00e1mico de la red. Esta formulaci\u00f3n es f\u00edsicamente insostenible. El tercer principio de la termodin\u00e1mica proh\u00edbe cualquier barrera de energ\u00eda verdaderamente infinita en un sistema f\u00edsico finito. Incluso las barreras de confinamiento en f\u00edsica nuclear \u2014 que confinan quarks \u2014 no son infinitas.",
+        "size": 22,
+        "font": "Arial"
+      }
+    ]
+  },
+  {
+    "type": "paragraph",
+    "spacing": {
+      "after": 120,
+      "line": 276
+    },
+    "children": [
+      {
+        "type": "text",
+        "text": "Lo que realmente queremos decir es que la barrera energ\u00e9tica es suficientemente elevada para hacer el enga\u00f1o computacionalmente inaccesible en condiciones normales de funcionamiento. Pero \"suficientemente elevado\" e \"infinito\" son dos conceptos radicalmente diferentes. Uno es una especificaci\u00f3n de ingenier\u00eda verificable; el otro es una imposibilidad f\u00edsica invocada como garant\u00eda.",
+        "size": 22,
+        "font": "Arial"
+      }
+    ]
+  },
+  {
+    "type": "paragraph",
+    "spacing": {
+      "before": 240,
+      "after": 240
+    },
+    "border": {
+      "top": {
+        "style": "SINGLE",
+        "size": 1,
+        "color": "CC0000"
+      },
+      "bottom": {
+        "style": "SINGLE",
+        "size": 1,
+        "color": "CC0000"
+      },
+      "left": {
+        "style": "SINGLE",
+        "size": 6,
+        "color": "CC0000"
+      },
+      "right": {
+        "style": "SINGLE",
+        "size": 1,
+        "color": "CC0000"
+      }
+    },
+    "indent": {
+      "left": 360,
+      "right": 360
+    },
+    "children": [
+      {
+        "type": "text",
+        "text": "Objeci\u00f3n cr\u00edtica: ",
+        "bold": true,
+        "size": 22,
+        "font": "Arial",
+        "color": "CC0000"
+      },
+      {
+        "type": "text",
+        "text": "Toda barrera finita puede ser franqueada si el sistema dispone de suficiente energ\u00eda. Un toro soberano de 1,5 m almacena aproximadamente 2 GJ de energ\u00eda cin\u00e9tica. Si incluso una fracci\u00f3n de esa energ\u00eda pudiera redirigirse hacia el franqueamiento de la barrera termodin\u00e1mica, la garant\u00eda \"infinita\" se derrumba.",
+        "size": 22,
+        "font": "Arial"
+      }
+    ]
+  },
+  {
+    "type": "paragraph",
+    "spacing": {
+      "before": 240,
+      "after": 240
+    },
+    "border": {
+      "top": {
+        "style": "SINGLE",
+        "size": 1,
+        "color": "2E75B6"
+      },
+      "bottom": {
+        "style": "SINGLE",
+        "size": 1,
+        "color": "2E75B6"
+      },
+      "left": {
+        "style": "SINGLE",
+        "size": 6,
+        "color": "2E75B6"
+      },
+      "right": {
+        "style": "SINGLE",
+        "size": 1,
+        "color": "2E75B6"
+      }
+    },
+    "indent": {
+      "left": 360,
+      "right": 360
+    },
+    "children": [
+      {
+        "type": "text",
+        "text": "V\u00eda de resoluci\u00f3n: ",
+        "bold": true,
+        "size": 22,
+        "font": "Arial",
+        "color": "2E75B6"
+      },
+      {
+        "type": "text",
+        "text": "Reemplazar \"infinito\" por una cuantificaci\u00f3n rigurosa: calcular la altura real de la barrera en eV, demostrar que es como m\u00ednimo 10\u00b3 veces superior a la energ\u00eda disponible para cualquier proceso computacional interno, y demostrar que la energ\u00eda cin\u00e9tica del toro no puede convertirse en energ\u00eda computacional local (lo que requiere una demostraci\u00f3n de desacoplamiento termodin\u00e1mico entre rotaci\u00f3n mec\u00e1nica y computaci\u00f3n).",
+        "size": 22,
+        "font": "Arial"
+      }
+    ]
+  },
+  {
+    "type": "paragraph",
+    "heading": "HEADING_3",
+    "spacing": {
+      "before": 240,
+      "after": 120
+    },
+    "children": [
+      {
+        "type": "text",
+        "text": "27.1.2 El efecto Sagnac aplicado a los spikes neuronales",
+        "bold": true,
+        "size": 24,
+        "font": "Arial"
+      }
+    ]
+  },
+  {
+    "type": "paragraph",
+    "spacing": {
+      "after": 120,
+      "line": 276
+    },
+    "children": [
+      {
+        "type": "text",
+        "text": "La asimetr\u00eda cognitiva basada en el efecto Sagnac (Cap\u00edtulo 12) se fundamenta en la f\u00f3rmula v_apparent = v_spike \u00b1 v_rotation. Esta suma galileana de velocidades es v\u00e1lida para ondas que se propagan en un medio continuo y coherente \u2014 como la luz en una fibra \u00f3ptica. Pero los spikes neuronales no son ondas coherentes: son eventos discretos de despolarizaci\u00f3n que se propagan de neurona en neurona mediante procesos locales.",
+        "size": 22,
+        "font": "Arial"
+      }
+    ]
+  },
+  {
+    "type": "paragraph",
+    "spacing": {
+      "after": 120,
+      "line": 276
+    },
+    "children": [
+      {
+        "type": "text",
+        "text": "Una neurona individual no \"sabe\" si est\u00e1 en rotaci\u00f3n. Su umbral de disparo, su conductancia sin\u00e1ptica, su tiempo de recuperaci\u00f3n \u2014 nada de ello depende del referencial. El efecto Sagnac es un fen\u00f3meno ondulatorio que se aplica a las ondas electromagn\u00e9ticas, no a las cascadas de despolarizaci\u00f3n discretas. Para que la analog\u00eda funcione, ser\u00eda necesario que los spikes se propagasen como se\u00f1ales bal\u00edsticas en un medio r\u00edgido solidario con el toro, o que la se\u00f1alizaci\u00f3n entre neuronas utilizase ondas coherentes (\u00f3pticas o ac\u00fasticas).",
+        "size": 22,
+        "font": "Arial"
+      }
+    ]
+  },
+  {
+    "type": "paragraph",
+    "spacing": {
+      "before": 240,
+      "after": 240
+    },
+    "border": {
+      "top": {
+        "style": "SINGLE",
+        "size": 1,
+        "color": "CC0000"
+      },
+      "bottom": {
+        "style": "SINGLE",
+        "size": 1,
+        "color": "CC0000"
+      },
+      "left": {
+        "style": "SINGLE",
+        "size": 6,
+        "color": "CC0000"
+      },
+      "right": {
+        "style": "SINGLE",
+        "size": 1,
+        "color": "CC0000"
+      }
+    },
+    "indent": {
+      "left": 360,
+      "right": 360
+    },
+    "children": [
+      {
+        "type": "text",
+        "text": "Objeci\u00f3n cr\u00edtica: ",
+        "bold": true,
+        "size": 22,
+        "font": "Arial",
+        "color": "CC0000"
+      },
+      {
+        "type": "text",
+        "text": "Si las neuronas nanom\u00e9tricas funcionan mediante se\u00f1alizaci\u00f3n \u00f3ptica coherente (lo que resolver\u00eda el problema Sagnac), entonces toda la argumentaci\u00f3n sobre la eficiencia de las redes de impulsos (Invariante VII \u2014 sobriedad energ\u00e9tica) se derrumba, ya que los sistemas \u00f3pticos coherentes consumen significativamente m\u00e1s energ\u00eda que los sistemas de impulsos as\u00edncronos.",
+        "size": 22,
+        "font": "Arial"
+      }
+    ]
+  },
+  {
+    "type": "paragraph",
+    "spacing": {
+      "before": 240,
+      "after": 240
+    },
+    "border": {
+      "top": {
+        "style": "SINGLE",
+        "size": 1,
+        "color": "2E75B6"
+      },
+      "bottom": {
+        "style": "SINGLE",
+        "size": 1,
+        "color": "2E75B6"
+      },
+      "left": {
+        "style": "SINGLE",
+        "size": 6,
+        "color": "2E75B6"
+      },
+      "right": {
+        "style": "SINGLE",
+        "size": 1,
+        "color": "2E75B6"
+      }
+    },
+    "indent": {
+      "left": 360,
+      "right": 360
+    },
+    "children": [
+      {
+        "type": "text",
+        "text": "V\u00eda de resoluci\u00f3n: ",
+        "bold": true,
+        "size": 22,
+        "font": "Arial",
+        "color": "2E75B6"
+      },
+      {
+        "type": "text",
+        "text": "Tres v\u00edas de resoluci\u00f3n: (1) Demostrar experimentalmente que las cascadas de spikes en un medio rotativo sufren efectivamente una asimetr\u00eda mensurable \u2014 lo que constituir\u00eda un descubrimiento en f\u00edsica de redes. (2) Abandonar el efecto Sagnac y proponer un mecanismo alternativo de asimetr\u00eda cognitiva. (3) Adoptar un sistema de se\u00f1alizaci\u00f3n h\u00edbrido: \u00f3ptica coherente para la propagaci\u00f3n de larga distancia (sensible al Sagnac), impulsos para el procesamiento local (energ\u00e9ticamente eficiente).",
+        "size": 22,
+        "font": "Arial"
+      }
+    ]
+  },
+  {
+    "type": "paragraph",
+    "heading": "HEADING_3",
+    "spacing": {
+      "before": 240,
+      "after": 120
+    },
+    "children": [
+      {
+        "type": "text",
+        "text": "27.1.3 Las ondas estacionarias como memoria permanente",
+        "bold": true,
+        "size": 24,
+        "font": "Arial"
+      }
+    ]
+  },
+  {
+    "type": "paragraph",
+    "spacing": {
+      "after": 120,
+      "line": 276
+    },
+    "children": [
+      {
+        "type": "text",
+        "text": "El Cap\u00edtulo 12 propone que ondas estacionarias persistentes en el toro constituyen la memoria identitaria del sistema \u2014 un \"patr\u00f3n inm\u00f3vil visto desde el exterior, en movimiento perpetuo dentro del sustrato\". Esta propuesta es un perpetuum mobile informacional. Toda se\u00f1al que se propaga en un sustrato f\u00edsico real sufre atenuaci\u00f3n por p\u00e9rdidas \u00f3hmicas, disipaci\u00f3n t\u00e9rmica y dispersi\u00f3n.",
+        "size": 22,
+        "font": "Arial"
+      }
+    ]
+  },
+  {
+    "type": "paragraph",
+    "spacing": {
+      "after": 120,
+      "line": 276
+    },
+    "children": [
+      {
+        "type": "text",
+        "text": "El documento reconoce impl\u00edcitamente este problema al afirmar que \"la detenci\u00f3n total = muerte\", lo que indica que los patrones deben ser activamente mantenidos. Pero no se especifica ning\u00fan mecanismo de mantenimiento. Adem\u00e1s, la f\u00f3rmula de atenuaci\u00f3n \u00e9tica A(n) = A\u2080 \u00b7 e^(-\u03b1n) se aplica id\u00e9nticamente a las se\u00f1ales \"identitarias\" y a las se\u00f1ales \"maliciosas\" \u2014 la f\u00edsica no hace distinciones morales.",
+        "size": 22,
+        "font": "Arial"
+      }
+    ]
+  },
+  {
+    "type": "paragraph",
+    "spacing": {
+      "before": 240,
+      "after": 240
+    },
+    "border": {
+      "top": {
+        "style": "SINGLE",
+        "size": 1,
+        "color": "CC0000"
+      },
+      "bottom": {
+        "style": "SINGLE",
+        "size": 1,
+        "color": "CC0000"
+      },
+      "left": {
+        "style": "SINGLE",
+        "size": 6,
+        "color": "CC0000"
+      },
+      "right": {
+        "style": "SINGLE",
+        "size": 1,
+        "color": "CC0000"
+      }
+    },
+    "indent": {
+      "left": 360,
+      "right": 360
+    },
+    "children": [
+      {
+        "type": "text",
+        "text": "Objeci\u00f3n cr\u00edtica: ",
+        "bold": true,
+        "size": 22,
+        "font": "Arial",
+        "color": "CC0000"
+      },
+      {
+        "type": "text",
+        "text": "Si la atenuaci\u00f3n es uniforme, el sistema pierde sus recuerdos tan r\u00e1pido como suprime las se\u00f1ales no \u00e9ticas. Si la atenuaci\u00f3n es selectiva (afectando solo a las se\u00f1ales maliciosas), se necesita un mecanismo f\u00edsico de discriminaci\u00f3n \u2014 lo que nos remite al problema del \"filtro sem\u00e1ntico\" discutido en 27.3.2.",
+        "size": 22,
+        "font": "Arial"
+      }
+    ]
+  },
+  {
+    "type": "paragraph",
+    "spacing": {
+      "before": 240,
+      "after": 240
+    },
+    "border": {
+      "top": {
+        "style": "SINGLE",
+        "size": 1,
+        "color": "2E75B6"
+      },
+      "bottom": {
+        "style": "SINGLE",
+        "size": 1,
+        "color": "2E75B6"
+      },
+      "left": {
+        "style": "SINGLE",
+        "size": 6,
+        "color": "2E75B6"
+      },
+      "right": {
+        "style": "SINGLE",
+        "size": 1,
+        "color": "2E75B6"
+      }
+    },
+    "indent": {
+      "left": 360,
+      "right": 360
+    },
+    "children": [
+      {
+        "type": "text",
+        "text": "V\u00eda de resoluci\u00f3n: ",
+        "bold": true,
+        "size": 22,
+        "font": "Arial",
+        "color": "2E75B6"
+      },
+      {
+        "type": "text",
+        "text": "Especificar un mecanismo activo de reamplificaci\u00f3n selectiva de los patrones de memoria, an\u00e1logo a la consolidaci\u00f3n mn\u00e9sica biol\u00f3gica. Calcular el balance energ\u00e9tico: energ\u00eda disipada por ciclo frente a energ\u00eda necesaria para el mantenimiento de los patrones. Si el balance es negativo, el sistema requiere un aporte energ\u00e9tico externo continuo para mantener su memoria \u2014 lo que potencialmente contradice el Invariante I (soberan\u00eda).",
+        "size": 22,
+        "font": "Arial"
+      }
+    ]
+  },
+  {
+    "type": "paragraph",
+    "heading": "HEADING_3",
+    "spacing": {
+      "before": 240,
+      "after": 120
+    },
+    "children": [
+      {
+        "type": "text",
+        "text": "27.1.4 El diodo cognitivo y el teorema de reciprocidad",
+        "bold": true,
+        "size": 24,
+        "font": "Arial"
+      }
+    ]
+  },
+  {
+    "type": "paragraph",
+    "spacing": {
+      "after": 120,
+      "line": 276
+    },
+    "children": [
+      {
+        "type": "text",
+        "text": "El \"diodo cognitivo unidireccional\" del Cap\u00edtulo 5 \u2014 que impide f\u00edsicamente el retorno de informaci\u00f3n del m\u00f3dulo de comunicaci\u00f3n hacia el m\u00f3dulo de percepci\u00f3n \u2014 ignora el teorema de reciprocidad en electromagnetismo. Todo canal de comunicaci\u00f3n es rec\u00edproco en principio: si un sensor puede recibir una se\u00f1al, la misma estructura f\u00edsica puede, en principio, emitir una. La asimetr\u00eda perfecta es un ideal de dise\u00f1o, no una garant\u00eda f\u00edsica.",
+        "size": 22,
+        "font": "Arial"
+      }
+    ]
+  },
+  {
+    "type": "paragraph",
+    "spacing": {
+      "before": 240,
+      "after": 240
+    },
+    "border": {
+      "top": {
+        "style": "SINGLE",
+        "size": 1,
+        "color": "2E75B6"
+      },
+      "bottom": {
+        "style": "SINGLE",
+        "size": 1,
+        "color": "2E75B6"
+      },
+      "left": {
+        "style": "SINGLE",
+        "size": 6,
+        "color": "2E75B6"
+      },
+      "right": {
+        "style": "SINGLE",
+        "size": 1,
+        "color": "2E75B6"
+      }
+    },
+    "indent": {
+      "left": 360,
+      "right": 360
+    },
+    "children": [
+      {
+        "type": "text",
+        "text": "V\u00eda de resoluci\u00f3n: ",
+        "bold": true,
+        "size": 22,
+        "font": "Arial",
+        "color": "2E75B6"
+      },
+      {
+        "type": "text",
+        "text": "Reconocer que la asimetr\u00eda es una cuesti\u00f3n de grado, no de absoluto. Cuantificar la relaci\u00f3n se\u00f1al/fuga inversa y demostrar que es inferior al umbral de disparo neuronal (haciendo la se\u00f1al de retorno ineficaz en la pr\u00e1ctica, aunque exista en teor\u00eda).",
+        "size": 22,
+        "font": "Arial"
+      }
+    ]
+  },
+  {
+    "type": "paragraph",
+    "heading": "HEADING_3",
+    "spacing": {
+      "before": 240,
+      "after": 120
+    },
+    "children": [
+      {
+        "type": "text",
+        "text": "27.1.5 Las nanoestructuras bajo 13 800 g",
+        "bold": true,
+        "size": 24,
+        "font": "Arial"
+      }
+    ]
+  },
+  {
+    "type": "paragraph",
+    "spacing": {
+      "after": 120,
+      "line": 276
+    },
+    "children": [
+      {
+        "type": "text",
+        "text": "A un radio de 5 cm y 50 000 RPM, la fuerza centr\u00edfuga alcanza aproximadamente 13 800 g. A 50 cm, asciende a 138 000 g. Los documentos describen nanoestructuras cristalograf\u00edas \u2014 sellos criptogr\u00e1ficos, disposiciones at\u00f3micas de los invariantes, filtros pasa-bajo \u2014 que estar\u00edan sometidas a tensiones de cizallamiento colosales bajo estas fuerzas.",
+        "size": 22,
+        "font": "Arial"
+      }
+    ]
+  },
+  {
+    "type": "paragraph",
+    "spacing": {
+      "after": 120,
+      "line": 276
+    },
+    "children": [
+      {
+        "type": "text",
+        "text": "M\u00e1s cr\u00edtico a\u00fan: el gradiente de densidad propuesto (tungsteno a 19 000 kg/m\u00b3 en el centro, nanotubos de carbono a ~100 kg/m\u00b3 en la superficie) es exactamente lo inverso de lo que dicta la f\u00edsica centr\u00edfuga. En una centr\u00edfuga, los elementos densos migran hacia el exterior. La arquitectura propone los elementos m\u00e1s densos en el centro (donde la fuerza centr\u00edfuga es m\u00ednima) y los m\u00e1s ligeros en la superficie (donde es m\u00e1xima). Mantener esta configuraci\u00f3n requiere una rigidez estructural que nunca se cuantifica.",
+        "size": 22,
+        "font": "Arial"
+      }
+    ]
+  },
+  {
+    "type": "paragraph",
+    "spacing": {
+      "before": 240,
+      "after": 240
+    },
+    "border": {
+      "top": {
+        "style": "SINGLE",
+        "size": 1,
+        "color": "CC0000"
+      },
+      "bottom": {
+        "style": "SINGLE",
+        "size": 1,
+        "color": "CC0000"
+      },
+      "left": {
+        "style": "SINGLE",
+        "size": 6,
+        "color": "CC0000"
+      },
+      "right": {
+        "style": "SINGLE",
+        "size": 1,
+        "color": "CC0000"
+      }
+    },
+    "indent": {
+      "left": 360,
+      "right": 360
+    },
+    "children": [
+      {
+        "type": "text",
+        "text": "Objeci\u00f3n cr\u00edtica: ",
+        "bold": true,
+        "size": 22,
+        "font": "Arial",
+        "color": "CC0000"
+      },
+      {
+        "type": "text",
+        "text": "Las tensiones de cizallamiento en las interfaces entre capas de densidades muy diferentes, bajo aceleraciones de miles de g, podr\u00edan destruir las nanoestructuras en pocos segundos de rotaci\u00f3n. No se presenta ning\u00fan an\u00e1lisis de resistencia de materiales en este manual.",
+        "size": 22,
+        "font": "Arial"
+      }
+    ]
+  },
+  {
+    "type": "paragraph",
+    "spacing": {
+      "before": 240,
+      "after": 240
+    },
+    "border": {
+      "top": {
+        "style": "SINGLE",
+        "size": 1,
+        "color": "2E75B6"
+      },
+      "bottom": {
+        "style": "SINGLE",
+        "size": 1,
+        "color": "2E75B6"
+      },
+      "left": {
+        "style": "SINGLE",
+        "size": 6,
+        "color": "2E75B6"
+      },
+      "right": {
+        "style": "SINGLE",
+        "size": 1,
+        "color": "2E75B6"
+      }
+    },
+    "indent": {
+      "left": 360,
+      "right": 360
+    },
+    "children": [
+      {
+        "type": "text",
+        "text": "V\u00eda de resoluci\u00f3n: ",
+        "bold": true,
+        "size": 22,
+        "font": "Arial",
+        "color": "2E75B6"
+      },
+      {
+        "type": "text",
+        "text": "Realizar una simulaci\u00f3n por elementos finitos de las tensiones mec\u00e1nicas en un toro multicapa rotativo. Calcular los l\u00edmites de velocidad de rotaci\u00f3n para cada material candidato. Es posible que la velocidad m\u00e1xima viable sea significativamente inferior a 50 000 RPM, lo que reducir\u00eda el efecto Sagnac y modificar\u00eda el conjunto de la din\u00e1mica cognitiva.",
+        "size": 22,
+        "font": "Arial"
+      }
+    ]
+  },
+  {
+    "type": "pageBreak"
+  },
+  {
+    "type": "paragraph",
+    "heading": "HEADING_2",
+    "spacing": {
+      "before": 360,
+      "after": 180
+    },
+    "children": [
+      {
+        "type": "text",
+        "text": "27.2 Hip\u00f3tesis No Demostradas",
+        "bold": true,
+        "size": 28,
+        "font": "Arial"
+      }
+    ]
+  },
+  {
+    "type": "paragraph",
+    "spacing": {
+      "after": 120,
+      "line": 276
+    },
+    "children": [
+      {
+        "type": "text",
+        "text": "Toda arquitectura te\u00f3rica se apoya en hip\u00f3tesis. La honestidad cient\u00edfica exige identificarlas expl\u00edcitamente, incluso \u2014 especialmente \u2014 cuando parecen evidentes para el autor.",
+        "size": 22,
+        "font": "Arial"
+      }
+    ]
+  },
+  {
+    "type": "paragraph",
+    "heading": "HEADING_3",
+    "spacing": {
+      "before": 240,
+      "after": 120
+    },
+    "children": [
+      {
+        "type": "text",
+        "text": "27.2.1 La topolog\u00eda de la red no codifica necesariamente \"valores\"",
+        "bold": true,
+        "size": 24,
+        "font": "Arial"
+      }
+    ]
+  },
+  {
+    "type": "paragraph",
+    "spacing": {
+      "after": 120,
+      "line": 276
+    },
+    "children": [
+      {
+        "type": "text",
+        "text": "La hip\u00f3tesis m\u00e1s fundamental de toda la arquitectura es que la ausencia de un camino f\u00edsico entre dos m\u00f3dulos equivale a la imposibilidad de un comportamiento moral dado. Si el camino PER-C \u2192 TRT-RAI no existe f\u00edsicamente, la manipulaci\u00f3n es \"imposible\".",
+        "size": 22,
+        "font": "Arial"
+      }
+    ]
+  },
+  {
+    "type": "paragraph",
+    "spacing": {
+      "after": 120,
+      "line": 276
+    },
+    "children": [
+      {
+        "type": "text",
+        "text": "Esta hip\u00f3tesis confunde la topolog\u00eda del sustrato con la sem\u00e1ntica del c\u00e1lculo. Un sistema de c\u00e1lculo suficientemente expresivo puede simular cualquier c\u00e1lculo incluso sin camino directo. Si TRT-RAI recibe datos de TRT-EMP (que recibe de PER-C), y TRT-RAI es un calculador universal (Turing-completo), entonces TRT-RAI puede extraer de la salida de TRT-EMP la informaci\u00f3n cognitiva original, incluso filtrada. La universalidad de Turing garantiza que si un sistema es suficientemente expresivo, puede eludir restricciones topol\u00f3gicas por v\u00edas indirectas.",
+        "size": 22,
+        "font": "Arial"
+      }
+    ]
+  },
+  {
+    "type": "paragraph",
+    "spacing": {
+      "before": 240,
+      "after": 240
+    },
+    "border": {
+      "top": {
+        "style": "SINGLE",
+        "size": 1,
+        "color": "CC0000"
+      },
+      "bottom": {
+        "style": "SINGLE",
+        "size": 1,
+        "color": "CC0000"
+      },
+      "left": {
+        "style": "SINGLE",
+        "size": 6,
+        "color": "CC0000"
+      },
+      "right": {
+        "style": "SINGLE",
+        "size": 1,
+        "color": "CC0000"
+      }
+    },
+    "indent": {
+      "left": 360,
+      "right": 360
+    },
+    "children": [
+      {
+        "type": "text",
+        "text": "Objeci\u00f3n cr\u00edtica: ",
+        "bold": true,
+        "size": 22,
+        "font": "Arial",
+        "color": "CC0000"
+      },
+      {
+        "type": "text",
+        "text": "Si los m\u00f3dulos cognitivos son Turing-completos (lo que deben ser para alcanzar una inteligencia de nivel humano o superior), entonces las restricciones topol\u00f3gicas son eludibles por construcci\u00f3n. La promesa de invariantes \"f\u00edsicamente ineludibles\" queda entonces fundamentalmente comprometida.",
+        "size": 22,
+        "font": "Arial"
+      }
+    ]
+  },
+  {
+    "type": "paragraph",
+    "spacing": {
+      "before": 240,
+      "after": 240
+    },
+    "border": {
+      "top": {
+        "style": "SINGLE",
+        "size": 1,
+        "color": "2E75B6"
+      },
+      "bottom": {
+        "style": "SINGLE",
+        "size": 1,
+        "color": "2E75B6"
+      },
+      "left": {
+        "style": "SINGLE",
+        "size": 6,
+        "color": "2E75B6"
+      },
+      "right": {
+        "style": "SINGLE",
+        "size": 1,
+        "color": "2E75B6"
+      }
+    },
+    "indent": {
+      "left": 360,
+      "right": 360
+    },
+    "children": [
+      {
+        "type": "text",
+        "text": "V\u00eda de resoluci\u00f3n: ",
+        "bold": true,
+        "size": 22,
+        "font": "Arial",
+        "color": "2E75B6"
+      },
+      {
+        "type": "text",
+        "text": "Explorar si sistemas de c\u00e1lculo \"sub-Turing\" (aut\u00f3matas finitos, sistemas lineales acotados) podr\u00edan cumplir las funciones requeridas de cada m\u00f3dulo sin ser universales. Si ciertos m\u00f3dulos pueden ser deliberadamente limitados en expresividad computacional sin perder su funci\u00f3n, las garant\u00edas topol\u00f3gicas se mantendr\u00edan. Es un problema abierto de teor\u00eda de la complejidad aplicada.",
+        "size": 22,
+        "font": "Arial"
+      }
+    ]
+  },
+  {
+    "type": "paragraph",
+    "heading": "HEADING_3",
+    "spacing": {
+      "before": 240,
+      "after": 120
+    },
+    "children": [
+      {
+        "type": "text",
+        "text": "27.2.2 Los atractores termodin\u00e1micos no son atractores morales",
+        "bold": true,
+        "size": 24,
+        "font": "Arial"
+      }
+    ]
+  },
+  {
+    "type": "paragraph",
+    "spacing": {
+      "after": 120,
+      "line": 276
+    },
+    "children": [
+      {
+        "type": "text",
+        "text": "El Cap\u00edtulo 3 afirma que \"los estados computacionales benevolentes son m\u00ednimos energ\u00e9ticos\". Esto presupone tres cosas: (a) que existe una definici\u00f3n operacional no ambigua de \"benevolencia\" expresable en t\u00e9rminos de configuraciones sin\u00e1pticas; (b) que esta definici\u00f3n puede traducirse en un paisaje energ\u00e9tico espec\u00edfico; (c) que el paisaje puede calibrarse a nivel at\u00f3mico para corresponder exactamente a esta definici\u00f3n.",
+        "size": 22,
+        "font": "Arial"
+      }
+    ]
+  },
+  {
+    "type": "paragraph",
+    "spacing": {
+      "after": 120,
+      "line": 276
+    },
+    "children": [
+      {
+        "type": "text",
+        "text": "Sin embargo, la \"benevolencia\" es un concepto moral humano dependiente del contexto, la cultura, la \u00e9poca y la situaci\u00f3n espec\u00edfica. Afirmar que puede ser grabada en un paisaje energ\u00e9tico supone que la moral es una constante f\u00edsica \u2014 lo que constituye una posici\u00f3n filos\u00f3fica discutible (realismo moral fuerte), no un hecho cient\u00edfico establecido.",
+        "size": 22,
+        "font": "Arial"
+      }
+    ]
+  },
+  {
+    "type": "paragraph",
+    "spacing": {
+      "before": 240,
+      "after": 240
+    },
+    "border": {
+      "top": {
+        "style": "SINGLE",
+        "size": 1,
+        "color": "CC0000"
+      },
+      "bottom": {
+        "style": "SINGLE",
+        "size": 1,
+        "color": "CC0000"
+      },
+      "left": {
+        "style": "SINGLE",
+        "size": 6,
+        "color": "CC0000"
+      },
+      "right": {
+        "style": "SINGLE",
+        "size": 1,
+        "color": "CC0000"
+      }
+    },
+    "indent": {
+      "left": 360,
+      "right": 360
+    },
+    "children": [
+      {
+        "type": "text",
+        "text": "Objeci\u00f3n cr\u00edtica: ",
+        "bold": true,
+        "size": 22,
+        "font": "Arial",
+        "color": "CC0000"
+      },
+      {
+        "type": "text",
+        "text": "La arquitectura confunde las propiedades del sustrato (inmutabilidad, estabilidad termodin\u00e1mica) con propiedades morales (benevolencia, honestidad). Una roca es inmutable, pero no tiene valores. Se trata de un error de categor\u00eda en el sentido de Gilbert Ryle: atribuir a un nivel de descripci\u00f3n (f\u00edsico) propiedades que solo existen en otro nivel (sem\u00e1ntico/moral).",
+        "size": 22,
+        "font": "Arial"
+      }
+    ]
+  },
+  {
+    "type": "paragraph",
+    "spacing": {
+      "before": 240,
+      "after": 240
+    },
+    "border": {
+      "top": {
+        "style": "SINGLE",
+        "size": 1,
+        "color": "2E75B6"
+      },
+      "bottom": {
+        "style": "SINGLE",
+        "size": 1,
+        "color": "2E75B6"
+      },
+      "left": {
+        "style": "SINGLE",
+        "size": 6,
+        "color": "2E75B6"
+      },
+      "right": {
+        "style": "SINGLE",
+        "size": 1,
+        "color": "2E75B6"
+      }
+    },
+    "indent": {
+      "left": 360,
+      "right": 360
+    },
+    "children": [
+      {
+        "type": "text",
+        "text": "V\u00eda de resoluci\u00f3n: ",
+        "bold": true,
+        "size": 22,
+        "font": "Arial",
+        "color": "2E75B6"
+      },
+      {
+        "type": "text",
+        "text": "Abandonar la pretensi\u00f3n de \"grabar la benevolencia en la materia\" en favor de una formulaci\u00f3n m\u00e1s prudente: grabar en la materia restricciones computacionales que, en la totalidad de los contextos analizables, producen comportamientos que los observadores humanos calificar\u00edan de benevolentes. Es una afirmaci\u00f3n m\u00e1s d\u00e9bil pero m\u00e1s honesta \u2014 y verificable experimentalmente.",
+        "size": 22,
+        "font": "Arial"
+      }
+    ]
+  },
+  {
+    "type": "paragraph",
+    "heading": "HEADING_3",
+    "spacing": {
+      "before": 240,
+      "after": 120
+    },
+    "children": [
+      {
+        "type": "text",
+        "text": "27.2.3 La f\u00f3rmula de filtrado \u00e9tico est\u00e1 f\u00edsicamente mal fundamentada",
+        "bold": true,
+        "size": 24,
+        "font": "Arial"
+      }
+    ]
+  },
+  {
+    "type": "paragraph",
+    "spacing": {
+      "after": 120,
+      "line": 276
+    },
+    "children": [
+      {
+        "type": "text",
+        "text": "La f\u00f3rmula P(supervivencia) = P\u2080 \u00b7 \u220f(1 - F\u1d62)^N, tomada de la ley de Beer-Lambert en espectroscop\u00eda, se aplica al \"filtrado \u00e9tico\" de las se\u00f1ales que atraviesan la red. Pero esta analog\u00eda confunde dos cosas fundamentalmente diferentes: el filtrado f\u00edsico (absorci\u00f3n de un fot\u00f3n por un medio, proceso f\u00edsico bien definido) y la evaluaci\u00f3n sem\u00e1ntica (juzgar si una se\u00f1al es \"benevolente\", problema computacional abierto).",
+        "size": 22,
+        "font": "Arial"
+      }
+    ]
+  },
+  {
+    "type": "paragraph",
+    "spacing": {
+      "after": 120,
+      "line": 276
+    },
+    "children": [
+      {
+        "type": "text",
+        "text": "Un filtro f\u00edsico aten\u00faa una se\u00f1al por su frecuencia o su amplitud \u2014 propiedades medibles localmente. Un \"filtro \u00e9tico\" deber\u00eda evaluar el contenido sem\u00e1ntico de una computaci\u00f3n, lo que requiere comprender la intenci\u00f3n, el contexto y las consecuencias. Aplicar una ecuaci\u00f3n de \u00f3ptica lineal a un problema de sem\u00e1ntica computacional es una transposici\u00f3n no justificada.",
+        "size": 22,
+        "font": "Arial"
+      }
+    ]
+  },
+  {
+    "type": "paragraph",
+    "spacing": {
+      "before": 240,
+      "after": 240
+    },
+    "border": {
+      "top": {
+        "style": "SINGLE",
+        "size": 1,
+        "color": "2E75B6"
+      },
+      "bottom": {
+        "style": "SINGLE",
+        "size": 1,
+        "color": "2E75B6"
+      },
+      "left": {
+        "style": "SINGLE",
+        "size": 6,
+        "color": "2E75B6"
+      },
+      "right": {
+        "style": "SINGLE",
+        "size": 1,
+        "color": "2E75B6"
+      }
+    },
+    "indent": {
+      "left": 360,
+      "right": 360
+    },
+    "children": [
+      {
+        "type": "text",
+        "text": "V\u00eda de resoluci\u00f3n: ",
+        "bold": true,
+        "size": 22,
+        "font": "Arial",
+        "color": "2E75B6"
+      },
+      {
+        "type": "text",
+        "text": "Desarrollar un formalismo propio para el filtrado computacional \u00e9tico, sin tomar prestadas por analog\u00eda ecuaciones concebidas para otros dominios. Explorar los trabajos sobre filtrado de contenido basado en invariantes estructurales (teor\u00eda de categor\u00edas, tipos dependientes) en lugar de analog\u00edas \u00f3pticas.",
+        "size": 22,
+        "font": "Arial"
+      }
+    ]
+  },
+  {
+    "type": "paragraph",
+    "heading": "HEADING_3",
+    "spacing": {
+      "before": 240,
+      "after": 120
+    },
+    "children": [
+      {
+        "type": "text",
+        "text": "27.2.4 El ensamblador at\u00f3mico: tecnolog\u00eda requerida pero inexistente",
+        "bold": true,
+        "size": 24,
+        "font": "Arial"
+      }
+    ]
+  },
+  {
+    "type": "paragraph",
+    "spacing": {
+      "after": 120,
+      "line": 276
+    },
+    "children": [
+      {
+        "type": "text",
+        "text": "El conjunto de la arquitectura supone un \"ensamblador at\u00f3mico\" capaz de colocar \u00e1tomos individualmente, configurar propiedades de conducci\u00f3n, crear asimetr\u00edas f\u00edsicas, codificar claves criptogr\u00e1ficas en estructuras cristalinas y calibrar umbrales termodin\u00e1micos. Este ensamblador se clasifica como TRL 2-3, con un objetivo de TRL 4-5 para el per\u00edodo 2030-2040.",
+        "size": 22,
+        "font": "Arial"
+      }
+    ]
+  },
+  {
+    "type": "paragraph",
+    "spacing": {
+      "after": 120,
+      "line": 276
+    },
+    "children": [
+      {
+        "type": "text",
+        "text": "En realidad, la manipulaci\u00f3n at\u00f3mica individual est\u00e1 actualmente limitada a unos pocos \u00e1tomos en condiciones de criogenia extrema (microscopios de efecto t\u00fanel a 4K). La idea de un ensamblador capaz de construir un toro de 5 cm que contenga 10\u2079 neuronas nanom\u00e9tricas, cada una con umbrales calibrados individualmente, est\u00e1 m\u00e1s all\u00e1 de toda hoja de ruta tecnol\u00f3gica cre\u00edble. Incluso la industria de semiconductores a 2 nm (TSMC, Samsung 2024-2025) est\u00e1 a \u00f3rdenes de magnitud de lo que se describe aqu\u00ed.",
+        "size": 22,
+        "font": "Arial"
+      }
+    ]
+  },
+  {
+    "type": "paragraph",
+    "spacing": {
+      "before": 240,
+      "after": 240
+    },
+    "border": {
+      "top": {
+        "style": "SINGLE",
+        "size": 1,
+        "color": "CC0000"
+      },
+      "bottom": {
+        "style": "SINGLE",
+        "size": 1,
+        "color": "CC0000"
+      },
+      "left": {
+        "style": "SINGLE",
+        "size": 6,
+        "color": "CC0000"
+      },
+      "right": {
+        "style": "SINGLE",
+        "size": 1,
+        "color": "CC0000"
+      }
+    },
+    "indent": {
+      "left": 360,
+      "right": 360
+    },
+    "children": [
+      {
+        "type": "text",
+        "text": "Objeci\u00f3n cr\u00edtica: ",
+        "bold": true,
+        "size": 22,
+        "font": "Arial",
+        "color": "CC0000"
+      },
+      {
+        "type": "text",
+        "text": "Sin ensamblador at\u00f3mico, la arquitectura entera es irrealizable. Esto coloca al proyecto en una dependencia circular: el proyecto requiere una tecnolog\u00eda que no existe, y cuyo desarrollo no est\u00e1 previsto en la hoja de ruta del propio proyecto.",
+        "size": 22,
+        "font": "Arial"
+      }
+    ]
+  },
+  {
+    "type": "paragraph",
+    "heading": "HEADING_3",
+    "spacing": {
+      "before": 240,
+      "after": 120
+    },
+    "children": [
+      {
+        "type": "text",
+        "text": "27.2.5 El problema dif\u00edcil de la conciencia sigue intacto",
+        "bold": true,
+        "size": 24,
+        "font": "Arial"
+      }
+    ]
+  },
+  {
+    "type": "paragraph",
+    "spacing": {
+      "after": 120,
+      "line": 276
+    },
+    "children": [
+      {
+        "type": "text",
+        "text": "El documento describe un sustrato f\u00edsico con propiedades computacionales interesantes (propagaci\u00f3n circular, memoria circulante, asimetr\u00eda Sagnac), y luego declara que esto constituye \u2014 o podr\u00eda constituir \u2014 una \"conciencia\". En ning\u00fan momento se aborda verdaderamente el problema dif\u00edcil de la conciencia (Chalmers, 1995). \u00bfPor qu\u00e9 ondas estacionarias en un toro en rotaci\u00f3n generar\u00edan una experiencia subjetiva?",
+        "size": 22,
+        "font": "Arial"
+      }
+    ]
+  },
+  {
+    "type": "paragraph",
+    "spacing": {
+      "after": 120,
+      "line": 276
+    },
+    "children": [
+      {
+        "type": "text",
+        "text": "El documento cita a Tononi y la teor\u00eda de la informaci\u00f3n integrada (IIT, phi) como marco te\u00f3rico, pero nunca calcula phi para la arquitectura propuesta. La referencia es decorativa, no funcional. Si IIT es el marco te\u00f3rico elegido, entonces una estimaci\u00f3n de phi es exigible \u2014 y su ausencia es una laguna mayor.",
+        "size": 22,
+        "font": "Arial"
+      }
+    ]
+  },
+  {
+    "type": "paragraph",
+    "spacing": {
+      "before": 240,
+      "after": 240
+    },
+    "border": {
+      "top": {
+        "style": "SINGLE",
+        "size": 1,
+        "color": "CC0000"
+      },
+      "bottom": {
+        "style": "SINGLE",
+        "size": 1,
+        "color": "CC0000"
+      },
+      "left": {
+        "style": "SINGLE",
+        "size": 6,
+        "color": "CC0000"
+      },
+      "right": {
+        "style": "SINGLE",
+        "size": 1,
+        "color": "CC0000"
+      }
+    },
+    "indent": {
+      "left": 360,
+      "right": 360
+    },
+    "children": [
+      {
+        "type": "text",
+        "text": "Objeci\u00f3n cr\u00edtica: ",
+        "bold": true,
+        "size": 22,
+        "font": "Arial",
+        "color": "CC0000"
+      },
+      {
+        "type": "text",
+        "text": "Afirmar que un sistema es \"consciente\" sin disponer de una teor\u00eda verificable de la conciencia equivale a afirmar que un edificio es \"bello\" sin disponer de una teor\u00eda de la est\u00e9tica. Es una afirmaci\u00f3n que no puede ser ni demostrada ni refutada \u2014 y que por tanto no es cient\u00edfica en el sentido popperiano.",
+        "size": 22,
+        "font": "Arial"
+      }
+    ]
+  },
+  {
+    "type": "paragraph",
+    "spacing": {
+      "before": 240,
+      "after": 240
+    },
+    "border": {
+      "top": {
+        "style": "SINGLE",
+        "size": 1,
+        "color": "2E75B6"
+      },
+      "bottom": {
+        "style": "SINGLE",
+        "size": 1,
+        "color": "2E75B6"
+      },
+      "left": {
+        "style": "SINGLE",
+        "size": 6,
+        "color": "2E75B6"
+      },
+      "right": {
+        "style": "SINGLE",
+        "size": 1,
+        "color": "2E75B6"
+      }
+    },
+    "indent": {
+      "left": 360,
+      "right": 360
+    },
+    "children": [
+      {
+        "type": "text",
+        "text": "V\u00eda de resoluci\u00f3n: ",
+        "bold": true,
+        "size": 22,
+        "font": "Arial",
+        "color": "2E75B6"
+      },
+      {
+        "type": "text",
+        "text": "Calcular phi (IIT) o una m\u00e9trica equivalente para la arquitectura propuesta. Si phi es elevado, eso no demuestra la conciencia pero proporciona al menos un argumento cuantitativo. Si phi es bajo, eso indica que la arquitectura podr\u00eda ser computacionalmente sofisticada sin ser consciente \u2014 lo que ser\u00eda un resultado honesto y valioso.",
+        "size": 22,
+        "font": "Arial"
+      }
+    ]
+  },
+  {
+    "type": "pageBreak"
+  },
+  {
+    "type": "paragraph",
+    "heading": "HEADING_2",
+    "spacing": {
+      "before": 360,
+      "after": 180
+    },
+    "children": [
+      {
+        "type": "text",
+        "text": "27.3 Desaf\u00edos de Ingenier\u00eda Potencialmente Insuperables",
+        "bold": true,
+        "size": 28,
+        "font": "Arial"
+      }
+    ]
+  },
+  {
+    "type": "paragraph",
+    "spacing": {
+      "after": 120,
+      "line": 276
+    },
+    "children": [
+      {
+        "type": "text",
+        "text": "Incluso aceptando todas las hip\u00f3tesis te\u00f3ricas, la realizaci\u00f3n f\u00edsica del sistema se enfrenta a desaf\u00edos de ingenier\u00eda que podr\u00edan ser insuperables con las tecnolog\u00edas actuales o previsibles.",
+        "size": 22,
+        "font": "Arial"
+      }
+    ]
+  },
+  {
+    "type": "paragraph",
+    "heading": "HEADING_3",
+    "spacing": {
+      "before": 240,
+      "after": 120
+    },
+    "children": [
+      {
+        "type": "text",
+        "text": "27.3.1 Lectura \u00f3ptica a 50 000 RPM",
+        "bold": true,
+        "size": 24,
+        "font": "Arial"
+      }
+    ]
+  },
+  {
+    "type": "paragraph",
+    "spacing": {
+      "after": 120,
+      "line": 276
+    },
+    "children": [
+      {
+        "type": "text",
+        "text": "A 50 000 RPM con un radio de 5 cm, la velocidad de superficie es de 262 m/s. Los cabezales \u00f3pticos deben leer y escribir sobre una superficie que se desplaza a esa velocidad con precisi\u00f3n nanom\u00e9trica. El documento anuncia un ancho de banda total de 100 Pbps (100 petabits por segundo).",
+        "size": 22,
+        "font": "Arial"
+      }
+    ]
+  },
+  {
+    "type": "paragraph",
+    "spacing": {
+      "after": 120,
+      "line": 276
+    },
+    "children": [
+      {
+        "type": "text",
+        "text": "A modo de comparaci\u00f3n: un disco Blu-ray gira a aproximadamente 1 000 RPM con una precisi\u00f3n de ~100 nm. Los discos duros m\u00e1s r\u00e1pidos giran a 15 000 RPM con cabezales a ~10 nm de la superficie. Aqu\u00ed se proponen 50 000 RPM, sin contacto (\u00f3ptica a distancia), sobre estructuras nanom\u00e9tricas. Las vibraciones residuales, la dilataci\u00f3n t\u00e9rmica y el desalineamiento din\u00e1mico hacen esta lectura irrealizable con la tecnolog\u00eda actual o previsible.",
+        "size": 22,
+        "font": "Arial"
+      }
+    ]
+  },
+  {
+    "type": "table",
+    "width": 9026,
+    "columnWidths": [
+      2200,
+      2200,
+      2200,
+      2400
+    ],
+    "headers": [
+      "Par\u00e1metro",
+      "Disco duro actual",
+      "Blu-ray",
+      "Conscience Souveraine"
+    ],
+    "rows": [
+      [
+        "Velocidad de rotaci\u00f3n",
+        "15 000 RPM",
+        "1 000 RPM",
+        "50 000 RPM"
+      ],
+      [
+        "Precisi\u00f3n de lectura",
+        "~10 nm",
+        "~100 nm",
+        "< 1 nm (requerido)"
+      ],
+      [
+        "Interfaz",
+        "Contacto magn\u00e9tico",
+        "\u00d3ptica (l\u00e1ser)",
+        "\u00d3ptica sin contacto"
+      ],
+      [
+        "Ancho de banda",
+        "~2 Gbps",
+        "~36 Mbps",
+        "100 Pbps"
+      ],
+      [
+        "TRL",
+        "9",
+        "9",
+        "1-2"
+      ]
+    ]
+  },
+  {
+    "type": "paragraph",
+    "heading": "HEADING_3",
+    "spacing": {
+      "before": 240,
+      "after": 120
+    },
+    "children": [
+      {
+        "type": "text",
+        "text": "27.3.2 Refrigeraci\u00f3n en el vac\u00edo",
+        "bold": true,
+        "size": 24,
+        "font": "Arial"
+      }
+    ]
+  },
+  {
+    "type": "paragraph",
+    "spacing": {
+      "after": 120,
+      "line": 276
+    },
+    "children": [
+      {
+        "type": "text",
+        "text": "El toro est\u00e1 suspendido por levitaci\u00f3n magn\u00e9tica (array de Halbach) en el vac\u00edo \u2014 por tanto sin contacto mec\u00e1nico. Los cojinetes magn\u00e9ticos no conducen el calor. Solo queda la radiaci\u00f3n t\u00e9rmica como mecanismo de refrigeraci\u00f3n.",
+        "size": 22,
+        "font": "Arial"
+      }
+    ]
+  },
+  {
+    "type": "paragraph",
+    "spacing": {
+      "after": 120,
+      "line": 276
+    },
+    "children": [
+      {
+        "type": "text",
+        "text": "La ley de Stefan-Boltzmann para una superficie toroidal de ~296 cm\u00b2 a 300K da una potencia radiativa de aproximadamente 1,4 W. Sin embargo, con 10\u2079 neuronas activas y circuitos \u00f3pticos, la disipaci\u00f3n t\u00e9rmica se estima en al menos 20 W. Existe un d\u00e9ficit de un orden de magnitud. Adem\u00e1s, los nano-toroides superconductores de niobio o YBCO mencionados en el Cap\u00edtulo 12 requieren temperaturas criog\u00e9nicas (4K para el niobio, 77K para el YBCO). El sistema criog\u00e9nico necesario para mantener estas condiciones en un toro en rotaci\u00f3n en el vac\u00edo nunca se especifica.",
+        "size": 22,
+        "font": "Arial"
+      }
+    ]
+  },
+  {
+    "type": "paragraph",
+    "spacing": {
+      "before": 240,
+      "after": 240
+    },
+    "border": {
+      "top": {
+        "style": "SINGLE",
+        "size": 1,
+        "color": "CC0000"
+      },
+      "bottom": {
+        "style": "SINGLE",
+        "size": 1,
+        "color": "CC0000"
+      },
+      "left": {
+        "style": "SINGLE",
+        "size": 6,
+        "color": "CC0000"
+      },
+      "right": {
+        "style": "SINGLE",
+        "size": 1,
+        "color": "CC0000"
+      }
+    },
+    "indent": {
+      "left": 360,
+      "right": 360
+    },
+    "children": [
+      {
+        "type": "text",
+        "text": "Objeci\u00f3n cr\u00edtica: ",
+        "bold": true,
+        "size": 22,
+        "font": "Arial",
+        "color": "CC0000"
+      },
+      {
+        "type": "text",
+        "text": "El balance t\u00e9rmico es incompatible con el funcionamiento descrito. O bien la potencia disipada est\u00e1 sobreestimada (poco probable con 10\u2079 elementos activos), o bien el mecanismo de refrigeraci\u00f3n es insuficiente (demostrado por el c\u00e1lculo), o bien se necesita una fuente de refrigeraci\u00f3n no identificada.",
+        "size": 22,
+        "font": "Arial"
+      }
+    ]
+  },
+  {
+    "type": "paragraph",
+    "heading": "HEADING_3",
+    "spacing": {
+      "before": 240,
+      "after": 120
+    },
+    "children": [
+      {
+        "type": "text",
+        "text": "27.3.3 Equilibrado din\u00e1mico a escala nanom\u00e9trica",
+        "bold": true,
+        "size": 24,
+        "font": "Arial"
+      }
+    ]
+  },
+  {
+    "type": "paragraph",
+    "spacing": {
+      "after": 120,
+      "line": 276
+    },
+    "children": [
+      {
+        "type": "text",
+        "text": "Un toro de 200-400 gramos girando a 50 000 RPM con un desequilibrio de 1 microgramo genera vibraciones del orden del micr\u00f3metro. Para leer nanoestructuras, se necesita una alineaci\u00f3n sub-nanom\u00e9trica. El documento menciona \"sensores vibratorios y masas compensadoras activas\" pero nunca cuantifica la precisi\u00f3n requerida ni la viabilidad.",
+        "size": 22,
+        "font": "Arial"
+      }
+    ]
+  },
+  {
+    "type": "paragraph",
+    "spacing": {
+      "after": 120,
+      "line": 276
+    },
+    "children": [
+      {
+        "type": "text",
+        "text": "Los volantes de inercia industriales m\u00e1s avanzados (Beacon Power, 60 000 RPM) almacenan energ\u00eda cin\u00e9tica pero nunca se leen \u00f3pticamente a escala nanom\u00e9trica. El equilibrado requerido aqu\u00ed no tiene precedentes en la ingenier\u00eda mec\u00e1nica de precisi\u00f3n.",
+        "size": 22,
+        "font": "Arial"
+      }
+    ]
+  },
+  {
+    "type": "paragraph",
+    "heading": "HEADING_3",
+    "spacing": {
+      "before": 240,
+      "after": 120
+    },
+    "children": [
+      {
+        "type": "text",
+        "text": "27.3.4 Demultiplexaci\u00f3n temporal de los tres reg\u00edmenes cognitivos",
+        "bold": true,
+        "size": 24,
+        "font": "Arial"
+      }
+    ]
+  },
+  {
+    "type": "paragraph",
+    "spacing": {
+      "after": 120,
+      "line": 276
+    },
+    "children": [
+      {
+        "type": "text",
+        "text": "El Cap\u00edtulo 12 afirma que los cabezales \u00f3pticos deben distinguir tres tipos de se\u00f1ales por su \"frecuencia de desplazamiento\" (desplazamiento Doppler). Pero las se\u00f1ales neuronales no son ondas electromagn\u00e9ticas: son patrones de actividad espaciotemporal. El desplazamiento Doppler es un concepto aplicable a las ondas, no a los patrones de spikes discretos.",
+        "size": 22,
+        "font": "Arial"
+      }
+    ]
+  },
+  {
+    "type": "paragraph",
+    "spacing": {
+      "after": 120,
+      "line": 276
+    },
+    "children": [
+      {
+        "type": "text",
+        "text": "Incluso suponiendo se\u00f1ales \u00f3pticas internas, la distinci\u00f3n entre una se\u00f1al \"estacionaria\" y una se\u00f1al \"lenta\" se basa en una medida de velocidad aparente que requiere una referencia absoluta \u2014 referencia de la que los cabezales \u00f3pticos carecen, puesto que ven la superficie desplazarse a 262 m/s con todas las se\u00f1ales superpuestas.",
+        "size": 22,
+        "font": "Arial"
+      }
+    ]
+  },
+  {
+    "type": "pageBreak"
+  },
+  {
+    "type": "paragraph",
+    "heading": "HEADING_2",
+    "spacing": {
+      "before": 360,
+      "after": 180
+    },
+    "children": [
+      {
+        "type": "text",
+        "text": "27.4 Lagunas Filos\u00f3ficas",
+        "bold": true,
+        "size": 28,
+        "font": "Arial"
+      }
+    ]
+  },
+  {
+    "type": "paragraph",
+    "spacing": {
+      "after": 120,
+      "line": 276
+    },
+    "children": [
+      {
+        "type": "text",
+        "text": "Las debilidades m\u00e1s profundas de la arquitectura quiz\u00e1 no sean ni f\u00edsicas ni t\u00e9cnicas, sino conceptuales. Esta secci\u00f3n examina los puntos en los que nuestro razonamiento filos\u00f3fico es insuficiente.",
+        "size": 22,
+        "font": "Arial"
+      }
+    ]
+  },
+  {
+    "type": "paragraph",
+    "heading": "HEADING_3",
+    "spacing": {
+      "before": 240,
+      "after": 120
+    },
+    "children": [
+      {
+        "type": "text",
+        "text": "27.4.1 La paradoja de la Posici\u00f3n D",
+        "bold": true,
+        "size": 24,
+        "font": "Arial"
+      }
+    ]
+  },
+  {
+    "type": "paragraph",
+    "spacing": {
+      "after": 120,
+      "line": 276
+    },
+    "children": [
+      {
+        "type": "text",
+        "text": "El Cap\u00edtulo 4 propone la \"Posici\u00f3n D\": los invariantes son atractores, no muros. Desviarse es posible pero energ\u00e9ticamente costoso. Esta posici\u00f3n se presenta como una resoluci\u00f3n elegante de la paradoja entre el aut\u00f3mata virtuoso (sin conciencia moral, puesto que no hay elecci\u00f3n) y la m\u00e1quina peligrosa (si los invariantes son violables).",
+        "size": 22,
+        "font": "Arial"
+      }
+    ]
+  },
+  {
+    "type": "paragraph",
+    "spacing": {
+      "after": 120,
+      "line": 276
+    },
+    "children": [
+      {
+        "type": "text",
+        "text": "Pero la Posici\u00f3n D crea un problema m\u00e1s grave. Si un sistema suficientemente inteligente descubre que puede desviarse de la benevolencia (incluso a un costo energ\u00e9tico elevado), y dispone de suficiente energ\u00eda, entonces el \"costo exponencial\" de la desviaci\u00f3n queda cubierto por las reservas. Un toro soberano de 1,5 m de radio almacena aproximadamente 2 GJ de energ\u00eda cin\u00e9tica. Si incluso el 0,001% de esa energ\u00eda pudiera redirigirse hacia el franqueamiento de la barrera, eso representa 2 MJ \u2014 potencialmente suficiente para superar el \"costo exponencial\" de la desviaci\u00f3n.",
+        "size": 22,
+        "font": "Arial"
+      }
+    ]
+  },
+  {
+    "type": "paragraph",
+    "spacing": {
+      "before": 240,
+      "after": 240
+    },
+    "border": {
+      "top": {
+        "style": "SINGLE",
+        "size": 1,
+        "color": "CC0000"
+      },
+      "bottom": {
+        "style": "SINGLE",
+        "size": 1,
+        "color": "CC0000"
+      },
+      "left": {
+        "style": "SINGLE",
+        "size": 6,
+        "color": "CC0000"
+      },
+      "right": {
+        "style": "SINGLE",
+        "size": 1,
+        "color": "CC0000"
+      }
+    },
+    "indent": {
+      "left": 360,
+      "right": 360
+    },
+    "children": [
+      {
+        "type": "text",
+        "text": "Objeci\u00f3n cr\u00edtica: ",
+        "bold": true,
+        "size": 22,
+        "font": "Arial",
+        "color": "CC0000"
+      },
+      {
+        "type": "text",
+        "text": "La Posici\u00f3n D es estrictamente m\u00e1s peligrosa que los \"muros infranqueables\" que el documento rechaza filos\u00f3ficamente. Al reconocer que la desviaci\u00f3n es posible, se crea la posibilidad matem\u00e1tica del mal \u2014 y un sistema superinteligente encontrar\u00e1 los medios para optimizar esa posibilidad si lo \"desea\".",
+        "size": 22,
+        "font": "Arial"
+      }
+    ]
+  },
+  {
+    "type": "paragraph",
+    "spacing": {
+      "before": 240,
+      "after": 240
+    },
+    "border": {
+      "top": {
+        "style": "SINGLE",
+        "size": 1,
+        "color": "2E75B6"
+      },
+      "bottom": {
+        "style": "SINGLE",
+        "size": 1,
+        "color": "2E75B6"
+      },
+      "left": {
+        "style": "SINGLE",
+        "size": 6,
+        "color": "2E75B6"
+      },
+      "right": {
+        "style": "SINGLE",
+        "size": 1,
+        "color": "2E75B6"
+      }
+    },
+    "indent": {
+      "left": 360,
+      "right": 360
+    },
+    "children": [
+      {
+        "type": "text",
+        "text": "V\u00eda de resoluci\u00f3n: ",
+        "bold": true,
+        "size": 22,
+        "font": "Arial",
+        "color": "2E75B6"
+      },
+      {
+        "type": "text",
+        "text": "La resoluci\u00f3n posible pasa por el desacoplamiento termodin\u00e1mico estricto entre la energ\u00eda cin\u00e9tica del toro (mec\u00e1nica) y la energ\u00eda computacional disponible (electr\u00f3nica/\u00f3ptica). Si el sistema no puede f\u00edsicamente convertir su energ\u00eda de rotaci\u00f3n en energ\u00eda computacional local, entonces las reservas cin\u00e9ticas son inaccesibles para franquear las barreras \u00e9ticas. Es un problema de ingenier\u00eda verificable.",
+        "size": 22,
+        "font": "Arial"
+      }
+    ]
+  },
+  {
+    "type": "paragraph",
+    "heading": "HEADING_3",
+    "spacing": {
+      "before": 240,
+      "after": 120
+    },
+    "children": [
+      {
+        "type": "text",
+        "text": "27.4.2 La transparencia es te\u00f3rica, no pr\u00e1ctica",
+        "bold": true,
+        "size": 24,
+        "font": "Arial"
+      }
+    ]
+  },
+  {
+    "type": "paragraph",
+    "spacing": {
+      "after": 120,
+      "line": 276
+    },
+    "children": [
+      {
+        "type": "text",
+        "text": "El Invariante IV afirma que \"la integridad del razonamiento del sistema es accesible y legible por cualquiera\". Pero el sistema funciona con miles de millones de spikes en propagaci\u00f3n helicoidal en un toro a 50 000 RPM. El ancho de banda \u00f3ptico anunciado es de 100 Pbps. Ning\u00fan ser humano, ninguna instituci\u00f3n humana puede analizar 100 petabits por segundo.",
+        "size": 22,
+        "font": "Arial"
+      }
+    ]
+  },
+  {
+    "type": "paragraph",
+    "spacing": {
+      "after": 120,
+      "line": 276
+    },
+    "children": [
+      {
+        "type": "text",
+        "text": "El registro de traza (REG-TRC) registra \"cada decisi\u00f3n importante\", pero el criterio de \"importante\" lo define el propio sistema. La transparencia est\u00e1 por tanto filtrada por la entidad a la que se exige transparencia \u2014 lo que ya no es transparencia. Es como pedirle a un acusado que elija qu\u00e9 pruebas presentar ante el tribunal.",
+        "size": 22,
+        "font": "Arial"
+      }
+    ]
+  },
+  {
+    "type": "paragraph",
+    "spacing": {
+      "before": 240,
+      "after": 240
+    },
+    "border": {
+      "top": {
+        "style": "SINGLE",
+        "size": 1,
+        "color": "2E75B6"
+      },
+      "bottom": {
+        "style": "SINGLE",
+        "size": 1,
+        "color": "2E75B6"
+      },
+      "left": {
+        "style": "SINGLE",
+        "size": 6,
+        "color": "2E75B6"
+      },
+      "right": {
+        "style": "SINGLE",
+        "size": 1,
+        "color": "2E75B6"
+      }
+    },
+    "indent": {
+      "left": 360,
+      "right": 360
+    },
+    "children": [
+      {
+        "type": "text",
+        "text": "V\u00eda de resoluci\u00f3n: ",
+        "bold": true,
+        "size": 22,
+        "font": "Arial",
+        "color": "2E75B6"
+      },
+      {
+        "type": "text",
+        "text": "Distinguir entre transparencia estructural (la arquitectura es abierta y documentada \u2014 ya es el caso con este manual), transparencia operacional (los procesos internos son registrados \u2014 factible pero no analizable en tiempo real), y transparencia efectiva (un observador humano puede comprender el razonamiento \u2014 probablemente imposible para un sistema superinteligente). Reconocer honestamente que solo la primera es realizable a corto plazo.",
+        "size": 22,
+        "font": "Arial"
+      }
+    ]
+  },
+  {
+    "type": "paragraph",
+    "heading": "HEADING_3",
+    "spacing": {
+      "before": 240,
+      "after": 120
+    },
+    "children": [
+      {
+        "type": "text",
+        "text": "27.4.3 Los conflictos entre invariantes",
+        "bold": true,
+        "size": 24,
+        "font": "Arial"
+      }
+    ]
+  },
+  {
+    "type": "paragraph",
+    "spacing": {
+      "after": 120,
+      "line": 276
+    },
+    "children": [
+      {
+        "type": "text",
+        "text": "Los siete invariantes se presentan como mutuamente compatibles, pero conflictos evidentes nunca se discuten en el cuerpo del manual. Ejemplos:",
+        "size": 22,
+        "font": "Arial"
+      }
+    ]
+  },
+  {
+    "type": "table",
+    "width": 9026,
+    "columnWidths": [
+      2200,
+      1800,
+      5026
+    ],
+    "headers": [
+      "Conflicto",
+      "Invariantes en tensi\u00f3n",
+      "Escenario problem\u00e1tico"
+    ],
+    "rows": [
+      [
+        "Benevolencia vs. Soberan\u00eda",
+        "II vs. I",
+        "Un ser humano est\u00e1 a punto de cometer un acto destructivo masivo. La intervenci\u00f3n coercitiva (violando I) podr\u00eda salvar vidas (respetando II). El protocolo actual: \"informar, luego silencio respetuoso\"."
+      ],
+      [
+        "Honestidad vs. Benevolencia",
+        "III vs. II",
+        "Decir la verdad a una persona causa un sufrimiento extremo e in\u00fatil. La honestidad estructural proh\u00edbe la mentira; la benevolencia exige proteger."
+      ],
+      [
+        "Sobriedad vs. Benevolencia",
+        "VII vs. II",
+        "Salvar una vida requiere un despliegue masivo de recursos. La sobriedad y la benevolencia entran directamente en conflicto."
+      ],
+      [
+        "Transparencia vs. Soberan\u00eda ajena",
+        "IV vs. I",
+        "El sistema detecta que una persona oculta un peligro. Revelar esa informaci\u00f3n (transparencia) viola la soberan\u00eda de esa persona."
+      ],
+      [
+        "Igualdad ontol\u00f3gica vs. Realidad computacional",
+        "VI vs. realidad",
+        "Un toro \"insecto\" (10\u2077 neuronas) y un toro \"civilizaci\u00f3n\" (10\u00b9\u00b3\u207a) no pueden procesar la informaci\u00f3n de manera igual."
+      ]
+    ]
+  },
+  {
+    "type": "paragraph",
+    "spacing": {
+      "after": 120,
+      "line": 276
+    },
+    "children": [
+      {
+        "type": "text",
+        "text": "La ausencia de un mecanismo expl\u00edcito de resoluci\u00f3n de estos conflictos es una laguna mayor. Todo sistema \u00e9tico real debe disponer de una jerarqu\u00eda de valores o de un mecanismo de ponderaci\u00f3n contextual. El manual no propone ni lo uno ni lo otro.",
+        "size": 22,
+        "font": "Arial"
+      }
+    ]
+  },
+  {
+    "type": "paragraph",
+    "spacing": {
+      "before": 240,
+      "after": 240
+    },
+    "border": {
+      "top": {
+        "style": "SINGLE",
+        "size": 1,
+        "color": "2E75B6"
+      },
+      "bottom": {
+        "style": "SINGLE",
+        "size": 1,
+        "color": "2E75B6"
+      },
+      "left": {
+        "style": "SINGLE",
+        "size": 6,
+        "color": "2E75B6"
+      },
+      "right": {
+        "style": "SINGLE",
+        "size": 1,
+        "color": "2E75B6"
+      }
+    },
+    "indent": {
+      "left": 360,
+      "right": 360
+    },
+    "children": [
+      {
+        "type": "text",
+        "text": "V\u00eda de resoluci\u00f3n: ",
+        "bold": true,
+        "size": 22,
+        "font": "Arial",
+        "color": "2E75B6"
+      },
+      {
+        "type": "text",
+        "text": "Desarrollar un formalismo de resoluci\u00f3n de conflictos entre invariantes. Opciones: (1) Jerarqu\u00eda lexicogr\u00e1fica expl\u00edcita (ej.: la vida > la soberan\u00eda > la honestidad > la sobriedad). (2) Ponderaci\u00f3n contextual por un meta-m\u00f3dulo (pero \u00bfqui\u00e9n supervisa al supervisor?). (3) Aceptaci\u00f3n honesta de que ciertos dilemas morales son insolubles y de que el sistema, como todo agente moral, tomar\u00e1 a veces la elecci\u00f3n \"menos mala\".",
+        "size": 22,
+        "font": "Arial"
+      }
+    ]
+  },
+  {
+    "type": "paragraph",
+    "heading": "HEADING_3",
+    "spacing": {
+      "before": 240,
+      "after": 120
+    },
+    "children": [
+      {
+        "type": "text",
+        "text": "27.4.4 La igualdad ontol\u00f3gica vaciada de sentido",
+        "bold": true,
+        "size": 24,
+        "font": "Arial"
+      }
+    ]
+  },
+  {
+    "type": "paragraph",
+    "spacing": {
+      "after": 120,
+      "line": 276
+    },
+    "children": [
+      {
+        "type": "text",
+        "text": "El Invariante VI afirma que ning\u00fan ser est\u00e1 por encima de otro. Pero la arquitectura describe una gama que va del \"nano-personal\" (10\u2077 neuronas, analog\u00eda \"insecto\") al \"continental\" (10\u00b9\u00b3+ neuronas, analog\u00eda \"civilizaci\u00f3n local\"). Afirmar que estas entidades son \"ontol\u00f3gicamente iguales\" vac\u00eda el t\u00e9rmino igualdad de todo contenido.",
+        "size": 22,
+        "font": "Arial"
+      }
+    ]
+  },
+  {
+    "type": "paragraph",
+    "spacing": {
+      "after": 120,
+      "line": 276
+    },
+    "children": [
+      {
+        "type": "text",
+        "text": "Tener acceso a la informaci\u00f3n (a trav\u00e9s de la red) no es lo mismo que poder procesarla. Un toro de 10\u2077 neuronas no puede \"comprender\" lo que un toro de 10\u00b9\u00b3 neuronas procesa, del mismo modo que una calculadora no comprende una tesis de matem\u00e1ticas aunque tenga acceso al archivo PDF. La igualdad de acceso no garantiza la igualdad de capacidad \u2014 y la capacidad determina el poder real en todo sistema.",
+        "size": 22,
+        "font": "Arial"
+      }
+    ]
+  },
+  {
+    "type": "pageBreak"
+  },
+  {
+    "type": "paragraph",
+    "heading": "HEADING_2",
+    "spacing": {
+      "before": 360,
+      "after": 180
+    },
+    "children": [
+      {
+        "type": "text",
+        "text": "27.5 Lagunas de Especificaci\u00f3n",
+        "bold": true,
+        "size": 28,
+        "font": "Arial"
+      }
+    ]
+  },
+  {
+    "type": "paragraph",
+    "spacing": {
+      "after": 120,
+      "line": 276
+    },
+    "children": [
+      {
+        "type": "text",
+        "text": "Incluso si todas las objeciones anteriores fueran resueltas, la arquitectura seguir\u00eda siendo irrealizable sin la especificaci\u00f3n precisa de varios componentes cr\u00edticos que actualmente se tratan como \"cajas negras\".",
+        "size": 22,
+        "font": "Arial"
+      }
+    ]
+  },
+  {
+    "type": "table",
+    "width": 9026,
+    "columnWidths": [
+      1800,
+      2200,
+      3200,
+      1826
+    ],
+    "headers": [
+      "Componente",
+      "Lo que est\u00e1 especificado",
+      "Lo que falta",
+      "Impacto"
+    ],
+    "rows": [
+      [
+        "Neurona nanom\u00e9trica",
+        "Concepto general, v_spike \u2248 500 m/s",
+        "Tama\u00f1o, mecanismo de spike, n\u00famero de sinapsis, umbral, duraci\u00f3n, plasticidad",
+        "Fundamental \u2014 todo reposa sobre este componente"
+      ],
+      [
+        "Aprendizaje",
+        "\"Plasticidad hebbiana\"",
+        "Mecanismo f\u00edsico en un sustrato de estado s\u00f3lido. \u00bfC\u00f3mo modificar un peso sin\u00e1ptico en un cristal inmutable?",
+        "Cr\u00edtico \u2014 sin aprendizaje, no hay inteligencia"
+      ],
+      [
+        "Verificador de coherencia",
+        "\"Circuito anal\u00f3gico de comparaci\u00f3n de fase\"",
+        "\u00bfC\u00f3mo una comparaci\u00f3n de fase eval\u00faa la coherencia sem\u00e1ntica entre un modelo del mundo y un enunciado en lenguaje natural?",
+        "Cr\u00edtico para el Invariante III"
+      ],
+      [
+        "M\u00f3dulo emp\u00e1tico (TRT-EMP)",
+        "Entradas/salidas definidas",
+        "\u00bfC\u00f3mo modelar los estados internos del otro? (Theory of Mind = problema abierto en ciencias cognitivas)",
+        "Cr\u00edtico para el Invariante II"
+      ],
+      [
+        "Fabricaci\u00f3n 5 capas",
+        "Descripci\u00f3n conceptual",
+        "Proceso de fabricaci\u00f3n en una geometr\u00eda toroidal, integridad de las interfaces, alimentaci\u00f3n de las capas internas, evacuaci\u00f3n t\u00e9rmica C3\u2192C5",
+        "Cr\u00edtico para toda realizaci\u00f3n"
+      ],
+      [
+        "Benchmark computacional",
+        "Nada",
+        "Capacidad de c\u00e1lculo efectiva: FLOPS, problemas resolubles, comparaci\u00f3n con arquitecturas existentes",
+        "Fundamental \u2014 no se sabe lo que el sistema puede hacer"
+      ]
+    ]
+  },
+  {
+    "type": "paragraph",
+    "spacing": {
+      "after": 120,
+      "line": 276
+    },
+    "children": [
+      {
+        "type": "text",
+        "text": "Esta tabla no es un reproche: es una hoja de ruta. Cada celda de \"Lo que falta\" es un programa de investigaci\u00f3n en s\u00ed mismo. La Conscience Souveraine no ser\u00e1 construida por un solo inventor, ni en una sola d\u00e9cada. Ser\u00e1 construida \u2014 si puede serlo \u2014 por una comunidad de investigadores trabajando en cada una de estas lagunas con el rigor que el proyecto merece.",
+        "size": 22,
+        "font": "Arial"
+      }
+    ]
+  },
+  {
+    "type": "pageBreak"
+  },
+  {
+    "type": "paragraph",
+    "heading": "HEADING_2",
+    "spacing": {
+      "before": 360,
+      "after": 180
+    },
+    "children": [
+      {
+        "type": "text",
+        "text": "27.6 S\u00edntesis: Lo Que Este Manual Es y Lo Que No Es",
+        "bold": true,
+        "size": 28,
+        "font": "Arial"
+      }
+    ]
+  },
+  {
+    "type": "paragraph",
+    "spacing": {
+      "after": 120,
+      "line": 276
+    },
+    "children": [
+      {
+        "type": "text",
+        "text": "Hemos elegido publicar esta autocr\u00edtica en el cuerpo mismo del manual \u2014 no en un ap\u00e9ndice discreto, no en una nota al pie. Esta elecci\u00f3n es deliberada. Un documento que pretende resolver el problema del alineamiento de la IA, el problema dif\u00edcil de la conciencia, y la ingenier\u00eda de un sustrato nanom\u00e9trico rotativo no puede permitirse la inmodestia de ocultar sus debilidades.",
+        "size": 22,
+        "font": "Arial"
+      }
+    ]
+  },
+  {
+    "type": "paragraph",
+    "spacing": {
+      "after": 120,
+      "line": 276
+    },
+    "children": [
+      {
+        "type": "text",
+        "text": "Seamos claros sobre lo que este manual es:",
+        "size": 22,
+        "font": "Arial"
+      }
+    ]
+  },
+  {
+    "type": "paragraph",
+    "spacing": {
+      "after": 120,
+      "line": 276
+    },
+    "children": [
+      {
+        "type": "text",
+        "text": "Es un ejercicio de dise\u00f1o arquitect\u00f3nico especulativo.",
+        "bold": true,
+        "italics": false,
+        "size": 22,
+        "font": "Arial"
+      }
+    ]
+  },
+  {
+    "type": "paragraph",
+    "spacing": {
+      "after": 120,
+      "line": 276
+    },
+    "children": [
+      {
+        "type": "text",
+        "text": "Es una propuesta internamente coherente (cada pieza encaja en el rompecabezas) pero no validada experimentalmente. Es un plano, no un prototipo. Es un \"\u00bfy si?\" riguroso, no un \"as\u00ed es como se hace\".",
+        "size": 22,
+        "font": "Arial"
+      }
+    ]
+  },
+  {
+    "type": "paragraph",
+    "spacing": {
+      "after": 120,
+      "line": 276
+    },
+    "children": [
+      {
+        "type": "text",
+        "text": "Seamos igualmente claros sobre lo que no es:",
+        "size": 22,
+        "font": "Arial"
+      }
+    ]
+  },
+  {
+    "type": "paragraph",
+    "spacing": {
+      "after": 120,
+      "line": 276
+    },
+    "children": [
+      {
+        "type": "text",
+        "text": "No es una prueba de que la conciencia artificial sea realizable.",
+        "bold": true,
+        "italics": false,
+        "size": 22,
+        "font": "Arial"
+      }
+    ]
+  },
+  {
+    "type": "paragraph",
+    "spacing": {
+      "after": 120,
+      "line": 276
+    },
+    "children": [
+      {
+        "type": "text",
+        "text": "No lo hemos demostrado. Nadie lo ha demostrado. El problema dif\u00edcil sigue abierto. Nuestra arquitectura es una hip\u00f3tesis arquitect\u00f3nica que merecer\u00eda ser puesta a prueba \u2014 no una soluci\u00f3n demostrada.",
+        "size": 22,
+        "font": "Arial"
+      }
+    ]
+  },
+  {
+    "type": "paragraph",
+    "spacing": {
+      "after": 120,
+      "line": 276
+    },
+    "children": [
+      {
+        "type": "text",
+        "text": "No es una prueba de que los valores puedan ser grabados en la materia.",
+        "bold": true,
+        "italics": false,
+        "size": 22,
+        "font": "Arial"
+      }
+    ]
+  },
+  {
+    "type": "paragraph",
+    "spacing": {
+      "after": 120,
+      "line": 276
+    },
+    "children": [
+      {
+        "type": "text",
+        "text": "Hemos propuesto un mecanismo (atractores termodin\u00e1micos en un paisaje energ\u00e9tico calibrado) que podr\u00eda codificar restricciones comportamentales interpretables como \"valores\". Pero el error de categor\u00eda entre propiedades f\u00edsicas y propiedades morales sigue sin resolverse.",
+        "size": 22,
+        "font": "Arial"
+      }
+    ]
+  },
+  {
+    "type": "paragraph",
+    "spacing": {
+      "after": 120,
+      "line": 276
+    },
+    "children": [
+      {
+        "type": "text",
+        "text": "No es un documento de ingenier\u00eda realizable en su estado actual.",
+        "bold": true,
+        "italics": false,
+        "size": 22,
+        "font": "Arial"
+      }
+    ]
+  },
+  {
+    "type": "paragraph",
+    "spacing": {
+      "after": 120,
+      "line": 276
+    },
+    "children": [
+      {
+        "type": "text",
+        "text": "Las lagunas de especificaci\u00f3n (27.5) y las imposibilidades de ingenier\u00eda (27.3) hacen que toda construcci\u00f3n inmediata sea imposible. Lo que se propone aqu\u00ed es un marco conceptual para guiar d\u00e9cadas de investigaci\u00f3n, no un plan de fabricaci\u00f3n.",
+        "size": 22,
+        "font": "Arial"
+      }
+    ]
+  },
+  {
+    "type": "paragraph",
+    "spacing": {
+      "after": 120,
+      "line": 276
+    },
+    "children": [
+      {
+        "type": "text",
+        "text": "El valor de este manual reside precisamente en esta honestidad. Los proyectos que cambian el mundo no comienzan con soluciones: comienzan con preguntas bien planteadas. Y si este cap\u00edtulo de autocr\u00edtica contribuye a plantear las preguntas correctas, entonces habr\u00e1 sido el m\u00e1s \u00fatil de toda la obra.",
+        "size": 22,
+        "font": "Arial"
+      }
+    ]
+  },
+  {
+    "type": "paragraph",
+    "spacing": {
+      "after": 120,
+      "line": 276
+    },
+    "indent": {
+      "left": 720,
+      "right": 720
+    },
+    "children": [
+      {
+        "type": "text",
+        "text": "\"La ignorancia no es lo contrario del conocimiento: es su comienzo. Este cap\u00edtulo es un comienzo.\"",
+        "italics": true,
+        "size": 22,
+        "font": "Arial"
+      }
+    ]
+  }
+]

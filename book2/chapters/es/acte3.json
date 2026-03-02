@@ -1,0 +1,822 @@
+[
+  {
+    "type": "pageBreak"
+  },
+  {
+    "type": "paragraph",
+    "style": "ActTitle",
+    "text": "ACTO III"
+  },
+  {
+    "type": "paragraph",
+    "style": "ActTitle",
+    "text": "LA RED DE CONFIANZA"
+  },
+  {
+    "type": "paragraph",
+    "style": "ActSubtitle",
+    "text": "La Soberanía Intelectual y Social como Fundamento de una Economía Justa"
+  },
+  {
+    "type": "paragraph",
+    "style": "Epigraph",
+    "text": "\"Una idea solo se convierte en propiedad cuando se materializa en el mundo. Antes de eso, pertenece al universo. Después de eso, debería pertenecer a quien la hizo real.\" — David Berthelotte"
+  },
+  {
+    "type": "pageBreak"
+  },
+  {
+    "type": "paragraph",
+    "style": "SectionTitle",
+    "text": "Introducción: De la soberanía doméstica a la soberanía intelectual"
+  },
+  {
+    "type": "paragraph",
+    "style": "BodyText",
+    "text": "El Acto II nos dejó en la sala familiar, un espacio donde la inteligencia artificial sirve a los habitantes en lugar de vigilarlos, donde los datos permanecen dentro de las paredes que los vieron nacer, donde los niños crecen con el reflejo de la soberanía como un músculo natural. Pero un hogar, incluso el más soberano que exista, no vive en autarquía. Crea. Produce. Inventa. Sus miembros trabajan, componen, diseñan, experimentan. Y cada vez que una creación abandona el hogar para entrar en el mundo, cada vez que una invención se comparte, que una composición se publica, que una innovación se pone en práctica, la cuestión de la soberanía se replantea con una agudeza nueva. ¿A quién pertenece lo que yo he creado? ¿Cómo protegerme sin bloquear la difusión de lo que puede servir al mundo?"
+  },
+  {
+    "type": "paragraph",
+    "style": "BodyText",
+    "text": "Este acto explora la respuesta que propone UBLinx, no como una solución técnica hermética, sino como una filosofía encarnada en una arquitectura. Encontraremos a Amadou, inventor en Thiès, a quien el sistema mundial de patentes ha dejado sin defensa. Seguiremos a Mei-Lin, adolescente música en Montreal, que descubre que sus creaciones pueden pertenecerle de verdad, no solo en el sentido romántico, sino en el sentido legal y económico. Examinaremos la mecánica de la \"Patente Abierta Equitativa\", ese tercer camino entre darlo todo y cerrarlo todo. Veremos cómo hogares soberanos se conectan en red sin someterse a un centro. Y plantearemos, sin respuesta definitiva, la pregunta que atraviesa todo sistema de protección: cuando la soberanía de unos protege también a los actores cuyas acciones no querríamos proteger, ¿qué hacemos?"
+  },
+  {
+    "type": "paragraph",
+    "style": "BodyText",
+    "text": "Antes de entrar en las historias, se impone una precisión sobre la naturaleza de UBLinx en esta etapa. No es un producto comercial disponible en la App Store. Es una arquitectura conceptual, un plano, una visión, un conjunto de principios que tienen una coherencia interna y una factibilidad técnica, pero que aún no han atravesado el fuego de la implementación a gran escala. Yo soy un inventor y técnico quebequense con más de doscientas innovaciones documentadas en mis cuadernos, en espera de registro, no un profeta que anuncia certezas. Lo que propongo es la dirección. El camino mismo queda por construir."
+  },
+  {
+    "type": "pageBreak"
+  },
+  {
+    "type": "paragraph",
+    "style": "ChapterTitle",
+    "text": "Capítulo 1"
+  },
+  {
+    "type": "paragraph",
+    "style": "ChapterTitle",
+    "text": "El inventor en su garaje"
+  },
+  {
+    "type": "paragraph",
+    "style": "Epigraph",
+    "text": "\"La patente fue inventada para liberar a los inventores. Ha sido utilizada contra ellos como un arma en manos de quienes ya no inventan nada.\""
+  },
+  {
+    "type": "paragraph",
+    "style": "SceneText",
+    "text": "Thiès, Senegal. Junio de 2031. En un taller de cinco metros por seis, Amadou Diallo, treinta y cuatro años, levanta con precaución un filtro de agua que él mismo diseñó a lo largo de los últimos dieciocho meses. El chasis está hecho de boquillas recuperadas de una obra abandonada. El medio filtrante está compuesto de arena calcinada, carbón vegetal y una membrana que él tejió a partir de fibras locales tratadas químicamente según un método que tardó cuatro meses en perfeccionar. Los resultados de las pruebas que hizo analizar en la universidad de Dakar están ahí, sobre su mesa de madera: reducción del 99,3 % de las bacterias fecales, del 98,7 % de los parásitos y del 94 % de los microplásticos. Este filtro funciona. Funciona de verdad, con materiales locales, por un costo de fabricación de aproximadamente 4 500 francos CFA, menos de ocho dólares estadounidenses. Podría salvar vidas en los cuarenta y siete pueblos del departamento que no tienen acceso al agua potable."
+  },
+  {
+    "type": "paragraph",
+    "style": "SceneText",
+    "text": "Amadou deposita el filtro con delicadeza. Abre su computadora portátil, cuya pantalla lleva las huellas de una caída antigua jamás reparada. Busca \"cómo proteger una invención en Senegal\". Los resultados le informan que el registro de una patente nacional cuesta entre 500 000 y 800 000 francos CFA, el equivalente de ocho a trece meses de su ingreso promedio. Una patente internacional a través del Tratado de Cooperación en materia de Patentes costaría diez veces más. Los plazos de tramitación: de dos a cinco años. El idioma de los formularios: el francés jurídico más hermético. Los despachos de abogados especializados en propiedad intelectual en Dakar: dos, uno de los cuales exige un anticipo de seis meses de ingresos de Amadou simplemente por una consulta inicial. Amadou cierra su computadora. La idea que podría cambiar vidas, la suya y la de miles de personas, está jurídicamente indefensa. Se irá a dormir esta noche sabiendo que si una multinacional de tratamiento del agua descubre su invención, podrá industrializarla, patentarla haciendo valer ligeras modificaciones, y dejarlo sin recurso práctico ni compensación."
+  },
+  {
+    "type": "paragraph",
+    "style": "BodyText",
+    "text": "La historia de Amadou no es una excepción. Es la regla. En los laboratorios informales de Lagos, en los talleres de Manila, en los garajes de Trois-Rivières y de Rimouski, miles de inventores individuales enfrentan cada año la misma ecuación brutal: sus ideas valen potencialmente millones, pero el costo de protegerlas supera con creces sus medios. El sistema mundial de patentes, concebido en el siglo XIX para fomentar la innovación garantizando a los inventores una exclusividad temporal sobre sus descubrimientos, se ha transformado progresivamente en algo que ninguno de sus arquitectos habría querido: un instrumento de dominación al servicio de las grandes empresas contra los individuos que se atreven a inventar. La OMPI (Organización Mundial de la Propiedad Intelectual) reconoce ella misma que menos del 5 % de los inventores de los países en desarrollo acceden a una protección efectiva de sus innovaciones. Esto significa que el 95 % de las ideas innovadoras provenientes del Sur Global son, en la práctica, ofrecidas libremente al mundo, sin ninguna contrapartida para sus autores."
+  },
+  {
+    "type": "paragraph",
+    "style": "SectionTitle",
+    "text": "La paradoja de la protección: una historia de dos siglos"
+  },
+  {
+    "type": "paragraph",
+    "style": "BodyText",
+    "text": "La Convención de París de 1883, que sentó las bases del sistema internacional de patentes, partía de una intuición justa: si un inventor sabe que su invención le será garantizada durante veinte años, no tendrá ninguna razón para mantenerla en secreto. La publicará. La sociedad se beneficiará del saber, el inventor se beneficiará del monopolio temporal. Un intercambio equitativo. Un contrato social entre el genio individual y el bien común. Durante varias décadas, esta lógica funcionó parcialmente. Los inventores independientes como Edison, que sin embargo contaba con medios considerables y un laboratorio entero de colaboradores, registraban patentes que realmente protegían sus innovaciones contra los copistas. El sistema era imperfecto, pero cumplía a grandes rasgos su misión inicial. La prueba: entre 1880 y 1920, el número de patentes concedidas a inventores individuales alcanzó máximos históricos, reflejando una era de inventiva popular sin precedentes."
+  },
+  {
+    "type": "paragraph",
+    "style": "BodyText",
+    "text": "Algo se descarriló en las décadas de 1970 y 1980. El ascenso de las empresas tecnológicas y de la economía inmaterial coincidió con una mutación profunda de la naturaleza de la patente. Las grandes corporaciones comprendieron que un portafolio de patentes no era solamente un escudo defensivo: era un arma ofensiva, una moneda de cambio, una palanca de negociación. IBM registraba más de 5 000 patentes al año en la cúspide de su poder, de las cuales una fracción minúscula correspondía a innovaciones que realmente desarrollaba. Qualcomm construyó un imperio sobre licencias de patentes que representan hoy varios miles de millones de dólares en ingresos anuales, dinero pagado por cada fabricante de teléfonos inteligentes en el mundo, sin que Qualcomm fabrique teléfonos ella misma. Microsoft, Apple y Google emprendieron guerras de patentes multimillonarias no para proteger innovaciones reales, sino para bloquear competidores o generar ingresos por licencias sin producir jamás nada concreto con esas patentes."
+  },
+  {
+    "type": "paragraph",
+    "style": "BodyText",
+    "text": "Los \"patent trolls\", entidades que compran patentes con el único fin de demandar a empresas más productivas que ellas, se convirtieron en un fenómeno económico mayor en Estados Unidos, costando a la economía estadounidense varias decenas de miles de millones de dólares al año en litigios estériles, según estudios del MIT y de la Universidad de Boston. Estas entidades no crean nada. No producen nada. Parasitan el sistema de protección de la innovación para extraer valor sin crearlo. Y el blanco preferido de los patent trolls no es Apple ni Google, esos gigantes tienen ejércitos de juristas para defenderse. El blanco preferido es la pyme que ha creado algo real y que no tiene los recursos para un juicio que durará cinco años y costará varios millones de dólares. El sistema que debía proteger a los innovadores se ha convertido en el instrumento de extorsión contra ellos."
+  },
+  {
+    "type": "paragraph",
+    "style": "BodyText",
+    "text": "Para un inventor individual como Amadou, esta deriva tiene una consecuencia concreta y devastadora: incluso si lograra registrar una patente, jamás podría defenderse contra una violación por parte de una gran empresa. Los litigios de patentes cuestan en promedio entre 1,5 y 5 millones de dólares por parte para llegar a juicio en Estados Unidos. En Europa, las cifras son comparables. En Senegal, la realidad es aún más sombría: los tribunales especializados en propiedad intelectual son escasos, los abogados competentes en derecho de patentes son un recurso aún más escaso, y los plazos judiciales pueden extenderse por una década. En otras palabras, el sistema actual solo ofrece una protección real a quienes ya disponen de los recursos para defenderse: las grandes empresas. Para los demás, ofrece la ilusión de la protección y la realidad de la vulnerabilidad. Es un fraude institucionalizado, legal y perfectamente documentado."
+  },
+  {
+    "type": "paragraph",
+    "style": "Thesis",
+    "text": "La calidad de una idea no tiene ninguna relación con la capacidad financiera de su autor para protegerla. Esta es la injusticia fundamental del sistema actual de propiedad intelectual. UBLinx nació de la convicción de que esta injusticia no es una fatalidad, de que es técnica y económicamente posible construir un sistema donde la protección siga la calidad de la invención, no el saldo bancario de su autor."
+  },
+  {
+    "type": "paragraph",
+    "style": "SectionTitle",
+    "text": "Lo que UBLinx propone a Amadou"
+  },
+  {
+    "type": "paragraph",
+    "style": "BodyText",
+    "text": "En el ecosistema UBLinx, Amadou Diallo haría algo radicalmente diferente aquella noche en que cerró su computadora con desaliento. Fotografiaría su filtro de agua desde varios ángulos. Cargaría sus datos de prueba de la universidad de Dakar. Describiría en términos accesibles, no en jerga jurídica, sino en un lenguaje que un artesano competente pudiera seguir, los materiales utilizados, las etapas de fabricación, los principios de funcionamiento. Y lo sometería todo a la plataforma. En pocos minutos, el sistema UBLinx efectuaría una marca de tiempo criptográfica de la presentación completa y la inscribiría en la blockchain: una prueba inmutable, fechada al segundo, de que esta invención existía ese día, bajo esa forma, y que había sido creada por Amadou Diallo de Thiès, Senegal. Esta prueba no puede ser borrada. No puede ser contradicha por un competidor bien financiado. No depende de ninguna oficina gubernamental, de ningún abogado, de ningún sistema judicial nacional. Está inscrita en la estructura matemática de una red distribuida que nadie controla y que nadie puede censurar."
+  },
+  {
+    "type": "paragraph",
+    "style": "BodyText",
+    "text": "La etapa siguiente es la validación, y es ahí donde UBLinx introduce algo nuevo en el ecosistema de la propiedad intelectual. Un primer filtro de machine learning analiza la presentación de Amadou: ¿son los principios físicos de filtración coherentes con las leyes de la fisicoquímica conocidas? ¿Están los resultados de prueba mostrados dentro de los órdenes de magnitud plausibles para este tipo de medio filtrante combinado de esta manera? ¿Es la descripción suficientemente precisa para ser reproducible por un artesano calificado? Este filtro automático no juzga el valor comercial de la invención, ni su elegancia científica. Verifica que no viole las leyes fundamentales de la física, descartando así las máquinas de movimiento perpetuo, los generadores de energía libre, las pretensiones termodinámicamente imposibles que saturan todos los sistemas de presentación de innovaciones. Si el filtro automático queda satisfecho, la presentación pasa a revisión por expertos humanos voluntarios de la red: ingenieros en ingeniería química, especialistas en tratamiento del agua, profesionales del desarrollo sostenible en contextos de recursos limitados, que confirman la validez y originalidad del diseño de Amadou."
+  },
+  {
+    "type": "paragraph",
+    "style": "BodyText",
+    "text": "Una vez validada, la invención de Amadou está protegida por un contrato inteligente, un programa autónomo que se ejecuta en la blockchain y cuyas reglas no pueden ser modificadas unilateralmente por nadie, incluido UBLinx mismo. Estas reglas son simples y transparentes: cualquier persona que quiera fabricar y utilizar el filtro para uso personal, o construir hasta cinco ejemplares para su comunidad, lo hace gratuita y libremente. Cualquier organización, empresa comercial, ONG con presupuesto significativo, gobierno, que quiera producirlo comercialmente desencadena automáticamente el pago de una regalía a Amadou Diallo. Sin facturas que enviar. Sin alguaciles que movilizar. Sin juicios que financiar. Sin negociaciones asimétricas con un departamento jurídico empresarial bien dotado. El contrato inteligente se ejecuta en cuanto se cumplen las condiciones, y la regalía llega a la billetera digital de Amadou tan automáticamente como una transferencia bancaria, pero sin el banco."
+  },
+  {
+    "type": "paragraph",
+    "style": "CritiqueBox",
+    "text": "Crítica honesta: UBLinx no resuelve todos los problemas de la propiedad intelectual. Los contratos inteligentes tienen bugs; ha habido pirateos resonantes en la historia de las finanzas descentralizadas, el más célebre siendo el hack del DAO en 2016 que resultó en una pérdida de 60 millones de dólares. La validación por expertos voluntarios puede ser lenta en dominios especializados, desigual según la calidad de los voluntarios disponibles, y a veces sesgada hacia los conocimientos y métodos dominantes en un campo. Una red blockchain puede ser vulnerable a la concentración del poder de cálculo, lo que se llama un ataque del 51 %. Y la aplicación legal de una regalía generada por un contrato inteligente sigue siendo un problema jurídico no resuelto en la mayoría de las jurisdicciones mundiales. La pregunta no es: ¿es UBLinx perfecto? La pregunta es: ¿es dramáticamente mejor que lo que Amadou tiene hoy? Y la respuesta a esa pregunta es sí, sin ambigüedad. La ausencia total de protección cuesta infinitamente más que una protección imperfecta."
+  },
+  {
+    "type": "paragraph",
+    "style": "ReaderQuestion",
+    "text": "Quizás usted tuvo una idea alguna vez, un producto, un proceso, una solución a un problema que lo frustraba desde hacía mucho tiempo. ¿Qué le impidió protegerla y compartirla? ¿Fue el costo? ¿Los plazos? ¿La complejidad jurídica? ¿La convicción de que la idea no era lo suficientemente \"buena\"? ¿El miedo a que alguien la robara antes de poder defenderla? ¿Cuántos Amadou hemos perdido, no por falta de ideas, sino por falta de acceso a las herramientas de protección de esas ideas?"
+  },
+  {
+    "type": "paragraph",
+    "style": "Separator",
+    "text": "* * *"
+  },
+  {
+    "type": "paragraph",
+    "style": "SectionTitle",
+    "text": "Por qué la marca de tiempo blockchain es una revolución silenciosa"
+  },
+  {
+    "type": "paragraph",
+    "style": "BodyText",
+    "text": "Existe una diferencia fundamental entre probar que uno tuvo una idea y probar que la tuvo antes que otra persona. El derecho de patentes se basa enteramente en esta distinción temporal: el primero en registrar gana, en la mayoría de los sistemas modernos. Pero \"registrar\" en el sistema actual requiere recursos considerables y plazos importantes. Entre el momento en que Amadou concibe su filtro y el momento en que podría obtener una patente, si alguna vez tuviera los medios, pueden transcurrir varios años. Durante esos años, su invención es vulnerable. La marca de tiempo blockchain cambia radicalmente esta ecuación: la prueba de anterioridad se crea en pocos minutos, en el momento mismo de la creación, por un costo cercano a cero. No es todavía una patente. Pero es un fundamento probatorio incontestable que ni siquiera las grandes empresas pueden ignorar en un litigio serio."
+  },
+  {
+    "type": "paragraph",
+    "style": "BodyText",
+    "text": "La robustez criptográfica de la marca de tiempo merece ser explicada sin jerga, porque está en el corazón de la credibilidad del sistema. Cuando Amadou presenta su invención, el sistema calcula una \"huella digital\" (hash SHA-256) de su documento, una cadena de 64 caracteres que es matemáticamente única para ese documento preciso. Si un solo carácter del documento se modifica después, incluso un espacio, incluso una coma, la huella cambia completamente. Esta huella se inscribe luego en un bloque de la blockchain, con la marca de tiempo exacta. La blockchain es una cadena de bloques donde cada bloque contiene la huella del bloque anterior; modificar un bloque retroactivamente requeriría recalcular todos los bloques siguientes, lo que exige una potencia de cálculo que nadie en el mundo posee contra una blockchain bien establecida. Concretamente: el registro de Amadou no puede ser antedatado, modificado ni suprimido. La prueba existe, permanente y verificable por cualquier persona en el mundo."
+  },
+  {
+    "type": "paragraph",
+    "style": "BodyText",
+    "text": "Esta permanencia tiene implicaciones que superan la simple protección individual. Crea una memoria colectiva de la innovación humana, un registro distribuido de quién inventó qué y cuándo, accesible a todos, verificable por todos, que no pertenece a nadie en particular. Los historiadores de las ciencias y las técnicas disponen hoy de fuentes fragmentarias, a menudo sesgadas hacia los inventores de los países ricos que tuvieron acceso a las oficinas de patentes. Un registro UBLinx, a lo largo de décadas, se convertiría en una documentación sin precedentes de la inteligencia creativa humana en su diversidad geográfica y cultural real. No es un objetivo secundario de la plataforma. Es una consecuencia emergente de su funcionamiento normal."
+  },
+  {
+    "type": "pageBreak"
+  },
+  {
+    "type": "paragraph",
+    "style": "ChapterTitle",
+    "text": "Capítulo 2"
+  },
+  {
+    "type": "paragraph",
+    "style": "ChapterTitle",
+    "text": "La adolescente que compone"
+  },
+  {
+    "type": "paragraph",
+    "style": "Epigraph",
+    "text": "\"La creatividad no tiene edad, ni pasaporte, ni contrato de distribución. Solo necesita un espacio donde pueda existir sin ser confiscada.\""
+  },
+  {
+    "type": "paragraph",
+    "style": "SceneText",
+    "text": "Montreal, barrio de Rosemont, habitación del fondo. Noviembre de 2031. Mei-Lin Gao, dieciséis años, lleva auriculares que le envuelven las orejas como dos conchas de protección contra el resto del mundo. En su pantalla, una interfaz de composición musical muestra capas de sintetizadores, percusiones electrónicas y una línea melódica que pasó tres semanas construyendo nota por nota, tanteando, volviendo a empezar, siguiendo algo que se parece menos a un plan que a una intuición persistente. Presiona \"reproducir\". La música inunda la habitación, algo entre la electrónica minimalista nórdica y las armonías pentatónicas de la tradición musical de sus abuelos cantoneses. Es extraño. Es nuevo. Es indudablemente ella, no un algoritmo, no una tendencia detectada por Spotify, no una fórmula probada por los sellos de Los Ángeles."
+  },
+  {
+    "type": "paragraph",
+    "style": "SceneText",
+    "text": "Lo que es diferente esta noche respecto a lo que habría vivido una adolescente música en 2024 es lo que sucede, o más bien lo que no sucede, mientras ella compone. Ninguna plataforma registra sus preferencias musicales para construir un perfil publicitario que será vendido a una agencia de publicidad. Ningún algoritmo envía sus \"errores\" de composición hacia un servidor de aprendizaje automático perteneciente a una empresa californiana que los usará para mejorar sus propias herramientas de generación musical. La inteligencia artificial local de Gen_Home que a veces la ayuda a encontrar transiciones armónicas aprende con ella, para ella, y se queda en su casa. Los datos de sus borradores, de sus experimentos fallidos, de sus momentos de inspiración fugaz, todo eso pertenece a Mei-Lin, almacenado localmente, jamás transmitido sin su acuerdo explícito y revocable."
+  },
+  {
+    "type": "paragraph",
+    "style": "BodyText",
+    "text": "Hay que medir lo que esta diferencia representa realmente, porque es menos trivial de lo que parece. Cuando una joven música en 2024 utilizaba cualquier plataforma creativa conectada a la nube, GarageBand vía iCloud, Ableton Live con sincronización en la nube, SoundCloud, Bandcamp, cedía implícitamente una serie de derechos que nunca había concedido explícitamente. Las condiciones de uso de estos servicios, redactadas en inglés jurídico denso y enterradas en documentos de cincuenta páginas que nadie leía, significaban aproximadamente: \"Al utilizar nuestro servicio, usted nos otorga una licencia mundial, no exclusiva, libre de regalías, transferible y sublicenciable para utilizar, reproducir, distribuir, crear obras derivadas de, mostrar y ejecutar su contenido en el marco de la prestación del servicio.\" La música creía publicar su obra. En realidad, firmaba un contrato de cesión parcial de derechos con una multinacional cuyos accionistas no tienen ningún interés particular en sus aspiraciones artísticas."
+  },
+  {
+    "type": "paragraph",
+    "style": "SectionTitle",
+    "text": "El valor creativo y sus depredadores sistémicos"
+  },
+  {
+    "type": "paragraph",
+    "style": "BodyText",
+    "text": "La economía musical contemporánea ilustra con una claridad brutal cómo las plataformas digitales han recreado la dinámica de explotación que la industria discográfica había institucionalizado en el siglo XX, en una versión aún más desequilibrada. Spotify, en 2024, remuneraba a sus artistas entre 0,003 y 0,005 dólares estadounidenses por escucha. Un millón de escuchas, un resultado que solo los artistas muy establecidos alcanzan con regularidad, tras años de construcción de audiencia, representaba entre 3 000 y 5 000 dólares de ingresos brutos. Antes de deducir las partes del sello (que toma en promedio el 75 % para un artista bajo contrato estándar), del distribuidor digital, de los managers y de los demás intermediarios, un artista independiente podía esperar conservar entre el 15 y el 30 % de esa suma. Un millón de escuchas: entre 450 y 1 500 dólares en el bolsillo del artista. YouTube tomaba el 45 % de los ingresos publicitarios generados por los videos de artistas, tras haber decidido unilateralmente qué videos merecían ser monetizados y cuáles eran \"desmonetizados\" por razones algorítmicas opacas. TikTok reivindicaba derechos de uso sobre los extractos musicales publicados en su plataforma, creando situaciones absurdas donde artistas descubrían que sus propias canciones se utilizaban en publicidades sin su consentimiento."
+  },
+  {
+    "type": "paragraph",
+    "style": "BodyText",
+    "text": "Mei-Lin conoce esta realidad. La aprendió no en un curso de economía sino observando a su primo mayor, músico independiente, acumular escuchas en Spotify durante cinco años, cientos de miles de escuchas, sin poder vivir de ello. Él sigue trabajando en una cafetería por las mañanas para pagar su alquiler y compone por las noches. Ella creció con la conciencia de que el valor creado y la remuneración recibida son dos realidades profundamente desconectadas en la economía digital. Esta noche, después de terminar su composición, toma una decisión consciente. Va a compartirla, pero no en Spotify, no en YouTube, no en TikTok. Primero la va a compartir en su círculo de confianza más cercano (sus seis amigos más íntimos, el círculo dos en la terminología Gen_Home), y luego, si la respuesta es positiva, decidirá qué hacer después. No está lista para abandonar su obra a un algoritmo sin reflexionar primero."
+  },
+  {
+    "type": "paragraph",
+    "style": "BodyText",
+    "text": "A la mañana siguiente, los seis amigos han escuchado durante la noche. Tres de ellos enviaron mensajes de voz entusiastas. Uno de ellos, particularmente intuitivo sobre las tendencias musicales emergentes, le dice con el énfasis típico de sus dieciséis años: \"Mei-Lin, no se parece a nada de lo que existe. Deberías publicarla en serio.\" Ella reflexiona un día. Luego presenta la composición en UBLinx. El sistema marca el tiempo de la obra, la registra en IPFS, un sistema de almacenamiento distribuido donde el archivo se duplica en miles de nodos en todo el mundo, haciendo su eliminación prácticamente imposible incluso si ella misma quisiera borrarlo, y le genera un certificado de autenticidad criptográfico vinculado a su identidad digital soberana. La obra pertenece a Mei-Lin. No a una plataforma. No a un sello. No a un algoritmo de recomendación. A Mei-Lin Gao, dieciséis años, Rosemont, Montreal, el 17 de noviembre de 2031."
+  },
+  {
+    "type": "paragraph",
+    "style": "SceneText",
+    "text": "Osaka, Japón. Tres semanas después. Kenji Takahashi, productor de música electrónica desde hace diecisiete años, recorre las nuevas presentaciones UBLinx en la categoría que vigila cada semana: \"electrónica experimental / tradición no occidental\". Busca sonidos que aún no ha escuchado, texturas que nadie ha asociado todavía. Se encuentra con la composición de Mei-Lin. La escucha una vez. La deja. Retoma sus otros expedientes. Diez minutos después, vuelve a ella. La escucha dos veces seguidas. Algo en esa manera de entrelazar las armonías pentatónicas con la síntesis sustractiva occidental crea una tensión que nunca había encontrado en otro lugar, una tensión que no es incómoda, que es más bien como la tensión de una cuerda bien afinada. Envía una solicitud de contacto a través de la plataforma: \"Kenji Takahashi, productor musical, Osaka, desea contactarla a propósito de su composición November Rosemont.\" Mei-Lin relee el mensaje dos veces. Verifica el perfil de Kenji en UBLinx, sus proyectos publicados, sus colaboraciones documentadas, su reputación en la red. Todo es transparente. Acepta el contacto."
+  },
+  {
+    "type": "paragraph",
+    "style": "BodyText",
+    "text": "Lo que sucede a continuación es, en su estructura superficial, idéntico a lo que habría sucedido en 2024: dos creadores entran en contacto, discuten una colaboración. Pero en sus detalles, todo es fundamentalmente diferente. Kenji quiere utilizar la composición de Mei-Lin como base estructural para un álbum que prepara. Propone un reparto de ingresos. Mei-Lin, que creció con el consejo de familia, que sabe negociar, que no firma sin haber comprendido, contrapropone. Intercambian tres o cuatro mensajes. Llegan a un acuerdo. Y cuando llegan a ese acuerdo, su pacto se codifica en un contrato inteligente desplegado en la blockchain UBLinx: Mei-Lin recibe el 38 % de los ingresos generados por toda explotación comercial de la obra derivada, por una duración de diez años, tras los cuales los términos son renegociables. Este porcentaje no es una promesa verbal. No es un contrato en papel que Kenji pudiera impugnar ante un tribunal japonés que le sea quizás más favorable que a una adolescente canadiense. Es código que se ejecuta automáticamente. Es matemática. Es tan sólido como las leyes de la aritmética."
+  },
+  {
+    "type": "paragraph",
+    "style": "Thesis",
+    "text": "La soberanía sobre las propias creaciones no es un privilegio reservado a los artistas establecidos que pueden pagarse abogados en Nueva York o Tokio. Es un derecho fundamental que debería pertenecer a cada creador desde la primera nota, el primer dibujo, la primera línea de código escrita en el entusiasmo de un descubrimiento. UBLinx no crea ese derecho. Crea por fin la infraestructura para ejercerlo, para que una adolescente de Rosemont pueda tratar de igual a igual con un productor establecido de Osaka, sin intermediario que cobre su comisión, sin cláusula de exclusividad que ella no ha leído, sin perder lo que ha creado."
+  },
+  {
+    "type": "paragraph",
+    "style": "BodyText",
+    "text": "Hay algo profundamente coherente en el recorrido de Mei-Lin en relación con el niño que creció con el consejo de familia del Acto II. Ese niño aprendió temprano que las reglas importantes, las reglas que tocan lo que uno puede hacer con su propio tiempo, su propio espacio digital, sus propios recursos de atención, se negocian, se discuten, se coconstruyen. Nadie le impone unilateralmente condiciones de uso de su habitación. Nadie le hace firmar al pie de página un documento de cincuenta párrafos que no ha leído para tener acceso a sus propias cosas. Aprendió que sus límites merecen ser definidos y respetados, que sus contribuciones a la familia tienen un valor reconocido, que las decisiones que le conciernen le pertenecen proporcionalmente a su capacidad de comprenderlas. Ese músculo, el músculo de la agentividad, de la negociación, de la soberanía en su propio espacio, es el mismo que Mei-Lin ejerce esta noche cuando intercambia mensajes con Kenji. La arquitectura de la soberanía se aprende en la mesa, en la habitación, en las conversaciones familiares de la infancia. Luego se exporta naturalmente al mundo adulto."
+  },
+  {
+    "type": "paragraph",
+    "style": "Separator",
+    "text": "* * *"
+  },
+  {
+    "type": "paragraph",
+    "style": "SectionTitle",
+    "text": "La economía creativa en la era de la inteligencia artificial generativa"
+  },
+  {
+    "type": "paragraph",
+    "style": "BodyText",
+    "text": "La historia de Mei-Lin se desarrolla en un contexto que evoluciona aún más rápido que el de la disrupción digital de la década de 2010. La inteligencia artificial generativa, esos sistemas capaces de componer música, de generar imágenes, de escribir código, de producir textos a una velocidad y un costo inimaginables pocos años antes, ha creado una nueva capa de complejidad en la cuestión de los derechos de los creadores. Cuando un sistema de IA se entrena con millones de obras musicales sin el permiso explícito de sus autores, y luego genera \"nueva\" música que se parece estadísticamente a esas obras, ¿a quién pertenece el resultado? La pregunta no está resuelta jurídicamente en la mayoría de los países. Probablemente no será resuelta de manera satisfactoria por los sistemas jurídicos existentes, concebidos para un mundo donde la creación era fundamentalmente humana."
+  },
+  {
+    "type": "paragraph",
+    "style": "BodyText",
+    "text": "UBLinx, en este contexto, ofrece algo crucial: una prueba de anterioridad humana que precede a toda versión generada por una IA. Si Mei-Lin registra su composición en UBLinx el 17 de noviembre de 2031 y un sistema de IA produce una composición similar el 18 de noviembre, la marca de tiempo es incontestable. La obra de Mei-Lin existía primero, documentada, verificable, resistente a toda contestación retroactiva. Esta capacidad de establecer la anterioridad humana frente a la producción algorítmica se convertirá, según toda probabilidad, en una de las funciones más importantes de un sistema como UBLinx en las décadas venideras, mucho más allá de su misión inicial de protección contra la copia humana."
+  },
+  {
+    "type": "paragraph",
+    "style": "BodyText",
+    "text": "Hay también una dimensión más sutil que Mei-Lin percibe intuitivamente sin necesariamente formularla en esos términos: cuando ella compone con la IA local de Gen_Home, sus errores, sus tanteos, sus elecciones idiosincrásicas permanecen en su ecosistema personal. No alimentan el modelo global de una empresa que se volvería así más capaz de reproducir su estilo particular. La frontera entre la ayuda y el aprendizaje parasitario, entre una herramienta que te sirve y una herramienta que te estudia para reemplazarte mejor, está mantenida por la arquitectura local soberana. No es una decisión consciente de Mei-Lin. Es una garantía estructural que el sistema Gen_Home ofrece por construcción, no por promesa."
+  },
+  {
+    "type": "pageBreak"
+  },
+  {
+    "type": "paragraph",
+    "style": "ChapterTitle",
+    "text": "Capítulo 3"
+  },
+  {
+    "type": "paragraph",
+    "style": "ChapterTitle",
+    "text": "La patente abierta equitativa"
+  },
+  {
+    "type": "paragraph",
+    "style": "Epigraph",
+    "text": "\"Entre darlo todo y guardarlo todo, existe una tercera vía. Se llama justicia. No se parece ni a la generosidad sin contrapartida ni a la avaricia sin reparto. Se parece a un contrato que dos adultos podrían firmar con los ojos abiertos.\""
+  },
+  {
+    "type": "paragraph",
+    "style": "SceneText",
+    "text": "Una sala de conferencias en un edificio de vidrio en Basilea, Suiza. 14h37. Alrededor de una mesa ovalada de nogal barnizado, ocho juristas y dos científicos examinan un documento. Se trata de una solicitud de patente para un compuesto molecular, la modificación de una proteína de superficie que, según los investigadores internos de la empresa, podría potencialmente inhibir un mecanismo de resistencia a los antibióticos particularmente peligroso. No van a desarrollar este medicamento. Su pipeline está lleno, las estimaciones de retorno sobre la inversión para esta vía terapéutica son juzgadas insuficientes para los accionistas actuales en los horizontes temporales de la próxima asamblea general. Pero un competidor, en un laboratorio de Seúl, explora la misma vía con medios más modestos y una visión a más largo plazo. La decisión alrededor de la mesa es rápida, casi administrativa: se registra la patente defensiva. Se gastarán 200 000 euros para proteger algo que nunca desarrollarán, únicamente para que nadie más pueda desarrollarlo durante veinte años."
+  },
+  {
+    "type": "paragraph",
+    "style": "BodyText",
+    "text": "En algún lugar de un laboratorio de Seúl, un investigador pasará los próximos cinco años trabajando alrededor de esa patente sin comprender jamás por qué ese ángulo particular parece jurídicamente cerrado. No sabrá que una empresa en Basilea bloqueó esa vía por puro reflejo defensivo. Las patentes defensivas no se publican con la mención \"nunca desarrollaremos esto, solo estamos bloqueando a la competencia\". Se parecen a cualquier otra patente. La vigilancia de la innovación, ese espacio entre dos fronteras de patentes donde un inventor busca adónde puede ir sin ser demandado, se reduce cada año, en cada campo tecnológico, de manera invisible y silenciosa. Es el costo colectivo que la sociedad paga por un sistema de protección individual de las innovaciones que ha sido deformado por intereses que ya no tienen nada que ver con la innovación."
+  },
+  {
+    "type": "paragraph",
+    "style": "SectionTitle",
+    "text": "Entre el open source y la patente: la tercera vía"
+  },
+  {
+    "type": "paragraph",
+    "style": "BodyText",
+    "text": "Frente a esta realidad, dos respuestas se han desarrollado a lo largo de las últimas décadas, cada una representando un extremo del espectro de la propiedad intelectual. Por un lado, el movimiento open source: háganlo todo público, todos los derechos se conceden a todos, que cada quien use y mejore libremente. La innovación se maximiza, la difusión es máxima, la colaboración se facilita. Pero el creador original nunca es remunerado por el valor comercial que ha creado. Linux alimenta hoy la infraestructura digital del planeta entero, los servidores que hacen funcionar Amazon, Google, Netflix, los grandes bancos, los hospitales, y sus miles de contribuyentes voluntarios nunca recibieron un centavo directamente de esas empresas por ese servicio. Linus Torvalds, el creador del núcleo Linux, trabaja para una fundación sin fines de lucro financiada por las empresas que aprovechan gratuitamente su trabajo. Es una forma de equidad, pero una equidad arreglada a posteriori, que no estaba en los términos originales del modelo."
+  },
+  {
+    "type": "paragraph",
+    "style": "BodyText",
+    "text": "En el otro extremo del espectro, la patente tradicional: ciérrenlo todo, veinte años de exclusividad absoluta, que los competidores inventen alrededor o esperen. La innovación es teóricamente recompensada, en teoría, porque en la práctica solo quienes pueden pagarse la protección se benefician realmente. Y el efecto secundario es significativo: la difusión del conocimiento se ralentiza, las zonas grises jurídicas se multiplican, y el tiempo que los inventores pasan navegando en los portafolios de patentes existentes es un tiempo que no pasan inventando. Un informe de la OCDE estimó que solo en Estados Unidos, los costos de navegación en las patentes existentes, los costos de investigación, de asesoría jurídica, de contorneo o de licencias, representan un freno a la innovación equivalente a varios puntos porcentuales del PIB anualmente. El sistema concebido para acelerar la innovación la ralentiza efectivamente."
+  },
+  {
+    "type": "paragraph",
+    "style": "BodyText",
+    "text": "El modelo de la \"Patente Abierta Equitativa\" que propone UBLinx busca ocupar el espacio entre estos dos extremos, un espacio que existe filosóficamente desde hace mucho tiempo, explorado parcialmente por modelos como Creative Commons, las licencias LGPL o la doctrina del \"fair use\", pero que carecía hasta ahora de una infraestructura técnica y económica para funcionar a gran escala. El principio es simple en su enunciado: la invención se documenta y es accesible a todos para estudio y réplica personal. El creador es remunerado automáticamente cuando su invención genera un valor comercial para otros. El uso personal y comunitario (hasta cinco copias) es libre. El uso comercial está sujeto a regalía. Es la distinción entre compartir una fogata con amigos y vender electricidad a la ciudad."
+  },
+  {
+    "type": "paragraph",
+    "style": "SubSection",
+    "text": "La validación como barrera contra el abuso"
+  },
+  {
+    "type": "paragraph",
+    "style": "BodyText",
+    "text": "El sistema UBLinx no valida las invenciones sobre la base de su valor comercial anticipado, eso le corresponde al mercado decidir si una idea vale algo económicamente. Las valida sobre la base de dos criterios distintos: la coherencia física y la originalidad reivindicada. La primera capa de validación, el filtro de machine learning, cumple algo preciso y delimitado: verifica que la invención no viole leyes físicas fundamentales. Un motor que pretende producir más energía de la que consume falla inmediatamente, no porque una persona haya decidido que es inválido, sino porque las ecuaciones termodinámicas son universales y no negocian con los deseos de los inventores. Un filtro de agua que pretende eliminar el 100 % de los agentes patógenos con materiales simples desencadena una verificación profunda de los mecanismos reivindicados antes de la validación. Este filtro automático no es infalible: puede rechazar innovaciones que parecen desafiar principios establecidos pero que los empujan legítimamente. Existe un procedimiento de apelación ante expertos humanos para esos casos."
+  },
+  {
+    "type": "paragraph",
+    "style": "BodyText",
+    "text": "La segunda capa de validación humana es más matizada y, hay que admitirlo claramente, más vulnerable al sesgo. Los expertos voluntarios que examinan las presentaciones son seres humanos con sus propias perspectivas, sus propios puntos ciegos disciplinarios, sus propios prejuicios culturales. Un experto en ingeniería convencional puede pasar por alto el valor de una innovación que combina enfoques de dominios diferentes. Un experto senior puede inconscientemente favorecer los enfoques que se parecen a lo que conoce y rechazar el enfoque no convencional de un inventor autodidacta de África Occidental. UBLinx intenta mitigar estos riesgos mediante la diversidad de los validadores requeridos (un mínimo de tres expertos de regiones geográficas diferentes para las innovaciones técnicas mayores), mediante la transparencia completa del proceso, cada validación es pública, cada rechazo está motivado por escrito, cada motivación puede ser impugnada, y mediante un mecanismo de reputación de los validadores que penaliza los rechazos sistemáticamente impugnados con éxito. Es imperfecto. Toda institución humana lo es. Pero la imparcialidad pública y contestable vale más que la arbitrariedad privada y opaca de una oficina de patentes gubernamental."
+  },
+  {
+    "type": "paragraph",
+    "style": "SubSection",
+    "text": "La arquitectura jurídica y técnica en detalle"
+  },
+  {
+    "type": "paragraph",
+    "style": "TechNote",
+    "text": "Estructura híbrida UBLinx: la OBNL quebequense (organismo sin fines de lucro, incorporado bajo la Ley de Compañías de Quebec, regido por un consejo de administración elegido por los miembros) detenta la misión, los valores y la gobernanza democrática de la plataforma. Las decisiones importantes, modificación de los algoritmos de validación, cambio de las tasas de regalía, modificación de las reglas de gobernanza, requieren un voto de la comunidad de miembros. La LLC de Wyoming (Estados Unidos, incorporada bajo la Wyoming Decentralized Autonomous Organization Act de 2021) proporciona el marco jurídico compatible con los activos criptográficos y los contratos inteligentes, en una jurisdicción que reconoce legalmente las obligaciones creadas por los DAOs y los smart contracts. El almacenamiento de los datos de invención utiliza IPFS para la disponibilidad distribuida y Arweave para la permanencia garantizada por un modelo económico de pago único. El sistema de fingerprinting utiliza técnicas de marca de agua digital (watermarking) robustas ante las transformaciones comunes (compresión, reformateo, recorte)."
+  },
+  {
+    "type": "paragraph",
+    "style": "BodyText",
+    "text": "La realidad del almacenamiento permanente merece que nos detengamos extensamente, porque es una de las diferencias más profundas entre UBLinx y todo sistema de protección de las innovaciones que existió antes. Cuando Amadou presenta su filtro de agua en UBLinx, el documento no se almacena en un servidor perteneciente a una empresa que puede quebrar, ser adquirida, perder sus datos en un incendio, o decidir unilateralmente eliminar registros antiguos por razones de costo de almacenamiento. IPFS distribuye el documento en miles de nodos independientes en todo el mundo, cada nodo posee una copia parcial o completa del archivo, direccionado por su huella criptográfica (hash) en lugar de por su ubicación física. No existe ningún servidor único que hackear, ninguna empresa única que llevar a la quiebra, ningún gobierno único al que intimidar para que estos datos desaparezcan. El registro de Amadou sobrevivirá a UBLinx mismo. Si le sucediera algo a la plataforma mañana, quiebra, disolución, ataque, la prueba de autoría de Amadou seguiría existiendo, verificable e inalterable, accesible a cualquiera que conozca la dirección criptográfica del archivo."
+  },
+  {
+    "type": "paragraph",
+    "style": "CritiqueBox",
+    "text": "Autocrítica necesaria sobre los límites legales: la aplicación legal de los derechos generados por contratos inteligentes sigue siendo un territorio jurídico en gran parte inexplorado en la mayoría de los sistemas judiciales del mundo. La mayoría de los jueces en París, en Nairobi, en Mumbai o en Buenos Aires no tienen un marco establecido para reconocer automáticamente las obligaciones creadas por un smart contract como equivalentes a las creadas por un contrato firmado ante notario. Esta realidad significa que UBLinx puede ofrecer dos tipos de protección desde ahora: una protección económica (las regalías fluyen automáticamente sin necesidad de acudir a la justicia) y una protección probatoria (la autoría es incontestable ante cualquier tribunal que acepte pruebas digitales). La protección legal completa, la capacidad de perseguir una violación comercial ante la justicia en cualquier jurisdicción con un contrato inteligente como pieza principal de prueba, tomará tiempo y una evolución del marco jurídico internacional. Ese tiempo se mide probablemente en décadas, no en años."
+  },
+  {
+    "type": "paragraph",
+    "style": "Separator",
+    "text": "* * *"
+  },
+  {
+    "type": "paragraph",
+    "style": "SectionTitle",
+    "text": "El modelo cooperativo aplicado a la validación de las ideas"
+  },
+  {
+    "type": "paragraph",
+    "style": "BodyText",
+    "text": "La validación por la comunidad de pares es el elemento del modelo UBLinx que suscita más escepticismo por parte de los juristas y los economistas de la innovación. \"¿Validación por voluntarios? Eso no puede sostenerse a escala.\" Es una crítica legítima que merece una respuesta honesta. La validación voluntaria existe y funciona a gran escala en dominios donde las apuestas son tan importantes como la propiedad intelectual: Wikipedia valida millones de artículos en varios idiomas con una precisión promedio que supera la de muchas enciclopedias profesionales. Stack Overflow resuelve millones de problemas técnicos gracias a una comunidad de desarrolladores voluntarios. Las revistas científicas con comité de lectura funcionan enteramente con el trabajo no remunerado de investigadores pares. La validación voluntaria funciona cuando está bien estructurada, cuando las reglas son claras y públicas, y cuando los contribuyentes encuentran un valor, reputacional, intelectual o comunitario, en su participación."
+  },
+  {
+    "type": "paragraph",
+    "style": "BodyText",
+    "text": "El desafío específico de UBLinx es la diversidad de los dominios técnicos a cubrir: un filtro de agua en Senegal y una composición musical en Montreal requieren competencias de validación radicalmente diferentes. La solución que propone la arquitectura es la especialización y la descentralización de los grupos de validadores: cada dominio técnico tiene su propia comunidad de validadores, con sus propios criterios y sus propios umbrales de consenso. Un inventor en Senegal en el dominio del tratamiento del agua no espera la validación de un experto en música electrónica de Tokio; su expediente va directamente al grupo de expertos en ingeniería del agua y desarrollo sostenible. La especialización mejora la calidad, y la descentralización geográfica reduce los sesgos culturales de un sistema monocéntrico."
+  },
+  {
+    "type": "paragraph",
+    "style": "BodyText",
+    "text": "¿Qué motiva a los validadores voluntarios? La pregunta merece ser planteada con franqueza, porque la durabilidad de todo sistema cooperativo depende de la respuesta. En los proyectos cooperativos más duraderos, Linux, Wikipedia, las cajas populares, los contribuyentes encuentran varios tipos de valor simultáneamente: un valor de uso (ellos mismos utilizan lo que construyen), un valor reputacional (su experiencia es visible y reconocida en la comunidad), un valor misionero (contribuyen a algo que los trasciende y que les parece justo). UBLinx apunta a activar estas tres dimensiones: los validadores se benefician de la reciprocidad cuando sus propias presentaciones pasan por validación, su experiencia está documentada y es visible, y participan en la construcción de un sistema que juzgan más justo que la alternativa. No es una garantía de éxito. Es un diseño alineado con lo que sabemos de la motivación en los sistemas cooperativos duraderos."
+  },
+  {
+    "type": "pageBreak"
+  },
+  {
+    "type": "paragraph",
+    "style": "ChapterTitle",
+    "text": "Capítulo 4"
+  },
+  {
+    "type": "paragraph",
+    "style": "ChapterTitle",
+    "text": "La red de hogares soberanos"
+  },
+  {
+    "type": "paragraph",
+    "style": "Epigraph",
+    "text": "\"La conexión sin sometimiento. La comunidad sin fusión. La solidaridad sin disolución. Ese era el sueño original de Internet. No ha muerto. Espera, en los protocolos olvidados, en las arquitecturas descentralizadas que nadie ha tenido interés en financiar hasta ahora.\""
+  },
+  {
+    "type": "paragraph",
+    "style": "SceneText",
+    "text": "Quebec, suburbio de la ciudad de Quebec. Diciembre de 2032, víspera de Navidad. La familia Tremblay está en su casa. Sus vecinos inmediatos, los Garnier, una familia de origen martiniqués llegada a Quebec hace doce años, están a dos casas de distancia. Al otro extremo de la calle, la familia Okafor-Lapointe, cuya madre es enfermera y el padre es ingeniero civil, han instalado recientemente su sistema Gen_Home. Estas tres familias se conocen con la cordialidad de los buenos vecinos, se aprecian, se saludan, se hacen pequeños favores invernales, a veces se intercambian platos cocinados, pero sus lazos son los de vecinos ordinarios, cálidos sin ser íntimos. Esta noche de Nochebuena, sus hijos juegan juntos en la nieve del jardín delantero, y sus sistemas Gen_Home están silenciosamente conectados a través de la red UBLinx, cada uno según los parámetros que su familia ha definido, no según los de una plataforma central."
+  },
+  {
+    "type": "paragraph",
+    "style": "SceneText",
+    "text": "Lo que esta conexión transmite entre las tres casas está precisamente delimitado por elecciones explícitas. Los sensores meteorológicos de las tres propiedades, temperatura exterior, humedad relativa, acumulación de nieve en los techos, velocidad del viento al nivel de los jardines, alimentan una micro-red meteorológica que permite a cada uno planificar mejor el mantenimiento invernal. Las tres familias habían consentido mutuamente en este intercambio durante la instalación, en una interfaz que les había preguntado explícitamente, casilla por casilla: \"¿Desea compartir sus datos de temperatura exterior? ¿Sus datos de consumo eléctrico? ¿Sus datos de presencia?\" La señora Tremblay excluyó específicamente sus datos de consumo eléctrico del intercambio, prefiere mantener sus hábitos privados. El señor Okafor-Lapointe incluyó sus datos de calidad del aire interior porque quiere contribuir a la investigación sobre la contaminación doméstica en el barrio. La señora Garnier no ha compartido nada por el momento, observa, aprende, decidirá cuando se sienta lista. Cada uno elige. Nadie controla la elección de los demás."
+  },
+  {
+    "type": "paragraph",
+    "style": "BodyText",
+    "text": "Este escenario doméstico contiene en miniatura toda la filosofía política de la red UBLinx: la conexión es siempre opt-in, nunca opt-out. Los datos compartidos son explícitamente definidos por cada participante, no implícitamente aspirados por la plataforma que decide después su uso. La arquitectura es peer-to-peer, las tres casas se comunican directamente entre ellas según un protocolo distribuido, sin pasar por un servidor central de UBLinx que pudiera agregar, analizar o revender estos datos. Si mañana UBLinx desapareciera como organización, quiebra, disolución, adquisición por una entidad con intenciones diferentes, las tres casas continuarían comunicándose a través del protocolo distribuido, porque su conexión no depende de ningún intermediario único cuya desaparición cortaría los lazos. Esta es la diferencia arquitectural fundamental entre esta red y lo que Nest, Amazon Ring o Google Home proponían una década antes: esos sistemas conectaban las casas a través del servidor de la empresa. Retiren la empresa, y todas las conexiones caen. En el modelo UBLinx, la organización es un facilitador inicial, no un cuello de botella permanente."
+  },
+  {
+    "type": "paragraph",
+    "style": "SectionTitle",
+    "text": "La tradición cooperativa quebequense y su mutación digital"
+  },
+  {
+    "type": "paragraph",
+    "style": "BodyText",
+    "text": "Para comprender por qué esta arquitectura tiene una resonancia particular en Quebec, hay que retrazar brevemente la historia de una institución financiera nacida en la miseria de un invierno del San Lorenzo. En 1900, Alphonse Desjardins, periodista, estenógrafo parlamentario, hombre ordinario animado por una indignación extraordinaria frente a las tasas de usura practicadas sobre los trabajadores pobres, funda en Lévis la primera caja popular norteamericana. Su constatación era simple y devastadora: los bancos prestaban a los ricos e ignoraban a los pobres. Los trabajadores no podían acceder al crédito para comprar una vaca, reparar un granero, atravesar una mala cosecha, financiar la educación de un hijo. Su respuesta: que los trabajadores mismos se prestaran mutuamente dinero, según sus propias reglas, en su propia institución que poseen colectivamente y gobiernan democráticamente. Un siglo y medio después, Desjardins es el sexto grupo financiero más grande de Canadá y una de las instituciones cooperativas más sólidas del mundo occidental. No a pesar de sus principios cooperativos, sino gracias a ellos: la lealtad de los miembros que se reconocen en los valores de su institución ha creado una estabilidad que la maximización del beneficio a corto plazo nunca habría podido generar."
+  },
+  {
+    "type": "paragraph",
+    "style": "BodyText",
+    "text": "La historia quebequense está sembrada de estas instituciones colectivas nacidas de la necesidad y de la desconfianza hacia poderes exteriores que no comprendían las necesidades locales. Las cooperativas agrícolas que permitieron a los agricultores negociar colectivamente con los compradores industriales. Las mutualidades de seguro contra incendios que cubrían las casas de madera en las regiones rurales que las aseguradoras comerciales rechazaban. Los cégeps y la red universitaria concebidos como instituciones de servicio público accesible más que como empresas comerciales. La red de guarderías con contribución reducida, de la cual Cynthia Richelieu, directora adjunta del CPE Chez-Nous, conoce las tensiones y las virtudes desde adentro, que transformó el acceso al cuidado de la primera infancia de un privilegio en un derecho. Todas estas instituciones comparten una misma convicción fundamental, anclada en la cultura política quebequense desde la Revolución Tranquila: ciertos bienes y servicios son demasiado importantes para ser dejados únicamente a la lógica del beneficio privado, y las comunidades tienen la capacidad y la legitimidad de gobernarse a sí mismas en esos dominios."
+  },
+  {
+    "type": "paragraph",
+    "style": "BodyText",
+    "text": "La cooperativa clásica tenía un límite geográfico ineludible: sus miembros debían conocerse, compartir un territorio, reunirse en asamblea general en la misma sala. Este límite era a la vez una fortaleza, anclaba la institución en una comunidad real, con rostros conocidos y responsabilidades compartidas, y una debilidad, hacía imposible la extensión más allá del alcance del vínculo social directo. La blockchain resuelve este límite de una manera que Desjardins no habría podido imaginar pero que probablemente habría aplaudido: permite la confianza sin el conocimiento previo entre miembros. Participantes de una red UBLinx en Thiès, en Montreal, en Osaka y en Helsinki no necesitan conocerse personalmente para confiar entre sí en el marco de sus transacciones. Las reglas del sistema son transparentes e idénticas para todos, los compromisos se aplican automáticamente mediante código que nadie controla unilateralmente, y la reputación de cada participante es visible para todos bajo la forma de un historial inmutable de comportamientos pasados. Es la caja popular a escala planetaria, con la misma lógica de mutualización de las confianzas, pero sin la restricción geográfica que limitaba su alcance."
+  },
+  {
+    "type": "paragraph",
+    "style": "SectionTitle",
+    "text": "La resiliencia comunitaria como bien común emergente"
+  },
+  {
+    "type": "paragraph",
+    "style": "BodyText",
+    "text": "Las tres familias de nuestra calle de la ciudad de Quebec no comparten solo datos meteorológicos. En la versión más desarrollada de la red, los datos de salud agregados y anonimizados, qué tendencias epidemiológicas emergen a nivel hiperlocal, qué síntomas circulan en el barrio según las estaciones, qué intervenciones preventivas se correlacionan con mejores resultados, pueden alimentar un panel de control comunitario de salud al que cada familia accede, y que el médico de familia del barrio puede consultar con el permiso explícito y revocable de los residentes. Nadie tiene que revelar su propia situación médica individual. La agregación anonimizada por algoritmos de preservación de la privacidad (privacy-preserving computation) basta para detectar un aumento inusual de síntomas respiratorios tres semanas antes de que sea visible en las estadísticas regionales de salud pública, permitiendo a las familias con niños pequeños o personas inmunodeprimidas actuar preventivamente."
+  },
+  {
+    "type": "paragraph",
+    "style": "BodyText",
+    "text": "El aspecto crucial, el que distingue fundamentalmente esta red de los enfoques anteriores de \"smart city\" o de \"salud conectada\", es lo que yo llamo la \"conexión sin sometimiento\". Cuando una familia se unía a Amazon Alexa o Google Home, aceptaba una relación estructuralmente asimétrica: entregaba sus datos, sus hábitos, su perfil de comportamiento, su espacio privado más íntimo, y a cambio recibía servicios de comodidad. La transacción era real pero el consentimiento era ilusorio, porque las dos partes no tenían la misma capacidad de salir de la relación. La familia podía teóricamente desinstalar Alexa. Pero sus datos ya estaban en los servidores de Amazon, replicados en decenas de centros de datos, agregados en perfiles de comportamiento vendidos a decenas de anunciantes y empresas asociadas. El pasado digital no se desinstala. En la red UBLinx, la conexión no implica ninguna cesión de datos a un tercero no consentido. La familia Okafor-Lapointe puede abandonar la red mañana, retirar sus datos (están en su casa, no en un servidor remoto), y no quedará nada en ningún sistema que permita inferir que esta familia participó en la red. La soberanía incluye el derecho de irse sin dejar huellas."
+  },
+  {
+    "type": "paragraph",
+    "style": "Thesis",
+    "text": "Una red de hogares soberanos no es una utopía tecnológica. Es la aplicación en la era digital de un principio que los quebequenses y otros pueblos han practicado durante siglos: somos más fuertes juntos que aislados, a condición de seguir siendo libres de gobernarnos a nosotros mismos. La caja popular del siglo XXI no es un banco. Es una red de datos soberanos donde cada nodo conserva intacta su capacidad de decisión, y donde el valor colectivo emerge de la cooperación voluntaria entre soberanías, no de su absorción en una super-soberanía centralizada."
+  },
+  {
+    "type": "paragraph",
+    "style": "Separator",
+    "text": "* * *"
+  },
+  {
+    "type": "paragraph",
+    "style": "BodyText",
+    "text": "Es importante nombrar honestamente lo que esta red no es, y lo que no se le debería pedir que sea. Una red de hogares soberanos no es una comunidad en el sentido fuerte: las familias Tremblay, Garnier y Okafor-Lapointe comparten datos, no necesariamente valores profundos, proyectos políticos comunes ni una visión compartida del bien común. Una red así puede perfectamente conectar a personas con opiniones diametralmente opuestas sobre política, religión, economía, que resultan compartir la misma calle y el mismo interés pragmático en la gestión sostenible de sus recursos domésticos. Es, de hecho, su fortaleza y su límite simultáneamente: no exige homogeneidad ideológica, lo que la hace universal. Pero no construye comunidad en el sentido político del término, lo que significa que no puede reemplazar los espacios de deliberación democrática donde los valores se negocian colectivamente. Es una herramienta de soberanía, no un sustituto de la política."
+  },
+  {
+    "type": "paragraph",
+    "style": "Separator",
+    "text": "* * *"
+  },
+  {
+    "type": "paragraph",
+    "style": "SectionTitle",
+    "text": "Internet debía ser eso: la historia de una promesa desviada"
+  },
+  {
+    "type": "paragraph",
+    "style": "BodyText",
+    "text": "Para comprender plenamente lo que la red UBLinx busca reconstruir, hay que revisitar brevemente la historia de lo que Internet original debía ser, y en lo que se convirtió. En 1969, ARPANET, el precursor de Internet, fue concebido como una red militar capaz de sobrevivir a ataques nucleares gracias a su arquitectura descentralizada: ningún nodo único cuya destrucción cortara el conjunto de la red. En las décadas de 1980 y 1990, cuando esta red fue abierta a las universidades y luego al público, los pioneros de Internet civil, Tim Berners-Lee con la World Wide Web, Vint Cerf y Bob Kahn con TCP/IP, compartían una visión de red fundamentalmente par-a-par, descentralizada, sin propietario, donde cada nodo tenía la misma dignidad arquitectural que los demás. La inteligencia debía estar en los extremos de la red (en los usuarios), no en su centro."
+  },
+  {
+    "type": "paragraph",
+    "style": "BodyText",
+    "text": "Esta visión fue traicionada progresiva y metódicamente a lo largo de las décadas de 2000 y 2010, no por una decisión consciente y centralizada, sino por el efecto natural de las economías de escala y la lógica de las plataformas con efectos de red. Cada usuario adicional en Facebook aumentaba el valor de Facebook para todos los demás usuarios, lo que atraía nuevos usuarios, lo que aumentaba aún más el valor, en un ciclo autorreforzante que desembocaba inevitablemente en una concentración masiva. En 2024, cinco empresas, Alphabet (Google), Meta (Facebook), Amazon, Apple y Microsoft, controlaban la abrumadora mayoría del tráfico de internet, del almacenamiento de datos personales, de los servicios en la nube y de los algoritmos de recomendación que decidían lo que la gente veía, leía y compraba. La red descentralizada se había convertido en una estrella de cinco puntas: cinco centros de un poder sin precedentes en la historia de la comunicación humana."
+  },
+  {
+    "type": "paragraph",
+    "style": "BodyText",
+    "text": "UBLinx no pretende \"reparar Internet\", una tarea cuya escala supera con creces las ambiciones de un proyecto quebequense en fase conceptual. Pretende crear, en un dominio específico y delimitado, una infraestructura que honre la visión original de la red: par-a-par, descentralizada, sin nodo único de control. Si este modelo funciona para la protección de las innovaciones y la conexión de los hogares soberanos, puede servir de demostración de factibilidad para otros dominios. Cada demostración exitosa de la descentralización practicable reduce el campo del argumento que dice que la centralización es inevitable, natural, necesaria. La centralización no es natural. Es el resultado de elecciones de diseño y estructuras de incentivos. Otras elecciones son posibles."
+  },
+  {
+    "type": "pageBreak"
+  },
+  {
+    "type": "paragraph",
+    "style": "ChapterTitle",
+    "text": "Capítulo 5"
+  },
+  {
+    "type": "paragraph",
+    "style": "ChapterTitle",
+    "text": "La monetización ética"
+  },
+  {
+    "type": "paragraph",
+    "style": "Epigraph",
+    "text": "\"Inventar es crear valor para el mundo. Ser remunerado por ese valor es justicia. Acaparar ese valor sin contrapartida para su creador es el robo legal que hemos normalizado progresivamente hasta dejar de verlo.\""
+  },
+  {
+    "type": "paragraph",
+    "style": "SceneText",
+    "text": "Mi sótano en Saint-Dominique. Hasta hace poco, era un desorden, toneladas de proyectos no completados, acumulados en una habitación donde había que seguir un sendero difícil y arriesgado a través de las cajas de herramientas y los viejos disfraces de Halloween de las niñas para llegar a mi escritorio. Al final de ese sendero: tres pantallas, mi terminal, desde donde respondo a los clientes para ayudarlos a instalar nuestros controladores de ascensores. Hago el soporte técnico telefónico de JRT Ascenseurs desde hace más de diez años. En la esquina del escritorio, una vieja botella de agua cortada en dos con ocho bobinas de relé desmontadas pegadas con silicona caliente alrededor, un prototipo de algo que nunca pasó de la etapa de la intuición. Mis paredes están llenas de documentos anotados, de esquemas, de tarjetas de cumpleaños que mis hijas me hicieron, de fotos de mi familia. Y en la esquina de mi escritorio, un viejo cartapacio rojo, mi biblia de soporte técnico, desgastada por diez años de uso diario. Es de aquí de donde todo partió. No de un laboratorio de investigación, no de una universidad, no de una incubadora tecnológica. De un sótano desordenado en Saint-Dominique, entre una taza de café enfriado y los recuerdos de mis hijas. Doscientas innovaciones documentadas en mis cuadernos, aún sin registrar, soluciones a problemas industriales concretos, procesos optimizados, herramientas repensadas para contextos específicos. ¿Cuántas de esas innovaciones se han perdido, retomadas silenciosamente por competidores, redescubiertas por equipos mejor financiados, simplemente olvidadas porque el contexto aún no estaba maduro cuando surgieron, sin que yo jamás lo supiera?"
+  },
+  {
+    "type": "paragraph",
+    "style": "BodyText",
+    "text": "Yo no soy un inventor romántico desconectado del mundo comercial. Diez años de soporte técnico industrial en JRT Ascenseurs me enseñaron las realidades contractuales, las dinámicas del mundo profesional y el valor de un trabajo bien hecho. He visto desde adentro cómo funciona la industria, sus fortalezas, sus desigualdades, sus puntos ciegos. Pero también soy fundamentalmente honesto en mi evaluación de la situación: para un inventor individual en Quebec, incluso con años de experiencia y más de doscientas innovaciones documentadas en cuadernos, el sistema actual de protección de la propiedad intelectual es crónicamente desigual, estructuralmente lento y prohibitivamente costoso para proteger cada innovación individual. Ninguna de mis innovaciones ha sido jamás patentada. No porque no lo merecieran intelectualmente, sino porque simplemente no tengo los medios. Una patente nacional estadounidense cuesta entre 15 000 y 50 000 dólares. Una patente internacional, varias veces más. Para un técnico independiente en Quebec que hace soporte técnico de ascensores desde su sótano, esas cifras son prohibitivas. Doscientas innovaciones en mis cuadernos, y ni una sola patente para protegerlas. Es exactamente el problema que UBLinx busca resolver."
+  },
+  {
+    "type": "paragraph",
+    "style": "SectionTitle",
+    "text": "La regla de las cinco copias: la filosofía de una frontera precisa"
+  },
+  {
+    "type": "paragraph",
+    "style": "BodyText",
+    "text": "La regla que define la frontera entre uso personal y uso comercial en el sistema UBLinx merece una explicación detallada, porque no es arbitraria y porque su elección revela una filosofía social coherente. ¿Por qué cinco copias? ¿Por qué no diez? ¿Por qué no una sola? La reflexión parte de una observación antropológica sobre la estructura natural de las relaciones humanas. Los seres humanos funcionan en círculos de confianza de tamaño diferente: el núcleo familiar (3-5 personas), el círculo de amigos cercanos (5-15 personas), la comunidad de vecindario (50-150 personas, lo que los antropólogos llaman el \"número de Dunbar\"). Los intercambios dentro del núcleo familiar y de los amigos cercanos son fundamentalmente diferentes de los intercambios comerciales: usted le presta su auto a su mejor amigo sin cobrarle el kilometraje. Comparte la receta de su abuela con su cuñado sin exigir derechos de autor. Construye una herramienta para su vecino directo sin establecer un contrato de servicio."
+  },
+  {
+    "type": "paragraph",
+    "style": "BodyText",
+    "text": "Cinco copias representa aproximadamente ese umbral, ese número más allá del cual se empieza a salir del círculo del conocimiento personal directo para entrar en el de la distribución más amplia. Construir una bomba de agua para usted mismo, para su madre, para su cuñado, para dos vecinos inmediatos: es la ayuda mutua de proximidad, el tejido social normal, algo que gravar sería a la vez técnicamente imposible y socialmente regresivo. Construir diez bombas para venderlas en el mercado semanal: es una actividad comercial, una transformación del valor creativo de Amadou en ingresos para usted, sin que usted le haya pedido su permiso ni ofrecido una parte de sus beneficios. La línea entre cinco y seis no es una frontera natural precisa, la naturaleza es continua, las categorías humanas son discretas. Pero es una frontera trazada con una coherencia social real, no un capricho aritmético."
+  },
+  {
+    "type": "paragraph",
+    "style": "BodyText",
+    "text": "Para las naciones del Sur Global, donde el acceso a las innovaciones extranjeras ha estado largo tiempo restringido ya sea por patentes inaccesibles (demasiado caras de licenciar legalmente) o por su ausencia total de protección (permitiendo una copia sin contrapartida), la regla de las cinco copias tiene un alcance particularmente transformador. Un artesano en Camboya puede fabricar libremente cinco ejemplares de la bomba de filtración de Amadou para su pueblo, utilizando los materiales disponibles localmente, adaptando las dimensiones según las necesidades específicas. Puede mejorar el diseño, adaptar los materiales a los recursos locales, y si encuentra una mejora significativa, presentarla en UBLinx bajo su propio nombre como innovación derivada, con atribución a Amadou como fuente original. El flujo de innovación circula en ambas direcciones, de manera horizontal, entre pares, sin la mediación de una oficina de patentes en Ginebra que jamás ha visitado un pueblo camboyano y no comprende sus restricciones específicas."
+  },
+  {
+    "type": "paragraph",
+    "style": "SectionTitle",
+    "text": "Los modelos económicos en comparación"
+  },
+  {
+    "type": "richParagraph",
+    "segments": [
+      {
+        "text": "Para situar concretamente la propuesta UBLinx en el panorama de los enfoques existentes, cuatro modelos merecen ser comparados directamente. ",
+        "bold": false
+      },
+      {
+        "text": "La patente tradicional",
+        "bold": true
+      },
+      {
+        "text": " ofrece la protección más fuerte (20 años de exclusividad legal en los países signatarios) pero al precio de un acceso extremadamente limitado: de 15 000 a 50 000 dólares mínimo para una patente nacional estadounidense, de dos a cinco años de plazo, lenguaje jurídico hermético, inaccesible sin abogado especializado. ",
+        "bold": false
+      },
+      {
+        "text": "Creative Commons",
+        "bold": true
+      },
+      {
+        "text": " es universal, gratuito y simple, pero no contiene ningún mecanismo de remuneración directa del autor por los usos comerciales: una licencia CC-BY-SA permite a cualquier empresa manufacturar su invención a escala industrial sin deberle legalmente nada. ",
+        "bold": false
+      },
+      {
+        "text": "El open source",
+        "bold": true
+      },
+      {
+        "text": " maximiza la difusión y la mejora colectiva, pero desacopla sistemáticamente la creación de valor y la captura de valor. ",
+        "bold": false
+      },
+      {
+        "text": "UBLinx",
+        "bold": true
+      },
+      {
+        "text": " propone una cuarta vía: difusión libre para uso personal y comunitario, remuneración automática para uso comercial, validación descentralizada de la autoría, almacenamiento permanente de la prueba. Ninguno de estos modelos es perfecto. Cada uno responde a necesidades diferentes.",
+        "bold": false
+      }
+    ]
+  },
+  {
+    "type": "paragraph",
+    "style": "BodyText",
+    "text": "La pregunta que plantea concretamente UBLinx a sus usuarios es la siguiente: ¿cuál es su objetivo con esta innovación? Si usted quiere una protección legal máxima en el sistema judicial existente, la patente tradicional sigue siendo la mejor respuesta, a condición de tener los medios. Si usted quiere una difusión máxima sin ninguna restricción, Creative Commons o el open source son opciones coherentes. Si usted quiere una difusión libre para los usos personales y una remuneración automática para los usos comerciales, con una prueba de autoría incontestable y permanente, UBLinx propone una infraestructura para eso. Estas tres opciones no se excluyen: ciertos inventores pueden optar por presentar algunas innovaciones en UBLinx y patentar otras tradicionalmente, según la naturaleza de la innovación y los recursos disponibles."
+  },
+  {
+    "type": "paragraph",
+    "style": "BodyText",
+    "text": "El efecto de ecosistema que emerge cuando una red como UBLinx alcanza una masa crítica es difícil de modelar con precisión estadística, pero su intuición es cautivadora. Si cada innovación individual que antes habría desaparecido en el anonimato o sido absorbida sin atribución por un actor más poderoso está ahora documentada, sellada con marca de tiempo, validada y potencialmente remunerada por sus usos comerciales, la señal enviada a la población de inventores latentes, todos esos individuos que innovan en su campo pero no saben cómo proteger y valorizar sus descubrimientos, es fundamental: el esfuerzo de inventar vale algo concreto, no solo algo simbólico. Será reconocido. Podría generar un ingreso modesto pero real y automático. Esta señal, que no existía para el inventor individual sin recursos, podría desencadenar una ola de innovación distribuida cuya amplitud y diversidad no tendrían precedentes en la historia económica de la humanidad."
+  },
+  {
+    "type": "paragraph",
+    "style": "Thesis",
+    "text": "La monetización ética no es un oxímoron. Es el reconocimiento de que el valor económico y el valor social no están en oposición fundamental, se convierten en opuestos únicamente cuando los sistemas de captura de valor están estructuralmente desconectados de los sistemas de creación de valor. UBLinx propone reconectarlos, directamente, automáticamente, sin intermediario que se pague tomando la porción principal del flujo. La tecnología no crea esta conexión, simplemente la hace practicable a escala mundial por primera vez."
+  },
+  {
+    "type": "paragraph",
+    "style": "Separator",
+    "text": "* * *"
+  },
+  {
+    "type": "paragraph",
+    "style": "BodyText",
+    "text": "Hay una dimensión personal en todo esto que yo no esquivo. Pienso en mis hijas, Jordane y Olivia. Pienso en el mundo en el que ellas deberán crear, contribuir, innovar. El sistema en el que yo inventé durante años era imperfecto pero navegable para alguien que comprendía sus mecanismos y sabía ser paciente. Jordane y Olivia vivirán en un mundo donde la inteligencia artificial generativa habrá reducido considerablemente el costo técnico de la creación, cualquiera podrá producir código, música, diseños, textos científicos a una velocidad y una cantidad antes inimaginables. Ese mundo será formidable para la diversidad de lo que puede ser creado y expresado. Será potencialmente catastrófico para los derechos de los creadores individuales si sistemas como UBLinx no están implementados para distinguir al autor original del agregador, al creador del explotador, el valor añadido de la simple réplica. Es para ese mundo que UBLinx está diseñado, para que Jordane y Olivia puedan crear en un entorno donde sus contribuciones les pertenezcan realmente."
+  },
+  {
+    "type": "paragraph",
+    "style": "Separator",
+    "text": "* * *"
+  },
+  {
+    "type": "paragraph",
+    "style": "SectionTitle",
+    "text": "La cuestión del precio justo: entre extracción y explotación"
+  },
+  {
+    "type": "paragraph",
+    "style": "BodyText",
+    "text": "Cuando se habla de \"monetización ética\", se toca inevitablemente la cuestión del precio justo, una cuestión que la filosofía económica debate desde la Antigüedad y que los mercados modernos no resuelven, la desplazan. El precio justo de una innovación no es su costo de producción, en la economía de las ideas, el costo marginal de reproducir una idea tiende a cero. Tampoco es su valor de mercado a corto plazo, los mercados subestiman sistemáticamente las innovaciones disruptivas en el momento de su creación (nadie quiso financiar Xerox PARC, donde se inventaron el PC gráfico y el Ethernet) y las sobreestiman en las fases de burbuja (las valoraciones de internet de 1999). El precio justo de una innovación es algo más difícil de medir: su contribución al bienestar humano, distribuida en el tiempo y el espacio, a menudo imposible de evaluar en el momento de la creación."
+  },
+  {
+    "type": "paragraph",
+    "style": "BodyText",
+    "text": "UBLinx no pretende resolver la cuestión del precio justo, es un problema filosófico y económico para el cual no existe solución perfecta. Propone algo más modesto y más practicable: que la persona que crea el valor reciba una parte automática y no negociable de los ingresos comerciales generados por ese valor. No la totalidad, las empresas que industrializan, distribuyen y mantienen una invención añaden un valor real y merecen ser remuneradas. Pero la parte que corresponde al creador original no debe depender de su capacidad de negociar contra un departamento jurídico empresarial, ni ser reducida a la nada por contratos de exclusividad firmados en posición de debilidad. La regalía contractualizada en código inmutable es una forma de salario mínimo para la innovación, un piso por debajo del cual los creadores no pueden ser empujados, cualquiera que sea la diferencia de poder entre ellos y sus licenciatarios."
+  },
+  {
+    "type": "paragraph",
+    "style": "BodyText",
+    "text": "También hay que nombrar el efecto positivo sobre la toma de riesgo creativo. La innovación es fundamentalmente una actividad de alto riesgo: la mayoría de las innovaciones fracasan, en el sentido de que no encuentran mercado o llegan demasiado temprano. En el sistema actual, el inventor individual asume la casi totalidad de ese riesgo: invierte su tiempo, su energía, a veces sus ahorros, y si la innovación fracasa comercialmente, no tiene nada. Si tiene éxito y no la ha protegido, alguien más se lleva el valor. La perspectiva de una remuneración automática proporcional, incluso modesta, por cada uso comercial de sus innovaciones exitosas cambia la lógica del riesgo para el inventor individual. No suprime el riesgo, pero aumenta la esperanza de ganancia en caso de éxito. Es suficiente para liberar energía creativa que el riesgo no compensado bloqueaba hasta ahora."
+  },
+  {
+    "type": "pageBreak"
+  },
+  {
+    "type": "paragraph",
+    "style": "ChapterTitle",
+    "text": "Capítulo 6"
+  },
+  {
+    "type": "paragraph",
+    "style": "ChapterTitle",
+    "text": "Lo que la confianza distribuida fabrica primero"
+  },
+  {
+    "type": "paragraph",
+    "style": "Epigraph",
+    "text": "\"La confianza no es una mercancía que se distribuye desde un centro hacia periferias agradecidas. Es una propiedad que emerge de interacciones repetidas entre iguales que respetan reglas que ellos mismos establecieron, y que pueden salir libremente sin perder lo que aportaron.\""
+  },
+  {
+    "type": "paragraph",
+    "style": "SceneText",
+    "text": "Thiès, Senegal. Marzo de 2035. Han pasado cuatro años desde aquella noche en que Amadou Diallo buscó \"cómo proteger una invención en Senegal\" y cerró su computadora con el sentimiento de impotencia de un hombre que ve algo precioso serle arrebatado sin poder hacer nada. Esta noche, está sentado en la misma mesa de madera de su taller, que ya no es exactamente el mismo, ampliado con una habitación lateral, equipado con un torno y una prensa que las primeras regalías permitieron comprar. Una estantería metálica soporta una quincena de ejemplares del filtro de agua en curso de fabricación. Una segunda mesa de trabajo alberga un prototipo de bomba solar que desarrolla en colaboración con un ingeniero en Ghana, Emmanuel Acheampong, a quien nunca ha conocido en persona pero cuyos cuadernos de cálculo conoce tan bien como los suyos propios. Su colaboración existe enteramente en el espacio digital, mediada por UBLinx y herramientas de comunicación soberanas."
+  },
+  {
+    "type": "paragraph",
+    "style": "BodyText",
+    "text": "El filtro original de Amadou se utiliza ahora en cuarenta y siete pueblos del departamento de Thiès, en su mayoría instalados por artesanos locales en el marco de la regla de las cinco copias, uso comunitario gratuito, sin que eso cueste un franco ni a Amadou ni a esas comunidades. Es exactamente lo que él quería para su diseño. Tres organizaciones humanitarias contactaron a Amadou para una producción a mayor escala, cientos, potencialmente miles de unidades, para programas de desarrollo en otras regiones de Senegal y de Malí. Una de ellas ya regularizó su uso comercial a través de un contrato inteligente UBLinx, tras una negociación corta y transparente sobre la tasa de regalía. Las otras dos están en proceso de discusión. En su computadora, ya sin pantalla agrietada, reemplazada gracias a las primeras regalías, Amadou observa un panel de control simple. Indica el número de licencias activas, las regalías recibidas este mes y acumuladas, y un historial de las verificaciones de integridad. No es una fortuna. Pero es regular. Es automático. Y es justo."
+  },
+  {
+    "type": "paragraph",
+    "style": "BodyText",
+    "text": "La historia de Amadou ilustra algo que los economistas de la innovación han teorizado desde hace mucho tiempo pero que las instituciones existentes aún no han logrado operacionalizar: la remuneración directa del inventor individual cambia los comportamientos de innovación de manera profunda y rápida. Cuando Amadou recibe sus primeras regalías, no las consume íntegramente. Reinvierte una parte significativa en el nuevo proyecto de bomba solar, extensión natural de su experiencia en filtración hacia la energía de bombeo. Contrata a un aprendiz local, un joven de diecinueve años que había abandonado sus estudios por falta de medios, y le enseña las técnicas de fabricación. Documenta más cuidadosamente sus procesos, porque sabe ahora que la documentación tiene un valor concreto: acelera la validación UBLinx, permite a los licenciatarios reproducir sus invenciones correctamente, y facilita las colaboraciones como la que tiene con Emmanuel en Ghana. El círculo virtuoso entre recompensa e innovación no es teórico. Es visible en el taller de Amadou en Thiès."
+  },
+  {
+    "type": "paragraph",
+    "style": "SectionTitle",
+    "text": "El contrato social restaurado entre creadores y sociedad"
+  },
+  {
+    "type": "paragraph",
+    "style": "BodyText",
+    "text": "La cuestión central de este acto, la soberanía intelectual y social, no es fundamentalmente una cuestión de tecnología. La blockchain, los contratos inteligentes, IPFS, los algoritmos de machine learning para la validación, son herramientas. Herramientas sofisticadas, técnicamente elegantes, poderosas en su dominio, pero herramientas, cuyo valor está enteramente definido por los usos humanos y las estructuras sociales que permiten construir. La cuestión fundamental es la del contrato social entre los creadores y la sociedad: ¿qué debe la sociedad a quienes generan las innovaciones que permiten a la colectividad progresar? Y ¿qué deben los creadores a la sociedad que hizo posible su creación, financiando la educación que los formó, las infraestructuras físicas y digitales que los conectan, las décadas de conocimientos acumulados por generaciones de inventores e investigadores sobre los que se apoyan necesariamente, incluso cuando innovan de la manera más radical?"
+  },
+  {
+    "type": "paragraph",
+    "style": "BodyText",
+    "text": "La respuesta del sistema actual de propiedad intelectual a esta cuestión es asimétrica y parcialmente fraudulenta. Dice: la sociedad protege al inventor durante veinte años de exclusividad, tras los cuales la invención cae en el dominio público para beneficio de todos. Pero esta respuesta solo tiene en cuenta una fracción de la realidad, la de las invenciones que han sido patentadas, es decir, aquellas cuyos autores tenían los medios para la protección. ¿Las invenciones de Amadou que nunca pudieron ser patentadas? Cayeron en el dominio público el día mismo de su creación, gratuitamente, para todo el mundo, incluyendo las empresas que podrían explotarlas comercialmente a gran escala, sin que Amadou recibiera nada. El sistema pretende proteger a los creadores, pero en la práctica solo protege a quienes pueden pagarse la protección. Los demás financian involuntaria y gratuitamente el dominio público de las empresas bien capitalizadas. Es una transferencia de riqueza de los pobres hacia los ricos, legalizada y sistematizada."
+  },
+  {
+    "type": "paragraph",
+    "style": "BodyText",
+    "text": "UBLinx propone una respuesta diferente, articulada en torno a tres distinciones filosóficas precisas. El conocimiento científico fundamental, las leyes de la termodinámica, los principios de la biología molecular, los teoremas matemáticos, pertenece a la humanidad entera y no puede ser privatizado. La implementación concreta y original de una idea, la transformación de principios generales en una solución específica, materializada por un inventor o un equipo, crea un derecho a remuneración por los usos comerciales de esa solución específica. El uso personal y comunitario permanece libre, porque los intercambios de proximidad y la ayuda mutua directa son el tejido de la vida social normal que gravar sería regresivo e imposible. Estas tres distinciones crean un espacio filosóficamente coherente entre el todo-público del open source y el todo-privado de la patente. Es lo que el sistema de patentes habría querido ser, si sus arquitectos del siglo XIX hubieran podido anticipar la revolución digital y la economía mundial de las ideas que ella creó."
+  },
+  {
+    "type": "paragraph",
+    "style": "SectionTitle",
+    "text": "Lo que esta red aún no resuelve: los límites honestos"
+  },
+  {
+    "type": "paragraph",
+    "style": "BodyText",
+    "text": "La confianza distribuida que construye UBLinx tiene límites reales que sería deshonesto no nombrar claramente. El primero es el problema clásico de la adopción inicial, que los economistas llaman el \"problema del huevo y la gallina\": una red de confianza solo tiene valor si suficientes personas participan en ella para que las ventajas de la conexión superen los costos de adopción. UBLinx en su escenario de 2035 ha alcanzado una masa crítica en ciertos sectores, innovaciones técnicas en los países francófonos y en desarrollo, música independiente y artes digitales en ciertas regiones, pero sigue siendo marginal en otros sectores de alta intensidad regulatoria como la farmacología o la aeronáutica. Un inventor en el sector farmacéutico no se beneficiaría aún de la protección UBLinx con la misma solidez que Amadou en el tratamiento del agua, simplemente porque la red de expertos validadores especializados en química medicinal no está aún suficientemente desarrollada, y porque las autoridades regulatorias como la FDA no reconocen aún las certificaciones UBLinx como prueba de autoría en sus procesos de aprobación."
+  },
+  {
+    "type": "paragraph",
+    "style": "BodyText",
+    "text": "El segundo límite es estructural y está ligado a la naturaleza misma del saber humano: UBLinx es más eficaz para proteger las innovaciones que pueden ser documentadas, descritas y verificadas textual o visualmente que para proteger las innovaciones que residen en el saber hacer tácito y la experiencia encarnada no formalizable. Un maestro quesero cuyo genio reside en la lectura de la textura de la cuajada en un momento preciso de la fabricación, un escultor cuyo valor está en la forma en que su mano adapta su presión al grano de la piedra, un ingeniero cuya experiencia consiste en escuchar los ruidos de una máquina y diagnosticar problemas invisibles para los instrumentos: esos saberes no pueden ser registrados en una blockchain. Viven en los cuerpos, en las manos, en la experiencia acumulada que nadie más puede transcribir en lugar del maestro. La documentación técnica formaliza una parte del saber humano; necesariamente deja otra parte en el registro de la transmisión directa y personal."
+  },
+  {
+    "type": "paragraph",
+    "style": "BodyText",
+    "text": "El tercer límite es político, y es quizás el más serio. Una red de confianza distribuida y descentralizada representa, por naturaleza, una amenaza para los actores que extraen su poder económico y político de la centralización de la propiedad intelectual. Las grandes empresas tecnológicas que han construido imperios sobre portafolios de patentes defensivas, las oficinas gubernamentales de patentes que generan ingresos sustanciales de sus procedimientos, los despachos de abogados especializados en propiedad intelectual cuyos honorarios elevados están garantizados por la complejidad del sistema actual, las industrias del entretenimiento que han construido modelos económicos enteros sobre la captura del valor creativo de los artistas: todos estos actores tienen intereses directos y sustanciales en contrarrestar el éxito de UBLinx. Tienen los recursos para hacer lobby ante los legisladores, para financiar contestaciones legales creativas, para crear alternativas superficialmente similares a UBLinx sin su soberanía fundamental. La historia de los intentos de descentralización en el dominio financiero, mediático y energético muestra que los intereses establecidos tienen una capacidad notable para reabsorber las innovaciones disruptivas, ya sea comprándolas, ya sea regulándolas hasta la ineficacia."
+  },
+  {
+    "type": "paragraph",
+    "style": "CritiqueBox",
+    "text": "Crítica final y honesta: un ensayo que presenta UBLinx como una solución a la injusticia de la propiedad intelectual sería incompleto si no dijera esto claramente y sin eufemismos: UBLinx es una arquitectura conceptual con una coherencia interna sólida y una factibilidad técnica real, pero aún no es un sistema en producción probado a gran escala en la realidad social y económica. Los dragones que esperan en los detalles de la implementación, bugs de contratos inteligentes, tensiones de gobernanza entre miembros con intereses divergentes, resistencia organizada de los sistemas establecidos, problemas de escalabilidad blockchain, dificultades de validación en dominios especializados, son reales y no triviales. Este libro no promete que UBLinx funcionará exactamente como se describe. Defiende la propuesta de que la arquitectura es filosóficamente justa, que el problema que busca resolver es real y urgente, y que vale más construir algo imperfecto y justo que seguir sufriendo indefinidamente un sistema imperfecto y fundamentalmente injusto."
+  },
+  {
+    "type": "paragraph",
+    "style": "SectionTitle",
+    "text": "El puente hacia lo que viene: la tensión inevitable"
+  },
+  {
+    "type": "paragraph",
+    "style": "BodyText",
+    "text": "La red de confianza que hemos descrito en este acto, entre inventores que protegen sus creaciones, entre creadores que negocian sus derechos, entre hogares soberanos que comparten datos sin someterse, reposa sobre una hipótesis fundamental que aún no hemos examinado: que las comunicaciones entre los nodos de esta red son seguras, privadas, no interceptables por terceros no consentidos. Que Amadou puede comunicarse con Emmanuel en Ghana sin que esta comunicación sea vigilada por servicios de inteligencia, competidores comerciales o gobiernos que pudieran tener interés en conocer sus proyectos. Que Mei-Lin puede negociar con Kenji en Osaka sin que su conversación sea explotada por un algoritmo publicitario o escrutada por una autoridad fiscal curiosa. Que los datos compartidos entre las tres familias de la ciudad de Quebec permanecen entre esas tres familias, y no circulan silenciosamente hacia terceros no consentidos."
+  },
+  {
+    "type": "paragraph",
+    "style": "BodyText",
+    "text": "Esta hipótesis plantea una cuestión que todo sistema descentralizado debe enfrentar honestamente, sin eludirla con fórmulas tranquilizadoras: las comunicaciones soberanas protegen a los inocentes, los Amadou, las Mei-Lin, los David, pero también protegen, como consecuencia inevitable de su arquitectura, a los actores maliciosos que saben que sus comunicaciones no pueden ser vigiladas. Es la tensión fundamental entre vida privada individual y seguridad colectiva que toda sociedad libre debe negociar permanentemente, sin que exista una resolución final y definitiva. No tiene solución técnica. Solo tiene compromisos políticos, siempre temporales, siempre contestables, siempre revisables a medida que el contexto cambia. Lo que el acto siguiente de este libro propone explorar no es una solución a esta tensión, sino una manera de nombrarla honestamente y de vivir con ella sin resolverla por la supresión arbitraria de uno de sus términos."
+  },
+  {
+    "type": "paragraph",
+    "style": "BodyText",
+    "text": "Porque la solución más fácil, vigilar a todo el mundo para atrapar a los malos actores, sacrificar la vida privada de todos por la seguridad de cada uno, ya ha sido probada. Lleva un nombre que los historiadores del siglo XXI asocian con una época de ingenuidad tecnopolítica: vigilancia masiva. Su balance, sobre las tres décadas en que fue practicada a gran escala por las democracias liberales, es elocuente en lo que no logró. Las grandes amenazas terroristas no fueron significativamente reducidas por la vigilancia masiva de las comunicaciones de poblaciones enteras; los atentados mayores de las décadas de 2010 y 2020 generalmente involucraron a actores ya conocidos por los servicios de inteligencia, cuya vigilancia intensiva no había bastado para prevenir los pasos al acto. En cambio, la vigilancia masiva creó un aparato permanente de observación de las poblaciones ordinarias, los Amadou, las Mei-Lin, los David, con todos los potenciales de abuso en sistemas políticos que la historia enseña a no presumir definitivamente estables e irreversiblemente libres."
+  },
+  {
+    "type": "paragraph",
+    "style": "ReaderQuestion",
+    "text": "Si usted hubiera inventado algo que pudiera cambiar vidas, una herramienta, un proceso, un medicamento, una canción, un algoritmo que resuelve un problema real para personas reales, ¿cómo lo protegería hoy? ¿Cuánto le costaría, en tiempo, en dinero, en energía administrativa? Si usted no tuviera ni el dinero ni el tiempo ni el acceso a los abogados necesarios, ¿cuánto valdría su idea en diez años, y a quién pertenecería de facto, aunque le pertenezca de derecho?"
+  },
+  {
+    "type": "paragraph",
+    "style": "Separator",
+    "text": "* * *"
+  },
+  {
+    "type": "paragraph",
+    "style": "SectionTitle",
+    "text": "El ciclo de Amadou: prueba de concepto viviente"
+  },
+  {
+    "type": "paragraph",
+    "style": "BodyText",
+    "text": "La historia de Amadou en este acto obedece a una estructura que los economistas reconocen como un \"ciclo virtuoso de la innovación\", pero que el sistema actual bloquea sistemáticamente para los actores sin recursos. La remuneración de una primera innovación permite el financiamiento de una segunda. La segunda genera una reputación que atrae colaboradores. Los colaboradores aportan competencias complementarias que aumentan la calidad de las innovaciones siguientes. Las innovaciones siguientes generan más regalías. Este ciclo, bien documentado en las biografías de los grandes inventores de la era industrial, no está reservado a los genios solitarios. Está disponible para cualquiera que tenga una primera buena idea y un sistema que le permita capturar su valor lo suficiente para reinvertir. Es precisamente lo que Amadou está viviendo en su taller de Thiès en 2035: no un cuento de hadas, sino la lógica económica ordinaria del ciclo virtuoso, por fin accesible a quienes habían sido excluidos de él por las barreras del sistema tradicional."
+  },
+  {
+    "type": "paragraph",
+    "style": "BodyText",
+    "text": "Lo que es notable en la historia de Amadou es también lo que dice sobre la relación entre la innovación individual y el bien colectivo en el modelo UBLinx. Su filtro de agua se utiliza ahora en cuarenta y siete pueblos, miles de personas que acceden a un agua más segura. Este impacto colectivo inmenso se produjo sin que Amadou abandonara sus derechos, sin que tuviera que elegir entre su interés personal y el bien común. Los dos coexistieron. Las familias que construyeron sus propios filtros en el marco de la regla de las cinco copias no pagaron nada, era su derecho. Las organizaciones que comercializaron el filtro a gran escala pagaron regalías, era su obligación. El modelo no forzó una elección imposible. Creó las condiciones para que la difusión y la remuneración coexistieran naturalmente, cada una en su esfera apropiada."
+  },
+  {
+    "type": "paragraph",
+    "style": "BodyText",
+    "text": "Esta coexistencia es precisamente lo que el debate entre \"propiedad intelectual vs bien común\" presentaba como imposible durante décadas. Defensores de la patente tradicional y partidarios del open source se enfrentaron en un falso dilema: o se protege al inventor y se bloquea la difusión, o se favorece la difusión y se sacrifica al inventor. UBLinx muestra, o al menos propone una arquitectura que permitiría mostrar, una vez implementada, que este dilema no es lógicamente inevitable. Es el producto de restricciones técnicas e institucionales específicas del sistema de patentes del siglo XX, no una ley económica universal. Cambiar las restricciones técnicas e institucionales cambia las posibilidades. Es, en su formulación más simple, la tesis de este acto."
+  },
+  {
+    "type": "paragraph",
+    "style": "Separator",
+    "text": "* * *"
+  },
+  {
+    "type": "paragraph",
+    "style": "SectionTitle",
+    "text": "Epílogo: Lo que el niño del consejo de familia comprende intuitivamente"
+  },
+  {
+    "type": "paragraph",
+    "style": "BodyText",
+    "text": "Recordemos al niño del Acto II, aquel que creció en una casa donde las reglas importantes se negociaban alrededor de una mesa, donde la soberanía sobre su propio espacio digital era un derecho ejercido desde la edad de comprender lo que eso significaba concretamente. Ese niño, convertido en adulto, entra en la economía de la creación con un reflejo que sus pares criados en los sistemas tradicionales no han desarrollado: sabe que sus creaciones le pertenecen, que las reglas de su distribución le corresponde definirlas, que el valor que generan para otros debería retornarle en proporción a su contribución original. No lo sabe porque le dieron un curso de derecho de la propiedad intelectual a los doce años. Lo sabe porque ejerció el músculo de la soberanía en el contexto concreto y cotidiano de su vida familiar, desde la infancia, en situaciones donde las apuestas eran reales pero las consecuencias de un error seguían siendo aprendibles."
+  },
+  {
+    "type": "paragraph",
+    "style": "BodyText",
+    "text": "Es quizás la contribución más subestimada del proyecto Conscience Souveraine en su conjunto, no los algoritmos, no los smart contracts, no los protocolos de blockchain. La contribución más profunda y más duradera es pedagógica: al construir espacios de soberanía a la escala del hogar, al acostumbrar a los niños desde la más tierna edad a la gramática de la agentividad y del consentimiento informado, se fabrican individuos que portan intuitivamente la lógica de la soberanía en cada uno de sus actos económicos y sociales en la edad adulta. Individuos que no firman inconscientemente condiciones de uso de cincuenta páginas sin leerlas. Individuos que preguntan \"¿a quién pertenece esto y según qué reglas?\" antes de participar en un sistema. Individuos que saben que sus creaciones tienen un valor que merece protección y que esa protección es un derecho, no un privilegio condicionado al tamaño de su cuenta bancaria. Estos individuos forman la red de confianza. No los protocolos. Los protocolos solo hacen practicable a escala mundial lo que individuos soberanos han decidido construir juntos."
+  },
+  {
+    "type": "paragraph",
+    "style": "BodyText",
+    "text": "Yoshua Bengio, el investigador en inteligencia artificial montrealés cuya alarma pública sobre los riesgos existenciales de la IA contribuyó a orientar la reflexión de este proyecto, formuló algo importante que los debates populares sobre la IA tienden a oscurecer: el peligro principal no es que las máquinas se vuelvan conscientes y decidan autónomamente hacernos daño. El peligro principal es que máquinas no conscientes, pero extremadamente poderosas y cada vez más capaces, sean utilizadas por actores humanos, Estados autoritarios, corporaciones en busca de posiciones de monopolio, individuos con agendas de concentración del poder, para redistribuir el poder social, económico y político de una manera sin precedentes en la historia humana. La red de confianza descentralizada, UBLinx, Gen_Home, los protocolos de soberanía digital, no es una respuesta técnica a un problema técnico. Es una respuesta política y social a una amenaza política y social: la reconcentración del poder en la era digital, bajo la cobertura de la eficiencia, la seguridad y la innovación, por actores que se benefician precisamente de la centralización que proponen como solución universal."
+  },
+  {
+    "type": "paragraph",
+    "style": "Thesis",
+    "text": "La soberanía intelectual y social no es un lujo reservado a las naciones ricas, a los individuos bien educados o a los emprendedores establecidos. Es la condición de posibilidad de toda innovación auténtica, la innovación que emerge libremente de la imaginación humana sin tener que pedir permiso a un sistema que no la financió, que circula equitativamente entre creadores y usuarios sin intermediarios que capturen lo esencial del valor, y que se traduce en progreso real prioritariamente para quienes más lo necesitan. La red de confianza es la infraestructura de esa soberanía. Es conceptualmente coherente, técnicamente factible, económicamente justificada. Queda por construirla, y quienes la construirán no serán las empresas que se benefician del statu quo, sino los inventores, los creadores, las comunidades y los individuos que tienen todo por ganar de un sistema más justo."
+  },
+  {
+    "type": "paragraph",
+    "style": "Quote",
+    "text": "\"La confianza distribuida no suprime los riesgos. Los redistribuye más equitativamente entre todos los participantes de una red, en lugar de concentrarlos en los nodos más vulnerables, aquellos que no tienen el tamaño, los recursos ni las conexiones para protegerse solos en el sistema actual. Esa es la promesa de la red de confianza. Es también su límite: no suprime las desigualdades, las redistribuye. Es sobre todo su necesidad, porque el mundo en el que vivimos no es aquel en el que merecemos vivir, y construir ese otro mundo comienza por nombrar honestamente la distancia entre los dos.\" — David Berthelotte"
+  },
+  {
+    "type": "paragraph",
+    "style": "Separator",
+    "text": "* * *"
+  },
+  {
+    "type": "paragraph",
+    "style": "SectionTitle",
+    "text": "Nota sobre el estado actual de UBLinx"
+  },
+  {
+    "type": "paragraph",
+    "style": "BodyText",
+    "text": "A lo largo de este acto, hemos descrito UBLinx en futuro y en condicional: Amadou \"haría\", Mei-Lin \"presentaría\", las familias de la ciudad de Quebec \"estarían conectadas\". Esta coherencia temporal no es retórica: refleja la realidad del proyecto. UBLinx, en el momento en que estas páginas se escriben, es una arquitectura conceptual cuyos componentes tecnológicos están todos disponibles y probados por separado, blockchain, smart contracts, IPFS, Arweave, machine learning para la validación, fingerprinting digital, pero cuyo ensamblaje en un sistema coherente, gobernado, accesible y duradero aún no ha tenido lugar. Identificar esta brecha entre la visión y la realidad no es una confesión de fracaso. Es la precondición de todo proyecto honesto: saber dónde se está para saber adónde se va."
+  },
+  {
+    "type": "paragraph",
+    "style": "BodyText",
+    "text": "La hoja de ruta que conduce del concepto a la realidad pasa por varias etapas que la honestidad obliga a nombrar. Primero, el desarrollo del protocolo de validación comunitaria en uno o dos dominios piloto; el tratamiento del agua y las innovaciones agrícolas de bajos recursos constituyen candidatos naturales, porque estos dominios tienen comunidades de expertos motivados por una misión social clara e inventores que no tienen nada que perder al intentar un nuevo enfoque. Luego, la implementación de las estructuras legales híbridas en las jurisdicciones más favorables. Después, el crecimiento progresivo de la red de validadores e inventores, dominio por dominio, región por región. Finalmente, la integración con los sistemas jurídicos nacionales a medida que el reconocimiento legal de los smart contracts progresa en diferentes jurisdicciones. No es un plan de cinco años. Es probablemente el trabajo de una generación."
+  },
+  {
+    "type": "paragraph",
+    "style": "BodyText",
+    "text": "Pero los proyectos que cambian las estructuras duraderas toman el tiempo que toman. Desjardins tardó cuarenta años en convertirse en una institución importante en Quebec. Linux tardó veinte años en convertirse en la infraestructura invisible de la economía digital mundial. Wikipedia tardó quince años en convertirse en la principal fuente de información enciclopédica para la mayoría de la humanidad. Lo que estos proyectos tenían en común al inicio: una visión clara de lo que era injusto en lo existente, una propuesta coherente de cómo hacerlo más justo, y una comunidad inicial suficientemente motivada para empezar a construir sin esperar a que todo fuera perfecto. UBLinx tiene los dos primeros ingredientes. El tercero, la comunidad, es lo que este libro busca, entre otras cosas, contribuir a reunir."
+  },
+  {
+    "type": "paragraph",
+    "style": "ReaderQuestion",
+    "text": "¿Estaría usted dispuesto a contribuir a validar las innovaciones en su campo de competencia, a dedicar algunas horas al mes para evaluar si una idea presentada por un desconocido es físicamente coherente y original? No para cobrar, sino porque usted mismo se beneficiaría del mismo servicio el día que tuviera algo que proteger. Es la lógica cooperativa en su versión más simple. ¿Es suficiente para construir algo que perdure?"
+  },
+  {
+    "type": "paragraph",
+    "style": "Thesis",
+    "text": "El acto siguiente de este libro nombrará las zonas de sombra que este acto ha iluminado deliberadamente desde su mejor ángulo: los riesgos reales de las comunicaciones soberanas, los límites de la confianza distribuida frente a los actores de mala fe, y la pregunta que toda arquitectura de libertad debe enfrentar: cómo permanecer libre sin convertirse en el refugio de aquellos cuya libertad amenaza la de los demás. Estas preguntas no invalidan lo que este acto ha construido. Completan honestamente su imagen."
+  }
+]

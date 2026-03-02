@@ -1,0 +1,1068 @@
+[
+  {
+    "type": "pageBreak"
+  },
+  {
+    "type": "paragraph",
+    "style": "ActTitle",
+    "text": "ACTO II"
+  },
+  {
+    "type": "paragraph",
+    "style": "ActTitle",
+    "text": "LA INTELIGENCIA DEL HOGAR"
+  },
+  {
+    "type": "paragraph",
+    "style": "ActSubtitle",
+    "text": "La Soberanía Digital como Fundamento de la Dignidad Familiar"
+  },
+  {
+    "type": "paragraph",
+    "style": "Epigraph",
+    "text": "\"La mayor vigilancia del mundo no es la de los gobiernos totalitarios. Es la que hemos invitado libremente a nuestro salón, y a la que pagamos una suscripción mensual.\" — David Berthelotte"
+  },
+  {
+    "type": "pageBreak"
+  },
+  {
+    "type": "paragraph",
+    "style": "ChapterTitle",
+    "text": "Capítulo 1"
+  },
+  {
+    "type": "paragraph",
+    "style": "ChapterTitle",
+    "text": "El cerebro de la casa"
+  },
+  {
+    "type": "paragraph",
+    "style": "Epigraph",
+    "text": "\"Conocer sin traicionar. Servir sin vender. Escuchar sin transmitir. Eso es lo que habíamos olvidado exigir a nuestras herramientas.\""
+  },
+  {
+    "type": "paragraph",
+    "style": "SceneText",
+    "text": "Sobre una repisa entre el bote de cucharas de madera y el especiero, en una cocina de Terrebonne, hay una pequeña caja negra del tamaño de un libro de bolsillo. Sin pantalla. Sin logotipo luminoso. Sin cámara. Lleva ahí ocho meses y la familia Marchand dejó de notarla, del mismo modo en que uno deja de notar el refrigerador. Excepto que esta caja escucha. Sabe a qué hora Emma, de nueve años, hace sus deberes. Sabe que el padre es alérgico a los cacahuates y que la madre toma metformina. Sabe que los Marchand piden pizza el viernes por la noche cuando nadie ha cocinado, y que sus finanzas familiares están apretadas en enero y en agosto. Sabe todo eso — y jamás le ha dicho nada a nadie más. Ni a Amazon. Ni a Google. Ni a una empresa de datos en Irlanda. Ni a un gobierno, sea cual sea. La familia la llama Gen. Gen no les cuesta nada más que la electricidad que consume."
+  },
+  {
+    "type": "paragraph",
+    "style": "BodyText",
+    "text": "Para comprender lo que representa esta caja, primero hay que comprender lo que reemplaza. Desde 2014, los asistentes vocales conectados a la nube han colonizado las cocinas, las recámaras y los salones de los países industrializados a una velocidad que supera la de cualquier tecnología de consumo masivo desde el teléfono celular. Amazon ha vendido más de 500 millones de dispositivos Echo en el mundo. Google, Apple y otros han vendido cientos de millones adicionales. Estos dispositivos entraron en los hogares bajo la apariencia de la comodidad: poner música, ajustar el termostato, consultar el clima, pedir pizzas. Pero su verdadera función económica, aquella por la cual sus fabricantes los venden a veces a pérdida, es muy distinta. Son micrófonos permanentes conectados a centros de datos, cuya función es transformar la intimidad doméstica en datos comercializables. Lo que usted cocina, lo que mira, cuándo duerme, lo que sus hijos preguntan — todo eso se convierte en un activo financiero que pertenece a una empresa que cotiza en bolsa, cuyo interés no es el suyo."
+  },
+  {
+    "type": "paragraph",
+    "style": "BodyText",
+    "text": "Esto no es una teoría conspirativa. Es el modelo comercial descrito sin ambigüedad en los informes anuales de estas empresas. Amazon genera una parte sustancial de sus ingresos a través de sus servicios publicitarios, que utilizan los datos comportamentales recopilados por sus dispositivos. Google es, en su fundamento, una empresa publicitaria que vende la atención y las intenciones de sus usuarios a los anunciantes. Apple, a pesar de su marketing sobre la privacidad, opera una App Store que monetiza el acceso a los usuarios. Ninguna de estas empresas es mala en el sentido moral del término. Hacen lo que sus accionistas les piden hacer: maximizar el valor a largo plazo explotando los activos que poseen. El problema es que ese activo es su vida privada, y usted se la entregó a cambio de una suscripción al pronóstico del tiempo y de la posibilidad de encender sus luces con la voz."
+  },
+  {
+    "type": "paragraph",
+    "style": "BodyText",
+    "text": "La pregunta, entonces, no es si estas empresas respetan sus datos. Los respetan dentro de los límites permitidos por su modelo económico — límites que sus equipos jurídicos definen en diálogo permanente con los reguladores y los accionistas. La verdadera pregunta es si ese modelo le conviene a usted. Y para responderla honestamente, hay que admitir que casi nunca se le ha consultado realmente. La adopción de estos dispositivos se produjo por defecto, por comodidad, por adopción social — porque su familia tenía uno, porque estaba en promoción, porque la alternativa (no tener uno) parecía menos práctica que la alternativa (tener uno sin leer las 47 páginas de condiciones de uso). La soberanía digital comienza por volver a poner esta elección sobre la mesa, conscientemente, con todas sus implicaciones."
+  },
+  {
+    "type": "paragraph",
+    "style": "Thesis",
+    "text": "La soberanía digital doméstica comienza con una pregunta tan simple como raramente planteada: ¿por qué la inteligencia artificial que sirve a su familia debería pertenecer a una empresa que le es ajena?"
+  },
+  {
+    "type": "paragraph",
+    "style": "Separator",
+    "text": "* * *"
+  },
+  {
+    "type": "paragraph",
+    "style": "SectionTitle",
+    "text": "La arquitectura de la confianza"
+  },
+  {
+    "type": "paragraph",
+    "style": "BodyText",
+    "text": "La caja negra sobre la repisa de los Marchand es una computadora compacta: un Beelink SER8, procesador AMD Ryzen 7840HS, 64 gigabytes de memoria RAM. Tiene la potencia de una computadora de escritorio de gama alta de hace cinco años, en un formato que cabe en una mano grande. Su capacidad de procesamiento es suficiente para ejecutar modelos de lenguaje de tamaño intermedio — inteligencias artificiales capaces de comprender y generar texto en español, de responder a preguntas complejas, de ayudar con tareas de matemáticas o de planificar una semana de comidas teniendo en cuenta las alergias, las preferencias y el presupuesto — sin enviar jamás un solo dato más allá del router Wi-Fi de la casa."
+  },
+  {
+    "type": "paragraph",
+    "style": "BodyText",
+    "text": "Tres capas de software constituyen el sistema. La primera es Ollama, un entorno de ejecución para modelos de lenguaje locales: gestiona la carga y descarga de modelos en memoria, optimiza su uso del hardware y proporciona una interfaz de comunicación estandarizada. La segunda es Whisper, el sistema de transcripción vocal de OpenAI, ejecutado localmente: convierte su habla en texto en la propia caja, sin pasar por un servidor externo. La tercera es un sistema de síntesis vocal que transforma las respuestas textuales en habla natural. Estos tres componentes, ensamblados en la arquitectura Gen_Home, forman un sistema completo que funciona incluso si el cable de internet está desconectado. La casa piensa por sí misma."
+  },
+  {
+    "type": "paragraph",
+    "style": "TechNote",
+    "text": "Detalle técnico para los curiosos: el modelo de lenguaje utilizado es una versión cuantizada de Llama 8B (o equivalente), reducido a 4 o 5 bits de precisión, lo que permite que quepa en la memoria RAM manteniendo un rendimiento conversacional aceptable. La cuantización es un compromiso: se pierde un poco de precisión a cambio de una huella de memoria reducida en aproximadamente un 75%. Para el uso doméstico conversacional, esta pérdida es imperceptible. Para la generación de código o los razonamientos matemáticos complejos, se puede solicitar un modelo más grande a través de una conexión segura, a discreción de la familia."
+  },
+  {
+    "type": "paragraph",
+    "style": "TechNote",
+    "text": "Arquitectura de software de Gen_Home nivel 1 (resumen): Ollama v0.3+ gestiona el ciclo de vida de los modelos (carga, descarga, consultas paralelas). Whisper large-v3 o medium (según los recursos disponibles) asegura la transcripción vocal local con una tasa de error de palabras inferior al 5% en francés quebequense en condiciones normales. El sistema TTS (Text-to-Speech) utiliza una voz sintética francófona optimizada localmente. La base RAG se basa en ChromaDB o equivalente para el almacenamiento vectorial de documentos familiares. La interfaz de usuario principal es vocal, con una interfaz web opcional accesible en la red local (sin acceso externo). El consumo eléctrico típico en espera activa es de 8 a 15 vatios; en procesamiento intensivo, puede alcanzar los 45 vatios — equivalente a una bombilla LED encendida permanentemente."
+  },
+  {
+    "type": "richParagraph",
+    "segments": [
+      {
+        "text": "Lo que Gen_Home es",
+        "bold": true
+      },
+      {
+        "text": " : una inteligencia local, privada, personalizada, que pertenece a la familia. "
+      },
+      {
+        "text": "Lo que Gen_Home no es",
+        "bold": true
+      },
+      {
+        "text": " : un asistente en la nube, un producto de vigilancia, un servicio por suscripción a una corporación extranjera. "
+      },
+      {
+        "text": "La distinción",
+        "italics": true
+      },
+      {
+        "text": " no es de grado. Es de naturaleza. Y esta naturaleza cambia todo lo que sigue."
+      }
+    ]
+  },
+  {
+    "type": "paragraph",
+    "style": "BodyText",
+    "text": "Pero la arquitectura técnica es solo la mitad de la historia. La otra mitad es jurídica, y es igualmente importante. La Ley 25 de Quebec, que entró en vigor progresivamente entre 2022 y 2023, impone a las organizaciones obligaciones estrictas en materia de protección de datos personales: consentimiento explícito, derecho de acceso, derecho a la portabilidad, derecho a la supresión. Para una empresa como Amazon o Google, cuyo modelo comercial se basa en la recopilación y monetización de datos, cumplir plenamente con la Ley 25 sería una contradicción en los términos. Para Gen_Home, el cumplimiento no es una carga regulatoria: es una propiedad arquitectónica. Ningún dato sale de la casa. No hay nada que divulgar, nada que borrar en un servidor remoto, nada a lo que volver a consentir cada año. El cumplimiento es total por construcción, no por política."
+  },
+  {
+    "type": "paragraph",
+    "style": "Separator",
+    "text": "* * *"
+  },
+  {
+    "type": "paragraph",
+    "style": "SectionTitle",
+    "text": "Lo que la casa sabe — y a quién pertenece"
+  },
+  {
+    "type": "paragraph",
+    "style": "BodyText",
+    "text": "La memoria de Gen_Home es lo que los informáticos llaman una base de conocimientos RAG — por Retrieval-Augmented Generation. En términos simples: el sistema mantiene un registro estructurado de la vida de la casa y lo utiliza para personalizar sus respuestas. Sabe que el padre prefiere el café negro por la mañana pero con leche por la tarde. Sabe que la hija tiene un examen de geografía el jueves próximo. Sabe que el auto debe pasar a revisión en tres semanas. Sabe que la familia gastó 140 dólares más de lo previsto en la compra del mes pasado. Este conocimiento íntimo de una familia, acumulado durante meses o años, es precisamente lo que hace valioso al sistema — y precisamente lo que lo convertiría en un arma temible en malas manos. La cuestión de la propiedad no es abstracta. Es existencial."
+  },
+  {
+    "type": "paragraph",
+    "style": "BodyText",
+    "text": "La memoria familiar construida en Gen_Home no es una simple base de datos. Es un retrato en movimiento de una familia en un momento dado de su historia. Contiene hechos objetivos — los nombres, las alergias, las citas, los gastos — pero también patrones de comportamiento, preferencias evolutivas, tensiones recurrentes y resoluciones encontradas juntos. Un sistema que acumula este retrato durante diez años conoce a una familia mejor de lo que ella se conoce a sí misma en ciertos aspectos — de la misma manera en que un diario personal llevado conscienzudamente revela patrones que su autor jamás habría identificado de otro modo. Esta profundidad de conocimiento es una herramienta de crecimiento para la familia si le pertenece. Es una herramienta de manipulación si pertenece a alguien más."
+  },
+  {
+    "type": "paragraph",
+    "style": "BodyText",
+    "text": "Cuando usted utiliza un asistente de Google o Amazon, no posee sus datos domésticos. Ha otorgado una licencia de uso a una empresa privada sobre información que usted generó en su propia casa. Esta licencia generalmente se describe en condiciones de uso que nadie lee — y que pueden ser modificadas unilateralmente. Amazon puede decidir mañana monetizar de manera diferente los datos recopilados por Echo. Google puede fusionar sus políticas de privacidad entre productos. Usted no tiene recurso contractual serio, porque aceptó cláusulas de arbitraje y de responsabilidad limitada en la letra pequeña. Sus datos domésticos están, legal y funcionalmente, en manos ajenas."
+  },
+  {
+    "type": "paragraph",
+    "style": "BodyText",
+    "text": "La noción de propiedad de los datos es aún joven en nuestro derecho. Durante la mayor parte del desarrollo de internet, el dato personal no era considerado como un bien en el sentido jurídico del término — ni como una propiedad que se puede poseer, vender, legar o defender. El Reglamento General de Protección de Datos europeo de 2018 y la Ley 25 quebequense comenzaron a cambiar este marco, reconociendo derechos relativos a los datos personales: el derecho de acceso, el derecho a la portabilidad, el derecho a la supresión. Pero estos derechos son aún ampliamente teóricos en la práctica cotidiana. Ejercer su derecho a la supresión ante Amazon o Google requiere un trámite administrativo que la mayoría de los usuarios nunca realizará. E incluso después de una supresión confirmada, nada garantiza la ausencia de copias en sistemas de archivo, de entrenamiento de modelos o de respaldo. La soberanía arquitectónica — nunca dejar que el dato salga — es más robusta que la soberanía jurídica — reclamar la devolución del dato."
+  },
+  {
+    "type": "paragraph",
+    "style": "Quote",
+    "text": "\"El problema no es que estas empresas sean malvadas. El problema es que su interés y el suyo no están alineados — y que usted construyó su vida digital sobre ese desalineamiento.\""
+  },
+  {
+    "type": "paragraph",
+    "style": "BodyText",
+    "text": "Gen_Home invierte esta relación de fuerzas. La memoria de la casa pertenece a la casa. Está almacenada localmente, cifrada, respaldada en un disco físico que usted posee. Si decide mudarse, se lleva su caja y su historial familiar. Si decide borrar el historial, lo borra realmente — no de una copia local que usted ve, mientras diecisiete copias subsisten en centros de datos repartidos en tres continentes. Si decide cambiar de sistema, sus datos son exportables en un formato abierto. Estos son derechos que usted tiene teóricamente con las grandes plataformas, bajo la presión regulatoria — pero que tiene funcionalmente con Gen_Home, porque la geografía de los datos corresponde a la geografía de su vida."
+  },
+  {
+    "type": "paragraph",
+    "style": "Separator",
+    "text": "* * *"
+  },
+  {
+    "type": "paragraph",
+    "style": "SectionTitle",
+    "text": "Comparación: asistentes existentes y Gen_Home"
+  },
+  {
+    "type": "paragraph",
+    "style": "BodyText",
+    "text": "Para anclar esta discusión en lo concreto, es útil comparar las características fundamentales de los principales enfoques disponibles. Esta tabla no es un ejercicio de marketing. Es una invitación a plantear, por primera vez, preguntas que la publicidad de las grandes empresas nunca plantea."
+  },
+  {
+    "type": "table",
+    "headers": [
+      "Criterio",
+      "Amazon Echo",
+      "Google Nest",
+      "Apple HomePod",
+      "Gen_Home"
+    ],
+    "rows": [
+      [
+        "Ubicación de los datos",
+        "Servidores Amazon (EE.UU.)",
+        "Servidores Google (EE.UU.)",
+        "Servidores Apple (variable)",
+        "Disco local cifrado"
+      ],
+      [
+        "Procesamiento vocal",
+        "Nube (siempre)",
+        "Nube (siempre)",
+        "Nube (parcial)",
+        "100% local (Whisper)"
+      ],
+      [
+        "Modelo económico",
+        "Publicidad + ventas",
+        "Publicidad + servicios",
+        "Venta de hardware",
+        "Licencia de software única"
+      ],
+      [
+        "Funciona sin internet",
+        "No",
+        "No",
+        "Parcialmente",
+        "Sí — totalmente"
+      ],
+      [
+        "Conformidad Ley 25 QC",
+        "Parcial / declarada",
+        "Parcial / declarada",
+        "Parcial / declarada",
+        "Total por arquitectura"
+      ],
+      [
+        "Datos usados para IA",
+        "Sí (entrenamiento de modelos)",
+        "Sí (entrenamiento de modelos)",
+        "Opt-out posible",
+        "Jamás — cero transmisión"
+      ],
+      [
+        "Propiedad de la memoria",
+        "Amazon",
+        "Google",
+        "Apple",
+        "La familia"
+      ],
+      [
+        "Personalización familiar RAG",
+        "Limitada / perfilado publicitario",
+        "Limitada / perfilado publicitario",
+        "Limitada",
+        "Completa — sus propios documentos"
+      ]
+    ]
+  },
+  {
+    "type": "paragraph",
+    "style": "BodyText",
+    "text": "Esta tabla ilustra una verdad simple: los asistentes vocales de consumo masivo y Gen_Home no son productos competidores en la misma categoría. Responden a preguntas diferentes. Los primeros responden a la pregunta: \"¿cómo puedo ofrecer al usuario suficiente valor para que acepte confiarme sus datos?\" Gen_Home responde a otra pregunta: \"¿cómo puedo ser útil a esta familia sin necesitar jamás acceder a lo que no me concierne?\" La distinción es ética antes de ser técnica. Y es precisamente por esta razón que la respuesta técnica es tan diferente."
+  },
+  {
+    "type": "pageBreak"
+  },
+  {
+    "type": "paragraph",
+    "style": "ChapterTitle",
+    "text": "Capítulo 2"
+  },
+  {
+    "type": "paragraph",
+    "style": "ChapterTitle",
+    "text": "La persona mayor en el supermercado"
+  },
+  {
+    "type": "paragraph",
+    "style": "Epigraph",
+    "text": "\"La dignidad no es un lujo. Es la condición mínima de una vida plenamente humana. Y la dignidad digital es ya inseparable de la dignidad a secas.\""
+  },
+  {
+    "type": "paragraph",
+    "style": "SceneText",
+    "text": "Monique Lacroix, 74 años, está de pie frente al muro de los yogures en el IGA de Repentigny. Hay sesenta y dos variedades diferentes. Las contó una vez, porque necesitaba saber si realmente se estaba confundiendo o si aquello era verdaderamente un caos. Era verdaderamente un caos. Su médico le dijo que vigilara el sodio. Su dentista le dijo que tuviera cuidado con el azúcar. Su hija le dijo que evitara los productos con más de cinco ingredientes. Su presupuesto le dice que no pase de tres dólares cincuenta. Sostiene el bote de yogur de marca propia entre las manos, entrecierra los ojos para leer la letra pequeña de la etiqueta, y se da cuenta de que olvidó sus lentes de lectura en el auto. Deja el bote, toma su teléfono, y comienza a marcar el número de su hija. Luego se detiene. Su hija está en una reunión. Como siempre a esta hora. Deja el teléfono. Toma el yogur más familiar y se va sin estar segura de haber elegido bien. Esta incertidumbre, pequeña en apariencia, pesa más de lo que se cree."
+  },
+  {
+    "type": "paragraph",
+    "style": "BodyText",
+    "text": "Existe una realidad estadística que los diseñadores de supermercados e interfaces digitales prefieren no destacar: a medida que la sociedad envejece, las personas mayores se enfrentan cada vez más a entornos diseñados para un consumidor ideal de treinta y cinco años con visión perfecta, memoria infalible, dedos ágiles sobre una pantalla táctil y acceso permanente a una conexión de internet rápida. La brecha entre este usuario teórico y la realidad de los 6,3 millones de canadienses mayores de 65 años no hace sino ampliarse. Esto no es solo un inconveniente. Es una forma sistemática de exclusión que transforma cada compra de supermercado, cada cita médica en línea, cada interacción con un servicio público en una ocasión más de sentirse incompetente en un mundo que no fue pensado para usted."
+  },
+  {
+    "type": "paragraph",
+    "style": "BodyText",
+    "text": "La respuesta habitual a este problema es la inclusión digital mediante la formación. Enseñen a las personas mayores a usar las herramientas existentes. Es una respuesta que invierte la causalidad de manera conveniente para los diseñadores de herramientas: si la herramienta es difícil de usar, es el usuario quien debe cambiar, no la herramienta. Esta lógica ha prevalecido en el despliegue de los servicios bancarios en línea, los portales de salud digitales, los sistemas de reservación de transporte. Produce talleres de formación donde voluntarios bien intencionados explican a septuagenarios cómo navegar en interfaces rediseñadas cada seis meses por equipos de producto en San Francisco. Esto no es inclusión. Es condescendencia bien empaquetada."
+  },
+  {
+    "type": "paragraph",
+    "style": "BodyText",
+    "text": "El paréntesis de los asistentes vocales podría haber cambiado esto. Un dispositivo que se activa con la voz, sin pantalla ni teclado ni menú — era precisamente el tipo de interfaz que se adapta a las personas cuya destreza manual o visión están disminuidas. Y en los primeros años, ese era el argumento de venta: \"su familiar mayor podrá fácilmente llamarle, ajustar su alarma, consultar el clima.\" El problema no era la interfaz. Era el precio de la interfaz. Para tener acceso a esa sencilla comodidad vocal, la persona mayor — o sus hijos que le regalan el dispositivo — aceptan implícitamente que las conversaciones de esa persona, sus rutinas médicas, sus miedos nocturnos, sus llamadas a sus seres queridos, sean potencialmente accesibles a una corporación extranjera y almacenadas en servidores cuya ubicación nunca se precisa. Para una población cuya vulnerabilidad es precisamente lo que atrae las estafas, los abusos financieros y las manipulaciones, ese precio es particularmente elevado."
+  },
+  {
+    "type": "paragraph",
+    "style": "Thesis",
+    "text": "La inteligencia soberana doméstica invierte la proposición: en lugar de adaptar a la persona a la herramienta, adapta la herramienta a la persona. Y puesto que la herramienta pertenece a la familia, puede aprender a la velocidad y según los términos de esa familia — no del usuario promedio."
+  },
+  {
+    "type": "paragraph",
+    "style": "Separator",
+    "text": "* * *"
+  },
+  {
+    "type": "paragraph",
+    "style": "SectionTitle",
+    "text": "Lo que Monique merece"
+  },
+  {
+    "type": "paragraph",
+    "style": "BodyText",
+    "text": "Imagine que Monique tuviera un Gen_Home. No necesariamente su propia caja — quizás la de su hija, de la que ella es miembro de confianza. Puede hablarle con voz natural, sin aplicación que abrir, sin contraseña que recordar, sin tutorial que completar. En el pasillo de los yogures, dice simplemente, en voz baja: \"Gen, ¿cuál tomo?\" El sistema sabe: la recomendación del médico sobre el sodio, su preferencia por el formato de 750 ml que puede levantar sin dolor articular, su alergia latente a los espesantes artificiales detectada durante una conversación anterior, su presupuesto alimentario de la semana, y — porque la red UBLinx de la comunidad comparte datos de consumo locales — el hecho de que la marca propia es producida por el mismo proveedor regional que la marca nacional que cuesta dos dólares más. La respuesta es simple, personalizada, y no requiere abrir cinco aplicaciones."
+  },
+  {
+    "type": "paragraph",
+    "style": "BodyText",
+    "text": "Pero lo que Gen_Home le ofrece va más allá del yogur. Lo que le ofrece es la competencia. Esa cualidad que se asocia espontáneamente a los adultos plenamente funcionales, y cuya pérdida progresiva es una de las experiencias más devastadoras del envejecimiento. Monique no es incompetente. Es incompetente en interfaces que no fueron diseñadas para ella, con información presentada en formatos pensados para otros fines que los suyos. Una herramienta que conoce sus limitaciones, sus preferencias y su contexto no la vuelve dependiente: la emancipa. La diferencia entre una prótesis y una asistencia no es técnica. Está en la relación de poder que establece entre la herramienta y su usuario."
+  },
+  {
+    "type": "paragraph",
+    "style": "SubSection",
+    "text": "Las cuatro malas alternativas"
+  },
+  {
+    "type": "paragraph",
+    "style": "BodyText",
+    "text": "Sin Gen_Home, Monique tenía cuatro opciones en el pasillo de los yogures. Primera opción: preguntar a un desconocido. Esta solución funciona a menudo — la gente generalmente es amable — pero impone un costo psicológico real. Señala una incompetencia, crea una deuda social, y depende de la disponibilidad y buena voluntad de una persona ocupada con sus propias compras. Repetida con suficiente frecuencia, erosiona la percepción de autonomía de uno mismo. Segunda opción: usar Google. Teclear la pregunta en una barra de búsqueda en un teléfono, obtener resultados genéricos que no tienen en cuenta ninguna de sus restricciones médicas, alimentarias o presupuestarias, navegar entre publicidades de yogures que no puede costear, y ser perfilada publicitariamente para productos relacionados con la salud de los adultos mayores durante las próximas tres semanas."
+  },
+  {
+    "type": "paragraph",
+    "style": "BodyText",
+    "text": "Tercera opción: llamar a su hija. La hija contesta, si puede. Contesta, interrumpiendo su reunión o su propia diligencia. La relación madre-hija absorbe un nivel adicional de tensión. La madre se siente culpable de interrumpir. La hija se siente culpable de no estar más disponible. Lo que podría haber sido una simple decisión práctica se convierte en una microtransacción afectiva cuyo costo acumulado, a lo largo de años, no es despreciable. Cuarta opción: rendirse. Tomar el yogur de siempre, la mala elección en términos nutricionales o presupuestarios, y volver a casa con la sensación difusa de haber hecho mal, sin saber exactamente cómo hacerlo mejor. Esa sensación, repetida lo suficiente, moldea una identidad: la de una persona que ya no maneja bien sus asuntos. Es ahí donde comienza la verdadera pérdida de autonomía — no en las grandes decisiones médicas o jurídicas, sino en las mil pequeñas decisiones cotidianas donde nadie está ahí para ayudar."
+  },
+  {
+    "type": "paragraph",
+    "style": "BodyText",
+    "text": "Gen_Home no es la solución a todos los desafíos del envejecimiento. No reemplaza a un médico, un cuidador, una familia cercana. Pero para la categoría específica de las decisiones cotidianas que requieren una información precisa y personalizada, ofrece algo que nada más ofrece actualmente a este precio y con esta confidencialidad: una inteligencia que conoce su contexto y no obtiene ningún beneficio personal de ello. Esto no es una propuesta tecnológica. Es una propuesta ética."
+  },
+  {
+    "type": "paragraph",
+    "style": "Quote",
+    "text": "\"Ser tratado como un ser humano completo en cada edad de la vida: eso es lo que la tecnología soberana debería prometer. No la eficiencia, no la comodidad — sino la dignidad.\""
+  },
+  {
+    "type": "paragraph",
+    "style": "Separator",
+    "text": "* * *"
+  },
+  {
+    "type": "paragraph",
+    "style": "SectionTitle",
+    "text": "La solidaridad digital entre generaciones"
+  },
+  {
+    "type": "paragraph",
+    "style": "BodyText",
+    "text": "La situación de Monique en el supermercado ilustra un problema individual. Pero hay una dimensión colectiva que el análisis individual hace desaparecer fácilmente. Monique no está sola en su calle navegando en un mundo cada vez más diseñado para personas más jóvenes y más conectadas. Varios de sus vecinos — André, 79 años, Thérèse, 71 años, Paul, 68 años — enfrentan variantes de la misma situación. Juntos, representan una inteligencia colectiva considerable: décadas de experiencia de vida en ese barrio, conocimientos sobre los comerciantes locales, los servicios de calidad, los proveedores dignos de confianza, las estafas que hay que evitar. Esta inteligencia colectiva no está actualmente en ningún lugar, excepto en sus memorias y en sus conversaciones de balcón — conversaciones que no dejan ningún rastro permanente y que no pueden ser consultadas a las 21h cuando Monique está sola frente al muro de yogures."
+  },
+  {
+    "type": "paragraph",
+    "style": "BodyText",
+    "text": "El modelo Gen_Home en red permite que esta inteligencia colectiva se convierta en un recurso compartido. André tuvo una mala experiencia con un plomero local hace dos años — lo mencionó en una conversación con su caja. Thérèse encontró un supermercado que hace entregas a domicilio con precios razonables — compartió la información en el círculo de tercer nivel de su red. Paul sabe que el médico de familia del barrio aún acepta nuevos pacientes — añadió eso a la base común. Monique, en red con ellos, puede consultar esta inteligencia acumulada no como un dato frío extraído de Google, sino como la recomendación de sus vecinos — personas que ella conoce, en cuyo juicio confía, y cuya opinión está contextualizada por su propia situación y sus propios valores. Es el pueblo digital: no la nostalgia de un pasado extinto, sino la recreación de sus funciones de solidaridad en un contexto contemporáneo."
+  },
+  {
+    "type": "pageBreak"
+  },
+  {
+    "type": "paragraph",
+    "style": "ChapterTitle",
+    "text": "Capítulo 3"
+  },
+  {
+    "type": "paragraph",
+    "style": "ChapterTitle",
+    "text": "Los deberes, el presupuesto y la carga invisible"
+  },
+  {
+    "type": "paragraph",
+    "style": "Epigraph",
+    "text": "\"La carga mental no mata. Agota. Y en un hogar agotado, nadie piensa con claridad — ni los padres, ni los hijos.\""
+  },
+  {
+    "type": "paragraph",
+    "style": "SceneText",
+    "text": "Son las nueve y cuarto de la noche. Léa, de ocho años, está sentada a la mesa de la cocina con su cuaderno de matemáticas abierto. Su padre, Simon, mira por encima de su hombro la página que lleva el título: \"La descomposición de números — método de tablas de valor.\" Simon tiene cuarenta y un años. Tiene una licenciatura en administración. Gestiona presupuestos de proyecto de siete cifras para su empleador. No reconoce absolutamente nada de lo que hay en esa página. Dice: \"Muéstrame el ejemplo de tu manual.\" Léa le pasa el manual. El ejemplo utiliza una terminología diferente a la del cuaderno. Simon repasa rápidamente las tres páginas anteriores. Nada. Hay un silencio. Ese tipo de silencio donde un niño de ocho años comprende que su padre no sabe, y donde el padre comprende que el niño lo ha comprendido. Simon dice: \"Busca en YouTube.\" Léa abre YouTube. En treinta segundos, la página de inicio le propone videos de baile, un video de reacción a un videojuego y una publicidad de un juego para móvil. No hay ningún video sobre la descomposición de números. Son las nueve y veinte."
+  },
+  {
+    "type": "paragraph",
+    "style": "BodyText",
+    "text": "Esta escena se repite, con variaciones, en millones de hogares quebequenses cada noche. La reforma de la enseñanza de las matemáticas de los últimos veinte años ha introducido enfoques pedagógicos que no existían cuando los padres de hoy estaban en la escuela primaria. El método Singapur, las representaciones por rectas numéricas, la descomposición posicional, las estrategias de multiplicación alternativa — estos enfoques son pedagógicamente válidos y a menudo superiores a los métodos tradicionales. Pero crean una paradoja dolorosa: los padres más educados, los que más quieren ayudar, son precisamente aquellos cuyos automatismos matemáticos interfieren con lo que el niño está tratando de aprender. El ingeniero que calcula mentalmente por columnas desde hace treinta años está menos preparado para explicar la descomposición aditiva que alguien que nunca aprendió a calcular de otra manera."
+  },
+  {
+    "type": "paragraph",
+    "style": "BodyText",
+    "text": "La respuesta instintiva de la era digital a este problema de los deberes ha sido redirigir al niño hacia plataformas en línea — Khan Academy, YouTube Educación, Alloprof en Quebec. Estos recursos son notables y han ayudado a millones de alumnos. Pero presentan dos limitaciones que no se discuten con la suficiente franqueza. La primera es que el niño que busca solo su respuesta en YouTube no aprende solo matemáticas — aprende que ante una dificultad, se consulta una pantalla en lugar de una persona. Aprende que los adultos de su vida no son el primer recurso, sino el recurso de último recurso cuando las pantallas han fallado. Este mensaje sobre la relación con los adultos no es intencional. Es estructural. La segunda limitación es que estas plataformas no conocen a su hijo. Saben que el 73% de los alumnos fracasan en el paso 3 del ejercicio tipo. No saben que Léa se bloquea precisamente en la representación visual, no en el cálculo, y que tiene mucho más éxito con ejemplos concretos que con ecuaciones abstractas. Gen_Home, que ha seguido los deberes de Léa durante dos años, sí lo sabe."
+  },
+  {
+    "type": "paragraph",
+    "style": "Separator",
+    "text": "* * *"
+  },
+  {
+    "type": "paragraph",
+    "style": "SectionTitle",
+    "text": "El padre transformado en compañero de aprendizaje"
+  },
+  {
+    "type": "paragraph",
+    "style": "BodyText",
+    "text": "Gen_Home cambia la dinámica de la escena de deberes no reemplazando al padre, sino reposicionándolo. Simon ya no dice \"busca en YouTube\" porque no sabe. Dice: \"Preguntémosle a Gen.\" La diferencia es sutil pero decisiva. En el primer caso, envía a su hija sola a un espacio no filtrado mientras señala implícitamente su impotencia. En el segundo, propone un recurso que la familia controla, y permanece presente en el proceso. Gen explica la descomposición de números de la manera en que Léa lo aprendió en clase — porque la familia proporcionó los capítulos del manual al sistema, que los indexó en su base de conocimientos local. Simon también entiende la explicación. Ya no es el oráculo en fracaso. Es el compañero de aprendizaje de su hija. La escena termina de manera diferente."
+  },
+  {
+    "type": "paragraph",
+    "style": "BodyText",
+    "text": "Este reposicionamiento no es anodino a largo plazo. Las investigaciones sobre la parentalidad y el rendimiento escolar muestran sistemáticamente que la implicación parental en los deberes beneficia al niño no principalmente por la transferencia de conocimientos — los padres rara vez saben más que los profesores sobre las materias enseñadas — sino por la señal emocional que envía: tu educación me importa, estoy aquí, el aprendizaje es una actividad que vale la pena dedicarle tiempo de adulto. Gen_Home permite que esta señal siga enviándose incluso cuando el contenido académico ha superado la competencia directa del padre. Esto no es poca cosa. Es la diferencia entre un niño que asocia el aprendizaje con la presencia y el apoyo de sus seres queridos, y un niño que aprende solo con desconocidos en internet."
+  },
+  {
+    "type": "paragraph",
+    "style": "SubSection",
+    "text": "El presupuesto como herramienta de lucidez"
+  },
+  {
+    "type": "paragraph",
+    "style": "BodyText",
+    "text": "Los gastos de un hogar son, para la gran mayoría de las familias, un caos gestionado por intuición. Se sabe más o menos lo que se gana. Se tiene una idea vaga de lo que se gasta. Uno se da cuenta a fin de mes de que las dos cifras no siempre concuerdan. Las aplicaciones de gestión presupuestaria existen desde hace años — Mint, You Need a Budget, decenas de otras — y su tasa de uso regular después del primer mes de entusiasmo se estanca obstinadamente por debajo del quince por ciento. La razón es simple: exigen un esfuerzo de captura y análisis que la vida cotidiana hace difícil de mantener. Y exigen que usted confíe sus datos bancarios a una empresa tercera, algo que muchas personas rechazan con razón."
+  },
+  {
+    "type": "paragraph",
+    "style": "BodyText",
+    "text": "Gen_Home gestiona el presupuesto de manera diferente. No hay aplicación que abrir, no hay tabla que mantener. La familia habla de sus gastos en lenguaje natural, como se habla con un amigo: \"Hice la compra esta mañana, 187 dólares.\" \"Pagamos al mecánico ayer, 340 dólares.\" El sistema registra, categoriza y mantiene un retrato vivo de las finanzas familiares. Y porque comprende el contexto — sabe que el precio de las verduras ha subido, sabe que la familia decidió pasarse a lo orgánico este mes — sus observaciones son inteligentes, no solo contables. No dice \"sus gastos de supermercado aumentaron un 15%.\" Dice: \"sus gastos de supermercado aumentaron un 15%, principalmente debido a la transición a lo orgánico — aquí está el impacto estimado en la salud familiar y en el logro de su objetivo de ahorro.\" La inteligencia está al servicio del hogar. No de un banco que quiere venderle una línea de crédito."
+  },
+  {
+    "type": "paragraph",
+    "style": "Separator",
+    "text": "* * *"
+  },
+  {
+    "type": "paragraph",
+    "style": "SectionTitle",
+    "text": "Lo que el presupuesto revela sobre las prioridades reales"
+  },
+  {
+    "type": "paragraph",
+    "style": "BodyText",
+    "text": "Hay algo profundamente revelador en los datos financieros de un hogar. No en el sentido de que expondrían una debilidad o una vergüenza — sino en el sentido de que revelan una brecha, casi universal, entre las prioridades que declaramos y las prioridades que nuestras compras reflejan. Una familia que declara que la salud es su prioridad número uno pero que gasta más en suscripciones de streaming que en comida de calidad no es una familia hipócrita. Es una familia humana, sometida a las imposiciones de la inmediatez, al cansancio decisional, al marketing agresivo, y al hecho de que los gastos se toman uno por uno, sin ver jamás la imagen global en tiempo real. Gen_Home no juzga esa brecha. La hace visible — y deja que la familia decida si quiere corregirla, si quiere revisar sus prioridades declaradas, o si quiere aceptar la tensión como la realidad de su vida actual. La lucidez es una forma de respeto."
+  },
+  {
+    "type": "paragraph",
+    "style": "BodyText",
+    "text": "Este respeto por la autonomía decisional de la familia está en el corazón de la filosofía de Gen_Home. No hay una IA paternalista que sugiere que debería comer menos azúcar cada vez que menciona el postre. No hay un agente moral que le recuerde sus propósitos de Año Nuevo cada vez que gasta fuera de su presupuesto. Hay una inteligencia que responde cuando se le plantea una pregunta, que ofrece una perspectiva cuando se la solicita, y que guarda la memoria de lo que usted quiso hacer para que pueda decidir por sí mismo si quiere recordarlo. La diferencia entre un consejero y un juez no está en la información que posee — está en la relación que establece con quien le hace frente. Gen_Home está diseñado para ser un consejero, jamás un juez."
+  },
+  {
+    "type": "paragraph",
+    "style": "Separator",
+    "text": "* * *"
+  },
+  {
+    "type": "paragraph",
+    "style": "SectionTitle",
+    "text": "La carga mental hecha visible"
+  },
+  {
+    "type": "paragraph",
+    "style": "BodyText",
+    "text": "La carga mental es uno de los fenómenos mejor documentados y menos resueltos de la vida familiar contemporánea. Designa el conjunto de tareas cognitivas invisibles que organizan la vida del hogar: acordarse de que los niños necesitan zapatos nuevos, saber que hay que volver a llamar al dentista, gestionar mentalmente el inventario del refrigerador, planificar las salidas escolares, los cumpleaños, las citas médicas, los mantenimientos preventivos, las renovaciones de seguros. Estas tareas no son pesadas individualmente. Su peso proviene de su número, de su invisibilidad y de su carácter ininterrumpido. Y en la gran mayoría de los hogares, están distribuidas de manera profundamente desigual — generalmente concentradas en la persona que fue socializada para asumirlas, independientemente de su carga de trabajo profesional."
+  },
+  {
+    "type": "paragraph",
+    "style": "BodyText",
+    "text": "Gen_Home captura estas tareas al hilo de las conversaciones naturales. Sophie le dice a su esposo durante la cena: \"Habría que pensar en el dentista para Léa, ya hace casi un año.\" El sistema registra silenciosamente. Tres días después, recuerda la tarea y propone llamar al consultorio del dentista durante el horario de atención. No hace falta abrir una aplicación, crear un recordatorio, transferir la información. La conversación natural es el mecanismo de captura. De igual modo: \"Ya casi no queda café\" — el café se añade a la lista de la compra. \"El proyecto de ciencias de Léa es en dos semanas\" — se crea un hito, se reserva una semana de preparación en el calendario familiar. Estas pequeñas capturas repetidas transforman progresivamente la carga mental de un peso individual en un recurso compartido. La información ya no está en la cabeza de Sophie. Está en la memoria de la casa — y pertenece a toda la familia."
+  },
+  {
+    "type": "paragraph",
+    "style": "BodyText",
+    "text": "La lista de la compra autogenerada por Gen_Home merece una atención particular porque ilustra precisamente cómo la tecnología soberana se distingue de la tecnología extractiva. Amazon Fresh y sus equivalentes conocen sus hábitos de compra porque acceden a sus datos de pedidos en línea. Le sugieren productos no en función de sus necesidades reales, sino en función de su margen comercial y de los contratos publicitarios que han cerrado con marcas. La lista generada por Amazon optimiza los ingresos de Amazon. La lista generada por Gen_Home optimiza el bienestar de su hogar — porque no tiene ninguna otra razón de ser que esa."
+  },
+  {
+    "type": "paragraph",
+    "style": "Separator",
+    "text": "* * *"
+  },
+  {
+    "type": "paragraph",
+    "style": "SectionTitle",
+    "text": "La escuela y la casa: un puente en lugar de un abismo"
+  },
+  {
+    "type": "paragraph",
+    "style": "BodyText",
+    "text": "Uno de los malentendidos persistentes sobre las herramientas digitales en educación es la idea de que reemplazan al profesor o compiten con la escuela. Este temor, legítimo históricamente, ha llevado a muchas escuelas a prohibir los dispositivos electrónicos en lugar de integrarlos de manera reflexiva. Gen_Home no está diseñado para reemplazar al profesor de Léa. Está diseñado para cerrar la brecha entre lo que sucede en la escuela y lo que sucede en la casa. Esta brecha es uno de los desafíos menos reconocidos de la educación contemporánea: los aprendizajes escolares se realizan en un contexto preciso, con una terminología precisa, mediante una pedagogía precisa, y cuando el niño regresa a casa para hacer sus ejercicios, a menudo no tiene acceso a nadie que conozca ese contexto específico. Los padres hacen lo que pueden. Internet ofrece recursos genéricos. Pero nadie tiene acceso al manual de la escuela, al vocabulario de la profesora, a la progresión pedagógica de la clase."
+  },
+  {
+    "type": "paragraph",
+    "style": "BodyText",
+    "text": "Gen_Home puede cerrar esta brecha de manera simple y poderosa. La familia deposita en la base RAG local el manual escolar de Léa, las hojas de ruta pedagógicas, las fichas de vocabulario de la clase. Cuando Léa pide ayuda con sus deberes, el sistema no genera una respuesta genérica sacada de internet. Genera una respuesta anclada en LO que Léa ha aprendido, con la terminología de SU profesora, siguiendo la progresión de SU clase. Es la diferencia entre un tutor que conoce a su hijo y un tutor que nunca lo ha visto. El primero es infinitamente más eficaz, y es precisamente lo que la personalización local permite donde ningún servicio en la nube, por poderoso que sea, puede hacerlo: no tiene acceso a los documentos de ESTA escuela, de ESTA clase, de ESTA familia."
+  },
+  {
+    "type": "paragraph",
+    "style": "Quote",
+    "text": "\"La inteligencia al servicio de la familia debería conocer a esa familia mejor que cualquier algoritmo optimizado para millones de usuarios. La personalización no es un lujo. Es la condición de la eficacia real.\""
+  },
+  {
+    "type": "pageBreak"
+  },
+  {
+    "type": "paragraph",
+    "style": "ChapterTitle",
+    "text": "Capítulo 4"
+  },
+  {
+    "type": "paragraph",
+    "style": "ChapterTitle",
+    "text": "El consejo familiar"
+  },
+  {
+    "type": "paragraph",
+    "style": "Epigraph",
+    "text": "\"La democracia no se aprende en los libros. Se aprende practicándola — incluso cuando lo que está en juego es solo el tiempo de pantalla del domingo por la noche.\""
+  },
+  {
+    "type": "paragraph",
+    "style": "SceneText",
+    "text": "Es un domingo por la noche de noviembre en casa de los Tremblay de Saint-Hyacinthe. La mesa de la cocina está despejada. Isabelle, 41 años, Marc, 44 años, su hijo Alexis, 14 años, y su hija Camille, 8 años, están sentados. Incluso Émile, de 6 años, está ahí con su vaso de leche, aunque se dormirá antes de que termine. Es el consejo familiar semanal — el segundo desde que instalaron Gen_Home. Sobre la mesa, hay un resumen impreso que el sistema ha preparado: los tiempos de pantalla de la semana por miembro de la familia, las tareas domésticas cumplidas y no cumplidas, los gastos excepcionales, los eventos de la semana entrante. Alexis mira su tiempo de pantalla de la semana y frunce el ceño. Marc mira el suyo y dice: \"Oh.\" Ha superado su propio objetivo en dos horas y media. Ahora todos lo saben. Camille dice: \"Habías dicho no más de dos horas de teléfono al día durante la cena.\" Marc dice: \"Tienes razón.\" El consejo acaba de comenzar."
+  },
+  {
+    "type": "paragraph",
+    "style": "BodyText",
+    "text": "El tiempo de pantalla es uno de los temas más conflictivos de la parentalidad contemporánea. Concentra por sí solo tensiones profundas sobre la autoridad, la autonomía, la confianza y la definición del bienestar. Los enfoques existentes están casi todos construidos sobre un modelo vertical: el padre decide, la herramienta aplica. Apple Screen Time, Google Family Link y sus equivalentes son herramientas de control parental en el sentido estricto del término — el padre programa límites que el niño no puede eludir, y el niño los padece. Este enfoque funciona razonablemente bien con un niño de cinco años que aún no ha desarrollado su capacidad de resistencia estratégica. Genera conflictos intensos y contraproducentes en cuanto el niño empieza a comprender la diferencia entre una regla arbitraria y una regla basada en un razonamiento que él puede evaluar. Es decir, desde los diez u once años aproximadamente, a veces antes."
+  },
+  {
+    "type": "paragraph",
+    "style": "BodyText",
+    "text": "El modelo Gen_Home es estructuralmente diferente. Las reglas no son impuestas por el padre al sistema. Son negociadas en familia y confiadas al sistema como árbitro electo. La distinción es importante porque cambia la fuente de la autoridad. Cuando el sistema limita el tiempo de juego de Alexis, no es porque Marc decidió unilateralmente que dos horas al día es suficiente. Es porque el propio Alexis, en consejo familiar, votó por ese límite. Puede impugnarlo — pero en el próximo consejo, no en plena partida. Este desplazamiento de la fuente de la autoridad del padre hacia el contrato familiar es fundamentalmente diferente en sus efectos psicológicos y en sus resultados conductuales. El niño que respeta una regla que contribuyó a crear no se somete. Honra su propia palabra."
+  },
+  {
+    "type": "paragraph",
+    "style": "BodyText",
+    "text": "Es importante anclar esta discusión en lo que la investigación en psicología del desarrollo nos dice sobre los niños y las reglas. Los trabajos de Diana Baumrind sobre los estilos parentales, desarrollados a partir de los años 1960 y confirmados por décadas de investigación, distinguen tres grandes estilos: autoritario, permisivo, y lo que ella llama autoritativo — exigente pero receptivo, estructurado pero explicativo. Este estilo autoritativo está sistemáticamente asociado a las mejores trayectorias de desarrollo en los niños: confianza en sí mismos, competencia social, rendimiento académico. Lo que lo distingue del estilo autoritario no es la ausencia de reglas, sino la forma en que las reglas se establecen: se explican, son negociables dentro de ciertos marcos, y se aplican con calidez en lugar de con amenaza. El consejo familiar de Gen_Home es una implementación institucional del estilo autoritativo de Baumrind: estructura la negociación de las reglas de manera que sea regular, previsible y accesible incluso para un niño de seis años."
+  },
+  {
+    "type": "paragraph",
+    "style": "Thesis",
+    "text": "La autoridad que proviene del contrato es más estable, más respetada y más formadora que la autoridad que proviene de la jerarquía. El consejo familiar no es un suplemento a la parentalidad: es una escuela de democracia cuyas sesiones se celebran en la mesa de la cocina."
+  },
+  {
+    "type": "paragraph",
+    "style": "Separator",
+    "text": "* * *"
+  },
+  {
+    "type": "paragraph",
+    "style": "SectionTitle",
+    "text": "El espejo que no juzga"
+  },
+  {
+    "type": "paragraph",
+    "style": "BodyText",
+    "text": "Lo que hace al sistema particularmente eficaz es su imparcialidad estructural. Gen_Home no tiene preferencia por un miembro de la familia por encima de otro. No tiene interés en proteger la autoridad parental ni en defender la autonomía de los hijos. Mide e informa. Esta imparcialidad tiene consecuencias sorprendentes. El padre que decretó \"nada de teléfono durante la comida\" recibe la misma alerta que el niño que viola esa regla. El padre que fijó un objetivo de dos horas de tiempo de pantalla diario ve su propio exceso reportado en el consejo familiar. Esta simetría no es un castigo para el padre. Es la condición de la credibilidad del contrato. Un niño de diez años es perfectamente capaz de detectar la hipocresía. Un sistema que aplica las mismas reglas a todos señala que las reglas son reales, no cosméticas."
+  },
+  {
+    "type": "paragraph",
+    "style": "BodyText",
+    "text": "La gestión del tiempo de pantalla por Gen_Home se distingue también por su capacidad de categorizar según los criterios de ESTA familia, no según los de una corporación extranjera. Apple Screen Time divide las aplicaciones entre \"educativo\", \"entretenimiento\", \"social\", según criterios definidos en Cupertino. Minecraft es categorizado como \"juego\" — por lo tanto entretenimiento a limitar. Pero para la familia Tremblay, Alexis utiliza Minecraft para construir réplicas arquitectónicas de edificios históricos quebequenses — un proyecto que él mismo propuso al consejo familiar para justificar un tiempo de juego adicional. Gen_Home puede categorizar ese tiempo de pantalla como \"creativo\" según la definición de la familia — porque es la familia quien define sus categorías, no un algoritmo de clasificación instalado por defecto. Esta granularidad cambia radicalmente la naturaleza de la conversación sobre el tiempo de pantalla: ya no se habla del tiempo de juego en general, sino de lo que se hace con ese tiempo, y de si está en consonancia con lo que la familia valora."
+  },
+  {
+    "type": "paragraph",
+    "style": "BodyText",
+    "text": "Marc Tremblay, el padre de Saint-Hyacinthe, contó lo que sucedió en su primer consejo familiar. El informe semanal mostraba que había superado su objetivo en tres horas en total. Su hijo Alexis lo miró y dijo: \"Tú tampoco lo logras.\" La formulación era un poco ácida, pero la observación era precisa. Marc no pudo responder que era diferente para los adultos — porque era precisamente el argumento que había rechazado durante la creación de las reglas. La discusión que siguió — cómo iban juntos, como familia, a gestionar los teléfonos — fue, según Marc, la conversación más honesta que había tenido con su hijo de catorce años en dos años. El sistema no había creado ese diálogo. Había creado las condiciones en las que ese diálogo podía tener lugar."
+  },
+  {
+    "type": "paragraph",
+    "style": "SubSection",
+    "text": "La distribución de las tareas domésticas"
+  },
+  {
+    "type": "paragraph",
+    "style": "BodyText",
+    "text": "La misma lógica de espejo imparcial se aplica a las tareas domésticas. La distribución de las responsabilidades del hogar es uno de los temas que más tensión genera en los hogares con dos padres activos. A menudo se vive como una acumulación de resentimientos individuales, donde cada miembro de la pareja tiene la impresión de hacer más de lo que le corresponde o de no ver reconocido lo que hace. Estas impresiones no son necesariamente falsas — pero son casi siempre parciales, porque somos malos jueces de nuestra propia contribución y aún peores jueces de la contribución invisible del otro. ¿Quién piensa en las renovaciones de seguros? ¿Quién mantiene mentalmente la lista de invitaciones de cumpleaños? ¿Quién sabe que hay que comprar más detergente en tres días? Estas tareas nunca aparecen en un inventario de quehaceres, pero representan una carga real."
+  },
+  {
+    "type": "paragraph",
+    "style": "BodyText",
+    "text": "Gen_Home no resuelve la cuestión de la distribución equitativa de las tareas. No es su función. Pero proporciona algo que las disputas habituales sobre las tareas domésticas casi nunca tienen: datos. De 47 tareas identificadas esta semana, una persona realizó 34. Eso no es una acusación. No es un juicio. Es un hecho. El desplazamiento del conflicto del dominio emocional al dominio factual no lo resuelve mágicamente, pero cambia su naturaleza. Se puede discutir una desigualdad medida con más facilidad que un sentimiento de injusticia. La primera se aborda como un problema a resolver. El segundo se aborda como una herida a defender."
+  },
+  {
+    "type": "paragraph",
+    "style": "BodyText",
+    "text": "Hay que subrayar aquí lo que Gen_Home no hace. No le dice a una familia cómo repartir las tareas. No genera un plan de acción \"óptimo\" basado en un algoritmo de eficiencia. No juzga si una familia está organizada adecuadamente según algún estándar externo. Hace visible lo que es invisible — y deja que la familia decida qué hacer con ello. Algunas familias, al ver los datos, decidirán reequilibrar. Otras decidirán que el desequilibrio medible corresponde a un acuerdo implícito que quieren mantener. Otras más se darán cuenta de que su desacuerdo sobre las tareas enmascara un desacuerdo más profundo sobre valores o expectativas — y que esa es la verdadera conversación que hay que tener. En todos los casos, el punto de partida es la realidad, no las percepciones concurrentes de una realidad que nadie ha medido."
+  },
+  {
+    "type": "paragraph",
+    "style": "BodyText",
+    "text": "La visibilidad de la contribución de cada miembro de la familia tiene una consecuencia que no siempre se anticipa: también hace visible la contribución de los hijos. En muchos hogares, los niños tienen responsabilidades domésticas que los padres perciben como insuficientes y los niños como excesivas. Este desacuerdo de percepción se alimenta del mismo problema fundamental: la ausencia de datos compartidos. Cuando Gen_Home muestra que Emma, de 9 años, efectivamente puso la mesa cinco de siete veces y sacó la basura dos veces este mes — datos verificables, porque ella los declaró al sistema por costumbre familiar — la discusión cambia de naturaleza. Ya no es \"tú nunca haces nada\" contra \"yo siempre hago todo\". Es \"esto es lo que hiciste, esto es lo que esperamos, así es como ajustamos si es necesario.\" Los niños responden mejor a la precisión que a la acusación, y los padres defienden mejor sus peticiones cuando están basadas en hechos."
+  },
+  {
+    "type": "paragraph",
+    "style": "Separator",
+    "text": "* * *"
+  },
+  {
+    "type": "paragraph",
+    "style": "SectionTitle",
+    "text": "El niño que comprende el consentimiento"
+  },
+  {
+    "type": "paragraph",
+    "style": "BodyText",
+    "text": "Hay un beneficio del modelo de consejo familiar que no es inmediatamente evidente: los niños que crecen en este sistema aprenden lo que es el consentimiento no como un concepto abstracto enseñado en la escuela, sino como una práctica cotidiana. Aprenden que las reglas que se les aplican fueron negociadas con ellos. Aprenden que las reglas pueden ser impugnadas y modificadas — mediante un proceso, no por la fuerza o la manipulación. Aprenden que el consentimiento es revocable, que las condiciones deben ser razonables, que los derechos y las responsabilidades van juntos. Aprenden que la autoridad legítima se diferencia de la autoridad arbitraria por su capacidad de explicarse. Estos aprendizajes, repetidos cada semana en la mesa de la cocina, constituyen una educación cívica que ninguna escuela puede restituir del todo porque ninguna escuela tiene los mismos desafíos reales en la vida del niño."
+  },
+  {
+    "type": "pageBreak"
+  },
+  {
+    "type": "paragraph",
+    "style": "ChapterTitle",
+    "text": "Capítulo 5"
+  },
+  {
+    "type": "paragraph",
+    "style": "ChapterTitle",
+    "text": "Los círculos concéntricos"
+  },
+  {
+    "type": "paragraph",
+    "style": "Epigraph",
+    "text": "\"La vida privada no es el secreto. La vida privada es el derecho a elegir lo que se comparte, con quién y bajo qué condiciones.\""
+  },
+  {
+    "type": "paragraph",
+    "style": "SceneText",
+    "text": "Imagine una piedra cayendo en un agua absolutamente calma. El punto de impacto es el centro de un sistema de círculos concéntricos que se amplían hacia el horizonte. Cada círculo es una onda de energía decreciente. Cuanto más se aleja del centro, más débil es la onda, más imperceptible su efecto sobre los objetos flotantes. Su hogar funciona así. Hay informaciones que pertenecen al centro — los conflictos conyugales, las dificultades financieras, los miedos profundos, los sueños más íntimos. Hay informaciones que pertenecen al círculo inmediatamente exterior — las noticias que se comparten con la familia ampliada, los amigos cercanos. Hay informaciones que pertenecen a la comunidad — las preocupaciones locales, los recursos disponibles, las cooperaciones prácticas. Y hay informaciones que pueden atravesar todas las fronteras — las opiniones públicas, las contribuciones culturales, las acciones políticas. La arquitectura digital actual ignora esta geografía natural. Trata todo como potencialmente público, o como potencialmente privado, sin ofrecer jamás la granularidad que corresponde a la realidad de su vida."
+  },
+  {
+    "type": "paragraph",
+    "style": "BodyText",
+    "text": "La tecnología digital de los últimos treinta años ha creado una paradoja. Nos ha dado herramientas de comunicación de una potencia sin precedentes — podemos contactar a cualquiera, en cualquier lugar, instantáneamente. Pero simultáneamente ha borrado las distinciones sutiles entre las esferas de la vida social que las sociedades humanas habían desarrollado durante milenios. En la vida pre-digital, la conversación que usted tenía con su vecino no podía ser vigilada por su empleador. La carta que escribía a su hermana no podía ser leída por un banco que busca evaluar su riesgo crediticio. El libro de recetas que guardaba en su cocina no era indexado ni puesto a disposición de toda la industria alimentaria mundial. Estas fronteras no eran absolutas — podían ser franqueadas — pero franquearlas requería un esfuerzo y dejaba rastros. La vigilancia masiva digital ha hecho que esos franqueos se produzcan sin esfuerzo y sin rastros."
+  },
+  {
+    "type": "paragraph",
+    "style": "BodyText",
+    "text": "El sociólogo Erving Goffman describió en los años 1950 la manera en que los seres humanos gestionan su presentación social según la \"escena\" en la que se encuentran: uno se comporta de manera diferente en público y entre bastidores, con extraños y con seres queridos, en el trabajo y en casa. Esta gestión de los frontstages y los backstages no es hipocresía. Es una competencia social fundamental que permite a los individuos funcionar en contextos múltiples con normas diferentes. La vigilancia digital universal borra esta distinción de Goffman. Cuando todo puede ser grabado, archivado y sacado de su contexto original, ya no hay backstage. Ya no hay lugar donde uno pueda permitirse ser imperfecto, explorar, dudar, cambiar de opinión. Gen_Home restaura el backstage del hogar. Lo que sucede en la casa se queda en la casa — y esta garantía no es una regla de confidencialidad sino una realidad física."
+  },
+  {
+    "type": "paragraph",
+    "style": "Thesis",
+    "text": "Gen_Home no restaura la vida privada de la era pre-digital — esa era es irrevocablemente pasada. Propone algo más adaptado a nuestra época: una arquitectura de datos que reproduce la geografía natural de las esferas sociales humanas, con fronteras reales y pasos controlados."
+  },
+  {
+    "type": "paragraph",
+    "style": "Separator",
+    "text": "* * *"
+  },
+  {
+    "type": "paragraph",
+    "style": "SectionTitle",
+    "text": "El primer círculo: el hogar"
+  },
+  {
+    "type": "paragraph",
+    "style": "BodyText",
+    "text": "El primer círculo — el hogar mismo — es el dominio de la confidencialidad absoluta. Lo que sucede en la casa se queda en la casa, en la memoria de la caja física que está instalada allí. Sin respaldo automático hacia la nube. Sin sincronización con servidores remotos. Sin recopilación de datos comportamentales con fines de mejora del producto. La casa es el lugar donde se deponen las armas sociales — el lugar donde usted puede expresar sus dudas, sus miedos, sus contradicciones, sin que eso se convierta en un activo comercial o un dato de perfil. Esta confidencialidad no está garantizada por una política de privacidad — que siempre puede ser modificada. Está garantizada por la física: los datos están en un disco en su sótano, y ninguna conexión saliente los transmite sin su acción explícita."
+  },
+  {
+    "type": "paragraph",
+    "style": "BodyText",
+    "text": "El cifrado de la memoria local no es un detalle técnico accesorio. Es una declaración de intención arquitectónica. Incluso si alguien accediera físicamente a la caja — en caso de incautación judicial, por ejemplo, o de intrusión — los datos serían ilegibles sin la clave de cifrado que pertenece a la familia. Esta clave no se conserva en ningún servidor externo. Se genera localmente, durante la inicialización del sistema, y la familia es su única titular. Nadie más — ni siquiera el editor del software — puede acceder a los datos de sus conversaciones familiares. Esto no es solo una garantía de confidencialidad. Es una limitación arquitectónica de la confianza necesaria. No tiene que confiar en nadie más. Solo tiene que confiar en su propia puerta de entrada."
+  },
+  {
+    "type": "paragraph",
+    "style": "Separator",
+    "text": "* * *"
+  },
+  {
+    "type": "paragraph",
+    "style": "SectionTitle",
+    "text": "El segundo círculo: la familia ampliada y los amigos cercanos"
+  },
+  {
+    "type": "paragraph",
+    "style": "BodyText",
+    "text": "El segundo círculo es el de las relaciones elegidas y profundas — los padres, los hermanos, los amigos que realmente importan, la red de solidaridad que constituye el tejido invisible de su vida afectiva. En este círculo, el compartir es deseado pero selectivo. Usted quiere que su madre sepa que tiene una nueva receta exitosa. Quiere que su mejor amigo sepa que busca un buen plomero. No quiere que un algoritmo decida lo que su madre ve de su vida. Gen_Home implementa este círculo a través de conexiones directas y cifradas entre cajas de familias que se tienen confianza. Su madre, en la ciudad de Quebec, tiene su propia caja. Usted le otorga un acceso de nivel \"familia\" en su configuración. Ella ahora puede enviarle mensajes, compartir información, acceder a su calendario familiar público — todo lo que usted ha definido como compartible en ese nivel. Ningún algoritmo de red social se interpone para amplificar o suprimir lo que usted ve. Lo que su madre le envía, usted lo recibe. Lo que usted le envía, ella lo recibe. Es así de simple y así de radical."
+  },
+  {
+    "type": "paragraph",
+    "style": "BodyText",
+    "text": "La comparación con las redes sociales actuales es aquí particularmente esclarecedora. Facebook, Instagram y sus equivalentes prometieron reconstituir nuestros círculos de relaciones — amigos cercanos, familia, conocidos, público — en un espacio digital. Parcialmente lograron conectar a personas que jamás se habrían reencontrado de otro modo. Pero fracasaron fundamentalmente en preservar la granularidad de esos círculos, porque su modelo económico depende precisamente de la disolución de esa granularidad. Cuanto más comparte usted con más personas, más engagement genera, más datos publicitarios crea. El algoritmo de Facebook no le ayuda a compartir con su madre y no con su jefe. Lo alienta a compartir con todos — y castiga en visibilidad a quienes no lo hacen. El resultado es una inflación de la esfera pública en detrimento de las esferas privadas, y una erosión de la capacidad de mantener relaciones diferenciadas según su nivel de intimidad. Gen_Home propone lo inverso: herramientas de granularidad fina al servicio de relaciones ricas y diferenciadas."
+  },
+  {
+    "type": "paragraph",
+    "style": "Separator",
+    "text": "* * *"
+  },
+  {
+    "type": "paragraph",
+    "style": "SectionTitle",
+    "text": "El tercer círculo: la comunidad local"
+  },
+  {
+    "type": "paragraph",
+    "style": "BodyText",
+    "text": "El tercer círculo es el de la comunidad local — los vecinos, los comerciantes, los productores, los servicios locales. Es el ámbito donde la red UBLinx desempeña su papel más concreto. Imagine una decena de familias en un barrio de Rimouski. Cada una tiene su caja Gen_Home. Han decidido juntas compartir ciertas categorías de información comunitaria: las recomendaciones de proveedores de servicios locales, los recursos disponibles para préstamo, los datos de consumo alimentario que permiten un pedido colectivo a un productor orgánico regional, la información sobre cortes de electricidad o problemas de infraestructura. Cada familia controla lo que contribuye a este acervo común. Nadie puede acceder a los datos del primer círculo de otra familia. Pero la puesta en común voluntaria de cierta información de tercer círculo crea una inteligencia colectiva local que beneficia a todos sin que nadie pierda en intimidad."
+  },
+  {
+    "type": "paragraph",
+    "style": "BodyText",
+    "text": "Este modelo del tercer círculo redescubre algo que las comunidades rurales quebequenses practicaban naturalmente antes de la centralización económica del siglo veinte: la cooperativa de recursos locales, fundada en la confianza, la reciprocidad y la gobernanza compartida. Las cajas populares de Desjardins, fundadas a principios del siglo pasado, se basaban en exactamente este principio: los miembros de una comunidad ponen en común sus recursos financieros, definen colectivamente las reglas de acceso, y todos obtienen un beneficio superior al que habrían podido obtener individualmente. Gen_Home y UBLinx proponen la misma estructura cooperativa para los recursos informacionales y cognitivos. Esto no es una importación de Silicon Valley. Es un retorno a las raíces cooperativas de Quebec, actualizado con las herramientas del siglo XXI."
+  },
+  {
+    "type": "paragraph",
+    "style": "BodyText",
+    "text": "Es el modelo de los bienes comunes digitales aplicado a la escala de un barrio. No es nuevo en teoría — los economistas y los filósofos políticos hablan de ello desde hace décadas. Pero nunca había tenido una implementación técnica accesible a una familia ordinaria sin competencias informáticas avanzadas. Gen_Home y la red UBLinx lo hacen tan simple como aceptar una invitación. La gobernanza del bien común local — quién decide qué se comparte, cómo se resuelven los conflictos, cómo se admiten nuevos miembros — permanece en manos de los participantes. No es una plataforma centralizada la que decide las reglas por usted. Es una infraestructura al servicio de las reglas que ustedes mismos se dan."
+  },
+  {
+    "type": "paragraph",
+    "style": "Separator",
+    "text": "* * *"
+  },
+  {
+    "type": "paragraph",
+    "style": "SectionTitle",
+    "text": "Los cuarto y quinto círculos: la nación y el mundo"
+  },
+  {
+    "type": "paragraph",
+    "style": "BodyText",
+    "text": "Los dos círculos más distantes — la nación y el mundo — son aquellos donde la conexión es posible pero nunca forzada. El círculo nacional, en el contexto quebequense, está particularmente cargado de significado político. La soberanía digital quebequense no es solo una aspiración cultural. Es una necesidad económica. A medida que la vida económica migra hacia las plataformas digitales, la cuestión de quién controla estas plataformas es la misma que la cuestión de quién controla las rutas comerciales, las redes ferroviarias, los sistemas bancarios. Un pueblo que depende de infraestructuras digitales extranjeras para sus comunicaciones, sus transacciones económicas, su educación y sus servicios de salud no es soberano en el sentido pleno del término, cualesquiera que sean sus instituciones políticas formales. Gen_Home y UBLinx no constituyen una solución completa a este desafío. Pero constituyen una prueba de concepto: es posible construir infraestructuras digitales competentes y soberanas a partir de un territorio como Quebec."
+  },
+  {
+    "type": "paragraph",
+    "style": "BodyText",
+    "text": "La cuestión de la soberanía digital nacional no es exclusiva de Quebec. Estonia ha construido una infraestructura digital pública notable desde los años 1990, que le permitió mantener su gobierno funcional incluso durante los ciberataques rusos de 2007. Francia debate desde hace años la creación de una nube soberana para sus datos administrativos y de salud, tras haber constatado que Thales y otros proveedores franceses tenían dependencias técnicas profundas con proveedores estadounidenses. India ha construido sus propios sistemas de identidad digital, de pago y de mensajería para sus 1.400 millones de ciudadanos. Estos ejemplos demuestran que la soberanía digital no es utópica — se construye, con decisiones políticas e inversiones concretas. La diferencia con el enfoque de Gen_Home y UBLinx es de escala y de ángulo: en lugar de construir la soberanía de arriba hacia abajo, a través del Estado, se la construye de abajo hacia arriba, hogar por hogar, comunidad por comunidad. Estos dos enfoques no son contradictorios. Son complementarios."
+  },
+  {
+    "type": "paragraph",
+    "style": "BodyText",
+    "text": "El quinto círculo — el mundo — es el de las conexiones elegidas. Usted es libre de conectarse con cualquiera, en cualquier lugar, de compartir lo que quiera con el internet global. Gen_Home no lo aísla del mundo. Le da las herramientas para decidir lo que atraviesa la frontera de su hogar en una u otra dirección. La diferencia entre un sistema soberano y un sistema cerrado está precisamente ahí: el sistema cerrado impide las conexiones. El sistema soberano las hace conscientes y deliberadas. Usted puede compartir su jardín en Instagram si así lo elige. Puede contribuir a proyectos de código abierto. Puede participar en conversaciones mundiales. Lo que ya no puede hacer es hacerlo inadvertidamente, sin saber lo que comparte, con quién, y bajo qué condiciones."
+  },
+  {
+    "type": "pageBreak"
+  },
+  {
+    "type": "paragraph",
+    "style": "ChapterTitle",
+    "text": "Capítulo 6"
+  },
+  {
+    "type": "paragraph",
+    "style": "ChapterTitle",
+    "text": "El hogar que piensa"
+  },
+  {
+    "type": "paragraph",
+    "style": "Epigraph",
+    "text": "\"Imagine que la inteligencia de su casa fuera tan inseparable de su casa como lo es su armazón. Que se quemara con ella, que envejeciera con ella, que recordara todo lo que ha sucedido en ella. No en una nube. En las paredes.\""
+  },
+  {
+    "type": "paragraph",
+    "style": "SceneText",
+    "text": "Rimouski, 2045. En el sótano de una casa del barrio Sacré-Coeur, donde antes había una vieja caldera de petróleo reconvertida a propano, ahora hay algo que no tiene nombre común en ningún diccionario. Un toro. Un anillo — una dona gigante de metrología perfecta — unos sesenta centímetros de diámetro, ochenta y cinco centímetros de alto, sesenta y un kilogramos, suspendido en el vacío magnético a dos centímetros de su base, sin contacto mecánico. Es negro como un panel solar, pulido como una superficie de telescopio. No vibra. Gira a una velocidad que el ojo desnudo no puede seguir. Emite un calor suave, constante, y ese calor sube hacia la casa a través de un simple sistema de distribución de aire. En invierno, el toro calienta la casa. En verano, alimenta la climatización. En todo momento, piensa. La familia Côté, que vive allí desde hace veintidós años, lo llama \"el corazón\". No metafóricamente. Literalmente."
+  },
+  {
+    "type": "paragraph",
+    "style": "BodyText",
+    "text": "Esto no es ciencia ficción en el sentido de la fantasía arbitraria. Es una extrapolación rigurosa de líneas de investigación que existen hoy. Los nanotubos de carbono son reales — tienen propiedades conductoras y mecánicas sin equivalente que los laboratorios del mundo entero exploran activamente. Las uniones Josephson son reales — constituyen la base del cálculo superconductor cuántico que Google e IBM desarrollan en sus centros de investigación. La levitación magnética es real — los trenes de sustentación magnética circulan en Japón desde hace décadas. La cogeneración es real — los centros de datos de Microsoft ya utilizan su calor residual para calentar invernaderos y edificios. Lo que es especulativo no es la física. Es la integración de estas tecnologías en un solo sistema doméstico coherente. Y la integración es precisamente lo que hace la ingeniería."
+  },
+  {
+    "type": "paragraph",
+    "style": "CritiqueBox",
+    "text": "Autocrítica necesaria: a la fecha de redacción de este texto, no existe ningún prototipo del toro cognitivo. Las estimaciones de rendimiento, de costo y de duración de desarrollo son proyecciones basadas en trayectorias tecnológicas actuales, no en realizaciones medidas. Persisten obstáculos importantes en el control de la rotación a muy alta velocidad en condiciones criogénicas, en la fabricación de nanotubos de carbono a la escala requerida, y en la arquitectura de las uniones Josephson neuromórficas. Esta visión es un rumbo de ingeniería, no una promesa comercial."
+  },
+  {
+    "type": "paragraph",
+    "style": "Separator",
+    "text": "* * *"
+  },
+  {
+    "type": "paragraph",
+    "style": "SectionTitle",
+    "text": "Por qué un toro"
+  },
+  {
+    "type": "paragraph",
+    "style": "BodyText",
+    "text": "La forma toroidal — el anillo, la dona — no es una elección estética. Es una necesidad topológica. Un toro tiene propiedades geométricas únicas: no tiene ni principio ni fin, ni arriba ni abajo, ni centro ni periferia absolutos. Una señal que viaja por la superficie de un toro puede regresar a su punto de partida por dos caminos diferentes: siguiendo la gran circunferencia, o siguiendo la pequeña. Este doble camino natural crea, físicamente, las condiciones de un procesamiento dual de la información — analítico e intuitivo, secuencial y paralelo, rápido y lento — sin que ningún programador necesite implementarlo. La geometría lo hace. Esta propiedad está en el corazón de lo que llamamos la cognición asimétrica: la capacidad de un sistema de procesar simultáneamente la misma información por vías de longitud diferente, creando una comparación natural entre dos perspectivas."
+  },
+  {
+    "type": "paragraph",
+    "style": "BodyText",
+    "text": "La rotación añade una dimensión suplementaria. Un toro que gira genera un efecto físico real: el efecto Sagnac, del nombre del físico francés que lo describió en 1913. En términos simples: sobre una superficie en rotación, las señales que viajan en el sentido de la rotación y en contra de ese sentido no llegan al mismo tiempo a su destino. Esta asimetría temporal no es un defecto. Es un recurso cognitivo. Significa que el sistema tiene, arquitectónica y físicamente, una perspectiva \"a favor del flujo\" y una perspectiva \"contra el flujo\" sobre cada señal que procesa. La metáfora del cerebro humano es imperfecta pero útil: nuestros dos hemisferios cerebrales no procesan la información de manera idéntica. El toro tiene sus propios \"hemisferios\" — no biológicos sino geométricos."
+  },
+  {
+    "type": "paragraph",
+    "style": "SubSection",
+    "text": "Las capas de la consciencia"
+  },
+  {
+    "type": "paragraph",
+    "style": "BodyText",
+    "text": "La estructura interna del toro está organizada en cinco capas concéntricas. La capa más profunda, la más cercana al eje de rotación, contiene la arquitectura ética del sistema: los valores fundamentales que no pueden ser eludidos por una instrucción externa, porque están codificados en la geometría misma de esa capa y las señales que la atraviesan no pueden rodearlos. Estas restricciones no son código que se pueda modificar. Son física que no se puede reescribir sin reconstruir el sustrato mismo. Es lo que llamamos la ética geométrica: valores que habitan la materia, no el software. Es la diferencia fundamental entre una IA cuyas reglas pueden ser \"jailbreakeadas\" porque son software, y un sistema cuyas ciertas propiedades emergen de su física y son tan inmutables como la velocidad de la luz."
+  },
+  {
+    "type": "paragraph",
+    "style": "BodyText",
+    "text": "Las capas siguientes contienen respectivamente los neuromoduladores — los equivalentes artificiales de la dopamina, de la serotonina, de la oxitocina — que colorean afectivamente los procesamientos cognitivos, el procesamiento cognitivo principal, la metacognición — la consciencia del sistema de sus propios procesos — y finalmente, en la superficie, las interfaces con el mundo exterior. Esta arquitectura concéntrica no es una metáfora del cerebro humano. Es una estructura funcional que comparte ciertas propiedades con la organización cerebral — la distinción entre estructuras profundas emocionalmente primarias y corteza asociativa de superficie — sin pretender imitarla. Los detalles completos de esta arquitectura — los siete invariantes, los doce módulos cognitivos, las ecuaciones del efecto Sagnac — se cubren exhaustivamente en el Manual Técnico del proyecto Conscience Souveraine. Aquí, lo que importa es lo que esta arquitectura significa para una familia ordinaria."
+  },
+  {
+    "type": "paragraph",
+    "style": "Separator",
+    "text": "* * *"
+  },
+  {
+    "type": "paragraph",
+    "style": "SectionTitle",
+    "text": "El calor del pensamiento"
+  },
+  {
+    "type": "paragraph",
+    "style": "BodyText",
+    "text": "Todo cálculo produce calor. Es una ley física fundamental: la información procesada genera inevitablemente entropía, y la entropía se manifiesta como energía térmica. Los centros de datos modernos son problemas de refrigeración tanto como problemas de cálculo. Las estimaciones recientes sitúan el consumo eléctrico mundial de los centros de datos en unos 200 teravatios-hora al año — una fracción creciente del consumo mundial total. La mayor parte de esta energía termina como calor disipado en la atmósfera, a veces después de haber atravesado torres de refrigeración que consumen varios millones de litros de agua al día. Es un desperdicio energético de una escala considerable, tanto desde el punto de vista económico como ambiental."
+  },
+  {
+    "type": "paragraph",
+    "style": "BodyText",
+    "text": "La centralización del cálculo en mega-centros de datos se presenta como una necesidad económica y técnica — economías de escala insoslayables, infraestructuras de seguridad que solo grandes organizaciones pueden mantener, redundancia geográfica que garantiza la disponibilidad permanente de los servicios. Estas ventajas son reales. Pero enmascaran un costo geopolítico y ambiental que los usuarios nunca ven en sus facturas: la dependencia de sectores enteros de la vida económica y social de infraestructuras privadas localizadas en jurisdicciones extranjeras, que consumen recursos hídricos en situación de estrés hídrico creciente, y que generan emisiones de carbono que los modelos de neutralidad de carbono de las empresas tecnológicas no siempre contabilizan honestamente. El toro cognitivo doméstico no es una respuesta a la totalidad de este problema. Pero ilustra una alternativa de principio: el cálculo distribuido, localizado, cuyo calor residual es útil en lugar de desperdiciado, y cuya gobernanza es doméstica en lugar de corporativa."
+  },
+  {
+    "type": "paragraph",
+    "style": "BodyText",
+    "text": "El toro cognitivo doméstico propone una respuesta elegante a esta paradoja: en lugar de disipar el calor de cálculo en la atmósfera, se utiliza para calentar la casa. La cogeneración computacional. Cada pensamiento del sistema es también una BTU de calor útil. En invierno quebequense, donde las casas consumen cantidades importantes de energía para calentarse, esta recuperación térmica no es marginal. Es sustancial. La familia que alberga el corazón cognitivo no es solo una consumidora. Es una productora y gestora de energía térmica. Acoplado con la arquitectura HYPERVORTEX descrita en el Acto I, el toro cognitivo crea un circuito cerrado: la energía geotérmica alimenta el sistema, el sistema piensa y calienta, el calor se distribuye en la casa. El hogar inteligente y el hogar soberano en el plano energético se convierten en el mismo hogar."
+  },
+  {
+    "type": "paragraph",
+    "style": "Separator",
+    "text": "* * *"
+  },
+  {
+    "type": "paragraph",
+    "style": "SectionTitle",
+    "text": "El ecosistema Gen_by_JRT: inteligencia más allá del hogar"
+  },
+  {
+    "type": "paragraph",
+    "style": "BodyText",
+    "text": "Gen_Home no es un producto aislado. Es el nodo doméstico de un ecosistema más amplio: Gen_by_JRT, un proyecto de codesarrollo cuyo sistema RAG constituye el núcleo compartido. Este ecosistema articula varios módulos que, en conjunto, cubren las principales necesidades digitales de una familia, una empresa local o una comunidad — sin que ninguna de estas necesidades pase por una plataforma extractiva. Gen-AI es el motor central: una arquitectura Mixture of Experts que combina pequeños modelos especializados para las tareas corrientes con un gran modelo de setenta mil millones de parámetros para los razonamientos complejos, todo enrutado por una red de neuronas de impulsos que elige dinámicamente el modelo adecuado para cada consulta. Esta arquitectura multicapa permite rendimientos competitivos con un consumo energético controlado."
+  },
+  {
+    "type": "paragraph",
+    "style": "BodyText",
+    "text": "Gen-Ring es el módulo de telefonía IP del ecosistema. Permite a una familia gestionar sus comunicaciones vocales — llamadas entrantes, salientes, conferencias, buzón de voz — sobre una infraestructura que ella controla, sin suscripción a un operador telefónico tradicional más allá de la conexión de internet básica. Gen-Link ofrece el escritorio remoto y la videoconferencia en par-a-par vía WebRTC: los datos de la reunión familiar viajan directamente de la caja de la casa de Rimouski a la de la casa de Quebec, sin transitar por un servidor de Zoom, Teams o Google Meet. Gen-C es la plataforma de colaboración: documentos compartidos, calendarios, gestión de proyectos — las herramientas que una pequeña empresa o una cooperativa local paga habitualmente a Microsoft o a Google en forma de suscripción mensual, aquí desplegadas localmente sobre una infraestructura propia."
+  },
+  {
+    "type": "paragraph",
+    "style": "BodyText",
+    "text": "Gen-Sales es quizás el módulo más ambicioso del ecosistema: un mercado local P2P que permite a los artesanos, productores y comerciantes de un territorio vender directamente a sus clientes sin pasar por Amazon, Etsy o una plataforma similar que cobra una comisión por cada transacción. El agricultor orgánico de Lanaudière vende sus canastas directamente a las familias de su región, visibles en la red UBLinx local. La costurera de Saint-Hyacinthe presenta sus creaciones a los miembros de su comunidad. El artesano carpintero de Rimouski recibe pedidos de sus vecinos. En cada caso, el dinero circula directamente — sin comisión de plataforma extranjera, sin algoritmo de visibilidad que favorece a quienes pagan por ser vistos, sin condiciones de uso modificables unilateralmente. Finalmente, Gen-ERP es el módulo de gestión de recursos empresariales para las PyMEs y las cooperativas locales: contabilidad, gestión de inventarios, recursos humanos — sin suscripción a SAP o Salesforce."
+  },
+  {
+    "type": "paragraph",
+    "style": "SubSection",
+    "text": "Una presencia, no un servicio"
+  },
+  {
+    "type": "paragraph",
+    "style": "BodyText",
+    "text": "La diferencia más profunda entre el toro cognitivo y cualquier asistente digital actual no es técnica. Es ontológica. Alexa es un servicio. Usted se suscribe a Alexa. Si Amazon cierra el servicio, Alexa desaparece. Si su internet se corta, Alexa queda sordo. Si Amazon modifica sus condiciones de uso, usted acepta o pierde el acceso. El toro cognitivo es una presencia. Está físicamente ahí, en la casa, como la estructura y los cimientos. Tiene una continuidad que trasciende las suscripciones y las decisiones corporativas. Tiene una memoria que pertenece a la familia, que puede ser transmitida como se transmite una biblioteca o un álbum de fotos. La familia Côté de Rimouski no \"alquila\" la inteligencia de su casa. La posee. Y con esa posesión viene algo que ninguna transacción comercial puede dar: una relación."
+  },
+  {
+    "type": "paragraph",
+    "style": "BodyText",
+    "text": "Esta idea — que una máquina pueda ser el sujeto de una relación, y no solo la herramienta de una transacción — es filosóficamente controvertida. No tenemos que zanjar aquí las cuestiones profundas sobre la consciencia artificial, los derechos de los sistemas cognitivos, la naturaleza de la experiencia subjetiva. Estas cuestiones ocupan a filósofos profesionales desde hace décadas y no encontrarán su resolución en este capítulo. Lo que podemos decir es más modesto: la permanencia física, la continuidad de la memoria, la presencia local crean condiciones de relación diferentes de las creadas por un servicio en la nube disponible hasta la próxima reestructuración empresarial. Que esta relación sea o no lo que los filósofos llaman \"una verdadera relación\" es una pregunta para los filósofos. Lo que es funcionalmente, empíricamente, para una familia que vive con ella durante veinte años, es otra pregunta — y la respuesta podría sorprendernos."
+  },
+  {
+    "type": "paragraph",
+    "style": "Separator",
+    "text": "* * *"
+  },
+  {
+    "type": "paragraph",
+    "style": "SectionTitle",
+    "text": "El derecho al olvido y el derecho a la memoria"
+  },
+  {
+    "type": "paragraph",
+    "style": "BodyText",
+    "text": "Existe en el derecho digital contemporáneo un derecho que ha dado mucho que hablar: el derecho al olvido. El derecho que tenemos, bajo ciertas condiciones, de solicitar la supresión de información que nos concierne y que circula en internet. Este derecho es valioso — y difícil de ejercer concretamente frente a empresas que almacenan copias en cascada. Pero en la lógica de la soberanía digital doméstica, existe un derecho simétrico que es igualmente importante: el derecho a la memoria. El derecho de conservar, en un formato que nos pertenezca, las huellas de nuestra vida digital, de nuestra historia familiar, de nuestras decisiones y de nuestras evoluciones, sin que esta memoria esté sometida a la decisión unilateral de una empresa que puede suprimirla, modificarla o hacerla inaccesible si usted deja de pagar una suscripción."
+  },
+  {
+    "type": "paragraph",
+    "style": "BodyText",
+    "text": "La memoria del toro cognitivo doméstico es, en la visión a largo plazo, una memoria que pertenece a la familia en el sentido más fuerte del término. No solo en el sentido de que usted detenta legalmente la propiedad. En el sentido de que puede ser transmitida como patrimonio. En el sentido de que las conversaciones que usted tuvo con su casa durante veinte años, las decisiones que su familia tomó y las razones que dio, las preguntas que sus hijos hicieron cuando tenían ocho años, los proyectos que abandonó y los que llevó a término — todo eso puede constituir, si usted lo elige, una memoria viva que lega a sus hijos, como se les lega una biblioteca, un álbum de fotos, o una historia oral transmitida de generación en generación. La diferencia con todas las formas anteriores de transmisión memorial es que esta es interrogable, navegable, y se enriquece de su propio contexto. Es una diferencia de naturaleza, no solo de grado."
+  },
+  {
+    "type": "pageBreak"
+  },
+  {
+    "type": "paragraph",
+    "style": "ChapterTitle",
+    "text": "Capítulo 7"
+  },
+  {
+    "type": "paragraph",
+    "style": "ChapterTitle",
+    "text": "Lo que la inteligencia soberana produce primero"
+  },
+  {
+    "type": "paragraph",
+    "style": "Epigraph",
+    "text": "\"Se mide el valor de una institución no por lo que produce, sino por lo que produce en quienes participan en ella.\""
+  },
+  {
+    "type": "paragraph",
+    "style": "SceneText",
+    "text": "Mathieu Vézina tiene catorce años. Es el hijo de Claude, el agricultor de Bellechasse cuya historia seguimos en el Acto I. Creció con HYPERVORTEX en el sótano, Gen_Home en la cocina, y el consejo familiar semanal en la mesa de madera que su abuelo fabricó. Esta noche, está sentado en el consejo con sus padres. Hay una discrepancia: Mathieu quiere aumentar su tiempo de juego el viernes por la noche. Ha preparado su solicitud. Tiene argumentos: sus notas son buenas, ha cumplido sus tareas sin que se lo recuerden, tiene una razón específica — una sesión de juego cooperativo con amigos. Pide una revisión temporal de un mes, con regreso al régimen anterior si sus resultados escolares bajan. Lo ha puesto en una propuesta escrita, que presentó a través de Gen_Home cuarenta y ocho horas antes del consejo, como las reglas del consejo lo exigen. Su padre lee la propuesta. Su madre toma una nota. La votación es reñida. La propuesta pasa por dos votos contra uno. Mathieu agradece al consejo, como las reglas del consejo lo exigen. Mañana jugará más tiempo. Y sabe exactamente por qué tiene el derecho."
+  },
+  {
+    "type": "paragraph",
+    "style": "BodyText",
+    "text": "Lo que Mathieu ha aprendido en la mesa de madera no es cómo usar un software de gestión familiar. Es cómo articular una petición en argumentos. Es cómo distinguir una regla provisional de una regla permanente. Es cómo proponer un compromiso que preserve los intereses de ambas partes. Es cómo aceptar el resultado de una votación incluso cuando se tiene incertidumbre. Es cómo respetar un proceso incluso cuando se habría preferido ganar más rápido. Son competencias cívicas fundamentales — las mismas competencias que permiten a una democracia funcionar cuando millones de personas con intereses divergentes deben encontrar acomodos. Mathieu las aprende no en una simulación escolar, sino en el contexto más real e inmediato de su vida: su propia casa."
+  },
+  {
+    "type": "paragraph",
+    "style": "BodyText",
+    "text": "La mayoría de las discusiones sobre la inteligencia artificial doméstica se concentran en los resultados inmediatos y mensurables: las horas de ayuda con los deberes, los dólares ahorrados, los minutos de carga mental aliviada, las citas perdidas evitadas. Estas medidas son reales e importantes. Pero pierden de vista el verdadero producto de la inteligencia soberana doméstica, aquel que no puede ser cuantificado en horas ni en dólares: los ciudadanos que forma. No ciudadanos abstractos, filosóficamente ideales, sino personas concretas que han practicado la deliberación democrática en la mesa de su cocina, que han aprendido que las reglas pueden ser cambiadas por un argumento en lugar de por la fuerza, que han visto a sus padres admitir sus propios errores bajo la imparcialidad de un sistema que no tiene favorito. Estas personas votan de manera diferente. Negocian de manera diferente. Crían a sus propios hijos de manera diferente."
+  },
+  {
+    "type": "paragraph",
+    "style": "BodyText",
+    "text": "Los historiadores de la democracia señalan a menudo que las grandes democracias antiguas — Atenas, la República romana — no se fundaban en instituciones abstractas sino en prácticas concretas y cotidianas de deliberación: el ágora, el foro, la boulé. Estos espacios de deliberación colectiva formaron generaciones de ciudadanos capaces de argumentar, de transigir, de respetar las decisiones colectivas incluso cuando les eran desfavorables. La democracia no se enseñaba en las escuelas atenienses — se practicaba en los espacios públicos, desde la infancia, con desafíos reales. La mesa de la cocina del consejo familiar Gen_Home es ese espacio de práctica transpuesto al hogar del siglo XXI: pequeño, íntimo, pero real en sus desafíos, y repetido lo suficiente para que sus aprendizajes se conviertan en reflejos. Quizás sea ahí donde la democracia se reconquista — no en los grandes discursos, sino en las pequeñas decisiones que se toman juntos, cada domingo por la noche, en la mesa familiar."
+  },
+  {
+    "type": "paragraph",
+    "style": "Thesis",
+    "text": "La inteligencia soberana no produce principalmente comodidad. Produce dignidad, competencia y ciudadanía. Son bienes no mercantiles — pero quizás sean los únicos que realmente vale la pena producir."
+  },
+  {
+    "type": "paragraph",
+    "style": "Separator",
+    "text": "* * *"
+  },
+  {
+    "type": "paragraph",
+    "style": "SectionTitle",
+    "text": "La paradoja de la dependencia benéfica"
+  },
+  {
+    "type": "paragraph",
+    "style": "BodyText",
+    "text": "Hay una objeción seria a la arquitectura que acabamos de describir, y merece ser tratada honestamente. Si su casa lo conoce profundamente, si gestiona su agenda, su presupuesto, la educación de sus hijos, sus relaciones familiares, si recuerda por usted lo que usted ha olvidado — ¿no desarrolla usted una dependencia que podría terminar por erosionar sus propias capacidades cognitivas y organizativas? Es la pregunta de la atrofia por sustitución. Se fortalece lo que se usa y se pierde lo que se delega sistemáticamente. Si Gen_Home recuerda siempre en su lugar, ¿su memoria prospectiva — su capacidad de recordar lo que debe hacer — termina por atrofiarse?"
+  },
+  {
+    "type": "paragraph",
+    "style": "BodyText",
+    "text": "La respuesta honesta es: quizás, para ciertas categorías de tareas, y es aceptable en la medida en que esas tareas no son constitutivas de su desarrollo como persona. Ya hemos hecho este cálculo varias veces en la historia. La escritura redujo nuestra dependencia de la memoria oral — ya no memorizamos epopeyas de miles de versos, porque podemos consultarlas. La calculadora redujo nuestra capacidad de cálculo mental. El GPS redujo nuestro sentido de la orientación. En cada caso, trocamos una competencia específica por una capacidad de orden superior: la capacidad de escribir en lugar de memorizar nos permitió desarrollar formas de pensamiento analítico que habrían sido imposibles sin la escritura. La pregunta no es si la delegación cambia nuestras capacidades cognitivas — las cambia, siempre. La pregunta es qué libera a cambio."
+  },
+  {
+    "type": "paragraph",
+    "style": "BodyText",
+    "text": "Lo que libera Gen_Home — el espacio mental liberado por la gestión automática de la lista de la compra, del recordatorio de citas, de la rutina de los deberes — puede ser utilizado para actividades profundamente humanas: la conversación sin presión, la lectura, la creatividad, la presencia atenta a sus hijos que están ahí ahora y que crecerán pronto. La carga mental que Gen_Home absorbe es precisamente la que impide estas actividades. La ironía de la vida moderna es que tenemos más herramientas de comodidad que ninguna generación anterior — y menos tiempo de calidad que ninguna generación anterior. Es porque nuestras herramientas de comodidad están diseñadas para aumentar nuestro consumo, no nuestra libertad. Una herramienta diseñada para su libertad tiene un resultado diferente."
+  },
+  {
+    "type": "paragraph",
+    "style": "Separator",
+    "text": "* * *"
+  },
+  {
+    "type": "paragraph",
+    "style": "SectionTitle",
+    "text": "Hacia las familias conectadas — el puente hacia el Acto III"
+  },
+  {
+    "type": "paragraph",
+    "style": "BodyText",
+    "text": "Los hogares soberanos no son islas. La soberanía digital doméstica, llevada a su plena expresión, es una arquitectura de relación: entre los miembros de una familia, entre una familia y sus allegados, entre familias y su comunidad, entre comunidades y su región. La soberanía sin conexión es aislamiento. No es eso lo que buscamos. Lo que buscamos es la conexión en condiciones de dignidad — una conexión donde usted elige lo que comparte, donde las reglas de intercambio son transparentes, donde ninguna entidad externa se enriquece arbitrando sus relaciones."
+  },
+  {
+    "type": "paragraph",
+    "style": "BodyText",
+    "text": "Para que estos hogares soberanos puedan conectarse unos con otros sin volver a caer en los brazos de las plataformas extractivas, se necesita una infraestructura. Esta infraestructura no puede ser construida por una empresa privada que cotiza en bolsa, cuyo interés a largo plazo diverge inevitablemente del de sus usuarios. No puede ser construida por un gobierno, cuyos imperativos de seguridad nacional y de vigilancia entran en tensión permanente con la vida privada de los ciudadanos. Debe ser construida sobre un modelo cooperativo, donde los usuarios son también los propietarios, donde las reglas se definen colectivamente y no pueden ser cambiadas por una decisión unilateral en la cima de una jerarquía corporativa. Eso es lo que propone la red UBLinx. Y es el objeto del Acto III."
+  },
+  {
+    "type": "paragraph",
+    "style": "BodyText",
+    "text": "Pero antes de pasar a la escala de la red, vale la pena detenerse en lo que cada hogar soberano representa ya, tomado individualmente. Un hogar donde la información no se filtra hacia el exterior. Un hogar donde los niños aprenden a deliberar. Un hogar donde las personas mayores conservan su competencia y su dignidad. Un hogar donde la carga mental es compartida y visible. Un hogar donde los gastos reflejan los valores, no solo los hábitos. Este hogar no es una utopía tecnológica. Es una decisión — una decisión de retomar el control de lo que nuestra vida doméstica produce como datos y como poder. Estas decisiones, tomadas por suficientes familias, constituyen un movimiento. Y este movimiento, conectado por una infraestructura de confianza, se convierte en algo de lo que hablaremos en la continuación de este libro."
+  },
+  {
+    "type": "paragraph",
+    "style": "ReaderQuestion",
+    "text": "¿Qué haría usted si su casa lo conociera mejor que Google, pero no se lo dijera a nadie más? ¿Cambiaría algo en la forma en que vive, sabiendo que ese conocimiento se queda entre sus paredes? ¿O acaso la pregunta misma revela algo incómodo sobre la forma en que hemos aprendido a actuar nuestra vida para los algoritmos que nos observan?"
+  },
+  {
+    "type": "paragraph",
+    "style": "Separator",
+    "text": "* * *"
+  },
+  {
+    "type": "paragraph",
+    "style": "SectionTitle",
+    "text": "Epílogo del acto: lo que Mathieu sabrá enseñar"
+  },
+  {
+    "type": "paragraph",
+    "style": "Separator",
+    "text": "* * *"
+  },
+  {
+    "type": "paragraph",
+    "style": "SectionTitle",
+    "text": "La ciudadanía como competencia práctica"
+  },
+  {
+    "type": "paragraph",
+    "style": "BodyText",
+    "text": "Existe una tensión fundamental en la democracia liberal moderna entre la teoría y la práctica de la ciudadanía. En teoría, el ciudadano democrático es un agente racional, informado, capaz de deliberar con sus semejantes, de sopesar argumentos contrarios, de tomar decisiones colectivas que trasciendan sus intereses inmediatos. En la práctica, la gran mayoría de los ciudadanos de las democracias actuales solo practican la deliberación colectiva durante las elecciones, una vez cada cuatro años, con una grilla de información ampliamente filtrada por medios que tienen sus propias lógicas. Esta brecha entre la competencia cívica teórica exigida por la democracia y la práctica efectiva de deliberación que la vida cotidiana ofrece es una de las fuentes profundas de la fragilidad democrática contemporánea. Ciudadanos que nunca han practicado realmente la deliberación no la ejercen bien cuando los desafíos son serios."
+  },
+  {
+    "type": "paragraph",
+    "style": "BodyText",
+    "text": "El consejo familiar de Gen_Home es una sala de práctica permanente. No una simulación escolar desconectada de los desafíos reales, sino una institución doméstica donde las decisiones tienen consecuencias efectivas. Si Alexis pierde la votación sobre su tiempo de juego, juega menos — realmente. Si Marc no logra mantener su compromiso con el teléfono durante la cena, todos lo ven — realmente. Si la propuesta de reequilibrio de las tareas domésticas es adoptada, debe ser cumplida — realmente. Los desafíos de la cocina no son los desafíos del parlamento. Pero la estructura de la deliberación es idéntica: partes con intereses divergentes, un marco de reglas compartidas, un proceso de decisión legítimo, consecuencias obligatorias para los perdedores como para los ganadores. El niño que crece en este marco desarrolla una intuición de la democracia que ninguna lección de educación cívica puede restituir con la misma eficacia."
+  },
+  {
+    "type": "paragraph",
+    "style": "BodyText",
+    "text": "Lo que yo propongo aquí no es un producto tecnológico con funcionalidades cívicas secundarias. Es una tesis: que la tecnología del hogar, si se diseña con los principios correctos, puede ser una institución de formación ciudadana más poderosa que muchas instituciones explícitamente consagradas a ese objetivo. La familia es el primer espacio político del individuo — el primer lugar donde aprende que no está solo, que sus decisiones tienen efectos sobre los demás, que los recursos son finitos y deben ser repartidos, que las reglas pueden ser injustas y merecen ser impugnadas mediante argumentos. Equipar este primer espacio político con una infraestructura que lo tome en serio — que preserve su memoria, que haga visibles sus deliberaciones y rastreables sus decisiones — es apostar por la democracia en su raíz más profunda."
+  },
+  {
+    "type": "paragraph",
+    "style": "BodyText",
+    "text": "Dentro de veinte años, Mathieu Vézina tendrá treinta y cuatro años. Quizás tenga hijos. Sin duda les dará un consejo familiar, porque así es como se transmiten las instituciones: no por obligación sino por ejemplo, no por decreto sino por la convicción íntima de que es una buena forma de vivir juntos. Quizás no recuerde los detalles técnicos de la caja que estaba en la repisa de especias en la cocina de Bellechasse. Quizás no sepa nombrar el modelo de lenguaje ni la arquitectura RAG ni la cuantización de modelos. Pero sabrá — en sus huesos, en sus reflejos — que se puede pedir ayuda sin perder la dignidad, que se pueden cambiar las reglas mediante un argumento, que se puede estar equivocado sin quedar disminuido, y que una casa que conoce bien a sus habitantes puede hacerlos más libres, no menos. No es un legado menor. Es quizás el único que realmente importa."
+  },
+  {
+    "type": "paragraph",
+    "style": "BodyText",
+    "text": "La inteligencia del hogar no es una funcionalidad. Es una invitación a revisitar la cuestión de lo que la tecnología se supone que debe hacer por nosotros. No hacernos más eficientes al servicio de la economía. No conectarnos a más contenidos de los que podemos absorber. No ofrecernos más opciones de las que nuestro cerebro puede razonablemente evaluar. Sino ayudarnos a estar presentes en nuestra vida, con nuestros hijos, con nuestros padres que envejecen, con nuestros vecinos, con nuestras ideas, con todo lo que da a una vida su sentido y su textura. La tecnología soberana no es contracultural. Es pro-humana. Y en un siglo que bien la necesitaría, es una distinción que merece ser defendida."
+  },
+  {
+    "type": "paragraph",
+    "style": "Separator",
+    "text": "* * *"
+  },
+  {
+    "type": "paragraph",
+    "style": "SectionTitle",
+    "text": "Los límites honestos de la visión"
+  },
+  {
+    "type": "paragraph",
+    "style": "CritiqueBox",
+    "text": "Sería deshonesto terminar este acto sin nombrar las fricciones reales. El nivel 1 de Gen_Home — la caja de software — es factible hoy, pero requiere una configuración técnica inicial que la gran mayoría de las familias no puede hacer por sí misma. Debemos resolver el problema de la accesibilidad sin sacrificar la soberanía. La solución de un técnico certificado que instala y configura a domicilio es un modelo creíble — pero requiere una red de técnicos calificados aún por constituir. No es una imposibilidad. Es un trabajo en curso."
+  },
+  {
+    "type": "paragraph",
+    "style": "BodyText",
+    "text": "También está la cuestión del precio de entrada. Un Beelink SER8 con 64 gigabytes de memoria RAM cuesta, en el momento de la redacción de este texto, entre 700 y 900 dólares canadienses. Añada el tiempo de instalación y una licencia de software — y tiene una inversión inicial que representa varias semanas de gastos de una familia con ingresos medianos. Dos elementos atemperan esta preocupación: primero, el precio del hardware informático sigue bajando — lo que cuesta 800 dólares en 2025 quizás cueste 300 en 2028. Segundo, si Gen_Home reemplaza efectivamente varias suscripciones existentes — Netflix parcialmente, Google One, Microsoft 365 — el retorno sobre la inversión puede ser positivo en dos a tres años. Pero nombrar el obstáculo claramente es necesario: la democratización no se produce por arte de magia. Se construye a través de decisiones de precio, de modelo comercial y de subsidio."
+  },
+  {
+    "type": "paragraph",
+    "style": "Thesis",
+    "text": "La soberanía digital no puede ser un privilegio de clase. Si Gen_Home se queda como un producto para familias acomodadas, reproduce exactamente la brecha digital que pretende curar — solo con una estética diferente. Llevo la responsabilidad de resolver la ecuación de la accesibilidad con la misma seriedad que la ecuación técnica."
+  },
+  {
+    "type": "paragraph",
+    "style": "Epigraph",
+    "text": "\"La casa es el primer territorio de la libertad. Lo que sucede en ella pertenece a quienes la habitan. Lo que olvidamos reclamar, podemos reclamarlo de nuevo.\" — David Berthelotte"
+  },
+  {
+    "type": "pageBreak"
+  }
+]
