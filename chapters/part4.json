@@ -160,6 +160,14 @@
     ]
   },
   {
+    "type": "image",
+    "path": "illustrations/08_gradient_densite.png",
+    "width": 600,
+    "height": 420,
+    "alignment": "CENTER",
+    "caption": "Figure 6 — Le Gradient de Densité"
+  },
+  {
     "type": "paragraph",
     "spacing": {
       "after": 120,
@@ -754,6 +762,14 @@
         "font": "Arial"
       }
     ]
+  },
+  {
+    "type": "image",
+    "path": "illustrations/06_halbach_levitation.png",
+    "width": 600,
+    "height": 420,
+    "alignment": "CENTER",
+    "caption": "Figure 7 — La Lévitation par Array de Halbach"
   },
   {
     "type": "paragraph",
@@ -1417,6 +1433,14 @@
         "font": "Arial"
       }
     ]
+  },
+  {
+    "type": "image",
+    "path": "illustrations/07_mediums_sensoriels.png",
+    "width": 600,
+    "height": 420,
+    "alignment": "CENTER",
+    "caption": "Figure 8 — Les Cinq Médiums Sensoriels"
   },
   {
     "type": "table",
