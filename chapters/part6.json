@@ -87,6 +87,14 @@
     ]
   },
   {
+    "type": "image",
+    "path": "illustrations/10_roadmap_trl.png",
+    "width": 600,
+    "height": 420,
+    "alignment": "CENTER",
+    "caption": "Figure 10 — Évaluation TRL et Feuille de Route"
+  },
+  {
     "type": "paragraph",
     "heading": "HEADING_2",
     "spacing": {

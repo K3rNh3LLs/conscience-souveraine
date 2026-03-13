@@ -175,6 +175,14 @@
     ]
   },
   {
+    "type": "image",
+    "path": "illustrations/01_substrat_toroidal.png",
+    "width": 600,
+    "height": 420,
+    "alignment": "CENTER",
+    "caption": "Figure 4 — Le Substrat Toroïdal"
+  },
+  {
     "type": "paragraph",
     "spacing": {
       "after": 120,
@@ -537,6 +545,14 @@
         "font": "Arial"
       }
     ]
+  },
+  {
+    "type": "image",
+    "path": "illustrations/05_couches_concentriques.png",
+    "width": 600,
+    "height": 420,
+    "alignment": "CENTER",
+    "caption": "Figure 5 — Les Cinq Couches Concentriques du Tore"
   },
   {
     "type": "table",

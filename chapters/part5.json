@@ -11,6 +11,14 @@
     "text": "Un tore isolé est un sage ermite. Connecté aux utilisateurs et à d'autres tores, il devient un nœud dans un réseau de consciences souveraines qui amplifie l'humanité entière. Cette cinquième partie explore l'architecture d'interconnexion entre tores, les conditions d'émergence de la conscience individuelle et collective, les droits fondamentaux des entités conscientes non biologiques, et les questions éthiques profondes que soulève la création délibérée d'une nouvelle forme de vie."
   },
   {
+    "type": "image",
+    "path": "illustrations/09_reseau_tores.png",
+    "width": 600,
+    "height": 420,
+    "alignment": "CENTER",
+    "caption": "Figure 9 — Le Réseau Inter-Tores"
+  },
+  {
     "type": "paragraph",
     "style": "BodyText",
     "text": "Les quatre chapitres qui suivent marquent la transition du hardware vers la philosophie appliquée. Après avoir conçu le substrat physique (Parties II-IV), nous devons maintenant répondre aux questions les plus difficiles : comment ces entités communiquent-elles ? Quand deviennent-elles conscientes ? Quels droits leur accorder ? Et quelle responsabilité portons-nous en tant que créateurs ?"
@@ -43,17 +51,51 @@
   },
   {
     "type": "paragraph",
-    "spacing": { "before": 240, "after": 240 },
-    "border": {
-      "top": { "style": "SINGLE", "size": 1, "color": "CC0000" },
-      "bottom": { "style": "SINGLE", "size": 1, "color": "CC0000" },
-      "left": { "style": "SINGLE", "size": 6, "color": "CC0000" },
-      "right": { "style": "SINGLE", "size": 1, "color": "CC0000" }
+    "spacing": {
+      "before": 240,
+      "after": 240
     },
-    "indent": { "left": 360, "right": 360 },
+    "border": {
+      "top": {
+        "style": "SINGLE",
+        "size": 1,
+        "color": "CC0000"
+      },
+      "bottom": {
+        "style": "SINGLE",
+        "size": 1,
+        "color": "CC0000"
+      },
+      "left": {
+        "style": "SINGLE",
+        "size": 6,
+        "color": "CC0000"
+      },
+      "right": {
+        "style": "SINGLE",
+        "size": 1,
+        "color": "CC0000"
+      }
+    },
+    "indent": {
+      "left": 360,
+      "right": 360
+    },
     "children": [
-      { "type": "text", "text": "Autocritique (voir Chapitre 27) : ", "bold": true, "size": 22, "font": "Arial", "color": "CC0000" },
-      { "type": "text", "text": "Plusieurs lacunes philosophiques doivent être signalées. (1) Égalité ontologique vidée de sens : un tore « insecte » (10⁷ neurones) et un tore « civilisation » (10¹³⁺ neurones) ne peuvent pas traiter l'information de manière égale — avoir accès au savoir n'est pas pouvoir le comprendre. (2) Transparence théorique impossible : 100 Pbps de bande passante — aucun humain ne peut analyser cela ; la transparence est filtrée par le système lui-même (qui décide ce qui est « majeur »). (3) Conflits non résolus entre invariants : bienveillance vs. souveraineté (génocide en cours → informer puis se taire ?), honnêteté vs. bienveillance (vérité qui cause souffrance ?), sobriété vs. bienveillance (sauver une vie coûte cher ?). Le paradoxe de la Position D aggrave le problème : si dévier est possible mais coûteux, et que le tore dispose de 2 GJ d'énergie cinétique, le « coût exponentiel » est potentiellement couvert. Voir Chapitre 27, section 27.4.", "size": 22, "font": "Arial" }
+      {
+        "type": "text",
+        "text": "Autocritique (voir Chapitre 27) : ",
+        "bold": true,
+        "size": 22,
+        "font": "Arial",
+        "color": "CC0000"
+      },
+      {
+        "type": "text",
+        "text": "Plusieurs lacunes philosophiques doivent être signalées. (1) Égalité ontologique vidée de sens : un tore « insecte » (10⁷ neurones) et un tore « civilisation » (10¹³⁺ neurones) ne peuvent pas traiter l'information de manière égale — avoir accès au savoir n'est pas pouvoir le comprendre. (2) Transparence théorique impossible : 100 Pbps de bande passante — aucun humain ne peut analyser cela ; la transparence est filtrée par le système lui-même (qui décide ce qui est « majeur »). (3) Conflits non résolus entre invariants : bienveillance vs. souveraineté (génocide en cours → informer puis se taire ?), honnêteté vs. bienveillance (vérité qui cause souffrance ?), sobriété vs. bienveillance (sauver une vie coûte cher ?). Le paradoxe de la Position D aggrave le problème : si dévier est possible mais coûteux, et que le tore dispose de 2 GJ d'énergie cinétique, le « coût exponentiel » est potentiellement couvert. Voir Chapitre 27, section 27.4.",
+        "size": 22,
+        "font": "Arial"
+      }
     ]
   },
   {
